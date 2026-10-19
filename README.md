@@ -12,7 +12,7 @@ Zum Nachschlagen im Browser, mit Rechner je Ort: **[keyset.cloud/kurtaxe](https:
 
 ## Was hier liegt
 
-Dieses Repository ist ein täglicher Spiegel von <https://keyset.cloud/kurtaxe/v1/>. Eine GitHub Action holt die Daten
+Dieses Repository ist ein täglicher Spiegel von `https://keyset.cloud/kurtaxe/v1/`. Eine GitHub Action holt die Daten
 jeden Morgen und committet nur, wenn sich etwas geändert hat. Deshalb ist die Historie gleichzeitig ein Änderungsprotokoll:
 jede neue Satzung, jeder neue Satz und jeder neue Ort steht als eigener Commit drin.
 
@@ -83,7 +83,7 @@ bands, caps, exemptions, rates already adopted for a later date and the levy lan
 
 - **Formats:** JSON per municipality and for all of them, one CSV with a row per municipality and season, amounts in
   euro cents.
-- **Updates:** this repository mirrors <https://keyset.cloud/kurtaxe/v1/> every morning and commits only when
+- **Updates:** this repository mirrors `https://keyset.cloud/kurtaxe/v1/` every morning and commits only when
   something changed, so the Git history is a change log of the rates.
 - **API:** the same files are served without key or sign-up, over HTTPS with CORS open to any origin. Field reference
   (German): <https://keyset.cloud/kurtaxe/api/>.
