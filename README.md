@@ -6,7 +6,9 @@ Prüfung da. Dazu die Tourismusabgabe, die Vermieter selbst zahlen, und schon be
 
 **Frei unter [CC BY 4.0](LICENSE), auch kommerziell.** Nenne als Quelle „Keyset, keyset.cloud/kurtaxe“.
 
-Zum Nachschlagen im Browser, mit Rechner je Ort: **[keyset.cloud/kurtaxe](https://keyset.cloud/kurtaxe/?utm_source=github&utm_medium=kurtaxe-daten)**
+Zum Nachschlagen im Browser, mit Rechner je Ort: **[keyset.cloud/kurtaxe](https://keyset.cloud/kurtaxe/)**
+
+*[English below](#english)*
 
 ## Was hier liegt
 
@@ -22,7 +24,7 @@ jede neue Satzung, jeder neue Satz und jeder neue Ort steht als eigener Commit d
 | [`v1/aenderungen.json`](v1/aenderungen.json) | beschlossene neue Sätze mit Datum, Wortlaut und Quelle |
 | [`v1/kurtaxe.js`](v1/kurtaxe.js) | der Rechner als JavaScript-Modul, derselbe Code wie auf den Ortsseiten |
 
-Was jedes Feld bedeutet, steht in der [Beschreibung der Schnittstelle](https://keyset.cloud/kurtaxe/api/?utm_source=github&utm_medium=kurtaxe-daten).
+Was jedes Feld bedeutet, steht in der [Beschreibung der Schnittstelle](https://keyset.cloud/kurtaxe/api/).
 Beträge sind in Cent.
 
 ## Benutzen
@@ -50,7 +52,7 @@ const result = kurtaxe(binz.calculation, { arrival: '2027-07-10', nights: 7, adu
 // → { total: 5440, days: 8, lines: [{ label: 'Ganzjährig', perDay: 680, amount: 5440, … }], … }
 ```
 
-`total` ist in Cent. Mehr dazu unter [Selbst rechnen](https://keyset.cloud/kurtaxe/api/?utm_source=github&utm_medium=kurtaxe-daten).
+`total` ist in Cent. Mehr dazu unter [Selbst rechnen](https://keyset.cloud/kurtaxe/api/).
 
 ## Stabilität
 
@@ -69,6 +71,24 @@ keyset.cloud und kommen am nächsten Morgen hier an. Pull Requests auf `v1/` wü
 
 ## Wer das pflegt
 
-[Keyset](https://keyset.cloud/?utm_source=github&utm_medium=kurtaxe-daten) ist ein Buchungssystem für Gastgeber mit
-einigen Ferienwohnungen: eigene Buchungsseite, ein Kalender für alle Wohnungen und Kartenzahlung direkt aufs eigene
-Konto, ohne Provision. Die Kurtaxe-Daten pflegen wir, weil jeder Gastgeber sie braucht.
+Gepflegt von [Keyset](https://keyset.cloud), Haßfurt.
+
+## English
+
+Local tourist and spa taxes (Kurtaxe, Kurbeitrag, Gästebeitrag) and overnight stay taxes (Übernachtungsteuer) of more
+than 250 German municipalities, keyed by the official municipality code (AGS). Germany has no central source for these
+rates: every municipality sets them in its own statute. Each figure here carries the verbatim wording of that statute,
+the source URL, the SHA-256 checksum of the source document and the date it was checked. Also included: child age
+bands, caps, exemptions, rates already adopted for a later date and the levy landlords pay themselves.
+
+- **Formats:** JSON per municipality and for all of them, one CSV with a row per municipality and season, amounts in
+  euro cents.
+- **Updates:** this repository mirrors <https://keyset.cloud/kurtaxe/v1/> every morning and commits only when
+  something changed, so the Git history is a change log of the rates.
+- **API:** the same files are served without key or sign-up, over HTTPS with CORS open to any origin. Field reference
+  (German): <https://keyset.cloud/kurtaxe/api/>.
+- **Calculator:** `v1/kurtaxe.js` exports `kurtaxe(calculation, stay)` and returns the tax for a stay in cents.
+- **Stability:** fields are only added under `v1/`; anything breaking would appear under `v2/`, with `v1/` kept for at
+  least twelve months.
+- **License:** [CC BY 4.0](LICENSE). Attribute as „Keyset, keyset.cloud/kurtaxe“. Corrections:
+  [info@verge-one.com](mailto:info@verge-one.com) or an issue.
