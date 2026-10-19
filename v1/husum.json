@@ -15,16 +15,16 @@
       "kind": "gazette",
       "inForce": "2026-01-01",
       "sha256": "a1ba728e32f877455c7f7f7e5a50ec517aefec27c6d3f7f710642e3e6afc6bb2",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Stadt Husum, Ortsrecht",
       "url": "https://www.husum.org/Verwaltung-Politik/Verwaltung/Ortsrecht-/",
       "kind": "municipality",
-      "changedOn": "2026-10-15",
-      "sha256": "31ad5b424cd37a92859cf6864670897cff77694fb510e43a7ea3351eb9253ecb",
-      "verifiedOn": "2026-10-15"
+      "changedOn": "2026-10-19",
+      "sha256": "0952b160ef0463122c3dd320921bc5a0093f073de7c83e98cf0cd003b3e22708",
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": null,

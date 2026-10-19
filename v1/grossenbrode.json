@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "31b0178949eb46b34c3157608a03a7c0e4bc2d1bcba7aa87a3c3080cdc900344",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "ea432952183172b2d8dc51caa54489f62af5f658a55cece1473c1d297a437f5b",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvbAnlage": {
       "title": "Anlage zur Satzung der Gemeinde Großenbrode über die Erhebung einer Tourismusabgabe 2026",
@@ -42,7 +42,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "71516861e97cf37bbaf619c0a504a8fa1b68951ff634955c06291e20155bed07",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

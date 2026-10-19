@@ -15,7 +15,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "33458ebf4ee26e944a9f9586785ba8be91e5e1a4813c28e1d6951aed6d13bf7a",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -23,7 +23,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

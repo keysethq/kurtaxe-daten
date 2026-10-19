@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "bb47c14538a0ad35d097f965d3ad886de4c90c3daf07b5b9ad95d79d8ce70a58",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -121,7 +121,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "tourismusabgabe": {
@@ -131,7 +131,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "7df745e56822571453c93ec01df390415935c3b5fa805a10bd859ccd9b8f25f6",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.payer",

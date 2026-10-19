@@ -1,0 +1,276 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "todtmoos",
+  "name": "Todtmoos",
+  "short": "Todtmoos",
+  "ags": "08337108",
+  "state": "Baden-Württemberg",
+  "district": "Waldshut",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Todtmoos vom 18.12.2020 in der Fassung vom 17.12.2021",
+      "url": "https://www.todtmoos.net/eip/eip_media.php?f=Kurtaxesatzung.pdf&m=346&i=16&fl=52888569&d=2f4",
+      "kind": "municipality",
+      "inForce": "2022-01-01",
+      "sha256": "ac06e967fdb079258c984e274c5b2d60d761f3a1d9b61e0a1690e7d47af2925a",
+      "verifiedOn": "2026-10-19",
+      "changedOn": "2026-10-19"
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Todtmoos, Neufassung vom Gemeinderat beschlossen am 15.09.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.todtmoos.net/de/bekanntmachungen/?file=65&id=60",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-10-19",
+      "sha256": "37da5160ebb2fc2a401bb99d56adebf6934c60ed4a32578f242e02c2fb094555",
+      "verifiedOn": "2026-10-19"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Todtmoos über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) vom 19.01.2007 in der Fassung vom 20.03.2020",
+      "url": "https://www.todtmoos.net/eip/eip_media.php?f=Fremdenverkehrsbeitragsatzung.pdf&m=346&i=7&fl=52888569&d=9ba",
+      "kind": "municipality",
+      "inForce": "2020-03-21",
+      "changedOn": "2026-10-19",
+      "sha256": "0b961c31e3e9438e0b40735a620a96334680a49a142497f7741ff5a751d92c48",
+      "verifiedOn": "2026-10-19"
+    },
+    "fvb2027": {
+      "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Todtmoos, vom Gemeinderat beschlossen am 15.09.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.todtmoos.net/de/bekanntmachungen/?file=64&id=60",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-10-19",
+      "sha256": "8dd6fdfbb03bc527f38e4dbd36794c9c7b358a40a635a110b95819530e89edc4",
+      "verifiedOn": "2026-10-19"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-19",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-19"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 230,
+          "quote": "Die Kurtaxe beträgt in allen Ortsteilen der Gemeinde Todtmoos je Person und Aufenthaltstag 2,30 EUR."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 16. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde oder in der Region arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde oder in der Region arbeiten oder in Ausbildung stehen."
+      },
+      {
+        "text": "Kranke und schwerbehinderte Menschen, die ihre Unterkunft nicht verlassen können, mit ärztlichem Zeugnis; der Nachweis ist spätestens am Abreisetag vorzulegen",
+        "quote": "Kranke und schwerbehinderte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis nachweisen, unterliegen während der Dauer dieses Zustandes nicht der Kurtaxepflicht. Der Nachweis ist spätestens am Tag der Abreise der Gemeinde vorzulegen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten und nachgewiesenen Klassenfahrten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten und nachgewiesenen Klassenfahrten."
+      },
+      {
+        "text": "Teilnehmer der Hornussen-Wallfahrt",
+        "quote": "Teilnehmer der ‚Hornussen-Wallfahrt’"
+      },
+      {
+        "text": "Besucher, die mindestens fünfzigmal als Übernachtungsgäste in Todtmoos waren",
+        "quote": "Besucher, die mindestens fünfzigmal als Übernachtungsgäste in Todtmoos waren."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden; sie sind auch von der Meldepflicht befreit",
+        "quote": "Von der Entrichtung der Kurtaxe sowie von der Meldepflicht sind befreit: Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ab 1. Januar 2027 gilt eine neue Kurtaxesatzung: 3,20 € je Person ab 16 Jahren und 1,60 € je Kind von 10 bis 15 Jahren. Der Rechner und die Sätze oben gelten für 2026.",
+        "quote": "3,20 EUR je Person ab einem Alter von 16 Jahre und 1,60 EUR je Kind ab einem Alter von 10 Jahre bis zur Vollendung des 16.Lebensjahrs.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind nur noch Kinder bis zum vollendeten 10. Lebensjahr von der Kurtaxe befreit.",
+        "quote": "Kinder bis zum vollendeten 10. Lebensjahr.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste über das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Befreite Gäste, auch Kinder, meldest du trotzdem an.",
+        "quote": "Von der Entrichtung der Kurtaxe, jedoch nicht von der Meldepflicht, sind befreit:"
+      },
+      {
+        "text": "Auf Antrag sind Menschen mit einem Grad der Behinderung von 100 befreit; bei einem Grad der Behinderung von mindestens 80 zahlen sie auf Antrag die Hälfte.",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von 100 wird die Kurtaxe auf Antrag zu 100 % befreit 2. Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 wird die Kurtaxe auf Antrag um 50 % ermäßigt."
+      },
+      {
+        "text": "Eine Begleitperson, deren Notwendigkeit amtlich bescheinigt ist, wird auf Antrag genauso befreit oder ermäßigt wie die Person, die sie begleitet.",
+        "quote": "Begleitpersonen von Personen, die unter § 4 (3) Nr.1 oder § 4 (3) Nr. 2 fallen, wenn die Notwendigkeit einer Begleitperson durch amtliche Bescheinigung nachgewiesen wird, werden auf Antrag von der Kurtaxe zu 100 % (§ 4 (3) Nr.1) bzw. zu 50% (§ 4 (3) Nr.2) befreit."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung müssen spätestens am Abreisetag bei der Gemeinde sein; eine Kopie des Schwerbehindertenausweises beim Meldeschein gilt als Antrag.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen. In den Fällen des Abs. 3 Nr.1 und Nr.2 wird die Beifügung einer Kopie des Schwerbehindertenausweises zum Meldeschein als ‚Antrag auf Befreiung‘ gewertet."
+      },
+      {
+        "text": "Du weist die Kurtaxe gesondert aus und fasst sie nicht mit anderen Kosten oder Gebühren in einem Betrag zusammen.",
+        "quote": "Der Kurtaxesatz darf bei der Ausweisung nicht mit anderen Kosten oder Gebühren in einem Betrag zusammengefasst werden."
+      },
+      {
+        "text": "Eine Gästekarte steht jedem Gast zu, der Kurtaxe zahlt; von den befreiten Gästen nur Menschen mit einem Grad der Behinderung von 100 und ihre bescheinigte Begleitperson.",
+        "quote": "Jede Person, die der Kurtaxepflicht unterliegt und nicht von der Entrichtung der Kurtaxe befreit ist, hat Anspruch auf eine Gästekarte. Abweichend davon haben auch Personen nach § 4 (3) Nr.1 und deren Begleitpersonen, wenn die Notwendigkeit als Begleitperson durch amtliche Bescheinigung nachgewiesen ist, Anspruch auf eine Gästekarte."
+      },
+      {
+        "text": "Für die Meldung nimmst du die Vordrucke der Gemeinde und gibst verschriebene oder unbenutzte Meldescheine zurück.",
+        "quote": "Für die Meldung sind die von der Gemeinde ausgegebenen Vordrucke zu verwenden. Verschriebene oder nicht verwendete Meldescheine sind an die Kurtaxe-Erfassung zurück zu geben."
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du ihn sofort mit Name und Adresse der Gemeinde.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person, die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angaben von Name und Adresse des Kurtaxepflichtigen zu melden."
+      },
+      {
+        "text": "Einwohner, die den Schwerpunkt ihrer Lebensbeziehungen in einer anderen Gemeinde haben, zahlen statt der Tagessätze eine pauschale Jahreskurtaxe von 51 Euro je Person.",
+        "quote": "Diese beträgt je Person 51,00 EUR."
+      },
+      {
+        "text": "Für fehlerhaft, unvollständig oder unleserlich ausgefüllte Meldescheine berechnet die Gemeinde für nötige Rechnungskorrekturen 25 Euro Verwaltungsgebühr.",
+        "quote": "Rechnungskorrekturen werden mit einer Verwaltungsgebühr i. H. v. 25,00 EUR berechnet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du innerhalb der Frist ab, die in der Rechnung der Gemeinde steht.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils nach Zustellung der Rechnung innerhalb der dort genannten Frist an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Todtmoos besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Todtmoos aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Übernachtung einer Person über 16 Jahren",
+        "quote": "je Übernachtung für Personen über 16 Jahren 0,56 EUR",
+        "perNight": {
+          "cents": 56,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Übernachtung eines Kindes vom vollendeten 10. bis zum vollendeten 16. Lebensjahr",
+        "quote": "für Kinder vom vollendeten 10. bis zum vollendeten 16. Lebensjahr 0,25 EUR",
+        "perNight": {
+          "cents": 25,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Zahl deiner Gäste meldest du innerhalb von 3 Tagen nach Ankunft und Abreise an und ab, zusammen mit der Meldung für die Kurtaxe.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden"
+    },
+    "deadline": {
+      "text": "Der Beitrag ist zum 10. des Folgemonats fällig.",
+      "quote": "Das Übernachtungsgeld wird analog zur Kurtaxe zum 10. des Folgemonats zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Wer Übernachtungen anbietet, zahlt nach der Zahl der Übernachtungen im Jahr, nicht nach dem Umsatz.",
+        "quote": "Bei jeglichen Übernachtungsumsätzen, bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Den Fremdenverkehrsbeitrag darfst du dem Gast nicht ausweisen, anders als die Kurtaxe.",
+        "quote": "Der nach dieser Satzung erhobene Fremdenverkehrsbeitrag darf durch den Beitragsschuldner nicht ausgewiesen werden."
+      },
+      {
+        "text": "Die Gemeinde setzt den Beitrag zum Ende jedes Monats zusammen mit der Kurtaxeabrechnung fest.",
+        "quote": "Die Beitragsschuld gemäß § 6 Abs. 2 wird abweichend von Absatz 1 Satz 1 zum Ende eines Kalendermonats zusammen mit der Kurtaxeabrechnung festgesetzt."
+      },
+      {
+        "text": "Ab 1. Januar 2027 beträgt der Beitrag 0,70 € je Übernachtung für Personen ab 16 Jahren und 0,35 € für Kinder von 10 bis 15 Jahren.",
+        "quote": "je Übernachtung für Personen ab einem Alter von 16 Jahren 0,70 EUR und für Kinder ab einem Alter von 10 Jahren bis zur Vollendung des 16. Lebensjahrs 0,35 EUR.",
+        "source": "fvb2027"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-19",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/todtmoos/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 230,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

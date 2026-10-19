@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "c0974dd8b54c4fb6359edc827b3e5d27ce9a19b47edb2576d7e44d4336c0c4b8",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "aenderung4": {
@@ -24,7 +24,7 @@
       "kind": "gazette",
       "inForce": "2024-01-01",
       "sha256": "a7926697eda159ef6dcae5eb4ff303ffa3529f60e4d65d8adcbf34d816782b89",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -34,7 +34,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "65b6abf611576c10badbfb5c9128a2e1aa28f3d25cd2e36ce8142ceebc0d848d",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvbAnlage": {
       "title": "Anlage zur Tourismusbeitragssatzung der Stadt Borkum (incl. 5. Änderungssatzung), Lesefassung der Stadt Borkum",
@@ -43,14 +43,14 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "775b1c634b40e881bfd657ec72cb642c07a8faa4015253545956a3e5cd14bc24",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     }
   },

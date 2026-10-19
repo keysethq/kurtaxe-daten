@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-12-01",
       "sha256": "9dc64afba51de3503acb40749db51c46661bf2f71d11fdb51f36ae1fb8119870",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -122,7 +122,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -132,7 +132,7 @@
       "inForce": "1980-01-01",
       "changedOn": "2026-10-15",
       "sha256": "e07a290d8808d7b75fbe19dc5f046a1833f0d63d937a82bcd7b94bba573e3b72",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -184,7 +184,7 @@
       "inForce": "1992-01-01",
       "changedOn": "2026-10-15",
       "sha256": "7fbe6dae6b543180ca254e000dd11d9438335b749fbb556275ef8908bb748ad1",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.rate",
@@ -200,7 +200,7 @@
       "inForce": "2002-01-01",
       "changedOn": "2026-10-15",
       "sha256": "9786af1c7f1e8fe2079edca8ad81cc74fcf4d47e74cad31b4d6acc37c263572a",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.remarks[4]",
@@ -216,7 +216,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-10-15",
       "sha256": "b2bbb5ef6c544e046cf66b9662f2ff5026d7f36a9884ec426093770d29ba9d1c",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.remarks[0]",
@@ -243,7 +243,7 @@
       "inForce": "1985-01-01",
       "changedOn": "2026-10-15",
       "sha256": "868697f59671285bfaa3e1005ed80b268293c9d8f9ca433ba5fabe4b11a99e28",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.remarks[3]",

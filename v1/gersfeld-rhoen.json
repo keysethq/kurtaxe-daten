@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "17da01511580818697c5709cbf18b33363fbd3e6e01a482e581996e5d17aa6a2",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "nachtrag1": {
@@ -23,7 +23,7 @@
       "url": "https://www.gersfeld.de/files/gersfeld/downloads/rathaus/verwaltung-satzungen/Kurbeitragssatzung%20I.%20Nachtrag.pdf",
       "kind": "statute",
       "sha256": "da0f4a6d9fd1863943e240a51e6b4c63f2ce38dcc640206509af395de834cc8a",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -38,7 +38,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     }
   },

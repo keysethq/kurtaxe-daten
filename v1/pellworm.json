@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2018-01-01",
       "sha256": "49f73366bfa597c52ea69e29f8557672b49e49644c373039379e88d2b5a42626",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "aenderung2": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2020-01-01",
       "sha256": "46852e16762e8c7afeff3a9929f4edf2c51ff16a31380dcae11fddfd2fab6e5a",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -57,7 +57,7 @@
       "inForce": "2017-01-01",
       "changedOn": "2026-10-15",
       "sha256": "78b1998abbdb4263af5e0b95fcb1c847065bc414b5236c12d0bda8fc5861bff2",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -168,7 +168,7 @@
       "inForce": "2017-11-22",
       "changedOn": "2026-10-15",
       "sha256": "55db33574ce80e2821b26ab52dac80ee30a3d498017f7a399ce1dcba22daf52a",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "taAnlage": {
       "title": "Anlage zu § 4 Abs. 2 und 3 der Satzung der Gemeinde Pellworm über die Erhebung einer Tourismusabgabe vom 20. November 2017",
@@ -177,14 +177,14 @@
       "inForce": "2017-11-22",
       "changedOn": "2026-10-15",
       "sha256": "5055e19be1dd5874ded24e79463707c1a8ea369ef21498e0653cb3c90e229801",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     }
   },

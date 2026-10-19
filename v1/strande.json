@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "7ca9a353f0257cad556e953b7c5b2a17505f784d8558bf613a2f304d051bcf9d",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "aenderung": {
@@ -23,7 +23,7 @@
       "url": "https://www.amt-daenischenhagen.de/amt_daenischenhagen/Verwaltung/Aktuelles%20und%20Bekanntmachungen/1.%20%C3%84nderung%20der%20Kurabgabensatzung%20der%20Gemeinde%20Strande/",
       "kind": "statute",
       "sha256": "cebbde1ada303f59f83373f9674f22db4b93c2dbae0f91ac3e9afd3fc3b72a87",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "ostseecard": {
       "title": "Ostseecard-Broschüre Ostseebad Strande 2025/2026, Gemeinde Strande",
@@ -41,7 +41,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "66c60f3cb7053ba822726f5a67e3c7ceb3187dbfa7ef5c66432a1376d4c45211",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-12-01",
       "sha256": "5e6e2ba76cda592c4ae97fea06693fc81affa2c54aa6aec8ce354d7398bbf0a4",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2010-12-01",
       "sha256": "8718d92b0a570c0432a813cd14b6e609caf23273123c2c6b9bea768556c73bc0",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     }
   },

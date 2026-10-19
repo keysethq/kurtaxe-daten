@@ -15,7 +15,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "20bf79365399c581ae0d16268f7558e2c7f0f7ee44de163f2cab65b6a02aa99c",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "counting",
@@ -130,7 +130,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Dranske – staatlich anerkannter Erholungsort (nichtamtliche Lesefassung der Satzung vom 28.12.2010, Ortsrecht des Amtes Nord-Rügen)",
@@ -138,7 +138,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "4297789fda72bebac725661c26cab5ab673ecc6a66f682678c9e27f06b780a86",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

@@ -15,7 +15,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-18",
       "sha256": "b45cc04ac8803a7f3194b2414cfcf0f0b30a2122460ee80079ac6e98af4867b5",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "satzung": {
       "title": "Satzung über die Erhebung eines Gästebeitrags in der Verbandsgemeinde Traben-Trarbach vom 16.02.2024, durchgeschriebene Fassung inkl. 1. Satzungsänderung",
@@ -23,7 +23,7 @@
       "kind": "municipality",
       "inForce": "2024-03-01",
       "sha256": "10ea24bba488c4314063e2253892a2cc846cd53f02a247bc1959f5ed2bbfa984",
-      "verifiedOn": "2026-10-18",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "stadt": {
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "inForce": "2024-03-01",
       "sha256": "f92c15144b21e68a95f3cd40a9bd948074f7dbe88f5b0efaa5065fe2dbe3f965",
-      "verifiedOn": "2026-10-18",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "auskunft": {
@@ -42,7 +42,7 @@
       "text": "bis einschließlich 31.03.2027 gelten die folgenden Sätze für den Gästebeitrag: St. Traben-Trarbach Beitrag Verbandsgemeinde 1,50 € Beitrag Ortsgemeinde/Stadt 0,50 € Gesamtbeitrag 2,00 €",
       "changedOn": "2026-10-18",
       "sha256": "cd4a31b39926358d9190b4edfeaf8c078702fc53e5f988d05e502f3376c155ca",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "tarife2027": {
       "title": "Verbandsgemeinde Traben-Trarbach, Neue Tarife Gästebeitrag ab 01.04.2027, Saison 1 und Saison 2, Gesamtbeitrag je Gemeinde",
@@ -51,14 +51,14 @@
       "inForce": "2027-04-01",
       "changedOn": "2026-10-18",
       "sha256": "65335b98aaf78b191b8aa34a55a5bf7034d0710526bcc4606fb08d1b413da98c",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-18",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     }
   },

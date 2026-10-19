@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2019-01-01",
       "sha256": "c9db486788ca57aca8d6a7eba677501a4d8570a465328b6cf54096bf61c78a81",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "11894d1ccb4b79f4b0fce42508b1d87639366805296616307572745c2a16ea27",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": null,

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "cdd6718d6ee24f84122faca71f2eabeb3ca6d066399e4f7f7f3bcddd67ccaf94",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Heikendorf (Tourismusabgabesatzung, Neufassung) vom 10.12.2025",
@@ -33,7 +33,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "00e6b570474d1d6a3d9c9c0c64eae686ef59c34997a2969ee790b1d89b432687",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

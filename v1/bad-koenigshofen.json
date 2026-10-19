@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "04bc3913dc67db5de25adafbc5bd9e16e1cea87b2bf6585fc446ea29231cf5cc",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "9948159de1d4a4f0fefc3c2bbca36d4e440e212fdd19d9eb357872eac8a95da5",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvbAnlage": {
       "title": "Anlage zu § 3 der Fremdenverkehrsbeitragssatzung der Stadt Bad Königshofen i. Grabfeld (Vorteilssätze zum 01.01.2026)",
@@ -42,7 +42,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "697323f1ff7df2df4dded81684194fdf3dd7c509de1458ed6e022a90a3e887ca",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

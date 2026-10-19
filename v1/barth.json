@@ -16,7 +16,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "f927d0ab074c7cc598f18cedd381cc7ce45981b9f19e960d443d19ee9ebe6d68",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvb": {
       "title": "Lesefassung zur 3. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth, mit Anlage",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "8f805a9be7e568bfa172be4cb69acd3c91d91f86c0fbcf8e2cd86e065b2cb702",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvbAend": {
       "title": "4. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth vom 04.10.2023",
@@ -40,7 +40,7 @@
       "kind": "statute",
       "changedOn": "2026-10-15",
       "sha256": "1840fb11fae6e493f07c1fa8f533219efa23b84d19746cae44ff1db70c0d5fbe",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "businessLevy.letting[0].units.value",

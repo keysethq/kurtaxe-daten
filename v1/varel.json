@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "fd34ddca2e05db6f7234f53d6353b4c8a4c3776c7d3e846942160c57ad9ace3f",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "auskunft": {
@@ -33,7 +33,7 @@
       "text": "der Gästebeitrag wird je Übernachtung gerechnet.",
       "changedOn": "2026-10-15",
       "sha256": "105c49ae4711a78a9ea7dc4af9df6a93f1a5189a11281e30b55beb1388f7dbb4",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "tbs": {
       "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Varel (Tourismusbeitragssatzung) vom 13.12.2017, Lesefassung der Stadt Varel (Ortsrecht 9/04); die Lesefassung nennt weder einen Stand noch spätere Änderungen",
@@ -41,7 +41,7 @@
       "kind": "municipality",
       "inForce": "2018-01-01",
       "sha256": "2fa7246c63e66c9b37f7ccda3a04ff81f73b0b4724c2da8ce3958d1fc6fbf9f0",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     }
   },

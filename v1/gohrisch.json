@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2022-01-01",
       "sha256": "a04667c6fcc6deb6dcb182077586c6e151c404b64e4c205de622f849bff3824d",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -71,7 +71,7 @@
       "url": "https://admin-storage.munipolis.com/10358/custom_pages/3309a1d0-2e5a-4ef1-9426-19e6c84efb1b.pdf",
       "kind": "statute",
       "sha256": "9843e4299cace4a4059d5abd1efa3298984cd35bc473d1dca62ccc0d3b7612b5",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -121,7 +121,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -131,7 +131,7 @@
       "inForce": "2019-01-01",
       "changedOn": "2026-10-15",
       "sha256": "8fc147fb68b63252af9724c6ad327e932198a7c561fe59e9c6af6c90a8944eb5",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "textLayer": "broken",
       "ocr": [
         {

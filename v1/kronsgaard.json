@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2022-01-01",
       "sha256": "30cb431184d5916f148e1f1193b3f0f21d6022d566cc5893344bfc821f336a1c",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "1b8019fa07b59663559336bab24a532e1f807e0fdae265c40d5851f0ab6206eb",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": null,

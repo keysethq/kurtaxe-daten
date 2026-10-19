@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "f49a16577ce266b530d8917bf321e5e0a380ec23deffadf1b820a038b102912d",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     },
     "aenderung1": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "changedOn": "2026-10-15",
       "sha256": "9962c5a14a684cd0ee331d91f606f3f2776d023fb0137fe0f2ca1d035482d477",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Lancken-Granitz (Fremdenverkehrsabgabesatzung), Beschluss vom 11.12.2024",
@@ -40,7 +40,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "480c8594df8c3aad21d0097dc28fb6222d54d1761f504448010f940ea23ccd28",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-15"
     }
   },

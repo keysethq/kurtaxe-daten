@@ -15,7 +15,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "66aae818c4cb994adc88db3b90d6da7a0fc6e7de937604d41dde9747cb7b4b55",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "aenderung3": {
       "title": "Dritte Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Glowe vom 10. März 2015 (Beschluss vom 07.12.2022, § 4 Höhe)",
@@ -24,7 +24,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "ea868c42be0ebf19cf6c3a5cbad6f2f03bb06dd4c73ba3fe43bc499b66ef8757",
-      "verifiedOn": "2026-10-18",
+      "verifiedOn": "2026-10-19",
       "ocr": [
         {
           "where": "counting",
@@ -75,7 +75,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "188238681967a24c6e281400e3aa293cdb20c347d69095ee9ae20052ff5886d6",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "auskunft": {
       "title": "Schriftliche Auskunft der Tourist-Info Glowe",
@@ -84,7 +84,7 @@
       "text": "Ja, das mit den Befreiungen und Ermäßigungen ist noch so.",
       "changedOn": "2026-10-18",
       "sha256": "b36c17f37b8075889fa9535ddbff69e26d9d568784a388230ba0c8eb8dea3ada",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -92,7 +92,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-18"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {

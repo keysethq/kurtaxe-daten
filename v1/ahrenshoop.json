@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "de1750a19f4efab5b1a91efe1257ab28862aee99ebdc05532e78a6218fca5670",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "aenderung3": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "70005abefef83c6b3e14d3ea764f431836e548339211da6c6eeb2eb43933397a",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -44,7 +44,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-15",
+      "verifiedOn": "2026-10-19",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -54,7 +54,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "b66e09aaa939d135c86112fd0cae4162d71e126293404a2ee801a631cf7ccb3e",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     },
     "fvbAnlage": {
       "title": "Anlage 1 zur 1. Änderungssatzung der Fremdenverkehrsabgabesatzung Ahrenshoop vom 18.08.2023 (Vorteilsstufen und Betriebsarten)",
@@ -63,7 +63,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "5489f44e5e5dd281077b2e40a9b64fac84956146b3df817fc274eee13bc40055",
-      "verifiedOn": "2026-10-15"
+      "verifiedOn": "2026-10-19"
     }
   },
   "levy": {
