@@ -1,0 +1,218 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "norderney",
+  "name": "Norderney",
+  "short": "Norderney",
+  "ags": "03452020",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages für die Stadt Norderney (Gästebeitragssatzung) in der Fassung der 8. Änderung vom 03.12.2024",
+      "url": "https://www.norderney.de/asset-stream/Dateien/2025_Gaestebeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "9459da551f49fe36d3b1528f778fb34870f61e457e01c20e6c57ef752c505082",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung5": {
+      "title": "5. Satzung zur Änderung der Gästebeitragssatzung der Stadt Norderney, Amtsblatt für den Landkreis Aurich Nr. 67 vom 09.12.2022, S. 967",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2025/10/Amtsblatt_Nr._67_vom_09.12.2022.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "sha256": "e46bf7044c8d47eaa24742b3e249a867c1f3e42186c310dcf0682a93902ac917",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung9": {
+      "title": "9. Satzung zur Änderung der Gästebeitragssatzung der Stadt Norderney, Amtsblatt für den Landkreis Aurich Nr. 54 vom 12.12.2025, S. 821",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2026/01/Amtsblatt_Nr._54_vom_12.12.2025.pdf",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "a3cfed7d801e70c9bf110d3b649c4b5f92c6c990f5ad2d324a70a7e5310c9837",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise gelten als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "12-21",
+            "to": "01-05"
+          },
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 490,
+          "quote": "Erwachsene (ab 18 Jahre) 4,90 EUR 3,10 EUR",
+          "source": "aenderung5"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Von der Gästebeitragspflicht sind befreit: 1. Kinder bis einschließlich 13 Jahren,"
+          },
+          {
+            "underAge": 18,
+            "cents": 245,
+            "quote": "Erwachsene (ab 18 Jahre) 4,90 EUR 3,10 EUR Jugendliche (14 bis einschließlich 17 Jahre) 2,45 EUR 1,55 EUR",
+            "source": "aenderung5"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-06",
+            "to": "03-14"
+          },
+          {
+            "from": "11-01",
+            "to": "12-20"
+          }
+        ],
+        "adult": {
+          "cents": 310,
+          "quote": "Erwachsene (ab 18 Jahre) 4,90 EUR 3,10 EUR",
+          "source": "aenderung5"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Von der Gästebeitragspflicht sind befreit: 1. Kinder bis einschließlich 13 Jahren,"
+          },
+          {
+            "underAge": 18,
+            "cents": 155,
+            "quote": "Erwachsene (ab 18 Jahre) 4,90 EUR 3,10 EUR Jugendliche (14 bis einschließlich 17 Jahre) 2,45 EUR 1,55 EUR",
+            "source": "aenderung5"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit Merkzeichen B",
+        "quote": "Begleitpersonen von Schwerbehinderten, die gemäß Schwerbehindertenausweis völlig auf ständige Begleitung angewiesen sind (Merkzeichen „B“)."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 zahlen auf Antrag 50 %",
+        "quote": "Der Gästebeitrag wird auf Antrag auf 50 % des Beitragssatzes ermäßigt: 1. für Teilnehmer an Kongressen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen, 2. für Schwerbehinderte mit einem Grad der Behinderung von 100,"
+      },
+      {
+        "text": "Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen, auf Antrag",
+        "quote": "Auf Antrag werden Angehörige von Personen, die im Erhebungsgebiet die alleinige Wohnung oder die Hauptwohnung im Sinne des Bundesmeldegesetzes haben, von der Gästebeitragspflicht befreit, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bei einer Familie zählen höchstens vier Personen; für weitere Familienmitglieder fällt nichts an.",
+        "quote": "Bei einer Familie werden höchstens vier Personen bei der Berechnung des Gästebeitrages zugrunde gelegt."
+      },
+      {
+        "text": "Im Regelfall erhalten Gäste spätestens bei der Ankunft eine elektronisch lesbare Gästekarte und weisen die Zahlung des Gästebeitrags spätestens bei der Abreise nach.",
+        "quote": "Sind als Gästekarten elektronisch lesbare und für Kassiergeräte geeignete Karten vorgesehen, so werden diese spätestens bei der Ankunft ausgehändigt. 2Die Entrichtung des Gästebeitrages ist spätestens bei der Abreise mit der Rückgabe der elektronisch lesbaren Karte nachzuweisen."
+      },
+      {
+        "text": "Vermieter müssen die Gästebeitragssatzung für ihre Gäste aushängen.",
+        "quote": "Alle Wohnungsgeber haben eine Kopie der Gästebeitragssatzung ihren Gästen durch Aushang bekannt zu machen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Nur wenn das elektronische Kartensystem nicht verwendet werden kann, zieht der Vermieter den Gästebeitrag ein und liefert ihn an die Staatsbad Norderney GmbH ab.",
+      "quote": "Ferner hat in diesem Fall der Wohnungsgeber den Gästebeitrag einzuziehen und an die Staatsbad Norderney GmbH abzuliefern."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "In diesem Fall meldest du die Gäste binnen 24 Stunden oder am ersten Werktag bei der Staatsbad Norderney GmbH an.",
+      "quote": "Wenn das elektronisch lesbare Kartensystem, insbesondere aufgrund technischen Defekts, nicht verwendet werden kann, hat der Wohnungsgeber den gästebeitragspflichtigen Ortsfremden binnen 24 Stunden oder am ersten Werktage nach dem Eintreffen bei der Staatsbad Norderney GmbH",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/norderney/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "12-21",
+            "01-05"
+          ],
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 490,
+        "children": [
+          0,
+          245
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-06",
+            "03-14"
+          ],
+          [
+            "11-01",
+            "12-20"
+          ]
+        ],
+        "adult": 310,
+        "children": [
+          0,
+          155
+        ]
+      }
+    ]
+  }
+}

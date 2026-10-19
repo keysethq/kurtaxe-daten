@@ -1,0 +1,211 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "reit-im-winkl",
+  "name": "Gemeinde Reit im Winkl",
+  "short": "Reit im Winkl",
+  "ags": "09189139",
+  "state": "Bayern",
+  "district": "Traunstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (KBS) der Gemeinde Reit im Winkl vom 23.06.2025 (Scan)",
+      "url": "https://www.reitimwinkl.de/fileadmin/reitimwinkl/xRathaus_Dateien/Ortsrecht/Kurbeitragssatzung__01.12.2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-12-01",
+      "sha256": "3227ceaa27f9554de219c90a70cae0669037f7948f799343e1d7b10a212822fc",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "(2) Der Beitrag beträgt pro Aufenthaltstag 1. für Personen ab dem vollendeten 16. Lebensjahr gE,",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "3. Kinder bis zur Vollendung des sechsten Lebensjahres sowie Schwerbehinderte"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,50€."
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,50€."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "sowie Schwerbehinderte deren Grad der Behinderung 100 beträgt und deren notwendige Begleitperson, sind kurbeitragsfrei."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "4. Für Schwerbehinderte deren Grad der Behinderung von 80 bis einschließlich GadB 99 liegt, beträgt der Kurbeitrag pro Aufenthaltstag die Hälfte der Beträge nach Ziffer 1 oder 2."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Der Kurbeitrag beträgt pro Aufenthaltstag für alle Personen ab dem vollendeten 6. Lebensjahr, die während des Aufenthalts in Reit im Winkl in Jugendlagern oder Schullandheimen untergebracht sind, pro Aufenthaltstag 1,50 €."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "über weniger als 10 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "bis zu dem auf die Ankunft folgenden Werktag elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "(2) Der Beitrag beträgt pro Aufenthaltstag 1. für Personen ab dem vollendeten 16. Lebensjahr 3€,"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zur Vollendung des sechsten Lebensjahres sowie Schwerbehinderte"
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,50€."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre notwendige Begleitperson",
+        "quote": "sowie Schwerbehinderte deren Grad der Behinderung 100 beträgt und deren notwendige Begleitperson, sind kurbeitragsfrei."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 bis 99 zahlen die Hälfte des jeweiligen Satzes.",
+        "quote": "4. Für Schwerbehinderte deren Grad der Behinderung von 80 bis einschließlich GdB 99 liegt, beträgt der Kurbeitrag pro Aufenthaltstag die Hälfte der Beträge nach Ziffer 1 oder 2."
+      },
+      {
+        "text": "Wer in Jugendlagern oder Schullandheimen untergebracht ist, zahlt ab 6 Jahren 1,50 € je Aufenthaltstag.",
+        "quote": "Der Kurbeitrag beträgt pro Aufenthaltstag für alle Personen ab dem vollendeten 6. Lebensjahr, die während des Aufenthalts in Reit im Winkl in Jugendlagern oder Schullandheimen untergebracht sind, pro Aufenthaltstag 1,50 €."
+      },
+      {
+        "text": "Betriebe mit weniger als 10 Betten dürfen die Gäste auch schriftlich melden.",
+        "quote": "über weniger als 10 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes oder bei späterer Meldung mit ihr; die Gemeinde kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Übernachtungsgäste meldest du bis zum Werktag nach der Ankunft elektronisch über das Verfahren der Gemeinde.",
+      "quote": "bis zu dem auf die Ankunft folgenden Werktag elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/reit-im-winkl/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

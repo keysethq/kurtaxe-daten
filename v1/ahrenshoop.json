@@ -1,0 +1,264 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ahrenshoop",
+  "name": "Ostseebad Ahrenshoop",
+  "short": "Ahrenshoop",
+  "ags": "13073002",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Ahrenshoop (Kurabgabensatzung) in der Fassung der 2. Änderung, Lesefassung des Amtes Darß/Fischland",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/ahrenshoop/kurabgabesatzung/2-aenderungssatzung/kurabgabesatzung-2.-aenderung-lesefassung.pdf?cid=2y7",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "de1750a19f4efab5b1a91efe1257ab28862aee99ebdc05532e78a6218fca5670",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "3. Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Ahrenshoop (Kurabgabesatzung), Beschluss vom 17. Dezember 2024 (Scan)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/ahrenshoop/kurabgabesatzung/3-aenderungssatzung/3.-aenderung-kurabgabesatzung-ausfertigung.pdf?cid=6ud",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "70005abefef83c6b3e14d3ea764f431836e548339211da6c6eeb2eb43933397a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "hostDuty",
+          "page": 1,
+          "reading": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+        },
+        {
+          "where": "deadline",
+          "page": 1,
+          "reading": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung zur Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseebad Ahrenshoop, Lesefassung der 1. Änderungssatzung vom 18.08.2023",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/ahrenshoop/fremdenverkehrsabgabesatzung/1-aenderungssatzung/fremdenverkehrsabgabesatzung-lesefassung.pdf?cid=30y",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "b66e09aaa939d135c86112fd0cae4162d71e126293404a2ee801a631cf7ccb3e",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAnlage": {
+      "title": "Anlage 1 zur 1. Änderungssatzung der Fremdenverkehrsabgabesatzung Ahrenshoop vom 18.08.2023 (Vorteilsstufen und Betriebsarten)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/ahrenshoop/fremdenverkehrsabgabesatzung/1-aenderungssatzung/fremdenverkehrsabgabesatzung-1.-aenderungssatzung-anlage-1.pdf?cid=311",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "5489f44e5e5dd281077b2e40a9b64fac84956146b3df817fc274eee13bc40055",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und der Abreisetag werden als jeweils ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Reisezeit A",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 290,
+          "quote": "Reisezeit A vom 01.04. bis 31.10. des Jahres 2,90 Euro, ermäßigt 1,45 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Reisezeit B",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "Reisezeit B vom 01.11. bis 31.03. des Jahres 2,20 Euro, ermäßigt 1,10 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Begleitpersonen von Menschen mit Behinderung, wenn das Merkzeichen B im Ausweis steht; der Nachweis liegt dem Meldeschein bei",
+        "quote": "Schwerstbehinderte (100%) und Begleitpersonen von Behinderten, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss. Der Nachweis ist dem Meldeschein beizufügen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Satz gilt für Ahrenshoop, Althagen und Niehagen.",
+        "quote": "Die Gemeinde Ostseebad Ahrenshoop mit ihren Ortsteilen Ahrenshoop, Althagen und Niehagen ist als Seebad anerkannt."
+      },
+      {
+        "text": "Der Satz enthält die gesetzliche Mehrwertsteuer.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Auf Antrag zahlen Schüler, Studenten im Direktstudium, Auszubildende, Bundesfreiwilligendienstleistende und schwerbehinderte Personen die Hälfte (1,45 € in Reisezeit A, 1,10 € in Reisezeit B).",
+        "quote": "Schüler, Studenten im Direktstudium, Auszubildende, Bundesfreiwilligendienstleistende und schwerbehinderte Personen sowie Personen, die sich über einen Träger der Sozialhilfe oder Verbände der freien Wohlfahrtspflege einem Heilverfahren unterziehen eine Ermäßigung gemäß § 6 Abs. 2 Pkt. 1 und nach § 6 Abs. 2 Pkt. 2."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurkarte für 81,20 € kaufen; Eigentümer von Zweitwohnungen müssen sie zahlen.",
+        "quote": "Die Kurabgabe für eine Jahreskurkarte wird pro Person in Höhe von 81,20 Euro erhoben."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie am Tag der Ankunft und zieht die Kurabgabe für den gesamten geplanten Aufenthalt ein.",
+      "quote": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen",
+      "source": "aenderung3"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. eines jeden Monats für den Vormonat.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen",
+      "source": "aenderung3"
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird über das elektronische Melde- und Kurabgabenabrechnungssystem der Kurverwaltung; auf Antrag befreit die Kurverwaltung bei unbilliger Härte.",
+      "quote": "Melde- und Kurabgabenabrechnungssystem zu nutzen. Auf Antrag kann die Kurverwaltung zur Vermeidung unbilliger Härten einzelne Wohnungsgeber von dieser Nutzungspflicht befreien."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Ahrenshoop unmittelbare oder mittelbare wirtschaftliche Vorteile bietet.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie ganz oder teilweise rechtsfähige Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde Ostseebad Ahrenshoop unmittelbare oder mittelbare wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Hotels, Gasthöfe, Pensionen und Vermietung von Ferienwohnungen und vergleichbaren Unterkünften (Vorteilsstufe 4)",
+        "quote": "Bett 1,00",
+        "units": {
+          "count": 1,
+          "per": "Bett",
+          "value": {
+            "cents": 4065,
+            "quote": "Der Abgabesatz beträgt 40,65 € je Vorteilseinheit."
+          }
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Änderungen, etwa bei der Zahl deiner Fremdenbetten, zeigst du der Kurverwaltung bis zum 15. Juli jedes Jahres an.",
+      "quote": "Änderungen sind unaufgefordert bis zum 15. Juli jedes Jahres bei der Kurverwaltung anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb von einem Monat nach Bekanntgabe des Abgabebescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Vermietung von Ferienwohnungen steht in Vorteilsstufe 4.",
+        "quote": "Hotels, Gasthöfe und Pensionen und Gasthöfe, sowie Vermietung von Ferienwohnungen und vergleichbaren Unterkünften 4",
+        "source": "fvbAnlage"
+      },
+      {
+        "text": "Vorteilsstufe 4 zählt mit dem Faktor 100 Prozent (1,00).",
+        "quote": "Vorteilsstufe 4 mit dem Faktor: 100% (1,00)"
+      },
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "bei Beherbergungsbetrieben, Kurkliniken, Ferienwohnungen und -häusern sowie Zimmervermietern nach der Zahl der vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Maßgeblich sind die Verhältnisse am 1. Juli jedes Jahres.",
+        "quote": "Die Merkmale für die Einstufung werden nach den Verhältnissen am 01. Juli eines jeden Jahres ermittelt."
+      },
+      {
+        "text": "Den Bescheid erlässt das Amt Darß/Fischland für die Gemeinde.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch das Amt Darß / Fischland für die Gemeinde."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/ahrenshoop/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Reisezeit A",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 290,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Reisezeit B",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

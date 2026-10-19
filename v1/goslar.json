@@ -1,0 +1,240 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "goslar",
+  "name": "Stadt Goslar",
+  "short": "Goslar",
+  "ags": "03153017",
+  "state": "Niedersachsen",
+  "district": "Goslar",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrags in der Stadt Goslar (Gästebeitragssatzung) vom 21.05.2019 (Scan)",
+      "url": "https://www.goslar.de/fileadmin/media-goslar/stadt/ortsrecht-satzungen/finanzen-steuern/20190521_satzung_erhebung_gaestebeitrag_goslar.pdf",
+      "kind": "statute",
+      "inForce": "2019-07-01",
+      "sha256": "9584b195f928144fbba7bd223b19bf0a197b6f1f95f1d6133454a78b119d17c9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Der Gästebeitrag wird nach der Dauer des Aufenthaltes im Erhebungsgebiet bemessen; maßgeblich dafür ist die Anzahl der Übernachtungen."
+        },
+        {
+          "where": "area",
+          "page": 2,
+          "reading": "Das Erhebungsgebiet erstreckt sich auf das Gebiet der Stadt Goslar, mit Ausnahme des Stadtteils Hahnenklee."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": "c) Personen, die das achtzehnte Lebensjahr noch nicht vollendet haben,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 3,
+          "reading": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 3,
+          "reading": "b) Personen, die sich zum Schulbesuch oder zur Ausbildung im Erhebungsgebiet aufhalten,"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "a) Personen, die sich nur zur Berufsausübung im Erhebungsgebiet aufhalten"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 3,
+          "reading": "auf Antrag Teilnehmerinnen und Teilnehmer an berufsbezogenen Seminaren, Tagungen, Messen oder vergleichbaren Veranstaltungen, bei denen keine Möglichkeit zur Benutzung der Einrichtungen und Inanspruchnahme der Veranstaltungen im Sinne von $ 1 Abs. 1 dieser Satzung verbleibt"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 5,
+          "reading": "haften für die rechtzeitige und vollständige Einziehung und Ablieferung des Gästebeitrages"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 5,
+          "reading": "die Gästebeitragssatzung an einer für den Gast gut sichtbaren Stelle auszuhängen bzw. auszulegen;"
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "den Gästebeitrag einzuziehen und die Gästekarte auszustellen"
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "den eingezogenen Gästebeitrag nach Aufforderung der Goslar Marketing GmbH an die Stadt Goslar abzuliefern"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "das von der Goslar Marketing GmbH unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen; auf Antrag kann die Stadt Goslar zur Vermeidung unbilliger Härten einzelne Wohnungsgebende von dieser Nutzungspflicht befreien."
+        }
+      ]
+    },
+    "aenderung7": {
+      "title": "7. Satzung zur Änderung der Gästebeitragssatzung der Stadt Goslar vom 01.04.2025",
+      "url": "https://www.goslar.de/fileadmin/media-goslar/stadt/ortsrecht-satzungen/finanzen-steuern/20250408_7._satzung_zur_aenderungder_gaestebeitragssatzung_original.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "d08ffb022b5771b0c4135611436c688f264b4aef2e7d00f251175fcbfbd0d15d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung8": {
+      "title": "8. Satzung zur Änderung der Gästebeitragssatzung der Stadt Goslar vom 24.06.2025",
+      "url": "https://www.goslar.de/fileadmin/media-goslar/stadt/ortsrecht-satzungen/finanzen-steuern/20250704_8_satzung_zur_aenderungder_gaestebeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": null,
+      "sha256": "5b007e122ee52d1ab9480134288ce01f7b5e1750ed4880fababe43e6f9c24d04",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Dauer des Aufenthaltes im Erhebungsgebiet bemessen; maßgeblich dafür ist die Anzahl der Übernachtungen."
+    },
+    "area": {
+      "text": "Der Gästebeitrag gilt im Stadtgebiet ohne den Stadtteil Hahnenklee.",
+      "quote": "Das Erhebungsgebiet erstreckt sich auf das Gebiet der Stadt Goslar, mit Ausnahme des Stadtteils Hahnenklee."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "wird die Zahl 2,30 € durch die Zahl 3,30 € ersetzt.",
+          "source": "aenderung7"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "c) Personen, die das achtzehnte Lebensjahr noch nicht vollendet haben,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn der Ausweis die Mitnahme einer Begleitperson vorsieht",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100% sowie deren Begleitperson, wenn die Berechtigung zur Mitnahme einer Begleitperson durch amtlichen Ausweis nachgewiesen wird,",
+        "source": "aenderung8"
+      },
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Personen, die sich zum Schulbesuch oder zur Ausbildung im Ort aufhalten",
+        "quote": "b) Personen, die sich zum Schulbesuch oder zur Ausbildung im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausübung im Ort aufhalten",
+        "quote": "a) Personen, die sich nur zur Berufsausübung im Erhebungsgebiet aufhalten"
+      },
+      {
+        "text": "Teilnehmer an berufsbezogenen Seminaren, Tagungen und Messen auf Antrag, wenn ihnen keine Zeit für die Angebote der Stadt bleibt",
+        "quote": "auf Antrag Teilnehmerinnen und Teilnehmer an berufsbezogenen Seminaren, Tagungen, Messen oder vergleichbaren Veranstaltungen, bei denen keine Möglichkeit zur Benutzung der Einrichtungen und Inanspruchnahme der Veranstaltungen im Sinne von § 1 Abs. 1 dieser Satzung verbleibt"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Teilnehmer an berufsbezogenen Seminaren, Tagungen und Messen, die nicht befreit sind, zahlen 1,65 € je Übernachtung.",
+        "quote": "Abs. 3 wird die Zahl 1,15 € durch die Zahl 1,65 € ersetzt.",
+        "source": "aenderung7"
+      },
+      {
+        "text": "Du haftest für die rechtzeitige und vollständige Einziehung und Ablieferung des Gästebeitrags.",
+        "quote": "haften für die rechtzeitige und vollständige Einziehung und Ablieferung des Gästebeitrages"
+      },
+      {
+        "text": "Du führst ein tagesaktuelles Gästeverzeichnis über alle Gäste, auch über befreite, und bewahrst es auf.",
+        "quote": "das Gästeverzeichnis ist ein Jahr ab Beginn des auf die Eintragung folgenden Kalenderjahres aufzubewahren",
+        "source": "aenderung7"
+      },
+      {
+        "text": "Die Gästebeitragssatzung musst du für deine Gäste gut sichtbar aushängen oder auslegen.",
+        "quote": "die Gästebeitragssatzung an einer für den Gast gut sichtbaren Stelle auszuhängen bzw. auszulegen;"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, nimmt bei der Anreise die Gästedaten im elektronischen Meldeschein auf, zieht den Gästebeitrag ein und stellt die Gästekarte aus.",
+      "quote": "den Gästebeitrag einzuziehen und die Gästekarte auszustellen"
+    },
+    "deadline": {
+      "text": "Der eingezogene Gästebeitrag wird nach Aufforderung der Goslar Marketing GmbH an die Stadt abgeliefert; eine feste Frist nennt die Satzung nicht.",
+      "quote": "den eingezogenen Gästebeitrag nach Aufforderung der Goslar Marketing GmbH an die Stadt Goslar abzuliefern"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Gästebeitragsabrechnungssystem der Goslar Marketing GmbH, das du kostenlos nutzen musst; nur bei unbilliger Härte kann die Stadt dich davon befreien.",
+      "quote": "das von der Goslar Marketing GmbH unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen; auf Antrag kann die Stadt Goslar zur Vermeidung unbilliger Härten einzelne Wohnungsgebende von dieser Nutzungspflicht befreien."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/goslar/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

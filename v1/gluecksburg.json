@@ -1,0 +1,291 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "gluecksburg",
+  "name": "Glücksburg (Ostsee)",
+  "short": "Glücksburg",
+  "ags": "01059113",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Glücksburg (Ostsee) über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 25.11.2025",
+      "url": "https://stadt.gluecksburg.de/fileadmin/user_upload/Ortsrecht_ab_01.01.2020/2.9.4__Kurabgabesatzung_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "d0317d80e43bc64d5affd7b96dadba1be354ae2aa940086fa86608e72de272bc",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Bekanntmachung: Satzung der Stadt Glücksburg (Ostsee) über die Erhebung einer Tourismusabgabe vom 25.11.2025 (Tourismusabgabesatzung)",
+      "url": "https://stadt.gluecksburg.de/fileadmin/user_upload/Ortsrecht_ab_01.01.2020/2.9.3._Bekanntmachung_Tourismusabgabesatzung_2026.pdf",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "5716204129ae9302b1678143448ac6509e14db17a9b6c0e347e851b8eebd7415",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "09-30"
+          },
+          {
+            "from": "12-22",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "in dem Zeitraum vom 01.04. – 30.09., sowie 22.12. – 31.12. (Hauptsaison) für jede kurabgabepflichtige Person 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "10-01",
+            "to": "12-21"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "in dem Zeitraum vom 01.01. – 31.03. sowie vom 01.10. – 21.12. (Vor- und Nachsaison) für jede kurabgabepflichtige Person 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre ständige Begleitperson mit Merkzeichen B zahlen nichts.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 % und mehr nachweisen, sowie für die ständige Begleitperson, wenn dies durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist;"
+      },
+      {
+        "text": "Inhaber einer OstseeCard aus anderen Gemeinden sind befreit.",
+        "quote": "OstseeCard-Inhaber aus Fremdgemeinden;"
+      },
+      {
+        "text": "Kinder, Enkel, Geschwister, Eltern, Großeltern und weitere nahe Angehörige von Einwohnern mit Hauptwohnsitz in Glücksburg, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Stadt Glücksburg ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Einrichtungen nicht in Anspruch nehmen;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bei nur einer Übernachtung entsteht keine Kurabgabe, wenn dein Gast die Kureinrichtungen nicht in Anspruch nimmt.",
+        "quote": "Bei nur einmaliger Übernachtung im Erhebungsgebiet entsteht keine Kurabgabepflicht, wenn die Kureinrichtungen nicht in Anspruch genommen werden."
+      },
+      {
+        "text": "Eigentümer, Dauernutzungsberechtigte und ihre Familienangehörigen sowie Gäste mit Antrag werden auf 28 Tage der Hauptsaison pauschaliert (Jahrespauschale).",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage der Hauptsaison pauschaliert (Jahrespauschale), wenn der kurabgabepflichtige a) einen entsprechenden Antrag stellt oder b) Eigentümer, Miteigentümer oder sonstiger Dauernutzungsberechtigter einer Wohnungseinheit (Wohn-, Sommer-, Ferien- oder Wochenendhaus, Wohnung, Appartement, Wohnwagen, Wohnmobil, Zelt o. ä. Einrichtungen) im Stadtgebiet oder dessen Familienangehöriger ist."
+      },
+      {
+        "text": "Eigentümer und Besitzer eines Bootes im Hafen zahlen als besondere Jahrespauschale 9 Tage der Hauptsaison.",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 9 Tage der Hauptsaison pauschaliert (besondere Jahrespauschale), wenn der Kurabgabepflichtige Eigentümer oder Besitzer eines Bootes in einem Hafen im Erhebungsgebiet ist."
+      },
+      {
+        "text": "Dein Gast zahlt die Kurabgabe spätestens am Tag nach der Ankunft bei dir, für die gesamte Dauer des voraussichtlichen Aufenthalts.",
+        "quote": "spätestens am Tage nach dem Eintreffen im Stadtgebiet für die gesamte Dauer des voraussichtlichen Aufenthalts im Erhebungsgebiet zu entrichten."
+      },
+      {
+        "text": "Teilnehmer an Sammelreisen und Betriebsausflügen ab 20 Personen erhalten auf vorherigen Antrag des Vermieters bei der Stadt eine Ermäßigung von 50 %.",
+        "quote": "Teilnehmer an Sammelreisen und Betriebsausflügen (ab 20 Personen) erhalten auf vorherigen Antrag durch den Vermieter bei der Stadt Glücksburg eine Ermäßigung der Kurabgabe von 50 %."
+      },
+      {
+        "text": "Ermäßigungen beantragst du schriftlich vor der Ankunft bei der Stadt; selbst gewähren darfst du sie nicht.",
+        "quote": "Anträge auf Ermäßigung der Kurabgabe sind mit Begründung schriftlich vor Ankunft im Erhebungsgebiet bei der Stadt Glücksburg zu stellen. Der Wohnungsgeber ist nicht berechtigt, Ermäßigungen zu gewähren."
+      },
+      {
+        "text": "Jeder Unterkunftsgeber haftet gesamtschuldnerisch für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Jeder Unterkunftsgeber haftet gesamtschuldnerisch im Rahmen der den ihm nach den Absätzen 2 und 3 obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die Stadt Glücksburg."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an die Stadt ab.",
+      "quote": "die Kurabgabe zu errechnen, diesen vom Gast einzuziehen und an die Stadt Glücksburg –2- wöchentlich- kostenfrei abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird alle 2 Wochen.",
+      "quote": "an die Stadt Glücksburg –2- wöchentlich- kostenfrei abzuführen."
+    },
+    "reporting": {
+      "text": "Die Meldescheine reichst du innerhalb von 3 Werktagen bei der Stadt ein.",
+      "quote": "die für die Stadt Glücksburg bestimmte Kopie innerhalb von 3 Werktagen bei der Stadt Glücksburg einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Glücksburg tourismusbezogene Leistungen gegen Entgelt anbietest, also auch, wenn du Ferienwohnungen oder Zimmer vermietest.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nicht rechtsfähige Personenvereinigungen, die tourismusbezogene entgeltliche Leistungen anbieten."
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Ferienwohnungen und Gästezimmern",
+        "quote": "e) sonst. Vermietung von Ferienwohnungen u. Gästezimmern Anzahl der Betten 18,79 22,87",
+        "flat": {
+          "cents": 2287,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Teil- oder Vollverpflegung, ab 600.000 € Umsatz",
+        "quote": "b) Hotels/Pensionen mit Teil-/Vollverpflegung ab 600.000 € Umsatz Anzahl der Betten 53,23 63,40",
+        "flat": {
+          "cents": 6340,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Teil- oder Vollverpflegung, ab 200.000 € bis unter 600.000 € Umsatz",
+        "quote": "c) Hotels/Pensionen mit Teil-/Vollverpflegung ab 200.000 € bis < 600.000 € Umsatz Anzahl der Betten 44,15 48,52",
+        "flat": {
+          "cents": 4852,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Teil- oder Vollverpflegung, unter 200.000 € Umsatz",
+        "quote": "d) Hotels/Pensionen mit Teil-/Vollverpflegung unter 200.000 € Umsatz Anzahl der Betten 34,93 36,21",
+        "flat": {
+          "cents": 3621,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Campingplätze",
+        "quote": "18 Campingplätze Anzahl genehm. Stellplätze 15,47 20,94",
+        "flat": {
+          "cents": 2094,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Beträgt deine Abgabe für das Jahr weniger als 3 Euro, wird sie nicht erhoben.",
+      "quote": "Ergibt sich im Einzelfall für das Erhebungsjahr eine Abgabenschuld von weniger als 3,00 €, so wird die Abgabe nicht erhoben, festgesetzt oder nachgefordert."
+    },
+    "reporting": {
+      "text": "Fordert die Stadt dich schriftlich dazu auf, gibst du innerhalb eines Monats auf ihrem Formblatt die Erklärung über deine betrieblichen Einnahmen ab; Beginn und Ende deiner Tätigkeit zeigst du innerhalb eines Monats an.",
+      "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, 2. soweit die Stadt Glücksburg dazu schriftlich auffordert, innerhalb eines Monats nach Aufforderung durch Ausfüllen des dafür von der Stadt Glücksburg vorgesehenen 2 Formblattes die Erklärung über die betrieblichen Einnahmen abzugeben."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Abgabenbescheids fällig.",
+      "quote": "(3) Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides für das laufende Jahr fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Höhe der Abgabe richtet sich nach der Tabelle, die zur Satzung gehört.",
+        "quote": "(1) Die Höhe der Tourismusabgabe richtet sich nach der anliegenden Tabelle, die Bestandteil der Satzung ist."
+      },
+      {
+        "text": "Die Tabelle nennt den Betrag je Einheit für 2024 und ab 2025; hier steht der Betrag ab 2025.",
+        "quote": "Abgabe je Einheit Nr. Personengruppe bzw. Betriebsart Einheit (€) 2024 ab 2025"
+      },
+      {
+        "text": "Die Zahl deiner Betten zählt nach den Verhältnissen am 15. Juli jeden Jahres.",
+        "quote": "werden nach den Verhältnissen am 15. Juli eines jeden Jahres ermittelt."
+      },
+      {
+        "text": "Beginnst du erst nach dem 30. September, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Für Betriebe oder Tätigkeiten, die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/gluecksburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "09-30"
+          ],
+          [
+            "12-22",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "10-01",
+            "12-21"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

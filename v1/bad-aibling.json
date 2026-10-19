@@ -1,0 +1,207 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-aibling",
+  "name": "Stadt Bad Aibling",
+  "short": "Bad Aibling",
+  "ags": "09187117",
+  "state": "Bayern",
+  "district": "Rosenheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Änderung der Neufassung der Satzung für die Erhebung eines Kurbeitrages in der Stadt Bad Aibling, Satzungstext mit Anlage der Sätze ab 01.01.2026",
+      "url": "https://www.rathaus-bad-aibling.de/resources/01%20Website/Unterseiten/Rathaus/Stadtverwaltung/Satzungen/Steueramt/Kurbeitragssatzung-2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "23271c9ac6a58d71df8161835eb229d4984d4903bd15e3fc84e2cc965a0c341c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages in der Stadt Bad Aibling vom 19.11.2025",
+      "url": "https://www.rathaus-bad-aibling.de/resources/01%20Website/Unterseiten/Rathaus/Stadtverwaltung/Satzungen/Steueramt/Fremdenverkehrsbeitragssatzung-2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "16717b6171fb1c4fb585d25a883c8275503fb66a8228898a9d4038ccab6411e4",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten zusammen als ein Aufenthaltstag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Ab 01.01.2026: Kurbeitrag normal (§ 4): 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "(b) Personen bis zur Vollendung ihres 14. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "oneNight": {
+      "cents": 175,
+      "text": "Wer nur eine Nacht bleibt, zahlt den ermäßigten Satz von 1,75 Euro.",
+      "quote": "Gäste maximal 1 Nacht (§ 5 Abs. 2 (c)) 1,75 EUR"
+    },
+    "exemptions": [
+      {
+        "text": "Gäste, die wegen Krankheit ihre Unterkunft nicht verlassen können, solange sie ein ärztliches Attest vorlegen",
+        "quote": "Gäste, die aus gesundheitlichen Gründen nicht in der Lage sind, ihre Unterkunft zu verlassen und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung ab 80 und Merkzeichen B",
+        "quote": "Begleitpersonen von Schwerbehinderten (mit einem Grad der Behinderung von wenigstens 80), welche laut amtlichem Ausweis auf ständige Begleitung (Merkzeichen B) angewiesen sind,"
+      },
+      {
+        "text": "Personen, die sich ausschließlich wegen ihrer Berufsausübung im Kurgebiet aufhalten; das weisen sie dir oder der Stadt nach",
+        "quote": "Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurgebiet aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung ab 80 zahlen 1,75 Euro, wenn sie den Ausweis vorlegen.",
+        "quote": "Schwerbehinderte ab GdB 80% (§ 5 Abs. 2 (a))"
+      },
+      {
+        "text": "Tagungs- und Seminargäste mit mehr als einer Übernachtung zahlen ab der ersten Nacht 1,75 Euro.",
+        "quote": "Tagungs- und Seminargäste mehr als eine Nacht ab der ersten Nacht (§ 5 Abs. 2 (b))"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Du stellst jedem Gast eine Gästekarte aus oder händigst die von der Stadt erstellte aus.",
+        "quote": "jeder kurbeitragspflichtigen Person eine Gästekarte zu erstellen oder, soweit die Stadt die Gästekarten selbst erstellt, eine Gästekarte auszuhändigen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Stadt für den Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich; in Ausnahmefällen kann die Stadt verlangen, dass es spätestens einen Tag nach der Ankunft des Gastes geschieht.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten monatlich an die Stadt abzuführen. Die Stadt kann in Ausnahmefällen verlangen, dass der Beitrag spätestens einen Tag nach der Ankunft des Kurbeitragspflichtigen an die Stadt abzuführen ist."
+    },
+    "reporting": {
+      "text": "Die Meldedaten deiner Gäste übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch an die Stadt.",
+      "quote": "der Stadt spätestens am dritten Werktag nach deren Eintreffen im Kurgebiet auf elektronischem Wege zu übermitteln"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Aibling Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt 6 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,075 und 0,750 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5 v.H. 0,075 v.H. über 5-10v.H. 0,225 v.H. über 10-15V.H. 0,375 v.H. über 15-20 v.H. 0,525 v.H. über 20 v.H. 0,750 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. August jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-aibling/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "oneNight": 175
+  }
+}

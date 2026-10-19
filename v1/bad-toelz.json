@@ -1,0 +1,212 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-toelz",
+  "name": "Stadt Bad Tölz",
+  "short": "Bad Tölz",
+  "ags": "09173112",
+  "state": "Bayern",
+  "district": "Bad Tölz-Wolfratshausen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages in der Stadt Bad Tölz (Kurbeitragssatzung) vom 03.12.2012, geändert durch Satzungen vom 27.10.2020 und 24.09.2024, Lesefassung der Stadt",
+      "url": "https://stadt.bad-toelz.de/fileadmin/Dateien/Website/Abteilungen/Referat3/SG3.2_Steueramt/Dateien/Kurbeitrags-Satzung-Einarbeitung_%C3%84nderungssatzung_2024.pdf",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "b33f41d57750ce2359b205fcf0e0f11bd1b53f471d7e2e2b5af1401e7423472c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Bad Tölz vom 18.12.2001, geändert durch Satzungen vom 28.01.2014 und 26.11.2019",
+      "url": "https://stadt.bad-toelz.de/fileadmin/Dateien/Website/Dateien/Rathaus___Service/Steueramt/Fremdenverkehrsbeitragssatzung2020.pdf",
+      "kind": "municipality",
+      "inForce": "2002-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "150213084522163f402a6139e48dbacf103b9921b9b447c64bb6818cd559be2f",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "1. für Personen ab dem vollendeten 18. Lebensjahr 3,00 EUR,"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 14. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 14. Lebensjahr bis zum vollendeten 18. Lebensjahr, 1,50 EUR,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem amtlich nachgewiesenen Grad der Behinderung ab 80",
+        "quote": "2. Schwerbehinderte ab einer amtlich nachgewiesenen Behinderung von 80 %,"
+      },
+      {
+        "text": "Begleitpersonen eines Schwerbehinderten, die ihm amtlicherseits zustehen",
+        "quote": "3. Begleitpersonen eines Schwerbehinderten, die ihm amtlicherseits zustehen."
+      },
+      {
+        "text": "Ortsfremde, die sich nur beruflich oder zur Ausbildung in Bad Tölz aufhalten, wenn sie keine Kur- und Fremdenverkehrseinrichtungen nutzen und es nachweisen",
+        "quote": "Sofern sie keine Kur- und Fremdenverkehrseinrichtungen in Anspruch nehmen, sind Ortsfremde, die sich nur zur Ausübung ihres Berufes oder zu Ausbildungszwecken in Bad Tölz aufhalten und hierüber einen Nachweis erbringen, ebenfalls von der Kurbeitragspflicht befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Den Nachweis für die berufliche Befreiung führst du beim Referat für Tourismus und Kultur.",
+        "quote": "Die Befreiung von der Kurbeitragspflicht nach § 5 Abs. 2 ist beim Referat für Tourismus und Kultur, Max-Höfler-Platz 1, 83646 Bad Tölz, nachzuweisen."
+      },
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Das Referat für Tourismus und Kultur kann in Einzelfällen befreien, wenn es das Interesse der Stadt rechtfertigt oder eine soziale Härte vorliegt.",
+        "quote": "Das Referat für Tourismus und Kultur kann in Einzelfällen von der Entrichtung eines Kurbeitrages befreien, wenn es das Interesse der Stadt rechtfertigt oder wenn eine soziale Härte vorliegt."
+      },
+      {
+        "text": "Auf schriftlichen Antrag kann das Referat bei unbilliger Härte auf die elektronische Meldung verzichten; dann meldest du schriftlich.",
+        "quote": "Auf schriftlichen Antrag kann das Referat für Tourismus und Kultur der Stadt Bad Tölz zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
+      },
+      {
+        "text": "Die Stadt kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Stadt für den vollständigen Eingang.",
+      "quote": "Die in Satz 1 genannten natürlichen und juristischen Personen sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du auf dem von der Stadt bestimmten elektronischen Weg, sofern sie sich nicht selbst gemeldet haben; eine Frist für dich nennt die Satzung nicht.",
+      "quote": "der Stadt die Beitragspflichtigen auf einem durch die Stadt bestimmten elektronischen Weg zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Tölz Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,13 und 0,75 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0-5 v. H. 0,13 v. H. über 5-10 v. H. 0,25 v. H. über 10-15v. H. 0,38 v. H. über 15-20v. H. 0,50 v. H. über 20v. H. 0,75 v. H."
+    },
+    "reporting": {
+      "text": "Die Erklärung nach Formblatt gibst du bis zum 30. September des Folgejahres ab.",
+      "quote": "Die Beitragsschuldner haben hierzu bis 30. September des auf das Veranlagungsjahr folgenden Kalenderjahres eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Die Vorauszahlung zahlst du zu dem im Vorauszahlungsbescheid genannten Termin, spätestens am 15. August jedes Jahres.",
+        "quote": "Der Beitragsschuldner hat zu dem im Vorauszahlungsbescheid genannten Termin, im übrigen spätestens am 15. August jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-toelz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

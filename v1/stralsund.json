@@ -1,0 +1,93 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "stralsund",
+  "name": "Hansestadt Stralsund",
+  "short": "Stralsund",
+  "ags": "13073088",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungssteuer in der Hansestadt Stralsund (Übernachtungssteuersatzung), Fassung vom 16.03.2023, Hansestadt Stralsund",
+      "url": "https://www.stralsund.de/export/shared/ortsrecht/Uebernachtungssteuersatzung/Uebernachtungssteuersatzung_vom_16.03.2023.pdf",
+      "kind": "municipality",
+      "inForce": "2023-09-01",
+      "sha256": "9e9d43d2265edf8e0a2093e4d2f5c176a631515d7e7c9fc8c6da5fec1bfae984",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Steuer beträgt 5 Prozent der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt für die Übernachtung ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen, gleich ob der Gast oder ein Dritter es schuldet.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtung geschuldeten Entgelt ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen. Unerheblich ist, ob das Entgelt vom Übernachtungsgast oder von einem Dritten für diesen geschuldet wird.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldner ist der Betreiber oder die Betreiberin des Beherbergungsbetriebes."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr (Veranlagungszeitraum) festgesetzt. (2) Die Steuer wird 1 Monat nach Bekanntgabe des Steuerbescheides fällig."
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 15. Tag nach Quartalsende die Erklärung der Bemessungsgrundlage auf dem amtlichen Vordruck beim Kämmereiamt ab.",
+      "quote": "dem Kämmereiamt der Hansestadt Stralsund bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres eine Erklärung der Bemessungsgrundlage nach amtlich vorgeschriebenem Vordruck"
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Auszubildenden und Studenten sind befreit, soweit sie durch Berufsausbildung oder Studium bedingt sind; der Gast macht das glaubhaft.",
+        "quote": "Von der Besteuerung sind Aufwendungen für entgeltliche Übernachtungen von Auszubildenden und Studenten ausgenommen, soweit sie durch eine Berufsausbildung oder ein Studium bedingt sind. Dies gilt nur, wenn der Übernachtungsgast seinen Bildungsstatus gegenüber dem Beherbergungsbetrieb glaubhaft machen kann."
+      },
+      {
+        "text": "Übernachtungen von Kindern und Jugendlichen bis 18 Jahre im Rahmen von Gruppenreisen sind steuerfrei, ebenso die Gruppenleiter.",
+        "quote": "Steuerfrei sind im Rahmen von Gruppenreisen Übernachtungen von Kindern und Jugendlichen bis zum Alter von 18 Jahren. Gleiches gilt für die Gruppenleiter."
+      },
+      {
+        "text": "Zusammenhängende Übernachtungen im selben Betrieb, die zusammen länger als sechs Monate dauern, unterliegen nicht der Steuer.",
+        "quote": "Sollte ein Übernachtungsgast zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, die eine Gesamtdauer von 6 Monaten übersteigen, so unterliegt der Aufwand für diese Übernachtungen nicht der Besteuerung nach dieser Satzung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Lässt sich eine Pauschalrechnung nicht aufteilen, ziehst du je 10 € für das Frühstück und je 15 € für Mittag- und Abendessen je Gast und Tag ab.",
+        "quote": "gilt als Bemessungsgrundlage der Betrag der Gesamtrechnung abzüglich einer Pauschale von je 10,00 Euro für Frühstück und je 15,00 Euro für Mittagessen und Abendessen je Übernachtungsgast und Mahlzeit pro Tag."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/stralsund/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

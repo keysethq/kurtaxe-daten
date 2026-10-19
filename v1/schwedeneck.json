@@ -1,0 +1,155 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schwedeneck",
+  "name": "Schwedeneck",
+  "short": "Schwedeneck",
+  "ags": "01058150",
+  "state": "Schleswig-Holstein",
+  "district": "Rendsburg-Eckernförde",
+  "sources": {
+    "satzung": {
+      "title": "Kurabgabensatzung der Gemeinde Schwedeneck in der Fassung der 6. Nachtragssatzung vom 23.03.2026 (Lesefassung, Amt Dänischenhagen)",
+      "url": "https://www.amt-daenischenhagen.de/amt_daenischenhagen/Amt%20und%20Gemeinden/Schwedeneck/Satzungen/20.%20Kurabgabensatzung%20Fassung%206.%20%C3%84nderung,%2029.03.2026.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "33458ebf4ee26e944a9f9586785ba8be91e5e1a4813c28e1d6951aed6d13bf7a",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag gelten zusammen als 1 Tag."
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Kurabgabe beträgt 2,50 € pro Person und Tag, höchstens jedoch 50,00 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 18. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 50 und Merkzeichen oder von 100, die laut ärztlicher Bescheinigung völlig auf ständige Hilfe oder Begleitung angewiesen sind, und ihre Begleitperson",
+        "quote": "Schwerbehinderte Menschen (GdB mind. 50 v.H. und Merkzeichen Oder GdB 100 v.H.), die laut ärztlicher Bescheinigung völlig auf ständige Hilfe/Begleitung angewiesen sind, sind von der Kurabgabe befreit. Von der Abgabepflicht befreit ist ebenfalls die Begleitperson von Schwerbehinderten."
+      },
+      {
+        "text": "Auf Antrag befreit werden beruflich in Schwedeneck Tätige mit Bescheinigung, Reisegewerbetreibende mit Reisegewerbekarte und nahe Angehörige von Einwohnern, die ohne Vergütung bei ihnen wohnen, jeweils nur, wenn sie weder den Badestrand noch die Einrichtungen und Veranstaltungen nutzen",
+        "quote": "Von der Kurabgabe gemäß § 3 Abs. 1 werden auf Antrag befreit a) Personen, die in der Gemeinde Schwedeneck beruflich tätig sind und dies durch eine Bescheinigung des Arbeitgebers oder der Ordnungsbehörde nachweisen, b) Reisende, die nach § 55 der Gewerbeordnung tätig sind und die von der zuständigen Behörde des Wohnortes ausgestellte Reisegewerbekarte bei dem Eigenbetrieb Schwedeneck Touristik vorlegen, c) Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Schwedeneck ihren Wohnsitz oder gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufgenommen sind, wenn sie weder den Badestrand noch sonstige der in § 2 Abs. 1 genannten Einrichtungen und Veranstaltungen benutzen bzw. in Anspruch nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird nur vom 1. April bis 31. Oktober erhoben.",
+        "quote": "in der Zeit vom 01. April bis 31. Oktober in der Gemeinde Schwedeneck übernachten"
+      },
+      {
+        "text": "Eigentümer, Besitzer und Nutzungsberechtigte einer Wohnungseinheit, die sie überwiegend zur Erholung nutzen, sowie Gewerbetreibende zahlen für sich und ihre Familienmitglieder 75 % der Sätze.",
+        "quote": "a) Eigentümer, Besitzer oder sonstiger Nutzungsberechtigter einer Wohnungseinheit sind, wenn und soweit sie diese überwiegend zu Erholungszwecken benutzen, b) ein Gewerbe betreiben. Die unter die Voraussetzungen der Buchstaben a) und b) fallenden Personen zahlen für sich und ihre Familienmitglieder 75 v. H. der Kurabgabensätze des § 3 Abs. 1."
+      },
+      {
+        "text": "Die Kurabgabe ist auf höchstens 50,00 € begrenzt; für welchen Zeitraum der Höchstbetrag gilt, sagt die Satzung nicht ausdrücklich.",
+        "quote": "Die Kurabgabe beträgt 2,50 € pro Person und Tag, höchstens jedoch 50,00 €."
+      },
+      {
+        "text": "Wer den Höchstbetrag zahlt, erhält eine Jahresgästekarte, die vom 1. April bis 31. Oktober gilt.",
+        "quote": "Abgabepflichtige, deren Kurabgabe nach § 3 Abs. 1 als Höchstsatz bemessen wird, erhalten eine Jahresgästekarte. Jahresgästekarten werden von der Schwedeneck Touristik ausgestellt und haben jeweils eine Gültigkeit vom 1. April bis 31. Oktober eines Jahres."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung ab 50 erhalten auf Antrag 50 % Ermäßigung.",
+        "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von mindestens 50 v.H. haben, erhalten auf Antrag eine Kurabgabenermäßigung von 50 v. H.."
+      },
+      {
+        "text": "Eine Gästekarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Tag.",
+        "quote": "Gästekarten von anderen Ferienorten in Schleswig-Holstein haben für einen Tag Gültigkeit."
+      },
+      {
+        "text": "Jeder Vermieter haftet gesamtschuldnerisch für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "haftet gesamtschuldnerisch im Rahmen der ihm/ihr nach den Absätzen 2 und 3 obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die Schwedeneck Touristik."
+      },
+      {
+        "text": "Die Gemeinde kann mit dir per öffentlich-rechtlichem Vertrag besondere Regeln für Meldung, Einzug und Abführung vereinbaren.",
+        "quote": "Die Gemeinde kann durch öffentlich-rechtlichen Vertrag mit dem/der Unterkunftsgeber/in gemäß § 7a Abs. 1d) besondere verfahrenstechnische Regelungen zur Meldung der beherbergten oder in sonstiger Weise aufgenommenen Personen sowie zur Einziehung und Abführung der Kurabgabe treffen."
+      },
+      {
+        "text": "Dein Gast zahlt die Kurabgabe im Voraus, berechnet nach der voraussichtlichen Aufenthaltsdauer.",
+        "quote": "Die Kurabgabe wird im Voraus bezahlt und nach der voraussichtlichen Aufenthaltsdauer berechnet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an Schwedeneck Touristik ab.",
+      "quote": "für die von ihm/ihr ausgehändigte Ostseecard die Kurabgabe zu errechnen, diese vom Gast einzuziehen und bis spätestens zum 3. Werktag des Folgemonats kostenfrei an die Schwedeneck Touristik abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens bis zum 3. Werktag des Folgemonats.",
+      "quote": "bis spätestens zum 3. Werktag des Folgemonats kostenfrei an die Schwedeneck Touristik abzuführen."
+    },
+    "reporting": {
+      "text": "Das elektronische Meldescheinverfahren ist für alle Vermieter Pflicht.",
+      "quote": "Das elektronische Meldescheinverfahren ist für alle Unterkunftsgeber/innen in der Gemeinde Schwedeneck verpflichtend."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schwedeneck/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

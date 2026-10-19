@@ -1,0 +1,162 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-berleburg",
+  "name": "Stadt Bad Berleburg",
+  "short": "Bad Berleburg",
+  "ags": "05970004",
+  "state": "Nordrhein-Westfalen",
+  "district": "Siegen-Wittgenstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Bad Berleburg (Kurbeitragssatzung) vom 17.07.2013",
+      "url": "https://www.bad-berleburg.de/output/download.php?fid=1746.86.1.PDF",
+      "kind": "statute",
+      "inForce": "2013-08-01",
+      "sha256": "d50ab9694c92b0c5dff102e4a7549f0986f4aaffcc95749b4bef6735073f5fec",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im Kurgebiet, das im Wesentlichen die Kernstadt Bad Berleburg umfasst; die Anlage der Satzung beschreibt seine Grenzen.",
+      "quote": "Das Kurgebiet umfasst im wesentlichen Bereiche der Kernstadt Bad Berleburg, die sowohl textlich als auch graphisch dargestellt sind."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 170,
+          "quote": "Der Kurbeitrag beträgt pro Person 1,70 € pro Aufenthaltstag."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 18.Lebensjahr (17 Jahre)."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Ortsfremde, die sich nur zur Ausübung ihres Berufs oder zu Ausbildungszwecken vor Ort aufhalten (zum Beispiel Geschäftsreisende, Tagungs- und Seminarteilnehmer, nicht aber ihre Angehörigen)",
+        "quote": "Ortsfremde Personen, die sich nur zur örtlichen Ausübung ihres Berufes oder zu Ausbildungszwecken im Erhebungsgebiet aufhalten"
+      },
+      {
+        "text": "Besucher aus den Partnerstädten bei organisierten Austauschen",
+        "quote": "Besucher aus den Partnerstädten der Stadt Bad Berleburg anlässlich organisierter Austausche."
+      },
+      {
+        "text": "Auf Antrag Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im Kurbeitrag ist die gesetzliche Mehrwertsteuer enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Blinde und Menschen mit einem Grad der Behinderung von mindestens 80 zahlen die Hälfte, ebenso ihre Begleitpersonen mit ärztlicher Bescheinigung.",
+        "quote": "Der Kurbeitrag wird um 50% ermäßigt für: a. Blinde und Schwerbehinderte mit mindestens 80 % Erwerbsminderung;"
+      },
+      {
+        "text": "Der Kurbeitrag kann mit der Stadt für ein Jahr pauschal abgelöst werden, mit 60 Euro je Person.",
+        "quote": "Jahreskurbeitrag in Höhe von 60,00 € pro Person abgelöst werden."
+      },
+      {
+        "text": "Die Kur- bzw. Gästekarte wird unmittelbar nach der Ankunft auf den Namen des Gastes ausgestellt.",
+        "quote": "Die Gästekarte wird auf den Namen des Kurbeitragspflichtigen unmittelbar nach seiner Ankunft im Erhebungsgebiet"
+      },
+      {
+        "text": "Du hängst die Kurbeitragssatzung für deine Gäste an geeigneter Stelle aus.",
+        "quote": "Die Unterkunftsgeber erhalten eine Abschrift der Kurbeitragssatzung, deren Einsichtnahme sie ihren Gästen durch Aushang an geeigneter Stelle ermöglichen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein, führt ihn an die Stadt ab und haftet für den vollständigen, zeitgerechten und richtigen Einzug.",
+      "quote": "einzuziehen und an die Stadt abzuführen. Sie haften der Stadt für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung."
+    },
+    "deadline": {
+      "text": "Beim elektronischen Meldeverfahren erfasst du die Gäste unverzüglich und führst die im Kalendermonat fällig gewordenen Beträge bis zum 10. des Folgemonats ab.",
+      "quote": "Im Falle des Einsatzes eines elektronischen Meldeverfahrens sind die Erfassungen unverzüglich vorzunehmen. Die im Laufe eines Kalendermonats fällig gewordenen Kurbeiträge sind in diesem Falle jeweils bis zum 10. des folgenden Monats an die Stadt – oder von ihr beauftragte Dritte – abzuführen."
+    },
+    "reporting": {
+      "text": "Du erfasst die Personalien deiner Gäste und gibst den Nachweis des Kurbeitrags bis zum 10. des Folgemonats bei der Stadtverwaltung ab.",
+      "quote": "Der von der Stadt Bad Berleburg zur Abrechnung der Kurbeiträge ausgegebene Nachweis des Kurbeitrages ist bis zum 10. Des nachfolgenden Monats bei der Stadtverwaltung abzugeben."
+    },
+    "family": {
+      "free": "persons",
+      "from": 4,
+      "text": "Die vierte und jede weitere Person einer Familie zahlt nichts, wenn für drei Familienmitglieder Kurbeiträge entrichtet werden.",
+      "quote": "Die 4. und jede weitere Person einer Familie, wenn für drei Familienmitglieder Kurbeiträge entrichtet werden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-berleburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 170,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 4
+    }
+  }
+}

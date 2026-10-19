@@ -1,0 +1,297 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "grossenbrode",
+  "name": "Gemeinde Großenbrode",
+  "short": "Großenbrode",
+  "ags": "01055017",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Großenbrode vom 04.12.2025",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Gro%C3%9Fenbrode_original/Kurabgabesatzung_Gro%C3%9Fenbrode_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "31b0178949eb46b34c3157608a03a7c0e4bc2d1bcba7aa87a3c3080cdc900344",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Großenbrode über die Erhebung einer Tourismusabgabe (Tourismusabgabesatzung 2026)",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Gro%C3%9Fenbrode_original/Tourismusabgabesatzung_Gro%C3%9Fenbrode_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "ea432952183172b2d8dc51caa54489f62af5f658a55cece1473c1d297a437f5b",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAnlage": {
+      "title": "Anlage zur Satzung der Gemeinde Großenbrode über die Erhebung einer Tourismusabgabe 2026",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Gro%C3%9Fenbrode_original/Tourismusabagbesatzung_Gro%C3%9Fenbrode_2026_Anlage.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "71516861e97cf37bbaf619c0a504a8fa1b68951ff634955c06291e20155bed07",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei allen Berechnungen nach dieser Satzung gelten An- und Abreisetag als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          },
+          {
+            "from": "12-20",
+            "to": "01-07"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "a) Hauptsaison vom 15. März – 31.Oktober sowie b) Hauptsaison vom 20. Dezember – 07. Januar c) Nebensaison vom 08. Januar bis 14. März sowie d) Nebensaison vom 01. November bis 19. Dezember des Jahres. Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger Person: in der Hauptsaison = 3,70 € in der Nebensaison = 2,10 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-08",
+            "to": "03-14"
+          },
+          {
+            "from": "11-01",
+            "to": "12-19"
+          }
+        ],
+        "adult": {
+          "cents": 210,
+          "quote": "a) Hauptsaison vom 15. März – 31.Oktober sowie b) Hauptsaison vom 20. Dezember – 07. Januar c) Nebensaison vom 08. Januar bis 14. März sowie d) Nebensaison vom 01. November bis 19. Dezember des Jahres. Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger Person: in der Hauptsaison = 3,70 € in der Nebensaison = 2,10 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Angehörige von Einwohnern, die ohne Vergütung bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
+        "quote": "Ehe- und Lebenspartner/in, Kinder, Kindeskinder, Geschwister, Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Großenbrode ihre Hauptwohnung haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen sind und die Kureinrichtungen nicht in Anspruch nehmen;"
+      },
+      {
+        "text": "Wer beruflich oder dienstlich vorübergehend da ist und die Einrichtungen nicht nutzt",
+        "quote": "In Ausübung ihres Dienstes oder Berufes vorübergehend Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Nutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört;"
+      },
+      {
+        "text": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen bis zu 3 Tagen ohne Nutzung der Einrichtungen, nicht aber ihre Begleitpersonen",
+        "quote": "Teilnehmer/innen an anerkannten Tagungen, Kongressen und Lehrgängen, soweit sie die Einrichtungen nicht in Anspruch nehmen und sich nicht länger als 3 Tage (2 Übernachtungen) im Erhebungsgebiet aufhalten. Der Befreiungstatbestand gilt nicht für Begleitpersonen;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre ständige Begleitperson mit Eintrag B",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 100 % nachweisen, sowie für die ständige Begleitperson, wenn dies durch den Eintrag ‚B‘ auf der Vorderseite des Behindertenausweises vermerkt ist;"
+      },
+      {
+        "text": "Gäste mit einer Gästekarte einer anderen kurabgabeerhebenden Gemeinde in Schleswig-Holstein sind bei Gegenseitigkeit an einem Tag befreit",
+        "quote": "Personen, die eine Gästekarte/Kurkarte/Ostseecard aus einer anderen kurabgabeerhebenden Gemeinde Schleswig-Holsteins vorweisen, sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tag von der Kurabgabe befreit."
+      },
+      {
+        "text": "Durchreisende, die nach 18:00 Uhr anreisen und bis 10:00 Uhr des Folgetages abreisen",
+        "quote": "Durchreisende, die nach 18:00 Uhr anreisen und bis 10:00 Uhr des Folgetages abreisen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre Begleitperson zahlen 50 % weniger; Schüler, Studenten und Auszubildende bis 26 mit Nachweis ebenfalls 50 %; mehrere Ermäßigungen sind auf 50 % begrenzt.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe in Höhe von 50 %. Dieses gilt auch für eine erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist. (3) Nach Vorlage von Ausweisen und Ausbildungsverträgen erhalten Schüler, Studenten und Auszubildende bis zur Vollendung des 26. Lebensjahres eine Ermäßigung von 50 % auf die Kurabgabe. (4) Kommen mehrere Ermäßigungen in Betracht, wird die Ermäßigung auf höchstens 50 % begrenzt."
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohngelegenheiten im Ort und ihre Familie zahlen unabhängig vom Aufenthalt die Jahreskurabgabe, das 28-fache des vollen Satzes der Hauptsaison.",
+        "quote": "zahlen, unabhängig von der Aufenthaltsdauer, den Kurabgabebetrag in Höhe der Jahreskurkarte, die das 28-fache des vollen Kurabgabenbetrages der Hauptsaison beträgt"
+      },
+      {
+        "text": "Familienangehörige und berufliche Gäste, die von der Kurabgabe befreit sind, zahlen als Erwachsene eine einmalige Benutzungsgebühr von 10,00 € pro Kalenderjahr, wenn sie die Kureinrichtungen nutzen.",
+        "quote": "zahlen, wenn sie die Kureinrichtungen in Anspruch nehmen, eine einmalige Benutzungsgebühr von 10,00 € pro Kalenderjahr."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag erstattet, gegen Rückgabe der Ostseecard mit deiner Abreisebestätigung auf der Rückseite; der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird der nach Tagen berechnete zu viel gezahlte Kurabgabenbetrag auf Antrag erstattet. Die Rückzahlung erfolgt nur an den „Ostseecard“-Inhaber gegen Rückgabe der „Ostseecard“, auf deren Rückseite der Unterkunftsgeber die Abreise der Beitragspflichtigen bescheinigt hat. Der Anspruch auf Rückzahlung erlischt mit Ablauf von einem Monat nach der Abreise."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Jeder Unterkunftsgeber haftet im Rahmen der den ihm obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      },
+      {
+        "text": "Die Meldescheine mit dem Gast-Eintrag reichst du innerhalb von 3 Werktagen bei der GTS ein.",
+        "quote": "und innerhalb von 3 Werktagen bei der GTS einzureichen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, errechnet die Kurabgabe, zieht sie vom Gast ein und führt sie an die GTS ab oder erteilt die Lastschriftermächtigung.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm ausgehändigte „Ostseecard“ die Kurabgabe zu errechnen, diese vom Gast einzuziehen und kostenfrei an die GTS abzuführen oder die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird in der Hauptsaison mindestens alle 2 Wochen, in der Nebensaison mindestens alle 4 Wochen.",
+      "quote": "(in der Hauptsaison mindestens 2- wöchentlich, in der Nebensaison mindestens 4-wöchentlich)"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 24 Stunden mit den Meldevordrucken der Ostseecard an.",
+      "quote": "innerhalb von 24 Stunden unter Verwendung der Meldevordrucke („Ostseecard“), die kostenlos ausgegeben werden, anzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Großenbrode selbstständig tätig bist und dir der Tourismus dort wirtschaftliche Vorteile bietet, also auch als Vermieter von Ferienwohnungen oder Zimmern.",
+      "quote": "Abgabepflichtig sind alle selbstständig tätigen natürlichen und juristischen Personen sowie Personenvereinigungen, denen durch den Tourismus im Erhebungsgebiet wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten, auch Hotels und Pensionen",
+        "source": "fvbAnlage",
+        "quote": "Betten, Zimmer, Wohnungen und sonstige 1 Nach Anzahl der vorhandenen Betten 17,40 € Schlafgelegenheiten, auch Hotels, Pensionen, etc",
+        "flat": {
+          "cents": 1740,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Campingplätze",
+        "source": "fvbAnlage",
+        "quote": "5 Campingplätze 28,08 € Wohnwagen und sonstiger Campingausrüstung je Stellplatz",
+        "flat": {
+          "cents": 2808,
+          "per": "Stellplatz"
+        }
+      },
+      {
+        "label": "Wohnmobilplätze",
+        "source": "fvbAnlage",
+        "quote": "6 Wohnmobilplätze Stellplätze 40,11 € je Stellplatz",
+        "flat": {
+          "cents": 4011,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 15. Juli jeden Jahres meldest du Veränderungen im Umfang deiner Vermietung, oder auf schriftliche Aufforderung des Amtes Oldenburg-Land; Beginn und Ende deiner Tätigkeit zeigst du innerhalb eines Monats an.",
+      "quote": "1. Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen; 2. bis zum 15.07. eines jeden Jahres -oder nach schriftlicher Aufforderung durch das Amt Oldenburg-Land, Fachbereich Finanzen, Abteilung Steuern/Abgaben (für die Gemeinde Großenbrode)- Veränderungen im Umfang der abgabepflichtigen Tätigkeit anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Abgabe wird innerhalb eines Monats nach Bekanntgabe des Bescheids fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Du zahlst eine Jahresabgabe, abhängig von der Zahl deiner Betten, nicht pro Gast oder Nacht.",
+        "quote": "(1) Die Abgabe wird als Jahresabgabe erhoben."
+      },
+      {
+        "text": "Bestand deine Erwerbstätigkeit nicht das ganze Jahr, zahlst du nur so viele Zwölftel, wie sie volle Kalendermonate bestanden hat; beginnst du erst nach dem 31. Oktober oder gibst du bis zum 30. April auf, entfällt die Abgabe.",
+        "quote": "(2) Die Abgabe für den Erhebungszeitraum ermäßigt sich gegebenenfalls auf so viele Zwölftel, wie die Erwerbstätigkeit volle Kalendermonate im Erhebungszeitraum bestanden hat; sie entfällt, wenn die Erwerbstätigkeit bis zum 30. April endgültig aufgegeben oder nach dem 31. Oktober aufgenommen wird."
+      },
+      {
+        "text": "Die Zahl der Betten zählt nach den Verhältnissen am 1. Juli jeden Jahres.",
+        "quote": "(5) Die Merkmale für die Einstufung werden nach den Verhältnissen am 01. Juli jeden Jahres ermittelt."
+      },
+      {
+        "text": "Fehlen Angaben oder sind sie unvollständig, schätzt das Amt Oldenburg-Land (Fachbereich Finanzen) für die Gemeinde die Berechnungsgrundlagen.",
+        "quote": "so ist das Amt Oldenburg-Land, Fachbereich Finanzen, Abteilung Steuern/Abgaben (für die Gemeinde Großenbrode) berechtigt, die Berechnungsgrundlagen nach ihrem Ermessen zu schätzen."
+      },
+      {
+        "text": "Hotels mit Restaurantbetrieb zahlen zusätzlich 5,88 € je Sitzplatz.",
+        "source": "fvbAnlage",
+        "quote": "7 Hotels mit Restaurantbetrieb Nach Anzahl der zur Verfügung stehenden Sitzplätze 5,88 € je Sitzplatz"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/grossenbrode/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ],
+          [
+            "12-20",
+            "01-07"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-08",
+            "03-14"
+          ],
+          [
+            "11-01",
+            "12-19"
+          ]
+        ],
+        "adult": 210,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

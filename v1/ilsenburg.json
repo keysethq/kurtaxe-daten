@@ -1,0 +1,182 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ilsenburg",
+  "name": "Stadt Ilsenburg (Harz)",
+  "short": "Ilsenburg",
+  "ags": "15085190",
+  "state": "Sachsen-Anhalt",
+  "district": "Harz",
+  "sources": {
+    "satzung": {
+      "title": "Lesefassung der Satzung über die Erhebung eines Gästebeitrages im Gebiet der Stadt Ilsenburg (Harz) vom 12.02.2025 mit der 1. Änderung vom 04.12.2025",
+      "url": "https://www.stadt-ilsenburg.de/media/custom/117_5134_1.PDF?1764916938",
+      "kind": "municipality",
+      "inForce": "2025-12-06",
+      "sha256": "324ab4787ca73b57c139b3cfe90ca7041574249bcfa2b4c90105706f0326f287",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung": {
+      "title": "1. Änderung der Satzung über die Erhebung eines Gästebeitrages im Gebiet der Stadt Ilsenburg (Harz) vom 04.12.2025, bekannt gemacht am 05.12.2025",
+      "url": "https://www.stadt-ilsenburg.de/media/custom/117_5133_1.PDF?1764916545",
+      "kind": "statute",
+      "inForce": "2025-12-06",
+      "sha256": "2b610233238e94162463d43b12c2cefb7ee6c19f1a3d815703602f563b920f55",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Anreise- und Abreisetag gelten für die Berechnung des Gästebeitrages zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Der Gästebeitrag beträgt pro Übernachtung 2,50 Euro einschließlich der gesetzlichen Umsatzsteuer und dem Beitrag für das HATIX-Ticket."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Teilnehmer an Schulfahrten",
+        "quote": "Teilnehmer an Schulfahrten,"
+      },
+      {
+        "text": "Schüler, Studenten und Auszubildende, die sich zu Schul- und Ausbildungszwecken im Ort aufhalten",
+        "quote": "Schüler, Studenten oder Auszubildende, die sich zu Schul- und Ausbildungszwecken im Erhebungsgebiet nach § 1 Abs. 3 aufhalten,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht",
+        "quote": "Schwerbehinderte mit 100 % Behinderung und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+      },
+      {
+        "text": "Erkrankte Personen, die ihre Unterkunft nicht verlassen können, wenn sie das mit einem ärztlichen Zeugnis nachweisen",
+        "quote": "erkrankte Personen, die ihre Unterkunft nicht verlassen können, soweit der Betroffene die Dauer der Verhinderung durch Vorzeigen eines ärztlichen Zeugnisses nachgewiesen hat,"
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausübung im Ort aufhalten",
+        "quote": "wer sich nur zur Berufsausübung in der Gemeinde aufhält oder"
+      },
+      {
+        "text": "Besucher von Einwohnern mit Hauptwohnung, die zu anderen als touristischen Zwecken kommen und unentgeltlich aufgenommen werden",
+        "quote": "wer eine im Erhebungsgebiet mit Hauptwohnung wohnende Person zu anderen als touristischen Zwecken besucht und unentgeltlich Aufnahme findet."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt im gesamten Stadtgebiet einschließlich der Ortsteile Darlingerode und Drübeck.",
+        "quote": "Erhebungsgebiet ist das gesamte Gemeindegebiet einschließlich der Ortsteile Darlingerode und Drübeck."
+      },
+      {
+        "text": "Der Satz von 2,50 € enthält die Umsatzsteuer und den Beitrag für das Harzer Urlaubs-Ticket (HATIX).",
+        "quote": "Der Gästebeitrag beträgt pro Übernachtung 2,50 Euro einschließlich der gesetzlichen Umsatzsteuer und dem Beitrag für das HATIX-Ticket."
+      },
+      {
+        "text": "Schüler, Studenten und Auszubildende ab 16 bis unter 25 Jahren sowie Menschen mit einem Grad der Behinderung unter 100 zahlen die Hälfte; treffen mehrere Gründe zusammen, gibt es nur eine Ermäßigung.",
+        "quote": "Der Gästebeitrag wird um 50 v. H. ermäßigt für: 1. Schüler, Studenten und Auszubildende vom vollendeten 16. Lebensjahr bis zur Vollendung des 25. Lebensjahres sowie 2. Schwerbehinderte, bis zum Grad der Behinderung von 100 v. H.,"
+      },
+      {
+        "text": "Wer einen Nebenwohnsitz hat oder einen Campingplatz, ein Wochenendhaus oder Ähnliches nutzt, zahlt statt der Nächte eine Jahrespauschale in Höhe des 30fachen Übernachtungssatzes.",
+        "quote": "wird der Gästebeitrag als Jahrespauschale erhoben, die das 30fache des Übernachtungssatzes einschließlich Umsatzsteuer beträgt."
+      },
+      {
+        "text": "Der Gästebeitrag wird für den ganzen Aufenthalt am ersten Aufenthaltstag fällig.",
+        "quote": "Sie wird am ersten Aufenthaltstag im Erhebungsgebiet für die gesamte Zeit des Aufenthaltes fällig."
+      },
+      {
+        "text": "Das Harzer Urlaubs-Ticket (HATIX) gibt es für die Zeit, für die der Gast den Gästebeitrag zahlt.",
+        "quote": "Der Inhaber einer Gästekarte hat während des Zeitraumes, für den er den Gästebeitrag entrichtet, Anspruch auf das Harzer Urlaubs-Tickets (HATIX)."
+      },
+      {
+        "text": "Die Satzung musst du deinen Gästen zugänglich machen, zum Beispiel durch Aushang oder Auslegung in der Unterkunft.",
+        "quote": "Diese Satzung über die Erhebung eines Gästebeitrages ist den Zahlungspflichtigen hinreichend zugänglich zu machen, z.B. durch Aushang oder Auslegung im Quartier."
+      },
+      {
+        "text": "Auf Verlangen der Stadt gibst du Auskunft über Zahl, Aufenthaltsdauer und Zahlungspflicht deiner Gäste.",
+        "quote": "Die Wohnungsgeber haben auf Verlangen der Stadt Ilsenburg (Harz) oder einem von ihrem Beauftragten jederzeit über die Anzahl der Gäste, deren Verweildauer und deren Zahlungspflicht Auskunft zu erteilen."
+      },
+      {
+        "text": "Die Satzung gilt in der Fassung der 1. Änderung, die am Tag nach ihrer Bekanntmachung in Kraft getreten ist.",
+        "quote": "Die 1. Änderung der Satzung über die Erhebung eines Gästebeitrages tritt am Tag nach ihrer öffentlichen Bekanntmachung in Kraft.",
+        "source": "aenderung"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, teilt das der Stadt mit und zieht den fälligen Gästebeitrag von den Gästen ein.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, ist verpflichtet, dies der Stadt Ilsenburg (Harz) mitzuteilen und den fälligen Gästebeitrag von den Beitragspflichtigen einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Abrechnung des Vormonats mit der Summe der eingezogenen Beiträge geht bis zum 15. Werktag eines Monats an die Stadt; auch ohne Gäste meldest du null.",
+      "quote": "Die Vermieter und vergleichbare Personen haben bis zum 15. Werktag eines Monats die mit allen Angaben versehenen Gästebeitragsvordrucke des Vormonats sowie einer unterzeichneten Erklärung mit Angabe der Summe der eingezogenen Gästebeiträge bei der Stadt Ilsenburg (Harz) abzuliefern. Sofern keine Personen in dem Vormonat beherbergt wurden, hat eine Nullmeldung zu erfolgen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird digital über das Gästebeitragsabrechnungssystem der Stadt; handschriftliche Vordrucke gibt es nur in Ausnahmefällen nach Absprache.",
+      "quote": "Die Meldung der Daten erfolgt digital über das durch die Stadt Ilsenburg (Harz) benannte Gästebeitragsabrechnungssystem. Die handschriftlich auszufüllenden Vordrucke werden nur in Ausnahmefällen und nach vorheriger Abstimmung mit Stadt Ilsenburg (Harz) für eine Übergangszeit zugelassen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ilsenburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

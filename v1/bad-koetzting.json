@@ -1,0 +1,243 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-koetzting",
+  "name": "Stadt Bad Kötzting",
+  "short": "Bad Kötzting",
+  "ags": "09372137",
+  "state": "Bayern",
+  "district": "Cham",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (KurBS) der Stadt Bad Kötzting vom 26.11.2024 (Scan)",
+      "url": "https://www.bad-koetzting.de/fileadmin/user_upload/bekanntmachungen_pdf/2025/Satzungen/Kurbeitrag_Satzung_2025-02-01.pdf",
+      "kind": "municipality",
+      "inForce": "2025-02-01",
+      "sha256": "74b6de52fabf2c25a35ba25a4bee643e40b5df23257d0843b6395e24459177d6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Angefangene Tage gelten als volle Tage. Der Tag der An- und Abreise gelten zusammen als 1 Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "für Personen ab dem vollendeten 15. Lebensjahr 2,50 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kurbeitragsfrei sind Personen bis zum vollendeten 6. Lebensjahr sowie Blinde und behinderte Personen mit einem Grad der Behinderung von 100."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr 1,50 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr 1,50 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Blinde und behinderte Personen mit einem Grad der Behinderung von 100. Die Beitragsfreiheit wird nur auf Vorlage eines Behindertenausweises gewährt."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Entsprechendes gilt für Begleitpersonen von körperbehinderten Kurgästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung oder Eintrag im Behindertenausweis nachgewiesen wird."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 1,
+          "reading": "Kurbeitragspflichtige haben der Stadt spätestens am Tage nach ihrer Ankunft mittels E-Meldeschein online die für die Feststellung der Kurbeitragspflicht erforderlichen Angaben zu machen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrags der Stadt Bad Kötzting",
+      "url": "https://www.bad-koetzting.de/fileadmin/user_upload/buergerinfo/buergerservice/satzungen/allgemein/Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2007-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2901e79818dfb2459c654cf6a9b452ff660010f8d2c1bfb27c425cb1e93d431e",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Der Tag der An- und Abreise gelten zusammen als 1 Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "für Personen ab dem vollendeten 15. Lebensjahr 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kurbeitragsfrei sind Personen bis zum vollendeten 6. Lebensjahr sowie Blinde und behinderte Personen mit einem Grad der Behinderung von 100."
+          },
+          {
+            "underAge": 15,
+            "cents": 150,
+            "quote": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Blinde Menschen und Menschen mit einem Grad der Behinderung von 100, gegen Vorlage des Behindertenausweises",
+        "quote": "Blinde und behinderte Personen mit einem Grad der Behinderung von 100. Die Beitragsfreiheit wird nur auf Vorlage eines Behindertenausweises gewährt."
+      },
+      {
+        "text": "Begleitpersonen von körperbehinderten Gästen, wenn die Begleitung ärztlich bescheinigt oder im Ausweis eingetragen ist",
+        "quote": "Entsprechendes gilt für Begleitpersonen von körperbehinderten Kurgästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung oder Eintrag im Behindertenausweis nachgewiesen wird."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Stadt dafür, dass er eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Stadt kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am Tag nach der Ankunft per E-Meldeschein online bei der Stadt.",
+      "quote": "Kurbeitragspflichtige haben der Stadt spätestens am Tage nach ihrer Ankunft mittels E-Meldeschein online die für die Feststellung der Kurbeitragspflicht erforderlichen Angaben zu machen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Kötzting Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlich und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen - oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines steuerbaren Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des steuerbaren Umsatzes. Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,062 und 0,625 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5 v.H. 0,062 v.H. über 5- 10 v.H. 0,187 v.H. über 10-15 v.H. 0,312 v.H. über 15-20 v.H. 0,437 v.H. über 20 v.H. 0,625 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. September fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. September jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-koetzting/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

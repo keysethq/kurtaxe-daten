@@ -1,0 +1,396 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "heringsdorf",
+  "name": "Ostseebad Heringsdorf",
+  "short": "Heringsdorf",
+  "ags": "13075049",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Ostseebad Heringsdorf vom 19.12.2025, bekannt gemacht am 19.12.2025 auf www.gemeinde-ostseebad-heringsdorf.de",
+      "url": "https://www.gemeinde-ostseebad-heringsdorf.de/output/download.php?fid=3557.1091.1.PDF",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "2acb4ae43479650e5d6a0e226e94bba7c3200c153bdeb6d56d8bff172ea14d40",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Zeit vom 01.01. - 31.03. (Nebensaison): 2,90 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[2].adult",
+          "page": 2,
+          "reading": "c) in der Zeit vom 01.11. - 31.12. (Nebensaison): 3,00 Euro"
+        },
+        {
+          "where": "periods[2].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der in Absatz 1 genannten Gemeinden."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Ostseebad Heringsdorf über die Erhebung einer Fremdenverkehrsabgabe vom 19.08.2020, mit Anlagen 1 bis 4",
+      "url": "https://www.gemeinde-ostseebad-heringsdorf.de/output/download.php?fid=3557.1027.1.PDF",
+      "kind": "statute",
+      "inForce": "2020-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "0a0b79293fb0ce4a5cbd60951c9eb77380d870467985fe7ffada568b05da2ff9",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Die Fremdenverkehrsabgabe wird von allen natürlichen und juristischen Personen erhoben, denen durch den Fremdenverkehr in der Gemeinde Ostseebad Heringsdorf unmittelbar oder mittelbar Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "Abgabenpflichtige haben dem Eigenbetrieb Kaiserbäder Insel Usedom bis zum 01. Juni eines jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabenschuld mitzuteilen. *Alle bis zum Ende des jeweiligen Jahres eintretenden Änderungen sind dem Eigenbetrieb Kaiserbäder Insel Usedom unverzüglich anzuzeigen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Vorteilsstufe 4: 112,32 €."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Die maßgeblichen Merkmale der Einstufung (Betten, Sitzplätze, Arbeitskräfte, Fläche, usw.) werden am 01. Juni eines jeden Jahres ermittelt."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "Diese Satzung tritt rückwirkend zum 01.01.2020 in Kraft. ?Gleichzeitig tritt die Satzung vom 25.06.2015 außer Kraft."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 4,
+          "reading": "Die nach dieser Satzung der Gemeinde Ostseebad Heringsdorf obliegenden Aufgaben werden dem kommunalen Eigenbetrieb Kaiserbäder Insel Usedom übertragen, dessen Betriebsleitung die Gemeinde insoweit vertritt."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison Januar bis März",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 290,
+          "quote": "b) in der Zeit vom 01.01. — 31.03. (Nebensaison): 2,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison November und Dezember",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "c) in der Zeit vom 01.11. — 31.12. (Nebensaison): 3,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Satz gilt im gesamten anerkannten Gebiet der Gemeinden der Tourismusregion Insel Usedom und Stadt Wolgast.",
+        "quote": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der in Absatz 1 genannten Gemeinden."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise erstatten die Gemeinden die zu viel gezahlte Kurabgabe, und zwar gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder anders bestätigt hat.",
+        "quote": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in der Gemeinde Ostseebad Heringsdorf unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Die Fremdenverkehrsabgabe wird von allen natürlichen und juristischen Personen erhoben, denen durch den Fremdenverkehr in der Gemeinde Ostseebad Heringsdorf unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Private Vermietung",
+        "quote": "Fremdbetten: a) private Vermietung 10 Betten 11,23 EUR/Bett",
+        "flat": {
+          "cents": 1123,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Private Vermietung mit Frühstück",
+        "quote": "b) private Vermietung mit Frühstück 8 Betten 14,04 EUR/Bett",
+        "flat": {
+          "cents": 1404,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Gewerbliche Vermietung",
+        "quote": "c) gewerbliche Vermietung 10 Betten 11,23 EUR/Bett",
+        "flat": {
+          "cents": 1123,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Gewerbliche Vermietung mit Frühstück",
+        "quote": "d) gewerbliche Vermietung mit Frühstück 8 Betten 14,04 EUR/Bett",
+        "flat": {
+          "cents": 1404,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotel mit Restauration",
+        "quote": "e) Hotel mit Restauration 6 Betten 18,72 EUR/Bett",
+        "flat": {
+          "cents": 1872,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Camping- und Zeltlagerplätze",
+        "quote": "Camping- und Zeltlagerplätze 20 Standplätze 5,62 EUR/Standplatz",
+        "flat": {
+          "cents": 562,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du dem Eigenbetrieb Kaiserbäder Insel Usedom bis zum 1. Juni jedes Jahres mit; Änderungen meldest du unverzüglich.",
+      "quote": "Abgaben- pflichtige haben dem Eigenbetrieb Kaiserbäder Insel Usedom bis zum 01. Juni eines jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabenschuld mitzuteilen. Alle bis zum Ende des jeweiligen Jahres eintretenden Änderungen sind dem Eigenbetrieb Kaiserbäder Insel Usedom unverzüglich anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "In Vorteilsstufe 4 beträgt die Abgabe für eine Vorteilseinheit 112,32 €.",
+        "quote": "Vorteilsstufe 4: 112,32 €."
+      },
+      {
+        "text": "Die Merkmale, etwa die Zahl deiner Betten, werden am 1. Juni jedes Jahres ermittelt.",
+        "quote": "Die maßgeblichen Merkmale der Einstufung (Betten, Sitzplätze, Arbeitskräfte, Fläche, usw.) werden am 01. Juni eines jeden Jahres ermittelt."
+      },
+      {
+        "text": "Die Satzung gilt rückwirkend ab dem 1. Januar 2020 und hat die Satzung vom 25.06.2015 abgelöst.",
+        "quote": "Diese Satzung tritt rückwirkend zum 01.01.2020 in Kraft. Gleichzeitig tritt die Satzung vom 25.06.2015 außer Kraft."
+      },
+      {
+        "text": "Die Aufgaben der Gemeinde übernimmt der Eigenbetrieb Kaiserbäder Insel Usedom.",
+        "quote": "Die nach dieser Satzung der Gemeinde Ostseebad Heringsdorf obliegenden Aufgaben werden dem kommunalen Eigenbetrieb Kaiserbäder Insel Usedom übertragen, dessen Betriebsleitung die Gemeinde insoweit vertritt."
+      },
+      {
+        "text": "Für die Vermittlung, Vermietung, Verwaltung, Betreuung und Reinigung von Ferienobjekten nennt die Anlage 112,32 € je Arbeitskraft, nicht je Bett.",
+        "quote": "Vermittlung, Vermietung, Verwaltung, Betreuung und Reinigung von Ferienobjekten 112,32 EUR/AK"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/heringsdorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison Januar bis März",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ]
+        ],
+        "adult": 290,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison November und Dezember",
+        "ranges": [
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

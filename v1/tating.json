@@ -1,0 +1,118 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "tating",
+  "name": "Tating",
+  "short": "Tating",
+  "ags": "01054134",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Tating über die Erhebung einer Beherbergungsteuer (Beherbergungsteuersatzung), ausgefertigt 28.05.2026",
+      "url": "https://www.amt-eiderstedt.de/output/download.php?file=%2Fmedia%2Fcustom%2F2706_22094_1.PDF%3F1780035098&fn=Satzung_der_Gemeinde_Tating_%C3%BCber_die_Erhebung_einer_Beherbergungssteuer",
+      "kind": "statute",
+      "inForce": null,
+      "changedOn": "2026-10-15",
+      "sha256": "c35a6222601fba95ea778bfc74d3c2b1340831d52a07e782fd4e0f680cf48967",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 3,
+      "quote": "Die Beherbergungsteuer beträgt 3,00 Prozent der Bemessungsgrundlage nach § 4 dieser Satzung."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt je Nacht und Person für die Übernachtung, berechnet auf Grundlage des Nettobetrags ohne Umsatzsteuer.",
+      "quote": "Die Beherbergungsteuer bemisst sich nach dem für die Übernachtungsleistung aufzuwendenden Entgelt je Nacht und je Person, berechnet auf Grundlage des Nettobetrages, d.h. ohne Umsatzsteuer.",
+      "vatIncluded": false
+    },
+    "maxNights": null,
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft.",
+      "quote": "Steuerschuldner ist der Betreiber der Beherbergungsstätte, der die Übernachtungsleistung entgeltlich anbietet."
+    },
+    "deadline": {
+      "text": "Die angemeldete Steuer ist am 30. Tag nach Ablauf des Kalendervierteljahres fällig und geht an das Amt Eiderstedt.",
+      "quote": "Die angemeldete Beherbergungsteuer ist am 30. Tag nach Ablauf des Kalendervierteljahres fällig, in dem die Steuer angemeldet wurde, und an das Amt Eiderstedt zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst bis zum 15. Tag nach Ablauf jedes Kalendervierteljahres die Steueranmeldung auf dem amtlichen Vordruck beim Amt Eiderstedt ein.",
+      "quote": "bis zum 15. Tag nach Ablauf eines Kalendervierteljahres eine Steueranmeldung nach amtlich vorgeschriebenem Vordruck beim Amt Eiderstedt einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Kindern und Jugendlichen bis zur Vollendung des 18. Lebensjahres sind steuerfrei; du hältst die Nachweise bereit.",
+        "quote": "Von der Beherbergungsteuer befreit sind Übernachtungen von Kindern und Jugendlichen bis zur Vollendung des 18. Lebensjahres. (2) Der Betreiber der Beherbergungsstätte hat geeignete Nachweise über das Vorliegen der Voraussetzungen der Steuerbefreiung vorzuhalten und dem Amt Eiderstedt auf Anforderung vorzulegen."
+      },
+      {
+        "text": "Krankenhäuser, Alten- und Pflegeheime, Hospize und ähnliche Einrichtungen, die überwiegend der Betreuung oder Pflege dienen, gelten nicht als Beherbergungsstätten.",
+        "quote": "Krankenhäuser, Alten- und Pflegeheime, Hospize sowie ähnliche Einrichtungen, die überwiegend der Betreuung oder Pflege dienen, gelten nicht als Beherbergungsstätten im Sinne dieser Satzung."
+      },
+      {
+        "text": "Übernachtungen, die dem Grundbedürfnis nach Wohnraum dienen, etwa bei Wohnungslosigkeit, unterliegen nicht der Steuer.",
+        "quote": "Nicht der Beherbergungsteuer unterliegen Übernachtungen, die der Befriedigung des Grundbedürfnisses nach Wohnraum dienen (z. B. bei Wohnungslosigkeit)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Zu den Beherbergungsstätten zählen ausdrücklich Ferienwohnungen, Ferienhäuser und Privatzimmer.",
+        "quote": "Beherbergungsstätten im Sinne dieser Satzung sind insbesondere Hotels, Gasthöfe, Pensionen, Privatzimmer, Ferienwohnungen, Ferienhäuser,"
+      },
+      {
+        "text": "Entgelte für Verpflegung wie Frühstück oder Halbpension zählen nicht zur Bemessungsgrundlage.",
+        "quote": "Nicht Bestandteil der Bemessungsgrundlage sind Entgelte für Nebenleistungen, die nicht unmittelbar der Übernachtung dienen (z. B. Verpflegungsleistungen wie Frühstück,"
+      },
+      {
+        "text": "Endreinigung und Bettwäsche, Hand- und Badetücher zählen zur Bemessungsgrundlage.",
+        "quote": "insbesondere Kosten für Endreinigung sowie für die Bereitstellung von Bettwäsche, Hand- und Badetüchern."
+      },
+      {
+        "text": "Teilen sich mehrere Personen eine Einheit, etwa eine Ferienwohnung, wird das Entgelt anteilig auf die übernachtenden Personen aufgeteilt.",
+        "quote": "ist das Entgelt anteilig auf die einzelnen übernachtenden Personen aufzuteilen."
+      }
+    ],
+    "startsOn": {
+      "from": "2027-01-01",
+      "text": "Die Steuer wird erst für Übernachtungen ab dem 1. Januar 2027 erhoben.",
+      "quote": "Die Beherbergungsteuer wird für Übernachtungen ab dem 1. Januar 2027 erhoben."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/tating/",
+  "calculation": {
+    "kind": "town",
+    "percent": 0,
+    "maxDays": null,
+    "maxPerStay": null,
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    },
+    "next": {
+      "percent": 3
+    }
+  }
+}

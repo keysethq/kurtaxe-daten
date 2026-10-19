@@ -1,0 +1,206 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "moenchgut",
+  "name": "Ostseebad Mönchgut",
+  "short": "Mönchgut",
+  "ags": "13073107",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Mönchgut (Kurabgabesatzung), Beschluss der Gemeindevertretung vom 07.11.2024",
+      "url": "https://www.ostseebad-moenchgut.de/wp-content/uploads/2024/11/Satzung-2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "4b99eca0e45cce04d2bcc2f6e54ebbb7e97a4da69b1c9aa15b76577a79451334",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und Abreisetag gelten jeweils als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-20",
+            "to": "01-06"
+          }
+        ],
+        "adult": {
+          "cents": 337,
+          "quote": "Hauptsaison Nebensaison Erwachsene 3,37 € 2,54 €"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Von der Kurabgabe sind Kinder bis zur Vollendung des 7. Lebensjahres befreit."
+          },
+          {
+            "underAge": 14,
+            "cents": 169,
+            "quote": "Kind vom vollendeten 7. Lebensjahr bis zur 1,69 € 1,27 € Vollendung des 14. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "12-19"
+          },
+          {
+            "from": "01-07",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 254,
+          "quote": "Hauptsaison Nebensaison Erwachsene 3,37 € 2,54 €"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Von der Kurabgabe sind Kinder bis zur Vollendung des 7. Lebensjahres befreit."
+          },
+          {
+            "underAge": 14,
+            "cents": 127,
+            "quote": "Kind vom vollendeten 7. Lebensjahr bis zur 1,69 € 1,27 € Vollendung des 14. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Assistenzhunde (Blindenführhunde, Signalhunde, Begleithunde) von Menschen mit Schwerbehindertenausweis, der die Mitnahme eines Assistenzhundes vermerkt",
+        "quote": "Halter und Besitzer von Assistenzhunden, das heißt Blindenführhunde, medizinische Signalhunde, Behindertenbegleithunde, sind für die Zahlung der Abgabe für die vorgenannten Hunde befreit, wenn im Ausweis eines schwerbehinderten Menschen, der einen Hund mitführt, die Berechtigung zur Mitnahme eines Assistenzhundes nachgewiesen ist."
+      },
+      {
+        "text": "Wer in Mönchgut arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hälfte zahlen Schwerbehinderte ab einem Grad der Behinderung von 80 und ihre notwendige Begleitperson.",
+        "quote": "Einen ermäßigten Kurabgabensatz von 50% der regulären Kurabgabe zahlen: a. Kinder vom vollendeten 7. Lebensjahr bis zur Vollendung des 14. Lebensjahres; b. Schwerbehinderte ab einem Grad der Behinderung von 80; c. die notwendige Begleitperson von Schwerbehinderten."
+      },
+      {
+        "text": "Für mitgebrachte Hunde werden ganzjährig 1,00 € pro Tag und Hund fällig.",
+        "quote": "Für mitgebrachte Hunde ist durch den Halter oder Besitzer nach § 3 Abs. 5 unabhängig von der Reisezeit ganzjährig eine Aufenthaltsabgabe in Höhe von 1,00 € pro Tag und Hund zu entrichten."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für Erwachsene für 101,11 €.",
+        "quote": "Jahreskurkarte: Erwachsene 101,11 €"
+      },
+      {
+        "text": "Die Kurabgabe wird gemeinsam mit Baabe, Göhren und Sellin erhoben.",
+        "quote": "Die Kurabgabe wird mit den Gemeinden Ostseebäder Baabe, Göhren, Mönchgut und Sellin auf Grundlage eines öffentlich-rechtlichen Vertrages als eine gemeinsame Kurabgabe erhoben"
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen darfst du als Vermieter nicht selbst gewähren.",
+        "quote": "Die Beherberger sind nicht berechtigt, Befreiungen von der Kurabgabe oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Beherberger haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und stellt unverzüglich eine Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und Ihnen unverzüglich eine Kurkarte auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird an die Gemeinde nach Rechnungslegung.",
+      "quote": "die Kurabgabe an die Gemeinde Ostseebad Mönchgut nach Rechnungslegung abzuführen;"
+    },
+    "reporting": {
+      "text": "Gäste werden unverzüglich, spätestens am Tag nach der Anreise, im elektronischen Meldesystem der Kurverwaltung angemeldet.",
+      "quote": "Gäste, die er beherbergt unverzüglich, spätestens am Tag nach der Anreise, bei dem Eigenbetrieb Kurverwaltung der Gemeinde Ostseebad Mönchgut durch das von der Gemeinde Ostseebad Mönchgut zur Verfügung gestellte elektronische Meldesystem anzumelden;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/moenchgut/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ],
+          [
+            "12-20",
+            "01-06"
+          ]
+        ],
+        "adult": 337,
+        "children": [
+          0,
+          169
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "12-19"
+          ],
+          [
+            "01-07",
+            "04-30"
+          ]
+        ],
+        "adult": 254,
+        "children": [
+          0,
+          127
+        ]
+      }
+    ]
+  }
+}

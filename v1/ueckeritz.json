@@ -1,0 +1,546 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ueckeritz",
+  "name": "Ostseebad Ückeritz",
+  "short": "Ückeritz",
+  "ags": "13075135",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Seebad Ückeritz, Beschluss vom 18.12.2025, bekannt gemacht am 22.12.2025 auf www.amtusedom-sued.de",
+      "url": "https://www.amtusedom.de/wp-content/uploads/2025/12/Ueckeritz-Kurabgabesatzung-2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "7cec7c75a3ab5f9159407087e119c2c528aa2fac85be9a31cdd80f1558237728",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,90 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. - 31.12. (Nebensaison): 3,30 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "ein Entgelt in Höhe von 0,85 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 43,56 Euro brutto"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "109,20 Euro Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. eines Pauschalbetrages für inkludierte OPNV-Leistungen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Abgabepflichtige nach $ 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach 8 4 Abs. 3."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. Hierbei ist zu beachten, dass es zu Einschränkungen der Nutzung digitaler Mobilitätsangebote kommt. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung der Gemeinde Seebad Ückeritz über die Erhebung einer Fremdenverkehrsabgabe, Beschluss vom 20.10.2005, bekannt gemacht am 20.12.2005",
+      "url": "https://www.amtusedom.de/ortsrecht/or_ueckeritz/ueckeritz-fva.pdf",
+      "kind": "statute",
+      "inForce": "2005-12-21",
+      "sha256": "f35348d0fc85be0f5c0fedcfec9648e6d0a106076348b085513ab1c2d7275b78",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind alle selbständig Tätigen natürliche und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde unmittelbar oder mittelbar Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 9,
+          "reading": "9 Betten"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 9,
+          "reading": "9 Betten"
+        },
+        {
+          "where": "businessLevy.letting[0].units.value",
+          "page": 5,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit ($ 7) beträgt 10 €"
+        },
+        {
+          "where": "businessLevy.letting[0].units.times",
+          "page": 5,
+          "reading": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 9,
+          "reading": "10 Betten"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 9,
+          "reading": "10 Betten"
+        },
+        {
+          "where": "businessLevy.letting[1].units.value",
+          "page": 5,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit ($ 7) beträgt 10 €"
+        },
+        {
+          "where": "businessLevy.letting[1].units.times",
+          "page": 5,
+          "reading": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 9,
+          "reading": "6 Betten"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 9,
+          "reading": "6 Betten"
+        },
+        {
+          "where": "businessLevy.letting[2].units.value",
+          "page": 5,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit ($ 7) beträgt 10 €"
+        },
+        {
+          "where": "businessLevy.letting[2].units.times",
+          "page": 5,
+          "reading": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 9,
+          "reading": "8 Betten"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 9,
+          "reading": "8 Betten"
+        },
+        {
+          "where": "businessLevy.letting[3].units.value",
+          "page": 5,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit ($ 7) beträgt 10 €"
+        },
+        {
+          "where": "businessLevy.letting[3].units.times",
+          "page": 5,
+          "reading": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 9,
+          "reading": "20 Stellplätze"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 9,
+          "reading": "20 Stellplätze"
+        },
+        {
+          "where": "businessLevy.letting[4].units.value",
+          "page": 5,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit ($ 7) beträgt 10 €"
+        },
+        {
+          "where": "businessLevy.letting[4].units.times",
+          "page": 5,
+          "reading": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 5,
+          "reading": "Der Mindestbeitrag beträgt eine Vorteilseinheit 10 €"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 5,
+          "reading": "Der Abgabepflichtige hat der Gemeinde bis zum 01. Juni jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 6,
+          "reading": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig und an die Gemeinde Ostseebad Uckeritz in einer Summe zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 9,
+          "reading": "Vermietung mit Frühstück Vermietung ohne Frühstück"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 9,
+          "reading": "Hotel mit Restaurant Hotel garni"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 9,
+          "reading": "Camping - und Zeltiagerplätze"
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 4,
+          "reading": "Vorteilsstufe 4: Abgabepflichtige, deren Angebote typischerweise auf den Fremdenverkehr ausgerichtet sind und daraus unmittelbare Vorteile erlangen können."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 5,
+          "reading": "Abgabepflichtige, die zwischen dem 01. Juni und dem 30. September eines Jahres einen Betrieb eröffnen oder vergrößern, werden nachveranlagt."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 5,
+          "reading": "Sie entfällt, wenn die Erwerbstätigkeit bzw. der Betrieb bis zum 01. Juni eingestellt oder nach dem 30. September aufgenommen wird."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 390,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "b) in der Zeit vom 01.01. – 31.03. sowie vom 01.11. – 31.12. (Nebensaison): 3,30 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe schließt die gesetzliche Mehrwertsteuer ein.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Im Satz ist ein Entgelt von 0,85 € für die Bahn enthalten.",
+        "quote": "ein Entgelt in Höhe von 0,85 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 43,56 Euro brutto"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurabgabe von 109,20 €; sie schließt die Nahverkehrsleistungen ein.",
+        "quote": "109,20 Euro Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. eines Pauschalbetrages für inkludierte ÖPNV-Leistungen."
+      },
+      {
+        "text": "Eigentümer oder Besitzer einer Wohnung, die sie überwiegend zur Erholung nutzen, sowie Dauercamper und Dauerlieger zahlen die Jahreskurabgabe unabhängig von ihrer Aufenthaltsdauer.",
+        "quote": "Abgabepflichtige nach § 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach § 4 Abs. 3."
+      },
+      {
+        "text": "Die Kurabgabesatzung musst du für deine Gäste sichtbar auslegen.",
+        "quote": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft; bei Papier kommt es zu Einschränkungen bei der Nutzung digitaler Mobilitätsangebote.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. Hierbei ist zu beachten, dass es zu Einschränkungen der Nutzung digitaler Mobilitätsangebote kommt. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätiger, dem der Fremdenverkehr in Ückeritz unmittelbar oder mittelbar Vorteile bringt.",
+      "quote": "Abgabepflichtig sind alle selbständig Tätigen natürliche und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Vermietung mit Frühstück (Vorteilsstufe 4)",
+        "quote": "9 Betten",
+        "units": {
+          "count": 9,
+          "per": "Bett",
+          "value": {
+            "cents": 1000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 10 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Vermietung ohne Frühstück (Vorteilsstufe 4)",
+        "quote": "10 Betten",
+        "units": {
+          "count": 10,
+          "per": "Bett",
+          "value": {
+            "cents": 1000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 10 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Hotel mit Restaurant (Vorteilsstufe 4)",
+        "quote": "6 Betten",
+        "units": {
+          "count": 6,
+          "per": "Bett",
+          "value": {
+            "cents": 1000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 10 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Hotel garni (Vorteilsstufe 4)",
+        "quote": "8 Betten",
+        "units": {
+          "count": 8,
+          "per": "Bett",
+          "value": {
+            "cents": 1000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 10 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltlagerplätze (Vorteilsstufe 4)",
+        "quote": "20 Stellplätze",
+        "units": {
+          "count": 20,
+          "per": "Stellplatz",
+          "value": {
+            "cents": 1000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 10 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Der Mindestbeitrag beträgt eine Vorteilseinheit, also 10 €.",
+      "quote": "Der Mindestbeitrag beträgt eine Vorteilseinheit 10 €",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Bis zum 1. Juni jedes Jahres teilst du der Gemeinde mit, was sie für die Berechnung braucht; gehen die Angaben nicht ein, kann sie die Berechnungsgrundlage schätzen.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde bis zum 01. Juni jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig und an die Gemeinde Ostseebad Uckeritz in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Anlage 2 ordnet „Vermietung mit Frühstück“ und „Vermietung ohne Frühstück“ der Vorteilsstufe 4 zu; eine Vorteilseinheit entspricht dort 9 beziehungsweise 10 Betten.",
+        "quote": "Vermietung mit Frühstück Vermietung ohne Frühstück"
+      },
+      {
+        "text": "Die Anlage 2 ordnet ebenso „Hotel mit Restaurant“ und „Hotel garni“ der Vorteilsstufe 4 zu; eine Vorteilseinheit entspricht dort 6 beziehungsweise 8 Betten.",
+        "quote": "Hotel mit Restaurant Hotel garni"
+      },
+      {
+        "text": "Auch Camping- und Zeltlagerplätze stehen in Vorteilsstufe 4; eine Vorteilseinheit entspricht dort 20 Stellplätzen.",
+        "quote": "Camping - und Zeltiagerplätze"
+      },
+      {
+        "text": "Vorteilsstufe 4 gilt für Abgabepflichtige, deren Angebote typischerweise auf den Fremdenverkehr ausgerichtet sind; dafür zählt der vierfache Satz.",
+        "quote": "Vorteilsstufe 4: Abgabepflichtige, deren Angebote typischerweise auf den Fremdenverkehr ausgerichtet sind und daraus unmittelbare Vorteile erlangen können."
+      },
+      {
+        "text": "Hast du mehr oder weniger Betten, als die Satzung je Vorteilseinheit ansetzt, wird anteilig gerechnet.",
+        "quote": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+      },
+      {
+        "text": "Eröffnest oder vergrößerst du zwischen dem 1. Juni und dem 30. September einen Betrieb, wirst du nachveranlagt.",
+        "quote": "Abgabepflichtige, die zwischen dem 01. Juni und dem 30. September eines Jahres einen Betrieb eröffnen oder vergrößern, werden nachveranlagt."
+      },
+      {
+        "text": "Stellst du die Vermietung bis zum 1. Juni ein oder nimmst sie erst nach dem 30. September auf, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Sie entfällt, wenn die Erwerbstätigkeit bzw. der Betrieb bis zum 01. Juni eingestellt oder nach dem 30. September aufgenommen wird."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ueckeritz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 390,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

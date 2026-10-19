@@ -1,0 +1,246 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "plau-am-see",
+  "name": "Stadt Plau am See",
+  "short": "Plau am See",
+  "ags": "13076114",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Ludwigslust-Parchim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Plau am See (Kurabgabesatzung) vom 10.01.2019 in der Fassung der Änderung, Lesefassung der Stadt",
+      "url": "https://plauamsee.de/wp-content/uploads/2025/09/Lesefassung-Kurabgabesatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2019-01-01",
+      "sha256": "f2132ab5d47ec4267b0f27730850fbe45d10b59d124e7717e54a3897455ed649",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Lesefassung der Satzung der Stadt Plau am See über die Erhebung einer Fremdenverkehrsabgabe vom 15.03.2002 nach der 2. Änderung vom 29.03.2012",
+      "url": "https://daten.verwaltungsportal.de/dateien/rechtsgrundlagen/lesefassung20der20satzung20fcber20die20erhebung20einer20fremdenverkehrsabgabe20nach20der202.20c4nderung..pdf",
+      "kind": "municipality",
+      "inForce": "2012-01-01",
+      "sha256": "8f9ec1a91e2e4df24ab4ef77c61b68a4f51889d2123159b99032ee8035639154",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten zusammen als ein Abrechnungstag, berechnet wird der Anreisetag."
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "für alle Personen unabhängig vom Alter pro Tag 1,50 Euro"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "2. Kinder und Jugendliche bis einschließlich 15 Jahren."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Ortsfremde, die sich nicht länger als einen Tag im Ort aufhalten (Passanten), zahlen nichts.",
+        "quote": "ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Passanten)."
+      },
+      {
+        "text": "Wer ohne Vergütung in einer häuslichen Gemeinschaft aufgenommen wird, zahlt nichts, wenn der Quartiergeber im Ort seinen Hauptwohnsitz hat.",
+        "quote": "Personen, die ohne Vergütung in der häuslichen Gemeinschaft aufgenommen werden, wenn der Quartiergeber seinen Hauptwohnsitz im Erhebungsgebiet hat."
+      },
+      {
+        "text": "Wer sich im Ort ausschließlich zur Berufsausübung oder zur Verrichtung des Dienstes aufhält, zahlt nichts.",
+        "quote": "Personen, die sich im Erhebungsgebiet ausschließlich zur Ausübung Ihres Berufes oder Verrichtung ihres Dienstes aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Begleitpersonen von Schwerbehinderten zahlen nichts, wenn der Ausweis das ausweist.",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100 % und Begleitpersonen von Schwerbehinderten, sofern dies im Schwerbehindertenausweis gekennzeichnet ist."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird nur für Aufenthalte vom 1. April bis zum 31. Oktober erhoben.",
+        "quote": "Die Kurabgabe wird für einen Aufenthalt in der Zeit vom 01.04. bis einschließlich 31.10. eines Kalenderjahres erhoben."
+      },
+      {
+        "text": "Die Satzung gilt für die Stadt ohne die Ortsteile Karow und Leisten.",
+        "quote": "Erhebungsgebiet für die Stadt Plau am See ist das Gemeindegebiet der Stadt Plau am See, ohne die Ortsteile Karow und Leisten."
+      },
+      {
+        "text": "Statt der Nächte kann eine Jahreskurabgabe von 36,00 € je Person gezahlt werden.",
+        "quote": "Die Jahreskurabgabe beträgt pro Person 36,00 Euro."
+      },
+      {
+        "text": "Wer am elektronischen Abrechnungsverfahren der Stadt teilnimmt, bekommt 5 % der abgerechneten Kurabgabe erstattet.",
+        "quote": "erhält der Quartiergeber, der am elektronischen Kurabgabe-Abrechnungsverfahren der Stadt Plau am See teilnimmt, einen Betrag in Höhe von 5 % der jeweils abgerechneten Kurabgabe erstattet."
+      },
+      {
+        "text": "Du musst die Unterkunft vier Wochen vor der ersten Vermietung bei der Stadtverwaltung anzeigen, mit Art, Zimmer- und Bettenzahl.",
+        "quote": "unter Angabe der Art der Unterkunft, der Zahl der Zimmer und der Anzahl der Betten 4 Wochen vor der ersten Vermietung mitzuteilen."
+      },
+      {
+        "text": "Du musst die aktuelle Satzung bei dir sichtbar auslegen.",
+        "quote": "Jeder Quartiergeber ist verpflichtet, die aktuelle Kurabgabesatzung im Quartier sichtbar auszulegen."
+      },
+      {
+        "text": "Du haftest für die einzunehmenden Kurabgaben.",
+        "quote": "Die Quartiergeber haften für die einzunehmenden Kurbeiträge."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe von ihnen ein und führt sie an die Stadt ab.",
+      "quote": "Jeder Quartiergeber ist verpflichtet, die Kurabgabe lt. Satzung von den Kurabgabepflichtigen einzuziehen und die Kurabgabe an die Stadt abzuführen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird bis zum 5. eines jeden Monats für den Vormonat; auf Antrag kann ein anderer Abrechnungstermin vereinbart werden.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat in der Stadt Plau am See, Abteilung Hauptamt/Kurverwaltung abzurechnen. Auf Antrag kann ein gesonderter Abrechnungstermin vereinbart werden."
+    },
+    "reporting": {
+      "text": "Gäste meldest du am Ankunftstag mit den Meldescheinen der Stadt an, die du dort abholst.",
+      "quote": "Jeder Quartiergeber ist verpflichtet, alle von ihm aufgenommenen Personen am Tag der Ankunft entsprechend den Bestimmungen des rechtsgültigen Meldegesetzes anzumelden. Dafür sind die von der Stadt Plau am See vorgeschriebenen und bei der Stadt Plau am See erhältlichen Meldescheine bzw. Druckvorlagen zu verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Plau am See unmittelbar oder mittelbar wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen und Personenvereinigungen, denen in der Stadt Plau am See aus dem Fremdenverkehr unmittelbar oder mittelbar wirtschaftliche Vorteile erwachsen, wird eine Fremdenverkehrsabgabe erhoben."
+    },
+    "letting": [
+      {
+        "label": "Fremdenbetten, private Vermietung",
+        "quote": "Fremdenbetten private 5 Bett 4 4 0,8 16,3200 Vermietung",
+        "flat": {
+          "cents": 1632,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Fremdenbetten, Feriendörfer und Appartements",
+        "quote": "Fremdenbetten 4 Bett 4 4 1 20,4000 Feriendörfer und Appartement",
+        "flat": {
+          "cents": 2040,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Fremdenbetten, gewerbliche Vermietung Hotel mit Restaurant",
+        "quote": "Fremdenbetten gewerbliche 2 Bett 4 4 2 40,8000 Vermietung Hotel mit Restaurant",
+        "flat": {
+          "cents": 4080,
+          "per": "Bett"
+        }
+      }
+    ],
+    "area": {
+      "text": "Die Satzung gilt im Stadtgebiet ohne die Ortsteile Karow und Leisten.",
+      "quote": "Geltungsbereich der Satzung ist das Gemeindegebiet ohne die Ortsteile Karow und Leisten."
+    },
+    "minimum": {
+      "text": "Die Mindestabgabe beträgt eine halbe Vorteilseinheit.",
+      "quote": "Die Mindestabgabe beträgt eine halbe Vorteilseinheit."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Mai jedes Jahres teilst du der Stadt Plau am See mit, was sie für die Berechnung braucht; gehen die Angaben nicht ein, kann die Stadt die Berechnungsgrundlage schätzen.",
+      "quote": "bis zum 31. Mai des Jahres Angaben für den relevanten Veranlagungszeitraum des laufenden Jahres zur Berechnung der Fremdenverkehrsabgabe mitzuteilen. Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage von der Stadt geschätzt werden."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe jedes Jahr zum 1. Juli; bei Neu- und Nachveranlagung innerhalb eines Monats nach Bekanntgabe des Bescheids.",
+      "quote": "Die Fremdenverkehrsabgabe ist zum 01.07. jeden Jahres fällig. Bei Neuveranlagung und bei Nachveranlagung ist die Abgabe innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Abgabesatz für eine Vorteilseinheit beträgt 20,40 € seit dem Jahr 2004; die Tabelle weist daraus die Beträge je Bett aus.",
+        "quote": "Der Abgabesatz für eine Vorteils-einheit (§ 7) beträgt 20,40 Euro ab dem Jahr 2004."
+      },
+      {
+        "text": "Für Hotels garni druckt die Anlage 27,1993 € je Bett; das ist kein voller Centbetrag, deshalb steht dafür oben keine Zeile.",
+        "quote": "Fremdenbetten Hotel garni 3 Bett 4 4 1,3333 27,1993"
+      },
+      {
+        "text": "Hast du mehr oder weniger Betten, als die Satzung je Vorteilseinheit ansetzt, wird anteilig gerechnet.",
+        "quote": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+      },
+      {
+        "text": "Veranlagt wird der Zeitraum vom 15. Mai bis zum 15. September; je 31 Kalendertage stehen für ein Viertel der Jahresabgabe.",
+        "quote": "Relevanter Veranlagungszeitraum für die Fremdenverkehrsabgabe ist der Zeitraum vom 15.Mai. bis zum 15. September eines Jahres. Dabei stehen je 31 Kalendertage für ein Viertel der Jahresabgabe."
+      },
+      {
+        "text": "Stellst du die Vermietung bis zum 15. Mai ein oder nimmst sie erst nach dem 15. September auf, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Sie entfällt, wenn die Erwerbstätigkeit bzw. der Betrieb bis zum 15.Mai eingestellt oder nach dem 15. September aufgenommen wird."
+      },
+      {
+        "text": "Bei besonderen Verhältnissen, die deine Leistungsfähigkeit außerordentlich beeinträchtigen, kann die Abgabe auf Antrag gestundet, niedergeschlagen oder ganz oder teilweise erlassen werden.",
+        "quote": "Liegen besondere Verhältnisse vor, die die Leistungsfähigkeit eines Abgabepflichtigen in außerordentlichem Maße beeinträchtigen, so kann die Abgabe aus Billigkeitsgründen auf Antrag gestundet, niedergeschlagen oder ganz oder teilweise erlassen werden."
+      },
+      {
+        "text": "Die Stadt Plau am See setzt die Abgabe durch schriftlichen Bescheid fest.",
+        "quote": "Die Heranziehung zur Fremdenverkehrsabgabe erfolgt durch schriftlichen Bescheid."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/plau-am-see/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

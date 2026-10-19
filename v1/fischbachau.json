@@ -1,0 +1,482 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "fischbachau",
+  "name": "Gemeinde Fischbachau",
+  "short": "Fischbachau",
+  "ags": "09182114",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages in der Gemeinde Fischbachau (Kurbeitragssatzung) in der Fassung der Änderungssatzung vom 15.09.2025, gültig ab 01.12.2025, Bekanntmachung der Gemeinde (Scan)",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/2025_09_16_Kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-12-01",
+      "sha256": "9dc64afba51de3503acb40749db51c46661bf2f71d11fdb51f36ae1fb8119870",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) für Personen ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahr."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,90€",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,90€",
+          "digitsUnread": true
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die ausschließlich zum Zweck der Berufsausübung im Kurgebiet übernachten (z. B. Bauarbeiter, Monteure, Messebesucher)."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Schwerbeschädigte mit dem Ausweis und Zusatz"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "oder GdB >=80"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "c) für Tagungs- und Seminargäste 1,50 €"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "In den vorstehenden Beträgen ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Der Kurbeitrag wird ganzjährig erhoben."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "wird auf den Namen des Kurbeitragspflichtigen vom Gastgeber ausgestellt und ist nicht übertragbar."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Die Nutzung des elektronischen Meldewesens ist ab dem 01.12.2025 für alle nach"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "spätestens am Tag nach der Anreise, bei der Gemeinde zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Fischbachau vom 11.12.1979",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/028-5-9_Satzung_fuer_die_Erhebung_eines_Fremdenverkehrsbeitrages.pdf",
+      "kind": "statute",
+      "inForce": "1980-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "e07a290d8808d7b75fbe19dc5f046a1833f0d63d937a82bcd7b94bba573e3b72",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr in Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Die Beitragsschuld wird gemäß & 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß 8 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 2,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des steuerbaren Umsatzes. Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 1,
+          "reading": "Der Feitrag'nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssa*z (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzuset.zen und einen Monat nach Zustellung des Bescheides fäıllg"
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 2,
+          "reading": "Der Beitragsschuläner hat am 15.08, jeden Jahres eine Vorauszahlung zu entrichten.",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.remarks[8]",
+          "page": 3,
+          "reading": "Beitragsschulädner, die nur Vorauszahlungen nach 8 5 Abs. 3 Satz l entrichten, veranläagen mit der Sumne die-er Vorauszahlungen ihre endgültige Beitragsschuld. Das yilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach 8 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Alsatz 1 beantragt, Für die Aufforderung und den Antrag gilt eine Ausschluß- £frist. von einem Jahr, gerechnet ab Entstehen der Beitrags schuld (8 4 Abs. 1)"
+        }
+      ]
+    },
+    "fvbAe2": {
+      "title": "Satzung zur Änderung der Satzung für die Erhebung eines Fremdenverkehrsbeitrages (2. Änderung)",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/2._AEnderung_Erhebung_Fremdenverkehrsbeitrag_22.10.1991.pdf",
+      "kind": "statute",
+      "inForce": "1992-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "7fbe6dae6b543180ca254e000dd11d9438335b749fbb556275ef8908bb748ad1",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.rate",
+          "page": 1,
+          "reading": "In $ 3 Abs. 4 wird die Zahl \"4 v.H.\" ersetzt durch \"6 v.H.\"."
+        }
+      ]
+    },
+    "fvbAe3": {
+      "title": "Satzung zur Änderung der Satzung für die Erhebung eines Fremdenverkehrsbeitrags (3. Änderungssatzung)",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/028-5-9_Satzung_fuer_die_Erhebung_eines_Fremdenverkehrsbeitrages_4.pdf",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "9786af1c7f1e8fe2079edca8ad81cc74fcf4d47e74cad31b4d6acc37c263572a",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 1,
+          "reading": "In $ 5 Abs. 3 Satz 1 wird der Betrag: \"0,50 DM\" ersetzt durch \"0,30 Euro\"."
+        }
+      ]
+    },
+    "fvbNeu": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Fischbachau vom 28. September 2026",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/28_09_2026_Fremdenverkehrsbeitrag.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "b2bbb5ef6c544e046cf66b9662f2ff5026d7f36a9884ec426093770d29ba9d1c",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "Diese Satzung tritt am 01.01.2027 in Kraft. (2) Gleichzeitig tritt die Satzung vom 11.12.1979, zuletzt geändert durch Satzung vom 28.12.2001, außer Kraft.",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "(1) Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten. Wer die zur Beitragsschuld führende selbständige Tätigkeit erstmals nach dem letzten für die Vorauszahlung festgesetzten Termin aufnimmt, hat die Vorauszahlung einen Monat nach Zustellung des die Höhe der Vorauszahlung festsetzenden Bescheids zu entrichten. (2) Die Vorauszahlungen bemessen sich grundsätzlich nach der Höhe der Schuld, die sich bei der letzten Veranlagung ergeben hat."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 1,
+          "reading": "Der Beitragssatz beträgt 6 v.H."
+        }
+      ]
+    },
+    "fvbAe1": {
+      "title": "Satzung zur Änderung der Satzung für die Erhebung eines Fremdenverkehrsbeitrages (1. Änderung)",
+      "url": "https://gemeinde.fischbachau.de/fileadmin/Dateien/Dateien/Ortsrecht/028-5-9_Satzung_fuer_die_Erhebung_eines_Fremdenverkehrsbeitrages_2.pdf",
+      "kind": "statute",
+      "inForce": "1985-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "868697f59671285bfaa3e1005ed80b268293c9d8f9ca433ba5fabe4b11a99e28",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 1,
+          "reading": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung"
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 1,
+          "reading": "Vorauszahlungen nach Satz 1 werden für Kinder unter 6 Jahren nicht erhoben."
+        },
+        {
+          "where": "businessLevy.remarks[7]",
+          "page": 1,
+          "reading": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) für Personen ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr."
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche bei Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Personen, die ausschließlich zur Berufsausübung im Kurgebiet übernachten, etwa Monteure oder Messebesucher",
+        "quote": "Personen, die ausschließlich zum Zweck der Berufsausübung im Kurgebiet übernachten (z. B. Bauarbeiter, Monteure, Messebesucher)."
+      },
+      {
+        "text": "Schwerbeschädigte mit Ausweis (Zusatz B, aG, Bl oder H), auf Antrag",
+        "quote": "Schwerbeschädigte mit dem Ausweis und Zusatz"
+      },
+      {
+        "text": "Schwerbeschädigte mit einem Grad der Behinderung ab 80, auf Antrag",
+        "quote": "oder GdB >=80"
+      },
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbeschädigten mit Ausweis, auf Antrag",
+        "quote": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagungs- und Seminargäste zahlen 1,50 Euro.",
+        "quote": "c) für Tagungs- und Seminargäste 1,50 €"
+      },
+      {
+        "text": "Die Umsatzsteuer ist in den Beträgen enthalten.",
+        "quote": "In den vorstehenden Beträgen ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Der Kurbeitrag wird das ganze Jahr erhoben.",
+        "quote": "Der Kurbeitrag wird ganzjährig erhoben."
+      },
+      {
+        "text": "Die Gästekarte stellst du als Gastgeber auf den Namen des Gastes aus.",
+        "quote": "wird auf den Namen des Kurbeitragspflichtigen vom Gastgeber ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Seit dem 1. Dezember 2025 ist das elektronische Meldeverfahren der Gemeinde Pflicht; auf Antrag kann die Gemeinde bei unbilliger Härte davon befreien.",
+        "quote": "Die Nutzung des elektronischen Meldewesens ist ab dem 01.12.2025 für alle nach"
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du unverzüglich, spätestens am Tag nach der Anreise, bei der Gemeinde, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "spätestens am Tag nach der Anreise, bei der Gemeinde zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des steuerbaren Umsatzes. Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6,
+      "source": "fvbAe2",
+      "quote": "In § 3 Abs. 4 wird die Zahl \"4 v.H.\" ersetzt durch \"6 v.H.\"."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Zum 1. Januar 2027 tritt eine neue Satzung in Kraft; die Satzung vom 11.12.1979 mit ihren Änderungen tritt dann außer Kraft.",
+        "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. (2) Gleichzeitig tritt die Satzung vom 11.12.1979, zuletzt geändert durch Satzung vom 28.12.2001, außer Kraft.",
+        "source": "fvbNeu"
+      },
+      {
+        "text": "Die neue Satzung regelt eine Vorauszahlung am 15. August jedes Jahres, bemessen grundsätzlich nach der letzten Veranlagung. Eine Vorauszahlung je Übernachtung zusammen mit dem Kurbeitrag enthält sie nicht.",
+        "quote": "(1) Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten. Wer die zur Beitragsschuld führende selbständige Tätigkeit erstmals nach dem letzten für die Vorauszahlung festgesetzten Termin aufnimmt, hat die Vorauszahlung einen Monat nach Zustellung des die Höhe der Vorauszahlung festsetzenden Bescheids zu entrichten. (2) Die Vorauszahlungen bemessen sich grundsätzlich nach der Höhe der Schuld, die sich bei der letzten Veranlagung ergeben hat.",
+        "source": "fvbNeu"
+      },
+      {
+        "text": "Der Beitragssatz bleibt auch in der neuen Satzung bei 6 %.",
+        "quote": "Der Beitragssatz beträgt 6 v.H.",
+        "source": "fvbNeu"
+      },
+      {
+        "text": "Nach der bisherigen Satzung von 1979 kann die Gemeinde die Vorauszahlung je Übernachtung zusammen mit dem Kurbeitrag von dir als Vermieter verlangen; sie gilt abweichend von der Vorauszahlung am 15. August.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung",
+        "source": "fvbAe1"
+      },
+      {
+        "text": "Diese Vorauszahlung je Übernachtung beträgt nach der bisherigen Satzung 0,30 €.",
+        "quote": "In § 5 Abs. 3 Satz 1 wird der Betrag: „0,50 DM“ ersetzt durch „0,30 Euro“.",
+        "source": "fvbAe3"
+      },
+      {
+        "text": "Für Kinder unter 6 Jahren wird diese Vorauszahlung nicht erhoben.",
+        "quote": "Vorauszahlungen nach Satz 1 werden für Kinder unter 6 Jahren nicht erhoben.",
+        "source": "fvbAe1"
+      },
+      {
+        "text": "Am 15. August jedes Jahres ist nach der bisherigen Satzung eine Vorauszahlung zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Rechnet die Gemeinde damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann sie darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden.",
+        "source": "fvbAe1"
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung, ist ihre Summe nach der bisherigen Satzung deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlußfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/fischbachau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

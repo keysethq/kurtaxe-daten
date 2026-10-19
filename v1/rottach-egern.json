@@ -1,0 +1,148 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "rottach-egern",
+  "name": "Gemeinde Rottach-Egern",
+  "short": "Rottach-Egern",
+  "ags": "09182129",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Neufassung der Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Rottach-Egern vom 27.11.2024",
+      "url": "https://www.gemeinde.rottach-egern.de/loadDocument.phtml?FID=3683.894.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "11054479e32728da22531fe4330b5f5197af896f5aa9dae525a450c488da886d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Abreise werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag für Personen ab dem vollendeten 16. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a) Kinder bis zum vollendeten 6. Lebensjahr,"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "cents": 150,
+            "quote": "Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbehinderten mit dem Merkzeichen B",
+        "quote": "notwendige Begleitpersonen für Schwerbehinderte, wenn ein schwerbehinderter Mensch zur Mitnahme einer Begleitperson (Merkzeichen B) berechtigt ist."
+      },
+      {
+        "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
+        "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte ab einem Grad der Behinderung von 50 zahlen wie Jugendliche die Hälfte.",
+        "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %"
+      },
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Jeder Gast bekommt von dir als Beherbergungsbetrieb eine elektronisch lesbare Gästekarte als Nachweis.",
+        "quote": "vom Beherbergungsbetrieb eine Gästekarte als elektronisch lesbare Gästekarte in digitaler oder analoger Form."
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      },
+      {
+        "text": "Mit mehr als 9 Betten ist die elektronische Meldung Pflicht.",
+        "quote": "über mehr als 9 Betten, so ist die elektronische"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrags"
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen"
+    },
+    "reporting": {
+      "text": "Die Angaben deiner Gäste übermittelst du spätestens am Tag nach der Anreise an die Gemeinde.",
+      "quote": "spätestens am Tag nach der Anreise"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/rottach-egern/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "rostock",
+  "name": "Hanse- und Universitätsstadt Rostock",
+  "short": "Rostock",
+  "ags": "13003000",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock (kreisfreie Stadt)",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Hanse- und Universitätsstadt Rostock zur Erhebung einer Kurabgabe (Kurabgabesatzung), Beschluss der Bürgerschaft vom 26. März 2025, ausgefertigt am 10. April 2025",
+      "url": "https://www.rostock.de/files/upload/gastgeberbereich/Kurabgabesatzung%20der%20Hanse-%20und%20Universit%C3%A4tsstadt%20Rostock.pdf",
+      "kind": "statute",
+      "inForce": "2025-04-13",
+      "sha256": "358b6d9de8f24b8dfa899a500a271ed3bbc6b3b0a7bd51c22f1b1d427535161a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "kategorien": {
+      "title": "Tourismuszentrale Rostock & Warnemünde, Übersicht und Erläuterung zu den Kategorien (Gastgeberbereich, Stand März 2026)",
+      "url": "https://www.rostock.de/files/upload/gastgeberbereich/Kategorien%20-%20%C3%9Cbersicht%20und%20Erl%C3%A4uterung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-04-13",
+      "sha256": "6d3b98e3ab2ef306308b8f680c11b382ff1583e1cafc0af91b6c658998382849",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "faq": {
+      "title": "Hanse- und Universitätsstadt Rostock, Die GästeCard für Rostock, Fragen und Antworten (Stand 14.04.2026)",
+      "url": "https://www.rostock.de/buchen/gaestecard",
+      "kind": "municipality",
+      "inForce": null,
+      "hashOf": "quotes",
+      "sha256": "e402bf8804d694f05b4ac53693c6233958615aa3ae64f7ab040f5834295159d7",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Warum muss ich bei 4 Übernachtungen, 5 Tage Kurabgabe bezahlen? Die Regelung des Verwaltungsgerichts Greifswald vom 07.04.2021 (3 B 2164/20 HGW), wonach Ankunfts- und Abreisetage zusammen als ein Tag gelten, widerspricht dem Grundsatz der Abgabengerechtigkeit und benachteiligt Tagesgäste.",
+      "source": "faq"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "für den Übernachtungsgast voll 3,70 EUR"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Zahlung der Kurabgabe sind befreit: 1. Kinder bis einschließlich 5 Jahre,"
+          },
+          {
+            "underAge": 15,
+            "cents": 145,
+            "quote": "Kinder 6-14 Jahre inklusive Mobilitätsangebot (ÖPNV-Nutzung) *1,45 € pro Person/Tag",
+            "source": "kategorien"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80",
+        "quote": "2. Menschen mit einem Grad der Behinderung (GdB) von mindestens 80,"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit einem Grad der Behinderung von 100, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "3. Begleitpersonen von Menschen mit einem GdB von 100, wenn diese laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
+      },
+      {
+        "text": "Wer nicht zur Erholung, sondern dienstlich oder beruflich da ist (Dienstreisende, Tagungsteilnehmer), ist nicht kurabgabepflichtig",
+        "quote": "Aufenthalt erfolgt nicht zur Erholung, sondern aus dienstlichen/beruflichen Gründen",
+        "source": "kategorien"
+      },
+      {
+        "text": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet sind Gäste nach der GästeCard-Seite der Stadt befreit, auch wenn das nur am Anreise- oder am Abreisetag so ist.",
+        "quote": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet bist du von der Kurabgabe befreit und erhältst keine GästeCard. Dies gilt auch, wenn dies nur am Anreise- oder Abreisetag der Fall ist.",
+        "source": "faq"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Satzung gilt im gesamten Stadtgebiet von Rostock, nicht nur in den Ostseebädern.",
+        "quote": "Erhebungsgebiet ist das gesamte Stadtgebiet der Hanse- und Universitätsstadt Rostock."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen wie Kinder von 6 bis 14 Jahren den ermäßigten Satz von 1,45 € pro Tag.",
+        "quote": "Menschen mit einem GdB von mindestens 50 inklusive Mobilitätsangebot (ÖPNV-Nutzung)",
+        "source": "kategorien"
+      },
+      {
+        "text": "In den 3,70 € ist ein Anteil von 1,45 € für den Nahverkehr enthalten, den Übernachtungsgäste mit der GästeCard nutzen.",
+        "quote": "für den Übernachtungsgast voll 3,70 EUR inkl. ÖPNV-Anteil 1,45 EUR"
+      },
+      {
+        "text": "Wer eine Zweitwohnung, einen Dauerstellplatz oder einen Dauerbootsliegeplatz hat, zahlt pauschal für 28 Tage im Jahr (Jahreskurabgabe, 63,00 €, ermäßigt 42,00 €).",
+        "quote": "Bei diesen Personen wird pauschal ein Aufenthalt von 28 Tagen pro Kalenderjahr unterstellt."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise oder Nichtanreise erstattest du die Kurabgabe; alternativ können Gäste bis 14 Tage nach der Abreise bei der Tourismuszentrale mit GästeCard und deiner Bestätigung die Erstattung beantragen.",
+        "quote": "Die Rückzahlung erfolgt durch den Quartiergeber. Das gleiche gilt bei Nichtanreise. (2) Alternativ kann bis 14 Tage nach Abreise bei der Tourismuszentrale Rostock & Warnemünde Antrag auf Erstattung gestellt werden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein, führt sie nach dem monatlichen Bescheid ab und stellt GästeCards aus.",
+      "quote": "Jeder Quartiergeber hat von den nach § 2 verpflichteten und von ihm beherbergten Personen die Kurabgabe einzuziehen und gemäß monatlich ergehendem Bescheid abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zu dem Termin im monatlichen Bescheid, in der Regel 14 Tage nach dessen Bekanntgabe.",
+      "quote": "Die vom Quartiergeber eingezogene Kurabgabe ist bis zu dem im Bescheid nach Absatz 2 angegebenen Termin, in der Regel 14 Tage nach Bekanntgabe, abzuführen."
+    },
+    "reporting": {
+      "text": "Deine Gäste erfasst du im elektronischen Erfassungssystem innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Die Erfassung hat innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/rostock/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0,
+          145
+        ]
+      }
+    ]
+  }
+}

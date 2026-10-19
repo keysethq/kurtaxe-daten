@@ -1,0 +1,249 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "barth",
+  "name": "Stadt Barth",
+  "short": "Barth",
+  "ags": "13073009",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Barth (2. Änderung der Satzung vom 08.12.2022, Beschluss der Stadtvertretung vom 25.09.2025)",
+      "url": "https://www.stadt-barth.de/files/aid/inhalt/bilder/sonstiges/Kurabgabe-Satzung%20der%20Stadt%20Barth%20-%20Stand%2001.01.2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "f927d0ab074c7cc598f18cedd381cc7ce45981b9f19e960d443d19ee9ebe6d68",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Lesefassung zur 3. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth, mit Anlage",
+      "url": "https://www.amt-barth.de/fileadmin/alle/pdf/satzungen/stadt_barth/andere/Fremdenverkehrsabgabesatzung.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "8f805a9be7e568bfa172be4cb69acd3c91d91f86c0fbcf8e2cd86e065b2cb702",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAend": {
+      "title": "4. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth vom 04.10.2023",
+      "url": "https://www.amt-barth.de/fileadmin/alle/pdf/satzungen/stadt_barth/andere/Fremdenverkehrsabgabesatzung_4.Aend_Barth.pdf",
+      "kind": "statute",
+      "changedOn": "2026-10-15",
+      "sha256": "1840fb11fae6e493f07c1fa8f533219efa23b84d19746cae44ff1db70c0d5fbe",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0].units.value",
+          "page": 1,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit (8 7) beträgt 23,38 Euro."
+        },
+        {
+          "where": "businessLevy.letting[1].units.value",
+          "page": 1,
+          "reading": "Der Abgabesatz für eine Vorteilseinheit (8 7) beträgt 23,38 Euro."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 1,
+          "reading": "Die 4. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth tritt am Tag nach ihrer Bekanntmachung in Kraft."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Dabei gelten, unabhängig von der Anreisezeit, An- und Abreisetag als zwei Tage."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Höhe der Kurabgabe beträgt je Tag und Person: 2,50 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von 80 und ihre Begleitperson, wenn sie auf ständige Begleitung angewiesen sind",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 80 sowie Begleitpersonen, sofern der Schwerbehinderte auf ständige Begleitung angewiesen ist."
+      },
+      {
+        "text": "Wer in Barth arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd im Sinne dieser Satzung gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe gilt für das ganze Stadtgebiet von Barth.",
+        "quote": "Das Erhebungsgebiet für die Kurabgabe ist die Stadt Barth."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurabgabe von 75,00 € pro Person.",
+        "quote": "Unabhängig von der Aufenthaltsdauer beträgt die Jahreskurabgabe pro Person 75,00 €."
+      },
+      {
+        "text": "In der Kurabgabe ist die Umsatzsteuer enthalten.",
+        "quote": "In den Kurabgabesätzen ist die Umsatzsteuer nach dem geltenden Umsatzsteuergesetz (UStG) enthalten."
+      },
+      {
+        "text": "Befreiungen oder Ermäßigungen darfst du als Vermieter nicht ohne Anweisung der Stadt gewähren.",
+        "quote": "Die Quartiergeber sind nicht berechtigt, ohne Anweisung der Stadt Barth Befreiungen und Ermäßigungen von der Kurabgabe oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe am Anreisetag ein und gibt den Gästen eine Gästekarte.",
+      "quote": "die Kurabgabe am Tag der Ankunft von den Gästen einzuziehen und ihnen Gästekarten auszuhändigen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Monat nach Erhalt der Abrechnung, unbar.",
+      "quote": "die eingezogene Kurabgabe spätestens einen Monat nach Erhalt der Abrechnung an die Stadt Barth unbar abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste werden am Anreisetag angemeldet.",
+      "quote": "die von ihm aufgenommenen Personen, am Tag der Ankunft anzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Barth Vorteile unmittelbarer oder mittelbarer Art bringt.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen sowie Personenvereinigungen, denen im Erhebungsgebiet durch den Fremdenverkehr Vorteile unmittelbarer oder mittelbarer Art erwachsen."
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Betten und Unterkünften (Vorteilsstufe 4)",
+        "quote": "Vermietung von Betten/Unterkünften 2,0 Betten Je 1,5 1,333",
+        "units": {
+          "count": 1.5,
+          "per": "Bett",
+          "value": {
+            "cents": 2338,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 23,38 Euro.",
+            "source": "fvbAend"
+          },
+          "times": {
+            "factor": 2,
+            "quote": "in der Vorteilsstufe 4 dem doppelten Abgabesatz (Faktor 2,0)"
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Stell- und Liegeplätzen, Camping-, Zelt- und Wohnmobilplätze (Vorteilsstufe 4)",
+        "quote": "Vermietung von Stell- und Stetlplätzen/Liegeplätzen 2,0 Liege- Je 1,5 1,333",
+        "units": {
+          "count": 1.5,
+          "per": "Stellplatz",
+          "value": {
+            "cents": 2338,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 23,38 Euro.",
+            "source": "fvbAend"
+          },
+          "times": {
+            "factor": 2,
+            "quote": "in der Vorteilsstufe 4 dem doppelten Abgabesatz (Faktor 2,0)"
+          }
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Daten zur Berechnung, Stand 1. Juli, teilst du der Stadt bis zum 1. August des Jahres mit.",
+      "quote": "Die Abgabepflichtigen sowie ihre Vertreter haben bis zum 01.08. des laufenden Kalenderjahres, die zur Berechnung der Abgabe erforderlichen Daten mit Stand vom 01.07. des laufenden Kalenderjahres unaufgefordert mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Übernachtungsmöglichkeiten wird nach der Zahl der Betten oder ähnlichen Schlafplätze gerechnet; eine Grundvorteilseinheit sind 1,5 Betten.",
+        "quote": "Bei Bereitstellung von Übernachtungsmöglichkeiten (Betten o.ä.) bemisst sich die Grundvorteilseinheit nach Anzahl der Betten oder ähnlichen Schlafplätzen und beträgt 1,5."
+      },
+      {
+        "text": "Für Betreiber von Camping-, Zelt- und Wohnmobilplätzen gilt die Grundvorteilseinheit entsprechend, mit 1,5 Stellplätzen.",
+        "quote": "Dies gilt analog für Betreiber von Camping- /Zelt-/ Wohnmobilplätzen mit 1,5 Stellplätzen"
+      },
+      {
+        "text": "Den Satz von 23,38 € je Vorteilseinheit legt die 4. Änderung fest; sie gilt ab dem Tag nach ihrer Bekanntmachung.",
+        "quote": "Die 4. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Barth tritt am Tag nach ihrer Bekanntmachung in Kraft.",
+        "source": "fvbAend"
+      },
+      {
+        "text": "Beginnst du erst nach dem 1. August, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01.08. eines Jahres, kann die Jahresabgabe auf Antrag um 50 von Hundert ermäßigt werden."
+      },
+      {
+        "text": "Stellst du den Betrieb bis zum 1. März dauerhaft ein oder fängst du erst nach dem 30. Oktober an, entfällt die Abgabe für das Jahr.",
+        "quote": "Die Abgabenpflicht für das laufende Kalenderjahr entfällt, wenn die Erwerbstätigkeit bzw. der Betrieb bis zum 1. März dauerhaft eingestellt oder nach dem 30. Oktober aufgenommen wird."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/barth/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hallig-hooge",
+  "name": "Gemeinde Hallig Hooge",
+  "short": "Hallig Hooge",
+  "ags": "01054050",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Hallig Hooge über die Erhebung einer Kurabgabe vom 15.05.2025 (Amtliche Bekanntmachung, gültig ab 01.06.2025)",
+      "url": "https://hooge.de/docs/52/Kurabgabesatzung%20Hallig%20Hooge%20vom%2015.05.2025%20-%20g%C3%BCltig%20ab%2001.06.2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-06-01",
+      "sha256": "1f665c70b97c16daba088fd747d3ec6cf3a5d1fcfab5add4c817a8fa9c81effc",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens wird als voller Tag, der Tag der Abreise wird nicht gewertet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt grundsätzlich und vorbehaltlich der Ermäßigung nach § 6 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres zahlen nichts.",
+        "quote": "Von der Kurabgabepflicht sind freigestellt a. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+      },
+      {
+        "text": "Kinder, Eltern und deren Ehe- oder Lebenspartner, die unentgeltlich bei Einwohnern mit Hauptwohnung auf Hooge wohnen, zahlen nichts.",
+        "quote": "Kinder, Eltern und deren geehelichte oder verpartnerte (im Sinne einer eingetragenen Lebenspartnerschaft) Person von Personen, die in der Gemeinde ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen werden"
+      },
+      {
+        "text": "Wer dienstlich oder beruflich auf der Hallig ist (auch Auszubildende) und die Einrichtungen nicht nutzt, zahlt nichts.",
+        "quote": "in Ausübung ihres Dienstes oder Berufes Anwesende sowie Auszubildende, soweit sie die Einrichtungen nicht in Anspruch nehmen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 50 % und mehr und eine erforderliche Begleitperson zahlen die Hälfte.",
+        "quote": "Die Kurabgabe gemäß § 5 ermäßigt sich auf 50 % für schwerbehinderte Menschen, die einen Grad der Behinderung von 50 % und mehr nachweisen, sowie für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Wer die Kurabgabe innerhalb von vier Wochen nach der Abreise abführt und die Kurkarten-Durchschriften einreicht, darf 5 % des Betrags für den Aufwand einbehalten.",
+        "quote": "sind die Unterkunftsgebenden berechtigt, sofern binnen vier Wochen nach der Abreise der aufgenommenen Personen die Kurabgabe an die Gemeinde abgeführt wird und die Durchschriften der Kurkartenvordrucke eingereicht werden, für die entstehenden Aufwendungen einen Betrag in Höhe von 5 % des Kurabgabebetrages einzubehalten."
+      },
+      {
+        "text": "Tagesgäste zahlen die Kurabgabe bei der Ankunft an den Anlegebrücken, nicht bei dir.",
+        "quote": "Tagesgäste haben die Kurabgabe bei der Ankunft im Gemeindegebiet an den Anlegebrücken zu zahlen."
+      },
+      {
+        "text": "Du legst die Satzung für deine Gäste sichtbar aus.",
+        "quote": "Alle Unterkunftsgebenden haben diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      },
+      {
+        "text": "Du stellst jedem Gast unverzüglich eine Kurkarte auf dem Vordruck des Touristikbüros aus.",
+        "quote": "Alle Unterkunftsgebenden sind verpflichtet, für die aufgenommenen Personen unverzüglich unter Verwendung der vom Touristikbüro der Gemeinde zur Verfügung gestellten Vordrucke eine Kurkarte auszustellen"
+      },
+      {
+        "text": "Die Durchschriften der Kurkartenvordrucke reichst du innerhalb von zwei Monaten nach der Anreise beim Touristikbüro ein.",
+        "quote": "Die Durchschriften der Kurkartenvordrucke sind von den Unterkunftsgebenden innerhalb von zwei Monaten nach der Anreise der aufgenommenen Personen beim Touristikbüro der Gemeinde Hallig Hooge einzureichen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, errechnet die Kurabgabe, zieht sie von den Gästen ein und führt sie an die Gemeinde ab.",
+      "quote": "Alle Unterkunftsgebenden sind verpflichtet, für die auszustellenden Kurkarten die Kurabgabe zu errechnen, diese von den aufgenommenen Personen einzuziehen und innerhalb von zwei Monaten nach der Anreise der aufgenommenen Personen an die Gemeinde Hallig Hooge kostenfrei abzuführen."
+    },
+    "deadline": {
+      "text": "Du führst die eingezogene Kurabgabe innerhalb von zwei Monaten nach der Anreise der Gäste an die Gemeinde ab.",
+      "quote": "innerhalb von zwei Monaten nach der Anreise der aufgenommenen Personen an die Gemeinde Hallig Hooge kostenfrei abzuführen"
+    },
+    "reporting": {
+      "text": "Du lässt An- und Abreisetag und Heimatanschrift auf der Kopie für das Touristikbüro vom Gast eintragen.",
+      "quote": "auf der für das Touristikbüro bestimmten Kopie den An- und Abreisetag und die Heimatanschrift durch den Gast eintragen zu lassen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hallig-hooge/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

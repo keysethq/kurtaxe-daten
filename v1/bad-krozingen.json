@@ -1,0 +1,264 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-krozingen",
+  "name": "Bad Krozingen",
+  "short": "Bad Krozingen",
+  "ags": "08315006",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Krozingen, Neufassung 2025 (mit Änderungen vom 30.11.2020 und 25.11.2024)",
+      "url": "https://www.bad-krozingen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Kurtaxensatzung%20%28Neufassung%202025%29.pdf",
+      "kind": "municipality",
+      "inForce": "2016-01-01",
+      "sha256": "d48325a6eec894763ed0ce2681bfdb60d618e0d6f56744ddb1375300eb195747",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung": {
+      "title": "Satzung zur 3. Änderung der Satzung über die Erhebung einer Kurtaxe vom 23.11.2015 (Kurtaxesatzung) der Großen Kreisstadt Bad Krozingen, Gemeinderatsbeschluss vom 25.11.2025",
+      "url": "https://www.bad-krozingen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Satzung%20zur%203.%20%C3%84nderung%20der%20Satzung%20%C3%BCber%20die%20Erhebung%20einer%20Kurtaxe%20vom%2023.11.2015.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "2a2bb007aa2201e3059fd9c209517689dfd115b97891af18ee5aaa3d854d3622",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-18",
+      "ocr": [
+        {
+          "where": "zones[0].periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kernort 3,20 Euro incl. derzeit gültiger Umsatzsteuer 7 % b) in den Ortsteilen 2,90 Euro incl. derzeit gültiger Umsatzsteuer 7 %"
+        },
+        {
+          "where": "zones[1].periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kernort 3,20 Euro incl. derzeit gültiger Umsatzsteuer 7 % b) in den Ortsteilen 2,90 Euro incl. derzeit gültiger Umsatzsteuer 7 %"
+        }
+      ]
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Kur und Bäder GmbH Bad Krozingen",
+      "kind": "answer",
+      "receivedOn": "2026-10-18",
+      "text": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe) Alles andere ist Kernort.",
+      "changedOn": "2026-10-18",
+      "sha256": "5fc65d9a1effe3f2ed1c1a5e0da6f6498cd0e81a29da16f6f02048b69d9f140c",
+      "verifiedOn": "2026-10-18"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kernort",
+        "area": {
+          "text": "Der Satz gilt im Kernort, das ist alles außer den vier Ortsteilen.",
+          "quote": "Alles andere ist Kernort.",
+          "source": "auskunft"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 320,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kernort 3,20 Euro incl. derzeit gültiger Umsatzsteuer 7 % b) in den Ortsteilen 2,90 Euro incl. derzeit gültiger Umsatzsteuer 7 %",
+              "source": "aenderung"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 18. Lebensjahr",
+                "source": "satzung"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ortsteile",
+        "area": {
+          "text": "Der Satz gilt in den Ortsteilen Biengen (mit Dottighofen), Hausen an der Möhlin, Schlatt und Tunsel (mit Schmidhofen und Burghöfe).",
+          "quote": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe)",
+          "source": "auskunft"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 290,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kernort 3,20 Euro incl. derzeit gültiger Umsatzsteuer 7 % b) in den Ortsteilen 2,90 Euro incl. derzeit gültiger Umsatzsteuer 7 %",
+              "source": "aenderung"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 18. Lebensjahr",
+                "source": "satzung"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher, die bei Verwandten mit Erstwohnsitz im Ort unentgeltlich übernachten und keine Kurmittel nutzen",
+        "quote": "Ortsfremde, die in der Stadt nachweislich mit Erstwohnsitz angemeldete Verwandte besuchen, keine Kurmittel in Anspruch nehmen und unentgeltlich übernachten."
+      },
+      {
+        "text": "Blinde, gegen Vorlage eines amtlichen Ausweises",
+        "quote": "Blinde gegen Vorlage eines amtlichen Ausweises"
+      },
+      {
+        "text": "Personen, die sich im Rahmen einer Städtepartnerschaft im Ort aufhalten",
+        "quote": "Personen, die sich in der Stadt im Zusammenhang mit der Pflege von Städtepartnerschaften aufhalten."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung von mindestens 50, wenn der Ausweis die Begleitung belegt",
+        "quote": "Begleitpersonen von Schwerbehinderten mit mindestens 50 v.H. Grad der Behinderung. Die Notwendigkeit ist durch Vorlage des Ausweises mit dem entsprechenden Eintrag zu belegen."
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung oder Montage teilnimmt",
+        "quote": "die in der Stadt arbeiten, in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen oder zur sonstigen Berufsausübung (auch z.B. Tagungen, Montage) aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung ab 50 20 % weniger.",
+        "quote": "Schwerbehinderte Personen ab 50 v.H. Grad der Behinderung um 20 v.H."
+      },
+      {
+        "text": "Auf Antrag zahlen auch Reisegruppen ab 10 Personen 20 % weniger.",
+        "quote": "Reisegesellschaften (Gruppen ab 10 Personen) um 20 v.H."
+      },
+      {
+        "text": "Die Kurtaxe kann von Beherbergern abgelöst werden.",
+        "quote": "Die Kurtaxe kann vom Beherberger und Betreiber eines Campingplatzes abgelöst werden."
+      },
+      {
+        "text": "Die Stadt hat Berechnung, Bescheide und Einzug der Kurtaxe auf die Kur- und Bäder GmbH übertragen; an sie führst du ab und meldest.",
+        "quote": "wird von der Stadt gem. § 2 III KAG vom 17.03.2005 auf die Kur- und Bäder GmbH delegiert."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein und führst sie ab; für den vollständigen und richtigen Einzug haftest du.",
+      "quote": "Die nach § 8 Abs. 1 Meldepflichtigen haben, soweit nicht nach § 7 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats an die Kur- und Bäder GmbH ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Kur- und Bäder GmbH abzuführen, soweit keine anderweitige Fälligkeit im Bescheid oder einer sonstigen Abrechnung vorgegeben wird."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 24 Stunden nach der Ankunft an und nach der Abreise ab; das Meldeformular geht innerhalb einer Woche nach der Abreise an die Kur- und Bäder GmbH.",
+      "quote": "bei ihm verweilende Personen innerhalb von 24 Stunden nach Ankunft bzw. Abreise an- bzw. abzumelden. Dabei sind alle nach dieser Satzung notwendigen Angaben zur korrekten Abrechnung zu machen. Die Weitergabe des Meldeformulares an die Kur- und Bäder GmbH hat innerhalb einer Woche nach der Abreise zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-18",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-18",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-krozingen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 320,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kernort",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 320,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ortsteile",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 290,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

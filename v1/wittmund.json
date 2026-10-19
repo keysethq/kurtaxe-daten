@@ -1,0 +1,525 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wittmund",
+  "name": "Stadt Wittmund",
+  "short": "Wittmund",
+  "ags": "03462019",
+  "state": "Niedersachsen",
+  "district": "Wittmund",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Wittmund (Ortsrecht 2.34), Fassung gültig ab 01.01.2025, Ortsrecht der Stadt Wittmund",
+      "url": "https://www.wittmund.de/downloads/datei/ZmM4ZGQ2NDJlMWVkMGQwN0Q4TEdVbDV3N1NKeEVRNzFYSFVMcHBGQWFSRDN0dUZYaEordXI2UXlNb2tweXliWHZVNytqU09Cbk1NSGZGZmVVeDVqc3czK1dpb09oOVZvVUpGZ0FYeGwyaXo2NmpEeCtwOHcyNnJiaGttbmpXNHRkWlBYYU5FOHBMWkhLSi9rQ3l2RFk2L0RHY0J2aDRhVEJONjkwV0xrMk9NK2xDaU5pUWE3WDZxTFg5WT0",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "3eb94ae758ef058e6b233880904e9efa6f68f11ec1332fec037b9dac22855dca",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Wittmund (Ortsrecht 2.35), Fassung des Ratsbeschlusses vom 10.12.2024, Ortsrecht der Stadt Wittmund; die Datei nennt am Ende nur das Inkrafttreten der Ursprungssatzung, für diese Fassung keines",
+      "url": "https://www.wittmund.de/downloads/datei/NDBlNmRkNDcyYzdmYzY5MjVXRGdIRklIZ21WQ1ExWTlubllYMVowUExuT1hCZStRcVBFQ3Z5cWFYK3N4aDFMNTFqM2UvZEJ6d2Z5c080Z1Y4RGxlWExtamMwYmw5NFB4czk5Z1VSQy9lbjRBRVEzckVTRGJTeDVCWkUzUGkwM25LYVRzS3VPZ2JEZitqQ0NVV2VLbFVlVjBZaGt2TW5FUC83ZEdUOUIxTUtlMFE5ajdET2NFcXhaY1IvQk5aUmNTa2NzVW1NaWUzaC9QWFNMSQ",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "a03e627cef1846b849c0750b816fa6685caa6d2223169c0c9764bdb8b23fbbcb",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei Übernachtungsgästen wird der An- und Abreisetag mit einem Tag abgerechnet, wobei der Anreisetag als Abrechnungstag gilt."
+    },
+    "zones": [
+      {
+        "label": "Gästebeitragszone 1 (Carolinensiel)",
+        "area": {
+          "text": "Gästebeitragszone 1 ist Carolinensiel.",
+          "quote": "Gästebeitragszone 1: Carolinensiel"
+        },
+        "periods": [
+          {
+            "label": "Hauptgästebeitragszeit",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "01-06"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "a) für Personen ab 16 Jahren 3,00 € 1,50 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis einschließlich 3 Jahren."
+              },
+              {
+                "underAge": 16,
+                "cents": 150,
+                "quote": "b) für Personen ab 4 Jahre 1,50 € 0,00 € bis einschließlich 15 Jahre"
+              }
+            ]
+          },
+          {
+            "label": "Nebengästebeitragszeit",
+            "ranges": [
+              {
+                "from": "01-07",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "a) für Personen ab 16 Jahren 3,00 € 1,50 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis einschließlich 3 Jahren."
+              },
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "b) für Personen ab 4 Jahre 1,50 € 0,00 € bis einschließlich 15 Jahre"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästebeitragszone 2 (Altfunnixsiel)",
+        "area": {
+          "text": "Gästebeitragszone 2 ist Altfunnixsiel.",
+          "quote": "Gästebeitragszone 2: Altfunnixsiel"
+        },
+        "periods": [
+          {
+            "label": "Hauptgästebeitragszeit",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "01-06"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "c) für Personen ab 16 Jahren 2,50 € 1,25 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis einschließlich 3 Jahren."
+              },
+              {
+                "underAge": 16,
+                "cents": 125,
+                "quote": "d) für Personen ab 4 Jahre 1,25 € 0,00 € bis einschließlich 15 Jahre"
+              }
+            ]
+          },
+          {
+            "label": "Nebengästebeitragszeit",
+            "ranges": [
+              {
+                "from": "01-07",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 125,
+              "quote": "c) für Personen ab 16 Jahren 2,50 € 1,25 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis einschließlich 3 Jahren."
+              },
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "d) für Personen ab 4 Jahre 1,25 € 0,00 € bis einschließlich 15 Jahre"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 30,
+      "perStay": false,
+      "text": "höchstens 30 Tage",
+      "quote": "Der Gästebeitrag wird höchstens für 30 Tage erhoben."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Wer zu einer Familie in häuslicher Gemeinschaft gehört, zahlt ab der 5. Person nichts; befreit werden jeweils die jüngsten Familienmitglieder.",
+      "quote": "2. jede 5. und weitere Person einer in häuslicher Gemeinschaft lebenden Familie, wobei jeweils die jüngsten Familienangehörigen zu befreien sind."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 %, die laut Ausweis (Merkzeichen H oder B) ständig auf Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "3. Schwerbehinderte, deren Grad der Behinderung mindestens 80 % beträgt und die lt. amtlichem Ausweis – mit dem Merkmal „H“ oder „B“ nach deutschem Recht – völlig auf ständige Begleitung angewiesen sind."
+      },
+      {
+        "text": "Ihre Begleitpersonen zahlen ebenfalls nichts.",
+        "quote": "4. Begleitpersonen von Schwerbehinderten nach Nr. 3."
+      },
+      {
+        "text": "Wer seine Hauptwohnung in der Stadt Wittmund hat, zahlt nichts.",
+        "quote": "Personen mit Hauptwohnung in der Stadt Wittmund."
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung oder Ausbildung in den Zonen aufhält, zahlt nichts.",
+        "quote": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Entgelt in deren Haushalt aufgenommen werden, zahlen nichts.",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwager und Schwägerinnen von Personen, die in der Gästebeitragszone 1 oder 2 eine Hauptwohnung haben, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird der Gästebeitrag in zwei Zonen, Carolinensiel und Altfunnixsiel; die genauen Grenzen zeigt die Karte in der Anlage zur Satzung.",
+        "quote": "Die Abgrenzung der beitragspflichtigen Gebiete (Erhebungsgebiete) ergibt sich aus der beigefügten Anlage 1, die Bestandteil dieser Satzung ist."
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohneinheiten, die ihre Hauptwohnung nicht in Wittmund haben, zahlen unabhängig von der Aufenthaltsdauer einen Jahresgästebeitrag.",
+        "quote": "Eigentümer oder Besitzer von Wohneinheiten im Erhebungsgebiet, die ihre Hauptwohnung nicht im Stadtgebiet haben, und Dauerbenutzer von Campingplätzen sowie ihre jeweiligen Familienangehörigen"
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen gut sichtbar aus.",
+        "quote": "c) diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      },
+      {
+        "text": "Du haftest dafür, dass der Gästebeitrag rechtzeitig eingezogen und vollständig abgeliefert wird.",
+        "quote": "haften für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt nach der Ankunft unverzüglich die Gästekarte (digital oder auf Papier) zur Verfügung und zieht den Gästebeitrag gleichzeitig ein.",
+      "quote": "a) nach Ankunft der bei ihm gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen unverzüglich die digitale oder analoge Gästekarte, unter Erhebung der Angaben nach § 7 Abs. 2 Satz 2, zur Verfügung zu stellen und gleichzeitig den Gästebeitrag einzuziehen."
+    },
+    "deadline": {
+      "text": "Den eingezogenen Gästebeitrag zahlst du innerhalb von 14 Tagen nach der Aufforderung durch die Kurverwaltung oder die Stadt.",
+      "quote": "Die Zahlung des Gästebeitrages hat innerhalb von 14 Tagen nach Aufforderung durch"
+    },
+    "reporting": {
+      "text": "Erfasst wird elektronisch mit der digitalen Anwendung der Kurverwaltung (Nordseebad Carolinensiel-Harlesiel GmbH) oder mit Durchschreibesätzen, deren Original du innerhalb von 24 Stunden nach der Ankunft des Gastes der Kurverwaltung vorlegst.",
+      "quote": "1. der Durchschreibesätze für die Gästekarte, die von der Kurverwaltung gegen Empfangsbestätigung ausgehändigt werden, wobei das Original des Durchschreibesatzes für die Gästekarte innerhalb von 24 Stunden nach Ankunft des Gastes der Kurverwaltung vorzulegen ist, oder 2. einer elektronischen Erfassung mit dem von der Kurverwaltung zur Verfügung gestellten digitalen Anwendung und dem Ausdruck der Gästekarte auf Einzelbögen, die von der Kurverwaltung gegen Empfangsbestätigung ausgehändigt werden, oder 3. einer elektronischen Erfassung mit dem von der Kurverwaltung zur Verfügung gestellten digitalen Anwendung und der Ausgabe einer rein digitalen Gästekarte."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Wittmund im Rahmen einer selbstständigen Erwerbstätigkeit entgeltliche Leistungen anbietest, die dem Bedarf der Touristen dienen; das trifft auch die Vermietung von Ferienunterkünften.",
+      "quote": "Besondere wirtschaftliche Vorteile werden denen geboten, die im Rahmen selbständiger Erwerbstätigkeit im Stadtgebiet entgeltliche Leistungen anbieten, die im Allgemeinen der Bedarfsdeckung des Tourismus dienen."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und -häuser und sonstige Gästeunterkünfte an wechselnde Gäste",
+        "quote": "A03 Vermietung von Ferienwohnungen/-häusern o.s. 100% 100% 100% 100% 18%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A03 Vermietung von Ferienwohnungen/-häusern o.s. 100% 100% 100% 100% 18%"
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück (auch Privatpension), Vorteilszone 1 und 2 (Carolinensiel, Altfunnixsiel)",
+        "quote": "A02 Hotel garni, Pension (auch Privatpension) mit 95% 95% 90% 90% 10% Frühstück",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "A02 Hotel garni, Pension (auch Privatpension) mit 95% 95% 90% 90% 10% Frühstück"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück (auch Privatpension), Vorteilszone 3 und 4 (Wittmund, Wittmund/Land)",
+        "quote": "A02 Hotel garni, Pension (auch Privatpension) mit 95% 95% 90% 90% 10% Frühstück",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "A02 Hotel garni, Pension (auch Privatpension) mit 95% 95% 90% 90% 10% Frühstück"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "sonstige Gewährung von Unterkünften an Übernachtungsgäste",
+        "quote": "A07 sonstige Gewährung von Unterkünften an 100% 100% 100% 100% 9%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A07 sonstige Gewährung von Unterkünften an 100% 100% 100% 100% 9%"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Vorteilszone 1 und 2 (Carolinensiel, Altfunnixsiel)",
+        "quote": "A01 Hotel, Gasthof, Pension (mit Halb- und Vollpension) 95% 95% 90% 90% 5%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "A01 Hotel, Gasthof, Pension (mit Halb- und Vollpension) 95% 95% 90% 90% 5%"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Vorteilszone 3 und 4 (Wittmund, Wittmund/Land)",
+        "quote": "A01 Hotel, Gasthof, Pension (mit Halb- und Vollpension) 95% 95% 90% 90% 5%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "A01 Hotel, Gasthof, Pension (mit Halb- und Vollpension) 95% 95% 90% 90% 5%"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatzbetrieb",
+        "quote": "A04 Camping-/Zeltplatzbetrieb 100% 100% 100% 100% 16%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A04 Camping-/Zeltplatzbetrieb 100% 100% 100% 100% 16%"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge, Jugendgästehaus, Erholungsheim",
+        "quote": "A05 Jugendherberge, -gästehaus, Erholungsheim 100% 100% 100% 100% 2%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A05 Jugendherberge, -gästehaus, Erholungsheim 100% 100% 100% 100% 2%"
+          },
+          "profit": {
+            "percent": 2
+          }
+        }
+      },
+      {
+        "label": "Vorsorge- und Rehabilitationsklinik",
+        "quote": "A06 Vorsorge-, Rehabilitationsklinik 100% 100% 100% 100% 1%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A06 Vorsorge-, Rehabilitationsklinik 100% 100% 100% 100% 1%"
+          },
+          "profit": {
+            "percent": 1
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 9.34,
+      "quote": "Er beträgt 9,34 % des Messbetrags gemäß § 3 Abs. 1."
+    },
+    "basis": {
+      "text": "Es zählt der Umsatz des vorletzten Kalenderjahres vor dem Erhebungsjahr, dem Vorvorjahr.",
+      "quote": "Maßgebend ist der Umsatz des vorletzten dem Erhebungsjahr vorausgegangenen Kalenderjahres (Vorvorjahres)."
+    },
+    "area": {
+      "text": "Der Tourismusbeitrag gilt in den vier Vorteilszonen Carolinensiel, Altfunnixsiel, Wittmund und Wittmund/Land; die genaue Grenze zeigt die Karte in Anlage 2 der Satzung.",
+      "quote": "1. Vorteilszone 1: Carolinensiel 2. Vorteilszone 2: Altfunnixsiel 3. Vorteilszone 3: Wittmund 4. Vorteilszone 4: Wittmund/Land Die Abgrenzung der beitragspflichtigen Gebiete ergibt sich aus der als Anlage 2 beigefügten Karte, die Bestandteil dieser Satzung ist."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 30. Juni teilst du der Stadt mit dem Formblatt die Angaben zur Berechnung mit; verlangt die Stadt sie schriftlich, hast du dafür einen Monat Zeit.",
+      "quote": "Jede bzw. jeder Beitragspflichtige hat die zur Berechnung des Beitrages erforderlichen Angaben des vorvergangenen Jahres bis zum 30. Juni des Erhebungsjahres oder – soweit die Stadt dazu schriftlich auffordert – innerhalb eines Monats nach Aufforderung mit dem dafür von der Stadt vorgesehen Formblatt mitzuteilen"
+    },
+    "deadline": {
+      "text": "Der Beitrag ist jedes Jahr zum 1. September fällig; Nachzahlungen sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Abgabe ist jeweils zum 01.09. eines jeden Jahres fällig. Nachzahlungen sind innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Inkrafttreten nennt die Satzung an ihrem Ende den 1. Januar 2018.",
+        "quote": "Diese Satzung tritt am 01.01.2018 in Kraft."
+      },
+      {
+        "text": "Deine beitragspflichtige Tätigkeit zeigst du der Stadt innerhalb eines Monats nach dem Beginn an.",
+        "quote": "Die beitragspflichtige Tätigkeit ist innerhalb eines Monats nach Aufnahme anzuzeigen."
+      },
+      {
+        "text": "Bei umsatzsteuerpflichtigen Betrieben zählen die Einnahmen ohne die geschuldete Umsatzsteuer.",
+        "quote": "im Falle der Umsatzsteuerpflicht um die geschuldete Umsatzsteuer bereinigt."
+      },
+      {
+        "text": "Hast du deine Tätigkeit erst im Erhebungsjahr, im Jahr davor oder im vorvergangenen Jahr begonnen, zählt stattdessen der Umsatz des Erhebungsjahres.",
+        "quote": "Abweichend hiervon ist der Umsatz des jeweiligen Erhebungsjahres zugrunde zu legen: a) wenn die beitragspflichtige Tätigkeit erst im Erhebungsjahr, im Jahr davor oder im Laufe des vorvergangenen Jahres begonnen wurde;"
+      },
+      {
+        "text": "Übst du mehrere der aufgeführten Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere der in Anlage 1 zu dieser Satzung aufgeführten Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/wittmund/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 30,
+    "maxPerStay": false,
+    "childLimits": [
+      4,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptgästebeitragszeit",
+        "ranges": [
+          [
+            "03-15",
+            "01-06"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "Nebengästebeitragszeit",
+        "ranges": [
+          [
+            "01-07",
+            "03-14"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Gästebeitragszone 1 (Carolinensiel)",
+        "periods": [
+          {
+            "label": "Hauptgästebeitragszeit",
+            "ranges": [
+              [
+                "03-15",
+                "01-06"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
+            ]
+          },
+          {
+            "label": "Nebengästebeitragszeit",
+            "ranges": [
+              [
+                "01-07",
+                "03-14"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästebeitragszone 2 (Altfunnixsiel)",
+        "periods": [
+          {
+            "label": "Hauptgästebeitragszeit",
+            "ranges": [
+              [
+                "03-15",
+                "01-06"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0,
+              125
+            ]
+          },
+          {
+            "label": "Nebengästebeitragszeit",
+            "ranges": [
+              [
+                "01-07",
+                "03-14"
+              ]
+            ],
+            "adult": 125,
+            "children": [
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

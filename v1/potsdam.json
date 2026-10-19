@@ -1,0 +1,104 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "potsdam",
+  "name": "Landeshauptstadt Potsdam",
+  "short": "Potsdam",
+  "ags": "12054000",
+  "state": "Brandenburg",
+  "district": "Potsdam",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungsteuersatzung) in der Landeshauptstadt Potsdam vom 29.07.2014 in der Fassung vom 12.03.2025, Lesefassung",
+      "url": "https://www.potsdam.de/system/files/document/Lesefassung%20%C3%9Cbernachtungssteuersatzung%20vom%2029_07_2014%20in%20der%20Fassung%20vom%2012_03_2025_0.pdf",
+      "kind": "municipality",
+      "inForce": "2025-04-01",
+      "sha256": "22eab1687a1e12c47a2213cc4657eda63e282a721aef5d8c712215d6a5af555b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "seite": {
+      "title": "Übernachtungsteuer, Virtuelles Rathaus der Landeshauptstadt Potsdam",
+      "url": "https://vv.potsdam.de/vv/produkte/173010100000012252.php",
+      "kind": "municipality",
+      "inForce": "2025-04-01",
+      "sha256": "53460e5331f9f3fa49bb202ebd4154aec41d4f221635f49a6fc1e8d71dfabe6a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "hashOf": "text"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 7.5,
+      "quote": "Die Übernachtungsteuer beträgt 7,5 % der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt, das der Gast für die Übernachtung aufwendet, abzüglich der Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist das von dem Gast für die Übernachtung aufgewendete Entgelt (abzüglich der Umsatzsteuer).",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Der Betreiber eines Beherbergungsbetriebes schuldet die Steuer."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides an die Steuerpflichtige bzw. den Steuerpflichtigen fällig."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Steuererklärung auf dem amtlichen Vordruck ein.",
+      "quote": "Der Betreiber des Beherbergungsbetriebes ist verpflichtet, bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres bei der zur Erhebung der Abgabe zuständigen Stelle der Landeshauptstadt Potsdam eine Erklärung nach amtlich vorgeschriebenen Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige Gäste zahlen nichts, ebenso Gäste bis zum 27. Lebensjahr in Einrichtungen, die überwiegend Jugendliche für Erziehungs-, Ausbildungs- oder Fortbildungszwecke aufnehmen.",
+        "quote": "Die Beherbergung minderjähriger Gäste sowie die Beherbergung von Gästen bis zur Vollendung des 27. Lebensjahres in Einrichtungen, die überwiegend Jugendliche für Erziehungs-, Ausbildungs- oder Fortbildungszwecke aufnehmen, ist steuerfrei."
+      },
+      {
+        "text": "Beherbergungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "quote": "Beherbergungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. April 2024.",
+        "quote": "Seit dem 01.04.2024 werden alle entgeltlichen Übernachtungen besteuert.",
+        "source": "seite"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € je Gast für das Frühstück sowie je 10 € für Mittag- und Abendessen ab.",
+        "quote": "Sofern die Aufteilung einer Gesamtrechnung in Übernachtungsentgelt und Entgelt für sonstige Dienstleistungen ausnahmsweise nicht möglich ist, gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung / Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/potsdam/",
+  "calculation": {
+    "kind": "town",
+    "percent": 7.5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

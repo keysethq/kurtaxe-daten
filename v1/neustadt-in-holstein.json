@@ -1,0 +1,300 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "neustadt-in-holstein",
+  "name": "Stadt Neustadt in Holstein",
+  "short": "Neustadt in Holstein",
+  "ags": "01055032",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Neustadt in Holstein, gültig ab 01.01.2026",
+      "url": "https://www.stadt-neustadt.de/media/custom/2455_2802_1.PDF?1764251314",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "1f55d9ae0ec011f92c08687a6f278e23d3e02e88d3d8b3e9e113be09a0cbfdc3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ta": {
+      "title": "Satzung der Stadt Neustadt in Holstein über die Erhebung einer Tourismusabgabe, Lesefassung (gültig ab 01.01.2026)",
+      "url": "https://www.stadt-neustadt.de/media/custom/3563_295_1.PDF",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "99e322ebbad2c07e535b6c5770f38f5675c1752dd7823f37dbcd7f14f75ed361",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 270,
+          "quote": "Der Abgabensatz je Aufenthaltstag beträgt in der a) Vorsaison = 1,60 €, b) Hauptsaison = 2,70 €, c) Nachsaison = 1,60 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "04-30"
+          },
+          {
+            "from": "10-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 160,
+          "quote": "Der Abgabensatz je Aufenthaltstag beträgt in der a) Vorsaison = 1,60 €, b) Hauptsaison = 2,70 €, c) Nachsaison = 1,60 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": true,
+      "text": "höchstens 28 Tage ununterbrochenen Aufenthaltes",
+      "quote": "Die Kurabgabe wird für längstens 28 Tage ununterbrochenen Aufenthaltes erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Nahe Verwandte von Einwohnern mit Hauptwohnsitz im Erhebungsgebiet, auf Antrag, wenn sie unentgeltlich aufgenommen sind und die Einrichtungen nicht nutzen",
+        "quote": "auf Antrag Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen mit Hauptwohnsitz im Erhebungsgebiet, soweit sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen wurden, sie die Leistungen gemäß § 1 nicht in Anspruch nehmen und nicht selbst dem Personenkreis im Sinne des § 4 Abs. 2 Buchst. b angehören;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80; die Begleitperson bei Merkzeichen B",
+        "quote": "schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 % nachweisen. Eine begleitende Person ist von der Kurabgabe befreit, wenn die Anerkennung des Merkzeichens \"B\" nachgewiesen wird."
+      },
+      {
+        "text": "Wer beruflich oder dienstlich nur vorübergehend da ist und die Einrichtungen nicht nutzt",
+        "quote": "Personen, die in Ausübung ihres Dienstes oder Berufs nur vorübergehend im Erhebungsgebiet anwesend sind und die Leistungen gemäß § 1 nicht in Anspruch nehmen oder bei denen die Nutzung dieser Leistungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört;"
+      },
+      {
+        "text": "Wer eine Gästekarte oder ostseecard einer anderen kurabgabeerhebenden Gemeinde in Schleswig-Holstein vorzeigt, ist bei Gegenseitigkeit an einem Tag befreit",
+        "quote": "Personen, die eine Gästekarte oder \"ostseecard\" (auch in Form von Jahreskurkarten) aus einer anderen kurabgabeerhebenden Gemeinde in Schleswig-Holstein vorweisen, sind bei der Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tag von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer in Neustadt arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Eigentümer und Dauernutzer von Wohnungen, Wohnwagen oder Booten mit Dauerliegeplatz sowie Gäste auf Antrag zahlen pauschal für 28 Tage der Hauptsaison (Jahreskurabgabe, 75,60 € je Person).",
+        "quote": "auf 28 Tage der Hauptsaisonzeit pauschaliert (Jahreskurabgabe)"
+      },
+      {
+        "text": "Wer ohne Nachweis angetroffen wird, zahlt zusätzlich 5 € Nachlösebetrag.",
+        "quote": "zahlen zusätzlich zum jeweils zur entrichtenden Kurabgabe einen Nachlösebetrag von 5 €."
+      },
+      {
+        "text": "Du gibst jedem aufgenommenen Gast ab 6 Jahren eine ostseecard aus.",
+        "quote": "jedem aufgenommenen Gast ab 6 Jahren eine \"ostseecard\" auszuhändigen."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe auf Antrag innerhalb eines Monats nach Abreise erstattet, gegen Rückgabe der ostseecard und deine schriftliche Bescheinigung.",
+        "quote": "erhalten im Falle des vorzeitigen Abbruchs ihres vorgesehenen Aufenthalts auf Antrag die nach Tagen berechnete zu viel gezahlte Kurabgabe innerhalb eines Monats"
+      },
+      {
+        "text": "Du haftest für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Jede/r Unterkunftsgeber/in haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an den Tourismus-Service Neustadt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, errechnet die Kurabgabe, zieht sie vom Gast ein und führt sie an den Tourismus-Service Neustadt ab oder erteilt die Lastschriftermächtigung.",
+      "quote": "Jede/r Unterkunftsgeber/in ist verpflichtet, für die von ihm/ihr ausgehändigte \"ostseecard\" die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an den Tourismus-Service Neustadt nach Rechnungsstellung kostenfrei abzuführen, oder aber dem Tourismus-Service Neustadt die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird nach Rechnungsstellung des Tourismus-Service.",
+      "quote": "an den Tourismus-Service Neustadt nach Rechnungsstellung kostenfrei abzuführen"
+    },
+    "reporting": {
+      "text": "Die Anmeldung für die ostseecard muss innerhalb von sieben Tagen beim Tourismus-Service Neustadt eingereicht sein.",
+      "quote": "Die für den Tourismus-Service Neustadt bestimmte Kopie muss innerhalb von sieben Tagen von den Unterkunftsgebern beim Tourismus-Service Neustadt eingereicht sein."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Neustadt unmittelbar oder mittelbar Vorteile bietet und du selbstständig tätig bist.",
+      "quote": "Abgabepflichtig sind alle selbstständig tätigen natürlichen und juristischen Personen, denen durch den Tourismus in der Stadt unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Zimmer- und Wohnungsvermietung (Vorteilsstufe 4)",
+        "quote": "88. Zimmer-/Wohnungsvermieter/innen 4 4 Betten/Schlafgelegenheiten",
+        "units": {
+          "count": 4,
+          "per": "Bett",
+          "value": {
+            "cents": 5085,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 6) beträgt 50,85 €."
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltlagerplätze, Wohnmobilstellplätze (Vorteilsstufe 4)",
+        "quote": "13. Camping- und Zeltlagerplätze, Wohnmobilstellplätze 4 8 Einzelplätze",
+        "units": {
+          "count": 8,
+          "per": "Stellplatz",
+          "value": {
+            "cents": 5085,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 6) beträgt 50,85 €."
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Beträge unter 15 Euro im Jahr werden nicht festgesetzt.",
+      "quote": "Abgabebeträge von weniger als 15,00 € je Erhebungszeitraum werden nicht festgesetzt."
+    },
+    "reporting": {
+      "text": "Bis zum 15. Juli jedes Jahres teilst du der Stadt ohne Aufforderung die Angaben mit, die für die Berechnung nötig sind.",
+      "quote": "Abgabepflichtige Personen haben der Stadt, Amt für Finanzen und allgemeine Verwaltung, Sachgebiet Steuern, bis zum 15. Juli jeden Jahres ohne Aufforderung die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids, in einer Summe an die Stadtkasse.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig und an die Stadtkasse in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Es ist eine Jahresabgabe, kein Betrag je Gast oder Nacht.",
+        "quote": "Die Abgabe wird als Jahresabgabe erhoben."
+      },
+      {
+        "text": "Hast du mehr oder weniger Betten als vier, wird anteilig gerechnet.",
+        "quote": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+      },
+      {
+        "text": "Maßgeblich sind die Verhältnisse am 1. Juli des Jahres.",
+        "quote": "Hierbei sind die Verhältnisse am 1. Juli des Kalenderjahres für den Erhebungszeitraum maßgeblich."
+      },
+      {
+        "text": "Hat jemand anderes deine Vermietung übernommen, muss auch diese Person der Stadt die Angaben machen.",
+        "quote": "Dies gilt in den Fällen der Anlage 1, Ziffer 88, auch für natürliche und juristische Personen, welche mit der Vermietung beauftragt wurden."
+      },
+      {
+        "text": "Machst du keine Angaben, kann die Berechnungsgrundlage geschätzt werden.",
+        "quote": "Werden keine Angaben gemacht, so kann die Berechnungsgrundlage geschätzt werden."
+      },
+      {
+        "text": "Du zahlst nur für die vollen Monate, in denen du vermietest; fängst du nach dem 31. August an oder hörst du bis zum 15. Mai auf, entfällt die Abgabe.",
+        "quote": "Die Abgabe für den Erhebungszeitraum ermäßigt sich gegebenenfalls auf so viele Zwölftel, wie die Erwerbstätigkeit volle Kalendermonate im Erhebungszeitraum bestanden hat; sie entfällt, wenn die Erwerbstätigkeit bis zum 15. Mai eingestellt oder nach dem 31. August aufgenommen wird."
+      },
+      {
+        "text": "Der Satz von 50,85 Euro gilt in der Fassung der 1. Nachtragssatzung vom 27.11.2025.",
+        "quote": "1. Nachtragssatzung 27.11.2025 27.11.2025 Internet § 1 Absatz 4 und § 8 Absatz 2"
+      },
+      {
+        "text": "Mit Mietwohnwagen und Ähnlichem sind es sechs Einzelplätze je Vorteilseinheit.",
+        "quote": "bzw. 6 Einzelplätze mit Mietwohnwagen o.ä."
+      },
+      {
+        "text": "Für Hotels besteht eine Vorteilseinheit aus 4 Betten zuzüglich 10 Sitzplätzen (Vorteilsstufe 4).",
+        "quote": "39. Hotels 4 4 Betten sowie zuzüglich 10 Sitzplätze"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/neustadt-in-holstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": true,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 270,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "12-31"
+          ]
+        ],
+        "adult": 160,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

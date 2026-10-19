@@ -1,0 +1,263 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "breege",
+  "name": "Breege",
+  "short": "Breege",
+  "ags": "13073013",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Breege (Kurabgabesatzung), Beschluss der Gemeindevertretung vom 01.12.2021",
+      "url": "https://www.breege.de/hp2020/wp-content/uploads/2021/12/Kurabgabesatzung_Breege_2022.pdf",
+      "kind": "municipality",
+      "inForce": "2022-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "d59e19eafc57d2fde6d1aaaed1b358ce9c966ab6193b1bce876d45e1272517f6",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Breege – staatlich anerkanntes Seebad (nichtamtliche Lesefassung der Satzung vom 26.03.2007, Ortsrecht des Amtes Nord-Rügen)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/1/8/6/Satzung-_ber-die-Erhebung-einer-Fremdenverkehrsabgabe-in-der-Gemeinde-Breege.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "d1b75a8387eee31d88dd5101bb2f02821e7f46ee491b22fb986f9f7923a46072",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+        },
+        "children": [
+          {
+            "underAge": 10,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 10. Lebensjahres (10. Geburtstag — 1 Tag);"
+          },
+          {
+            "underAge": 17,
+            "cents": 150,
+            "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 10. bis zur Vollendung des 17. Lebensjahres."
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+        },
+        "children": [
+          {
+            "underAge": 10,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 10. Lebensjahres (10. Geburtstag — 1 Tag);"
+          },
+          {
+            "underAge": 17,
+            "cents": 80,
+            "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 10. bis zur Vollendung des 17. Lebensjahres."
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre erforderliche Begleitperson (Kennzeichen B oder G im Ausweis)",
+        "quote": "Personen mit einem Behinderungsgrad von 100 gegen Vorlage des Ausweises und deren erforderliche Begleitperson (Voraussetzung Kennzeichen B oder G auf dem amtlichen Schwerbehindertenausweis)"
+      },
+      {
+        "text": "Einwohner von Breege gelten nicht als ortsfremd",
+        "quote": "Einwohner der Gemeinde Breege;"
+      },
+      {
+        "text": "Wer in Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis steht oder sich überwiegend aus beruflichen Gründen dort aufhält (zum Beispiel auf einer Dienstreise), gilt nicht als ortsfremd",
+        "quote": "Personen, die in der Gemeinde Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen oder einen vom Gewerbeamt genehmigten Gewerbe nachgehen, sowie Personen, die sich vorübergehend in der Gemeinde Breege in Ausübung ihres Berufes im Erhebungsgebiet aufhalten (zum Beispiel Dienstreisen), soweit der Aufenthalt ganz oder zumindest weit überwiegend aus beruflichen Gründen erfolgt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kinder zahlen den ermäßigten Satz nur in Begleitung ihrer Eltern.",
+        "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 10. bis zur Vollendung des 17. Lebensjahres."
+      },
+      {
+        "text": "Ermäßigt zahlen auch Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis 27 Jahre, jeweils mit Nachweis.",
+        "quote": "Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden."
+      },
+      {
+        "text": "Ermäßigt zahlen auch Schwerbehinderte ab 50 Prozent Behinderung gegen Vorlage des Ausweises.",
+        "quote": "Schwerbehinderte ab 50% Behinderung, sofern sie den Behindertenausweis vorlegen."
+      },
+      {
+        "text": "Ermäßigt zahlen auch Begleitpersonen von körperbehinderten Gästen mit ärztlicher Bescheinigung.",
+        "quote": "Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird."
+      },
+      {
+        "text": "Ermäßigt zahlen auch Rentner und Vorruheständler mit Nachweis.",
+        "quote": "Rentner und im Vorruhestand befindliche Personen, die ihren Rentennachweis bzw. Vorruhestandsnachweis vorlegen."
+      },
+      {
+        "text": "Für mitgebrachte Hunde werden ganzjährig 0,80 € pro Aufenthaltstag fällig.",
+        "quote": "Für mitgebrachte Hunde ist durch den Halter oder Besitzer ganzjährig eine Abgabe je Aufenthaltstag in Höhe von 0,80 € zu entrichten."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 66,00 € (ermäßigt 36,00 €).",
+        "quote": "Der Abgabepflichtige kann anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurkarte erwerben. (3) Die Jahreskurabgabe beträgt pro Person und Kalenderjahr 66,00 €, die ermäßigte Jahreskurabgabe beträgt pro Person und Kalenderjahr 36,00 €."
+      },
+      {
+        "text": "Die Kurabgabensätze enthalten die Mehrwertsteuer.",
+        "quote": "Die Kurabgabensätze beinhalten die gesetzlich gültige Mehrwertsteuer."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und gibt den Gästen eine Kurkarte.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und Ihnen die manuell oder elektronisch ausgefüllten Kurkarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich, spätestens bis zum fünften Tag des Folgemonats.",
+      "quote": "die Kurabgabe nicht spätestens bis zum fünften Tag eines jeden Monats für den vorangegangenen Monat an die Kurverwaltung Breege abführt"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den besonderen Meldescheinen der Kurverwaltung oder nach vorheriger Anmeldung über ein autorisiertes elektronisches Meldesystem.",
+      "quote": "Der Wohnungsgeber ist verpflichtet, diese besonderen Meldevordrucke zu nutzen. Alternativ kann der Wohnungsgeber nach vorheriger Anmeldung, anstelle der besonderen Vordrucke ein von der Kurverwaltung Breege autorisiertes elektronisches Meldesystem verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du aus dem Fremdenverkehr in Breege Vorteile ziehst.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen, die aus dem Fremdenverkehr Vorteile erzielen."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "a) bei Beherbergungsbetrieben und Zimmervermietern 6,00 EUR je Bett, jedoch mindestens 10,00 EUR",
+        "flat": {
+          "cents": 600,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Du zahlst mindestens 10,00 € im Jahr.",
+      "quote": "jedoch mindestens 10,00 EUR",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Die Zahlenangaben zur Berechnung teilst du der Gemeinde Breege bis zum 15. Juli jedes Jahres mit.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde Breege bis zum15. Juli j. J. die erforderlichen Zahlenangaben zur Berechnung der Abgabe (§ 5) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe zwei Wochen nach Bekanntgabe des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe ist innerhalb von 2 Wochen nach Bekanntgabe des Veranlagungsbescheides fällig und an die Gemeinde Breege in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du am 1. Juli gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern nach der Zahl der am 01. Juli j. J. vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Diese Satzung von 2007 hat die Satzung vom 29. April 1996 abgelöst.",
+        "quote": "Gleichzeitig tritt die Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Breege – staatlich anerkanntes Seebad – vom 29.April 1996 außer Kraft."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/breege/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      10,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          80
+        ]
+      }
+    ]
+  }
+}

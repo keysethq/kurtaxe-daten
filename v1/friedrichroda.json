@@ -1,0 +1,297 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "friedrichroda",
+  "name": "Stadt Friedrichroda",
+  "short": "Friedrichroda",
+  "ags": "16067019",
+  "state": "Thüringen",
+  "district": "Gotha",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Friedrichroda über die Erhebung eines Kurbeitrages vom 17.07.2018",
+      "url": "https://friedrichroda.de/satzungsrecht?_hash=VeZpjX3t76TOQedkNFgRaqSIDichydRkN9x1lz4d8Xw%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A286%3B%7D&p=inhalte%2Frathaus%2Fsatzungen%2Fallgemeine-finanzverwaltung%2FKurbeitragssatzung_Friedrichroda.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "sha256": "2743a8fd92a941a0714fd4f7e4319db781813247f682c611b3802781bef0c01f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahr (5,99 Jahre)."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten während der Dauer ihres Aufenthaltes. Diese Vergünstigung gilt nicht für deren Familienangehörige."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltlich Aufnahme finden."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Personen, die von ihrem ständigen Wohnsitz aus Kurmittel in Wege ambulanter Behandlung in Anspruch nehmen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Erhebungsgeebiet ist die Stadt Friedrichroda mit dem Ortsteil Finsterbergen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Der Kurbeitrag wird um 50% ermäßigt für Schwerbehinderte mit Behinderungsgrad von mindestens 50%"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "Sie haften der Stadt Friedrichroda gegenüber für den vollständigen und richtigen Einzug des Kurbeitrages."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Die Beherbergungsstätten haben den satzungsgemäßen Kurbeittag von den kurbeitragspflichtigen Personen treuhänderisch einzuziehen und an die Stadt Friedrichroda abzuführen."
+        }
+      ]
+    },
+    "aenderung1": {
+      "title": "1. Änderung der Satzung der Stadt Friedrichroda über die Erhebung eines Kurbeitrages vom 06.04.2023",
+      "url": "https://friedrichroda.de/satzungsrecht?_hash=Ez79BuqPQ8GNoFQmIzerUtPGLEB%2FOV3%2Fmx1%2FdlCyn8k%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A286%3B%7D&p=inhalte%2Frathaus%2Fsatzungen%2Fallgemeine-finanzverwaltung%2F1._AEnderung_der_Satzung_der_Stadt_Friedrichroda_ueber_die_Erhebung_eines_Kurbeitrages.pdf",
+      "kind": "statute",
+      "inForce": null,
+      "sha256": "ddd4b3920294ac9835e21e499627a71c146eaea0d424ace0f25dd56f1383b9e6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "remarks[6]",
+          "page": 2,
+          "reading": "Die Beherbergungsstätten sind eigenverantwortlich für die Korrektheit und Vollständigkeit der angegebenen Daten zuständig."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen und im Online-System erfassten Kurbeiträge werden jeweils im Folgemonat von der Stadt berechnet."
+        }
+      ]
+    },
+    "aenderung2": {
+      "title": "2. Änderung der Satzung der Stadt Friedrichroda über die Erhebung eines Kurbeitrages vom 12.12.2024",
+      "url": "https://friedrichroda.de/satzungsrecht?_hash=Uoub6CQDdY3b0JVFBiXuqrEh%2FnczIxWjGzNY2W2d%2FFA%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A286%3B%7D&p=inhalte%2Frathaus%2Fsatzungen%2Fallgemeine-finanzverwaltung%2F2._AEnderung_der_Satzung_der_Stadt_Friedrichroda_ueber_die_Erhebung_eines_Kurbeitrages.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "c78b809d1c85e53bc00bd7b1675a1ac7ac200860be456c71eb08a27417d195be",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "reporting",
+          "page": 1,
+          "reading": "Der Wohnungsgeber hat die gemäß 8 8 Absatz 6 vorgeschriebenen Angaben vollständig online im System der Stadt bei Gastankunft zu erfassen."
+        }
+      ]
+    },
+    "aenderung3": {
+      "title": "3. Änderung der Satzung der Stadt Friedrichroda über die Erhebung eines Kurbeitrages vom 06.11.2025",
+      "url": "https://friedrichroda.de/satzungsrecht?_hash=UPaKFJQR4FYT5p4EMM2g881ihOrHQiPfyGrbT5ssjbs%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A286%3B%7D&p=inhalte%2Frathaus%2Fsatzungen%2Fallgemeine-finanzverwaltung%2F3._AEnderung_der_Satzung_der_Stadt_Friedrichroda_ueber_die_Erhebung_eines_Kurbeitrages__Ausfertigung_.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-05",
+      "sha256": "4bb8812078501baa290f884b3290d830abdabe7b9de99a40d0fbd02b1474ce8a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Personen über 16 Jahre 3,50 €"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "Kinder 6 - 16 Jahre 2,20 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "Kinder 6 - 16 Jahre 2,20 €"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "b) in Kinderferieneinrichtungen und Jugendherbergen, soweit diese als Träger der freien Jugendhilfe (875 SGB VIII) anerkannt sind Personen über 16 Jahre 2,30 € Kinder 6 - 16 Jahre 1,30 €",
+          "digitsUnread": true
+        },
+        {
+          "where": "remarks[3]",
+          "page": 1,
+          "reading": "Der Kurbeitrag beträgt pro Person und Tag einschließlich der gesetzlichen Mehrwertsteuer"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Personen über 16 Jahre je Person: 50,00 €"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Personen über 16 Jahre 3,50 €",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr (5,99 Jahre)."
+          },
+          {
+            "underAge": 17,
+            "cents": 220,
+            "quote": "Kinder 6 – 16 Jahre 2,20 €",
+            "source": "aenderung3"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Ortsfremde, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten, für die Dauer ihres Aufenthalts, aber nicht ihre Familienangehörigen",
+        "quote": "Ortsfremde Personen, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten während der Dauer ihres Aufenthaltes. Diese Vergünstigung gilt nicht für deren Familienangehörige."
+      },
+      {
+        "text": "Besuch einer Familie am Ort ohne Entgelt",
+        "quote": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltlich Aufnahme finden."
+      },
+      {
+        "text": "Personen, die von ihrem ständigen Wohnsitz aus Kurmittel ambulant nutzen",
+        "quote": "Personen, die von ihrem ständigen Wohnsitz aus Kurmittel im Wege ambulanter Behandlung in Anspruch nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag wird in der Stadt Friedrichroda mit dem Ortsteil Finsterbergen erhoben, das ganze Jahr.",
+        "quote": "Erhebungsgebiet ist die Stadt Friedrichroda mit dem Ortsteil Finsterbergen."
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 zahlen die Hälfte.",
+        "quote": "Der Kurbeitrag wird um 50% ermäßigt für Schwerbehinderte mit Behinderungsgrad von mindestens 50%"
+      },
+      {
+        "text": "In anerkannten Kinderferieneinrichtungen und Jugendherbergen zahlen Personen über 16 Jahre 2,30 Euro und Kinder von 6 bis 16 Jahren 1,30 Euro.",
+        "quote": "b) in Kinderferieneinrichtungen und Jugendherbergen, soweit diese als Träger der freien Jugendhilfe (§75 SGB VIII) anerkannt sind Personen über 16 Jahre 2,30 € Kinder 6 – 16 Jahre 1,30 €",
+        "source": "aenderung3"
+      },
+      {
+        "text": "Der Kurbeitrag enthält die gesetzliche Mehrwertsteuer.",
+        "quote": "Der Kurbeitrag beträgt pro Person und Tag einschließlich der gesetzlichen Mehrwertsteuer",
+        "source": "aenderung3"
+      },
+      {
+        "text": "Wer eine Zweitwohnung im Erhebungsgebiet hat, zahlt statt des Tagessatzes einen pauschalen Jahreskurbeitrag; er beträgt für Personen über 16 Jahre 50,00 Euro.",
+        "quote": "Personen über 16 Jahre je Person: 50,00 €",
+        "source": "aenderung3"
+      },
+      {
+        "text": "Du haftest der Stadt gegenüber für den vollständigen und richtigen Einzug des Kurbeitrages.",
+        "quote": "Sie haften der Stadt Friedrichroda gegenüber für den vollständigen und richtigen Einzug des Kurbeitrages."
+      },
+      {
+        "text": "Die Beherbergungsstätten sind für die Korrektheit und Vollständigkeit der angegebenen Daten selbst verantwortlich.",
+        "quote": "Die Beherbergungsstätten sind eigenverantwortlich für die Korrektheit und Vollständigkeit der angegebenen Daten zuständig.",
+        "source": "aenderung1"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag treuhänderisch von ihnen ein und führt ihn an die Stadt ab.",
+      "quote": "Die Beherbergungsstätten haben den satzungsgemäßen Kurbeitrag von den kurbeitragspflichtigen Personen treuhänderisch einzuziehen und an die Stadt Friedrichroda abzuführen."
+    },
+    "deadline": {
+      "text": "Die Stadt berechnet den Kurbeitrag, der im Laufe eines Monats fällig wurde und im Online-System erfasst ist, jeweils im Folgemonat.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen und im Online-System erfassten Kurbeiträge werden jeweils im Folgemonat von der Stadt berechnet.",
+      "source": "aenderung1"
+    },
+    "reporting": {
+      "text": "Die Gästedaten erfasst du vollständig online im System der Stadt, wenn der Gast ankommt.",
+      "quote": "Der Wohnungsgeber hat die gemäß § 8 Absatz 6 vorgeschriebenen Angaben vollständig online im System der Stadt bei Gastankunft zu erfassen.",
+      "source": "aenderung2"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/friedrichroda/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          220
+        ]
+      }
+    ]
+  }
+}

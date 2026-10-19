@@ -1,0 +1,206 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "strande",
+  "name": "Strande",
+  "short": "Strande",
+  "ags": "01058157",
+  "state": "Schleswig-Holstein",
+  "district": "Rendsburg-Eckernförde",
+  "sources": {
+    "satzung": {
+      "title": "Kurabgabensatzung der Gemeinde Strande in der Fassung der 1. Änderungssatzung vom 10.12.2025 (Lesefassung, Amt Dänischenhagen)",
+      "url": "https://www.amt-daenischenhagen.de/amt_daenischenhagen/Amt%20und%20Gemeinden/Strande/Satzungen/09.12.2025%20-%2020251209%20Kurabgabensatzung%20-%20Lesefassung%20-%20AllgemeinSatzung%20-%20Lesefassung%20nach%201.%20%C3%84nder.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "7ca9a353f0257cad556e953b7c5b2a17505f784d8558bf613a2f304d051bcf9d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung": {
+      "title": "1. Änderung der Kurabgabensatzung der Gemeinde Strande (Beschluss 09.12.2025, ausgefertigt 10.12.2025), Bekanntmachung des Amtes Dänischenhagen",
+      "url": "https://www.amt-daenischenhagen.de/amt_daenischenhagen/Verwaltung/Aktuelles%20und%20Bekanntmachungen/1.%20%C3%84nderung%20der%20Kurabgabensatzung%20der%20Gemeinde%20Strande/",
+      "kind": "statute",
+      "sha256": "cebbde1ada303f59f83373f9674f22db4b93c2dbae0f91ac3e9afd3fc3b72a87",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "ostseecard": {
+      "title": "Ostseecard-Broschüre Ostseebad Strande 2025/2026, Gemeinde Strande",
+      "url": "https://www.strande.de/files/theme-styles/download/Protokolle/2025/Ostseecard.%20Broschu%CC%88re%20Strande%202025%20klein.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "66c60f3cb7053ba822726f5a67e3c7ceb3187dbfa7ef5c66432a1376d4c45211",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag gelten zusammen als 1 Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "in der Zeit vom 01. April bis 31. Oktober (Hauptsaison) 1,50 €, höchstens jedoch 42,00 €"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zum vollendeten 14. Lebensjahr."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "in der übrigen Zeit (Nebensaison) 1,00 €, höchstens jedoch 28,00 €"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zum vollendeten 14. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 50 und Merkzeichen B oder mit einem Grad der Behinderung von 100 und ihre ständige Begleitperson sind befreit, wenn der Eintrag „B“ im Behindertenausweis steht.",
+        "quote": "Schwerbehinderte Menschen mit einem Grad der Behinderung von 50 und Merkzeichen oder Grad der Behinderung von 100, sowie die ständige Begleitperson, sind von der Kurabgabe befreit, wenn dies durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Auf Antrag sind befreit: wer in Strande beruflich tätig ist und das durch eine Bescheinigung des Arbeitgebers oder der Ordnungsbehörde nachweist, Reisegewerbetreibende mit Reisegewerbekarte sowie nahe Angehörige von Einwohnern, die ohne Vergütung bei ihnen wohnen, jeweils wenn sie die Einrichtungen nicht nutzen.",
+        "quote": "Von der Kurabgabe gemäß § 3 Abs. 1 werden auf Antrag befreit a) Personen, die in der Gemeinde Strande beruflich tätig sind und dies durch eine Bescheinigung des Arbeitgebers oder der Ordnungsbehörde nachweisen, b) Reisende, die nach § 55 der Gewerbeordnung tätig sind und die von der zuständigen Behörde des Wohnortes ausgestellte Reisegewerbekarte bei der Touristinformation Strande vorlegen, c) Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Strande ihren Wohnsitz oder gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufgenommen sind, wenn sie keine in § 2 Abs. 1 genannten Einrichtungen und Veranstaltungen benutzen bzw. in Anspruch nehmen."
+      },
+      {
+        "text": "Eine Gästekarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Tag.",
+        "quote": "Gästekarten von anderen Ferienorten in Schleswig-Holstein haben für einen Tag Gültigkeit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "In der Hauptsaison ist die Kurabgabe auf höchstens 42,00 €, in der Nebensaison auf höchstens 28,00 € begrenzt.",
+        "quote": "(Hauptsaison) 1,50 €, höchstens jedoch 42,00 €, - in der übrigen Zeit (Nebensaison) 1,00 €, höchstens jedoch 28,00 €"
+      },
+      {
+        "text": "Laut Gemeinde kannst du die Kurabgabe auf 42,00 € begrenzen, wenn ein Gast im Laufe des Jahres 28 Tage in der Hauptsaison oder länger in Strande bleibt.",
+        "quote": "Sollten Sie im Laufe des Jahres 28 Tage in der Hauptsaison oder länger Ihren Urlaub in Strande verbringen, haben Sie die Möglichkeit Ihre Kurabgabe auf 42,00 € zu begrenzen.",
+        "source": "ostseecard"
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung ab 50 zahlen die Hälfte.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 50 und mehr nachweisen, erhalten eine Kurabgabenermäßigung von 50%."
+      },
+      {
+        "text": "Als ortsfremd und damit abgabepflichtig gelten auch Eigentümer und Nutzungsberechtigte einer Wohnung oder eines dauerhaft im Hafen liegenden Sportboots, wenn sie diese überwiegend zur Erholung nutzen.",
+        "quote": "Als ortsfremd im Sinne des § 2 Abs. 1 dieser Satzung gelten auch Personen, die im Erhebungsgebiet a) Eigentümer, Besitzer oder sonstiger Nutzungsberechtigter einer Wohnungseinheit sowie von im Hafen Strande dauerhaft liegenden Sportbooten sind, wenn und soweit sie diese überwiegend zu Erholungszwecken benutzen,"
+      },
+      {
+        "text": "Wer nach dieser Regel abgabepflichtig ist, zahlt unabhängig von der tatsächlichen Aufenthaltsdauer die Höchstabgabe, zum Tarif der Hauptsaison aber nur, wenn die Wohnung oder das Boot mindestens 2 Monate der Hauptsaison genutzt werden kann; sonst gilt der Tarif der Nebensaison.",
+        "quote": "Von abgabepflichtigen Personen nach § 5 Abs. 1 a) wird unabhängig von der tatsächlichen Aufenthaltsdauer die Kurabgabe in Höhe der Höchstabgabe nach Abs. 1 erhoben. Die Höchstabgabe zum Tarif der Hauptsaison wird nur erhoben, soweit für einen Zeitraum von mindestens 2 Monaten in der Hauptsaison nach Abs. 1 eine Nutzungsmöglichkeit besteht. Andernfalls wird die Höchstabgabe zum Tarif der Nebensaison erhoben.",
+        "source": "aenderung"
+      },
+      {
+        "text": "Wer eine solche Wohnung oder ein solches Boot im ganzen Jahr weniger als 2 Monate nutzen kann, zahlt die Kurabgabe für jeden zweiten Tag der Nutzungsmöglichkeit, höchstens für 27 Tage; dauert der tatsächliche Aufenthalt länger, zählt dieser.",
+        "quote": "Hat eine abgabenpflichtige Person nach § 5 Abs. 1 a) nur eine Nutzungsmöglichkeit von unter 2 Monaten im ganzen Jahr, wird von ihr die Kurabgabe für jeden zweiten Tag an dem sie diese Möglichkeit innehat, höchstens jedoch für 27 Tage, erhoben. Übersteigt die Dauer des tatsächlichen Aufenthalts die Dauer für die nach S. 1 die Kurabgabe erhoben wird, wird die Kurabgabe für den tatsächlichen Aufenthalt erhoben.",
+        "source": "aenderung"
+      },
+      {
+        "text": "Wer die Kurabgabe erst nach einer Kontrolle der Gemeinde zahlt, zahlt 4,50 € in der Hauptsaison und 3,00 € in der Nebensaison je Person und Tag; dieser erhöhte Betrag zählt nicht für den Höchstsatz.",
+        "quote": "Wird die Kurabgabe erst nachträglich auf Grund einer von der Gemeinde durchgeführten Kontrolle entrichtet, beträgt sie je Person und Tag 4,50 € in der Hauptsaison und 3,00 € in der Nebensaison. Die erhöhte Abgabe nach S. 1 zählt nicht für die Berechnung des Höchstsatzes nach Abs. 1.",
+        "source": "aenderung"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an das Amt Dänischenhagen ab.",
+      "quote": "die Kurabgabe zu errechnen, diese vom Gast einzuziehen und bis spätestens zum 3. Werktag des Folgemonats kostenfrei an das Amt Dänischenhagen abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens bis zum 3. Werktag des Folgemonats.",
+      "quote": "bis spätestens zum 3. Werktag des Folgemonats kostenfrei an das Amt Dänischenhagen abzuführen."
+    },
+    "reporting": {
+      "text": "Das elektronische Meldescheinverfahren ist für alle Vermieter Pflicht; eine Ausnahme gibt es nur in Härtefällen.",
+      "quote": "Das elektronische Meldescheinverfahren ist für alle Unterkunftsgeber/innen in der Gemeinde Strande verpflichtend. Nur in Härtefällen kann eine Ausnahme bei der Touristinformation Strande beantragt werden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/strande/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

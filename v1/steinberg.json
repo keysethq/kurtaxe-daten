@@ -1,0 +1,145 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "steinberg",
+  "name": "Steinberg",
+  "short": "Steinberg",
+  "ags": "01059164",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Steinberg vom 22.11.2021",
+      "url": "https://www.amt-geltingerbucht.de/fileadmin/download/gemeinden/steinberg/ortsrecht/finanzen-steuern/14_5700_ta_2022_0.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "5335a6783ddf3aeb40ce95dc307a5eaa97ace15755847fd2726c5987f6046cf0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Steinberg",
+      "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/steinberg/ortsrecht",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "890fdc3e26f2e37c8db71cdd35189b39e9a17ed66d382594e46dbda52e502c2a",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Steinberg steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Steinberg",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Zahlen müssen alle selbständig Tätigen, denen der Tourismus in Steinberg unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Abgabepflichtig sind alle selbständig Tätigen natürlichen und juristischen Personen, denen durch den Tourismus in der Gemeinde Steinberg unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Fremdenbetten-Vermietung (Vorteilsstufe 4)",
+        "quote": "Fremdenbetten-Vermietung 4 Betten",
+        "units": {
+          "count": 4,
+          "per": "Bett",
+          "value": {
+            "cents": 1700,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 17,00 €"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Du teilst der Gemeinde bis zum 1. Juni jedes Jahres die Angaben mit, die sie für die Berechnung braucht.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde bis zum 1. Juni jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe wird in vier Raten fällig, am 15. Februar, 15. Mai, 15. August und 15. November.",
+      "quote": "Die Abgabe ist jeweils in Vierteljahresraten am 15. Februar, 15. Mai, 15. August und 15. November fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Fremdenbetten-Vermietung steht in der Anlage 4, also in Vorteilsstufe 4.",
+        "quote": "Vorteilsstufe 4: Anlage 4 zu § 8 Absatz 2d)"
+      },
+      {
+        "text": "Hast du mehr oder weniger Betten als die Satzung je Vorteilseinheit ansetzt, wird anteilig gerechnet.",
+        "quote": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+      },
+      {
+        "text": "Eröffnest oder vergrößerst du zwischen dem 1. Juni und dem 30. September einen Betrieb, wirst du nachveranlagt.",
+        "quote": "Abgabepflichtige, die zwischen dem 1. Juni und dem 30. September eines Jahres einen Betrieb eröffnen oder vergrößern, werden nachveranlagt."
+      },
+      {
+        "text": "Gehen deine Angaben nicht ein, kann die Berechnungsgrundlage geschätzt werden.",
+        "quote": "Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+      },
+      {
+        "text": "Bei besonderen Verhältnissen, die die Leistungsfähigkeit eines Abgabepflichtigen außerordentlich beeinträchtigen, kann die Abgabe ganz oder teilweise erlassen werden.",
+        "quote": "Liegen besondere Verhältnisse vor, die die Leistungsfähigkeit eines Abgabepflichtigen in außerordentlichem Maße beeinträchtigen, so kann die Abgabe aus Billigkeitsgründen ganz oder teilweise erlassen werden."
+      },
+      {
+        "text": "Auf Antrag kannst du die Abgabe am 1. Juli in einem Jahresbetrag zahlen; den Antrag stellst du bis zum 30. November für das folgende Jahr.",
+        "quote": "Auf Antrag des Steuerpflichtigen kann die Tourismusabgabe abweichend von Absatz 2 am 01.07. in einem Jahresbetrag entrichtet werden. Der Antrag muss bis zum 30.11. für das folgende Kalenderjahr gestellt werden."
+      },
+      {
+        "text": "Fängst du mit der Vermietung an, zeigst du das der Gemeinde an; wer die Aufnahme der Tätigkeit nicht anzeigt oder verlangte Angaben nicht macht, begeht eine Ordnungswidrigkeit.",
+        "quote": "Wer entgegen § 10 Absatz 1 dieser Satzung der Gemeinde die Aufnahme der abgabenpflichtigen Tätigkeit nicht anzeigt oder auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe nicht oder nicht vollständig mitteilt, begeht eine Ordnungswidrigkeit"
+      },
+      {
+        "text": "Lässt sich die Abgabe nicht mehr in Vierteljahresraten aufteilen, ist sie innerhalb eines Monats nach Zustellung des Bescheids in einer Summe fällig.",
+        "quote": "die Abgabe innerhalb eines Monats nach Zustellung des Heranziehungsbescheides fällig und bei der Amtskasse in einer Summe zu entrichten, sofern eine Aufteilung in Vierteljahresraten nicht mehr möglich ist."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/steinberg/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Fremdenbetten-Vermietung (Vorteilsstufe 4)",
+        "cents": 6800,
+        "per": 4,
+        "unit": "Betten",
+        "rate": "17,00 € je Bett im Jahr."
+      }
+    ]
+  }
+}

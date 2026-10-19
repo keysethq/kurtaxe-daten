@@ -1,0 +1,229 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "tegernsee",
+  "name": "Stadt Tegernsee",
+  "short": "Tegernsee",
+  "ags": "09182132",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages in der Stadt Tegernsee vom 4. Dezember 2024 (Scan)",
+      "url": "https://www.stadt.tegernsee.de/output/download.php?fid=3680.296.1.PDF",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "98cd08109f8708716705e8c4914b2cf6c470b22f03ba3dc47a757116fc83786e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Tage der An- und Abreise werden als ein Tag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Der Beitrag beträgt pro Aufenthaltstag für Personen ab dem vollendeten 16. Lebensjahr 3,00 Euro."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "a) Kinder bis zum vollendeten 6. Lebensjahr,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 % pro Aufenthaltstag (1,50 Euro)."
+        },
+        {
+          "where": "periods[0].children[1] percent",
+          "page": 2,
+          "reading": "Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 % pro Aufenthaltstag (1,50 Euro)."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "notwendige Begleitpersonen für Schwerbehinderte, wenn ein schwerbehinderter Mensch zur Mitnahme einer Begleitperson (Merkzeichen B) berechtigt ist."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Schwerbehinderte mit dem Merkzeichen H (hilflos)."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "erhält der Beitragspflichtige vom Beherbergungsbetrieb eine Gästekarte als elektronisch lesbare Gästekarte in digitaler oder analoger Form."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Betten, so ist die elektronische Datenübermittlung nach den Maßgaben des Abs. 3 verpflichtend."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "kann zulassen, dass der Beitrag erst am Monatsende abgeführt"
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "haften der Stadt Tegernsee gegenüber für den vollständigen Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt Tegernsee abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "spätestens am Tag nach der Anreise auf elektronischem Wege nach Maßgabe des Abs. 3 zu übermitteln"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag für Personen ab dem vollendeten 16. Lebensjahr 3,00 Euro."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a) Kinder bis zum vollendeten 6. Lebensjahr,"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "cents": 150,
+            "quote": "Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 % pro Aufenthaltstag (1,50 Euro)."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbehinderten mit dem Merkzeichen B",
+        "quote": "notwendige Begleitpersonen für Schwerbehinderte, wenn ein schwerbehinderter Mensch zur Mitnahme einer Begleitperson (Merkzeichen B) berechtigt ist."
+      },
+      {
+        "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
+        "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte ab einem Grad der Behinderung von 50 zahlen wie Jugendliche die Hälfte.",
+        "quote": "sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Jeder Gast bekommt von dir als Beherbergungsbetrieb eine elektronisch lesbare Gästekarte als Nachweis.",
+        "quote": "erhält der Beitragspflichtige vom Beherbergungsbetrieb eine Gästekarte als elektronisch lesbare Gästekarte in digitaler oder analoger Form."
+      },
+      {
+        "text": "Mit mehr als 9 Betten ist die elektronische Meldung Pflicht; auf Antrag kann die Stadt bei unbilliger Härte darauf verzichten.",
+        "quote": "Betten, so ist die elektronische Datenübermittlung nach den Maßgaben des Abs. 3 verpflichtend."
+      },
+      {
+        "text": "Die Stadt kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "kann zulassen, dass der Beitrag erst am Monatsende abgeführt"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Stadt für den vollständigen Eingang.",
+      "quote": "haften der Stadt Tegernsee gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt Tegernsee abzuführen."
+    },
+    "reporting": {
+      "text": "Die Angaben deiner Gäste übermittelst du unverzüglich, spätestens am Tag nach der Anreise, elektronisch an die Stadt.",
+      "quote": "spätestens am Tag nach der Anreise auf elektronischem Wege nach Maßgabe des Abs. 3 zu übermitteln"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/tegernsee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

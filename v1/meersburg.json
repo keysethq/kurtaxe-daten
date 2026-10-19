@@ -1,0 +1,301 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "meersburg",
+  "name": "Meersburg",
+  "short": "Meersburg",
+  "ags": "08435036",
+  "state": "Baden-Württemberg",
+  "district": "Bodenseekreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Meersburg über die Erhebung einer Kurtaxe (Kurtaxesatzung) vom 17.10.2023, in Kraft seit 01.01.2024",
+      "url": "https://www.meersburg.de/ceasy/resource/?id=10160",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "34cee8cc07813b9c35bf728f90f9aa0dc2331be4b40db0418801b5ab33ab107a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung2": {
+      "title": "2. Änderungssatzung zur Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Meersburg vom 22.07.2025 (Beschluss), in Kraft seit 01.01.2026",
+      "url": "https://www.meersburg.de/ceasy/resource/11253",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "e2a47769e9cf56e33527c16b9f734be91270fa7f1da3b6599fd9f54cfdce031b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Meersburg über die Erhebung eines Fremdenverkehrsbeitrags (Fremdenverkehrsbeitragssatzung) vom 16. Dezember 1997 in der Fassung vom 20.06.2017",
+      "url": "https://www.meersburg.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1174",
+      "kind": "statute",
+      "inForce": "2017-06-20",
+      "sha256": "9d7de70b8aad5b4c9de4d15ad39710f6ad40061861fb01fb6b1852ac8195bdf5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb6": {
+      "title": "6. Änderungssatzung zur Satzung über die Erhebung eines Fremdenverkehrsbeitrags der Stadt Meersburg, Beschluss vom 17.10.2023",
+      "url": "https://www.meersburg.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1224",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "ca6113a2e8504f4588d92d5c4cb73578fa49a68be4c2dc74050c929799ac42b0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Übriges Stadtgebiet",
+        "area": {
+          "text": "Dieser Satz gilt im ganzen Stadtgebiet außer im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler.",
+          "source": "aenderung2",
+          "quote": "Die Kurtaxe (inkl. Mehrwertsteuer) beträgt vom 01.01. bis 31.12. je Person und Aufenthaltstag: 4,50 Euro, ermäßigt 3,20 Euro (2) Im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler beträgt die Kurtaxe"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 450,
+              "source": "aenderung2",
+              "quote": "Die Kurtaxe (inkl. Mehrwertsteuer) beträgt vom 01.01. bis 31.12. je Person und Aufenthaltstag: 4,50 Euro, ermäßigt 3,20 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 6. Lebensjahr."
+              },
+              {
+                "underAge": 15,
+                "cents": 320,
+                "source": "aenderung2",
+                "quote": "4,50 Euro, ermäßigt 3,20 Euro (2) Im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler beträgt die Kurtaxe (inkl. Mehrwertsteuer) vom 01.01. bis 31.12. je Person und Aufenthaltstag: 3,20 Euro, ermäßigt 2,20 Euro (4) Kurtaxepflichtige Einwohner der Gemeinde nach § 2 Abs. 2 S. 1 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt pro Person 135,00 Euro, ermäßigt 94,50 Euro. (5) Inhaber eines Dauerstandplatzes auf einem Campingplatz nach § 2 Abs. 2 S. 3 haben unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts für die innerhalb eines Dauerstandplatzes untergebrachten kurtaxepflichtigen Personen eine pauschale Jahreskurtaxe zu bezahlen. Diese beträgt pro Person 112,50 Euro, ermäßigt 78,80 Euro. (6) Inhaber eines Bootsliegeplatz in einer Hafenanlage nach § 2 Abs. 2 S. 3 haben unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts für die innerhalb eines Bootsliegeplatzes untergebrachten kurtaxepflichtigen Personen eine pauschale Jahreskurtaxe zu bezahlen. Diese beträgt pro Person 67,50 Euro, ermäßigt 47,30 Euro. Seite 1 § 4 „Befreiungen, Ermäßigungen“ erhält folgende Fassung: § 4 Befreiungen, Ermäßigungen (3) Bei Kindern und Jugendlichen vom vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr wird die Kurtaxe um 30 v.H. gerundet ermäßigt."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Baitenhausen/Schiggendorf/Riedetsweiler",
+        "area": {
+          "text": "Der Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler hat einen eigenen, niedrigeren Satz.",
+          "source": "aenderung2",
+          "quote": "Im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler beträgt die Kurtaxe (inkl. Mehrwertsteuer) vom 01.01. bis 31.12. je Person und Aufenthaltstag"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 320,
+              "source": "aenderung2",
+              "quote": "Im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler beträgt die Kurtaxe (inkl. Mehrwertsteuer) vom 01.01. bis 31.12. je Person und Aufenthaltstag: 3,20 Euro, ermäßigt 2,20 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 6. Lebensjahr."
+              },
+              {
+                "underAge": 15,
+                "cents": 220,
+                "source": "aenderung2",
+                "quote": "4,50 Euro, ermäßigt 3,20 Euro (2) Im Ortsteil Baitenhausen/Schiggendorf/Riedetsweiler beträgt die Kurtaxe (inkl. Mehrwertsteuer) vom 01.01. bis 31.12. je Person und Aufenthaltstag: 3,20 Euro, ermäßigt 2,20 Euro (4) Kurtaxepflichtige Einwohner der Gemeinde nach § 2 Abs. 2 S. 1 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt pro Person 135,00 Euro, ermäßigt 94,50 Euro. (5) Inhaber eines Dauerstandplatzes auf einem Campingplatz nach § 2 Abs. 2 S. 3 haben unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts für die innerhalb eines Dauerstandplatzes untergebrachten kurtaxepflichtigen Personen eine pauschale Jahreskurtaxe zu bezahlen. Diese beträgt pro Person 112,50 Euro, ermäßigt 78,80 Euro. (6) Inhaber eines Bootsliegeplatz in einer Hafenanlage nach § 2 Abs. 2 S. 3 haben unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts für die innerhalb eines Bootsliegeplatzes untergebrachten kurtaxepflichtigen Personen eine pauschale Jahreskurtaxe zu bezahlen. Diese beträgt pro Person 67,50 Euro, ermäßigt 47,30 Euro. Seite 1 § 4 „Befreiungen, Ermäßigungen“ erhält folgende Fassung: § 4 Befreiungen, Ermäßigungen (3) Bei Kindern und Jugendlichen vom vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr wird die Kurtaxe um 30 v.H. gerundet ermäßigt."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtung nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtung in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Auf Antrag: Teilnehmer an beruflichen Tagungen oder Veranstaltungen für die ersten 2 Tage des Aufenthalts",
+        "quote": "Auf Antrag werden Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die ersten 2 Tage des Aufenthalts von der Kurtaxe befreit."
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der ermäßigte Satz gilt für Kinder und Jugendliche von 6 bis 14 Jahren (30 % Ermäßigung, gerundet); die Kinder bis zur Vollendung des 6. Lebensjahres sind befreit.",
+        "source": "aenderung2",
+        "quote": "Bei Kindern und Jugendlichen vom vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr wird die Kurtaxe um 30 v.H. gerundet ermäßigt."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit mindestens 50 % Erwerbsminderung zahlen auf Antrag 30 % weniger.",
+        "source": "aenderung2",
+        "quote": "Bei schwerbehinderten Personen mit mindestens 50 v.H. nachgewiesener Erwerbsminderung wird die Kurtaxe auf Antrag um 30 v.H. gerundet ermäßigt."
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldescheinverfahren der Stadt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldescheinverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Stadt ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 und 3 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge führst du 14 Tage nach Zustellung der Kurtaxeabrechnung an die Stadt ab.",
+      "quote": "Die im Laufe einer Abrechnungsperiode fällig gewordenen Beträge an Kurtaxe sind vom Meldepflichtigen jeweils 14 Tage nach Zustellung der Kurtaxeabrechnung an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach Ankunft an und nach Abreise ab.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz oder eine Hafenanlage mit Schiffsliegeplätzen betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach der Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir in Meersburg aus dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen.",
+      "quote": "Von allen natürlichen und juristischen Personen, denen in der Stadt Meersburg aus dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatbeherberger, die Wohnungen oder Zimmer mit bis zu acht Schlafgelegenheiten vorübergehend an Gäste vermieten (Gäste ab dem vollendeten 6. Lebensjahr)",
+        "quote": "Von den Privatbeherbergern, die Wohnungen oder Zimmer mit bis zu acht Schlafgelegenheiten vorübergehend an Gäste vermieten, wird der Beitrag nach der Übernachtungszahl erhoben. Er beträgt je Übernachtung und Person ab dem vollendeten 6. Lebensjahr 0,60 EUR.",
+        "perNight": {
+          "cents": 60,
+          "perGuest": true
+        },
+        "source": "fvb6"
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Stadt die Übernachtungszahlen der Gäste, die du gegen Entgelt beherbergst.",
+      "quote": "Beitragspflichtige nach §4 Abs. 2 haben die Übernachtungszahlen der bei ihnen gegen Entgelt beherbergten Personen der Stadt mitzuteilen."
+    },
+    "deadline": {
+      "text": "Du zahlst den Beitrag auf die Übernachtungen zusammen mit der Kurtaxe.",
+      "quote": "Der Beitrag nach §4 Abs. 2 (Übernachtungsbeiträge) wird zusammen mit der Kurtaxe gemäß der jeweils gültigen Kurtaxeordnung zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 8,4 % des Messbetrags, abgerundet auf volle Euro; beträgt der Beitrag weniger als 5 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag beträgt für ein Rechnungsjahr 8,4 % des Messbetrages nach § 3 Abs. 2 (Hebesatz) und ist auf volle EUR abzurunden. Er wird nicht erhoben, wenn er weniger als 5,00 EUR beträgt.",
+        "source": "fvb6"
+      },
+      {
+        "text": "In besonders gelagerten Fällen kann der Beitrag ganz oder teilweise erlassen werden.",
+        "quote": "In besonders gelagerten Fällen kann der Beitrag ganz oder teilweise erlassen werden.",
+        "source": "fvb6"
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/meersburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 450,
+        "children": [
+          0,
+          320
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Übriges Stadtgebiet",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 450,
+            "children": [
+              0,
+              320
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Baitenhausen/Schiggendorf/Riedetsweiler",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 320,
+            "children": [
+              0,
+              220
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

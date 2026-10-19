@@ -1,0 +1,249 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "farchant",
+  "name": "Gemeinde Farchant",
+  "short": "Farchant",
+  "ags": "09180116",
+  "state": "Bayern",
+  "district": "Garmisch-Partenkirchen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrags (Kurbeitragssatzung) der Gemeinde Farchant vom 16.12.2021 (Scan)",
+      "url": "https://gemeinde-farchant.de/wp-content/uploads/2026/07/Kurbeitragssatzung-ab-01.01.2022.pdf",
+      "kind": "municipality",
+      "inForce": "2022-01-01",
+      "sha256": "8ad7f0592e061bd97b2c574fdc2a88ce62ada42990816ac5f14e9005c5049ca9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) Für Personen ab dem vollendeten 16. Lebensjahr 2,80 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "a) Kinder bis zum vollendeten 6. Lebensjahr"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,00 Euro"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,00 Euro"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "b) Begleitpersonen von Schwerbehinderten ab einem Grad der Behinderung von wenigstens 80 %, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "c) Schwerbehinderte mit einem Behinderungsgrad von mind. 80 % 1,00 Euro"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende oder nach Beitragsaufforderung abgeführt wird."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages"
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "Angaben am Tag der Ankunft des Gastes schriftlich mittels eines bei der Gemeinde erhältlichen Meldescheins oder auf elektronischem Wege zu machen und diese spätestens am darauf folgenden Tag der Gemeinde zukommen zu lassen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrags der Gemeinde Farchant, Satzungstext in der Fassung vom 23.02.1996",
+      "url": "https://gemeinde-farchant.de/wp-content/uploads/2026/07/Satzung-Erhebung-Fremdenverkehrsbeitrag.pdf",
+      "kind": "municipality",
+      "inForce": "1979-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a47a0af67aefe2731d4720a396ed7f26d3c351c078e5724b443947fd1705c250",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "a) Für Personen ab dem vollendeten 16. Lebensjahr 2,80 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a) Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 16,
+            "cents": 100,
+            "quote": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,00 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Begleitpersonen von Schwerbehinderten ab einem Grad der Behinderung von 80, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "b) Begleitpersonen von Schwerbehinderten ab einem Grad der Behinderung von wenigstens 80 %, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung ab 80 zahlen 1,00 € je Tag.",
+        "quote": "c) Schwerbehinderte mit einem Behinderungsgrad von mind. 80 % 1,00 Euro"
+      },
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende oder nach Aufforderung abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende oder nach Beitragsaufforderung abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde dafür.",
+      "quote": "den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages"
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Wenn der Gast seine Angaben nicht oder nur unvollständig macht, meldest du ihn am Anreisetag per Meldeschein oder elektronisch und gibst die Angaben spätestens am Folgetag bei der Gemeinde ab.",
+      "quote": "Angaben am Tag der Ankunft des Gastes schriftlich mittels eines bei der Gemeinde erhältlichen Meldescheins oder auf elektronischem Wege zu machen und diese spätestens am darauf folgenden Tag der Gemeinde zukommen zu lassen"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftspflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatz (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "hat hierzu auf Aufforderung eine Erklärung nach Formblatt"
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Am 15. Juli jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschuldner hat am 15. Juli jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/farchant/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ]
+  }
+}

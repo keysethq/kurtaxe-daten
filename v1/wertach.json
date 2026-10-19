@@ -1,0 +1,201 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wertach",
+  "name": "Markt Wertach",
+  "short": "Wertach",
+  "ags": "09780145",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages des Marktes Wertach vom 10.10.2024 (Scan; in Kraft am Tag nach der Bekanntmachung)",
+      "url": "https://storage.tramino.net/markt-wertach/1450003/kurbeitragssatzung-10102024.pdf",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "4f4b0e06cc7b261e0b8a71d3bd00fedd44f4a51541ab20101f8ca2d67299b585",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "An- und Abreisetag gelten zusammen als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "a) für Personen ab dem vollendeten 16. Lebensjahr pro Tag: 3,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder bis zur Vollendung des sechsten Lebensjahres sowie Personen, deren nachgewiesener Grad der Behinderung bei mindestens 80% liegt, sind kurbeitragsfrei."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "b) für Kinder vom vollendeten 6. bis zum vollendeten 16. Lebensjahr: 1,90 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "b) für Kinder vom vollendeten 6. bis zum vollendeten 16. Lebensjahr: 1,90 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Personen, deren nachgewiesener Grad der Behinderung bei mindestens 80% liegt, sind kurbeitragsfrei."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Ist auf dem Behindertenausweis eine Begleitperson vermerkt, ist auch diese Person beitragsfrei."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "(3) Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Der Markt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt gegenüber für den Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an den Markt abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "dem Markt die Beitragspflichtigen schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) für Personen ab dem vollendeten 16. Lebensjahr pro Tag: 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres sowie Personen, deren nachgewiesener Grad der Behinderung bei mindestens 80% liegt, sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 190,
+            "quote": "b) für Kinder vom vollendeten 6. bis zum vollendeten 16. Lebensjahr: 1,90 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von mindestens 80",
+        "quote": "Personen, deren nachgewiesener Grad der Behinderung bei mindestens 80% liegt, sind kurbeitragsfrei."
+      },
+      {
+        "text": "Die Begleitperson, wenn sie im Behindertenausweis vermerkt ist",
+        "quote": "Ist auf dem Behindertenausweis eine Begleitperson vermerkt, ist auch diese Person beitragsfrei."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "(3) Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Der Markt kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Der Markt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet dem Markt dafür.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an den Markt abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste dem Markt schriftlich, wenn sie sich nicht selbst gemeldet haben.",
+      "quote": "dem Markt die Beitragspflichtigen schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wertach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          190
+        ]
+      }
+    ]
+  }
+}

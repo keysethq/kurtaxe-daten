@@ -1,0 +1,185 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "heringsdorf-ostholstein",
+  "name": "Heringsdorf (Ostholstein)",
+  "short": "Heringsdorf (Ostholstein)",
+  "ags": "01055022",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Lesefassung der Satzung der Gemeinde Heringsdorf über die Erhebung einer Tourismusabgabe in den Gemeindeteilen Heringsdorf, Fargemiel, Süssau, Augustenhof, Gut Görtz, Gut Siggen, Klötzin und Rellin",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht__Lesefassung_/Ortsrecht_Heringsdorf/Lesefassung_Tourismusabgabesatzung_Heringsdorf_2025_inkl._Anlage.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "18c6bd44871c90fe6586c79359f46783799e1232353c55c990070446ebab4586",
+      "verifiedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Amt Oldenburg-Land, Satzungen (Lesefassungen) der Gemeinde Heringsdorf, Stichwort Strand, Hafen und Tourismus",
+      "url": "https://www.amt-oldenburg-land.de/buergerservice-politik/ihre-digitale-amtsverwaltung/satzungen-lesefassungen/Ort/gemeinde-heringsdorf/Stichwort/strand-hafen-und-tourismus",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "e57820cf59c61afc9f2f9a5464348ecb12dc46310760a501dd1643721e1ecb09",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Heringsdorf steht unter „Strand, Hafen und Tourismus“ keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Tourismusabgabesatzung Heringsdorf (Lesefassung)",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Abgabepflichtig sind alle, die selbstständig tourismusbezogene Leistungen gegen Entgelt anbieten und denen der Tourismus Vorteile bietet; Ferienwohnungen und Ferienhäuser führt die Anlage ausdrücklich auf.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten und denen der Tourismus im Erhebungsgebiet der Gemeinde Heringsdorf unmittelbare oder mittelbare wirtschaftliche Vorteile bietet."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Ferienappartements",
+        "quote": "Ferienwohnungen, Ferienhäuser, A2 100% 5 Ferienappartments nach Anzahl Hotel, Hotel garni, Pensionen, A3 100% 5 der Stellplätze Landgasthäuser, Gasthöfe bzw. der Schlaf- je Bett / Jugendherbergen, gelegenheiten A4 100% 5 Schlaf- 57,10 €",
+        "flat": {
+          "cents": 5710,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotels, Hotels garni, Pensionen, Landgasthäuser und Gasthöfe",
+        "quote": "Hotel, Hotel garni, Pensionen, A3 100% 5 der Stellplätze Landgasthäuser, Gasthöfe bzw. der Schlaf- je Bett / Jugendherbergen, gelegenheiten A4 100% 5 Schlaf- 57,10 €",
+        "flat": {
+          "cents": 5710,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Sonstige Unterkünfte",
+        "quote": "je Bett / Jugendherbergen, gelegenheiten A4 100% 5 Schlaf- 57,10 € Kinderkurheime (A4 + A5 zu 50%) gelegenheit Mutter/Vater-Kind-Kurkliniken, Kur-/ A5 100% 5 Erholungsheime, Kur-/Reha-Kliniken A6 Sonstige Unterkünfte 100% 5",
+        "flat": {
+          "cents": 5710,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Campingplätze, Zeltplätze und Mobilheimplätze",
+        "quote": "A1 Campingplätze, Zeltplätze, Mobilheimplätze 100% 5 je Stellplatz 114,20 €",
+        "flat": {
+          "cents": 11420,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du zeigst Beginn und Ende deiner Tätigkeit innerhalb eines Monats an und meldest Änderungen im Umfang deiner Tätigkeit bis zum 15. Juli eines Jahres oder nach Aufforderung der Gemeinde.",
+      "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, 2. bis zum 15. Juli eines jeden Jahres - oder nach Aufforderung durch die Gemeinde/Amtsverwaltung - Veränderungen im Umfang der abgabepflichtigen Tätigkeit anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig, wenn der Bescheid keinen späteren Termin nennt.",
+      "quote": "Die Abgabe wird innerhalb eines Monats nach Bekanntgabe des Festsetzungsbescheides fällig, soweit der Bescheid nicht ausdrücklich einen späteren Fälligkeitstermin bestimmt."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Abgabe wird als Jahresabgabe erhoben.",
+        "quote": "Die Abgabe wird als Jahresabgabe erhoben."
+      },
+      {
+        "text": "Gezählt werden die gegen Entgelt bereitgehaltenen Schlafgelegenheiten (Betten).",
+        "quote": "Anzahl der zur Beherbergung gegen Entgelt bereitgehaltenen Schlafgelegenheiten (Betten) oder Stellplätze"
+      },
+      {
+        "text": "Die Merkmale für die Einstufung werden nach den Verhältnissen am 1. Juli des Jahres ermittelt.",
+        "quote": "Die Merkmale für die Einstufung werden nach den Verhältnissen am 01. Juli des jeweiligen Erhebungszeitraumes ermittelt."
+      },
+      {
+        "text": "Die Gemeinde kann im Lauf des Jahres Vorauszahlungen in Höhe der voraussichtlichen Abgabe verlangen.",
+        "quote": "Auf die Tourismusabgabe können im Verlauf des Erhebungszeitraumes Vorausleistungen in Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+      },
+      {
+        "text": "Die Gemeinde setzt die Abgabe durch schriftlichen Bescheid fest.",
+        "quote": "Die Festsetzung erfolgt durch schriftlichen Bescheid der Amtsverwaltung."
+      },
+      {
+        "text": "Wer vorsätzlich oder leichtfertig seinen Auskunfts- oder Mitteilungspflichten nach § 8 Absatz 1 nicht, nicht rechtzeitig oder nicht im erforderlichen Umfang nachkommt und es dadurch ermöglicht, Abgaben zu verkürzen, handelt ordnungswidrig; die Geldbuße kann bis zu 500 Euro betragen.",
+        "quote": "Ordnungswidrig nach § 18 Abs. 2 Nr. 2 des Kommunalabgabengesetzes des Landes Schleswig-Holstein (KAG) handelt, wer vorsätzlich oder leichtfertig entgegen § 8 Absatz 1 dieser Satzung seinen Auskunfts- oder Mitteilungspflichten nicht, nicht rechtzeitig oder nicht im erforderlichen Umfang nachkommt und es dadurch ermöglicht, Abgaben zu nach dieser Satzung zu verkürzen oder nicht gerechtfertigte Abgabenvorteile zu erlangen. (2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu 500,00 Euro geahndet werden."
+      },
+      {
+        "text": "Fängst du nach dem 1. Juli an oder hörst du vor dem 1. Juli endgültig auf, zählen die Verhältnisse bei Beginn beziehungsweise bei der endgültigen Einstellung.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit nach dem 01. Juli des Ergebungszeitraums aufgenommen oder vor dem 01. Juli des Erhebungszeitraums endgültig eingestellt, so sind die Verhältnisse im Zeitpunkt der Aufnahme bzw. endgültigen Einstellung der Tätigkeit maßgeblich."
+      },
+      {
+        "text": "Auch ohne Betriebssitz in der Gemeinde bist du abgabepflichtig, wenn deine Leistung dort gelegene Objekte, zum Beispiel Grundstücke, umfasst.",
+        "quote": "Der Abgabepflicht unterliegen auch solche Tätigkeiten im Sinne von Absatz 1, die ohne Betriebssitz, Filialsitz oder dauernde Geschäftsstelle im Gemeindegebiet 1. vorübergehend dort ausgeübt werden oder 2. deren Leistungsgegenstand dort gelegene Objekte (z. B. Grundstücke oder Grundstücksteile, Anschlüsse an Leitungen oder markierte ständige Treffpunkte) umfasst."
+      }
+    ],
+    "area": {
+      "text": "Die Tourismusabgabe gilt nur in den Gemeindeteilen Heringsdorf, Fargemiel, Süssau, Augustenhof, Gut Görtz, Gut Siggen, Klötzin und Rellin.",
+      "quote": "(1) Die Gemeindeteile Heringsdorf, Fargemiel, Süssau, Augustenhof, Gut Görtz, Gut Siggen, Klötzin und Rellin sind als Erholungsorte anerkannt. (2) Die Gemeinde Heringsdorf erhebt aufgrund der Anerkennung als Erholungsort in diesen Gemeindeteilen gemäß § 10 Abs. 7 Satz 1 KAG eine Tourismusabgabe"
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/heringsdorf-ostholstein/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Ferienappartements",
+        "cents": 5710,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "57,10 € je Bett im Jahr."
+      },
+      {
+        "label": "Hotels, Hotels garni, Pensionen, Landgasthäuser und Gasthöfe",
+        "cents": 5710,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "57,10 € je Bett im Jahr."
+      },
+      {
+        "label": "Sonstige Unterkünfte",
+        "cents": 5710,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "57,10 € je Bett im Jahr."
+      },
+      {
+        "label": "Campingplätze, Zeltplätze und Mobilheimplätze",
+        "cents": 11420,
+        "per": 1,
+        "unit": "Stellplätze",
+        "rate": "114,20 € je Stellplatz im Jahr."
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-teinach-zavelstein",
+  "name": "Stadt Bad Teinach-Zavelstein",
+  "short": "Bad Teinach-Zavelstein",
+  "ags": "08235084",
+  "state": "Baden-Württemberg",
+  "district": "Calw",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Stadt Bad Teinach-Zavelstein, Gemeinderatsbeschluss vom 22.06.2015",
+      "url": "https://www.bad-teinach-zavelstein.de/fileadmin/Dateien/Dateien/Ortsrecht/Ortsrecht_bis_2025/Kurtaxesatzung_Neu.PDF",
+      "kind": "statute",
+      "inForce": "2016-01-01",
+      "sha256": "51d256515deea860484e56e99ab54c6dcb5922f6ff3aaac325be7be049257025",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag in Bad Teinach-Zavelstein vom 01.01. bis 31.12. (ganzjährig) 1,50 €."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 14. Lebensjahr"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Für Geschäftsreisende, berufsbedingte Übernachtungen sowie für Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen und Veranstaltungen beträgt die Kurtaxe je Person und Aufenthaltstag 1,00 €."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 32,00 €."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "und zur Nutzung von KONUS (Kostenlose Nutzung des ÖPNV für Schwarzwaldurlauber)."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Für die Meldung sind die von der Stadt ausgegebenen Vordrucke zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "werden mit einer schriftlichen Rechnung der Stadt angefordert und sind innerhalb eines Monats nach ihrer Anforderung zur Zahlung fällig."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "innerhalb von 1 Tag nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Bad Teinach-Zavelstein über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Beschluss vom 13.10.2003",
+      "url": "https://www.bad-teinach-zavelstein.de/fileadmin/Dateien/Dateien/Ortsrecht/Ortsrecht_bis_2025/Fremdenverkehrsbeitragssatzung_2003.pdf",
+      "kind": "statute",
+      "inForce": "2004-01-01",
+      "sha256": "bb28a802fd3c1b77da14b541612ba625fedbdf9faec1df5fe1ccc9e69297bdc6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag in Bad Teinach-Zavelstein vom 01.01. bis 31.12. (ganzjährig) 1,50 €."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 14. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Geschäftsreisende, berufsbedingte Übernachtungen und Personen, die wegen einer Tagung oder Veranstaltung beruflich vor Ort sind, zahlen 1 Euro statt 1,50 Euro je Person und Tag.",
+        "quote": "Für Geschäftsreisende, berufsbedingte Übernachtungen sowie für Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen und Veranstaltungen beträgt die Kurtaxe je Person und Aufenthaltstag 1,00 €."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe von 32 Euro je Person.",
+        "quote": "eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 32,00 €."
+      },
+      {
+        "text": "Die Gästekarte berechtigt die Gäste auch zur kostenlosen Nutzung des öffentlichen Nahverkehrs im Rahmen von KONUS.",
+        "quote": "und zur Nutzung von KONUS (Kostenlose Nutzung des ÖPNV für Schwarzwaldurlauber)."
+      },
+      {
+        "text": "Für die Meldung nutzt du die Vordrucke der Stadt.",
+        "quote": "Für die Meldung sind die von der Stadt ausgegebenen Vordrucke zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Stadt fordert die Beträge eines Kalendermonats mit einer schriftlichen Rechnung an; du zahlst sie innerhalb eines Monats nach der Anforderung.",
+      "quote": "werden mit einer schriftlichen Rechnung der Stadt angefordert und sind innerhalb eines Monats nach ihrer Anforderung zur Zahlung fällig."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von einem Tag nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 1 Tag nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Bad Teinach-Zavelstein selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Stadt Bad Teinach-Zavelstein aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "Im Fall des § 3 Abs. 4 beträgt der Beitrag ab 01.01.2004 abweichend von Abs. 1 je Übernachtung im gesamten Stadtgebiet Bad Teinach-Zavelstein 0,70 €, ab 01.01.2005 0,80 € und ab 01.01.2006 0,90 €.",
+        "perNight": {
+          "cents": 90
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Stadt innerhalb von 10 Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 10 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Vermietest du als Privatzimmervermieter nur Wohnungen oder Zimmer vorübergehend an Fremde, richtet sich dein Beitrag nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Der Satz wurde stufenweise angehoben und beträgt seit dem 1. Januar 2006 0,90 € je Übernachtung.",
+        "quote": "ab 01.01.2005 0,80 € und ab 01.01.2006 0,90 €"
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen seit dem 1. Januar 2006 10,50 % des Messbetrags; beträgt der Beitrag weniger als 10 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 1 beträgt ab 01.01.2004 8,20 v.H., ab 01.01.2005 9,40 v.H. und ab 01.01.2006 10,50 v.H. des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 € beträgt."
+      },
+      {
+        "text": "Hotels, Gasthöfe und andere mit Einnahmen aus Unterkunft und Verpflegung zahlen mindestens den Betrag, der sich aus ihren Übernachtungszahlen mit dem Satz je Übernachtung ergäbe.",
+        "quote": "Bei Personen, die Einnahmen aus Unterkunft und Verpflegung von Gästen haben (z.B. Hotels, Gasthöfe, Kurhäuser, Sanatorien), beträgt der Beitrag mindestens den Betrag, der sich bei Zugrundelegung der Übernachtungszahlen im Erhebungszeitraum unter Anwendung des Betrages nach Abs. 3 ergeben würde."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-teinach-zavelstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

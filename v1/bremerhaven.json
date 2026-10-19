@@ -1,0 +1,123 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bremerhaven",
+  "name": "Seestadt Bremerhaven",
+  "short": "Bremerhaven",
+  "ags": "04012000",
+  "state": "Bremen",
+  "district": "kreisfreie Stadt",
+  "sources": {
+    "satzung": {
+      "title": "Merkblatt zur Erhebung der Tourismusabgabe („Citytax“), Stand 06.02.2026, Magistrat der Stadt Bremerhaven, Steueramt (Bremisches Gesetz über die Erhebung einer Tourismusabgabe, BremTourAbgG)",
+      "url": "https://www.bremerhaven.de/sixcms/media.php/250/Merkblatt+zur+Erhebung+der+Citytax+06022026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "858fbcb779becad3d0decd2c972f972cd7f3ef0c8bb930160d760d86464d7e64",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "seite": {
+      "title": "Anmeldung zur Tourismusabgabe Citytax, Magistrat der Stadt Bremerhaven",
+      "url": "https://www.bremerhaven.de/de/verwaltung-politik-sicherheit/buergerservice/dienstleistungen/anmeldung-zur-tourismusabgabe-citytax.69264.html",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "3b83997a8c000fe8a19880dd54b3507176f3cdc0cf59e1abf1be6f28c801c453",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "hashOf": "quotes"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Tourismusabgabe (Citytax)",
+    "source": "satzung",
+    "rate": {
+      "percent": 5.5,
+      "quote": "Die Citytax beträgt 5,5 % der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Übernachtungsentgelt ohne Umsatzsteuer und ohne andere Dienstleistungen wie Bewirtung, Wellness oder Telefon und Internet; die Endreinigung zählt dazu.",
+      "quote": "Bemessungsgrundlage ist nach § 2 Abs. 1 BremTourAbgG der Betrag, der vom Gast für den Aufwand der Übernachtung ohne Umsatzsteuer und ohne den Aufwand für andere Dienstleistungen geleistet wird (Übernachtungsentgelt). Zum Übernachtungsentgelt zählen auch die Kosten für die Endreinigung nach Beendigung der Beherbergung.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst; du kannst sie über den Übernachtungspreis an deine Gäste weitergeben.",
+      "quote": "Steuerschuldner ist der Betreiber des Beherbergungsbetriebes. Dieser hat jedoch die Möglichkeit, die Steuer über das Übernachtungsentgelt an die Gäste weiterzugeben."
+    },
+    "deadline": {
+      "text": "Du zahlst die Steuer mit der vierteljährlichen Steueranmeldung, spätestens am 15. des Monats nach Quartalsende.",
+      "quote": "Die berechnete und angemeldete „Citytax“ ist mit der Einreichung der Erklärung (Steueranmeldung) zur Tourismusabgabe – („Citytax“) zu entrichten, spätestens aber zum 15. Tag des dem maßgeblichen Kalendervierteljahr nachfolgenden Kalendermonats (Fälligkeitszeitpunkt)."
+    },
+    "reporting": {
+      "text": "Du erklärst die Übernachtungen für jedes Quartal auf dem amtlichen Vordruck beim Steueramt Bremerhaven und berechnest die Steuer selbst.",
+      "quote": "Die Beherbergungsleistungen sind vom Betreiber des Beherbergungsbetriebes für jedes Kalendervierteljahr (Erhebungszeitraum) auf amtlichem Vordruck zu erklären, der bis spätestens zum 15. Tag des dem Kalendervierteljahr nachfolgenden Kalendermonats dem Magistrat der Stadt Bremerhaven, Steueramt, einzureichen ist"
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen Minderjähriger sind steuerfrei.",
+        "quote": "Übernachtungen von minderjährigen Personen unterliegen nicht der Tourismusabgabe."
+      },
+      {
+        "text": "Übernachtungen zur nachweislichen Vermeidung von Obdachlosigkeit sind steuerfrei.",
+        "quote": "Weiterhin sind Übernachtungen zur nachweislichen Vermeidung einer Obdachlosigkeit von der Steuer befreit."
+      },
+      {
+        "text": "Betriebe, die ausschließlich und unmittelbar gemeinnützigen, mildtätigen oder kirchlichen Zwecken dienen, sind mit Nachweis (Feststellungsbescheid) befreit; ein wirtschaftlicher Geschäftsbetrieb ist davon ausgenommen.",
+        "quote": "Daneben sieht das Gesetz eine neue Steuerbefreiung für solche Betriebe vor, die nach der Satzung, dem Stiftungsgeschäft oder der sonstigen Verfassung und nach der tatsächlichen Geschäftsführung ausschließlich und unmittelbar gemeinnützigen, mildtätigen oder kirchlichen Zwecken dienen (§§ 51 bis 68 der Abgabenordnung)."
+      },
+      {
+        "text": "Bei Begleitpersonen von Menschen mit Behinderung (Merkzeichen B) kann aus Billigkeit von der Steuer abgesehen werden.",
+        "quote": "Für Übernachtungen von Begleitpersonen von Menschen mit Behinderung, die nachweislich eine Begleitung benötigen (Merkmal „B“ im Schwerbehindertenausweis), kann im Billigkeitswege von der Erhebung der Citytax abgesehen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. April 2024.",
+        "quote": "Zum 01.04.2024 ist die Steuerbefreiung für beruflich bedingte Übernachtungen entfallen.",
+        "source": "seite"
+      },
+      {
+        "text": "Der Satz gilt seit dem 1. Januar 2026; davor lag er bei 5 Prozent.",
+        "quote": "Die Erhöhung des Steuersatzes gilt für entgeltlichen Übernachtungen in Beherbergungsbetrieben im Land Bremen ab dem 01.01.2026.",
+        "source": "seite"
+      },
+      {
+        "text": "Du führst Aufzeichnungen über die Namen der Gäste, die Bemessungsgrundlage und die Aufenthaltsdauer; bei Minderjährigen kommt das Geburtsdatum dazu.",
+        "quote": "Der Betreiber des Beherbergungsbetriebes hat die Namen der Übernachtungsgäste, die steuerliche Bemessungsgrundlage und die Aufenthaltsdauer aufzuzeichnen. Im Falle der Beherbergung Minderjähriger ist zusätzlich das Geburtsdatum zu erfassen."
+      }
+    ],
+    "maxNights": {
+      "nights": 7,
+      "perStay": true,
+      "text": "höchstens sieben zusammenhängende Übernachtungen je Gast",
+      "quote": "Maßgeblich ist die Anzahl der Übernachtungen je Gast, wobei die Abgabe nur zeitlich begrenzt für sieben zusammenhängende Übernachtungstage erhoben wird."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bremerhaven/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5.5,
+    "maxDays": 7,
+    "maxPerStay": true
+  }
+}

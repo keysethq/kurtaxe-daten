@@ -1,0 +1,336 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "born-a-darss",
+  "name": "Seebad Born a. Darß",
+  "short": "Born a. Darß",
+  "ags": "13073012",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurabgabe in der Gemeinde Seebad Born a. Darß (Kurabgabensatzung), Beschluss der Gemeindevertretung vom 20.10.2025",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/born/kurabgabesatzung/kurabgabesatzung-born-ausfertigung.pdf?cid=dds",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "60875071ea7c2ec34fca40de9bfe14b43d431444eddb9a4e9b502f16c7ee962b",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und der Abreisetag wird als jeweils ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,85 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres bei Nachweis des Lebensalters"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,85 Euro"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,85 Euro"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerstbehinderte mit einer Behinderung von 100 % und deren Begleitpersonen, wobei das Merkzeichen \"B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "wenn sie sich zu Familienbesuchen im Rahmen von Familienfeiern, Jubiläen oder Beisetzungen in der Gemeinde aufhalten und wenn sie dazu unentgeltlich in die häusliche Gemeinschaft dieser Person aufgenommen sind."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet: darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen - in einem Ausbildungsverhältnis steht; darunter fallen auch freiwilligen Wehrdienst und Bundesfreiwilligendienst Leistende"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "Personen mit einem Grad der Behinderung ab 80 und den gesundheitlichen Merkmalen AG, BL, B oder H eine Ermäßigung von 0,50 Euro"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Die Kurabgabe für eine Jahreskurkarte beträgt pro Person ab der Vollendung des 16. Lebensjahres 80,00 Euro Die Kurabgabe für eine Jahreskurkarte beträgt je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres 51,80 Euro"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Der Eigentümer oder Besitzer einer Wohnungseinheit im Sinne des 8 2 Abs. 2 Satz 1 sowie dessen deren Familienangehörigen im Sinne des $ 2 Abs. 2 Satz 4 sind verpflichtet, eine Jahreskurabgabe zu entrichten. Dies gilt auch für ortsfremde Eigentümer von Wohnwagen und ähnlichen Wohnungseinheiten und ihre Familienangehörigen im Sinne des $ 2 Abs. 2 Satz 4, soweit deren Wohnwagen mehr als 28 Tage im Erhebungsgebiet verbleiben."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "haben die Wohnungsgeber oder deren Beauftragte das von der Kurverwaltung unentgeltlich zur Verfügung gestellte elektronische Meldeund Kurabgabenabrechnungssystem zu nutzen. Auf Antrag kann die Kurverwaltung zur Vermeidung unbilliger Härten einzelne Wohnungsgeber von dieser Nutzungspflicht befreien."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "Wohnungsgeber und als solcher verpflichtet die beherbergten Personen am Tag der Ankunft"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung zur Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Born a. Darß (Beschluss vom 28.12.2021)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/born/fremdenverkehrsabgabesatzung/fremdenverkehrsabgabesatzung-born-text.pdf?cid=44j",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "97823d43bc59881994eb9cb7d3e75a3cd945cee87cbbc5b7ac1668875b857900",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAend": {
+      "title": "1. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Seebad Born a. Darß vom 19.12.2024",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/born/fremdenverkehrsabgabesatzung/1-aenderung/fremdenverkehrsabgabesatzung-1.-aenderung-born-ausfertigung.pdf?cid=6s7",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "3682c7eef46bf32f3664f043c727bcd4a6abb0ca2b0f65dd2502cd9741ee9c7e",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 1,
+          "reading": "a) in den Fällen des & 3 Abs. 1a) 36,09 €/Bett"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 1,
+          "reading": "a) in den Fällen des & 3 Abs. 1a) 36,09 €/Bett"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 1,
+          "reading": "Diese 1. Änderung der Satzung tritt mit Wirkung zum 01.01.2025 in Kraft."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und der Abreisetag wird als jeweils ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 285,
+          "quote": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,85 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres bei Nachweis des Lebensalters"
+          },
+          {
+            "underAge": 16,
+            "cents": 185,
+            "quote": "Die Kurabgabe beträgt je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,85 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerstbehinderte mit einer Behinderung von 100 % und ihre Begleitpersonen; das Merkzeichen B für ständige Begleitung muss im Behindertenausweis stehen",
+        "quote": "Schwerstbehinderte mit einer Behinderung von 100 % und deren Begleitpersonen, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern mit Hauptwohnung in Born, die sich für Familienfeiern, Jubiläen oder Beisetzungen unentgeltlich bei ihnen aufhalten",
+        "quote": "wenn sie sich zu Familienbesuchen im Rahmen von Familienfeiern, Jubiläen oder Beisetzungen in der Gemeinde aufhalten und wenn sie dazu unentgeltlich in die häusliche Gemeinschaft dieser Person aufgenommen sind."
+      },
+      {
+        "text": "Wer in Born arbeitet (auch bei beruflich veranlasster Teilnahme an Tagungen, Seminaren oder Lehrgängen) oder in einem Ausbildungsverhältnis steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet; darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen - in einem Ausbildungsverhältnis steht; darunter fallen auch freiwilligen Wehrdienst und Bundesfreiwilligendienst Leistende"
+      },
+      {
+        "text": "Wer in Born einen Kleingarten bewirtschaftet, der keine Wohnnutzung ermöglicht",
+        "quote": "einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und bestimmten Merkzeichen (AG, BL, B oder H) bekommen auf Antrag 0,50 Euro Ermäßigung.",
+        "quote": "Personen mit einem Grad der Behinderung ab 80 und den gesundheitlichen Merkmalen AG, BL, B oder H eine Ermäßigung von 0,50 Euro"
+      },
+      {
+        "text": "Die Jahreskurkarte kostet 80,00 Euro ab 16 Jahren und 51,80 Euro für Kinder von 6 bis unter 16 Jahren.",
+        "quote": "Die Kurabgabe für eine Jahreskurkarte beträgt pro Person ab der Vollendung des 16. Lebensjahres 80,00 Euro Die Kurabgabe für eine Jahreskurkarte beträgt je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres 51,80 Euro"
+      },
+      {
+        "text": "Wer eine Wohnungseinheit besitzt (nach § 2 Abs. 2 Satz 1 der Satzung), muss eine Jahreskurabgabe zahlen; das gilt auch für ortsfremde Eigentümer von Wohnwagen, die länger als 28 Tage bleiben.",
+        "quote": "Der Eigentümer oder Besitzer einer Wohnungseinheit im Sinne des § 2 Abs. 2 Satz 1 sowie dessen deren Familienangehörigen im Sinne des § 2 Abs. 2 Satz 4 sind verpflichtet, eine Jahreskurabgabe zu entrichten. Dies gilt auch für ortsfremde Eigentümer von Wohnwagen und ähnlichen Wohnungseinheiten und ihre Familienangehörigen im Sinne des § 2 Abs. 2 Satz 4, soweit deren Wohnwagen mehr als 28 Tage im Erhebungsgebiet verbleiben."
+      },
+      {
+        "text": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      },
+      {
+        "text": "Dafür musst du das elektronische Melde- und Kurabgabenabrechnungssystem der Kurverwaltung nutzen; auf Antrag kann sie dich in Härtefällen davon befreien.",
+        "quote": "haben die Wohnungsgeber oder deren Beauftragte das von der Kurverwaltung unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen. Auf Antrag kann die Kurverwaltung zur Vermeidung unbilliger Härten einzelne Wohnungsgeber von dieser Nutzungspflicht befreien."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt ein und führt sie an die Kurverwaltung ab.",
+      "quote": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. des Folgemonats.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du am Tag der Ankunft.",
+      "quote": "Wohnungsgeber und als solcher verpflichtet die beherbergten Personen am Tag der Ankunft"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Born wirtschaftliche Vorteile bietet.",
+      "quote": "Abgabepflichtig sind Personen und Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde wirtschaftliche Vorteile (unmittelbar oder mittelbar) geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "source": "fvbAend",
+        "quote": "a) in den Fällen des § 3 Abs. 1a) 36,09 €/Bett",
+        "flat": {
+          "cents": 3609,
+          "per": "Bett"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Aufnahme einer abgabepflichtigen Tätigkeit meldest du der Kurverwaltung sofort, die Angaben zur Berechnung machst du auf Anforderung.",
+      "quote": "haben der Kurverwaltung die Aufnahme der abgabepflichtigen Tätigkeiten und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe oder der Vorausleistung unverzüglich mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 30 Tage nach Bekanntgabe des Bescheids des Amtes Darß/Fischland; bei mehr als 100 € kann auf Antrag Ratenzahlung zugelassen werden.",
+      "quote": "Die Abgabe ist innerhalb von 30 Tagen nach Bekanntgabe des Heranziehungsbescheides des Amtes Darß/Fischland für die Gemeinde fällig. Bei Abgaben über 100,00 € kann auf Antrag Ratenzahlung zugelassen werden."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben und Zimmervermietern werden die Fremdenbetten gezählt, die du am 1. Juli jedes Jahres gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern nach der Zahl der am 01. Juli jedes Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Die Anlage der Satzung führt auch die Vermietung von Ferienwohnungen, -appartements und -häusern auf.",
+        "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern"
+      },
+      {
+        "text": "Die 1. Änderung der Satzung, die den Satz von 36,09 € je Bett festlegt, gilt seit dem 1. Januar 2025.",
+        "quote": "Diese 1. Änderung der Satzung tritt mit Wirkung zum 01.01.2025 in Kraft.",
+        "source": "fvbAend"
+      },
+      {
+        "text": "Den Bescheid erlässt das Amt Darß/Fischland für die Gemeinde.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch das Amt Darß/ Fischland für die Gemeinde."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/born-a-darss/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 285,
+        "children": [
+          0,
+          185
+        ]
+      }
+    ]
+  }
+}

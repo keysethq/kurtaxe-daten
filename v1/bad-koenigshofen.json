@@ -1,0 +1,219 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-koenigshofen",
+  "name": "Bad Königshofen i. Grabfeld",
+  "short": "Bad Königshofen",
+  "ags": "09673141",
+  "state": "Bayern",
+  "district": "Rhön-Grabfeld",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung – KBS) der Stadt Bad Königshofen i. Grabfeld vom 16.12.2025, ausgefertigte Fassung, im digitalen Amtsblatt der Stadt veröffentlicht am 17.12.2025",
+      "url": "https://bad-koenigshofen.de/wp-content/uploads/2025-12-17-Kurbeitragssatzung-vom-16122025.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "04bc3913dc67db5de25adafbc5bd9e16e1cea87b2bf6585fc446ea29231cf5cc",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages der Stadt Bad Königshofen i. Grabfeld (Fremdenverkehrsbeitragssatzung) vom 06.10.2025",
+      "url": "https://bad-koenigshofen.de/wp-content/uploads/SA-Fremdenverkehrsbeitragssatzung-vom-06102025.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "9948159de1d4a4f0fefc3c2bbca36d4e440e212fdd19d9eb357872eac8a95da5",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAnlage": {
+      "title": "Anlage zu § 3 der Fremdenverkehrsbeitragssatzung der Stadt Bad Königshofen i. Grabfeld (Vorteilssätze zum 01.01.2026)",
+      "url": "https://bad-koenigshofen.de/wp-content/uploads/SA-Anlage-zu-3-der-Fremdenverkehrsbeitragssatzung-vom-02102025.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "697323f1ff7df2df4dded81684194fdf3dd7c509de1458ed6e022a90a3e887ca",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "1. für Erwachsene und Jugendliche vom vollendeten 16. Lebensjahr 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zum 5. Lebensjahr sind beitragsfrei"
+          },
+          {
+            "underAge": 16,
+            "cents": 210,
+            "quote": "2. für Kinder vom 6. Lebensjahr und Jugendliche bis zum vollendeten 15. Lebensjahr 2,10 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen auf Antrag die Hälfte.",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 80 (GdB) erhalten auf Antrag eine Ermäßigung von 50 v. H. des Kurbeitrags."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 oder dem Merkzeichen B und ihre nachgewiesen notwendige Begleitperson zahlen nichts.",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100 (GdB) und Personen, die im Ausweis als ständig auf Begleitung angewiesen gekennzeichnet sind (Merkzeichen \"B\"), von der Zahlung des Kurbeitrags befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag gilt im Stadtgebiet außer den Stadtteilen Althausen, Aub, Eyershausen, Gabolshausen, Merkershausen und Untereßfeld.",
+        "quote": "Kurgebiet ist das Stadtgebiet mit Ausnahme der Stadtteile Althausen, Aub, Eyershausen, Gabolshausen, Merkershausen und Untereßfeld."
+      },
+      {
+        "text": "Für Gäste nennt die Satzung Kinder „bis zum 5. Lebensjahr“ beitragsfrei und den Kindersatz „vom 6. Lebensjahr“ an; bei Zweitwohnungen sind Kinder bis zum sechsten Geburtstag frei. Im Zweifel fragst du bei der Kur-Betriebs-GmbH nach.",
+        "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+      },
+      {
+        "text": "Eingezogen wird der Kurbeitrag für Übernachtungsgäste über die Kur-Betriebs-GmbH der Stadt, die auch die Meldescheine ausgibt.",
+        "quote": "Die Einziehung des Kurbeitrags für Übernachtungsgäste erfolgt durch die Kur- Betriebs-GmbH, an der die Stadt Bad Königshofen i. Grabfeld zu 100 % beteiligt ist."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie der Stadt, hebt den Kurbeitrag ein und haftet neben dem Gast dafür.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber neben dem Beitragspflichtigen als Gesamtschuldner."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes, wenn die Stadt nicht die Abführung zum Monatsende zulässt.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt abzuführen. Die Stadt kann zulassen, dass der Betrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen der Stadt oder, bevorzugt, digital über das E-Meldescheinsystem.",
+      "quote": "Neben der schriftlichen ist auch die digitale Meldung über das E-Meldescheinsystem zulässig. Die digitale Datenerfassung ist nach Möglichkeit bevorzugt umzusetzen.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Königshofen Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet der Stadt Bad Königshofen erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+    },
+    "assessed": {
+      "text": "Für Fremdenpensionen und die Vermietung von Ferienwohnungen legt die Anlage zur Satzung den Vorteilssatz auf 100 Prozent fest.",
+      "quote": "Fremdenpensionen, Vermietung Ferienwohnung 4 100%",
+      "source": "fvbAnlage"
+    },
+    "minimum": {
+      "text": "Beiträge unter 5,00 Euro werden nicht erhoben.",
+      "quote": "Beiträge unter 5,00 Euro werden nicht erhoben."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Vorteilssatz ist der Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; die Stadt schätzt ihn für Gruppen von Betrieben („Vorteilsgruppen“), die Sätze stehen in der Anlage zur Satzung.",
+        "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns oder des steuerbaren Umsatzes. Er wird durch Schätzung für einzelne Gruppen von Abgabenschuldnern (sogenannte \"Vorteilsgruppen\") ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung. Die Vorteilssätze sind Bestandteil der Satzung und als Anlage beigefügt."
+      },
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,06 und 0,63 Prozent.",
+        "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 – 5 v.H. 0,06 v.H. über 5 – 10 v.H. 0,19 v.H. über 10 – 15 v.H. 0,31 v.H. über 15 – 20 v.H. 0,44 v.H. über 20 v.H. 0,63 v.H."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. Oktober fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. Oktober jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-koenigshofen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          210
+        ]
+      }
+    ]
+  }
+}

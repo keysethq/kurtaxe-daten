@@ -1,0 +1,286 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-brueckenau",
+  "name": "Stadt Bad Brückenau",
+  "short": "Bad Brückenau",
+  "ags": "09672113",
+  "state": "Bayern",
+  "district": "Bad Kissingen",
+  "sources": {
+    "satzung": {
+      "title": "Verordnung über die Erhebung der Kurtaxe (KurtaxV) vom 2. September 2013, GVBl. S. 582 (Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2013)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2013/18/gvbl-2013-18.pdf",
+      "kind": "gazette",
+      "inForce": "2013-11-01",
+      "sha256": "6da9c5129816ebf246e360ffe88f3fa3f2e92d6ee809bac8b13f3e167e0378d0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung2024": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 24. Juli 2024, GVBl. S. 391 (Anlage 2, Höhe der Kurtaxe)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2024/15/gvbl-2024-15.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "26c35d326571915646c6d39d218e2cbc9895c608b595cff19d74391d2257c7a5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung2026": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 3. September 2026, GVBl. S. 593 (neue Anlage 2 ab 1. Januar 2027)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages der Stadt Bad Brückenau vom 22.12.1978 in der Fassung der 3. Änderungssatzung vom 24.10.2001",
+      "url": "https://www.bad-brueckenau.de/tools/downloads/?archiv=9",
+      "kind": "municipality",
+      "inForce": "1979-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a0bb2d0483c2597e89b6cd4874d337583bc1be02618de82b4afb2cf8486944d2",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurtaxe für den Abreisetag ist mit der Kurtaxe für den Anreisetag abgegolten."
+    },
+    "area": {
+      "text": "Die Kurtaxe gilt nur im Kurbezirk: in den Gemeindeteilen Staatsbad Brückenau (mit dem Villenviertel) und Wernarz sowie im Gebiet bis zum Washingtonplatz, nicht in der ganzen Stadt.",
+      "quote": "Der Kurbezirk umfasst vom Gebiet der Stadt Bad Brückenau die Gemeindeteile Staatsbad Brückenau – mit dem so genannten Villenviertel – und Wernarz sowie das Gebiet zwischen dem Gemeindeteil Staatsbad Brückenau und dem Washingtonplatz."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "4. Bad Brückenau: 4.1 Normalsatz 3,30",
+          "source": "aenderung2024",
+          "next": {
+            "cents": 340,
+            "quote": "4. Bad Brückenau: 4.1 Normalsatz 3,40",
+            "source": "aenderung2026"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung ihres 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Die Kurtaxe wird nach der Anzahl der Aufenthaltstage berechnet, längstens jedoch für 42 Tage im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen gegen Vorlage des Ausweises 2,80 € je Aufenthaltstag.",
+        "quote": "4. Bad Brückenau: 4.1 Normalsatz 3,30 4.2 Gäste gemäß § 4 Abs. 2 Nr. 1 2,80",
+        "source": "aenderung2024"
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die laut Ausweis auf ständige Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, welche laut amtlichem Ausweis auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen für die Dauer nichts, wenn sie ein ärztliches Attest vorlegen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen,"
+      },
+      {
+        "text": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis 25 Jahre zahlen für die Dauer der Bildungsmaßnahme nichts.",
+        "quote": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis zur Vollendung ihres 25. Lebensjahres für die Dauer der beruflichen Bildungsmaßnahmen im Kurbezirk."
+      },
+      {
+        "text": "Wer ohne Entgelt aus rein familiärem Anlass bei Verwandten wohnt, ist nicht kurtaxpflichtig.",
+        "quote": "Unterkunft im vorgenannten Sinn nimmt nicht, wer ohne Zahlung eines Entgelts aus rein familiärem Anlass bei Verwandten wohnt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagungs- und Seminargäste sowie Personen, die sich nur aus Anlass ihrer Berufsausübung im Kurbezirk aufhalten, zahlen 1,65 € je Aufenthaltstag.",
+        "quote": "4. Bad Brückenau: 4.1 Normalsatz 3,30 4.2 Gäste gemäß § 4 Abs. 2 Nr. 1 2,80 4.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,65",
+        "source": "aenderung2024"
+      },
+      {
+        "text": "Ab 1. Januar 2027 zahlen Tagungs- und Seminargäste sowie Berufsgäste 1,70 € je Aufenthaltstag.",
+        "quote": "4.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,70",
+        "source": "aenderung2026"
+      },
+      {
+        "text": "Die Kurtaxe ist ein Landesbeitrag des Staatsbads; festgesetzt und erhoben wird sie von der Staatlichen Kurverwaltung Bad Brückenau.",
+        "quote": "im Staatsbad Bad Brückenau von der Staatlichen Kurverwaltung Bad Brückenau."
+      },
+      {
+        "text": "Die Kurverwaltung kann zulassen, dass du die Kurtaxe erst am Monatsende abführst; dann stellt sie eine Rechnung, die sofort fällig ist.",
+        "quote": "Die Erhebungsberechtigte kann zulassen, dass die Kurtaxe erst am Monatsende abgeführt wird."
+      },
+      {
+        "text": "Du darfst die abzuführende Kurtaxe deinem Gast in Rechnung stellen und haftest neben ihm als Gesamtschuldner für die Zahlung.",
+        "quote": "Die zur Erhebung Verpflichteten sind berechtigt, die abzuführende Kurtaxe der kurtaxpflichtigen Person in Rechnung zu stellen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, behält die Kurtaxe ein und führt sie an die Staatliche Kurverwaltung ab.",
+      "quote": "Die nach Abs. 1 Verpflichteten haben die Kurtaxe einzubehalten und an die Erhebungsberechtigte abzuführen."
+    },
+    "deadline": {
+      "text": "Abführen musst du spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Die Abführung ist spätestens einen Tag nach der Abreise der kurtaxpflichtigen Person vorzunehmen."
+    },
+    "reporting": {
+      "text": "Die Meldedaten übermittelst du spätestens am dritten Werktag nach der Ankunft; elektronisch oder mit Meldescheinen in den Geschäftsräumen der Kurverwaltung, ab zehn Betten nur elektronisch.",
+      "quote": "der Erhebungsberechtigten spätestens am dritten Werktag nach deren Eintreffen im Kurbezirk auf elektronischem Wege zu übermitteln bzw. die Meldescheine oder das elektronische Handgerät in den Geschäftsräumen der Erhebungsberechtigten vorzulegen.",
+      "source": "satzung"
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": "aenderung2026"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Brückenau Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 am Tage nach der Abreise der Gäste verlangt werden und betragen für jede Übernachtung 0,10 Euro.",
+        "perNight": {
+          "cents": 10
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommens- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs.2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Teil Gewinns (Abs. 1) oder des steuerbaren Umsatzes (Abs. 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,06 und 0,63 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0-5 v.H. 0,06 v.H. über 5-10 v.H. 0,19 v.H. über 10 - 15 v.H. 0,31 v.H. über 15 - 20 v.H. 0,44 v.H. über 20 v.H. 0,63 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. 07. jeden Jahres eine Vorauszahlung zu entrichten"
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Nach der Satzung kann die Vorauszahlung je Übernachtung am Tag nach der Abreise der Gäste verlangt werden.",
+        "quote": "können abweichend von den Absätzen 1 und 2 am Tage nach der Abreise der Gäste verlangt werden"
+      },
+      {
+        "text": "Ist anzunehmen, dass diese Vorauszahlungen die sonst fällige Vorauszahlung nicht erreichen, kann die Gemeinde darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Hohe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung nach § 5 Abs. 3 Satz 1, also nicht die weiteren nach Satz 2, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen.nach § 5 Abs.3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs.2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlußfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-brueckenau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 340,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

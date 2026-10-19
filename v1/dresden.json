@@ -1,0 +1,154 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dresden",
+  "name": "Landeshauptstadt Dresden",
+  "short": "Dresden",
+  "ags": "14612000",
+  "state": "Sachsen",
+  "district": "Dresden",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungssteuer in der Landeshauptstadt Dresden (Beherbergungssteuersatzung) vom 7. Mai 2015, zuletzt geändert zum 1. September 2023, Landeshauptstadt Dresden",
+      "url": "https://www.dresden.de/media/pdf/satzungen/satzung-beherbergungssteuer.pdf",
+      "kind": "municipality",
+      "inForce": "2023-09-01",
+      "sha256": "6890111fae750871fcef1aa5458443b60b038489ad7104b34739315b4d8840d2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "info": {
+      "title": "Beherbergungssteuer: Was gilt für Übernachtungen ab dem 1. September 2023? Informationsblatt des Steuer- und Stadtkassenamts Dresden, Oktober 2025",
+      "url": "https://www.dresden.de/media/pdf/steueramt/BehSt-Informationen-zur-Beherbergungssteuer.pdf",
+      "kind": "municipality",
+      "inForce": "2023-09-01",
+      "sha256": "0437cf29d15ece1e1e27512882028a582dbeb7436d64a4af6db1936b43abd94b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "faq": {
+      "title": "Beherbergungssteuer: Fragen und Antworten, Stand 1. September 2025, Steuer- und Stadtkassenamt Dresden",
+      "url": "https://www.dresden.de/media/pdf/steueramt/FAQ-Beherbergungssteuer-Internet.pdf",
+      "kind": "municipality",
+      "inForce": "2025-09-01",
+      "sha256": "dea3010a70739f33260d8e5a668356e78a8dbb9d8de1a1a727e8abd3a267d9a6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 6,
+      "quote": "Der auf eine einzelne Übernachtung entfallende Beherbergungssteueranteil beträgt sechs Prozent"
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Übernachtungsentgelt einschließlich Umsatzsteuer; teilen sich mehrere Personen eine Leistung, wird das Entgelt anteilig auf sie verteilt.",
+      "quote": "Bemessungsgrundlage sind die jeweils für die einzelnen Übernachtungen der Beherbergung des Gastes geschuldeten Entgelte einschließlich der gesetzlich geschuldeten Umsatzsteuer. Nehmen mehrere Personen eine Leistung gemeinsam in Anspruch, ist das für die Leistung geschuldete Entgelt diesen Personen anteilig zuzuordnen.",
+      "source": "satzung",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein, wenn er abreist.",
+      "quote": "Wer innerhalb der Landeshauptstadt Dresden eine Beherbergungseinrichtung betreibt, ist verpflichtet, von den bei ihm beherbergten Personen die Beherbergungssteuer zum Entstehungszeitpunkt (§ 6) einzuziehen.",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Du berechnest die eingezogene Steuer monatlich selbst, meldest sie bis zum 15. Tag des Folgemonats an und zahlst sie bis zum selben Tag an die Stadtkasse.",
+      "quote": "die innerhalb eines Kalendermonates vereinnahmte Beherbergungssteuer auf amtlich vorgeschriebenem Vordruck oder in einer amtlich zugelassenen elektronischen Steueranmeldung selbst zu berechnen, bis zum 15. Tag nach Ablauf des Kalendermonates bei der Landeshauptstadt Dresden anzumelden und den angemeldeten Betrag der Steuer bis zum gleichen Tage an die Stadtkasse zu entrichten.",
+      "source": "satzung"
+    },
+    "reporting": {
+      "text": "Gäste, von denen du keine Steuer einziehst, vermerkst du mit Namen, Wohnanschrift, Geburtsdatum sowie An- und Abreise auf einem Meldeschein, den der Gast unterschreibt.",
+      "quote": "Personen, von denen der Betreiber/die Betreiberin der Beherbergungseinrichtung keine Beherbergungssteuer einzieht, sind durch den Betreiber/die Betreiberin der Beherbergungseinrichtung gesondert mit Namen, Wohnanschrift, Geburtsdatum und Datum der An- und Abreise auf Meldescheinen zu vermerken, die jeweils vom Gast zu unterschreiben sind.",
+      "source": "satzung"
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige zahlen keine Beherbergungssteuer.",
+        "quote": "Von der Zahlung einer Beherbergungssteuer sind befreit: 1. Minderjährige,",
+        "source": "satzung"
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80 sowie Begleitpersonen mit Merkzeichen B im Ausweis sind befreit.",
+        "quote": "schwerbehinderte Personen mit einem in einem entsprechenden Ausweis angegebenen Grad der Behinderung von 80 oder mehr sowie Begleitpersonen schwerbehinderter Personen bei einem im Ausweis angegebenen Merkzeichen „B“,",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Dresden übernachten muss, ist befreit, bei medizinischer Notwendigkeit auch die Begleitperson; die Befreiung gibt es nur über die Rückerstattung.",
+        "quote": "Personen, welche zum Zweck einer zwingend notwendigen medizinischen Behandlung in Dresden übernachten müssen. Ist aus medizinischen Gründen die Übernachtung einer Begleitperson erforderlich, gilt die Befreiung auch für diese Begleitperson.",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit Haupt- oder Nebenwohnung gemeldet ist, zahlt nichts.",
+        "quote": "Personen, die unter der Anschrift der Beherbergungseinrichtung mit alleiniger Wohnung, Haupt- oder Nebenwohnung nach dem Bundesmeldegesetz gemeldet sind,",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer jünger als 27 ist und zu Ausbildungszwecken übernachtet, ist befreit.",
+        "quote": "Personen, die das 27. Lebensjahr noch nicht vollendet haben und zu Ausbildungszwecken übernachten.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kosten für Frühstück und Halbpension zählen nicht zur Bemessungsgrundlage.",
+        "quote": "Sind Kosten für Frühstück oder Halbpension sowie zusätzliche Leistungen, die an der Rezeption verkauft werden, bei der Berechnung der Beherbergungssteuer zu berücksichtigen? Nein.",
+        "source": "faq"
+      },
+      {
+        "text": "Auch die Reinigungsgebühr und andere Leistungen, die unmittelbar der Beherbergung dienen, gehören zum Preis, von dem die Steuer berechnet wird, selbst wenn du sie auf der Rechnung getrennt ausweist.",
+        "quote": "Alle Leistungen, die unmittelbar der Beherbergung dienen und mit dem ermäßigten Umsatzsteuersatz in Höhe von sieben Prozent belegt sind (insbesondere auch die Reinigungsgebühr), bilden die Bemessungsgrundlage zur Berechnung der Beherbergungssteuer, auch wenn diese Leistungen auf der Rechnung separat ausgewiesen werden.",
+        "source": "faq"
+      },
+      {
+        "text": "Berufliche Übernachtungen sind steuerpflichtig.",
+        "quote": "grundsätzlich alle entgeltlichen Übernachtungen der Steuerpflicht unterliegen",
+        "source": "info"
+      },
+      {
+        "text": "Wer Wohnraum nur für längere Mietverträge über mehr als ein halbes Jahr anbietet, betreibt keine Beherbergungseinrichtung im Sinne der Satzung.",
+        "quote": "Ebenso wenig betreibt eine Beherbergungseinrichtung, wer Wohnraum ausschließlich mit dem Ziel des Abschlusses längerfristiger Mietverträge für mehr als ein halbes Jahr anbietet und vermietet.",
+        "source": "satzung"
+      },
+      {
+        "text": "Wenn du im Monat nicht mehr als 200 € Steuer abführst, kannst du auf Antrag alle drei oder sechs Monate anmelden.",
+        "quote": "Auf Antrag kann bei Beherbergungseinrichtungen, die pro Kalendermonat Beherbergungssteuer von nicht mehr als 200,00 Euro zu entrichten haben, der Anmeldungszeitraum auf drei oder sechs Monate verlängert werden.",
+        "source": "satzung"
+      },
+      {
+        "text": "Den Beginn und das Ende deiner Vermietung teilst du der Stadt innerhalb eines Monats mit.",
+        "quote": "Wer innerhalb der Landeshauptstadt Dresden den Betrieb einer Beherbergungseinrichtung aufnimmt oder eine Beherbergungseinrichtung endgültig aufgibt, hat dies der Landeshauptstadt Dresden innerhalb eines Monats auf amtlich vorgeschriebenem Vordruck mitzuteilen.",
+        "source": "satzung"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/dresden/",
+  "calculation": {
+    "kind": "town",
+    "percent": 6,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

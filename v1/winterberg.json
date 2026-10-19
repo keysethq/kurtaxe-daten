@@ -1,0 +1,707 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "winterberg",
+  "name": "Stadt Winterberg",
+  "short": "Winterberg",
+  "ags": "05958048",
+  "state": "Nordrhein-Westfalen",
+  "district": "Hochsauerlandkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Winterberg vom 01.03.1996 in der Fassung der 14. Änderungssatzung vom 25.03.2026 (Kurbeitragssatzung ab 01.07.2026), Lesefassung der Stadt",
+      "url": "https://www.winterberg.de/fileadmin/user_upload/Winterberg/Tourismus/Fuer_Vermieter/Downloads/Kurbeitragssatzung_ab_01.07.2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "4f43f722e62bd50939a47f0d5d9aacf891cb9e4fbcc0821201858eb689bc0cde",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Fremdenverkehrsbeitrages in der Stadt Winterberg (FVBS) vom 13.12.2012 in der Fassung der 20. Änderungssatzung vom 18.12.2025, Lesefassung der Stadt",
+      "url": "https://www.rathaus-winterberg.de/fileadmin/user_upload/Winterberg/Rathaus/Politik_und_Rathaus/Ortsrecht/8._Fremdenverkehrsbeitrag_und_Kurbeitragsrecht/Satzung_ueber_die_Erhebung_eines_Fremdenverkehrsbeitrages_in_der_Stadt_Winterberg.pdf_2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "85f305454624392b8bbfb6c898d808ba880056b991fdd9f5feaeb86d66e00679",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Kurbeitrag wird nach der Zahl der Übernachtungen berechnet. Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kernstadt Winterberg (Kurzone I)",
+        "area": {
+          "text": "Kurzone I ist die Kernstadt Winterberg.",
+          "quote": "a) bezogen auf die Kernstadt Winterberg (Kurzone I)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "a) bezogen auf die Kernstadt Winterberg (Kurzone I) 3,50 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Altastenberg (Kurzone II)",
+        "area": {
+          "text": "Zu Kurzone II gehört der Stadtteil Altastenberg.",
+          "quote": "b) bezogen auf den Stadtteil Altastenberg (Kurzone II)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "b) bezogen auf den Stadtteil Altastenberg (Kurzone II) 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Elkeringhausen (Kurzone II)",
+        "area": {
+          "text": "Zu Kurzone II gehört der Stadtteil Elkeringhausen, mit eigenem Satz.",
+          "quote": "c) bezogen auf den Stadtteil Elkeringhausen(Kurzone II)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 270,
+              "quote": "c) bezogen auf den Stadtteil Elkeringhausen(Kurzone II) 2,70 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Langewiese (Kurzone III)",
+        "area": {
+          "text": "Zu Kurzone III, den Höhendörfern, gehört der Stadtteil Langewiese.",
+          "quote": "d) bezogen auf den Stadtteil Langewiese als Luftkurort Höhendörfer (Kurzone III)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 270,
+              "quote": "d) bezogen auf den Stadtteil Langewiese als Luftkurort Höhendörfer (Kurzone III) 2,70 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niedersfeld (Kurzone IV)",
+        "area": {
+          "text": "Kurzone IV ist der Stadtteil Niedersfeld.",
+          "quote": "e) bezogen auf den Stadtteil Niedersfeld (Kurzone IV)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "e) bezogen auf den Stadtteil Niedersfeld (Kurzone IV) 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Züschen (Kurzone V)",
+        "area": {
+          "text": "Kurzone V ist der Stadtteil Züschen.",
+          "quote": "f) bezogen auf den Stadtteil Züschen (Kurzone V)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 270,
+              "quote": "f) bezogen auf den Stadtteil Züschen (Kurzone V) 2,70 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Neuastenberg und Lenneplätze (Kurzone III)",
+        "area": {
+          "text": "Zu Kurzone III, den Höhendörfern, gehören auch die Stadtteile Neuastenberg und Lenneplätze, mit eigenem Satz.",
+          "quote": "g) bezogen auf die Stadtteile Neuastenberg und Lenneplätze als Luftkurort Höhendörfer (Kurzone III)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "g) bezogen auf die Stadtteile Neuastenberg und Lenneplätze als Luftkurort Höhendörfer (Kurzone III) 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Weitere Bereiche außerhalb der Kurzonen (Kurzone VI)",
+        "area": {
+          "text": "Kurzone VI sind die weiteren Bereiche außerhalb der anerkannten Kurzonen.",
+          "quote": "Für die weiteren Bereiche außerhalb der anerkannten Kurzonen (Kurzone VI)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 220,
+              "quote": "Für die weiteren Bereiche außerhalb der anerkannten Kurzonen (Kurzone VI) 2,20 €"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "b) Kinder bis zur Vollendung des 15. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie ist befreit, wenn für vier Familienmitglieder Kurbeiträge gezahlt werden.",
+      "quote": "die fünfte und jede weitere Person einer Familie, wenn für vier Familienmitglieder Kurbeiträge entrichtet werden."
+    },
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich bei ihnen wohnen und keine Kureinrichtungen nutzen",
+        "quote": "sofern sie in deren Wohnung oder Haushalt vorübergehend ohne jegliches Entgelt oder Kostenerstattung für Unterbringung und Verpflegung aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen;"
+      },
+      {
+        "text": "Ortsfremde, die nur zur Ausübung ihres Berufs oder zu Ausbildungszwecken im Ort übernachten",
+        "quote": "Ortsfremde Personen, die nur zur örtlichen Ausübung ihres Berufes oder zu Ausbildungszwecken im Erhebungsgebiet nach § 2 Abs. 2 der Satzung Unterkunft nehmen;"
+      },
+      {
+        "text": "Besucher aus den Partnerstädten bei organisierten Austauschen",
+        "quote": "Besucher aus den Partnerstädten der Stadt Winterberg anlässlich organisierter Austausche;"
+      },
+      {
+        "text": "Lizenzierte Leistungssportler bei verbandsorganisierten Trainings oder Wettkämpfen, wenn der Verband die Unterkunft zahlt",
+        "quote": "lizensierte Leistungssportler, die im Erhebungsgebiet an verbandsorganisierten Trainings oder Wettkämpfen teilnehmen, sofern die Unterkunftskosten durch den jeweiligen Verband getragen werden."
+      },
+      {
+        "text": "Auf Antrag Kranke und Schwerbehinderte, die Kureinrichtungen und Veranstaltungen nicht besuchen können, mit amtlicher oder ärztlicher Bescheinigung",
+        "quote": "Physisch und psychisch Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch amtliche"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen auf Antrag die Hälfte.",
+        "quote": "Der Kurbeitrag wird auf Antrag in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung,"
+      },
+      {
+        "text": "Wer zehn oder mehr Betten vermietet, erfasst die Gästedaten elektronisch und rechnet über das elektronische Meldesystem der Winterberg Touristik und Wirtschaft GmbH ab.",
+        "quote": "Unterkunftsgeber, die zehn oder mehr Betten zur Verfügung stellen, sind verpflichtet, die Personalien des Beitragspflichtigen elektronisch zu erfassen sowie die Abrechnung des Kurbeitrags über das elektronische Meldesystem der Winterberg Touristik und Wirtschaft GmbH abzuwickeln."
+      },
+      {
+        "text": "Du haftest neben dem Gast gesamtschuldnerisch für den vollständigen, zeitgerechten und richtigen Einzug und die Abführung des Kurbeitrags sowie für einen Ausfall.",
+        "quote": "gesamtschuldnerisch für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung sowie für den Ausfall des Kurbeitrages."
+      },
+      {
+        "text": "Die Kurbeitragssatzung musst du für deine Gäste an geeigneter, sichtbarer Stelle aushängen.",
+        "quote": "deren Einsichtnahme sie ihren Gästen durch Aushang an geeigneter und sichtbarer Stelle ermöglichen müssen."
+      },
+      {
+        "text": "Du lässt jedem beitragspflichtigen Gast unmittelbar nach der Ankunft eine Kurkarte aushändigen.",
+        "quote": "Der Unterkunftsgeber ist daher verpflichtet, dafür Sorge zu tragen, dass von ihm jede kurbeitragspflichtige Person unmittelbar nach seiner Ankunft im Erhebungsgebiet nach § 2 Abs. 2 der Satzung eine nach Abs. 1 ausgestellte Kurkarte erhält."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn an die Winterberg Touristik und Wirtschaft GmbH ab.",
+      "quote": "durch den Unterkunftsgeber (Aufzeichnungs- und Meldepflichtiger nach Abs. 2 und 3), von den kurbeitragspflichtigen Personen einzuziehen und an die Winterberg Touristik und Wirtschaft GmbH abzuführen."
+    },
+    "deadline": {
+      "text": "Was im Monat fällig und eingenommen wurde, führst du bis zum 15. des Folgemonats ab.",
+      "quote": "Die im Laufe des Kalendermonats fällig gewordenen und vom Unterkunftsgeber vereinnahmten Kurbeiträge sind jeweils bis zum 15. des folgenden Monats an die Winterberg Touristik und Wirtschaft GmbH abzuführen."
+    },
+    "reporting": {
+      "text": "Die Meldeformulare der Winterberg Touristik und Wirtschaft GmbH mit An- und Abreisetag reichst du bis zum 15. des Monats nach der Anreise ein.",
+      "quote": "Die hierfür von der Winterberg Touristik und Wirtschaft GmbH vorgeschriebenen Meldeformulare sind unter Angabe des An- und Abreisetages des Kurbeitragspflichtigen jeweils bis zum 15. des auf die Anreise vom Unterkunftsnehmer folgenden Monats bei der"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Winterberg selbstständig tätig bist und der Tourismus dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Der Beitrag wird von allen selbständig tätigen natürlichen und juristischen Personen, Personengesellschaften sowie sonstigen nicht- oder teilrechtsfähigen Personenvereini- gungen erhoben, denen durch den Fremdenverkehr im Stadtgebiet unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Privatzimmer ohne Frühstück",
+        "quote": "A03 Vermietung von Ferienwohnungen/- appartements/-häusern, Privatzimmern ohne Frühstück 100% 100% 100% 16%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Frühstück 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, Pension mit Frühstück, Privatpension, Gästehaus, Bed & Breakfast",
+        "quote": "A02 Hotel garni, Pension mit Frühstück (auch Privatpension), Gästehaus, Bed&Breakfast 95% 95% 95% 9%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "95% 95% 95%"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Sonstige Gewährung von Unterkünften an Übernachtungsgäste",
+        "quote": "A08 sonstige Gewährung von Unterkünften an Übernachtungsgäste 100% 100% 100% 9%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Übernachtungsgäste 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension einschließlich Restaurant-, Café- und Schankbetrieb, Zone 1 (Kernstadt Winterberg)",
+        "quote": "A01 Hotel, Gasthof, Pension m. Halb- u. Vollpension, einschließl. Restaurant-/Cafe- /Schankbetrieb 90% 80% 60% 7%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "90% 80% 60%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension einschließlich Restaurant-, Café- und Schankbetrieb, Zone 2 (Altastenberg, Elkeringhausen, Hoheleye, Langewiese, Lenneplätze, Neuastenberg, Züschen)",
+        "quote": "A01 Hotel, Gasthof, Pension m. Halb- u. Vollpension, einschließl. Restaurant-/Cafe- /Schankbetrieb 90% 80% 60% 7%",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "90% 80% 60%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension einschließlich Restaurant-, Café- und Schankbetrieb, Zone 3 (Siedlinghausen, Niedersfeld, Silbach, Grönebach, Hildfeld, Altenfeld, Mollseifen)",
+        "quote": "A01 Hotel, Gasthof, Pension m. Halb- u. Vollpension, einschließl. Restaurant-/Cafe- /Schankbetrieb 90% 80% 60% 7%",
+        "turnover": {
+          "advantage": {
+            "percent": 60,
+            "quote": "90% 80% 60%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Erholungsheim, Jugendherberge (auch mit Tagungsstätte), Ski- oder Wanderhüttenunterkunft",
+        "quote": "A04 Erholungsheim, Jugendherberge (ggf. mit Tagungsstätte), Ski-/Wanderhüttenunterkunft 100% 100% 100% 2%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100%"
+          },
+          "profit": {
+            "percent": 2
+          }
+        }
+      },
+      {
+        "label": "Campingplatz",
+        "quote": "A05 Campingplatz 100% 100% 100% 12%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Campingplatz 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Ferienpark mit mindestens 100 Betten und integrierten Sport- und Freizeiteinrichtungen",
+        "quote": "A07 Ferienpark (d.h. Komplettangebot mit mind. 100 Betten mit integrierten Sport- und Freizeiteinrichtungen) 100% 100% 100% 10%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Freizeiteinrichtungen) 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 8,
+      "quote": "Er beträgt im Erhebungsjahr 2026 8,0 %."
+    },
+    "basis": {
+      "text": "Es zählt dein Umsatz des Vorvorjahres, für 2026 also von 2024; hast du später angefangen, zählt der des Vorjahres, bei Beginn im Erhebungsjahr der des Erhebungsjahres.",
+      "quote": "Maßgeblich ist der im Vorvorjahr des Erhebungszeitraums (§ 5) erzielte Umsatz. Wurde die bei- tragspflichtige Tätigkeit im Erhebungsgebiet später als im Vorvorjahr begonnen, so ist der im Vorjahr erzielte Umsatz maßgeblich; wurde die Tätigkeit erst im Erhebungsjahr aufgenommen, so ist der im Erhebungsjahr erzielte Umsatz maßgeblich."
+    },
+    "minimum": {
+      "text": "Übersteigt dein Beitrag für das Jahr 10 € nicht, wird er nicht festgesetzt und nicht erhoben.",
+      "quote": "Der Fremdenverkehrsbeitrag wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung innerhalb des Erhebungszeitraumes gem. § 5 den Betrag von 10 € nicht über- steigt."
+    },
+    "reporting": {
+      "text": "Beginn oder Änderung deiner Vermietung meldest du der Stadt innerhalb eines Monats und gibst auf Anforderung die Angaben zur Berechnung des Beitrags an; eine feste jährliche Erklärung nennt die Satzung nicht.",
+      "quote": "Die Beitragspflichtigen und deren Vertreter sind verpflichtet, der Stadt die Aufnahme oder Änderung einer beitragspflichtigen Tätigkeit innerhalb eines Monats nach Auf- nahme oder Änderung mitzuteilen und auf Anforderung bzw. Nachfrage erforderliche Angaben zur Berechnung des Beitrages zu machen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist jedes Jahr am 15.11. fällig.",
+      "quote": "Der Beitrag wird im IV. Quartal eines jeden Jahres am 15.11. fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Umsatz ist die Summe der vereinnahmten Leistungsentgelte aus der beitragspflichtigen Tätigkeit, bei Umsatzsteuerpflicht ohne die enthaltene Umsatzsteuer.",
+        "quote": "Der Messbetrag wird errechnet aus der Summe der vereinnahmten Leistungsentgelte aus der beitragspflichtigen Tätigkeit (im Folgenden: Umsatz), im Falle der Umsatzsteuerpflicht abzüglich enthaltener Umsatzsteuer"
+      },
+      {
+        "text": "Bei Hotels, Gasthöfen und Pensionen mit Halb- oder Vollpension zählt die Anlage die Betriebsart einschließlich Restaurant-, Café- und Schankbetrieb.",
+        "quote": "A01 Hotel, Gasthof, Pension m. Halb- u. Vollpension, einschließl. Restaurant-/Cafe- /Schankbetrieb 90% 80% 60% 7%"
+      },
+      {
+        "text": "Den Umsatz weist du auf Verlangen mit deinen Steuererklärungen und Steuerbescheiden nach, und die Stadt darf ihn beim Finanzamt erfragen oder schätzen.",
+        "quote": "Sie sind insbesondere verpflichtet, die erklärten Umsätze durch Vorlage der betreffenden Umsatzsteuererklärungen und ggf. Umsatzsteuervoranmeldungen oder, bei fehlender Umsatzsteuerpflicht, der die bei- tragspflichtige Tätigkeit betreffenden Teile der Einkommen- oder Körperschaftsteuerer- klärung sowie der entsprechenden Steuerbescheide nachzuweisen."
+      },
+      {
+        "text": "Der Beitrag wird für das Kalenderjahr erhoben, und der Beitragssatz wird für jedes Jahr neu festgelegt; 8,0 % gilt für 2026.",
+        "quote": "Dieser Vomhundertsatz (Beitragssatz) wird für jedes Erhe- bungsjahr durch Division der vom Stadtrat bestimmten Aufwandsdeckungssumme durch die veranschlagte Summe der Messbeträge aller Beitragspflichtigen errechnet. Er beträgt im Erhebungsjahr 2026 8,0 %."
+      },
+      {
+        "text": "Betreibst du mehrere Arten von Betrieben, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere der in der Betriebsartentabelle aufgeführten Tätig- keiten aus, so ist der Beitrag für jede von ihnen gesondert zu berechnen."
+      },
+      {
+        "text": "Der Vorteilssatz hängt bei den in der Tabelle angegebenen Betriebsarten vom Ort ab: Zone 1 ist die Kernstadt Winterberg, Zone 2 sind Altastenberg, Elkeringhausen, Hoheleye, Langewiese, Lenneplätze, Neuastenberg und Züschen, Zone 3 sind Siedlinghausen, Niedersfeld, Silbach, Grönebach, Hildfeld, Altenfeld und Mollseifen.",
+        "quote": "Er ist für die dort angegebenen Be- triebsarten nach dem Ort der Betriebsausübung innerhalb des Erhebungsgebietes (im Sinne von § 2 Absatz 3) unterschieden in Zonen 1 bis 3. Die Zone 1 umfasst die Kern- stadt Winterberg; die Zone 2 umfasst die Ortsteile Altastenberg, Elkeringhausen, Ho- heleye, Langewiese, Lenneplätze, Neuastenberg und Züschen; die Zone 3 umfasst Siedlinghausen, Niedersfeld, Silbach, Grönebach, Hildfeld, Altenfeld und Mollseifen"
+      },
+      {
+        "text": "Die Stadt erhebt den Beitrag im gesamten Stadtgebiet.",
+        "quote": "Das Erhebungsgebiet ist das Stadtgebiet."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/winterberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kernstadt Winterberg (Kurzone I)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Altastenberg (Kurzone II)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Elkeringhausen (Kurzone II)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 270,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Langewiese (Kurzone III)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 270,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niedersfeld (Kurzone IV)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Züschen (Kurzone V)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 270,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Neuastenberg und Lenneplätze (Kurzone III)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Weitere Bereiche außerhalb der Kurzonen (Kurzone VI)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 220,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

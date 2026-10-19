@@ -1,0 +1,279 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hinterzarten",
+  "name": "Hinterzarten",
+  "short": "Hinterzarten",
+  "ags": "08315052",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Hinterzarten über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 22.10.2024",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/3/3/4/6/Kurtaxesatzung_Hinterzarten_Inkrafttreten_01012025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "8b1090792a2f18cd0a1fef96f7cd57c03847147ae77ad00b99bfd096fea57ea3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Hinterzarten über die Erhebung eines Fremdenverkehrsbeitrags (Fremdenverkehrsbeitragssatzung – FBS), Beschluss vom 22.10.2024",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/3/3/4/7/Fremdenverkehrsbeitragssatzung_Hinterzarten_Inkrafttreten_01012025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "da1d35c8f874aac04a93e450e1a7587242f5546e4e8fcc89ed69e3594786fc30",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind die Ortsmitte mit Kohlplatz, Bergacker, Kesslerberg und Kesslerhof, Windeck mit Herchenhof, der Rappeneckweg und der Rößlehofweg bis zur B31.",
+          "quote": "Zum Kurbezirk I gehören die Ortsmitte einschließlich Kohlplatz, Bergacker, Kesslerberg und Kesslerhof (Erlenbrucker Straße 49), Windeck einschließlich Herchenhof (Windeck 1), Rappeneckweg, Rößlehofweg bis zur B31."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren 3,50 € 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind alle übrigen Bereiche der Gemeinde.",
+          "quote": "Zum Kurbezirk II gehören alle übrigen Bereiche des Gemeindegebiets."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren 3,50 € 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100"
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen und Kranken, wenn der Ausweis oder ein ärztliches Attest die Begleitung belegt",
+        "quote": "Begleitpersonen von schwerbehinderten Personen und Kranken im Sinne von Nr. 4 und Nr. 5, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen Eingang.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen. Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab, über das kostenlose elektronische Meldeverfahren.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als natürliche Person mit selbstständiger Tätigkeit und als juristische Person.",
+      "quote": "Von allen natürlichen Personen, die eine selbständige Tätigkeit ausüben, und von allen juristischen Personen wird ein Beitrag zur Förderung des Fremdenverkehrs und des"
+    },
+    "letting": [
+      {
+        "label": "Nicht gewerbliche Privatzimmervermietung (Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten, ohne gewerblich tätig zu sein)",
+        "quote": "Der Beitrag nach § 4 Abs. 4 beträgt 0,50 € je Übernachtung.",
+        "perNight": {
+          "cents": 50
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 5 Kalendertagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 4 Abs. 4 haben der Gemeinde die Anzahl der bei ihnen gegen Entgelt beherbergten Personen innerhalb von 5 Kalendertagen nach Ablauf eines jeden Kalendermonats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Der Beitrag auf die Übernachtungen ist 14 Kalendertage nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "und in den Fällen des § 6 Abs. 2 innerhalb von 14 Kalendertagen nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Beitrag wird nur erhoben, soweit dir in Hinterzarten aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen.",
+        "quote": "soweit ihnen in der Gemeinde Hinterzarten aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen"
+      },
+      {
+        "text": "Vermietest du als Privatzimmervermieter ohne gewerblich tätig zu sein nur Wohnungen oder Zimmer vorübergehend an Fremde, richtet sich dein Beitrag nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), ohne gewerblich tätig zu sein, bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum nach § 7 Abs. 2 (Übernachtungsgeld)."
+      },
+      {
+        "text": "Der Beitrag auf die Übernachtungen wird für jeden Kalendermonat erhoben und entsteht zum Monatsende.",
+        "quote": "Die Beiträge nach § 6 Abs. 2 werden für jeden Kalendermonat erhoben (Erhebungszeitraum) und entstehen zum Ende des jeweiligen Kalendermonats."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen, auch wer gewerblich vermietet, zahlen 10 % des Messbetrags; beträgt der Beitrag weniger als 20 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 2, 3 beträgt 10 vom Hundert des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 20,00 € beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hinterzarten/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

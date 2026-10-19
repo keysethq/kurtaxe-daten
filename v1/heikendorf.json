@@ -1,0 +1,320 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "heikendorf",
+  "name": "Heikendorf",
+  "short": "Heikendorf",
+  "ags": "01057025",
+  "state": "Schleswig-Holstein",
+  "district": "Plön",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Heikendorf (Neufassung) vom 9. Oktober 2025",
+      "url": "https://www.amt-schrevenborn.de/loadDocument.phtml?FID=4157.520.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "cdd6718d6ee24f84122faca71f2eabeb3ca6d066399e4f7f7f3bcddd67ccaf94",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Heikendorf (Tourismusabgabesatzung, Neufassung) vom 10.12.2025",
+      "url": "https://www.amt-schrevenborn.de/loadDocument.phtml?FID=4157.521.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "00e6b570474d1d6a3d9c9c0c64eae686ef59c34997a2969ee790b1d89b432687",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "b. Hauptsaison 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung ihres 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "04-30"
+          },
+          {
+            "from": "10-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "a. Nebensaison 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung ihres 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder, Eltern, Geschwister und weitere nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwager und Schwägerinnen von Personen, die in der Gemeinde Heikendorf ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind, die Kureinrichtungen nicht in Anspruch und an Veranstaltungen nicht teilnehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 zahlen den ermäßigten Satz; das gilt auch für die ständige Begleitperson, sofern die Begleitung notwendig und im Ausweis eingetragen ist.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 50 und mehr nachweisen, zahlen den ermäßigten Kurabgabesatz nach § 6 Abs. 1 bzw. Abs. 3. Dies gilt auch für die ständige Begleitperson, sofern eine ständige Begleitung notwendig ist und dies im Ausweis des Schwerbehinderten eingetragen ist."
+      },
+      {
+        "text": "Der ermäßigte Satz beträgt 0,75 € in der Nebensaison und 1,50 € in der Hauptsaison.",
+        "quote": "Die ermäßigte Kurabgabe nach § 4 Abs. 3 beträgt in der a. Nebensaison 0,75 € b. Hauptsaison 1,50 €"
+      },
+      {
+        "text": "Vom 1. November bis 31. März wird keine Kurabgabe erhoben.",
+        "quote": "Der Zeitraum vom 1. November bis zum 31. März eines jeden Jahres ist kurabgabe-frei."
+      },
+      {
+        "text": "Über einen oder mehrere Aufenthalte eines Kalenderjahres zahlt ein Gast höchstens die Jahreskurabgabe von 100,00 € (ermäßigt 50,00 €).",
+        "quote": "Die Kurabgabe wird für die Dauer eines oder mehrerer Aufenthalte in einem Kalenderjahr nach dem Tageskurabgabesatz, höchstens jedoch in Höhe der Jahreskurabgabe erhoben. An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird. (3) Die Jahreskurabgabe beträgt für jede kurabgabepflichtige Person im Kalenderjahr 100,00 €. Die ermäßigte Jahreskurabgabe beträgt 50,00 €."
+      },
+      {
+        "text": "Dein Gast zahlt die Kurabgabe spätestens am Tag nach der Ankunft bei dir, für die ganze Dauer des voraussichtlichen Aufenthalts.",
+        "quote": "Die Kurabgabepflichtigen haben die Kurabgabe spätestens am Tag nach der Ankunft im Gemeindegebiet bei den zum Einzug und zur Abführung der Kurabgabe Verpflichteten"
+      },
+      {
+        "text": "Jeder Unterkunftsgeber haftet gesamtschuldnerisch für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die Gemeinde.",
+        "quote": "Jeder Unterkunftsgeber haftet gesamtschuldnerisch im Rahmen der den ihm nach den Abs. 2 und 3 obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die Gemeinde Heikendorf."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie nach Rechnungsstellung an die Gemeinde ab oder erteilt ihr eine Lastschriftermächtigung.",
+      "quote": "die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an die Gemeinde Heikendorf nach Rechnungsstellung kostenfrei abzuführen, oder aber der Gemeinde Heikendorf eine Lastschriftermächtigung zu erteilen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Die Kopien der Meldescheine legst du innerhalb von sechs Wochen bei der Gemeinde vor.",
+      "quote": "Kopien der Meldescheine sind innerhalb von sechs Wochen bei der Gemeinde Heikendorf vorzulegen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Heikendorf selbständig tätig bist und dir der Tourismus dort wirtschaftliche Vorteile bietet, also auch als Vermieter von Ferienwohnungen oder Zimmern.",
+      "quote": "(1) Abgabepflichtig sind die im Erhebungsgebiet selbständig oder freiberuflich tätigen natürlichen und juristischen Personen sowie nichtrechtsfähigen und teilrechtsfähigen Gesellschaften, Unternehmen und Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde Heikendorf unmittelbar oder mittelbar wirtschaftliche Vorteile beim Anbieten von tourismusbedingten entgeltlichen Leistungen geboten werden (abgabepflichtige Personen)."
+    },
+    "letting": [
+      {
+        "label": "Sonstige Vermietung ohne hotelmäßige Leistungen und Verpflegung (Vorteilsstufe 5)",
+        "quote": "A 10040 Sonstige Vermietung ohne hotelmäßige Leistungen und Verpflegung, 16% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10040 Sonstige Vermietung ohne hotelmäßige Leistungen und Verpflegung, 16% 5 100,00%"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 5)",
+        "quote": "A 10021 ◦ mit einem Umsatz bis 200.000 Euro 12% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10021 ◦ mit einem Umsatz bis 200.000 Euro 12% 5 100,00%"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € (Vorteilsstufe 5)",
+        "quote": "A 10022 ◦ mit einem Umsatz über 200.000 Euro 9% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10022 ◦ mit einem Umsatz über 200.000 Euro 9% 5 100,00%"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € (Vorteilsstufe 5)",
+        "quote": "A 10011 ◦ mit einem Umsatz bis 500.000 Euro 7% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10011 ◦ mit einem Umsatz bis 500.000 Euro 7% 5 100,00%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € (Vorteilsstufe 5)",
+        "quote": "A 10012 ◦ mit einem Umsatz über 500.000 Euro 4% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10012 ◦ mit einem Umsatz über 500.000 Euro 4% 5 100,00%"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      },
+      {
+        "label": "Wohnmobilübernachtungsplätze und Campingplätze (Vorteilsstufe 5)",
+        "quote": "A 10050 Wohnmobilübernachtungsplätze, sowie Campingplätze 8% 5 100,00%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 10050 Wohnmobilübernachtungsplätze, sowie Campingplätze 8% 5 100,00%"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.48,
+      "quote": "Der Abgabesatz beträgt 2,48 v. H."
+    },
+    "basis": {
+      "text": "Es zählt dein jährlicher Gesamtumsatz ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem umsatzsteuerbereinigten jährlichen Gesamtumsatz des Abgabepflichtigen,"
+    },
+    "minimum": {
+      "text": "Beträgt dein Jahresbetrag nicht mehr als 5 Euro, wird er nicht festgesetzt.",
+      "quote": "(6) Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn der Jahresbetrag im Einzelfall den Betrag von 5,00 € nicht übersteigt.",
+      "cents": 500,
+      "kind": "threshold"
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jeden Jahres gibst du auf dem Formblatt der Gemeinde die Erklärung über deine Jahresumsätze ab, oder innerhalb eines Monats nach schriftlicher Aufforderung der Gemeinde.",
+      "quote": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Jahresumsätze gemäß § 4 Absatz 4 bis 6 abzugeben,"
+    },
+    "deadline": {
+      "text": "Verlangt die Gemeinde Vorausleistungen, sind sie am 15. Februar, 15. Mai, 15. August und 15. November fällig.",
+      "quote": "Die festgesetzten Vorausleistungen werden in Vierteljahresbeträgen jeweils am 15.02., 15.05., 15.08. und 15.11. eines Jahres fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind insbesondere die Gesamtumsätze des Vorvorjahres.",
+        "quote": "Maßgeblich für die Berechnung der Abgabe sind insbesondere die Gesamtumsätze des Vorvorjahres."
+      },
+      {
+        "text": "Ein nach der Endabrechnung noch offener Betrag ist einen Monat nach Bekanntgabe des Festsetzungsbescheids in einer Summe fällig.",
+        "quote": "Ein nach dem Ergebnis der Endabrechnung noch festzusetzender Abgabenanteil wird einen Monat nach Bekanntgabe des Festsetzungsbescheides in einer Summe fällig."
+      },
+      {
+        "text": "Die Tabelle der Anlage nennt Gewinnsatz, Vorteilsstufe und Vorteilssatz.",
+        "quote": "Gewinn- Vorteils- Vorteils- Nr. Betriebsart / Personengruppe / Tätigkeit satz stufe satz"
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Gemeinde innerhalb eines Monats an.",
+        "quote": "- Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats,"
+      },
+      {
+        "text": "Kleine Beträge sind früher fällig: bis 15 € am 15. August, bis 30 € je zur Hälfte am 15. Februar und am 15. August.",
+        "quote": "Kleinbeträge werden wie folgt fällig: - am 15.08. mit dem Jahresbeitrag, wenn dieser 15,00 € nicht übersteigt. - am 15.02. und 15.08. zu je einer Hälfte des Jahresbeitrages, wenn dieser 30,00 € nicht übersteigt."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/heikendorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "04-01",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

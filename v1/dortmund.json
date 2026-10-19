@@ -1,0 +1,88 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dortmund",
+  "name": "Stadt Dortmund",
+  "short": "Dortmund",
+  "ags": "05913000",
+  "state": "Nordrhein-Westfalen",
+  "district": "Dortmund",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Abgabe auf entgeltliche Beherbergungen im Gebiet der Stadt Dortmund (Beherbergungsabgabensatzung) vom 14.02.2023, Stadt Dortmund",
+      "url": "https://rathaus.dortmund.de/dosys/dokumentenpool_domap.nsf/WEB/99532E72A00D58F0C1258A6F00413B6C/$FILE/Beherbergungsabgabensatzung%202023-02-14.pdf",
+      "kind": "municipality",
+      "inForce": "2023-04-01",
+      "sha256": "d59f72a36a751b93be5b607cde7f88996bec37ad19ac4a58a802e43d99c7faaf",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsabgabe",
+    "source": "satzung",
+    "rate": {
+      "percent": 7.5,
+      "quote": "Die Beherbergungsabgabe beträgt 7,5 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Abgabe bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Mehrwertsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Beherbergungsgast für die Beherbergung aufgewendete Betrag (einschließlich Mehrwertsteuer).",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Abgabe; du ziehst sie als Vermieter bei ihm ein und führst sie an die Stadt ab.",
+      "quote": "Zur Einziehung und Abführung der Beherbergungsabgabe sowie der damit verbundenen Steuererklärungen gegenüber der Stadt Dortmund ist der Betreiber des Beherbergungsbetriebes (Steuerentrichtungspflichtiger) verpflichtet, der die Beherbergungsleistung zur Verfügung stellt."
+    },
+    "deadline": {
+      "text": "Die Abgabe zahlst du vierteljährlich bis zum 20. Tag nach Quartalsende an die Stadt.",
+      "quote": "Die Beherbergungsabgabe ist bis zum 20. Tag nach Ablauf eines Kalendervierteljahres an die Stadt Dortmund zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Steuererklärung auf dem amtlichen Vordruck ein und berechnest die Abgabe darin selbst.",
+      "quote": "Der Steuerentrichtungspflichtige hat der Stadt Dortmund für die Beherbergungsleistungen und die zu entrichtende Beherbergungsabgabe bis zum 15. Tag nach Ablauf eines Kalendervierteljahres eine Steuererklärung nach amtlich vorgeschriebenen Vordruck (Anlage 1 dieser Satzung) einzureichen. In dieser Steuererklärung ist die Beherbergungsabgabe von dem Steuerentrichtungspflichtigen selbst zu berechnen (Steueranmeldung)."
+    },
+    "exemptions": null,
+    "remarks": [
+      {
+        "text": "Die Satzung gilt für alle entgeltlichen Beherbergungen seit dem 1. April 2023 und nennt keine Befreiungen.",
+        "quote": "Diese Beherbergungsabgabensatzung tritt zum 01.04.2023 in Kraft und findet Anwendung auf alle entgeltlichen Beherbergungsleistungen ab dem 01.04.2023."
+      },
+      {
+        "text": "Die frühere Satzung galt nur für private Beherbergungen; sie ist seit dem 1. April 2023 außer Kraft.",
+        "quote": "die Satzung über die Erhebung einer Abgabe auf entgeltliche private Beherbergungen im Gebiet der Stadt Dortmund (Beherbergungsabgabensatzung) vom 08.10.2014"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € je Gast für das Frühstück sowie je 10 € für Mittag- und Abendessen ab.",
+        "quote": "Sofern die Aufteilung einer Gesamtrechnung in Beherbergungsentgelt und Entgelt für sonstige Dienstleistungen ausnahmsweise nicht möglich ist, gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung / Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      }
+    ]
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-dortmund Dortmund nrw-duesseldorf Düsseldorf ee8821a4-509a-4d54-804b-6429768c8c5f Frechen b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/dortmund/",
+  "calculation": {
+    "kind": "town",
+    "percent": 7.5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

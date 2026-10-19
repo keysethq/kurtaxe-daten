@@ -1,0 +1,341 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sankt-blasien",
+  "name": "St. Blasien",
+  "short": "St. Blasien",
+  "ags": "08337097",
+  "state": "Baden-Württemberg",
+  "district": "Waldshut",
+  "sources": {
+    "satzung": {
+      "title": "Konsolidierte Fassung der Satzung der Gemeinde St. Blasien über die Erhebung einer Kurtaxe (Kurtaxesatzung), inkl. Änderungssatzung vom 12.11.2024",
+      "url": "https://www.stblasien.de/fileadmin/Dateien/Website/Dateien/Bekanntmachungen/Satzungen__ab_2025_/konsolidierte_Fassung_Kurtaxesatzung_g%C3%BCltig_ab_01.01.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "34e93e35e1037d37d00558b8e2c5ad816be2711cd2b12512b88916c11f81ec68",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt St. Blasien über die Erhebung eines Beitrages zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragsatzung), Beschluss vom 26.03.2024",
+      "url": "https://www.stblasien.de/fileadmin/Dateien/Website/Dateien/Satzungen/Fremdenverkehrsbeitragssatzung_Stadt_St._Blasien_ab_01.05.2024.pdf",
+      "kind": "statute",
+      "inForce": "2024-05-01",
+      "sha256": "58f22bea4f12db13febfe47d3c35a9c0c14ed18948b4e6582d170d00544ef6bb",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Anreise und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind alle Gewanne im Ortsteil St. Blasien.",
+          "quote": "Es zählen zum Kurbezirk I alle Gewanne im Ortsteil St.Blasien."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 390,
+              "quote": "Die Kurtaxe beträgt pro Person und Aufenthaltstag ganzjährig einschließlich der gesetzlichen Mehrwertsteuer Kurbezirk I: Kurbezirk II: Kurbezirk III: 3,90 € 2,40 € 3,90 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 210,
+                "quote": "Für Kinder und Jugendliche ab dem vollendeten sechsten Lebensjahr bis zum vollendeten 16. Lebensjahr beträgt die Kurtaxe pro Tag und Person ganzjährig Kurbezirk I: Kurbezirk II: Kurbezirk III: 2,10 € 1,60 € 2,10 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind alle Gewanne im Ortsteil Albtal und das Gewann Schmelze.",
+          "quote": "Es zählen zum Kurbezirk II alle Gewanne im Ortsteil Albtal und das Gewann Schmelze."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 240,
+              "quote": "Die Kurtaxe beträgt pro Person und Aufenthaltstag ganzjährig einschließlich der gesetzlichen Mehrwertsteuer Kurbezirk I: Kurbezirk II: Kurbezirk III: 3,90 € 2,40 € 3,90 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "Für Kinder und Jugendliche ab dem vollendeten sechsten Lebensjahr bis zum vollendeten 16. Lebensjahr beträgt die Kurtaxe pro Tag und Person ganzjährig Kurbezirk I: Kurbezirk II: Kurbezirk III: 2,10 € 1,60 € 2,10 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III sind alle Gewanne im Ortsteil Menzenschwand.",
+          "quote": "Es zählen zum Kurbezirk III alle Gewanne im Ortsteil Menzenschwand."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 390,
+              "quote": "Die Kurtaxe beträgt pro Person und Aufenthaltstag ganzjährig einschließlich der gesetzlichen Mehrwertsteuer Kurbezirk I: Kurbezirk II: Kurbezirk III: 3,90 € 2,40 € 3,90 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 210,
+                "quote": "Für Kinder und Jugendliche ab dem vollendeten sechsten Lebensjahr bis zum vollendeten 16. Lebensjahr beträgt die Kurtaxe pro Tag und Person ganzjährig Kurbezirk I: Kurbezirk II: Kurbezirk III: 2,10 € 1,60 € 2,10 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste, die nicht übernachten",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde aufhalten."
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich in deren Haushalt wohnen",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Auf Antrag: Kranke und Schwerbehinderte, die ihre Unterkunft nicht verlassen können und das ärztlich belegen",
+        "quote": "Kranke und schwerbehinderte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis ausweisen, während der Dauer dieses Zustands."
+      },
+      {
+        "text": "Auf Antrag: Menschen mit einem nachgewiesenen Grad der Behinderung von 100 %",
+        "quote": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100%."
+      },
+      {
+        "text": "Auf Antrag: Wer sich aus beruflichen Gründen oder zu einer beruflich bedingten Tagung im Ort aufhält, für die Dauer dieses Aufenthalts",
+        "quote": "Personen, die sich aus beruflichen Gründen bzw. zur Teilnahme an beruflich bedingten Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die Dauer des beruflich bedingten Aufenthalts."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von mindestens 70 % 20 % weniger.",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit einem nachgewiesenen Grad der Behinderung von mindestens 70 % gegen Vorlage des amtlichen Ausweises."
+      },
+      {
+        "text": "Mit der Konus-Gästekarte fahren die Gäste im Schwarzwald kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "Die Konus-Gästekarte berechtigt zur kostenfreien Nutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald."
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldeverfahren der Gemeinde.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich zur Verfügung gestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein und führst sie an die Gemeinde ab; für den vollständigen und richtigen Einzug haftest du.",
+      "quote": "Die nach § 9 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 8 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Gemeinde fordert die Kurtaxe nach Monatsende bei dir an; du zahlst sie innerhalb von 14 Tagen nach der Anforderung.",
+      "quote": "Die Kurtaxe wird aufgrund der An- und Abmeldungen beim Vermieter nach Monatsende angefordert. Sie ist innerhalb von 14 Tagen nach der Anforderung an die Gemeindekasse zu zahlen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir in St. Blasien aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen.",
+      "quote": "Von allen natürlichen und juristischen Personen, denen in der Stadt St. Blasien aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitrag oder Übernachtungsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Konzessionierte Betriebe und Privatzimmervermieter mit Einnahmen aus Übernachtung von Gästen (Bettengeld)",
+        "quote": "Der Übernachtungsbeitrag (Bettengeld) nach § 3 Abs. 2 beträgt je Person und Übernachtung 0,77 Euro.",
+        "perNight": {
+          "cents": 77,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest die Gäste, die du gegen Entgelt beherbergst, innerhalb von 24 Stunden nach Ankunft und Abreise bei der Stadt an beziehungsweise ab.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 2 haben die bei ihnen gegen Entgelt weilenden Personen der Stadt St. Blasien innerhalb von 24 Stunden nach Ankunft und Abreise an- bzw. abzumelden."
+    },
+    "deadline": {
+      "text": "Der Beitrag auf die Übernachtungen wird zusammen mit der Kurtaxe erhoben.",
+      "quote": "Er wird mit der Kurtaxe erhoben."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Hast du Einnahmen aus der Übernachtung von Gästen, als Privatzimmervermieter wie als konzessionierter Betrieb, bemisst sich dein Beitrag nach der Zahl der Übernachtungen (Bettengeld).",
+        "quote": "Bei den Beitragspflichtigen die Einnahmen aus Übernachtung von Gästen (mit oder ohne Frühstück) erzielen, sowohl konzessionierte Betriebe als auch Privatzimmervermieter, mit Ausnahme solcher Beherbergungsbetriebe, die Vorsorge- oder Rehabilitationskliniken sind und die einen erheblichen Anteil an sozialversicherten Patienten haben, bemisst sich der Beitrag nach der Zahl der Übernachtungen (Bettengeld)."
+      },
+      {
+        "text": "Bei konzessionierten Betrieben ist mit dem Übernachtungsbeitrag der Fremdenverkehrsbeitrag aus Umsätzen aus Übernachtungen einschließlich Frühstück abgegolten; alle übrigen Umsätze dieser Betriebe unterliegen dem Fremdenverkehrsbeitrag nach dem Messbetrag.",
+        "quote": "Bei den konzessionierten Betrieben ist mit dem Übernachtungsbeitrag (Bettengeld) nach § 5 Abs. 3 der Fremdenverkehrsbeitrag aus Umsätzen aus Übernachtungen einschließlich Frühstück abgegolten. Alle übrigen Umsätze dieser Betriebe unterliegen dem Fremdenverkehrsbeitrag nach Maßgabe des § 3 Abs. 1 bis 2 in Verbindung mit § 4 Abs. 1 dieser Satzung."
+      },
+      {
+        "text": "Die Zahl der Gästebetten teilst du der Stadt jedes Jahr zum 1. Oktober mit.",
+        "quote": "Die Anzahl der Gästebetten ist jährlich zum 1. Oktober der Stadt St. Blasien mitzuteilen."
+      },
+      {
+        "text": "Auf alle anderen Umsätze und für alle anderen Beitragspflichtigen beträgt der Beitrag 60 % des Messbetrags; beträgt er voraussichtlich weniger als 50 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag beträgt für ein Haushaltsjahr 60 von Hundert des Messbetrages nach §4 Abs. 1. Er wird nicht erhoben, wenn er voraussichtlich weniger als 50,00 € beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sankt-blasien/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 390,
+        "children": [
+          0,
+          210
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 390,
+            "children": [
+              0,
+              210
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 240,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 390,
+            "children": [
+              0,
+              210
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

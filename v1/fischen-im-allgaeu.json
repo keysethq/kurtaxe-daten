@@ -1,0 +1,297 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "fischen-im-allgaeu",
+  "name": "Gemeinde Fischen i. Allgäu",
+  "short": "Fischen im Allgäu",
+  "ags": "09780121",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung) in der Gemeinde Fischen i. Allgäu vom 25. September 2024 (Scan)",
+      "url": "https://www.hoernergruppe.de/wp-content/uploads/simple-file-list/Fischen/Kurbeitrag/Kurbeitragssatzung_gueltig_ab_01_12_2024_bzw__01_01_2025.pdf",
+      "kind": "statute",
+      "inForce": "2024-12-01",
+      "sha256": "5c0970bdd66b7bcc980d240b338fabd04fc23ea7efc94accbea9dc8781dffc1d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "b) für Personen ab dem vollendeten 14. Lebensjahr 3,80 €."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres sind beitragsfrei."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "a) für Personen ab dem vollendeten 6. Lebensjahr 1,90 €, b) für Personen ab dem vollendeten 14. Lebensjahr 3,80 €."
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "a) für Personen ab dem vollendeten 6. Lebensjahr 1,90 €, b) für Personen ab dem vollendeten 14. Lebensjahr 3,80 €."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen mit einem Grad der Behinderung von wenigstens 80 % gemäß amtlichem Ausweis"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Begleitpersonen von schwerbehinderten Personen mit einem Grad der Behinderung von wenigstens 80 %, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind (Merkzeichen \"B\")"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Geschäftsreisende"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Verwandte ersten Grades, deren Gastgeber mit Hauptwohnsitz in Fischen gemeldet ist."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "Zum Nachweis der Entrichtung des Kurbeitrages erhält der Beitragspflichtige einen elektronischen Gästepass."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "wird eine Gebühr in Höhe von 3,- € pro Meldeschein erhoben.",
+          "digitsUnread": true
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten, sofern im Rahmen der EDV-Abrechnung kein Abbuchungsauftrag besteht, spätestens am dritten Tag nach der Zustellung des jeweiligen Bescheides"
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "spätestens am ersten Tag des Aufenthalts mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens (Meldesystem) zu melden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages in der Gemeinde Fischen i. Allgäu vom 24.10.1978, Lesefassung zum 01.01.2023",
+      "url": "https://www.hoernergruppe.de/wp-content/uploads/simple-file-list/Fischen/Fremdenverkehrsbeitrag/Lesefassung_Fremdenverkehrsbeitragssatzung_vom_01_01_2023.pdf",
+      "kind": "municipality",
+      "inForce": "1978-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2a7b8a25ffd1d238beb0ed28dc705c8f94bfa8fc5781c218b9d71c49e92ab6fa",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 380,
+          "quote": "b) für Personen ab dem vollendeten 14. Lebensjahr 3,80 €."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres sind beitragsfrei."
+          },
+          {
+            "underAge": 14,
+            "cents": 190,
+            "quote": "a) für Personen ab dem vollendeten 6. Lebensjahr 1,90 €, b) für Personen ab dem vollendeten 14. Lebensjahr 3,80 €."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 80, laut Ausweis",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von wenigstens 80 % gemäß amtlichem Ausweis"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung von mindestens 80 und Merkzeichen B",
+        "quote": "Begleitpersonen von schwerbehinderten Personen mit einem Grad der Behinderung von wenigstens 80 %, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind (Merkzeichen „B“)"
+      },
+      {
+        "text": "Geschäftsreisende",
+        "quote": "Geschäftsreisende"
+      },
+      {
+        "text": "Verwandte ersten Grades, deren Gastgeber mit Hauptwohnsitz in Fischen gemeldet ist",
+        "quote": "Verwandte ersten Grades, deren Gastgeber mit Hauptwohnsitz in Fischen gemeldet ist."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Jeder zahlende Gast bekommt einen elektronischen Gästepass als Nachweis.",
+        "quote": "Zum Nachweis der Entrichtung des Kurbeitrages erhält der Beitragspflichtige einen elektronischen Gästepass."
+      },
+      {
+        "text": "Wenn du die Meldung nicht elektronisch weiterleiten kannst, gibst du sie ausnahmsweise im Gästeservice ab; dafür fallen 3 Euro pro Meldeschein an.",
+        "quote": "wird eine Gebühr in Höhe von 3,- € pro Meldeschein erhoben."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens am dritten Tag nach Zustellung des Bescheids, sofern nicht ein Abbuchungsauftrag besteht.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten, sofern im Rahmen der EDV-Abrechnung kein Abbuchungsauftrag besteht, spätestens am dritten Tag nach der Zustellung des jeweiligen Bescheides"
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am ersten Tag des Aufenthalts über das Meldesystem der Gemeinde.",
+      "quote": "spätestens am ersten Tag des Aufenthalts mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens (Meldesystem) zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer und sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsgemäßen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,45 €",
+        "perNight": {
+          "cents": 45
+        }
+      }
+    ],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des Umsatzes. Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird"
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Die Gemeinde kann die Vorauszahlung von 0,45 € je Übernachtung zusammen mit dem Kurbeitrag von dir als Vermieter verlangen; sie gilt abweichend von der Vorauszahlung am 15. August.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer und sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsgemäßen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,45 €"
+      },
+      {
+        "text": "Am 15. August jedes Jahres ist eine Vorauszahlung zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat am 15. August jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Rechnet die Gemeinde damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann sie darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ],
+    "rate": {
+      "percent": 8,
+      "quote": "Der Beitragssatz beträgt 8 v. Hundert."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/fischen-im-allgaeu/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 380,
+        "children": [
+          0,
+          190
+        ]
+      }
+    ]
+  }
+}

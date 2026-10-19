@@ -1,0 +1,211 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ribnitz-damgarten",
+  "name": "Bernsteinstadt Ribnitz-Damgarten",
+  "short": "Ribnitz-Damgarten",
+  "ags": "13073075",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Bernsteinstadt Ribnitz-Damgarten, Amtliches Stadtblatt Nr. 11/2023 vom 15.12.2023",
+      "url": "https://www.ribnitz-damgarten.de/media/verwaltung/pages/media/1c0f62df25-1760468970/kurabgabe-erlass-2023.pdf",
+      "kind": "gazette",
+      "inForce": "2024-01-01",
+      "sha256": "7e1dd5bfb99530329bd2af44f3eadaf4bd572c5e20ecccbc8fca2e7c9756651a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Bernsteinstadt Ribnitz-Damgarten, Beschluss vom 13.05.2020, aktuelle Lesefassung",
+      "url": "https://www.ribnitz-damgarten.de/media/verwaltung/pages/media/cca2f3bb90-1760468959/satzung-fremdenverkehrsabgabe-lesefassung.pdf",
+      "kind": "municipality",
+      "inForce": "2020-06-13",
+      "sha256": "d1f1187eb60d3c8fc2959ea32e82201a16a8f02fe76f2d058409e0e74ab4639c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Dabei werden der An- und Abreisetag, unabhängig von der An- und Abreisezeit, jeweils als einzelner Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Die Höhe der Kurabgabe beträgt ganzjährig pro Person und Aufenthaltstag 2,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis einschließlich 17 Jahre"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte mit einem Behinderungsgrad ab 80 und ihre Begleitpersonen, wenn der Ausweis das entsprechend kennzeichnet",
+        "quote": "Schwerbehinderte mit einem Behinderungsgrad ab 80 und deren Begleitpersonen, sofern dies auf dem Behindertenausweis entsprechend gekennzeichnet ist"
+      },
+      {
+        "text": "Wer in Ribnitz-Damgarten arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze kann pro Person eine Jahreskurabgabe von 60,00 € je Kalenderjahr entrichtet werden.",
+        "quote": "Anstelle der nach Tagen berechneten Kurabgabe kann pro Person eine Jahreskurabgabe entrichtet werden. Der Bemessung der Jahreskurabgabe liegen 30 Aufenthaltstage zu Grunde. Unabhängig von dem jeweiligen Aufenthaltszeitraum und der jeweiligen Aufenthaltsdauer beträgt die Jahreskurabgabe pro Person und Kalenderjahr 60,00 Euro."
+      },
+      {
+        "text": "Für ortsfremde Eigentümer und Besitzer einer Wohngelegenheit und ihre Familienangehörigen wird pro Person eine Jahreskurabgabe unabhängig von der Aufenthaltsdauer erhoben.",
+        "quote": "Für ortsfremde Eigentümer oder Besitzer einer Wohngelegenheit sowie deren Familienangehörige im Sinne dieses Absatzes wird pro Person eine Jahreskurabgabe unabhängig von der Aufenthaltsdauer erhoben."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen über die Satzung hinaus darfst du als Vermieter nicht ohne Zustimmung der Stadt gewähren.",
+        "quote": "Die Quartiergeber sind nicht berechtigt, ohne Zustimmung der Stadt Ribnitz-Damgarten über die in dieser Satzung geregelten Tatbestände hinaus Befreiungen und Ermäßigungen von der Kurabgabe zu gewähren."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Quartiergeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und gibt direkt die Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen, die Kurkarte direkt auszugeben"
+    },
+    "deadline": {
+      "text": "Abgeführt wird nach der Abrechnung der Stadt für den Vormonat, spätestens für das vorangegangene Quartal.",
+      "quote": "die vereinnahmte Kurabgabe nach Erhalt einer entsprechenden Abrechnung durch die Stadt Ribnitz-Damgarten für den vorangegangenen Monat, spätestens jedoch für das vorangegangene Quartal an die Stadt Ribnitz-Damgarten abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste werden am Anreisetag im elektronischen Online-Meldesystem angemeldet, oder die Durchschriften der Meldescheine gehen bis zum 5. des Folgemonats an die Stadt.",
+      "quote": "unverzüglich noch am Tag der Ankunft über das elektronische Online-Meldesystem anzumelden b) oder Durchschriften der entsprechend manuell ausgefüllten Meldescheine bis zum 5. des Folgemonats bei der Stadt Ribnitz-Damgarten abzugeben."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Ribnitz-Damgarten mittelbar oder unmittelbar Vorteile bringt.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen sowie Personenvereinigungen, denen im Erhebungsgebiet durch den Fremdenverkehr mittelbare oder unmittelbare Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Bettenvermietung (Vorteilsstufe 4)",
+        "quote": "Bettenvermietung 3 Betten",
+        "units": {
+          "count": 3,
+          "per": "Bett",
+          "value": {
+            "cents": 2000,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 20 Euro."
+          },
+          "times": {
+            "factor": 2,
+            "quote": "in der Vorteilsstufe 4 dem doppelten Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 1. August jedes Jahres teilst du der Stadt mit, was sie für die Berechnung braucht, mit Stand vom 1. Juli; beginnst du neu, meldest du dich spätestens 4 Wochen nach dem Start.",
+      "quote": "Die Abgabepflichtigen sowie ihre Vertreter haben bis zum 01.08. des laufenden Kalenderjahres, die zur Berechnung der Abgabe erforderlichen Daten mit Stand vom 01.07. des laufenden Kalenderjahres unaufgefordert mitzuteilen. Bei der Neuaufnahme einer abgabepflichtigen Tätigkeit im Sinne dieser Satzung besteht die Mitteilungspflicht der Abgabepflichtigen sowie ihrer Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids; der Bescheid kann auch für die folgenden Jahre gelten und nennt dann die Fälligkeitstage.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig. Der Heranziehungsbescheid kann bestimmen, dass der Bescheid auch für die folgenden Kalenderjahre gilt"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei der Bettenvermietung entspricht eine Vorteilseinheit 3 Betten; die Tabelle weist 13,33 € je Bett aus.",
+        "quote": "Bettenvermietung 3 Betten 2 0,66666667 13,33"
+      },
+      {
+        "text": "Die letzte Spalte der Tabelle weist den Abgabesatz je Bett, Fahrrad und Boot in Euro aus.",
+        "quote": "Spalte 6 weist den Abgabesatz je Bett, Fahrrad und Boot in Euro aus"
+      },
+      {
+        "text": "Vorteilsstufe 4 gilt für Abgabepflichtige, deren Angebote ausschließlich auf den Tourismus ausgerichtet sind.",
+        "quote": "Vorteilsstufe 4: Abgabepflichtige, deren Angebote ausschließlich auf den Tourismus ausgerichtet sind und die daraus unmittelbare Vorteile erlangen können."
+      },
+      {
+        "text": "Die Abgabe ist auf höchstens 3.000 € im Jahr begrenzt.",
+        "quote": "Die Höchstabgabe beträgt 3.000 Euro."
+      },
+      {
+        "text": "Beginnst du nach dem 1. August mit der Vermietung, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01.08. eines Jahres, kann die Jahresabgabe auf Antrag um 50 von Hundert ermäßigt werden."
+      },
+      {
+        "text": "Die Abgabe entsteht unabhängig davon, ob du ganzjährig vermieten kannst.",
+        "quote": "Die Abgabe entsteht, außer in den Fällen des § 9 Abs. 5, unabhängig von einer ganzjährigen Nutzungsmöglichkeit."
+      },
+      {
+        "text": "Den Bescheid erlässt die Stadt Ribnitz-Damgarten.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch die Bernsteinstadt Ribnitz-Damgarten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ribnitz-damgarten/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

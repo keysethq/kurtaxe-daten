@@ -1,0 +1,414 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "buesumer-deichhausen",
+  "name": "Büsumer Deichhausen",
+  "short": "Büsumer Deichhausen",
+  "ags": "01051014",
+  "state": "Schleswig-Holstein",
+  "district": "Dithmarschen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Büsumer Deichhausen (Tourismusabgabesatzung) vom 16. Dezember 2025, mit Anlage",
+      "url": "https://www.amt-buesum-wesselburen.de/downloads/datei/YzhkMDE5ODBmNTBmNDNkN1ZTZ0dQQ0JNbTdyQis4S0RDVHNTdTB0dU9sWkRyMDJ0dTJ2ZjdvYXg5bmp5dHpMYXpsQndPTDNjRlFNejQ4UzdQOW1Jd2tzd2RXdXVVZjF6SW1wRE9sRUpDZ0pIejJwRUdJVjVicElxMUFCbzgzUk0rV3VhakV0ckpMZUZGUHZmRWVxTTZhL0ZGV251cmJZZzBiRjlYQms0SndCSXJqZmlLbkV3SFBwem5RMD0",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2afae55e265bc9cd829684eb37bba9eb1ed34e6c29210b69a4b98e46d3b27431",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind alle natürlichen und juristischen Personen und Unternehmen sowie Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde unmittelbar oder mittelbar wirtschaftliche Vorteile geboten werden. Die Abgabepflicht erstreckt sich auch auf solche Personen und Unternehmen sowie Personenvereinigungen, die, ohne in der Gemeinde ihren Wohnsitz oder Betriebssitz zu haben, dauernd oder vorübergehend dort erwerbstätig sind. (2) Schuldner der Abgabe ist der Unternehmer. Unternehmer im Sinne des Satzes 1 ist derjenige, für dessen Rechnung die abgabepflichtige Tätigkeit ausgeübt wird."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Abgabesatz beträgt 18,44 v. H",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166]Dienstleistung |Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166]Dienstleistung |Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166]Dienstleistung |Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 13,
+          "reading": "701075]Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 13,
+          "reading": "701075]Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 13,
+          "reading": "701075]Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 13,
+          "reading": "701075.2|Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 13,
+          "reading": "701075.2|Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 13,
+          "reading": "701075.2|Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 13,
+          "reading": "701076/Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 13,
+          "reading": "701076/Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 13,
+          "reading": "701076/Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 13,
+          "reading": "701076.2]Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 13,
+          "reading": "701076.2]Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 13,
+          "reading": "701076.2]Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 13,
+          "reading": "701024|Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 13,
+          "reading": "701024|Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 13,
+          "reading": "701024|Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6]",
+          "page": 13,
+          "reading": "701094|Dienstleistung |[Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6] figure 1",
+          "page": 13,
+          "reading": "701094|Dienstleistung |[Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 13,
+          "reading": "701094|Dienstleistung |[Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "umsatzsteuerbereinigten jährlichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 3,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Ein nach dem Ergebnis der Endabrechnung noch festzusetzender Abgabenanteil wird einen Monat nach Bekanntgabe des Festsetzungsbescheides in einer Summe fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Auf die Tourismusabgabe können im Verlauf des Erhebungszeitraumes Vorausleistungen in Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 3,
+          "reading": "Die festgesetzten Vorausleistungen werden in Vierteljahresbeträgen jeweils am 15.02., 15.05., 15.08. und 15.11. eines Jahres fällig."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Die Abgabepflicht entsteht, sobald die abgabenpflichtige Tätigkeit aufgenommen wird."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "Die Abgabepflicht endet mit Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit endgültig eingestellt wird. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt und am Saisonende vorübergehend eingestellt wird."
+        }
+      ]
+    },
+    "ortsrecht": {
+      "title": "Amt Büsum-Wesselburen, Ortsrecht der Gemeinde Büsumer Deichhausen",
+      "url": "https://www.amt-buesum-wesselburen.de/angehoerige-gemeinden/buesumer-deichhausen/ortsrecht/",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "a42b29c63cdbff96ce62dd56c3c7b06feeeaed45ea5afafb277a46c6d1027bf6",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Büsumer Deichhausen steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Tourismusabgabesatzung",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Abgabepflichtig sind alle, denen der Tourismus in der Gemeinde wirtschaftliche Vorteile bietet; Schuldner ist der Unternehmer, für dessen Rechnung die Tätigkeit ausgeübt wird.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen und Unternehmen sowie Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde unmittelbar oder mittelbar wirtschaftliche Vorteile geboten werden. Die Abgabepflicht erstreckt sich auch auf solche Personen und Unternehmen sowie Personenvereinigungen, die, ohne in der Gemeinde ihren Wohnsitz oder Betriebssitz zu haben, dauernd oder vorübergehend dort erwerbstätig sind. (2) Schuldner der Abgabe ist der Unternehmer. Unternehmer im Sinne des Satzes 1 ist derjenige, für dessen Rechnung die abgabepflichtige Tätigkeit ausgeübt wird."
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere Ferienwohnungen",
+        "quote": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166]Dienstleistung |Ferienwohnungen",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166]Dienstleistung |Ferienwohnungen"
+          },
+          "profit": {
+            "percent": 38
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "quote": "701075 Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701075 Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "quote": "701075.2 Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701075.2 Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € (Vorteilsstufe 4)",
+        "quote": "701076 Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701076 Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € (Vorteilsstufe 4)",
+        "quote": "701076.2 Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701076.2 Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze und Wohnmobilübernachtungsplätze (Vorteilsstufe 4)",
+        "quote": "701024 Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701024 Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Kur- und Erholungsheime sowie Kliniken (Vorteilsstufe 4)",
+        "quote": "701094 Dienstleistung Kur- und Erholungsheime, sowie -kliniken 29% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701094 Dienstleistung Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+          },
+          "profit": {
+            "percent": 29
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 16.44,
+      "quote": "Der Abgabesatz beträgt 16,44 v. H."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "umsatzsteuerbereinigten jährlichen Einnahmen"
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Du gibst bis zum 30. Juni jedes Jahres, oder innerhalb eines Monats nach Aufforderung der Gemeinde, die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt ab.",
+      "quote": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Nach der Endabrechnung wird ein noch offener Betrag einen Monat nach Bekanntgabe des Bescheids in einer Summe fällig.",
+      "quote": "Ein nach dem Ergebnis der Endabrechnung noch festzusetzender Abgabenanteil wird einen Monat nach Bekanntgabe des Festsetzungsbescheides in einer Summe fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Du zeigst Beginn und Ende deiner Tätigkeit innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Auf die Abgabe können im Lauf des Jahres Vorausleistungen in Höhe der voraussichtlichen Abgabe verlangt werden.",
+        "quote": "Auf die Tourismusabgabe können im Verlauf des Erhebungszeitraumes Vorausleistungen in Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+      },
+      {
+        "text": "Die Gemeinde kann Vorauszahlungen festsetzen; sie sind in vier Raten fällig, am 15. Februar, 15. Mai, 15. August und 15. November.",
+        "quote": "Die festgesetzten Vorausleistungen werden in Vierteljahresbeträgen jeweils am 15.02., 15.05., 15.08. und 15.11. eines Jahres fällig."
+      },
+      {
+        "text": "Die Abgabepflicht entsteht, sobald du die Tätigkeit aufnimmst.",
+        "quote": "Die Abgabepflicht entsteht, sobald die abgabenpflichtige Tätigkeit aufgenommen wird."
+      },
+      {
+        "text": "Die Abgabepflicht endet erst mit dem Ende des Kalenderjahres, in dem du die Tätigkeit endgültig einstellst; eine nur saisonale Vermietung zählt nicht als Ende.",
+        "quote": "Die Abgabepflicht endet mit Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit endgültig eingestellt wird. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt und am Saisonende vorübergehend eingestellt wird."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/buesumer-deichhausen/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere Ferienwohnungen",
+        "permille": 62.47200000000001,
+        "rate": "6,247 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "permille": 49.32000000000001,
+        "rate": "4,932 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "permille": 39.456,
+        "rate": "3,946 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € (Vorteilsstufe 4)",
+        "permille": 41.1,
+        "rate": "4,11 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € (Vorteilsstufe 4)",
+        "permille": 24.660000000000004,
+        "rate": "2,466 % des Jahresumsatzes."
+      },
+      {
+        "label": "Campingplätze und Wohnmobilübernachtungsplätze (Vorteilsstufe 4)",
+        "permille": 32.88,
+        "rate": "3,288 % des Jahresumsatzes."
+      },
+      {
+        "label": "Kur- und Erholungsheime sowie Kliniken (Vorteilsstufe 4)",
+        "permille": 47.67600000000001,
+        "rate": "4,768 % des Jahresumsatzes."
+      }
+    ]
+  }
+}

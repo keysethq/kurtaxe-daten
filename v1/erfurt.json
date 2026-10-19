@@ -1,0 +1,132 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "erfurt",
+  "name": "Landeshauptstadt Erfurt",
+  "short": "Erfurt",
+  "ags": "16051000",
+  "state": "Thüringen",
+  "district": "Erfurt",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Beherbergungssteuer in der Landeshauptstadt Erfurt (Beherbergungssteuersatzung – BHStSEF) vom 12.12.2023, Stadt Erfurt, Stadtrecht 4.120",
+      "url": "https://www.erfurt.de/mam/ef/rathaus/stadtrecht/4/4126.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "36249e0e59bea861fdb0dbb5329b4deac4c25a3a378a176ad1c3c8f8cb9c78ac",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "satzung2027": {
+      "title": "Satzung zur Erhebung einer Beherbergungssteuer in der Landeshauptstadt Erfurt (Beherbergungssteuersatzung – BHStSEF), Fassung der 2. Änderungssatzung (Steuersatz ab 01.01.2027), Stadt Erfurt, Stadtrecht 4.120",
+      "url": "https://www.erfurt.de/mam/ef/rathaus/stadtrecht/4/4120a.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "3407f988394aaf2507492f807854c63e053957b8fbfc0e04a2163f08d1f0ed57",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "seite": {
+      "title": "Informationen zur Beherbergungssteuer in der Landeshauptstadt Erfurt, Stadt Erfurt",
+      "url": "https://www.erfurt.de/ef/de/leben/fuer/grundstueckseigentuemer/150817.html",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "c8faf5522c7ea17dbb57161e80602a479af90bfbb493385d32372fe7d9262fe5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Abgabe beträgt 5 vom Hundert der Bemessungsgrundlage.",
+      "next": {
+        "percent": 7,
+        "quote": "Die Abgabe beträgt 7 vom Hundert der Bemessungsgrundlage.",
+        "source": "satzung2027"
+      }
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Übernachtung aufwendet, einschließlich Mehrwertsteuer; Frühstück, Halb- oder Vollpension, Reinigung und Parkgebühren zählen nicht dazu.",
+      "quote": "Bemessungsgrundlage ist der vom Übernachtungsgast für die Übernachtung aufgewendete Betrag (einschließlich Mehrwertsteuer). In die Bemessungsgrundlage sind keine Entgelte für sonstige Dienstleistungen einzubeziehen (z. B. Frühstück, Halb- oder Vollpension, Reinigungskosten, Parkgebühren).",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du kassierst sie als Vermieter und führst sie ab, und du haftest neben dem Gast dafür.",
+      "quote": "Der Betreiber des Beherbergungsbetriebes ist verpflichtet, die Steuer zu kassieren, abzuführen und den Nachweis darüber zu führen."
+    },
+    "deadline": {
+      "text": "Du berechnest die Steuer selbst, meldest sie vierteljährlich bis zum 15. Tag nach Quartalsende an und zahlst sie bis dahin an die Stadtkasse.",
+      "quote": "Der Betreiber des Beherbergungsbetriebes hat die Steuer bis zum 15. Kalendertag nach dem Ablauf des Kalendervierteljahres bei der für die Erhebung der Steuer zuständigen Stelle der Landeshauptstadt Erfurt mit der Erklärung nach amtlich vorgeschriebenem Vordruck in der errechneten Höhe anzumelden und an die Stadtkasse zu entrichten."
+    },
+    "reporting": {
+      "text": "Wer eine Unterkunft eröffnet oder aufgibt, zeigt das der Stadt innerhalb eines Monats mit dem amtlichen Formular an.",
+      "quote": "Wer im Gebiet der Landeshauptstadt Erfurt einen Beherbergungsbetrieb i. S. des Abs. 5 eröffnet oder endgültig aufgibt, hat dies der für die Erhebung der Steuer zuständigen Stelle der Landeshauptstadt Erfurt innerhalb eines Monats, unter Verwendung des amtlichen Formulars, anzuzeigen."
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige bis zur Vollendung des 18. Lebensjahres zahlen nichts.",
+        "quote": "Von der Zahlung einer Beherbergungssteuer befreit sind: 1. Minderjährige bis zur Vollendung des 18. Lebensjahres"
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Erfurt übernachten muss, ist befreit.",
+        "quote": "Personen, welche zum Zweck einer zwingend notwendigen medizinischen Behandlung in Erfurt übernachten müssen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. Januar 2024.",
+        "quote": "Sind beruflich zwingend erforderliche Übernachtungen (Geschäftsreisen) von der Beherbergungssteuer befreit? Nein.",
+        "source": "seite"
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Die zweite Änderung der Satzung ändert den Steuersatz (§ 4) und tritt am 1. Januar 2027 in Kraft.",
+      "quote": "§4 geändert c) 01.01.2027",
+      "source": "satzung2027"
+    },
+    "maxMonths": {
+      "months": 2,
+      "text": "Bei einem zusammenhängenden Aufenthalt von mehr als zwei Monaten im selben Betrieb fällt für die weiteren Übernachtungen keine Steuer an.",
+      "quote": "Sollte ein Übernachtungsgast länger als zwei Monate zusammenhängend im selben Beherbergungsbetrieb übernachten, unterliegen die weiteren Übernachtungen nicht der Steuerpflicht nach dieser Satzung."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/erfurt/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 2,
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    },
+    "next": {
+      "percent": 7
+    }
+  }
+}

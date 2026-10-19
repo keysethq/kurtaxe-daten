@@ -1,0 +1,546 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "varel",
+  "name": "Stadt Varel",
+  "short": "Varel (Dangast)",
+  "ags": "03455026",
+  "state": "Niedersachsen",
+  "district": "Friesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Varel über die Erhebung eines Gästebeitrages (Gästebeitragssatzung) vom 17.03.2021 in der Fassung der 4. Änderung vom 25.09.2025, in Kraft seit 01.01.2026",
+      "url": "https://www.dangast.de/files/cto_layout/img/struktur/Unterkuenfte/Downloads/G%C3%A4stebeitragssatzung%20ab%2001.01.2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "fd34ddca2e05db6f7234f53d6353b4c8a4c3776c7d3e846942160c57ad9ace3f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft des Tourismus-Service Dangast",
+      "kind": "answer",
+      "receivedOn": "2026-10-15",
+      "text": "der Gästebeitrag wird je Übernachtung gerechnet.",
+      "changedOn": "2026-10-15",
+      "sha256": "105c49ae4711a78a9ea7dc4af9df6a93f1a5189a11281e30b55beb1388f7dbb4",
+      "verifiedOn": "2026-10-15"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Varel (Tourismusbeitragssatzung) vom 13.12.2017, Lesefassung der Stadt Varel (Ortsrecht 9/04); die Lesefassung nennt weder einen Stand noch spätere Änderungen",
+      "url": "https://www.varel.de/downloads/datei/NmZlZWQzYzQ1MmYwY2JjMmdiSzY1YTlWaWRMZVhuUXJzY2lxaFNQZStCVnQ2RDhZaUIzS3hMQ3ZCYVlwemo4dXpBQlpVMk0yWEFHclowTHcrczRqUklEV28ybm4zOHd4TU5LQi9EVVRUaHR5amY4YWJ4ZnpiUy81bThMTjBOcFZROXU5eVMxSDJoczdPR0lLTzRYVjIwWU5MaXdnbzcvd29idW51aExTQzlVVzNzTmpJWTkzb1RqQ0xscz0",
+      "kind": "municipality",
+      "inForce": "2018-01-01",
+      "sha256": "2fa7246c63e66c9b37f7ccda3a04ff81f73b0b4724c2da8ce3958d1fc6fbf9f0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "der Gästebeitrag wird je Übernachtung gerechnet.",
+      "source": "auskunft"
+    },
+    "zones": [
+      {
+        "label": "Bezirk I (Dangast)",
+        "area": {
+          "text": "Bezirk I ist der Ortsteil Dangast.",
+          "quote": "Bezirk I: Ortsteil Dangast"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 400,
+              "quote": "für Personen ab 16 Zone I 4,00 € 2,00 € Jahre Zone II 3,50 € 1,80 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis zur Vollendung des 4. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 200,
+                "quote": "Kinder ab 4 Jahre Zone I 2,00 € 1,00 € bis einschl. 15 Jahre Zone II 1,80 € 0,90 €"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "12-31"
+              },
+              {
+                "from": "01-01",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "für Personen ab 16 Zone I 4,00 € 2,00 € Jahre Zone II 3,50 € 1,80 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis zur Vollendung des 4. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 100,
+                "quote": "Kinder ab 4 Jahre Zone I 2,00 € 1,00 € bis einschl. 15 Jahre Zone II 1,80 € 0,90 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Bezirk II (Varel und übrige Ortsteile)",
+        "area": {
+          "text": "Bezirk II sind die übrigen Ortsteile und das Stadtgebiet, also auch die Stadt Varel.",
+          "quote": "Bezirk II: übrige Ortsteile und Stadtgebiet"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "für Personen ab 16 Zone I 4,00 € 2,00 € Jahre Zone II 3,50 € 1,80 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis zur Vollendung des 4. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 180,
+                "quote": "Kinder ab 4 Jahre Zone I 2,00 € 1,00 € bis einschl. 15 Jahre Zone II 1,80 € 0,90 €"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "12-31"
+              },
+              {
+                "from": "01-01",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "für Personen ab 16 Zone I 4,00 € 2,00 € Jahre Zone II 3,50 € 1,80 €"
+            },
+            "children": [
+              {
+                "underAge": 4,
+                "cents": 0,
+                "quote": "1. Kinder bis zur Vollendung des 4. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 90,
+                "quote": "Kinder ab 4 Jahre Zone I 2,00 € 1,00 € bis einschl. 15 Jahre Zone II 1,80 € 0,90 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie zahlt nichts, wobei zuerst die jüngsten Familienmitglieder befreit werden.",
+      "quote": "2. jede 5. und weitere Person einer Familie, wobei jeweils die jüngsten Familienangehörigen zu befreien sind,"
+    },
+    "exemptions": [
+      {
+        "text": "Wer nur zur Berufsausübung oder Ausbildung in Varel ist, zahlt nichts.",
+        "quote": "b) Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis völlig auf ständige Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "4. Begleitpersonen von Schwerbehinderten, die lt. amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind,"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Hauptsaison ist vom 15. März bis 31. Oktober, die übrige Zeit gilt vom 1. Januar bis 14. März und vom 1. November bis 31. Dezember.",
+        "quote": "Hauptsaison (15.03. – 31.10.) übrige Zeit (01.01. – 14.03.) (01.11. – 31.12.)"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 70 zahlen nur die Hälfte.",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit mindestens 70 v. H. beträgt, werden nur zu 50 v. H. des maßgeblichen Gästebeitrages nach § 5 herangezogen"
+      },
+      {
+        "text": "Die Beiträge enthalten die gesetzliche Mehrwertsteuer.",
+        "quote": "In den Gästebeiträgen ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Zweitwohnungsinhaber und Mieter eines Saison-Campingstellplatzes zahlen den Jahresgästebeitrag statt des Tagessatzes.",
+        "quote": "sind verpflichtet, den Jahresgästebeitrag zu entrichten."
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen gut sichtbar aus.",
+        "quote": "Diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie beim Tourismus-Service, zieht den Gästebeitrag ein und stellt innerhalb von 24 Stunden nach der Ankunft die Gästekarte (Nordsee-ServiceCard) aus; du haftest für die vollständige Einziehung.",
+      "quote": "den bei ihnen gegen Entgelt oder Kostenerstattung verweilenden Personen innerhalb von 48 Stunden nach deren Ankunft beim Tourismus-Service zu melden und den Gästebeitrag einzuziehen."
+    },
+    "deadline": {
+      "text": "Die eingezogenen Gästebeiträge rechnest du monatlich mit dem Tourismus-Service ab.",
+      "quote": "Die Abrechnung der eingezogenen Gästebeiträge monatlich mit dem"
+    },
+    "reporting": {
+      "text": "Jeden Gast meldest du innerhalb von 48 Stunden nach der Ankunft beim Tourismus-Service, mit dem Meldevordruck Nordsee-ServiceCard.",
+      "quote": "Der Meldevordruck „Nordsee-ServiceCard“ des Tourismus-Service (siehe Anlage zur Satzung) ist zu verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig tätige Person oder als Unternehmen, wenn dir der Tourismus in Varel unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Tourismus in der Stadt Varel unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und sonstige Beherbergung von Gästen, Zone 1 (Ortsteil Dangast)",
+        "quote": "1.04.1 Vermieter/-innen von Ferienwohnungen und sonstige Personen und Unternehmen, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen 20 100 95",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.04.1 Vermieter/-innen von Ferienwohnungen und sonstige Personen und Unternehmen, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen 20 100 95"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen und sonstige Beherbergung von Gästen, Zone 2 (übriges Stadtgebiet)",
+        "quote": "1.04.1 Vermieter/-innen von Ferienwohnungen und sonstige Personen und Unternehmen, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen 20 100 95",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.04.1 Vermieter/-innen von Ferienwohnungen und sonstige Personen und Unternehmen, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen 20 100 95"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, Gasthof oder Pension mit Frühstück, Zone 1 (Ortsteil Dangast)",
+        "quote": "1.02.1 Inhaber/-innen von Hotels Garni, Gasthöfen und Pensionen mit Frühstück 8 95 75",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.02.1 Inhaber/-innen von Hotels Garni, Gasthöfen und Pensionen mit Frühstück 8 95 75"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, Gasthof oder Pension mit Frühstück, Zone 2 (übriges Stadtgebiet)",
+        "quote": "1.02.1 Inhaber/-innen von Hotels Garni, Gasthöfen und Pensionen mit Frühstück 8 95 75",
+        "turnover": {
+          "advantage": {
+            "percent": 75,
+            "quote": "1.02.1 Inhaber/-innen von Hotels Garni, Gasthöfen und Pensionen mit Frühstück 8 95 75"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Zone 1 (Ortsteil Dangast)",
+        "quote": "1.01.1 Inhaber/-innen von Hotels, Gasthöfen und Pensionen mit Halb- und Vollpension 6 95 75",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.01.1 Inhaber/-innen von Hotels, Gasthöfen und Pensionen mit Halb- und Vollpension 6 95 75"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Zone 2 (übriges Stadtgebiet)",
+        "quote": "1.01.1 Inhaber/-innen von Hotels, Gasthöfen und Pensionen mit Halb- und Vollpension 6 95 75",
+        "turnover": {
+          "advantage": {
+            "percent": 75,
+            "quote": "1.01.1 Inhaber/-innen von Hotels, Gasthöfen und Pensionen mit Halb- und Vollpension 6 95 75"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz (in beiden Zonen derselbe Satz)",
+        "quote": "1.06.1 Inhaber/-innen von Camping- und Zeltplätzen 10 95 95",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.06.1 Inhaber/-innen von Camping- und Zeltplätzen 10 95 95"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge (in beiden Zonen derselbe Satz)",
+        "quote": "1.05.1 Inhaber/-innen von Jugendherbergen 1 95 95",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.05.1 Inhaber/-innen von Jugendherbergen 1 95 95"
+          },
+          "profit": {
+            "percent": 1
+          }
+        }
+      },
+      {
+        "label": "Fremden-, Erholungs-, Kur-, Kranken- und Kinderheim, Sanatorium, Kurklinik (in beiden Zonen derselbe Satz)",
+        "quote": "1.03.1 Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime, Sanatorien, Kurkliniken 4 100 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.03.1 Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime, Sanatorien, Kurkliniken 4 100 100"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 6.3,
+      "quote": "Der Beitragssatz beträgt 6,30 v. H."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz des vorvergangenen Jahres; bei fehlender Umsatzsteuerpflicht zählen die Bruttoeinnahmen.",
+      "quote": "Der Vorteil richtet sich nach dem steuerbaren Umsatz i. S. des § 1 des Umsatzsteuergesetzes. Maßgebend ist der Umsatz des vorvergangenen Jahres."
+    },
+    "area": {
+      "text": "Zone 1 ist der Ortsteil Dangast, Zone 2 das übrige Stadtgebiet; die Vorteilssätze unterscheiden sich nach der Zone.",
+      "quote": "Zone 1: Ortsteil Dangast Zone 2: das übrige Stadtgebiet."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 30. Juni des Erhebungsjahres teilst du der Stadt die Angaben zur Berechnung mit und belegst sie; gilt wegen fehlendem Umsatz im vorvergangenen Jahr der Umsatz des Erhebungsjahres, ist es der 30. Juni des Folgejahres.",
+      "quote": "Angaben bis zum 30.06. des Erhebungszeitraumes, in den Fällen des § 3 Abs. 2 Satz 3 bis zum 30.06. des auf den Erhebungszeitraum folgenden Jahres der Stadt Varel mitzuteilen und zu belegen"
+    },
+    "deadline": {
+      "text": "Der Beitrag und jede Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag oder die Vorausleistung ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gibt es für das vorvergangene Jahr keinen oder keinen ganzjährigen Umsatz, zählt der Umsatz des Erhebungsjahres.",
+        "quote": "Gibt es für das vorvergangene Jahr keinen oder keinen ganzjährigen Umsatz, so wird der Umsatz des jeweiligen Erhebungszeitraumes zugrunde gelegt."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht zum 1. September des Erhebungsjahres.",
+        "quote": "Die Beitragsschuld entsteht zum 01.09. des Erhebungszeitraumes."
+      },
+      {
+        "text": "Deine beitragspflichtige Tätigkeit zeigst du der Stadt innerhalb eines Monats nach dem Beginn an.",
+        "quote": "Die Aufnahme einer beitragspflichtigen Tätigkeit ist der Stadt Varel innerhalb eines Monats anzuzeigen."
+      },
+      {
+        "text": "Die Stadt kann schon im laufenden Jahr Vorausleistungen bis zur voraussichtlichen Höhe des Beitrags erheben.",
+        "quote": "Die Stadt Varel kann für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages erheben."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbstständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet oder geschätzt.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      },
+      {
+        "text": "Endet deine Tätigkeit im Lauf eines Jahres, erstattet die Stadt für jeden vollen Monat ohne Beitragspflicht ein Zwölftel; eine saisonale Pause zählt nicht als Ende.",
+        "quote": "Endet die beitragspflichtige Tätigkeit im Laufe eines Jahres, wird für jeden vollen Monat, für den die Voraussetzungen der Beitragspflicht entfallen sind, ein Zwölftel des Tourismusbeitrages erstattet. Als Beendigung einer beitragspflichtigen Tätigkeit ist es nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/varel/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      4,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0,
+          200
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "12-31"
+          ],
+          [
+            "01-01",
+            "03-14"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Bezirk I (Dangast)",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 400,
+            "children": [
+              0,
+              200
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "11-01",
+                "12-31"
+              ],
+              [
+                "01-01",
+                "03-14"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Bezirk II (Varel und übrige Ortsteile)",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              180
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "11-01",
+                "12-31"
+              ],
+              [
+                "01-01",
+                "03-14"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0,
+              90
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

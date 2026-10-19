@@ -1,0 +1,145 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "baiersbronn",
+  "name": "Baiersbronn",
+  "short": "Baiersbronn",
+  "ags": "08237004",
+  "state": "Baden-Württemberg",
+  "district": "Freudenstadt",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Baiersbronn über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Lesefassung der Gemeinde mit Änderungen bis zur Änderungssatzung vom 22.07.2025 (in Kraft 01.01.2026)",
+      "url": "https://www.gemeinde-baiersbronn.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1066",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "c202bc5bd3901bb3dcd50f559fd46c40e5fd6b33dab9dd1cb511a02399416023",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurtaxe vom 27.07.2007 in der Fassung vom 23.07.2025 (Kurtaxesatzung - KTS), ausgefertigt 23.07.2025, Bekanntmachung der Gemeinde Baiersbronn",
+      "url": "https://www.gemeinde-baiersbronn.de/ceasy/resource/3286",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "b1d811c51f810701a6db1f93367f300ae0fd2cd17ebf09348510f32a2820463a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet.",
+      "source": "aenderung"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 3,30 €",
+          "source": "aenderung"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 18. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Auf Antrag: Schwerbehinderte Menschen mit dem Merkzeichen H",
+        "quote": "Schwerbehinderte Personen mit dem Merkmal „H“ im Schwerbehindertenausweis."
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxe von 3,30 € beinhaltet die kostenfreie Nutzung des öffentlichen Nahverkehrs im Schwarzwald (Modell KONUS).",
+        "quote": "und beinhaltet die kostenfreie Nutzung des öffentlichen Nahverkehrs im Schwarzwald (Modell KONUS)",
+        "source": "aenderung"
+      },
+      {
+        "text": "Die Kurtaxe kann vom Beherberger durch eine Vereinbarung mit der Gemeinde abgelöst werden; die Ablösesumme richtet sich nach der Zahl der Übernachtungen.",
+        "quote": "Die Ablösesumme bestimmt sich nach der Zahl der kurtaxepflichtigen Übernachtungen des Beherbergungsbetriebes bzw. des Campingplatzes."
+      },
+      {
+        "text": "Für verschriebene oder nicht zurückgegebene Meldevordrucke schätzt die Gemeinde die Kurtaxe.",
+        "quote": "Für jeden nicht zurückgegebenen Meldevordruck, dessen Verwendung nicht nachgewiesen ist, wird die Kurtaxe geschätzt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach Ankunft an und nach Abreise ab, mit den Vordrucken der Gemeinde (bei Schwarzwald Plus über die Schwarzwald Plus GmbH).",
+      "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden. Bei Beherbergungsbetrieben, die bei Schwarzwald Plus teilnehmen, sind die Personen bei der Schwarzwald Plus GmbH an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/baiersbronn/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

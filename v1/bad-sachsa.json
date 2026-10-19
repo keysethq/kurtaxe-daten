@@ -1,0 +1,445 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-sachsa",
+  "name": "Stadt Bad Sachsa",
+  "short": "Bad Sachsa",
+  "ags": "03159004",
+  "state": "Niedersachsen",
+  "district": "Göttingen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages (Gästebeitragssatzung) der Stadt Bad Sachsa, Ratsbeschluss vom 26.06.2025, in Kraft ab 01.01.2026",
+      "url": "https://www.bad-sachsa.de/wp-content/uploads/sites/4/2026/02/gaestebeitragssatzung_2026_bis_2028.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "602255ae711ac28ddad58edcd2bcd0deaf450c0b3d409eb9e64ad8d0073b9735",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages (Tourismusbeitragssatzung) der Stadt Bad Sachsa vom 18.09.2025, in Kraft ab 01.01.2026",
+      "url": "https://www.bad-sachsa.com/downloads/datei/NjBjZTE2NDEyOGM2MTkxNTF5M3FkMTRLNHQwNG5UZHJJR00rNVNmSFZNczNVTnc4VjNBMGRNMHd0N1MwM3JRNGx1cGw0czhSN2FldDNzNS9EMTVYd3ByZ1hFeVZldGRkekgyblRySnl4Y0tGT2RqUUVMeGhlL3RsK0xheVAwckJTRmVVT2Z1NXhSTkhsUHZYK2UzK3Z0QW5GRzJ1QUVKUnQwazRrWXNmUkJXSnJxS2NjM1RnSGs5ZGJEOHc2TDVIcFBNWU9DZG5IaXY5NHd6djk5ejFVQTVQdDB5bDh1d2RXR0lNZmc9PQ",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "5523f2da20715b2233d0c46e4a821b17e2cdd6c4a0440ce0405a490e5af566a0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Beitragspflichtig sind alle selbständig tätigen Personen und Unternehmen, denen durch den Tourismus im Erhebungsgebiet nach $ 1 Absatz 1 unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "6,45 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 5,
+          "reading": "6,45 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 5,
+          "reading": "13,27 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 5,
+          "reading": "13,27 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 5,
+          "reading": "3,93 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 5,
+          "reading": "3,93 € je Fremdenbett"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 5,
+          "reading": "3,27 € je Stellplatz"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 5,
+          "reading": "3,27 € je Stellplatz"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "Die Beitragspflichtigen sowie ihre Vertreter haben der Stadt Bad Sachsa die Aufnahme der beitragspflichtigen Tätigkeit und die erforderlichen Angaben zur Berechnung des Beitrages auf dem von der Stadt Bad Sachsa vorgeschriebenen Vordruck zu machen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "Der Tourismusbeitrag bzw. die Vorausleistungen werden einen Monat nach Bekanntgabe des Tourismusbeitragsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 5,
+          "reading": "a) Hotels, Hotels garni, Pensionen b) Privatzimmer, Ferienwohnungen c) Jugendgästehäuser, Gruppenhäuser d) Wohnmobilstellplätze"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 5,
+          "reading": "zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Festlegung des Beitrages erfolgt durch Multiplikation der Anzahl der Maßstabseinheiten mit dem Beitrag pro Maßstabseinheit."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Maßgebend sind die Verhältnisse am 01.07. des Kalenderjahres, für das der Beitrag erhoben wird."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "Beginnt oder endet die beitragspflichtige Tätigkeit im Laufe eines Jahres, wird für den vollen Monat für den die Voraussetzungen der Beitragspflicht vorlagen, ein Zwölftel des Beitrages erhoben."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 3,
+          "reading": "Die Stadt Bad Sachsa erhebt für das laufende Kalenderjahr Vorausleistungen bis zu der voraussichtlichen Höhe des Beitrages."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 1,
+          "reading": "Die Stadt Bad Sachsa ist für ihr gesamtes Gebiet mit Ausnahme der Ortsteile Steina, Tettenborn und Neuhof als heilklimatischer Kurort staatlich anerkannt. In dem als heilklimatischer Kurort anerkannten Gebiet und außerhalb des anerkannten Gebietes (Erhebungsgebiet) erhebt sie"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthalts wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "zones": [
+      {
+        "label": "Gästegebiet I",
+        "area": {
+          "text": "Gästegebiet I ist das ganze Stadtgebiet ohne die Ortsteile Steina, Tettenborn und Neuhof.",
+          "quote": "Das Gästegebiet I umfasst das gesamte Gebiet der Stadt Bad Sachsa mit Ausnahme der Ortsteile Steina, Tettenborn und Neuhof."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 325,
+              "quote": "je Erwachsenen ab 18 Jahre a) im Gästegebiet I 3,25 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis einschließlich 5 Jahre,"
+              },
+              {
+                "underAge": 18,
+                "cents": 195,
+                "quote": "je Erwachsenen ab 18 Jahre a) im Gästegebiet I 3,25 € b) im Gästegebiet II 1,95 €. (3) Der Tagesgästebeitrag einschließlich Umsatzsteuer beträgt pro Übernachtung je Kind und Jugendlichen ab 6 Jahre a) im Gästegebiet I 1,95 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästegebiet II",
+        "area": {
+          "text": "Gästegebiet II sind die Ortsteile Steina, Neuhof und Tettenborn.",
+          "quote": "Das Gästegebiet II umfasst das gesamte Gebiet der Ortsteile Steina, Neuhof und Tettenborn."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 195,
+              "quote": "b) im Gästegebiet II 1,95 €."
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis einschließlich 5 Jahre,"
+              },
+              {
+                "underAge": 18,
+                "cents": 130,
+                "quote": "je Erwachsenen ab 18 Jahre a) im Gästegebiet I 3,25 € b) im Gästegebiet II 1,95 €. (3) Der Tagesgästebeitrag einschließlich Umsatzsteuer beträgt pro Übernachtung je Kind und Jugendlichen ab 6 Jahre a) im Gästegebiet I 1,95 € b) im Gästegebiet II 1,30 €."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100 Prozent,"
+      },
+      {
+        "text": "Die Begleitperson eines solchen Menschen, wenn der Ausweis die Mitnahme einer Begleitperson vorsieht",
+        "quote": "eine Begleitperson einer schwerbehinderten Person gemäß Abs. 2 Ziffer 1 oder Abs. 3, wenn die Berechtigung zur Mitnahme einer Begleitperson durch Eintragung im Ausweis der schwerbehinderten Person nachgewiesen ist,"
+      },
+      {
+        "text": "Besucher von Einwohnern oder Beschäftigten, die unentgeltlich bei ihnen wohnen",
+        "quote": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Personen, die sich zum Schulbesuch oder zur Ausbildung im Ort aufhalten",
+        "quote": "Personen, die sich zum Schulbesuch oder zur Ausbildung im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Gäste, die in einem Kalenderjahr schon für mindestens 30 Tage Gästebeitrag gezahlt haben, für alle weiteren Tage dieses Jahres",
+        "quote": "Personen, die innerhalb eines Kalenderjahres für mindestens 30 Tage Gästebeiträge im Erhebungsgebiet entrichtet haben, für die über 30 Tage hinausgehende Aufenthaltsdauer innerhalb desselben Kalenderjahres."
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausübung im Ort aufhalten",
+        "quote": "Personen, die sich nur zur Berufsausübung im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Bettlägerige Kranke, die die Tourismuseinrichtungen nicht nutzen können",
+        "quote": "bettlägerige Kranke, die nicht in der Lage sind, die Tourismuseinrichtungen zu benutzen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 70, aber unter 100 zahlen die Hälfte.",
+        "quote": "Der Gästebeitrag wird auf 50 Prozent des maßgeblichen Gästebeitrages nach § 5 ermäßigt für schwerbehinderte Personen, deren Grad der Behinderung weniger als 100 Prozent, aber mindestens 70 Prozent beträgt."
+      },
+      {
+        "text": "Auch außerhalb des staatlich anerkannten Kurortgebiets zahlt, wer dort zu Heil-, Kur- oder Erholungszwecken Unterkunft nimmt.",
+        "quote": "Der Gästebeitrag wird auch von Personen erhoben, die in der Stadt Bad Sachsa außerhalb des als heilklimatischer Kurort staatlich anerkannten Gebietes nach § 1 Abs. 1"
+      },
+      {
+        "text": "Befreite und nicht beitragspflichtige Gäste musst du trotzdem anmelden, soweit es um Schwerbehinderte, ihre Begleitpersonen, Kinder bis 5 Jahre, Berufsreisende und Kranke geht.",
+        "quote": "Die Befreiungstatbestände nach Abs. 1 Nr. 1, 2 und 4 sowie Abs. 2 Nr. 1 und 2 entbinden den Wohnungsgeber nicht von der Anmeldeverpflichtung nach § 8."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrags.",
+        "quote": "Der Wohnungsgeber haftet für die rechtzeitige Einziehung und vollständige Ablieferung des Beitrages,"
+      },
+      {
+        "text": "Du führst ein tagesaktuelles Gästeverzeichnis über alle Gäste, auch befreite, und bewahrst es ein Jahr auf.",
+        "quote": "Das Gästeverzeichnis ist für die Dauer eines Jahres ab Beginn des auf die Eintragung folgenden Kalenderjahres aufzubewahren"
+      },
+      {
+        "text": "Die Gästebeitragssatzung musst du für deine Gäste gut sichtbar aushängen oder auslegen.",
+        "quote": "die Gästebeitragssatzung an einer für den Gast gut sichtbaren Stelle auszuhängen bzw. auszulegen,"
+      },
+      {
+        "text": "Das elektronische Gästebeitragsabrechnungssystem der Tourist-Information ist kostenlos und von dir zu nutzen; nur bei unbilliger Härte kann die Tourist-Information befreien.",
+        "quote": "das von der Tourist-Information Stadt Bad Sachsa unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag für die gesamte Aufenthaltsdauer ein und stellt die Gästekarte aus.",
+      "quote": "den Gästebeitrag für die gesamte Dauer des Aufenthaltes der/des Beitragspflichtigen einzuziehen und die Gästekarte auszustellen"
+    },
+    "deadline": {
+      "text": "Der eingezogene Gästebeitrag geht binnen zwei Wochen nach der Rechnung der Stadt an die Stadt.",
+      "quote": "den eingezogenen Gästebeitrag innerhalb zwei Wochen nach Rechnungsstellung an die Stadt Bad Sachsa abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gästedaten nimmst du innerhalb von 24 Stunden nach der Ankunft im elektronischen Meldeschein der Stadt auf.",
+      "quote": "von den bei ihm/ihnen verweilenden beitragspflichtigen Personen innerhalb von 24 Stunden nach deren Ankunft die für die Erhebung des Gästebeitrages notwendigen Daten"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbstständig tätig bist und dir der Tourismus in Bad Sachsa unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bietet; die Anlage nennt Vermieter von Ferienwohnungen und Privatzimmern ausdrücklich.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und Unternehmen, denen durch den Tourismus im Erhebungsgebiet nach § 1 Absatz 1 unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmer und Ferienwohnungen",
+        "quote": "6,45 € je Fremdenbett",
+        "flat": {
+          "cents": 645,
+          "per": "Fremdenbett"
+        }
+      },
+      {
+        "label": "Hotels, Hotels garni und Pensionen",
+        "quote": "13,27 € je Fremdenbett",
+        "flat": {
+          "cents": 1327,
+          "per": "Fremdenbett"
+        }
+      },
+      {
+        "label": "Jugendgästehäuser und Gruppenhäuser",
+        "quote": "3,93 € je Fremdenbett",
+        "flat": {
+          "cents": 393,
+          "per": "Fremdenbett"
+        }
+      },
+      {
+        "label": "Wohnmobilstellplätze",
+        "quote": "3,27 € je Stellplatz",
+        "flat": {
+          "cents": 327,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Du meldest der Stadt die Aufnahme deiner Tätigkeit und die Angaben für die Berechnung auf dem Vordruck der Stadt.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Stadt Bad Sachsa die Aufnahme der beitragspflichtigen Tätigkeit und die erforderlichen Angaben zur Berechnung des Beitrages auf dem von der Stadt Bad Sachsa vorgeschriebenen Vordruck zu machen."
+    },
+    "deadline": {
+      "text": "Der Beitrag und die Vorausleistungen sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Tourismusbeitrag bzw. die Vorausleistungen werden einen Monat nach Bekanntgabe des Tourismusbeitragsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Das Beherbergungsgewerbe teilt die Anlage in vier Gruppen: Hotels, Hotels garni und Pensionen, Privatzimmer und Ferienwohnungen, Jugendgästehäuser und Gruppenhäuser sowie Wohnmobilstellplätze.",
+        "quote": "a) Hotels, Hotels garni, Pensionen b) Privatzimmer, Ferienwohnungen c) Jugendgästehäuser, Gruppenhäuser d) Wohnmobilstellplätze"
+      },
+      {
+        "text": "Gezählt werden die Betten, die du zur Beherbergung gegen Entgelt zur Verfügung hältst.",
+        "quote": "zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Der Beitrag ergibt sich, indem die Zahl der Maßstabseinheiten mit dem Beitrag je Einheit multipliziert wird.",
+        "quote": "Die Festlegung des Beitrages erfolgt durch Multiplikation der Anzahl der Maßstabseinheiten mit dem Beitrag pro Maßstabseinheit."
+      },
+      {
+        "text": "Maßgebend sind die Verhältnisse am 1. Juli des Jahres, für das der Beitrag erhoben wird.",
+        "quote": "Maßgebend sind die Verhältnisse am 01.07. des Kalenderjahres, für das der Beitrag erhoben wird."
+      },
+      {
+        "text": "Beginnt oder endet deine Tätigkeit im Laufe eines Jahres, zahlst du für jeden vollen Monat ein Zwölftel des Beitrags.",
+        "quote": "Beginnt oder endet die beitragspflichtige Tätigkeit im Laufe eines Jahres, wird für den vollen Monat für den die Voraussetzungen der Beitragspflicht vorlagen, ein Zwölftel des Beitrages erhoben."
+      },
+      {
+        "text": "Die Stadt kann schon im laufenden Jahr Vorausleistungen bis zur voraussichtlichen Höhe des Beitrags erheben.",
+        "quote": "Die Stadt Bad Sachsa erhebt für das laufende Kalenderjahr Vorausleistungen bis zu der voraussichtlichen Höhe des Beitrages."
+      },
+      {
+        "text": "Der Beitrag wird für das ganze Stadtgebiet erhoben, auch für die Ortsteile Steina, Tettenborn und Neuhof, die nicht als Kurort anerkannt sind.",
+        "quote": "Die Stadt Bad Sachsa ist für ihr gesamtes Gebiet mit Ausnahme der Ortsteile Steina, Tettenborn und Neuhof als heilklimatischer Kurort staatlich anerkannt. In dem als heilklimatischer Kurort anerkannten Gebiet und außerhalb des anerkannten Gebietes (Erhebungsgebiet) erhebt sie"
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-sachsa/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 325,
+        "children": [
+          0,
+          195
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Gästegebiet I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 325,
+            "children": [
+              0,
+              195
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästegebiet II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 195,
+            "children": [
+              0,
+              130
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

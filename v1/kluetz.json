@@ -1,0 +1,256 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kluetz",
+  "name": "Stadt Klütz",
+  "short": "Klütz",
+  "ags": "13074039",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Klütz über die Erhebung von Kurabgaben (Kurabgabensatzung) vom 01.09.2025",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/9/2/0/2/Satzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "589fe2c78f6f1eff42ad5d677ee296773823c0390089706dba43a40019892c43",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "01.04. - 31.10. eines jeden Jahres 2,00 EUR p.P."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder / Jugendliche bis zum vollendeten 16. Lebensjahr"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "01.11. des einen Jahres bis zum 31.03. des folgenden Jahres 1,50 EURp.P."
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder / Jugendliche bis zum vollendeten 16. Lebensjahr"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte mit einem Grad der Behinderung von 100% sowie deren Begleitperson (Merkzeichen B im Schwerbehindertenausweis)."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der Gemeinde."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Schwerbehinderten mit einem Grad der Behinderung ab 50% wird die Kurabgabe ermäßigt."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "ermäßigt gem. $ 3 Abs. 2 dieser Satzung 1,00 EUR p.P. b) in.der Zeit vom 01.11. des einen Jahres bis zum 31.03. des folgenden Jahres 1,50 EURp.P. ermäßigt gem. $ 3 Abs. 2 dieser Satzung 0,75EUR p.P."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Den kurabgabepflichtigen Personen steht es frei, anstelle einer nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Die Jahreskurabgabe beträgt: pro voll zahlende Person: 56,00 € pro ermäßigte Person: 28,00 €."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 5,
+          "reading": "Jede Person, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Wohnmobile, Zelte und dgl. aufhält, zahlt eine Kurabgabe in Höhe der jeweils geltenden Jahreskurabgabe nach 8 4 dieser Satzung. Das gleiche gilt für deren Ehegatten/eingetragene Lebenspartner und im selben Haushalt lebende Kinder ab 16 Jahre."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 4,
+          "reading": "Der Wohnungsgeber erhält monatlich von der Stadt Klütz, c/o Amt Klützer Winkel, Schloßstraße 1, 23948 Klütz einen Bescheid für die im Vormonat abgereisten Gäste;",
+          "digitsUnread": true
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Wohnungsgeber) ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen und abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Der Wohnungsgeber hat das von der Stadt Klütz vorgegebene elektronische Meldeverfahren zu nutzen. Die Zugangsdaten zum Meldesystem erhält der Wohnungsgeber von der Stadt Klütz. Die Meldung hat innerhalb eines Tages nach der Ankunft des Gastes zu erfolgen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Sommer",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "01.04. — 31.10. eines jeden Jahres 2,00 EUR p.P."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder / Jugendliche bis zum vollendeten 16. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Winter",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "01.11. des einen Jahres bis zum 31.03. des folgenden Jahres 1,50 EURp.P."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder / Jugendliche bis zum vollendeten 16. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson mit Merkzeichen B",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100% sowie deren Begleitperson (Merkzeichen B im Schwerbehindertenausweis)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe gilt im ganzen anerkannten Gebiet der Stadt Klütz.",
+        "quote": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der Gemeinde."
+      },
+      {
+        "text": "Menschen mit Schwerbehinderung ab einem Grad der Behinderung von 50 zahlen ermäßigt.",
+        "quote": "Schwerbehinderten mit einem Grad der Behinderung ab 50% wird die Kurabgabe ermäßigt."
+      },
+      {
+        "text": "Die ermäßigte Kurabgabe beträgt von April bis Oktober 1,00 € und von November bis März 0,75 € je Tag.",
+        "quote": "ermäßigt gem. § 3 Abs. 2 dieser Satzung 1,00 EUR p.P. b) in der Zeit vom 01.11. des einen Jahres bis zum 31.03. des folgenden Jahres 1,50 EUR p.P. ermäßigt gem. § 3 Abs. 2 dieser Satzung 0,75 EUR p.P."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe zahlen.",
+        "quote": "Den kurabgabepflichtigen Personen steht es frei, anstelle einer nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 56,00 € je Person, ermäßigt 28,00 €.",
+        "quote": "Die Jahreskurabgabe beträgt: pro voll zahlende Person: 56,00 € pro ermäßigte Person: 28,00 €."
+      },
+      {
+        "text": "Wer sich vorübergehend in einer eigenen Wohngelegenheit aufhält, zahlt stattdessen immer die Jahreskurabgabe; das gilt auch für Ehegatten und im Haushalt lebende Kinder ab 16 Jahren.",
+        "quote": "Jede Person, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Wohnmobile, Zelte und dgl. aufhält, zahlt eine Kurabgabe in Höhe der jeweils geltenden Jahreskurabgabe nach § 4 dieser Satzung. Das gleiche gilt für deren Ehegatten/eingetragene Lebenspartner und im selben Haushalt lebende Kinder ab 16 Jahre."
+      },
+      {
+        "text": "Du bekommst monatlich einen Bescheid für die im Vormonat abgereisten Gäste.",
+        "quote": "Der Wohnungsgeber erhält monatlich von der Stadt Klütz, c/o Amt Klützer Winkel, Schloßstraße 1, 23948 Klütz einen Bescheid für die im Vormonat abgereisten Gäste;"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein und führt sie ab.",
+      "quote": "Wer Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Wohnungsgeber) ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen und abzuführen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Gäste meldest du über das elektronische Meldeverfahren der Stadt, innerhalb eines Tages nach der Ankunft.",
+      "quote": "Der Wohnungsgeber hat das von der Stadt Klütz vorgegebene elektronische Meldeverfahren zu nutzen. Die Zugangsdaten zum Meldesystem erhält der Wohnungsgeber von der Stadt Klütz. Die Meldung hat innerhalb eines Tages nach der Ankunft des Gastes zu erfolgen"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kluetz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Sommer",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Winter",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

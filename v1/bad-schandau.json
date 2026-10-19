@@ -1,0 +1,260 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-schandau",
+  "name": "Stadt Bad Schandau",
+  "short": "Bad Schandau",
+  "ags": "14628030",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Gästetaxe (Gästetaxesatzung) vom 17.03.2021, 1. Änderung vom 19.01.2022, 2. Änderung vom 21.02.2024, Fassung der Stadt",
+      "url": "https://bad-schandau.de/downloads/Gstetaxsatzung_10.03.21_19.1.22_21.2.24.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "a17cfa422d695a8dc4c3adecb78a90a023763b66f81fc90d4a29c1cccce5af50",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe der Stadt Bad Schandau vom 19.09.2018",
+      "url": "https://www.bad-schandau.de/downloads/tourismusabgabesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "edba1d431e86b83299feb95af368921f3eb52119486c6e99ec2389e97b79495d",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gezählt."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Sie beträgt ganzjährig je Person und Aufenthaltstag 3,00 €."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Von der Gästetaxe freigestellt sind: 1. Kinder unter 7 Jahren,"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Die Gästetaxe wird auf Antrag um 50 v. H. ermäßigt für: 1. Kinder und Jugendliche im Alter von 7 bis 15 Jahren,",
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Teilnehmer an Schulfahrten",
+        "quote": "Teilnehmer an Schulfahrten,"
+      },
+      {
+        "text": "Schwerbehinderte mit den Merkzeichen BL und aG im Schwerbehindertenausweis",
+        "quote": "Schwerbehinderte mit dem vorgedruckten Merkzeichen BL und aG im Schwerbehindertenausweis."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, wenn im Ausweis das Merkzeichen B und die nachgewiesene Notwendigkeit ständiger Begleitung eingetragen sind",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn im Ausweis des begleitenden Schwerbehinderten das Markenzeichen B und der Satz „Die Notwendigkeit ständiger Begleitung ist nachgewiesen“ vorgedruckt eingetragen sind,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      },
+      {
+        "text": "Familienbesuch ohne Entgelt, wenn das sozialadäquat ist",
+        "quote": "Nicht gästetaxepflichtig sind Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgeltes Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 sowie Schüler, Studenten und Auszubildende von 16 bis 24 Jahren zahlen auf Antrag die Hälfte.",
+        "quote": "2. Schwerbehinderte, mit einem Grad der Behinderung von wenigstens 50 v. H., 3. Schüler, Studenten und Auszubildende im Alter 16 bis 24 Jahren."
+      },
+      {
+        "text": "Wer in einer Kurklinik oder einem Sanatorium untergebracht ist, zahlt ganzjährig 1,20 Euro je Person und Tag.",
+        "quote": "Für Personen, welche in Kurkliniken und Sanatorien untergebracht sind, beträgt die Gästetaxe ganzjährig je Person und Aufenthaltstag 1,20 €."
+      },
+      {
+        "text": "Im Satz stecken 0,90 Euro für die Mobilitätskarte (kostenloser Nahverkehr für den Gast); diesen Anteil führst du als durchlaufenden Posten weiter.",
+        "quote": "Die Gästetaxe nach Absatz 1 beinhaltet einen Betrag von 0,90 € zur Finanzierung der Mobilitätskarte, mit welcher nach § 7 Abs. 3 die unentgeltliche Nutzung von Nahverkehrsmitteln ermöglicht wird."
+      },
+      {
+        "text": "Du haftest gegenüber der Stadt für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe.",
+        "quote": "Der Beherberger haftet gegenüber der Stadt für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen darfst du nicht ohne Zustimmung der Stadt gewähren.",
+        "quote": "Die Beherberger sind nicht berechtigt, ohne Zustimmung der Stadt Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen die nicht im Sinne dieser Satzung sind, zu gewähren."
+      },
+      {
+        "text": "Die Gästetaxe verwahrst und rechnest du getrennt von deinem Betriebsvermögen ab, auf Kasse und Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe hat getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+      },
+      {
+        "text": "Jeder Gast bekommt die Gästekarte ausgehändigt; sie gilt für den kostenlosen Nahverkehr.",
+        "quote": "Die Gästekarte ist auszuhändigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein und rechnet sie mit der Stadt ab.",
+      "quote": "Der nach § 9 Abs. 1 benannte Personenkreis hat die Gästetaxe nach § 4 Abs. 1 von den gästetaxepflichtigen Personen einzuziehen."
+    },
+    "deadline": {
+      "text": "Du zahlst die Gästetaxe zu dem Termin, den dir der Abrechnungsbescheid der Stadt nennt.",
+      "quote": "Der Beherberger erhält von der Stadt anhand der übermittelten Daten einen Abrechnungsbescheid. Die darin ausgewiesene Gästetaxe ist entsprechend dem dort angegebenen Termin zur Zahlung fällig und zu überweisen."
+    },
+    "reporting": {
+      "text": "Papier-Meldescheine reichst du in Kopie bis zum 10. des Folgemonats bei der Stadt ein; im elektronischen Meldesystem gehen die Daten automatisch weiter.",
+      "quote": "Für die Abrechnung der Gästetaxe hat der Beherberger der Stadt die Mehrfertigung der manuellen Meldescheine, sofern nicht anderweitig vereinbart, bis zum 10. des Folgemonats für den vorangegangenen Monat zuzuleiten. Im Fall der elektronischen Meldescheinabwicklung erfolgt die Datenweiterleitung automatisch."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig Tätige oder Tätiger, wenn dir der Tourismus in Bad Schandau unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt; ausdrücklich genannt sind Vermieter von Ferienwohnungen, Ferienzimmern und Ferienhäusern.",
+      "quote": "Natürliche und juristische Personen im Sinne des Abs. 1 sind: a) Inhaber von Sanatorien, Rehakliniken und Kurkliniken, Inhaber von Beherbergungsbetrieben (Hotels, Gasthöfen mit Übernachtungsmöglichkeiten und Pensionen), Vermieter von Ferienwohnungen, Ferienzimmern und Ferienhäusern, sonstige Personen und Unternehmen, die Gäste gegen Entgelt beherbergen,"
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung und sonstige Beherbergung",
+        "quote": "in einer Ferienwohnung und bei sonstiger Beherbergung von Kurgästen und Erholungssuchenden gegen Entgelt je Bett/Schlafplatz 36,00 €",
+        "flat": {
+          "cents": 3600,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension",
+        "quote": "in einem Hotel, Gasthof oder Pension je Bett/Schlafplatz 45,00 €",
+        "flat": {
+          "cents": 4500,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz",
+        "quote": "4. Camping- und Zeltplätze je Stellplatz 12,00 €",
+        "flat": {
+          "cents": 1200,
+          "per": "Stellplatz"
+        }
+      },
+      {
+        "label": "Sanatorium, Rehaklinik, Kurklinik",
+        "quote": "1. in einem Sanatorium, Rehaklinik, Kurklinik je Bett/Schlafplatz 65,00 €",
+        "flat": {
+          "cents": 6500,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Die Angaben für die Berechnung teilst du der Stadt innerhalb von 14 Tagen nach Zugang des Erhebungsbogens mit.",
+      "quote": "Die Abgabepflichtigen oder ihre Vertreter haben der Stadt Bad Schandau innerhalb von 14 Tagen nach Zugang des Erhebungsbogens die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe kommt per Bescheid und ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Abgabe wird für den jeweiligen Erhebungszeitraum durch schriftlichen Bescheid festgesetzt. Die Abgabe wird einen Monat nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Als gemeinnützig, mildtätig oder kirchlich anerkannte Einrichtungen und Körperschaften des öffentlichen Rechts zahlen die Abgabe nicht; den Nachweis führst du auf Antrag selbst.",
+        "quote": "Von der Abgabe befreit sind Körperschaften des öffentlichen Rechtes sowie Stiftungen, Anstalten, Körperschaften, Einrichtungen und Unternehmen, die entsprechend ihrer Satzung oder ihrer tatsächlichen Geschäftsführung ausschließlich und unmittelbar gemeinnützigen, mildtätigen und kirchlichen Zwecken dienen und als solche anerkannt sind (§§ 52 – 57 Abgabenordnung)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Es zählen die Betten und Schlafplätze, die du gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "nach der Anzahl der vorhandenen Betten/Schlafplätze, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Bei Camping- und Zeltplätzen zählt die Zahl der höchstzulässigen Stellplätze.",
+        "quote": "bei Camping- und Zeltplätzen nach der Anzahl der höchstzulässigen Stellplätze;"
+      },
+      {
+        "text": "Es ist eine Jahresabgabe; die Abgabeschuld entsteht am 1. August des Erhebungsjahres.",
+        "quote": "Die Abgabe wird jährlich erhoben. Der Erhebungszeitraum ist das Kalenderjahr. (2) Die Abgabeschuld entsteht am 01.08. des Erhebungszeitraumes."
+      },
+      {
+        "text": "Für die Festsetzung zählen die Verhältnisse zum 1. Juli.",
+        "quote": "Für die Festsetzung der Abgabe sind die Verhältnisse zum 01.07. des Kalenderjahres maßgeblich."
+      },
+      {
+        "text": "Beginnst oder beendest du die Vermietung im Lauf des Jahres, zahlst du für jeden angefangenen Monat ein Zwölftel des Jahresbetrags.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit im Kalenderjahr aufgenommen oder beendet, wird für jeden angefangenen Monat ein Zwölftel des Jahresbetrages nach § 4 dieser Satzung erhoben."
+      },
+      {
+        "text": "In einem besonderen Einzelfall kann die Abgabe auf Antrag niedriger gesetzt, gestundet oder erlassen werden; den Antrag stellst du bis zum 30. Juni des Folgejahres.",
+        "quote": "Unter Berücksichtigung eines besonderen Einzelfalles kann aus Billigkeitsgründen die Tourismusabgabe auf Antrag niedriger gesetzt werden. Eine bereits festgesetzte Tourismusabgabe kann auf begründeten Antrag gestundet oder aus Billigkeitsgründen erlassen werden. Der Antrag ist bis zum 30.06. des Folgejahres der Stadt Bad Schandau vorzulegen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-schandau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

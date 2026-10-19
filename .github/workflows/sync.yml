@@ -1,0 +1,38 @@
+name: Daten von keyset.cloud holen
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Holen
+        run: scripts/sync.sh
+
+      - name: Committen, wenn sich etwas geändert hat
+        run: |
+          git add -A v1
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+            exit 0
+          fi
+          places="$(git diff --cached --name-only -- 'v1/*.json' | grep -vE '^v1/(orte|aenderungen)\.json$' | sed 's|^v1/||; s|\.json$||' || true)"
+          n="$(printf '%s' "$places" | grep -c . || true)"
+          if [ "$n" -gt 6 ]; then changed="$n Orte"; else changed="$(printf '%s' "$places" | paste -sd ',' - | sed 's/,/, /g')"; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Stand $(date -u +%F)${changed:+: $changed}" -m "Gespiegelt von https://keyset.cloud/kurtaxe/v1/"
+          git push

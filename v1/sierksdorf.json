@@ -1,0 +1,1065 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sierksdorf",
+  "name": "Sierksdorf",
+  "short": "Sierksdorf",
+  "ags": "01055039",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Sierksdorf vom 24.09.2024",
+      "url": "https://www.amt-ostholstein-mitte.de/fileadmin/Dateien/Gemeinde_Sierksdorf/News_und_Veranstaltungen/News/039_2025.01.21_NEU_Kurabgabensatzung.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "b0357a05ef3904c1fe87ef95f6278b67c78ca227f5a98b618d7c6f635a1527f6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung1": {
+      "title": "1. Änderungssatzung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Sierksdorf (Amtliche Bekanntmachung, Gemeinde Sierksdorf, 23. September 2026)",
+      "url": "https://www.amt-ostholstein-mitte.de/fileadmin/Dateien/Gemeinde_Sierksdorf/Unsere_Gemeinde/Politik___Ortsrecht/Ortsrecht/039_1._AEnderungssatzung_Kurabgabe_2027.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "sha256": "9ae5a3636c6fb796ad21b09b7fee20ab113679c01c958d6fbed4454626a7d772",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ta": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Sierksdorf vom 17.06.2021",
+      "url": "https://www.amt-ostholstein-mitte.de/fileadmin/Dateien/Gemeinde_Sierksdorf/Unsere_Gemeinde/Politik___Ortsrecht/Ortsrecht/039_Satzung_Tourismusabgabe_Sierksdorf.pdf",
+      "kind": "statute",
+      "inForce": "2021-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2a14ad888d7148f6c15bab9e4ad4845b6b1e92c4e8666bc408bd825f238129b3",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind natürliche und juristische Personen sowie ganz oder teilweise rechtsfähige Personenvereinigungen, die in der Gemeinde Sierksdorf selbständig tourismusbezogene entgeltliche Leistungen anbieten."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 3,
+          "reading": "Abgabesatz beträgt 2,80 %."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 7,
+          "reading": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 7,
+          "reading": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 7,
+          "reading": "A32 mit einem Umsatz bis 100.000 € 27% 5"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 7,
+          "reading": "A32 mit einem Umsatz bis 100.000 € 27% 5"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 7,
+          "reading": "A33 mit einem Umsatz über 100.000 € 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 7,
+          "reading": "A33 mit einem Umsatz über 100.000 € 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 7,
+          "reading": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21l mit einem Umsatz bis 200.000 € 30% 5"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 7,
+          "reading": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21l mit einem Umsatz bis 200.000 € 30% 5"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 7,
+          "reading": "A22 mit einem Umsatz über 200.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 7,
+          "reading": "A22 mit einem Umsatz über 200.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 7,
+          "reading": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11l mit einem Umsatz bis 500.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 7,
+          "reading": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11l mit einem Umsatz bis 500.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[6]",
+          "page": 7,
+          "reading": "mit einem Umsatz über 500.000 € 15% 5"
+        },
+        {
+          "where": "businessLevy.letting[6] figure 1",
+          "page": 7,
+          "reading": "mit einem Umsatz über 500.000 € 15% 5"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[7]",
+          "page": 7,
+          "reading": "A4 Erholungsheime, Jugendherbergen 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[7] figure 1",
+          "page": 7,
+          "reading": "A4 Erholungsheime, Jugendherbergen 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[7].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[8]",
+          "page": 7,
+          "reading": "AS Campingplätze 18% 5"
+        },
+        {
+          "where": "businessLevy.letting[8] figure 1",
+          "page": 7,
+          "reading": "AS Campingplätze 18% 5"
+        },
+        {
+          "where": "businessLevy.letting[8].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H."
+        },
+        {
+          "where": "businessLevy.letting[9]",
+          "page": 7,
+          "reading": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5"
+        },
+        {
+          "where": "businessLevy.letting[9] figure 1",
+          "page": 7,
+          "reading": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5"
+        },
+        {
+          "where": "businessLevy.letting[9].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[10]",
+          "page": 7,
+          "reading": "A32 mit einem Umsatz bis 100.000 € 27% 5"
+        },
+        {
+          "where": "businessLevy.letting[10] figure 1",
+          "page": 7,
+          "reading": "A32 mit einem Umsatz bis 100.000 € 27% 5"
+        },
+        {
+          "where": "businessLevy.letting[10].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[11]",
+          "page": 7,
+          "reading": "A33 mit einem Umsatz über 100.000 € 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[11] figure 1",
+          "page": 7,
+          "reading": "A33 mit einem Umsatz über 100.000 € 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[11].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[12]",
+          "page": 7,
+          "reading": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21l mit einem Umsatz bis 200.000 € 30% 5"
+        },
+        {
+          "where": "businessLevy.letting[12] figure 1",
+          "page": 7,
+          "reading": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21l mit einem Umsatz bis 200.000 € 30% 5"
+        },
+        {
+          "where": "businessLevy.letting[12].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[13]",
+          "page": 7,
+          "reading": "A22 mit einem Umsatz über 200.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[13] figure 1",
+          "page": 7,
+          "reading": "A22 mit einem Umsatz über 200.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[13].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[14]",
+          "page": 7,
+          "reading": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11l mit einem Umsatz bis 500.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[14] figure 1",
+          "page": 7,
+          "reading": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11l mit einem Umsatz bis 500.000 € 22% 5"
+        },
+        {
+          "where": "businessLevy.letting[14].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[15]",
+          "page": 7,
+          "reading": "mit einem Umsatz über 500.000 € 15% 5"
+        },
+        {
+          "where": "businessLevy.letting[15] figure 1",
+          "page": 7,
+          "reading": "mit einem Umsatz über 500.000 € 15% 5"
+        },
+        {
+          "where": "businessLevy.letting[15].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[16]",
+          "page": 7,
+          "reading": "A4 Erholungsheime, Jugendherbergen 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[16] figure 1",
+          "page": 7,
+          "reading": "A4 Erholungsheime, Jugendherbergen 12% 5"
+        },
+        {
+          "where": "businessLevy.letting[16].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.letting[17]",
+          "page": 7,
+          "reading": "AS Campingplätze 18% 5"
+        },
+        {
+          "where": "businessLevy.letting[17] figure 1",
+          "page": 7,
+          "reading": "AS Campingplätze 18% 5"
+        },
+        {
+          "where": "businessLevy.letting[17].turnover.advantage",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "aus dem Tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 4,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 € nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "bis zum 31. Mai eines jeden Folgejahres oder - soweit die Gemeinde Sierksdorf dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllen des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "1. Ortsteil Sierksdorf (vom Ostseestrand bis zur K 45)"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 1,
+          "reading": "den Ortsteilen Wagrienring, Stawedder, Hof Altona, Mariashagen, Wintershagen, Oevelgönne, Siedenkamp, Stabie und Roge"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Vorteilsstufe 5 100 v.H. | Vorteilsstufe 5 50,0 v.H."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 3,
+          "reading": "sind die im Geltungsbereich dieser Satzung erzielten betrieblichen Einnahmen des Vorjahres"
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 4,
+          "reading": "Die Abgabeschuld entsteht jeweils am Ende des Kalenderjahres."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 4,
+          "reading": "Die Gemeinde erhebt auf die zu erwartende Höhe der Jahresabgabe Vorausleistungen."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 4,
+          "reading": "Beginne und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+        },
+        {
+          "where": "businessLevy.remarks[7]",
+          "page": 3,
+          "reading": "Die Abgabepflicht endet mit dem Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit aufgegeben wird."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag. Zur Berechnung gilt der Tag der Anreise."
+    },
+    "zones": [
+      {
+        "label": "Sierksdorf-Strand",
+        "area": {
+          "text": "Sierksdorf-Strand ist der Ortsteil Sierksdorf vom Ostseestrand bis zur K45.",
+          "quote": "Ortsteil Sierksdorf (vom Ostseestrand bis zur K45), im weiteren „Sierksdorf-Strand“"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "adult": {
+              "cents": 310,
+              "quote": "b) Hauptsaison 01.05. – 30.09. 3,10 € 1,55 €",
+              "next": {
+                "cents": 360,
+                "quote": "b) Hauptsaison 01.05. – 30.09. 3,60 € 1,80 €",
+                "source": "aenderung1"
+              }
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              },
+              {
+                "from": "10-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 155,
+              "quote": "a) Vorsaison 01.01. – 30.04. 1,55 € 0,75 €",
+              "next": {
+                "cents": 180,
+                "quote": "a) Vorsaison 01.01. – 30.04. 1,80 € 0,90 €",
+                "source": "aenderung1"
+              }
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Sierksdorf-Land",
+        "area": {
+          "text": "Sierksdorf-Land sind die Ortsteile Wagrienring, Stawedder, Hof Altona, Mariashagen, Wintershagen, Oevelgönne, Siedenkamp, Stabie und Roge.",
+          "quote": "sowie die Ortsteile Wagrienring, Stawedder, Hof Altona, Mariashagen, Wintershagen, Oevelgönne, Siedenkamp, Stabie und Roge, im weiteren „Sierksdorf-Land“ genannt."
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "adult": {
+              "cents": 155,
+              "quote": "b) Hauptsaison 01.05. – 30.09. 3,10 € 1,55 €",
+              "next": {
+                "cents": 180,
+                "quote": "b) Hauptsaison 01.05. – 30.09. 3,60 € 1,80 €",
+                "source": "aenderung1"
+              }
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              },
+              {
+                "from": "10-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 75,
+              "quote": "a) Vorsaison 01.01. – 30.04. 1,55 € 0,75 €",
+              "next": {
+                "cents": 90,
+                "quote": "a) Vorsaison 01.01. – 30.04. 1,80 € 0,90 €",
+                "source": "aenderung1"
+              }
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre nachweislich erforderliche Begleitperson (Merkzeichen B) zahlen nichts.",
+        "quote": "Schwerbeschädigte, die eine Behinderung von 80% und mehr nachweisen sowie eine nachweislich erforderliche Begleitperson, wenn die Anerkennung des Merkzeichens „B“ nachgewiesen wird."
+      },
+      {
+        "text": "Wer eine Gästekarte oder OstseeCard aus einer anderen Kurabgabe-Gemeinde in Schleswig-Holstein vorzeigt, ist bei Gegenseitigkeit für einen Tag befreit.",
+        "quote": "Personen, die eine Gästekarte oder Ostseecard aus einer anderen kurabgabeerhebenden Gemeinde in Schleswig-Holstein vorweisen, sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tag"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schüler, Studenten und Auszubildende ab 18 Jahren zahlen die Hälfte.",
+        "quote": "Eine Ermäßigung in Höhe von 50 % wird gewährt für a) Träger der Sozialhilfe und der Verbände der freien Wohlfahrtspflege, für die von ihnen verschickten Personen; b) Minderbemittelten Gästen (minderbemittelt im Sinne des Bundessozialhilfegesetzes) kann eine Ermäßigung von 50% gewährt werden, wenn der Antrag vor Antritt der Reise beim Tourismus-Service Sierksdorf gestellt wird; c) Teilnehmer/innen an Sammelreisen, Betriebsausflügen und dergl. (ab 20 Personen); d) Schüler/innen, Studenten/innen und Auszubildende ab 18 Jahren."
+      },
+      {
+        "text": "Teilnehmer an Sammelreisen, Betriebsausflügen und dergleichen ab 20 Personen zahlen die Hälfte.",
+        "quote": "Eine Ermäßigung in Höhe von 50 % wird gewährt für a) Träger der Sozialhilfe und der Verbände der freien Wohlfahrtspflege, für die von ihnen verschickten Personen; b) Minderbemittelten Gästen (minderbemittelt im Sinne des Bundessozialhilfegesetzes) kann eine Ermäßigung von 50% gewährt werden, wenn der Antrag vor Antritt der Reise beim Tourismus-Service Sierksdorf gestellt wird; c) Teilnehmer/innen an Sammelreisen, Betriebsausflügen und dergl. (ab 20 Personen);"
+      },
+      {
+        "text": "Minderbemittelte Gäste können die halbe Kurabgabe bekommen, wenn sie den Antrag vor Reiseantritt beim Tourismus-Service Sierksdorf stellen.",
+        "quote": "Eine Ermäßigung in Höhe von 50 % wird gewährt für a) Träger der Sozialhilfe und der Verbände der freien Wohlfahrtspflege, für die von ihnen verschickten Personen; b) Minderbemittelten Gästen (minderbemittelt im Sinne des Bundessozialhilfegesetzes) kann eine Ermäßigung von 50% gewährt werden, wenn der Antrag vor Antritt der Reise beim Tourismus-Service Sierksdorf gestellt wird;"
+      },
+      {
+        "text": "Träger der Sozialhilfe und der Verbände der freien Wohlfahrtspflege zahlen für die von ihnen verschickten Personen die Hälfte.",
+        "quote": "Eine Ermäßigung in Höhe von 50 % wird gewährt für a) Träger der Sozialhilfe und der Verbände der freien Wohlfahrtspflege, für die von ihnen verschickten Personen;"
+      },
+      {
+        "text": "Die Nachsaison (1. Oktober bis 31. Dezember) kostet dasselbe wie die Vorsaison.",
+        "quote": "c) Nachsaison 01.10. – 31.12. 1,55 € 0,75 €"
+      },
+      {
+        "text": "Eine Jahresgästekarte kostet 86,90 € in Sierksdorf-Strand und 43,45 € in Sierksdorf-Land.",
+        "quote": "d) Jahresgästekarte 86,90 € 43,45 €"
+      },
+      {
+        "text": "Ab 1. Januar 2027 kostet die Jahresgästekarte 100,00 € in Sierksdorf-Strand und 50,00 € in Sierksdorf-Land.",
+        "quote": "d) Jahresgästekarte 100,00 € 50,00 €",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohneinheiten und ihre Familienangehörigen zahlen unabhängig von der Aufenthaltsdauer die Jahreskurabgabe.",
+        "quote": "haben unabhängig von der Dauer ihres Aufenthaltes den Jahreskurabgabe gemäß § 5 Absatz 1 d) zu entrichten"
+      },
+      {
+        "text": "Du bekommst am Jahresende eine Provision von 5 % auf die eingezogene und abgeführte Kurabgabe.",
+        "quote": "Jede/r Unterkunftsgeber/in erhält am Ende eines Jahres eine Provision in Höhe von 5% auf den von ihm eingezogenen und an den Tourismus-Service abgeführten Kurabgabe."
+      },
+      {
+        "text": "Mit Papier-Meldescheinen reichst du die Kopie für die Gemeinde innerhalb von 5 Werktagen beim Tourismus-Service ein.",
+        "quote": "die für die Gemeinde Sierksdorf – Tourismus-Service Sierksdorf – bestimmte Kopie innerhalb von 5 Werktagen bei der Gemeinde Sierksdorf – Tourismus-Service Sierksdorf – einzureichen."
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Die Sätze steigen mit der 1. Änderungssatzung, die die Gemeinde am 23. September 2026 bekannt gemacht hat.",
+      "quote": "Die 1. Änderungssatzung tritt am 1.1.2027 in Kraft.",
+      "source": "aenderung1"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie innerhalb von 2 Wochen an die Gemeinde ab.",
+      "quote": "die Kurabgabe zu errechnen, diesen vom Gast einzuziehen und innerhalb von 2 Wochen an die Gemeinde Sierksdorf – Tourismus-Service Sierksdorf – kostenfrei abzuführen"
+    },
+    "deadline": {
+      "text": "Die eingezogene Kurabgabe führst du innerhalb von 2 Wochen an die Gemeinde ab.",
+      "quote": "innerhalb von 2 Wochen an die Gemeinde Sierksdorf"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das Onlinemeldeverfahren, unverzüglich und spätestens am Folgetag nach der Ankunft des Gastes.",
+      "quote": "Bei einer Datenerfassung über das Onlinemeldeverfahren wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Ankunft des Gastes an die Gemeinde Sierksdorf"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Sierksdorf selbstständig Leistungen anbietest, die mit dem Tourismus zu tun haben, auch eine Vermietung.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie ganz oder teilweise rechtsfähige Personenvereinigungen, die in der Gemeinde Sierksdorf selbständig tourismusbezogene entgeltliche Leistungen anbieten."
+    },
+    "letting": [
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz bis 50.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 38
+          }
+        }
+      },
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz über 50.000 € bis 100.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A32 mit einem Umsatz bis 100.000 € 27% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 27
+          }
+        }
+      },
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz über 100.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A33 mit einem Umsatz über 100.000 € 12% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21 mit einem Umsatz bis 200.000 € 30% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A22 mit einem Umsatz über 200.000 € 22% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 22
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11 mit einem Umsatz bis 500.000 € 22% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 22
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "mit einem Umsatz über 500.000 € 15% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Erholungsheime und Jugendherbergen in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A4 Erholungsheime, Jugendherbergen 12% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Campingplätze in Sierksdorf-Strand (Vorteilssatz 100 %)",
+        "quote": "A5 Campingplätze 18% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H."
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      },
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz bis 50.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A3 sonstige (nicht unter Nr. A1 und A 2 fallende) Vermietungen, A31 mit einem Umsatz bis 50.000 € 38% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 38
+          }
+        }
+      },
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz über 50.000 € bis 100.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A32 mit einem Umsatz bis 100.000 € 27% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 27
+          }
+        }
+      },
+      {
+        "label": "Sonstige Vermietungen, z. B. Ferienwohnungen, Umsatz über 100.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A33 mit einem Umsatz über 100.000 € 12% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A21 mit einem Umsatz bis 200.000 € 30% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A22 mit einem Umsatz über 200.000 € 22% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 22
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A11 mit einem Umsatz bis 500.000 € 22% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 22
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "mit einem Umsatz über 500.000 € 15% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Erholungsheime und Jugendherbergen in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A4 Erholungsheime, Jugendherbergen 12% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Campingplätze in Sierksdorf-Land (Vorteilssatz 50 %)",
+        "quote": "A5 Campingplätze 18% 5",
+        "turnover": {
+          "advantage": {
+            "percent": 50,
+            "quote": "Vorteilsstufe 5 50,0 v.H."
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.8,
+      "quote": "Abgabesatz beträgt 2,80 %."
+    },
+    "basis": {
+      "text": "Es zählen deine betrieblichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "aus dem Tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 € nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Mai des Folgejahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 31. Mai eines jeden Folgejahres oder - soweit die Gemeinde Sierksdorf dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllen des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Sierksdorf-Strand gilt der Ortsteil Sierksdorf vom Ostseestrand bis zur K 45.",
+        "quote": "1. Ortsteil Sierksdorf (vom Ostseestrand bis zur K 45)"
+      },
+      {
+        "text": "Sierksdorf-Land sind die Ortsteile Wagrienring, Stawedder, Hof Altona, Mariashagen, Wintershagen, Oevelgönne, Siedenkamp, Stabie und Roge.",
+        "quote": "den Ortsteilen Wagrienring, Stawedder, Hof Altona, Mariashagen, Wintershagen, Oevelgönne, Siedenkamp, Stabie und Roge"
+      },
+      {
+        "text": "Die Zeilen stehen je Gebiet: In Sierksdorf-Strand gilt in der Vorteilsstufe 5 ein Vorteilssatz von 100 v. H., in Sierksdorf-Land von 50 v. H.",
+        "quote": "Vorteilsstufe 5 100 v.H. | Vorteilsstufe 5 50,0 v.H."
+      },
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "sind die im Geltungsbereich dieser Satzung erzielten betrieblichen Einnahmen des Vorjahres"
+      },
+      {
+        "text": "Die Abgabe entsteht am Ende des Kalenderjahres.",
+        "quote": "Die Abgabeschuld entsteht jeweils am Ende des Kalenderjahres."
+      },
+      {
+        "text": "Die Gemeinde erhebt Vorauszahlungen auf die zu erwartende Jahresabgabe.",
+        "quote": "Die Gemeinde erhebt auf die zu erwartende Höhe der Jahresabgabe Vorausleistungen."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginne und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Die Abgabepflicht endet erst mit dem Ende des Kalenderjahres, in dem du die Tätigkeit aufgibst.",
+        "quote": "Die Abgabepflicht endet mit dem Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit aufgegeben wird."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sierksdorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 310,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 360,
+          "children": [
+            0
+          ]
+        }
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "12-31"
+          ]
+        ],
+        "adult": 155,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 180,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "zones": [
+      {
+        "label": "Sierksdorf-Strand",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "05-01",
+                "09-30"
+              ]
+            ],
+            "adult": 310,
+            "children": [
+              0
+            ],
+            "next": {
+              "adult": 360,
+              "children": [
+                0
+              ]
+            }
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              [
+                "01-01",
+                "04-30"
+              ],
+              [
+                "10-01",
+                "12-31"
+              ]
+            ],
+            "adult": 155,
+            "children": [
+              0
+            ],
+            "next": {
+              "adult": 180,
+              "children": [
+                0
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Sierksdorf-Land",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "05-01",
+                "09-30"
+              ]
+            ],
+            "adult": 155,
+            "children": [
+              0
+            ],
+            "next": {
+              "adult": 180,
+              "children": [
+                0
+              ]
+            }
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              [
+                "01-01",
+                "04-30"
+              ],
+              [
+                "10-01",
+                "12-31"
+              ]
+            ],
+            "adult": 75,
+            "children": [
+              0
+            ],
+            "next": {
+              "adult": 90,
+              "children": [
+                0
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

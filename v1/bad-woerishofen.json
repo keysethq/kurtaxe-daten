@@ -1,0 +1,359 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-woerishofen",
+  "name": "Stadt Bad Wörishofen",
+  "short": "Bad Wörishofen",
+  "ags": "09778116",
+  "state": "Bayern",
+  "district": "Unterallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung) der Stadt Bad Wörishofen vom 09.12.2024, Lesefassung der Stadt „seit 01. Januar 2025 gültige Fassung“, Sätze ab 01.04.2025",
+      "url": "https://www.bad-woerishofen.info/fileadmin/user_upload/Formulare/Bekanntmachungen/Kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-04-01",
+      "sha256": "9a655e7116464d879ae699240981256a06f409d16bc6c1c47a3e89c1d047b044",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "zones[0].area",
+          "page": 1,
+          "reading": "Der Kurbezirk I umfasst das Stadtgebiet, das außerhalb des Kurbezirks II liegt."
+        },
+        {
+          "where": "zones[0].periods[0].adult",
+          "page": 2,
+          "reading": "(2a) Der Beitrag beträgt pro Aufenthaltstag ab dem 01.04.2025 1. Im Kurbezirk | für Personen ab dem vollendeten 16. Lebensjahr 3,60 €"
+        },
+        {
+          "where": "zones[0].periods[0].children[0]",
+          "page": 3,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des sechzehnten Lebensjahres sind von der Entrichtung eines Kurbeitrages befreit."
+        },
+        {
+          "where": "zones[1].area",
+          "page": 1,
+          "reading": "Der Kurbezirk Il umfasst die Ortsteile Hartenthal und Schöneschach, sowie den Stadtteil Gartenstadt, das Gewerbegebiet, alle Wohnmobilstellplätze an der Therme und den Campingplatz."
+        },
+        {
+          "where": "zones[1].periods[0].adult",
+          "page": 2,
+          "reading": "2. Im Kurbezirk Il für Personen ab dem vollendeten 16. Lebensjahr 1,80 €"
+        },
+        {
+          "where": "zones[1].periods[0].children[0]",
+          "page": 3,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des sechzehnten Lebensjahres sind von der Entrichtung eines Kurbeitrages befreit."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "(3) Für Personen, die eine Behinderung von 80 v. H. und 90 v. H. durch Behindertenausweis nachweisen können, wird der Kurbeitrag nach Abs. 2 um 30 % ermäßigt."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "(4) Bei Personen, die eine Behinderung von 100 v. H. durch Behindertenausweis nachweisen können, wird der Kurbeitrag nach Abs. 2 um 50 % ermäßigt."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Ist für die Personen nach Abs. 3 und 4 im Behindertenausweis eine Begleitperson mit dem Merkzeichen \"B\" eingetragen, erhält diese die gleiche Ermäßigung vom Kurbeitrag wie die behinderte Person."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 3,
+          "reading": "Teilnehmer an Fortbildungskursen, Seminaren und Tagungen sowie Teilnehmer an Trainingslehrgängen/Trainingslagern im Amateursport wird der Kurbeitrag um 50 % ermäßigt, sofern ein entsprechender Nachweis erbracht wird"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 3,
+          "reading": "Sofern sie keine Kur- und Fremdenverkehrseinrichtungen in Anspruch nehmen, sind Ortsfremde, die sich nur zur Ausübung ihres Berufes in Bad Wörishofen aufhalten, von der Entrichtung eines Kurbeitrags befreit."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Kurgebiet ist das Stadtgebiet mit Ausnahme der Stadtteile Dorschhausen, Schlingen mit Frankenhofen, Kirchdorf und Stockheim, sowie Ober-/Untergammenried und Oberes und Unteres Hart."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Stadt abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "spätestens am Tag nach deren Anreise, sowie eventuelle Korrekturen spätestens am Tag nach deren Abreise auf einem durch die Stadt bestimmten elektronischen Weg (derzeit: 'Feratel') zu melden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages in der Stadt Bad Wörishofen (Fassung seit 1. Januar 2004)",
+      "url": "https://www.bad-woerishofen.info/fileadmin/user_upload/Formulare/Bekanntmachungen/fremdenverkehrsbeitragssatzung_01-01-2004.pdf",
+      "kind": "municipality",
+      "inForce": "2004-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "92d88f5ed7c6497563eee135de2018531c960c4fe29dc5e2c2f601c3f058f8b0",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist das Kurgebiet außerhalb von Kurbezirk II.",
+          "quote": "Der Kurbezirk I umfasst das Stadtgebiet, das außerhalb des Kurbezirks II liegt."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 360,
+              "quote": "(2a) Der Beitrag beträgt pro Aufenthaltstag ab dem 01.04.2025 1. Im Kurbezirk I für Personen ab dem vollendeten 16. Lebensjahr 3,60 €"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des sechzehnten Lebensjahres sind von der Entrichtung eines Kurbeitrages befreit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Ortsteile Hartenthal und Schöneschach, die Gartenstadt, das Gewerbegebiet, die Wohnmobilstellplätze an der Therme und der Campingplatz.",
+          "quote": "Der Kurbezirk II umfasst die Ortsteile Hartenthal und Schöneschach, sowie den Stadtteil Gartenstadt, das Gewerbegebiet, alle Wohnmobilstellplätze an der Therme und den Campingplatz."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "2. Im Kurbezirk II für Personen ab dem vollendeten 16. Lebensjahr 1,80 €"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des sechzehnten Lebensjahres sind von der Entrichtung eines Kurbeitrages befreit."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 oder 90 zahlen 30 % weniger",
+        "quote": "(3) Für Personen, die eine Behinderung von 80 v. H. und 90 v. H. durch Behindertenausweis nachweisen können, wird der Kurbeitrag nach Abs. 2 um 30 % ermäßigt."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 zahlen 50 % weniger",
+        "quote": "(4) Bei Personen, die eine Behinderung von 100 v. H. durch Behindertenausweis nachweisen können, wird der Kurbeitrag nach Abs. 2 um 50 % ermäßigt."
+      },
+      {
+        "text": "Eine im Ausweis eingetragene Begleitperson mit Merkzeichen B bekommt dieselbe Ermäßigung wie die behinderte Person",
+        "quote": "Ist für die Personen nach Abs. 3 und 4 im Behindertenausweis eine Begleitperson mit dem Merkzeichen „B“ eingetragen, erhält diese die gleiche Ermäßigung vom Kurbeitrag wie die behinderte Person."
+      },
+      {
+        "text": "Teilnehmer an Fortbildungen, Seminaren, Tagungen und Trainingslagern im Amateursport zahlen 50 % weniger, wenn das Programm kaum Freiräume lässt und sie das nachweisen",
+        "quote": "Teilnehmer an Fortbildungskursen, Seminaren und Tagungen sowie Teilnehmer an Trainingslehrgängen/Trainingslagern im Amateursport wird der Kurbeitrag um 50 % ermäßigt, sofern ein entsprechender Nachweis erbracht wird"
+      },
+      {
+        "text": "Ortsfremde, die nur wegen ihres Berufs in Bad Wörishofen sind und keine Kur- und Fremdenverkehrseinrichtungen nutzen, zahlen nichts",
+        "quote": "Sofern sie keine Kur- und Fremdenverkehrseinrichtungen in Anspruch nehmen, sind Ortsfremde, die sich nur zur Ausübung ihres Berufes in Bad Wörishofen aufhalten, von der Entrichtung eines Kurbeitrags befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurbeitrag fällt nur im Kurgebiet an: In den Stadtteilen Dorschhausen, Schlingen mit Frankenhofen, Kirchdorf und Stockheim sowie in Ober-/Untergammenried und Oberes und Unteres Hart wird keiner erhoben.",
+        "quote": "Kurgebiet ist das Stadtgebiet mit Ausnahme der Stadtteile Dorschhausen, Schlingen mit Frankenhofen, Kirchdorf und Stockheim, sowie Ober-/Untergammenried und Oberes und Unteres Hart."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Stadt dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Stadt kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Stadt abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am Tag nach der Anreise, Korrekturen spätestens am Tag nach der Abreise, elektronisch über das von der Stadt bestimmte System (derzeit Feratel); mit weniger als 10 Betten darfst du auch schriftlich melden.",
+      "quote": "spätestens am Tag nach deren Anreise, sowie eventuelle Korrekturen spätestens am Tag nach deren Abreise auf einem durch die Stadt bestimmten elektronischen Weg (derzeit: ‚Feratel‘) zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Wörishofen Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 %."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Abs. 1) oder des steuerbaren Umsatzes (Abs. 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,07 und 0,63 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 - 5 v. H. 0,07 v. H. über 5 - 10 v. H. 0,19 v. H. über 10 - 15 v. H. 0,32 v. H. über 15 - 20 v. H. 0,44 v. H. über 20 v. H. 0,63 v. H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Abs. 3) und dem Mindestbeitragssatz (Abs. 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-woerishofen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 360,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 360,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

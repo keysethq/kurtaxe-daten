@@ -1,0 +1,119 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "berlin",
+  "name": "Berlin",
+  "short": "Berlin",
+  "ags": "11000000",
+  "state": "Berlin",
+  "district": "Berlin",
+  "sources": {
+    "satzung": {
+      "title": "Gesetz über eine Übernachtungsteuer in Berlin (Übernachtungsteuergesetz - ÜnStG) vom 18. Dezember 2013, Gesamtausgabe in der Gültigkeit vom 01.01.2026, Senatsverwaltung für Finanzen",
+      "url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/uebernachtungsteuergesetz-ab-2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "23e3ff6e14bf7856f0edef713bcf567c6bbe88675b9b0fc145d6cc30b48e7606",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "leitfaden": {
+      "title": "Leitfaden Übernachtungsteuer, Rechtslage ab 1. Januar 2025, Senatsverwaltung für Finanzen Berlin",
+      "url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/leitfaden-uebernachtungsteuer_rechtslage-ab-01012025-01-2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "80d8d22dd8d9638dddd9f06766616db46e3661bc4c69c859ef6f1dab1008e2bf",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 7.5,
+      "quote": "Die Steuer beträgt 7,5 Prozent der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Übernachtungsaufwand ohne Umsatzsteuer und ohne den Aufwand für andere Dienstleistungen wie Frühstück oder Verpflegung.",
+      "quote": "Die Steuer bemisst sich nach dem Aufwand für die Übernachtung ohne Umsatzsteuer und ohne den Aufwand für andere Dienstleistungen.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Der Beherbergungsbetrieb schuldet die Steuer."
+    },
+    "deadline": {
+      "text": "Die Steuer ist am zehnten Tag nach Ablauf des Quartals fällig, für das du sie anmeldest.",
+      "quote": "Die Steuer ist am zehnten Tag nach Ablauf des Steueranmeldungszeitraums fällig."
+    },
+    "reporting": {
+      "text": "Du meldest die Steuer vierteljährlich elektronisch beim Finanzamt an, mit der Zahl aller Übernachtungen und der Zahl der steuerpflichtigen Übernachtungen, und berechnest sie dabei selbst.",
+      "quote": "Der Beherbergungsbetrieb im Sinne von § 1 Absatz 2 hat bis zum zehnten Tag nach Ablauf jedes Kalendervierteljahres (Steueranmeldungszeitraum) eine Steueranmeldung nach amtlich vorgeschriebenem Datensatz durch Datenfernübertragung unter Angabe der Gesamtzahl der Übernachtungen und der Anzahl der steuerpflichtigen Übernachtungen zu übermitteln, in der die Steuer für den Steueranmeldungszeitraum selbst zu berechnen ist."
+    },
+    "exemptions": [
+      {
+        "text": "Steuerpflichtig sind nur kurzfristige Übernachtungsangebote; wer eine Unterkunft für sechs Monate oder länger zur Verfügung stellt, zahlt dafür keine Übernachtungsteuer.",
+        "quote": "Als kurzfristig im Sinne des Satzes 1 gilt eine Beherbergungsmöglichkeit, wenn sie über einen Zeitraum von weniger als sechs Monaten zur Verfügung gestellt wird."
+      },
+      {
+        "text": "Die Übernachtung einer Begleitperson, auf die ein Mensch mit Behinderung angewiesen ist, ist nicht steuerbar.",
+        "quote": "Wenn ein Mensch mit Behinderung auf eine Begleitperson angewiesen ist, so ist der Übernachtungsaufwand für die Begleitperson kein über den normalen Lebensbedarf hinausgehender Aufwand und damit nicht steuerbar.",
+        "source": "leitfaden"
+      },
+      {
+        "text": "Patienten, die ausschließlich wegen einer ärztlich verordneten Behandlung oder Reha-Maßnahme übernachten, zahlen keine Übernachtungsteuer.",
+        "quote": "Sofern Aufenthalte von Patienten ausschließlich aus Anlass einer ärztlich verordneten, stationären oder ambulanten Heilbehandlung oder Reha-Maßnahme stattfinden, dienen die hierdurch entstehenden Aufwendungen der Grundbefriedigung des Lebensbedarfs",
+        "source": "leitfaden"
+      },
+      {
+        "text": "Übernachtungen bei Schulfahrten, die die Voraussetzungen der Berliner Schulverwaltung erfüllen, sind nicht steuerpflichtig.",
+        "quote": "Übernachtungsaufwendungen im Rahmen von Schulfahrten unterliegen als zur Grundbefriedigung des Lebensbedarfs notwendige Aufwendungen nicht der Übernachtungsteuer, sofern folgende in § 4 der Ausführungsvorschriften zu Veranstaltungen der Schule der Senatsverwaltung für Bildung, Jugend und Familie (AV Veranstaltungen vom 9. Dezember 2013) aufgeführten Voraussetzungen erfüllt sind",
+        "source": "leitfaden"
+      },
+      {
+        "text": "Wer wegen Renovierung oder Umbau vorübergehend nicht in seiner Wohnung wohnen kann, zahlt für die Ersatzunterkunft keine Übernachtungsteuer.",
+        "quote": "unbewohnbar wird, dient der Grundbefriedigung des Lebensbedarfs – nämlich des Wohnens – und unterliegt somit nicht der Besteuerung.",
+        "source": "leitfaden"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. April 2024.",
+        "quote": "Beruflich veranlasste Aufwendungen für eine Übernachtung unterliegen seit dem 1. April 2024 der Übernachtungsteuer.",
+        "source": "leitfaden"
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du dem Finanzamt innerhalb einer Woche an.",
+        "quote": "Der Beherbergungsbetrieb (§ 1 Absatz 2) hat den Beginn und das Ende seiner Tätigkeit innerhalb einer Woche dem zuständigen Finanzamt schriftlich oder elektronisch anzuzeigen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/berlin/",
+  "calculation": {
+    "kind": "town",
+    "percent": 7.5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

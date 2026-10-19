@@ -1,0 +1,233 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberwiesenthal",
+  "name": "Kurort Oberwiesenthal",
+  "short": "Oberwiesenthal",
+  "ags": "14521440",
+  "state": "Sachsen",
+  "district": "Erzgebirgskreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Gästetaxe (Gästetaxe-Satzung) der Stadt Kurort Oberwiesenthal vom 17.11.2022, gültig ab 01.04.2023",
+      "url": "https://stadtverwaltung.oberwiesenthal.de/eigene_bilder/G%C3%A4stetaxesatzung%20vom%2017.11.2022.pdf",
+      "kind": "statute",
+      "inForce": "2023-04-01",
+      "sha256": "9c6350c224cd097502181cac5cc5c75b1e35e08629274d8e7438fbf923856942",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Zone 1 (Kurort Oberwiesenthal)",
+        "area": {
+          "text": "Zone 1 ist das ganze Stadtgebiet außer dem Ortsteil Hammerunterwiesenthal.",
+          "quote": "Alle anderen Gebiete der Stadt fallen unter die Zone 1."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Zone 1 3,00 EUR"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 6. Lebensjahr,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone 2 (Hammerunterwiesenthal)",
+        "area": {
+          "text": "Zone 2 ist der Ortsteil Hammerunterwiesenthal.",
+          "quote": "Als Zone 2 wird das Gebiet des Ortsteiles Hammerunterwiesenthal bezeichnet."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 170,
+              "quote": "Zone 2 1,70 EUR"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 6. Lebensjahr,"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": true,
+      "text": "höchstens 28 Tagessätze je ununterbrochenem Aufenthalt, so viel wie die Jahresgästetaxe",
+      "quote": "Die Gästetaxe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit dem vorstehend genannten Satz, höchstens jedoch in Höhe der Jahresgästetaxe nach Abs. 2 erhoben. Bei mehreren Aufenthalten im Kalenderjahr wird die Gästetaxe nur bis zur Höhe der Jahresgästetaxe erhoben. (2) Gästetaxepflichtige nach § 2 Absatz 1 Satz 3 und Absatz 2 haben unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes eine pauschale Jahresgästetaxe zu entrichten. Diese beträgt das 28-fache des Tagessatzes."
+    },
+    "exemptions": [
+      {
+        "text": "Ortsfremde, die sich zur Ausübung ihres Dienstes oder Berufes in der Stadt aufhalten",
+        "quote": "ortsfremde Personen, die sich zur Ausübung ihres Dienstes oder Berufes in der Stadt aufhalten,"
+      },
+      {
+        "text": "Teilnehmer an Schulfahrten",
+        "quote": "Teilnehmer an Schulfahrten,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, wenn der Schwerbehindertenausweis das Merkzeichen B trägt",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit der Begleitung durch einen Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird,"
+      },
+      {
+        "text": "Besuch ohne Entgelt, wenn das sozialadäquat ist, etwa bei Verwandtschaftsbesuchen",
+        "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, Schüler, Studenten und Auszubildende, Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 und Tagungsteilnehmer 60 Prozent weniger.",
+        "quote": "Die Gästetaxe wird auf Antrag um 60 v. H. ermäßigt für: 1. Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende 3. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch einen Schwerbehindertenausweis nachgewiesen wird, 4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren."
+      },
+      {
+        "text": "Bei mehreren Aufenthalten im Kalenderjahr wird die Gästetaxe nur bis zur Höhe der Jahresgästetaxe erhoben.",
+        "quote": "Bei mehreren Aufenthalten im Kalenderjahr wird die Gästetaxe nur bis zur Höhe der Jahresgästetaxe erhoben."
+      },
+      {
+        "text": "Die Tagessätze sind Bruttobeträge, die die gesetzliche Umsatzsteuer schon enthalten.",
+        "quote": "Bei den in Absatz 1 aufgeführten Tagessätzen handelt es sich um Bruttobeträge, die die gesetzliche Umsatzsteuer bereits einschließen."
+      },
+      {
+        "text": "Du haftest gesamtschuldnerisch gegenüber der Stadt für die Einziehung und Abführung der Gästetaxe.",
+        "quote": "haften gesamtschuldnerisch gegenüber der Stadt für die Einziehung und Abführung der Gästetaxe"
+      },
+      {
+        "text": "Hast du in einem Monat keine Gäste beherbergt, gibst du trotzdem eine Fehlmeldung ab.",
+        "quote": "Sofern der Betrieb in einem Monat keine Personen beherbergt hat, ist eine Fehlmeldung abzugeben."
+      },
+      {
+        "text": "Die Gästetaxe verwahrst und rechnest du getrennt von deinem Betriebsvermögen ab, auf Kasse und Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe hat getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein und führt sie monatlich mit den Meldescheinen an die Stadt ab.",
+      "quote": "Die nach § 8 Absatz 1 Meldepflichtigen haben die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und monatlich bis zum zehnten Werktag des Folgemonats mit den gesammelten Meldescheinen entsprechend § 8 Abs. 2 an die Stadt abzuführen."
+    },
+    "deadline": {
+      "text": "Die Gästetaxe führst du monatlich bis zum zehnten Werktag des Folgemonats an die Stadt ab.",
+      "quote": "monatlich bis zum zehnten Werktag des Folgemonats mit den gesammelten Meldescheinen entsprechend § 8 Abs. 2 an die Stadt abzuführen"
+    },
+    "reporting": {
+      "text": "Den Meldeschein lässt du für jeden Gast innerhalb von 24 Stunden nach der Ankunft vollständig ausfüllen.",
+      "quote": "Der Meldepflichtige hat dafür zu sorgen, dass der/die Meldeschein/e für die bei ihm verweilende/n Person/en innerhalb von 24 Stunden nach Ankunft vollständig ausgefüllt wird/werden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberwiesenthal/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": true,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Zone 1 (Kurort Oberwiesenthal)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone 2 (Hammerunterwiesenthal)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 170,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

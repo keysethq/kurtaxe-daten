@@ -1,0 +1,301 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dornum",
+  "name": "Gemeinde Dornum",
+  "short": "Dornum",
+  "ags": "03452027",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Gemeinde Dornum (Gästebeitragssatzung) vom 11. Juli 2024, in Kraft seit 01.01.2025",
+      "url": "https://www.dornum.de/fileadmin/Mediendatenbank_Dornum/Downloads_Formulare/gaestebeitragssatzung-gemeinde-dornum-2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "7ade8aa3db3690ea8e99c9787b181aa97e95b179f04e5b912fe3d1afa6c0d70b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Gemeinde Dornum (Tourismusbeitragssatzung) vom 24.10.2024, in Kraft seit 01.01.2025, mit Anlagen",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/3/3/9/1/Satzung_TB_2025-2027_mit_Anlagen.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "e098c5fb0692bf4ebb4b424bac3ab4299f7f443025c58cabb1778d80252bdf73",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 340,
+          "quote": "a) für Personen nach Vollendung des 16. Lebensjahres 3,40 € 1,70 €"
+        },
+        "children": [
+          {
+            "underAge": 3,
+            "cents": 0,
+            "quote": "a) Kinder bis zur Vollendung des 3. Lebensjahres"
+          },
+          {
+            "underAge": 16,
+            "cents": 210,
+            "quote": "zur Vollendung des 16. Lebensjahres (3 bis 15 Jahre) 2,10 € 1,00 €"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "12-31"
+          },
+          {
+            "from": "01-01",
+            "to": "03-14"
+          }
+        ],
+        "adult": {
+          "cents": 170,
+          "quote": "a) für Personen nach Vollendung des 16. Lebensjahres 3,40 € 1,70 €"
+        },
+        "children": [
+          {
+            "underAge": 3,
+            "cents": 0,
+            "quote": "a) Kinder bis zur Vollendung des 3. Lebensjahres"
+          },
+          {
+            "underAge": 16,
+            "cents": 100,
+            "quote": "zur Vollendung des 16. Lebensjahres (3 bis 15 Jahre) 2,10 € 1,00 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 4,
+      "text": "Das vierte und jedes weitere Kind unter 16 Jahren ohne eigenes Einkommen zahlt nichts, wenn für drei Kinder der Gästebeitrag entrichtet wird.",
+      "quote": "b) jedes 4. und weitere Kind unter 16 Jahren ohne eigene Einkommen einer in häuslicher"
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen nichts.",
+        "quote": "c) Schwerbehinderte, deren Grad der Behinderung mindestens 80 v. H. beträgt"
+      },
+      {
+        "text": "Wer nur zur Berufsausübung, zum Schulbesuch oder zur Ausbildung in Dornum ist, zahlt nichts.",
+        "quote": "c) Personen, die sich nur zur Berufsausübung, zum Schulbesuch oder zur Ausbildung im Gebiet"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt im gesamten Gemeindegebiet, ohne unterschiedliche Sätze nach Ortsteilen.",
+        "quote": "(4) Das Erhebungsgebiet ist das gesamte Gemeindegebiet."
+      },
+      {
+        "text": "Hauptsaison ist vom 15. März bis 31. Oktober, die übrige Zeit gilt vom 1. Januar bis 14. März und vom 1. November bis 31. Dezember.",
+        "quote": "gilt als Hauptsaison die Zeit vom 15. März bis 31. Oktober eines jeden Jahres, als übrige Zeit gilt die Zeit vom 1. Januar bis 14. März und 1. November bis 31. Dezember eines jeden Jahres."
+      },
+      {
+        "text": "Zweitwohnungsinhaber und Dauercamper zahlen den Jahresgästebeitrag statt des Tagessatzes.",
+        "quote": "sind verpflichtet, den Jahresgästebeitrag zu entrichten."
+      },
+      {
+        "text": "Die Satzung machst du deinen Gästen durch Aushang oder Auslage an gut erreichbarer Stelle bekannt.",
+        "quote": "Gästebeitragssatzung ihren Gästen durch Aushang oder Auslage an gut erreichbaren Stellen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt innerhalb von 12 Stunden nach der Ankunft die Gästekarte (NordseeCard) aus, erfasst die Gäste im Meldesystem und zieht den Gästebeitrag gleichzeitig ein; du haftest für die vollständige Ablieferung.",
+      "quote": "spätestens 12 Stunden nach deren Ankunft eine Gästekarte (Die NordseeCard) digital oder in Papierform auszustellen, die Personen im Meldesystem festzuhalten und den Gästebeitrag gleichzeitig einzuziehen"
+    },
+    "deadline": {
+      "text": "Den eingezogenen Gästebeitrag überweist du innerhalb von 10 Tagen nach der Zahlungsaufforderung der Tourismus GmbH Gemeinde Dornum.",
+      "quote": "Der Gästebeitrag ist innerhalb von 10 Tagen nach Zahlungsaufforderung durch die Tourismus"
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von 14 Tagen bei der Tourismus GmbH Gemeinde Dornum, digital im Meldesystem oder mit dem Meldevordruck.",
+      "quote": "sowie die Gästebeitragspflichtigen innerhalb von 14 Tagen digital oder mit dem Meldevordruck (Original des Durchschreibesatzes) bei der Tourismus GmbH Gemeinde Dornum zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig tätige Person oder als Unternehmen, wenn dir der Tourismus in Dornum unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Beitragspflichtig sind alle selbstständig tätigen Personen und alle Unternehmen, denen durch den Tourismus in der Gemeinde Dornum unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Gästezimmer (Vermietung mit privatem Charakter)",
+        "quote": "Vermieter/-innen von Ferienwohnungen/-häusern/Gästezimmern und sonst. Personen und Betriebe, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen (Vermietung weist privaten Charakter auf) 1,000 1,000 0,260",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermieter/-innen von Ferienwohnungen/-häusern/Gästezimmern und sonst. Personen und Betriebe, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen (Vermietung weist privaten Charakter auf) 1,000 1,000 0,260"
+          },
+          "profit": {
+            "percent": 26,
+            "quote": "Vermieter/-innen von Ferienwohnungen/-häusern/Gästezimmern und sonst. Personen und Betriebe, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen (Vermietung weist privaten Charakter auf) 1,000 1,000 0,260"
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen sowie sonstige Beherbergungsbetriebe",
+        "quote": "Inhaber/-innen von Beherbergungsbetrieben (Hotels, Gasthöfe, Pensionen, Fremden-, Erholungs-, Kur-, Kranken-, Kinderheime u. a.), Sanatorien, Kurkliniken 0,950 0,950 0,120",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Inhaber/-innen von Beherbergungsbetrieben (Hotels, Gasthöfe, Pensionen, Fremden-, Erholungs-, Kur-, Kranken-, Kinderheime u. a.), Sanatorien, Kurkliniken 0,950 0,950 0,120"
+          },
+          "profit": {
+            "percent": 12,
+            "quote": "Inhaber/-innen von Beherbergungsbetrieben (Hotels, Gasthöfe, Pensionen, Fremden-, Erholungs-, Kur-, Kranken-, Kinderheime u. a.), Sanatorien, Kurkliniken 0,950 0,950 0,120"
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplätze",
+        "quote": "3. Inhaber/-innen von Camping- und Zeltplätzen 1,000 1,000 0,150",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "3. Inhaber/-innen von Camping- und Zeltplätzen 1,000 1,000 0,150"
+          },
+          "profit": {
+            "percent": 15,
+            "quote": "3. Inhaber/-innen von Camping- und Zeltplätzen 1,000 1,000 0,150"
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.6,
+      "quote": "Der Beitragssatz beträgt 5,60 v. H."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz des laufenden Jahres, ersatzweise die Bruttoeinnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil richtet sich nach dem steuerbaren Umsatz im Sinne des § 1 des Umsatzsteuergesetzes – ersatzweise Bruttoeinnahmen ohne Umsatzsteuer -. Maßgebend ist der Umsatz des laufenden Jahres."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 31. März des Folgejahres teilst du der Gemeinde die Angaben zur Berechnung mit; auf Anforderung legst du Nachweise vor.",
+      "quote": "Jede(r) Beitragspflichtige hat die zur Berechnung des Beitrages erforderlichen Angaben bis zum 31.03. des auf das Veranlagungsjahr folgende Jahr der Gemeinde Dornum mitzuteilen. Auf Anforderung sind der Gemeinde geeignete Nachweise vorzulegen."
+    },
+    "deadline": {
+      "text": "Der Beitrag und jede Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Erhebungszeitraum ist das Kalenderjahr, bei einem Beginn im Lauf des Jahres der Rest des Jahres; die Jahresbeitragsschuld entsteht mit Ablauf des Erhebungszeitraums.",
+        "quote": "Erhebungszeitraum ist das Kalenderjahr, in dem die Erhebungsvoraussetzungen der §§ 1 und 2 vorliegen und bei Entstehung der Beitragspflicht während des Jahres der Restteil des Jahres. (2) Die Jahresbeitragsschuld entsteht jeweils mit Ablauf des Erhebungszeitraums."
+      },
+      {
+        "text": "Die Gemeinde kann Vorausleistungen bis zur voraussichtlichen Höhe des Beitrags erheben.",
+        "quote": "Die Gemeinde Dornum erhebt für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages."
+      },
+      {
+        "text": "Eine Vorausleistung entsteht mit ihrer Anforderung, frühestens zum 1. September des laufenden Jahres.",
+        "quote": "Die Vorausleistung entsteht mit ihrer Anforderung, frühestens jedoch zum 01.09. des laufenden Erhebungszeitraumes."
+      },
+      {
+        "text": "Deine beitragspflichtige Tätigkeit zeigst du der Gemeinde innerhalb eines Monats nach dem Beginn an.",
+        "quote": "Die beitragspflichtige Tätigkeit ist innerhalb eines Monats nach Aufnahme anzuzeigen."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbstständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet oder geschätzt.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/dornum/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      3,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0,
+          210
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "12-31"
+          ],
+          [
+            "01-01",
+            "03-14"
+          ]
+        ],
+        "adult": 170,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 4
+    }
+  }
+}

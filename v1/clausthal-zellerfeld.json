@@ -1,0 +1,173 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "clausthal-zellerfeld",
+  "name": "Berg- und Universitätsstadt Clausthal-Zellerfeld",
+  "short": "Clausthal-Zellerfeld",
+  "ags": "03153018",
+  "state": "Niedersachsen",
+  "district": "Goslar",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages der Berg- und Universitätsstadt Clausthal-Zellerfeld (Gästebeitragssatzung, GBS) in der Fassung der 5. Änderungssatzung vom 04.12.2025, nichtamtliche Lesefassung der Kurbetriebsgesellschaft „Die Oberharzer“",
+      "url": "https://www.oberharz.de/fileadmin/redakteure/downloads/Divers/G%C3%A4stebeitragssatzung2026.pdf",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "bf7b4ecd3500d8f66ea0a5afbd44656e07ad0c8d2a63daeed7db7b19bfcab346",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Dauer des Aufenthaltes im Erhebungsgebiet bemessen und beträgt pro Person und Übernachtung (einschließlich Umsatzsteuer)"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Erwachsene 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum Alter von 5 Jahren,"
+          },
+          {
+            "underAge": 18,
+            "cents": 165,
+            "quote": "Kinder ab 6 Jahren und Jugendliche bis einschließlich 17 Jahren 1,65 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 3,
+      "text": "Jedes dritte und weitere beitragspflichtige Kind einer Familie oder eines Alleinerziehenden ist befreit.",
+      "quote": "jedes 3. und weitere beitragspflichtige Kind einer Familie oder Alleinerziehender,"
+    },
+    "exemptions": [
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden."
+      },
+      {
+        "text": "Personen, die sich ausschließlich zum Schulbesuch, zur Berufsausübung, im Bundesfreiwilligendienst oder zur Berufsausbildung im Ort aufhalten",
+        "quote": "Personen, die sich ausschließlich zum Schulbesuch, zur Berufsausübung, im Rahmen des Bundesfreiwilligendienstes oder zur Berufsausbildung im Erhebungsgebiet aufhalten"
+      },
+      {
+        "text": "Bettlägerig Kranke und andere Personen, die wegen ihres Gesundheitszustands die Tourismuseinrichtungen nicht nutzen können",
+        "quote": "bettlägerig Kranke und andere Personen, die in vergleichbarer Art und Weise aufgrund ihres Gesundheitszustandes nicht in der Lage sind, die Tourismuseinrichtungen zu benutzen"
+      },
+      {
+        "text": "Auf Antrag Teilnehmer an Tagungen, Kongressen und Lehrgängen, die mit der Berufsausübung zusammenhängen",
+        "quote": "Teilnehmer an Tagungen, Kongressen, Lehrgängen oder vergleichbaren Veranstaltungen, deren Teilnahme im Zusammenhang mit der Berufsausübung steht"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Satzung gilt für das gesamte Stadtgebiet, zu dem auch Altenau und Schulenberg gehören.",
+        "quote": "Das Erhebungsgebiet erstreckt sich vollständig auf das gesamte Stadtgebiet."
+      },
+      {
+        "text": "Außerhalb des staatlich anerkannten Kurortsteils zahlt nur, wer zu Heil-, Kur- oder Erholungszwecken Unterkunft nimmt.",
+        "quote": "Gleiches gilt für Personen, die im übrigen Stadtgebiet zu Heil-, Kur- oder Erholungszwecken Unterkunft nehmen."
+      },
+      {
+        "text": "Du musst den Beginn deiner Vermietertätigkeit unverzüglich der Kurbetriebsgesellschaft „Die Oberharzer“ oder der örtlichen Tourist-Information anzeigen.",
+        "quote": "Wohnungsgeber nach § 7 Absatz 1 sind verpflichtet, die Aufnahme bzw. Beendigung ihrer Vermietertätigkeit der Kurbetriebsgesellschaft „Die Oberharzer“ mbH oder der örtlichen Tourist-Information unverzüglich anzuzeigen"
+      },
+      {
+        "text": "Du haftest neben dem Gast für die rechtzeitige Einziehung und vollständige Ablieferung, auch wenn du Befreiungen zu Unrecht gewährt hast.",
+        "quote": "Jeder Wohnungsgeber haftet neben den Beitragspflichtigen für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      },
+      {
+        "text": "Du führst für jedes Kalenderjahr ein tagesaktuelles Gästeverzeichnis über alle Gäste, auch befreite, und bewahrst es vier Jahre auf.",
+        "quote": "das Gästeverzeichnis ist vier Jahre ab Beginn des auf die Eintragung folgenden Kalenderjahres aufzubewahren"
+      },
+      {
+        "text": "Die Satzung musst du für deine Gäste sichtbar auslegen.",
+        "quote": "diese Satzung für seine Gäste sichtbar auszulegen."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste einen Jahresgästebeitrag zahlen: 108,00 € für Erwachsene, 59,40 € für Kinder und Jugendliche.",
+        "quote": "Der pauschalierte Jahresgästebeitrag (einschließlich Umsatzsteuer) beträgt für: • Erwachsene 108,00 € • Kinder ab 6 Jahren und Jugendliche bis einschließlich 17 Jahren 59,40 €"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag bei der Anreise ein und stellt die Gästekarte aus.",
+      "quote": "von den beitragspflichtigen Gästen unmittelbar bei Anreise den Gästebeitrag einzuziehen und ihnen die Gästekarte gemäß § 6 Absatz 2 Satz 2 auszustellen"
+    },
+    "deadline": {
+      "text": "Der eingezogene Gästebeitrag wird binnen sieben Tagen nach dem Abgabenbescheid an die Kurbetriebsgesellschaft „Die Oberharzer“ abgeführt.",
+      "quote": "den eingezogenen Gästebeitrag auf Basis der übermittelten beziehungsweise abgegebenen Anmeldungen innerhalb von sieben Tagen nach Festsetzung durch Abgabenbescheid an die Kurbetriebsgesellschaft „Die Oberharzer“ mbH abzuführen"
+    },
+    "reporting": {
+      "text": "Du nimmst die Gästedaten spätestens bei der Anreise im elektronischen Melde- und Gästekartenverfahren auf und übermittelst sie an die Kurbetriebsgesellschaft; ohne dieses Verfahren meldest du die Gäste mit dem amtlichen Meldeschein binnen einer Woche in der Tourist-Information an.",
+      "quote": "von den beherbergten Gästen spätestens bei Anreise die für die Erhebung des Gästebeitrages notwendigen Daten gemäß § 6 Absatz 2 Satz 1 in das Formular des elektronischen Melde- und Gästekartenverfahrens vollständig aufzunehmen und die Daten an die Kurbetriebsgesellschaft „Die Oberharzer“ mbH zu übermitteln oder, sofern keine Teilnahme am elektronischen Melde- und Gästekartenverfahren erfolgt, unmittelbar bei Anreise den amtlichen Meldeschein vollständig auszufüllen und unterschreiben zu lassen und die Gäste innerhalb einer Woche nach Ankunft"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/clausthal-zellerfeld/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          165
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 3
+    }
+  }
+}

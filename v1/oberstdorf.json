@@ -1,0 +1,214 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberstdorf",
+  "name": "Markt Oberstdorf",
+  "short": "Oberstdorf",
+  "ags": "09780133",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages im Markt Oberstdorf vom 09.09.2025, Amtsblatt Nr. 01/2025 vom 09.10.25",
+      "url": "https://storage.tramino.net/markt-oberstdorf/1591487/2025-0101deb4618d514ceeb128f3b03b4d2994.pdf",
+      "kind": "gazette",
+      "inForce": "2025-12-20",
+      "sha256": "821b3a1a0508e6ef255fa05e843b7a6cbc017397b59c6c899a805861ba0a5cab",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag werden zusammen als ein Tag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind Oberstdorf-Markt, die Campingplätze, Kühberg, Jauchen und Reute.",
+          "quote": "Der Kurbezirk I umfasst das Gebiet der Gemeindeteile Oberstdorf-Markt, Campingplätze, Kühberg, Jauchen und Reute."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 470,
+              "quote": "Im Kurbezirk I Für Personen ab dem 17. Lebensjahr 4,70 €"
+            },
+            "children": [
+              {
+                "underAge": 9,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 9. Lebensjahres sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 390,
+                "quote": "Jugendliche (vom 10. bis vollendetes 16. Lebensjahr) 3,90 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die übrigen Gemeindeteile wie Anatswald, Birgsau, Gerstruben, Kornau, Rohrmoos, Schöllang und Reichenbach.",
+          "quote": "Der Kurbezirk II umfasst das Gebiet der Gemeindeteile Anatswald, Birgsau, Christlessee, Dienersberg, Dietersberg, Ebene, Einödsbach, Faistenoy, Freibergsee, Gaisalpe, Gerstruben, Gottenried, Gruben, Gundsbach, Höllwiesen, Hochleite, Kornau, Oytal, Ringang, Rohrmoos, Seealpe, Spielmannsau, Schrattenwang, Schwand, Tiefenbach (einschließlich Gsessel und Hochstatt), Schöllang, Reichenbach und Rubi."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 415,
+              "quote": "Im Kurbezirk II Für Personen ab dem 17. Lebensjahr 4,15 €"
+            },
+            "children": [
+              {
+                "underAge": 9,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 9. Lebensjahres sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 355,
+                "quote": "Jugendliche (vom 10. bis vollendetes 16. Lebensjahr) 3,55 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit Schwerbehindertenausweis und dem Zusatz aG, BL, Gl, TBl oder H",
+        "quote": "1. Behinderte mit Ausweis und Zusatz „aG“, “BL“, „Gl“, „TBl“ oder „H“."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, für die der Ausweis eine Begleitperson vorsieht",
+        "quote": "2. Begleitpersonen von Behinderten, wenn nach dem Behindertenausweis für den Behinderten eine Begleitperson erforderlich ist."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Eine Befreiung wegen Behinderung musst du am Anreisetag beantragen; der Gast legt dafür den Ausweis vor.",
+        "quote": "Die Befreiung ist innerhalb der in § 6 Abs. 1 genannten Frist am Tag der Anreise bei der Gemeinde oder beim Gastgeber unter Vorlage des Ausweises zu beantragen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie elektronisch bei der Gemeinde, hebt den Kurbeitrag ein und haftet der Gemeinde für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb einer Woche, nachdem du die Berechnung der Gemeinde erhalten hast.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten innerhalb einer Woche nach Erhalt der Berechnung an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du spätestens am Anreisetag über das elektronische Meldesystem der Gemeinde.",
+      "quote": "spätestens am Tag der Anreise mittels des durch die Gemeinde zur Verfügung gestellten elektronischen Meldesystem zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberstdorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      9,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 470,
+        "children": [
+          0,
+          390
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 470,
+            "children": [
+              0,
+              390
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 415,
+            "children": [
+              0,
+              355
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

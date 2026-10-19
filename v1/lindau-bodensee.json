@@ -1,0 +1,234 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lindau-bodensee",
+  "name": "Lindau (Bodensee)",
+  "short": "Lindau",
+  "ags": "09776116",
+  "state": "Bayern",
+  "district": "Lindau (Bodensee)",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages in der Stadt Lindau (Bodensee) (Kurbeitragssatzung) vom 02. Oktober 2019, geändert durch die Erste Änderungssatzung vom 22. Juli 2020 (in Kraft seit 01.04.2021)",
+      "url": "https://www.stadtlindau.de/media/custom/2412_3110_1.PDF?1614849983",
+      "kind": "municipality",
+      "inForce": "2021-04-01",
+      "sha256": "3fc801b8f5e2df3e6892c51fa4c7e4b8e7a2c3d05d23124957371cf47f97d388",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Lindau (Bodensee) vom 8. Dezember 1978 in der Fassung der Siebten Änderungssatzung vom 20. November 2019",
+      "url": "https://www.stadtlindau.de/media/custom/2715_3317_1.PDF?1576832301",
+      "kind": "municipality",
+      "inForce": "2020-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "0c5abd02688bb2343c9d1ead1dc4a88eed6a3c03b6ef9a4479909f39775cdcad",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "April bis Oktober",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "a) für den Zeitraum vom 01. April bis 31. Oktober: aa) für Personen ab Vollendung des 16. Lebensjahres: 3,30 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "c) Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 200,
+            "quote": "bb) für Kinder und Jugendliche ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres: 2,00 Euro"
+          }
+        ]
+      },
+      {
+        "label": "November bis März",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "b) für den Zeitraum vom 01. November bis 31. März: aa) für Personen ab Vollendung des 16. Lebensjahres: 2,20 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "c) Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 120,
+            "quote": "bb) für Kinder und Jugendliche ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres: 1,20 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 und, mit Merkzeichen B, ihre notwendige Begleitperson",
+        "quote": "Inhaber eines Schwerbehindertenausweises ab einem Grad der Behinderung von mindestens 80 sind kurbeitragsfrei."
+      },
+      {
+        "text": "Menschen, die sich ausschließlich zur beruflichen Ausbildung in Lindau aufhalten",
+        "quote": "Personen, die sich ausschließlich zu Zwecken der beruflichen Ausbildung in der Stadt Lindau (B) aufhalten, sind kurbeitragsfrei."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Das Alter am Ankunftstag entscheidet, welcher Satz gilt.",
+        "quote": "Maßgeblich für die Beitragsbestimmung ist das Alter am Tag der Ankunft im Kurgebiet der Stadt Lindau (B)."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen gegen Vorlage des Ausweises die Hälfte.",
+        "quote": "Inhaber eines Schwerbehindertenausweises ab einem Grad der Behinderung von mindestens 50 erhalten bei Vorlage des Schwerbehindertenausweises eine Ermäßigung in Höhe von 50%."
+      },
+      {
+        "text": "Kurgebiet ist das Stadtgebiet mit Ausnahme eines Teils der Gemarkung Reutin (Karte als Anlage der Satzung).",
+        "quote": "Kurgebiet ist das Stadtgebiet Lindau (B) mit Ausnahme der Teilfläche der Gemarkung Reutin"
+      },
+      {
+        "text": "In dem Beitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag bei deinen Gästen ein und haftest der Stadt für den vollständigen Eingang.",
+      "quote": "Die in Abs. 1 Genannten sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt Lindau (B) gegenüber für den vollständigen Eingang des Beitrages"
+    },
+    "deadline": {
+      "text": "Den Kurbeitrag führst du innerhalb eines Monats nach Zugang des Kurbeitragsbescheids ab.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten nach Zugang des Kurbeitragsbescheides innerhalb eines Monats an das Amt für Tourismus der Stadt Lindau (B) abzuführen."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am Tag ihrer Ankunft elektronisch über das Verfahren des Amts für Tourismus.",
+      "quote": "die Beitragspflichtigen und deren in § 5 Abs. 1 Satz 2 bestimmten Angaben spätestens am Tag ihrer Ankunft und mögliche Korrekturen unverzüglich elektronisch mittels des durch das Amt für Tourismus der Stadt Lindau (B) zur Verfügung gestellten Verfahrens zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Stadtgebiet Vorteile bringt.",
+      "quote": "Von allen selbstständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Stadtgebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Stadt für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6.5,
+      "quote": "Der Beitragssatz beträgt 6,5 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Beiträge unter 10 € werden nicht erhoben.",
+      "quote": "Beiträge unter 10, -- € werden nicht erhoben."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "einen Monat nach Bekanntgabe des Bescheids fällig"
+    },
+    "remarks": [
+      {
+        "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+        "quote": "Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird"
+      },
+      {
+        "text": "Am 15. September jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschulder hat am 15. September jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lindau-bodensee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "April bis Oktober",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0,
+          200
+        ]
+      },
+      {
+        "label": "November bis März",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0,
+          120
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "langeoog",
+  "name": "Langeoog",
+  "short": "Langeoog",
+  "ags": "03462007",
+  "state": "Niedersachsen",
+  "district": "Wittmund",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages für die Gemeinde Langeoog (Gästebeitragssatzung) in der Fassung der 3. Änderungssatzung vom 27.11.2024, Lesefassung der Gemeinde Langeoog",
+      "url": "https://gemeinde.langeoog.de/wp-content/uploads/2025/04/3.-Aenderungssatzung-Satzung-ueber-die-Erhebung-eines-Gaestebeitrages-fuer-die-Gemeinde-Langeoog.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "a72af3b80f317d0ca39d9c09b568ae8470188dfc6232aa54d2847310626c8010",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "Satzung zur 3. Änderung der Gästebeitragssatzung der Gemeinde Langeoog vom 27.11.2024, Amtsblatt Landkreis Wittmund vom 30. Dezember 2024, S. 143",
+      "url": "https://www.landkreis-wittmund.de/media/custom/3105_3548_1.PDF",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "16d4d404db3178da69f22a5e7c4a7ac93ef994f47fa42bb0887cfb94af3d5f78",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages (Tourismusbeitragssatzung) der Inselgemeinde Langeoog in der Fassung der 3. Änderung vom 27.11.2024, Lesefassung der Gemeinde Langeoog",
+      "url": "https://gemeinde.langeoog.de/wp-content/uploads/2025/08/Tourismusbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "653c3e4cee08e2de33db8295f5e23c8f92bedde9779ea44368e7f97d95476c71",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird - mit Ausnahme der Tagesgäste - nach der Zahl der Übernachtungen berechnet. Maßgeblich ist der Anreisetag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 495,
+          "quote": "1. für jede Person nach Vollendung des 16. Lebensjahres 4,95 1.)",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 16,
+            "cents": 245,
+            "quote": "2. für das 1. und 2. Kind einer Familie sowie allein reisenden Personen vom Beginn des 7. bis zur Vollendung des 16. Lebensjahres 2,45 1.)",
+            "source": "aenderung3"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-14"
+          }
+        ],
+        "adult": {
+          "cents": 380,
+          "quote": "1. für jede Person nach Vollendung des 16. Lebensjahres 4,95 1.) 3,80 2.)",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 16,
+            "cents": 190,
+            "quote": "2. für das 1. und 2. Kind einer Familie sowie allein reisenden Personen vom Beginn des 7. bis zur Vollendung des 16. Lebensjahres 2,45 1.) 1,90 2.)",
+            "source": "aenderung3"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": true,
+      "text": "höchstens 28 Übernachtungen je zusammenhängendem Aufenthalt",
+      "quote": "Dabei werden bei einem zusammenhängenden Aufenthalt längstens 28 Übernachtungen berechnet."
+    },
+    "family": {
+      "free": "children",
+      "from": 3,
+      "text": "Ab dem dritten Kind einer Familie sind die jüngsten Kinder frei, wenn mindestens drei Kinder jünger als 16 Jahre sind.",
+      "quote": "jedes dritte und weitere Kind einer Familie, mit mindestens einem Elternteil oder Großelternteil, vorausgesetzt mindestens drei der gästebeitragspflichtigen Kinder haben das 16. Lebensjahr noch nicht vollendet. Zu befreien sind jeweils die jüngsten Familienangehörigen."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 70 zahlen 75 % des Gästebeitrags.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung mindestens 70 v. H. beträgt, werden zu 75 % des maßgeblichen Gästebeitrags nach § 4 herangezogen."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die auf ständige Begleitung angewiesen sind, zahlen nichts, solange sie die Einrichtungen nicht selbst nutzen.",
+        "quote": "Begleitpersonen von Schwerbehinderten, die lt. amtlichem Ausweis auf ständige Begleitung angewiesen sind, sofern sie nicht selbst die Tourismuseinrichtungen in Anspruch nehmen."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern und Beschäftigten, die unentgeltlich bei ihnen wohnen, zahlen nichts.",
+        "quote": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden (Verwandtenbesuch);"
+      },
+      {
+        "text": "Wer nur zur Arbeit oder Ausbildung auf der Insel ist, zahlt nichts.",
+        "quote": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "In der Schließungsphase im Februar gilt ein niedrigerer Satz von 1,40 Euro für Erwachsene und 0,70 Euro für Kinder; die genauen Tage nennt die Satzung nicht.",
+        "quote": "Schließungsphase FEB Jahresgästebeitrag 1. für jede Person nach Vollendung des 16. Lebensjahres 4,95 1.) 3,80 2.) 1,40 138,60",
+        "source": "aenderung3"
+      },
+      {
+        "text": "Der Gast zahlt den Gästebeitrag selbst an den Servicestellen des Tourismus-Service, spätestens am Abreisetag.",
+        "quote": "Der Gästebeitrag ist spätestens am Abreisetag vom Gästebeitragspflichtigen an den Servicestellen des Tourismus-Service zu entrichten."
+      },
+      {
+        "text": "Du haftest neben dem Gast für offene Beiträge, außer du hast ihn der Gemeinde gemeldet.",
+        "quote": "Der Gästebeitragspflichtige und sein Wohnungsgeber haften als Gesamtschuldner. 2) Der Wohnungsgeber haftet nicht, wenn er der Gemeinde den Gast nach § 8 Absatz 2 gemeldet hat."
+      },
+      {
+        "text": "Du führst ein Gästeverzeichnis mit Name, Anschrift sowie An- und Abreisetag jedes Gastes.",
+        "quote": "Jeder Wohnungsgeber ist verpflichtet, ein Gästeverzeichnis zu führen, in das alle Gäste am Tage der Ankunft mit Angaben über Namen, Anschrift, An- und Abreisetag einzutragen sind."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, fordert sie auf, den Gästebeitrag zu zahlen, und macht die Satzung durch Aushang oder Auslage bekannt.",
+      "quote": "Jeder Wohnungsgeber und Betreiber von Flug-, Zelt- und Bootsliegeplätzen ist verpflichtet, gästebeitragspflichtige Personen zur Entrichtung des Gästebeitrages in geeigneter Form aufzufordern."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Auf Verlangen der Gemeinde meldest du deine Gäste mit den ausgefüllten Meldevordrucken der Gemeinde.",
+      "quote": "ist auf Verlangen der Gemeinde verpflichtet, die bei ihm gegen Entgelt oder Kostenerstattung verweilenden Personen der Gemeinde zu melden. Die Meldepflichtigen genügen ihrer Pflicht, indem sie die von der Gemeinde vorgegebenen und von den Gästebeitragspflichtigen mit den Angaben nach § 7 Abs. 1 Satz 2 ausgefüllten Meldevordrucke der Gemeinde vorlegen.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig tätige Person oder als Unternehmen, wenn dir der Tourismus auf Langeoog unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Beitragspflichtig sind alle selbstständig tätigen Personen und alle Unternehmen, denen durch den Tourismus unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Appartements und Ferienhäuser",
+        "quote": "1 Fe.-Wo./-app./-häuser 100 24",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1 Fe.-Wo./-app./-häuser 100 24"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Privatzimmervermietung (auch mit Frühstück)",
+        "quote": "4 Privatzimmervermietung (auch mit Frühstück) 100 12",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "4 Privatzimmervermietung (auch mit Frühstück) 100 12"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension",
+        "quote": "2 Hotel/Pension 100 7",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "2 Hotel/Pension 100 7"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension garni",
+        "quote": "3 Hotel/Pension garni 100 9",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "3 Hotel/Pension garni 100 9"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Kurklinik",
+        "quote": "5 Kurklinik 100 4",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "5 Kurklinik 100 4"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      },
+      {
+        "label": "Familienerholungsstätte",
+        "quote": "6 Familienerholungsstätte 100 4",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "6 Familienerholungsstätte 100 4"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      },
+      {
+        "label": "Erholungs-Schullandheim, Jugendherberge",
+        "quote": "7 Erholungs-Schullandheim, Jugendherberge 100 4",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "7 Erholungs-Schullandheim, Jugendherberge 100 4"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 3.17,
+      "quote": "Der Beitragssatz beträgt 3,17 v.H. des Messbetrages gemäß § 3 Abs. 1."
+    },
+    "basis": {
+      "text": "Es zählt der Umsatz des Kalenderjahres, für das der Beitrag erhoben wird: der steuerbare Umsatz ohne Umsatzsteuer, bei fehlender Umsatzsteuerpflicht die Summe der Einnahmen.",
+      "quote": "Unter Umsatz im Sinn der Satzung wird verstanden der steuerbare Umsatz (ohne Umsatzsteuer) im Sinne des § 1 Umsatzsteuergesetz, bei fehlender Umsatzsteuerpflicht die Summe der Einnahmen. Maßgebend ist der Umsatz des Erhebungszeitraums."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Den Beginn deiner Tätigkeit meldest du der Gemeinde; die Angaben zur Berechnung gibst du auf Anforderung der Gemeinde ab.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Inselgemeinde Langeoog die Aufnahme der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Angaben zur Berechnung des Beitrages oder der Vorausleistung mitzuteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag und jede Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des jeweiligen Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Die Gemeinde kann schon für das laufende Jahr Vorausleistungen bis zur voraussichtlichen Höhe des Beitrags verlangen.",
+        "quote": "Die Inselgemeinde Langeoog erhebt für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrags."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbstständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/langeoog/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": true,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 495,
+        "children": [
+          0,
+          245
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "03-14"
+          ]
+        ],
+        "adult": 380,
+        "children": [
+          0,
+          190
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 3
+    }
+  }
+}

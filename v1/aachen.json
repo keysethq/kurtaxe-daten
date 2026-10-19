@@ -1,0 +1,129 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "aachen",
+  "name": "Stadt Aachen",
+  "short": "Aachen",
+  "ags": "05334002",
+  "state": "Nordrhein-Westfalen",
+  "district": "Städteregion Aachen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung der Beherbergungsabgabe in der Stadt Aachen (Beherbergungsabgabesatzung) vom 09.07.2025 in der Fassung des 1. Nachtrages vom 11.03.2026, Stadt Aachen",
+      "url": "https://www.aachen.de/in-aachen-leben/politik-und-verwaltung/stadtrecht/finanzen/satzung-beherbergungsabgabe-erster-nachtrag-11032026.pdf?cid=zkv",
+      "kind": "municipality",
+      "inForce": "2026-04-01",
+      "sha256": "6f787d0acc3c82070934ad938da2ded3103bdfb290a091138abc1b069eb7a417",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "faq": {
+      "title": "F&A Beherbergungsabgabe, Häufig gestellte Fragen zur Beherbergungsabgabe, Stand Dezember 2025, Stadt Aachen",
+      "url": "https://serviceportal.aachen.de/suche/-/vr-bis-detail/dokument/8340626/download",
+      "kind": "municipality",
+      "inForce": "2025-12-01",
+      "sha256": "64c3394e297ae9279f391cb0adbd3d4682db1872c810de08f8a2c2ffe3604cfb",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "kurbeitrag": {
+      "title": "Kurbeitragssatzung der Stadt Aachen vom 19. Dezember 1991 in der Fassung des 8. Nachtrags vom 11. März 2026",
+      "url": "https://www.aachen.de/in-aachen-leben/politik-und-verwaltung/stadtrecht/finanzen/fb22-kurbeitragssatzung-11032026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-03-11",
+      "sha256": "69ab449c5bc3b76f3a7853ab4caf7e5ce824024d7ae0cfbcfbb1afd642982f44",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsabgabe",
+    "source": "satzung",
+    "rate": {
+      "cents": 250,
+      "quote": "Die Beherbergungsabgabe beträgt pro Übernachtung 2,50 € (EURO).",
+      "perPerson": true
+    },
+    "basis": {
+      "text": "Die Abgabe ist ein fester Betrag je Gast und entgeltlicher Übernachtung, unabhängig vom Übernachtungspreis.",
+      "quote": "Bemessungsgrundlage ist die Anzahl der entgeltlichen Übernachtungen je Beherbergungsgast (Beherbergungsleistung)."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Abgabe; du ziehst sie als Vermieter bei ihm ein.",
+      "quote": "Weiterhin ist die Betreiberin / der Betreiber eines Beherbergungsbetriebes innerhalb der Stadt Aachen verpflichtet, die Beherbergungsabgabe (§ 2 Abs. 1) vom abgabenpflichtigen Beherbergungsgast einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Abgabe für das Quartal je Betriebsstätte per Bescheid fest; sie ist innerhalb eines Monats nach Bekanntgabe zu zahlen.",
+      "quote": "Erhebungszeitraum ist das Kalendervierteljahr. Die Beherbergungsabgabe wird je Betriebsstätte mit Bescheid festgesetzt und ist innerhalb eines Monats nach Bekanntgabe des Steuerbescheides fällig und zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Abgabenerklärung auf dem amtlichen Vordruck ein.",
+      "quote": "die innerhalb eines Kalendervierteljahres vereinnahmte Beherbergungsabgabe auf amtlich vorgeschriebenen Vordruck oder einer amtlich zugelassenen elektronischen Abgabeerklärung bis zum 15. Tag nach Ablauf des Kalendervierteljahres bei der Stadt Aachen einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres zahlen nichts.",
+        "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+      },
+      {
+        "text": "Wer wegen einer Klassenfahrt oder einer vergleichbaren Fahrt eines Trägers der freien Jugendhilfe übernachtet, zahlt nichts.",
+        "quote": "Personen, die aufgrund von Klassenfahrten von Schulen sowie vergleichbaren Fahrten von Trägern der freien Jugendhilfe übernachten,"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche und dienstliche Übernachtungen sind abgabepflichtig.",
+        "quote": "Auch für Übernachtungen, die für eine berufliche oder dienstliche Tätigkeit des Beherbergungsgastes zwingend erforderlich sind, ist die Beherbergungsabgabe zu zahlen.",
+        "source": "faq"
+      },
+      {
+        "text": "Auch wenn du in einem Quartal niemanden beherbergt hast, reichst du eine Abgabenerklärung ein (Nullmeldung).",
+        "quote": "Eine Abgabenerklärung ist auch dann einzureichen, wenn in einem Quartal keine Beherbergungsgäste beherbergt wurden",
+        "source": "faq"
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du dem Fachbereich Steuern und Kasse vor dem Ereignis an.",
+        "quote": "ist verpflichtet, den Beginn und das Ende seiner Tätigkeit, den Betreiberwechsel des Beherbergungsbetriebes und die Verlegung des Beherbergungsbetriebes dem Fachbereich Steuern und Kasse der Stadt Aachen anzuzeigen. Die Anzeige ist vor Eintritt des jeweiligen anzeigepflichtigen Ereignisses zu erstatten."
+      },
+      {
+        "text": "In den staatlich anerkannten Kurgebieten gibt es zusätzlich einen Kurbeitrag; wer für die Unterkunft schon die Beherbergungsabgabe zahlt, ist davon befreit.",
+        "quote": "Personen, die für die Unterkunftnahme bereits nach der Beherbergungsabgabensatzung der Stadt Aachen für die Möglichkeit der entgeltlichen Übernachtung in einem Beherbergungsbetrieb abgabenpflichtig sind; dies gilt auch für eine Unterkunftnahme von mehr als 21 Tagen,",
+        "source": "kurbeitrag"
+      }
+    ],
+    "maxNights": {
+      "nights": 21,
+      "perStay": false,
+      "text": "höchstens 21 Tage im Kalenderjahr im selben Betrieb",
+      "quote": "Die Beherbergungsabgabe wird bei einer Beherbergungsdauer im selben Beherbergungsbetrieb längstens für 21 Tage im Kalenderjahr erhoben."
+    }
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-aachen Aachen NRW nrw-bonn Bonn nrw-bruehl Brühl nrw-dortmund Dortmund nrw-duesseldorf Düsseldorf ee8821a4-509a-4d54-804b-6429768c8c5f Frechen b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/aachen/",
+  "calculation": {
+    "kind": "town",
+    "cents": 250,
+    "perPerson": true,
+    "maxDays": 21,
+    "maxPerStay": false
+  }
+}

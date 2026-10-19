@@ -1,0 +1,193 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "binz",
+  "name": "Ostseebad Binz",
+  "short": "Binz",
+  "ags": "13073011",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Binz (Kurabgabesatzung), nichtamtliche Lesefassung, Stand 5. Änderungssatzung",
+      "url": "https://gemeinde-binz.de/wp-content/uploads/2026/07/Lesefassung-Kurabgabesatzung_Stand_2026-02-05.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "11239d95390489b006b8445cacf7683f3cbc35179456fde54d91e97884a040d0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "3. Satzung zur Änderung der Kurabgabesatzung, Amtliches Bekanntmachungsblatt der Gemeinde Ostseebad Binz 12/2023",
+      "url": "https://gemeinde-binz.de/wp-content/uploads/2023/12/Amtsblatt-2023-12.pdf",
+      "kind": "gazette",
+      "inForce": "2024-01-01",
+      "sha256": "2e7a3b43c7b066c3a2ec2f9b01d7d183534968f755f0c00e91f6cdcd1fdcdc07",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung4": {
+      "title": "4. Satzung zur Änderung der Kurabgabesatzung, Amtliches Bekanntmachungsblatt der Gemeinde Ostseebad Binz 13/2024",
+      "url": "https://gemeinde-binz.de/wp-content/uploads/2024/12/Amtsblatt-2024-13.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "6bb511472691f502828ed16ee0852be84bec78f930f2db2e52e9f214b9377e43",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe der Gemeinde Ostseebad Binz (Fremdenverkehrsabgabesatzung, zuletzt geändert am 15.09.2022)",
+      "url": "https://gemeinde-binz.de/wp-content/uploads/2022/09/2022-09-27-FVAS.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "5dfad09fb8216e5d315c83dc89465277f3dd0fbfa7b40bb77dfbf24576b9da0b",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und Abreisetag werden als je ein Aufenthaltstag berechnet.",
+      "source": "aenderung3"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 340,
+          "quote": "Die Kurabgabe beträgt pro kurabgabepflichtiger Person und Aufenthaltstag: 3,40 EUR.",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 3,
+            "cents": 0,
+            "quote": "Von der Kurabgabe sind befreit: 1. Kinder bis zur Vollendung des 3. Lebensjahres (3. Geburtstag - 1 Tag);"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises",
+        "quote": "Personen mit einem Behinderungsgrad von 100 gegen Vorlage des Ausweises."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder elektronisch ausgefüllten Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich bis zum fünften Tag für den Vormonat.",
+      "quote": "die Kurabgabe nicht spätestens bis zum fünften Tag eines jeden Monats für den vorangegangenen Monat an den Eigenbetrieb Binzer Bucht Tourismus - Eigenbetrieb der Gemeinde Ostseebad Binz abführt;"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit dem Meldeschein über das elektronische Meldesystem des Eigenbetriebs Binzer Bucht Tourismus.",
+      "quote": "die vom Eigenbetrieb Binzer Bucht Tourismus zur Verfügung gestellten Meldescheine/ Vordrucke für Beherbergungsstätten nach § 27 Landesmeldegesetz M-V (LMG M-V) bereitzustellen und zu nutzen und das elektronische Meldesystem zu verwenden;",
+      "source": "aenderung4"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Binz Vorteile bringt und keine Befreiung greift.",
+      "quote": "Fremdenverkehrsabgabepflichtig sind alle Personen und Personenvereinigungen, denen durch den Fremdenverkehr im Gebiet der Gemeinde Ostseebad Binz gem. § 1 Abs. 1 dieser Satzung Vorteile erwachsen, soweit sie nicht nach § 4 dieser Satzung von der Abgabepflicht befreit sind."
+    },
+    "letting": [
+      {
+        "label": "Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten (Veranlagungsziffer 01)",
+        "quote": "01. Personen, Personengruppen und Betriebe die Betten, Zimmer, Betten 11,93 €/Bett",
+        "flat": {
+          "cents": 1193,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Camping-, Zelt- und Wohnmobilplätze (Veranlagungsziffer 03)",
+        "quote": "03. Camping-, Zelt- und Wohnmobilplätze Stellplätze 8,95 €/Stellplatz",
+        "flat": {
+          "cents": 895,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du dem Eigenbetrieb Binzer Bucht Tourismus bis zum 30. November jedes Jahres mit; eine neue Tätigkeit zeigst du spätestens vier Wochen nach Beginn an.",
+      "quote": "Der Abgabepflichtige sowie sein Vertreter hat der Gemeinde Ostseebad Binz – Eigenbetrieb Binzer Bucht Tourismus – unaufgefordert, die erforderlichen Angaben zur Berechnung der Abgabe bis zum 30.11. jeden Jahres mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i. S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Gemeinde Ostseebad Binz – Eigenbetrieb Binzer Bucht Tourismus – anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Zeile gilt für Personen und Betriebe, die Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten vermieten.",
+        "quote": "Wohnungen und sonstige Schlafgelegenheiten vermieten"
+      },
+      {
+        "text": "Gezählt werden die Betten; maßgeblich sind die Verhältnisse am 15. Juli jedes Jahres.",
+        "quote": "Merkmale der Einstufung (Bettenzahl, Fläche, Sitzplätze, Zahl der Beschäftigten usw.) werden nach den Verhältnissen am 15. Juli jeden Jahres ermittelt."
+      },
+      {
+        "text": "Beginnst du erst nach dem 30. September mit der Vermietung, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Für Betriebe oder Tätigkeiten, die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/binz/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      3
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "baden-baden",
+  "name": "Baden-Baden",
+  "short": "Baden-Baden",
+  "ags": "08211000",
+  "state": "Baden-Württemberg",
+  "district": "Baden-Baden",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Baden-Baden über die Erhebung einer Kurtaxe (Kurtaxordnung), Gemeinderatsbeschluss vom 29.09.2025",
+      "url": "https://www.baden-baden.de/site/Baden-Baden/get/params_E-1095211978_Dattachment/3858056/08-06%20Kurtaxesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "b5647d7ba90ef3970429506222a8c75ec673257bc8ed4343794e477a04f78647",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Baden-Baden über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Gemeinderatsbeschluss vom 29.09.2025",
+      "url": "https://www.baden-baden.de/site/Baden-Baden/get/params_E1585391722_Dattachment/3858062/08-11%20Fremdenverkehrsbeitragssatzung%20%2829.09.2025%29.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "76944c921e2c3cb1f6aa2b804083a9c516c62b529aab6c59024f87358b1d02a0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "beträgt für jede Übernachtung in Baden-Baden für jede Person"
+    },
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "area": {
+          "text": "Kurzone I ist das Gebiet zwischen Sinzheimer Straße / Ooser Hauptstraße und Klosterplatz (Lichtental) / Schafbergstraße samt Nebenstraßen, ohne den Stadtteil Balg und ohne die Anlieger der genannten Straßen und Plätze; die Grenze ist in einer Karte der Satzung eingetragen.",
+          "quote": "Kurzone I sämtliche Beherbergungsbetriebe, ähnliche Einrichtungen und Privatvermieter, die sich im Gebiet zwischen Sinzheimer Straße / Ooser Hauptstraße und Klosterplatz (Lichtental) / Schafbergstraße (jeweils ausschließlich der Anlieger der genannten Straßen und Plätze) und sämtlicher Nebenstraßen – ausgenommen den Stadtteil Balg – befinden,"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 450,
+              "quote": "beträgt für jede Übernachtung in Baden-Baden für jede Person in der Kurzone I ab 01.01.2026 € 4,50"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "area": {
+          "text": "Kurzone II sind alle übrigen Stadtgebiete außerhalb der Kurzone I.",
+          "quote": "Kurzone II sämtliche Beherbergungsbetriebe, ähnliche Einrichtungen und Privatvermieter der übrigen Stadtgebiete."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "beträgt für jede Übernachtung in Baden-Baden für jede Person in der Kurzone I ab 01.01.2026 € 4,50 Kurzone II ab 01.01.2026 € 2,00"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr,"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden"
+      },
+      {
+        "text": "Personen, die aus gesundheitlichen Gründen Kureinrichtungen und Veranstaltungen nicht besuchen können (ärztliches Attest)",
+        "quote": "Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen. Dies muss durch ärztliches Attest nachgewiesen werden"
+      },
+      {
+        "text": "Wer in Baden-Baden arbeitet oder in Ausbildung ist, und Teilnehmer an beruflich bedingten Tagungen und Kursen während deren Dauer; der Nachweis läuft über eine schriftliche Bescheinigung bei der Anmeldung",
+        "quote": "arbeiten oder in Ausbildung stehen sowie von Teilnehmern an beruflich bedingten Tagungen, Kongressen, Lehrgängen und Kursen im Erhebungsgebiet während deren Dauer."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxe enthält die ermäßigte Umsatzsteuer von derzeit 7 %.",
+        "quote": "Die Kurtaxesätze enthalten die ermäßigte gesetzliche Umsatzsteuer von derzeit 7 %."
+      },
+      {
+        "text": "Kinder und Jugendliche unter 18 sind nur befreit, solange sie die besonderen Leistungen der Gästekarte nicht beanspruchen.",
+        "quote": "Von der Entrichtung der Kurtaxe sind befreit, sofern Anspruch auf die besonderen Leistungen (§ 5 Abs. 1) nicht erhoben wird:"
+      },
+      {
+        "text": "Du musst deine Vermietung vor Beginn bei der Stadt (Kämmerei, Abteilung Steuern) schriftlich anzeigen, mit der Zahl der Betten.",
+        "quote": "Die Vermietungstätigkeit vor deren Aufnahme der Stadt Baden-Baden Kämmerei – Abteilung Steuern auf dem dafür vorgesehenen Formular schriftlich unter Angabe der Zahl der zu diesem Zweck zur Verfügung stehenden Betten und deren Räumlichkeiten anzuzeigen."
+      },
+      {
+        "text": "Private Vermieter ohne Gewerbe dürfen statt monatlich auch vierteljährlich melden und abführen, jeweils zum 10.4., 10.7., 10.10. und 10.1.",
+        "quote": "Nicht gewerbliche Vermieter (Privatvermieter) können der Melde-, Nachweis- und Abführungspflicht nach § 7 Abs. 3 sowie § 8 Abs. 1 Nr. 2 und 3 auch vierteljährlich jeweils zum 10.4., 10.07., 10.10. und 10.01. für das vorangegangene Kalendervierteljahr nachkommen."
+      },
+      {
+        "text": "Meldest du nicht oder unvollständig, schätzt die Stadt die Forderung mit 80 % der verfügbaren Betten.",
+        "quote": "Werden die Meldepflichten vom Wohnungsgeber nicht oder unzureichend erfüllt, werden zur Schätzung der Kurtaxe-Forderung 80 % der zur Verfügung stehenden Betten angenommen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "Der Wohnungsgeber haftet für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Kurtaxe führst du monatlich bis zum 10. des Folgemonats ab.",
+      "quote": "Von den Kurtaxepflichtigen die Kurtaxe einzuziehen und monatlich jeweils bis zum 10. des Folgemonats an die Stadt Baden-Baden abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch über die Schnittstelle der Stadt (elektronischer Meldeschein); auch ohne Gäste gibst du eine Null-Meldung ab.",
+      "quote": "Die Daten sind auf elektronischem Weg verschlüsselt über eine von der Stadt Baden-Baden zur Verfügung gestellte elektronische Schnittstelle zu übermitteln (elektronischer Meldeschein). Sofern ein Wohnungsgeber in einem Monat keine Personen beherbergt hat, ist bis zum 10. des folgenden Monats eine Fehlanzeige („Null-Meldung“) abzugeben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Baden-Baden selbstständig tätig bist und dir der Fremdenverkehr oder der Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben, und denen in der Stadt Baden-Baden aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatvermieter in Beitragszone I",
+        "quote": "1.03 Privatvermieter 15 70 ja",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "1.03 Privatvermieter 15 70 ja"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Hotel in Beitragszone I",
+        "quote": "1.01 Hotel 9 90 ja",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "1.01 Hotel 9 90 ja"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Camping- und Wohnmobilstellplätze (die Minderung in Beitragszone II tritt hier nicht ein)",
+        "quote": "1.04 Camping-, Wohnmobilstellplätze 15 90 nein",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "1.04 Camping-, Wohnmobilstellplätze 15 90 nein"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2,
+      "quote": "Der Beitrag beträgt für den Erhebungszeitraum 2,0 v.H. (Beitragssatz) des Messbetrages."
+    },
+    "basis": {
+      "text": "Es zählt dein Gesamtumsatz ohne Umsatzsteuer, den du im Kalenderjahr im Stadtgebiet erzielst.",
+      "quote": "Zur Ermittlung des Reingewinns wird der im Erhebungszeitraum im Stadtgebiet erwirtschaftete Gesamtumsatz ohne Umsatzsteuer (Stadtumsatz) mit dem sich aus der Anlage zu dieser Satzung ergebenden Richtsatz (Reingewinnsatz) multipliziert."
+    },
+    "minimum": {
+      "text": "Würde dein Beitrag weniger als 50 € im Jahr betragen, wird er nicht erhoben.",
+      "quote": "Ein Beitrag wird nicht erhoben, wenn er weniger als 50 € pro Jahr betragen würde.",
+      "cents": 5000,
+      "kind": "below"
+    },
+    "reporting": {
+      "text": "Du meldest der Kämmerei deinen Gesamtumsatz möglichst früh, spätestens bis zum 31. Mai des folgenden Kalenderjahres.",
+      "quote": "Den Gesamtumsatz gemäß § 3 Abs. 2. Die Meldung für einen Erhebungszeitraum ist möglichst frühzeitig, spätestens bis zum 31. Mai des darauf folgenden Kalenderjahres, abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird einen Monat nach Bekanntgabe des Beitragsbescheids fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Anerkannte gemeinnützige juristische Personen ohne Gewinnerzielungsabsicht sind befreit.",
+        "quote": "Ebenfalls vom Beitrag befreit sind anerkannte gemeinnützige juristischen Personen, die keine Gewinnerzielungsabsicht verfolgen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ausdrücklich beitragspflichtig sind auch Privatpersonen, die nicht gewerblich an Ortsfremde vorübergehend Wohnungen oder Zimmer vermieten.",
+        "quote": "Natürliche und juristische Personen, die nicht gewerblich als Private an Ortsfremde vorübergehend Wohnungen oder Zimmer vermieten;"
+      },
+      {
+        "text": "In der Anlage stehen Reingewinnsatz und Vorteilssatz als Prozentwerte (v. H.).",
+        "quote": "nummer ALT nummer NEU satz (v.H.) (v.H.)"
+      },
+      {
+        "text": "Beitragszone I ist das Gebiet zwischen Sinzheimer Straße/Ooser Hauptstraße und Klosterplatz/Lichtental/Schafbergstraße mit allen Nebenstraßen, ohne den Stadtteil Balg.",
+        "quote": "Beitragszone I: Gebiet zwischen Sinzheimer Straße/Ooser Hauptstraße und Klosterplatz/ Lichtental/Schafbergstraße (jeweils ausschließlich der genannten Straßen und Plätze) und sämtliche Nebenstraßen – ausgenommen den Stadtteil Balg"
+      },
+      {
+        "text": "Das übrige Stadtgebiet ist Beitragszone II.",
+        "quote": "Beitragszone II: übriges Stadtgebiet."
+      },
+      {
+        "text": "In Beitragszone II werden grundsätzlich nur vierzig vom Hundert des Betrags festgesetzt; in Beitragszone I hundert vom Hundert.",
+        "quote": "Die Berechnung des Beitrags erfolgt mit der Maßgabe, dass in der Beitragszone I Hundert vom Hundert und in der Beitragszone II grundsätzlich Vierzig vom Hundert des Betrages nach § 4 Satz 1 festgesetzt werden."
+      },
+      {
+        "text": "Abweichende Reingewinnsätze, Vorteilsätze und Zuordnungen zu den Beitragszonen werden nur auf Antrag gewährt.",
+        "quote": "Von der Anlage zu dieser Satzung abweichende Reingewinnsätze, Vorteilsätze und Zuordnungen zu den Beitragszonen werden nur auf Antrag gewährt."
+      },
+      {
+        "text": "Die Veranlagung erfolgt im Kalenderjahr nach dem Erhebungszeitraum durch Beitragsbescheid.",
+        "quote": "Die Veranlagung erfolgt in dem auf den Erhebungszeitraum folgenden Kalenderjahr durch Beitragsbescheid."
+      },
+      {
+        "text": "Gewerbe, die nicht in der Anlage stehen, werden der Kategorie zugeordnet, die ihnen am ähnlichsten ist.",
+        "quote": "Nicht in der Anlage aufgeführte Gewerbe- und Berufsgruppen werden der Kategorie zugeordnet, die der Gewerbe- und Berufsart gem. Anlage am ähnlichsten sind."
+      }
+    ],
+    "area": {
+      "text": "Der Rechner zeigt den Beitrag für Beitragszone I; in Beitragszone II, dem übrigen Stadtgebiet, werden grundsätzlich nur 40 % davon festgesetzt, und die Minderung tritt nicht ein, soweit die Anlage sie nicht vorsieht.",
+      "quote": "Die Berechnung des Beitrags erfolgt mit der Maßgabe, dass in der Beitragszone I Hundert vom Hundert und in der Beitragszone II grundsätzlich Vierzig vom Hundert des Betrages nach § 4 Satz 1 festgesetzt werden. Die Minderung in Zone II tritt nicht ein, soweit dies in der Anlage nicht vorgesehen ist."
+    }
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/baden-baden/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 450,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 450,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

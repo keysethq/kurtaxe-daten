@@ -1,0 +1,98 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "altefaehr",
+  "name": "Gemeinde Seebad Altefähr",
+  "short": "Altefähr",
+  "ags": "13073003",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Gemeinde Seebad Altefähr, Amt West-Rügen",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/0/1/5/4/bernachtungssteuersatzung_Gemeinde_Seebad_Altef_hr.pdf",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "bf3115d0459f55e52e62f61f9e3bfe60af333962079be066705b1375b4489d3f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung": {
+      "title": "1. Änderungssatzung zur Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Gemeinde Seebad Altefähr, Amt West-Rügen",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/0/1/5/4/1._nderung_bernachtungssteuersatzung.pdf",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "bb1f4df6a9743649f2ab616788e01252399144efd686642d7add542569934ecd",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 6,
+      "quote": "Die Übernachtungssteuer beträgt 6 vom Hundert der Bemessungsgrundlage"
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt, das der Gast für die Übernachtung zahlt, abzüglich der Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist das von dem Gast für die Übernachtung erhobene Entgelt, abzüglich der Umsatzsteuer.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Gemeindegebiet der Gemeinde Seebad Altefähr gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+    },
+    "deadline": {
+      "text": "Die Steuer ist einen Monat nach Bekanntgabe des Steuerbescheids fällig.",
+      "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides an die Steuerpflichtige bzw. den Steuerpflichtigen fällig."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Erklärung auf dem Vordruck des Eigenbetriebs Hafen- und Tourismuswirtschaft Altefähr ein.",
+      "quote": "bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres dem Eigenbetrieb Hafen- und Tourismuswirtschaft Altefähr eine Erklärung nach einem durch den Eigenbetrieb Hafen- und Tourismuswirtschaft Altefähr vorgeschriebenen Vordruck einzureichen.",
+      "source": "aenderung"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Steuer wird vom Eigenbetrieb Hafen- und Tourismuswirtschaft Altefähr eingenommen.",
+        "quote": "Die Steuer wird durch den Eigenbetrieb Hafen- und Tourismuswirtschaft Altefähr eingenommen."
+      },
+      {
+        "text": "Beträge für Verpflegung wie Frühstück, Halbpension und Getränke zählen nicht zur Bemessungsgrundlage.",
+        "quote": "Aufzuwendende Beträge für Verpflegungsleistungen wie Frühstück und/oder Halbpension bzw. Getränke sind nicht Teil der Bemessungsgrundlage."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich einer jeweiligen Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Beherbergungsgast und Mahlzeit."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/altefaehr/",
+  "calculation": {
+    "kind": "town",
+    "percent": 6,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

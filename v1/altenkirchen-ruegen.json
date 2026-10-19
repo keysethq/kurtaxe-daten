@@ -1,0 +1,212 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "altenkirchen-ruegen",
+  "name": "Altenkirchen",
+  "short": "Altenkirchen (Rügen)",
+  "ags": "13073004",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Altenkirchen (Kurabgabesatzung), Beschluss der Gemeindevertretung vom 11.12.2024",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/5/5/7/2/doc03057220250709110412.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-18",
+      "changedOn": "2026-10-15",
+      "sha256": "ac52fae4f01dc7d90672601cee0bb2ab02f2ffebabfb053fc40e8ddf4b597ab0",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Die Kurabgabe beträgt für jeden Tag, an dem sich der Kurabgabepflichtige im Erhebungsgebiet aufhält:"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 17,
+            "cents": 100,
+            "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €",
+            "limit": {
+              "quote": "Kinder ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 17. Lebensjahrs"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "04-30"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 17,
+            "cents": 50,
+            "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €",
+            "limit": {
+              "quote": "Kinder ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 17. Lebensjahrs"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familiäre Besuche in der häuslichen Gemeinschaft, solange der Erholungsgrund nicht im Vordergrund steht",
+        "quote": "familiäre Besuche in der häuslichen Gemeinschaft, soweit der Erholungsgrund nicht im Vordergrund steht,"
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte, die die Kureinrichtungen nicht in Anspruch nehmen können",
+        "quote": "bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und, wenn sie auf ständige Begleitung angewiesen sind, ihre Begleitung",
+        "quote": "Menschen mit einem Grad der Behinderung von 100, sowie deren Begleitung, soweit der Mensch mit Behinderung auf eine ständige Begleitung angewiesen ist."
+      },
+      {
+        "text": "Wer in Altenkirchen arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ermäßigt zahlen auch Menschen mit einem Grad der Behinderung von 50 und ihre Begleitung.",
+        "quote": "Menschen mit einem Grad der Behinderung von 50, sowie deren Begleitung, soweit der Mensch mit Behinderung auf eine ständige Begleitung angewiesen ist."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 40,00 € (ermäßigt 25,00 €).",
+        "quote": "je Jahreskurkarte: 40.00 € je ermäßigte Jahreskurkarte 25.00 €"
+      },
+      {
+        "text": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Wer eine Befreiung oder Ermäßigung geltend machen will, muss die Voraussetzungen nachweisen, bevor die Kurkarte ausgestellt wird.",
+        "quote": "Abgabepflichtige, die eine Befreiung oder Ermäßigung gem. § 3 geltend machen wollen, haben die Voraussetzungen vor Ausstellen der Kurkarte nachzuweisen."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Quartiergeber haftet für die rechtzeitige und vollständige"
+      },
+      {
+        "text": "Nach dem Wortlaut der Satzung zahlen Jugendliche ab 17 Jahren den vollen Satz.",
+        "quote": "Kinder ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 17. Lebensjahrs"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt Kurkarten aus.",
+      "quote": "die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinde bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste werden innerhalb eines Werktages nach der Ankunft gemeldet, elektronisch oder auf Papier.",
+      "quote": "Der Quartiergeber soll das elektronische Meldeverfahren nutzen, alternativ kann auch eine analoge Meldung in Papierform erfolgen. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/altenkirchen-ruegen/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          100
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "04-30"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ]
+      }
+    ]
+  }
+}

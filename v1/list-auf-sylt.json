@@ -1,0 +1,361 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "list-auf-sylt",
+  "name": "Nordseebad List auf Sylt",
+  "short": "List auf Sylt",
+  "ags": "01054078",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe der Gemeinde List auf Sylt vom 27.08.2025",
+      "url": "https://amtlandschaftsylt.de/images/stories/Satzungen_neu/Gemeinde%20List/20250901_Kurabgabesatzung_Gemeinde_List_01_01_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "3af3b4ffadf936a6198468f403d9394f9c82a45954f7847368f9d7ba45a40d93",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Kurverwaltung. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Die vom Unterkunftsgeber vereinnahmte Kurabgabe ist bis spätestens vierzehn Tage nach Rechnungstellung der Kurverwaltung an diese abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass die für die Berechnung der Kurabgabe notwendigen Daten spätestens fünf Werktage nach der Ankunft der beherbergten Person bei der Kurverwaltung eingeht."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde List auf Sylt über die Erhebung einer Tourismusabgabe vom 21. März 2024",
+      "url": "https://www.amtlandschaftsylt.de/images/stories/Satzungen_neu/Gemeinde%20List/20240523_Tourismusabgabesatzung_List.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a3e91d9cad7b5dbdb440260b4a74a9fc67240ee6701d94e61f92be74b1d7beb0",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "(1) Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen durch den Tourismus in der Gemeinde List auf Sylt unmittelbar und/oder mittelbar wirtschaftliche Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "(1) Die Beitragspflichtigen haben der Gemeinde List auf Sylt bis zum 15. August eines jeden Jahres unaufgefordert die zur Berechnung des Beitrags erforderlichen Angaben mitzuteilen oder 14 Tage nach Aufforderung eine entsprechende Erklärung abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "(2) Der Beitrag ist innerhalb 1 Monats nach Zustellung des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 4,
+          "reading": "Unterlagen der Kurabgabenerhebung betreffend die Anzahl der Übernachtungen in den einzelnen Beherbergungsbetrieben"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "(2) Werden keine Angaben gemacht, können Berechnungsgrundlagen geschätzt werden."
+        }
+      ]
+    },
+    "fvbN2": {
+      "title": "II. Nachtragssatzung zur Satzung der Gemeinde List auf Sylt zur Erhebung einer Tourismusabgabe (Beitragssätze 2026)",
+      "url": "https://www.amtlandschaftsylt.de/images/stories/Satzungen_neu/Gemeinde%20List/20251222_II_Nachtrag_Tourism-abgabesatz_Gem_List_01012026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "3f8bfdc55a5f61b7a557ade4f86dba3ba410dc4df7e8c4b61a2344f6cb356368",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 1,
+          "reading": "Ferienwohnungs-/-haus-, Privatzimmer-Vermietung an wechselnde Gäste je Übernachtung (pro Gast)* 0,32 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 1,
+          "reading": "Ferienwohnungs-/-haus-, Privatzimmer-Vermietung an wechselnde Gäste je Übernachtung (pro Gast)* 0,32 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 1,
+          "reading": "Hotel je Übernachtung (pro Gast)* 0,26 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 1,
+          "reading": "Hotel je Übernachtung (pro Gast)* 0,26 €"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 1,
+          "reading": "Campingplatz je Übernachtung (pro Gast)* 0,02 €"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 1,
+          "reading": "Campingplatz je Übernachtung (pro Gast)* 0,02 €"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "* Übernachtungen des dem Beitragsjahr vorangegangenen Kalenderjahres"
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 1,
+          "reading": "die dafür jeweils maßgebenden Beitragssätze sind in Spalte 3 der folgenden Betriebsartentabelle bestimmt"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Tag berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 360,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.05.-30.09.: 3,60 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "b) übrige Zeit des Jahres: 1,80 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Ehepartner, eingetragene Lebenspartner, Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Geschwister der Eltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwager (1. Grades) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind"
+      },
+      {
+        "text": "Wer in einer anderen Gemeinde auf Sylt schon Kurabgabe bezahlt hat, ist für diese Zeit als Tagesgast befreit",
+        "quote": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 20 % weniger",
+        "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 20 %."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die im öffentlichen Verkehr regelmäßig auf Hilfe angewiesen sind",
+        "quote": "Begleitpersonen nach§ 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer im Ort arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer es beantragt (oder Miteigentümer einer Wohnung im Ort ist), zahlt statt der Tage höchstens 28 Hauptsaisontage, die Jahresgästekarte für 100,80 €.",
+        "quote": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden maximal 28 Hauptsaisontage berücksicl1tigt (Jahresgästekarte), wenn der Abgabenschuldner dies beantragt"
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet, über dich als Unterkunftsgeber oder die Kurverwaltung.",
+        "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+      },
+      {
+        "text": "Als Unterkunftsgeber giltst du auch, wenn du Gäste in deiner eigenen Wohnung unentgeltlich übernachten lässt, selbst Freunde und Angehörige.",
+        "quote": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, berechnet und zieht die Kurabgabe ein, händigt die Gästekarte aus und führt den Betrag an die Kurverwaltung ab; dafür haftest du.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Kurverwaltung. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens vierzehn Tage nach der Rechnung der Kurverwaltung.",
+      "quote": "Die vom Unterkunftsgeber vereinnahmte Kurabgabe ist bis spätestens vierzehn Tage nach Rechnungstellung der Kurverwaltung an diese abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch spätestens am Tag nach der Ankunft; auf Papier müssen die Daten spätestens fünf Werktage nach der Ankunft bei der Kurverwaltung eingehen.",
+      "quote": "Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass die für die Berechnung der Kurabgabe notwendigen Daten spätestens fünf Werktage nach der Ankunft der beherbergten Person bei der Kurverwaltung eingeht."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in List unmittelbar oder mittelbar wirtschaftliche Vorteile bietet, also auch als Vermieter von Ferienwohnungen oder Zimmern.",
+      "quote": "(1) Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen durch den Tourismus in der Gemeinde List auf Sylt unmittelbar und/oder mittelbar wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Privatzimmer an wechselnde Gäste",
+        "source": "fvbN2",
+        "quote": "Ferienwohnungs-/-haus-, Privatzimmer-Vermietung an wechselnde Gäste je Übernachtung (pro Gast)* 0,32 €",
+        "perNight": {
+          "cents": 32,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Hotel",
+        "source": "fvbN2",
+        "quote": "Hotel je Übernachtung (pro Gast)* 0,26 €",
+        "perNight": {
+          "cents": 26,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Campingplatz",
+        "source": "fvbN2",
+        "quote": "Campingplatz je Übernachtung (pro Gast)* 0,02 €",
+        "perNight": {
+          "cents": 2,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Bis zum 15. August jeden Jahres teilst du der Gemeinde unaufgefordert mit, was sie für die Berechnung braucht, oder innerhalb von 14 Tagen nach ihrer Aufforderung.",
+      "quote": "(1) Die Beitragspflichtigen haben der Gemeinde List auf Sylt bis zum 15. August eines jeden Jahres unaufgefordert die zur Berechnung des Beitrags erforderlichen Angaben mitzuteilen oder 14 Tage nach Aufforderung eine entsprechende Erklärung abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Zustellung des Bescheids fällig.",
+      "quote": "(2) Der Beitrag ist innerhalb 1 Monats nach Zustellung des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Du zahlst den Betrag je Übernachtung und Gast für die Übernachtungen des Vorjahres.",
+        "quote": "* Übernachtungen des dem Beitragsjahr vorangegangenen Kalenderjahres",
+        "source": "fvbN2"
+      },
+      {
+        "text": "Die Gemeinde zieht für die Berechnung die Unterlagen der Kurabgabe über die Zahl der Übernachtungen in deinem Betrieb heran.",
+        "quote": "Unterlagen der Kurabgabenerhebung betreffend die Anzahl der Übernachtungen in den einzelnen Beherbergungsbetrieben"
+      },
+      {
+        "text": "Machst du keine Angaben, kann die Gemeinde die Berechnungsgrundlagen schätzen.",
+        "quote": "(2) Werden keine Angaben gemacht, können Berechnungsgrundlagen geschätzt werden."
+      },
+      {
+        "text": "Der Beitragssatz jeder Betriebsart steht in der Betriebsartentabelle der Satzung.",
+        "source": "fvbN2",
+        "quote": "die dafür jeweils maßgebenden Beitragssätze sind in Spalte 3 der folgenden Betriebsartentabelle bestimmt"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/list-auf-sylt/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 360,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

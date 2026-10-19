@@ -1,0 +1,136 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "weimar",
+  "name": "Stadt Weimar",
+  "short": "Weimar",
+  "ags": "16055000",
+  "state": "Thüringen",
+  "district": "Weimar",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kulturförderabgabe für Übernachtungen in Weimar, Lesefassung in der Fassung der 3. Änderungssatzung (Weimarer Ortsrecht 22.9, Stand 09.01.2019), Stadt Weimar",
+      "url": "https://stadt.weimar.de/de/datei/download/id/7501,48/22.9_kulturfoerderabgabe_fuer_Uebernachtungen.pdf",
+      "kind": "municipality",
+      "inForce": "2019-04-01",
+      "sha256": "6e9207b752345b6ecdca30abcc4451b2997452e8af2df0822f9eab8ba999292b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Kulturförderabgabe für Übernachtungen",
+    "source": "satzung",
+    "rate": null,
+    "tiers": [
+      {
+        "label": "Betriebe bis 49 Zimmer, Einzelzimmer",
+        "cents": 150,
+        "quote": "bei Beherbergungsbetrieben bis 49 Zimmer 1,50 EUR pro Person und Nacht im EZ"
+      },
+      {
+        "label": "Betriebe bis 49 Zimmer, Doppel- und Mehrbettzimmer, Ferienwohnung, Gästezimmer",
+        "cents": 110,
+        "quote": "1,10 EUR pro Person und Nacht im DZ/Mehrbettzimmer/Ferienwohnung/Gästezimmer"
+      },
+      {
+        "label": "Betriebe ab 50 Zimmer, Einzelzimmer und Suiten",
+        "cents": 300,
+        "quote": "bei Beherbergungsbetrieben ab 50 Zimmer 3,00 EUR pro Person und Nacht im EZ und in Suiten"
+      },
+      {
+        "label": "Betriebe ab 50 Zimmer, Doppel- und Mehrbettzimmer",
+        "cents": 225,
+        "quote": "2,25 EUR pro Person und Nacht im DZ/Mehrbettzimmer"
+      }
+    ],
+    "basis": {
+      "text": "Die Abgabe wird je Person und Nacht erhoben, höchstens für sieben aufeinanderfolgende Übernachtungen.",
+      "quote": "Bemessungsgrundlage ist die Übernachtung pro Person und Nacht - längstens jedoch für 7 aufeinanderfolgende Übernachtungen."
+    },
+    "hostDuty": {
+      "text": "Du ziehst die Abgabe als Vermieter bei deinen Gästen ein und führst sie an die Stadt ab.",
+      "quote": "Zur Einziehung und Abführung der Abgabe, Führung des Nachweises sowie der damit verbundenen Meldungen gegenüber der Stadt Weimar ist der Betreiber des Beherbergungsbetriebes verpflichtet, der dem Übernachtungsgast das Zimmer zur Verfügung stellt."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Abgabe für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die errechnete Abgabe wird durch einen Abgabenbescheid für das Kalendervierteljahr festgesetzt. Sie wird einen Monat nach Bekanntgabe des Bescheides an den Abgabenschuldner fällig und ist von diesem an die Stadtkasse zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende eine Erklärung auf dem amtlichen Vordruck beim Steueramt ein.",
+      "quote": "Der Betreiber eines Beherbergungsbetriebes ist verpflichtet, bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres dem Steueramt der Stadt Weimar eine Erklärung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Personen unter 18 Jahren sind abgabenfrei.",
+        "quote": "Der Abgabe unterfallen nicht die Übernachtungen von Personen, die das achtzehnte Lebensjahr noch nicht vollendet haben."
+      },
+      {
+        "text": "Gäste, die überwiegend aus beruflichen Gründen übernachten, sind befreit; das gilt zum Beispiel für Dienstreisen, Fortbildungen und Geschäftstermine.",
+        "quote": "Übernachtungsgäste, deren Übernachtung aus überwiegend beruflichen Gründen erforderlich ist, sind von der Zahlung der Abgabe befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gast erklärt vor der Übernachtung, ob sie überwiegend beruflich erforderlich ist oder privaten Zwecken dient.",
+        "quote": "Der Übernachtungsgast hat nach einer entsprechenden Information durch ein Merkblatt der Stadt und vor einer entgeltlichen Übernachtung wahrheitsgemäß und in einer zum Nachweis geeigneten Form gegenüber der Stadt Weimar anzugeben, ob die Übernachtung überwiegend beruflich erforderlich ist oder privaten Zwecken dient."
+      },
+      {
+        "text": "Abgabepflichtig ist der Übernachtungsgast und neben ihm der Betreiber des Beherbergungsbetriebes, der dem Gast das Zimmer zur Verfügung stellt.",
+        "quote": "Abgabepflichtig ist der Übernachtungsgast und neben diesem gemäß § 6 Thüringer Kommunalabgabengesetz (ThürKAG) der Betreiber des Beherbergungsbetriebes, der dem Übernachtungsgast das Zimmer zur Verfügung stellt."
+      }
+    ],
+    "maxNights": {
+      "nights": 7,
+      "perStay": true,
+      "text": "höchstens sieben aufeinanderfolgende Übernachtungen",
+      "quote": "Bemessungsgrundlage ist die Übernachtung pro Person und Nacht - längstens jedoch für 7 aufeinanderfolgende Übernachtungen."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/weimar/",
+  "calculation": {
+    "kind": "town",
+    "perPerson": true,
+    "byLabel": true,
+    "tiers": [
+      {
+        "label": "Betriebe bis 49 Zimmer, Einzelzimmer",
+        "cents": 150
+      },
+      {
+        "label": "Betriebe bis 49 Zimmer, Doppel- und Mehrbettzimmer, Ferienwohnung, Gästezimmer",
+        "cents": 110
+      },
+      {
+        "label": "Betriebe ab 50 Zimmer, Einzelzimmer und Suiten",
+        "cents": 300
+      },
+      {
+        "label": "Betriebe ab 50 Zimmer, Doppel- und Mehrbettzimmer",
+        "cents": 225
+      }
+    ],
+    "maxDays": 7,
+    "maxPerStay": true
+  }
+}

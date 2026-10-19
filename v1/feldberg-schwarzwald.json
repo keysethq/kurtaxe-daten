@@ -1,0 +1,318 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "feldberg-schwarzwald",
+  "name": "Feldberg (Schwarzwald)",
+  "short": "Feldberg",
+  "ags": "08315037",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Feldberg (Schwarzwald) über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 21.10.2025 (Scan)",
+      "url": "https://feldberg.org/site/Feldberg/get/params_E-1029215453_Dattachment/1955983/Kurtaxesatzung_sig_01.01.2026_%28PDF-Datei%29.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "1fecadf15eb48b49a64ee3b29fc8d08f2b1b5d106df8fec119f4d0dd675c00c3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurtaxe für Kurtaxepflichtige nach $ 3 Abs. 1 beträgt für jede Person und jeden Tag in für Personen ab 16 Jahren € 3,90"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 4,
+          "reading": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren € 3,90 für Kinder ab 6 Jahren und Jugendliche € 1,60"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren € 3,90 für Kinder ab 6 Jahren und Jugendliche € 1,60"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 4,
+          "reading": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 4,
+          "reading": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 %"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 4,
+          "reading": "Begleitpersonen von schwerbehinderten Personen und Kranken im Sinne von Nr. 4 und Nr. 5"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Den örtlichen Verhältnissen entsprechend wird das gesamte Gemeindegebiet der Gemeinde Feldberg (Schwarzwald) in nur einen Kurbezirk eingeteilt."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 6,
+          "reading": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 4,
+          "reading": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit mindestens 70 % Erwerbsminderung gegen Vorlage eines amtlichen Ausweises,"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 6,
+          "reading": "Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Feldberg (Schwarzwald) über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Beschluss vom 29.11.2022",
+      "url": "https://feldberg.org/site/Feldberg/get/params_E-1948066382_Dattachment/1955959/Fremdenverkehrsbeitragssatzung_01.01.2023_%28PDF-Datei%29.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "d87dfeb0f47bd41df03c64e9109d9927d13d624156d613c9138e65100350178b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "textLayer": "broken",
+      "ocr": [
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Bei den Beitragspflichtigen die Einnahmen aus Übernachtung von Gästen (mit oder ohne Frühstück) erzielen, sowohl konzessionierte Betriebe als auch Privatzimmervermieter, mit Ausnahme solcher Beherbergungsbetriebe, die Vorsorgeoder Rehabilitationskliniken sind und die einen erheblichen Anteil an sozialversicherten Patienten haben, bemisst sich der Beitrag abweichend von Absatz 2 zunächst nach der Zahl der Übernachtungen (Übernachtungsgeld)."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 3,
+          "reading": "Beitragspflichtige die noch weitere Umsätze erzielen, unterliegen dem Fremdenverkehrsbeitrag nach Maßgabe von 8 3 Absatz 1 bis 3 in Verbindung mit $ 4 und $& 5 dieser Satzung. Ein bereits festgesetztes Übernachtungsgeld wird als Vorauszahlung angerechnet."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Der Beitrag nach $ 4 Absatz 1 beträgt 8 von Hundert des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 20,- € beträgt.",
+          "digitsUnread": true
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 390,
+          "quote": "Die Kurtaxe für Kurtaxepflichtige nach § 3 Abs. 1 beträgt für jede Person und jeden Tag in für Personen ab 16 Jahren € 3,90"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+          },
+          {
+            "underAge": 16,
+            "cents": 160,
+            "quote": "für Personen ab 16 Jahren € 3,90 für Kinder ab 6 Jahren und Jugendliche € 1,60"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 %"
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen und Kranken unter den Bedingungen der Satzung",
+        "quote": "Begleitpersonen von schwerbehinderten Personen und Kranken im Sinne von Nr. 4 und Nr. 5"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die ganze Gemeinde ist ein einziger Kurbezirk, es gibt also nur einen Satz.",
+        "quote": "Den örtlichen Verhältnissen entsprechend wird das gesamte Gemeindegebiet der Gemeinde Feldberg (Schwarzwald) in nur einen Kurbezirk eingeteilt."
+      },
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      },
+      {
+        "text": "Auf Antrag ermäßigt sich die Kurtaxe um 20 % für Menschen mit einem Grad der Behinderung ab 70 gegen amtlichen Ausweis.",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit mindestens 70 % Erwerbsminderung gegen Vorlage eines amtlichen Ausweises,"
+      },
+      {
+        "text": "Als Vermieter haftest du für den vollständigen und richtigen Einzug der Kurtaxe.",
+        "quote": "Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein und führst sie an die Gemeinde ab.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab, über das kostenlose elektronische Meldeverfahren.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Der Beitrag trifft alle, die in Feldberg (Schwarzwald) selbstständig tätig sind und denen der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Feldberg (Schwarzwald) aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile"
+    },
+    "letting": [
+      {
+        "label": "Übernachtungsgeld für konzessionierte Betriebe und Privatzimmervermieter mit Einnahmen aus Übernachtung von Gästen, zunächst",
+        "quote": "beträgt der Beitrag abweichend von Absatz 1 je Übernachtung 0,32 €",
+        "perNight": {
+          "cents": 32
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 3 Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 3 Absatz 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 3 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Das Übernachtungsgeld ist 14 Tage nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld nach § 6 Absatz 2 wird 14Tage nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Hast du als konzessionierter Betrieb oder als Privatzimmervermieter Einnahmen aus der Übernachtung von Gästen, bemisst sich dein Beitrag zunächst nach der Zahl der Übernachtungen; Vorsorge- und Rehabilitationskliniken mit erheblichem Anteil an sozialversicherten Patienten sind ausgenommen.",
+        "quote": "Bei den Beitragspflichtigen die Einnahmen aus Übernachtung von Gästen (mit oder ohne Frühstück) erzielen, sowohl konzessionierte Betriebe als auch Privatzimmervermieter, mit Ausnahme solcher Beherbergungsbetriebe, die Vorsorge- oder Rehabilitationskliniken sind und die einen erheblichen Anteil an sozialversicherten Patienten haben, bemisst sich der Beitrag abweichend von Absatz 2 zunächst nach der Zahl der Übernachtungen (Übernachtungsgeld)."
+      },
+      {
+        "text": "Hast du als Privatzimmervermieter nur Umsätze aus Übernachtung, ist der Fremdenverkehrsbeitrag mit dem Übernachtungsgeld vollständig abgegolten.",
+        "quote": "Bei den Privatzimmervermietern, die nur Umsätze aus Übernachtung (mit oder ohne Frühstück) erzielen, ist mit dem Übernachtungsgeld der Fremdenverkehrsbeitrag vollständig abgegolten."
+      },
+      {
+        "text": "Hast du noch weitere Umsätze, wirst du zusätzlich nach dem Messbetrag veranlagt; ein bereits festgesetztes Übernachtungsgeld wird als Vorauszahlung angerechnet. Dann ist das Übernachtungsgeld also nicht dein ganzer Beitrag.",
+        "quote": "Beitragspflichtige die noch weitere Umsätze erzielen, unterliegen dem Fremdenverkehrsbeitrag nach Maßgabe von § 3 Absatz 1 bis 3 in Verbindung mit § 4 und § 5 dieser Satzung. Ein bereits festgesetztes Übernachtungsgeld wird als Vorauszahlung angerechnet."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 8 % des Messbetrags; beträgt der Beitrag weniger als 20 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Absatz 1 beträgt 8 von Hundert des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 20,- € beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/feldberg-schwarzwald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 390,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ]
+  }
+}

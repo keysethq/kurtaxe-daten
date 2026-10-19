@@ -1,0 +1,272 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-bevensen",
+  "name": "Stadt Bad Bevensen",
+  "short": "Bad Bevensen",
+  "ags": "03360002",
+  "state": "Niedersachsen",
+  "district": "Uelzen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Bad Bevensen (Gästebeitragssatzung) vom 03.12.2013, zuletzt geändert durch die 9. Änderungssatzung vom 12.12.2024 (Erhebungsjahre 2025 bis 2027), Fassung der Samtgemeinde Bevensen-Ebstorf",
+      "url": "https://www.bevensen-ebstorf.de/PortalData/5/Resources/system-dateien/system-dokumente/Gaestebeitragssatzung_(2025_-_2027).pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "9c3cc739f64fb7a5fe8ffcd4b13d9263d341fdbe1c76c2e1910d4800a6139ee1",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Bad Bevensen (Tourismusbeitragssatzung, TBS) vom 03.12.2013, zuletzt geändert durch die 13. Änderungssatzung vom 12.12.2024 (Erhebungsjahre 2025 bis 2027), Fassung der Samtgemeinde Bevensen-Ebstorf",
+      "url": "https://www.bevensen-ebstorf.de/PortalData/5/Resources/system-dateien/system-dokumente/Tourismusbeitragssatzung_(2025_-_2027).pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "cfc9978f65d9770030b65fe1571d1e2836aba8150b03ffc4e0ff3787486b8125",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Anzahl der Übernachtungen bemessen (Tagessatz)."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Der Tagessatz beträgt je Person 3,50 € einschließlich Umsatzsteuer."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tagessätze je Kalenderjahr",
+      "quote": "Der nach Abs. 1 zu errechnende Gästebeitrag beträgt im Kalenderjahr höchstens den in Abs. 3 festgelegten Jahresgästebeitrag. (3) Der Gästebeitragspflichtige kann anstelle des nach Übernachtungen berechneten Gästebeitrages nach Absatz 1 einen Jahresgästebeitrag in Höhe von 28 Tagessätzen zahlen"
+    },
+    "exemptions": [
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich in die häusliche Gemeinschaft aufgenommen werden, zahlen nichts.",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die im Stadtgebiet ihre alleinige oder Hauptwohnung haben oder in einem Arbeits- oder Ausbildungsverhältnis stehen, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Bettlägerig Kranke und Personen, die die Einrichtungen nicht nutzen können, zahlen nichts; das musst du nachweisen lassen.",
+        "quote": "bettlägerig Kranke oder andere Personen, die nicht in der Lage sind, die Tourismuseinrichtungen zu benutzen,"
+      },
+      {
+        "text": "Dienstleistende des Bundesfreiwilligendienstes mit Dienststelle im Ort zahlen nichts.",
+        "quote": "Dienstleistende des Bundesfreiwilligendienstes mit Dienststelle im Erhebungsgebiet,"
+      },
+      {
+        "text": "Teilnehmer an anerkannten Kongressen, Tagungen und Lehrgängen zahlen nichts, wenn sie die Einrichtungen sonst nicht nutzen können.",
+        "quote": "Teilnehmer an von der Bad Bevensen Marketing GmbH anerkannten Kongressen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen, wenn außerhalb des Veranstaltungsprogramms eine Inanspruchnahmemöglichkeit der Tourismuseinrichtungen nicht besteht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Nächte kann ein Jahresgästebeitrag von 28 Tagessätzen gezahlt werden, der für das ganze Kalenderjahr gilt.",
+        "quote": "einen Jahresgästebeitrag in Höhe von 28 Tagessätzen zahlen, der zum Aufenthalt während des ganzen Kalenderjahres berechtigt."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 70 und ihre Begleitperson zahlen die Hälfte des Tagessatzes.",
+        "quote": "Menschen mit Behinderungen, deren Grad der Behinderung (GdB) mindestens 70 beträgt, sowie, wenn sie laut amtlichem Ausweis auf ständige Begleitung angewiesen sind, eine Begleitperson, zahlen (je) die Hälfte (50%) des Tagessatzes gemäß § 4 Absatz 1."
+      },
+      {
+        "text": "Du führst über alle Gäste, auch befreite, ein tagaktuelles Gästeverzeichnis.",
+        "quote": "über alle Personen einschließlich derer, die nicht beitragspflichtig oder von der Beitragspflicht befreit sind, ein tagaktuelles und kontrollfähiges elektronisches oder manuelles Gästeverzeichnis zu führen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du das unverzüglich der Bad Bevensen Marketing GmbH, sonst haftest du für den Betrag.",
+        "quote": "Zahlungsverweigerer unverzüglich der Bad Bevensen Marketing GmbH zu melden, ansonsten haftet der Wohnungsgeber für den geschuldeten Betrag."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, nimmt die Daten bei der Anreise im elektronischen Meldeschein auf, zieht den Gästebeitrag ein und stellt die Bevensen-Card aus.",
+      "quote": "unmittelbar bei Anreise die notwendigen Daten in den elektronischen Meldeschein aufzunehmen, die Daten an die Bad Bevensen Marketing GmbH zu übertragen, den Gästebeitrag einzuziehen und die Bevensen-Card auszustellen"
+    },
+    "deadline": {
+      "text": "Den eingezogenen Gästebeitrag lieferst du nach der Abrechnung der Bad Bevensen Marketing GmbH bei ihr ab; einen festen Termin nennt die Satzung nicht.",
+      "quote": "den eingezogenen Gästebeitrag entsprechend der Abrechnung der Bad Bevensen Marketing GmbH an diese abzuliefern"
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird über das elektronische System der Bad Bevensen Marketing GmbH, das du kostenlos nutzt.",
+      "quote": "zur Erfüllung ihrer Pflichten nach dem Buchstaben a) das von der Bad Bevensen Marketing GmbH unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Bad Bevensen selbstständig Leistungen anbietest, die dem Bedarf der Touristen dienen, etwa als Vermieter einer Ferienwohnung.",
+      "quote": "Besondere wirtschaftliche Vorteile sind denen geboten, die im Stadtgebiet in selbstständiger Erwerbstätigkeit entgeltliche Leistungen im Rahmen der für den Tourismus erfolgenden Bedarfsdeckung allgemein anbieten."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungs- und Ferienhaus-Vermietung an wechselnde Gäste",
+        "quote": "A03 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 90% 18%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "A03 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 90% 18%"
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, Gasthof oder Pension (auch Privatzimmer) mit Frühstück",
+        "quote": "A02 Hotel garni; Gasthof, Pension (auch Privatzimmer), jeweils mit Frühstück 90% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "A02 Hotel garni; Gasthof, Pension (auch Privatzimmer), jeweils mit Frühstück 90% 11%"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension",
+        "quote": "Halb-/Vollpension, hier ohne Gaststätten-Betrieb (vgl. A01 90% 6%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "Halb-/Vollpension, hier ohne Gaststätten-Betrieb (vgl. A01 90% 6%"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Erholungsheim oder Schulungsheim",
+        "quote": "A04 Erholgungsheim, Schulungsheim 100% 2%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A04 Erholgungsheim, Schulungsheim 100% 2%"
+          },
+          "profit": {
+            "percent": 2
+          }
+        }
+      },
+      {
+        "label": "Sonstige Überlassung von Gästeunterkünften, etwa Wohnmobil-Stellplatz oder Campingplatz",
+        "quote": "A06 sonstige Überlassung von Gästeunterkünften (z.B. Wohnmobil-Stellplatz, Campingplatz usw.) 100% 8%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A06 sonstige Überlassung von Gästeunterkünften (z.B. Wohnmobil-Stellplatz, Campingplatz usw.) 100% 8%"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 13.24,
+      "quote": "Der Beitragssatz beträgt 13,24 v. H. des Messbetrags gemäß § 3 Absatz 1."
+    },
+    "basis": {
+      "text": "Es zählt der Umsatz ohne Umsatzsteuer, bei fehlender Umsatzsteuerpflicht die Einnahmen, und zwar grundsätzlich der des vorletzten Kalenderjahres vor dem Erhebungsjahr.",
+      "quote": "Als Umsatz im Sinne dieser Satzung gilt die Summe der Entgelte (abzüglich Umsatzsteuer) im Sinne des § 10 Absatz 1 des Umsatzsteuergesetzes, bei fehlender Umsatzsteuerpflicht die Summe der Einnahmen. Im Stadtgebiet erzielt ist der Umsatz auch, soweit die Erfüllung von Leistungspflichten außerhalb dieses Gebietes erfolgt. Maßgebend ist der Umsatz des vorletzten dem Erhebungsjahr (im Sinne von § 5) vorausgegangen Kalenderjahres (Vorvorjahres)."
+    },
+    "minimum": {
+      "text": "Liegt der Beitrag für ein Jahr unter 5,00 €, setzt die Stadt ihn vorläufig nicht fest; sie holt ihn nach, sobald mehrere Jahre zusammen mindestens 5,00 € ergeben.",
+      "quote": "Ergibt sich für das Erhebungsjahr eine Beitragsschuld von weniger als 5,00 €, so wird vorläufig von einer Beitragsfestsetzung abgesehen. Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre eine Beitragsschuld von mindestens 5,00 € ergibt."
+    },
+    "reporting": {
+      "text": "Du zeigst die Aufnahme deiner Tätigkeit innerhalb eines Monats an und machst auf Anforderung die Angaben zum Umsatz mit Nachweisen.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Stadt, vertreten durch die Samtgemeinde Bad Bevensen-Ebstorf, die Aufnahme der beitragspflichtigen Tätigkeit innerhalb eines Monats anzuzeigen. Sie haben der Samtgemeinde auf Anforderung die zur Berechnung des Beitrages erforderlichen Angaben zu machen und Nachweise zu erbringen."
+    },
+    "deadline": {
+      "text": "Die Vorausleistung und der festgesetzte Beitrag sind jeweils einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Vorausleistung und der endgültig festgesetzte Beitrag sind jeweils innerhalb eines Monats nach Bekanntgabe des jeweiligen Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Samtgemeinde Bevensen-Ebstorf setzt den Beitrag für die Stadt per Bescheid fest.",
+        "quote": "Die Heranziehung zur Vorausleistung und zum (endgültigen) Beitrag erfolgt durch schriftlichen Bescheid der Samtgemeinde Bevensen-Ebstorf."
+      },
+      {
+        "text": "Die Stadt kann schon im laufenden Jahr Vorausleistungen bis zur Höhe des voraussichtlichen Beitrags verlangen.",
+        "quote": "Die Stadt erhebt für das laufende Erhebungsjahr Vorausleistungen bis zur Höhe der voraussichtlich entstehenden Beitragsschuld."
+      },
+      {
+        "text": "Der Vorteilssatz ist der Teil deines Umsatzes, der als vom Tourismus herrührend gilt; der Gewinnsatz drückt die Gewinnmöglichkeit der Betriebsart aus.",
+        "quote": "Der Vorteilssatz bezeichnet für die einzelnen Arten der beitragspflichtigen Tätigkeit den als auf dem Tourismus beruhend geltenden Teil des Umsatzes. Er ist in der Anlage zu dieser Satzung (Betriebsartentabelle) in Spalte 3 bestimmt. (4) Der Gewinnsatz drückt die objektive Gewinnmöglichkeit der jeweiligen Betriebsart aus; er ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage zu dieser Satzung (Betriebsartentabelle) in Spalte 4 bestimmt."
+      },
+      {
+        "text": "Übst du mehrere verschiedene selbstständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbstständige Tätigkeiten aus"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-bevensen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

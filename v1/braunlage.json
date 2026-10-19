@@ -1,0 +1,161 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "braunlage",
+  "name": "Stadt Braunlage",
+  "short": "Braunlage",
+  "ags": "03153016",
+  "state": "Niedersachsen",
+  "district": "Goslar",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Braunlage (Gästebeitragssatzung) vom 15. Dezember 2023 in der Fassung der 2. Änderungssatzung vom 27. Januar 2026, Lesefassung der Stadt",
+      "url": "https://www.braunlage.city/dokumente/satzungsrecht/steuern-gebuehren-beitraege/neufassung-gaestebeitragssatzung-01.012024.pdf?cid=97y",
+      "kind": "municipality",
+      "inForce": "2026-02-01",
+      "sha256": "f29282686d5699cdb5ff20f0074126821af1f0ead8bf72cdf71b8c65445fb7c9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Er beträgt je Übernachtung einschließlich Mehrwertsteuer"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 305,
+          "quote": "Für Personen nach Vollendung des 3,05 € 18. Lebensjahres"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: a) Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 170,
+            "quote": "Für Personen von Beginn des 7. Bis zur 1,70 € Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 2,
+      "text": "Jedes zweite und weitere Kind einer Familie ist bis zum 18. Geburtstag befreit.",
+      "quote": "jedes 2. und weitere Kind einer Familie bis zur Vollendung des 18. Lebensjahres,"
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 sind befreit.",
+        "quote": "d) Schwerbehinderte , deren Grad der Behinderung 100 % beträgt."
+      },
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen, sind befreit.",
+        "quote": "wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Wer nur zur Berufsausübung oder Ausbildung im Ort ist, zahlt keinen Gästebeitrag.",
+        "quote": "Nicht gästebeitragspflichtig sind Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten ."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze können Gäste einen Jahresgästebeitrag zahlen: 91,50 € für Erwachsene, 51,00 € für Kinder und Jugendliche von 7 bis 17 Jahren.",
+        "quote": "Der Jahresgästebeitrag einschließlich Mehrwertsteuer beträgt: a. Für Personen nach Vollendung des 91,50 € 18. Lebensjahres b. Für Personen von Beginn des 7. Bis zur 51,00 € Vollendung des 18. Lebensjahres"
+      },
+      {
+        "text": "Wer Gäste beherbergt, haftet neben ihnen für Einziehung und Abführung des Gästebeitrags, auch wenn er Befreiungen zu Unrecht gewährt hat.",
+        "quote": "Jeder Wohnungsgeber haftet neben den Beitragspflichtigen für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      },
+      {
+        "text": "Du musst ein tagesaktuelles Gästeverzeichnis über alle Personen führen, auch über befreite, und vier Jahre aufbewahren.",
+        "quote": "Das Gästeverzeichnis ist 4 Jahre ab Beginn des auf die Eintragung folgenden Kalenderjahres aufzubewahren."
+      },
+      {
+        "text": "Die Gästebeitragssatzung musst du für deine Gäste gut sichtbar aushängen oder auslegen.",
+        "quote": "die Gästebeitragssatzung an einer für den Gast gut sichtbaren Stelle auszuhängen bzw. auszulegen."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 70, aber unter 100 zahlen 70 % des Gästebeitrags.",
+        "quote": "Schwerbehinderten , deren Minderung der Erwerbsfähigkeit weniger als 100 % aber mindestens 70 % beträgt, wird der Gästebeitrag auf 70 % ermäßigt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, nimmt bei der Anreise die Gästedaten im elektronischen Meldeschein auf, zieht den Gästebeitrag ein und stellt die Gästekarte aus.",
+      "quote": "unmittelbar bei Anreise die für die Erhebung des Gästebeitrages notwendigen Daten"
+    },
+    "deadline": {
+      "text": "Der eingezogene Gästebeitrag geht binnen drei Werktagen an die Tourist-Information; bei monatlicher Abrechnung binnen sieben Tagen nach Rechnungserhalt.",
+      "quote": "den eingezogenen Gästebeitrag innerhalb von 3 Werktagen an die Tourist-Information abzuliefern. Abweichend hiervon haben Wohnungsgeber mit monatlicher Gästebeitragsabrechnung den Gästebeitrag innerhalb von 7 Tagen nach Rechnungserhalt zu entrichten."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über den elektronischen Meldeschein im Gästebeitragsabrechnungssystem der Stadt, das du kostenlos nutzen musst; nur bei unbilliger Härte kann die Stadt davon befreien.",
+      "quote": "das von der Stadt Braunlage unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/braunlage/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 305,
+        "children": [
+          0,
+          170
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 2
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "thale",
+  "name": "Stadt Thale",
+  "short": "Thale",
+  "ags": "15085330",
+  "state": "Sachsen-Anhalt",
+  "district": "Harz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Thale (Gästebeitragssatzung) vom 16.12.2021, THALEKURIER 01/2022 vom 25.12.2021",
+      "url": "https://stadt.bodetal.de/fileadmin/user_upload/Dokumente/Satzungen_Verodnungen/Sonstige/Gaestebeitragssatzung___2021_12_25.pdf",
+      "kind": "gazette",
+      "inForce": "2022-01-01",
+      "sha256": "cc434b67cc7dc4ef0ed9b2e62055141757e194e903ad1af11196d17e53c2552b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung1": {
+      "title": "1. Satzung zur Änderung der Gästebeitragssatzung der Stadt Thale vom 18.11.2022, THALEKURIER 01/2023 vom 31.12.2022",
+      "url": "https://stadt.bodetal.de/fileadmin/user_upload/Dokumente/Satzungen_Verodnungen/Sonstige/ThaleKurier_2023_01__Aenderung1_Gaestebeitragssatzung.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "sha256": "7a0135a3585d1866c377af8331115ef41036553d651a156152ac5bfb6d65e41e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag rechnen als einen Tag."
+    },
+    "periods": [
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in den Monaten Januar, Februar, März, November und Dezember täglich 2,00 Euro inclusive Mehrwertsteuer"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder im Alter unter 6 Jahre,"
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "Der Gästebeitrag wird um 50 v.H. ermäßigt für: 1. Kinder und Jugendliche im Alter von 6 bis 17 Jahren,",
+            "cents": 100
+          }
+        ]
+      },
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "sowie in den Monaten April, Mai, Juni, Juli, August, September und Oktober täglich 3,00 Euro inclusive Mehrwertsteuer"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder im Alter unter 6 Jahre,"
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "Der Gästebeitrag wird um 50 v.H. ermäßigt für: 1. Kinder und Jugendliche im Alter von 6 bis 17 Jahren,",
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 3,
+      "text": "Das dritte und jedes weitere Kind bis 17 Jahre einer Familie ist befreit, wenn für zwei Kinder schon der ermäßigte Beitrag gezahlt wird.",
+      "quote": "das Dritte und jedes weitere Kind im Alter bis 17 Jahre einer Familie, wenn bereits für zwei Kinder ein ermäßigter Gästebeitrag entrichtet wird,"
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis 17 Jahre mit ihren Betreuern auf Klassenfahrten und gemeinnützigen Freizeiten",
+        "quote": "Kinder und Jugendliche bis 17 Jahre sowie deren Betreuer, die sich zu Klassenfahrten oder zu Kinder- und Jugendfreizeiten gemeinnütziger Träger im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Besucher von Einwohnern, die in deren Haushalt aufgenommen werden",
+        "quote": "Personen, die eine im Erhebungsgebiet mit Hauptwohnsitz gemeldete Person aus rein familiären oder zwischen ihnen bestehenden persönlichen Beziehungen besuchen und in deren häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Personen, die sich zur Berufsausübung, Ausbildung oder für ein freiwilliges soziales oder ökologisches Jahr im Ort aufhalten",
+        "quote": "Personen, die sich zur Berufsausübung, Ausbildung oder Ableistung eines freiwilligen sozialen oder ökologischen Jahres im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Gäste aus Partnerstädten der Stadt Thale",
+        "quote": "Gäste aus Partnerstädten der Stadt Thale,"
+      },
+      {
+        "text": "Teilnehmer an Kongressen, Tagungen und Lehrgängen, wenn sie die Einrichtungen nicht nutzen können",
+        "quote": "Teilnehmer an Kongressen, Tagungen und Lehrgängen, wenn sie keine Möglichkeit zur Nutzung der Fremdenverkehrseinrichtungen haben,"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Merkzeichen B im Schwerbehindertenausweis",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut Schwerbehindertenausweis über das Merkzeichen B verfügen und somit auf eine ständige Begleitung angewiesen sind,",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, gegen ärztliches Zeugnis",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen gegen Ausweis die Hälfte.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung laut Schwerbehindertenausweis mindestens 50 beträgt.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Die Sätze gelten für die Kernstadt Thale und die Ortsteile Allrode, Altenbrak mit Almsfeld und Wendefurth, Friedrichsbrunn, Neinstedt, Stecklenberg, Treseburg, Warnstedt, Weddersleben und Westerhausen.",
+        "quote": "Die Kernstadt Thale und die Ortsteile Allrode, Altenbrak mit Almsfeld und Wendefurth, Friedrichsbrunn, Neinstedt, Stecklenberg, Treseburg, Warnstedt, Weddersleben und Westerhausen bilden innerhalb ihrer Gemarkungsgrenzen ein Erhebungsgebiet."
+      },
+      {
+        "text": "Du haftest für die Vollständigkeit der Meldescheine sowie für die Einziehung und Überweisung der Gästebeiträge.",
+        "quote": "Für die Vollständigkeit der gegen Quittung empfangenen Meldescheine sowie für die Einziehung und die Überweisung der Gästebeiträge an die Stadt Thale haften die Vermieter sowie die vergleichbaren Personen nach Maßgabe dieser Satzung."
+      },
+      {
+        "text": "Auf Verlangen gibst du der Stadt oder der Bodetal Tourismus GmbH jederzeit Auskunft über Gäste, Aufenthaltsdauer und Zahlungspflicht und lässt Einsicht in deine Unterlagen zu.",
+        "quote": "Die Vermieter und vergleichbare Personen haben auf Verlangen der Stadt Thale oder der Bodetal Tourismus GmbH jederzeit über die Anzahl der Gäste, deren Verweildauer und Zahlungspflicht Auskunft zu erteilen und ihnen Einsicht in ihre diesbezüglichen Unterlagen zu gewähren."
+      },
+      {
+        "text": "Die Gästebeitragssatzung muss für jeden Gast bei dir zur Einsichtnahme vorliegen.",
+        "quote": "Die Gästebeitragssatzung muss für jeden Gast zur Einsichtnahme in der Beherbergungseinrichtung oder bei dem für die Gästebeitragserhebung beauftragten Personenkreis vorliegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie an und zieht den Gästebeitrag von ihnen ein.",
+      "quote": "Wer beitragspflichtige Personen nach § 2 beherbergt, ist verpflichtet, diese Personen anzumelden."
+    },
+    "deadline": {
+      "text": "Die Meldescheine des Vormonats samt unterzeichneter Erklärung über die eingezogenen Beiträge gehen bis zum zehnten Werktag des Monats an die Bodetal Tourismus GmbH; überwiesen wird spätestens einen Monat nach dem Beitragsbescheid der Stadt.",
+      "quote": "bis zum zehnten Werktag eines Monats die mit allen Angaben versehenen Meldescheine des Vormonats sowie einer unterzeichneten Erklärung mit Angabe der Summe der eingezogenen Gästebeiträge bei der Bodetal Tourismus GmbH abzuliefern."
+    },
+    "reporting": {
+      "text": "Die Gäste füllen bei der Anreise einen Meldeschein aus; du lieferst die Meldescheine monatlich bei der Bodetal Tourismus GmbH ab, soweit sie dort nicht schon elektronisch vorliegen.",
+      "quote": "es sei denn, die Meldescheine liegen bei der Bodetal Tourismus GmbH bereits elektronisch vor.",
+      "source": "aenderung1"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/thale/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          100
+        ]
+      },
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 3
+    }
+  }
+}

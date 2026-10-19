@@ -1,0 +1,393 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "trassenheide",
+  "name": "Ostseebad Trassenheide",
+  "short": "Trassenheide",
+  "ags": "13075133",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Ostseebad Trassenheide vom 03.12.2025, bekannt gemacht am 04.12.2025 auf www.amtusedomnord.de",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/2025-12-04_KurabgabesatzungThd_veroeff.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "e188dc81cd1ee9889b2f605417db20cc731e45e6bfcb36e436eaba249beee5ac",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,90 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. - 31.12. (Nebensaison): 3,50 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "ein Entgelt in Höhe von 0,20 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 10,00 Euro brutto"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "ein Entgelt in Höhe von 0,90 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 45,80 Euro brutto"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: 134,20 Euro"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. zweier Pauschalbeträge für inkludierte OPNV-Leistungen."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 3,
+          "reading": "Abgabepflichtige nach 8 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach 8 4 Abs. 3."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 5,
+          "reading": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fva": {
+      "title": "Satzung der Gemeinde Ostseebad Trassenheide über die Erhebung einer Fremdenverkehrsabgabe, Beschluss vom 02.11.2023",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/Fremdenverkehrsabgabesatzung_mS.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "ca0259f41f28b5e85bbecb95e014c46e94069cc90d8e617eb8948978ed5410d7",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvaAenderung1": {
+      "title": "1. Satzung zur Änderung der Satzung der Gemeinde Ostseebad Trassenheide über die Erhebung einer Fremdenverkehrsabgabe vom 13.12.2024",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/2024-12-13_1.Aenderungssatzung-Fremdenverkehrsabgabe_Thd.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "251f553b70cdb4c0927f1f7da5e0601a9470787c87d60c33ae43a3afa494709d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Zum Zwecke der Fremdenverkehrswerbung werden von Personen und Personenvereinigungen, denen durch den Fremdenverkehr im Gemeindegebiet (gleich Erhebungsgebiet) mittelbare oder unmittelbare Vorteile geboten werden und für die eine Anmeldung für ein Gewerbe im Erhebungsgebiet vorliegt oder die im Erhebungsgebiet eine Betriebsstätte haben, werden laufende Fremdenverkehrsabgaben gemäß 8 11 Abs. 1, Nr. 2 des Kommunalabgabengesetzes Mecklenburg-Vorpommern (KAG) erhoben.",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.remarks[8]",
+          "page": 2,
+          "reading": "b) Abgabepflichtige im Beherbergungsbereich ab 8 Gästebetten zuzüglich Aufbettungsmöglichkeiten."
+        }
+      ]
+    },
+    "fvaAenderung2": {
+      "title": "2. Satzung zur Änderung der Satzung der Gemeinde Ostseebad Trassenheide über die Erhebung einer Fremdenverkehrsabgabe vom 14.03.2025",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/2025-03-14_2.Satzung-zur-Aenderung-der-Satzung-FVA_Thd_veroeff.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "11c6cd828eaa99c9e4b8574098da984bdd1e5b95b2a9eacebf314d68473b5dd3",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 1,
+          "reading": "Ein Gästebett ist jeder einzelne feste Schlafplatz in einem Beherbergungsbetrieb, der einer Person zum Schlafen dient, sofern es sich nicht um eine Aufbettungsmöglichkeit handelt."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 1,
+          "reading": "Eine Aufbettungsmöglichkeit ist jeder einzelne Schlafplatz, z.B. zu finden auf Schlafsesseln, Doppelliegen, Schlafcouchen und allen Behelfsmöglichkeiten, die permanent in den Räumlichkeiten zur Verfügung stehen."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 390,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "b) in der Zeit vom 01.01. – 31.03. sowie vom 01.11. – 31.12. (Nebensaison): 3,50 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe schließt die gesetzliche Mehrwertsteuer ein.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Im Satz ist ein Entgelt von 0,20 € für das Shuttle-Bus-Angebot enthalten.",
+        "quote": "ein Entgelt in Höhe von 0,20 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 10,00 Euro brutto"
+      },
+      {
+        "text": "Im Satz ist ein Entgelt von 0,90 € für die Bahn enthalten.",
+        "quote": "ein Entgelt in Höhe von 0,90 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 45,80 Euro brutto"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurabgabe von 134,20 €.",
+        "quote": "Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: 134,20 Euro"
+      },
+      {
+        "text": "Die Jahreskurabgabe wird aus 28 Tagessätzen der Hauptsaison berechnet, zuzüglich zweier Pauschalbeträge für die enthaltenen ÖPNV-Leistungen.",
+        "quote": "Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. zweier Pauschalbeträge für inkludierte ÖPNV-Leistungen."
+      },
+      {
+        "text": "Eigentümer oder Besitzer einer Wohnung, die sie überwiegend zur Erholung nutzen, sowie Dauercamper und Dauerlieger zahlen die Jahreskurabgabe unabhängig von ihrer Aufenthaltsdauer.",
+        "quote": "Abgabepflichtige nach § 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach § 4 Abs. 3."
+      },
+      {
+        "text": "Die Kurabgabesatzung musst du für deine Gäste sichtbar auslegen.",
+        "quote": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Trassenheide mittelbare oder unmittelbare Vorteile bietet und für dich eine Anmeldung für ein Gewerbe im Erhebungsgebiet vorliegt oder du dort eine Betriebsstätte hast.",
+      "quote": "Zum Zwecke der Fremdenverkehrswerbung werden von Personen und Personenvereinigungen, denen durch den Fremdenverkehr im Gemeindegebiet (gleich Erhebungsgebiet) mittelbare oder unmittelbare Vorteile geboten werden und für die eine Anmeldung für ein Gewerbe im Erhebungsgebiet vorliegt oder die im Erhebungsgebiet eine Betriebsstätte haben, werden laufende Fremdenverkehrsabgaben gemäß § 11 Abs. 1, Nr. 2 des Kommunalabgabengesetzes Mecklenburg-Vorpommern (KAG) erhoben.",
+      "source": "fvaAenderung1"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbereich bis zu 7 Gästebetten",
+        "quote": "bis zu 7 Gästebetten je Gästebett 7,00 € / Bett",
+        "flat": {
+          "cents": 700,
+          "per": "Gästebett"
+        }
+      },
+      {
+        "label": "Beherbergungsbereich ab 8 Gästebetten",
+        "quote": "ab 8 Gästebetten je Gästebett 8,00 € / Bett",
+        "flat": {
+          "cents": 800,
+          "per": "Gästebett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 30. November jedes Jahres teilst du der Kurverwaltung Ostseebad Trassenheide mit, was sie für die Berechnung des Folgejahres braucht, spätestens bei Inbetriebnahme.",
+      "quote": "die erforderlichen Angaben zur Berechnung der Abgabe für das Folgejahr bis zum 30. November eines jeden Jahres mitzuteilen, spätestens bei Inbetriebnahme."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids, in einer Summe.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheid fällig und ist in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Aufzählung der Abgabepflichtigen nennt auch Vermieter von Ferienhäusern, Ferienwohnungen und Ferienzimmern, auch die, die der Gewerbeanmeldungspflicht nicht unterliegen; bist du unsicher, ob das auf dich zutrifft, frag die Kurverwaltung.",
+        "quote": "sonstige Personen, die Kurgäste und Erholungssuchende gegen ein Entgelt beherbergen, einschließlich Vermieter von Ferienhäusern, Ferienwohnungen und Ferienzimmern, auch die, die der Gewerbeanmeldungspflicht nicht unterliegen"
+      },
+      {
+        "text": "Als Gästebett zählt jeder einzelne feste Schlafplatz in einem Beherbergungsbetrieb, der einer Person zum Schlafen dient, sofern es keine Aufbettungsmöglichkeit ist.",
+        "quote": "Ein Gästebett ist jeder einzelne feste Schlafplatz in einem Beherbergungsbetrieb, der einer Person zum Schlafen dient, sofern es sich nicht um eine Aufbettungsmöglichkeit handelt.",
+        "source": "fvaAenderung2"
+      },
+      {
+        "text": "Für jede Aufbettungsmöglichkeit kommen 5,00 € im Jahr dazu.",
+        "quote": "je Aufbettungsmöglichkeit 5,00 / Bett"
+      },
+      {
+        "text": "Als Aufbettungsmöglichkeit zählt jeder einzelne Schlafplatz, zum Beispiel auf Schlafsesseln, Doppelliegen, Schlafcouchen und allen Behelfsmöglichkeiten, die dauerhaft in den Räumen zur Verfügung stehen.",
+        "quote": "Eine Aufbettungsmöglichkeit ist jeder einzelne Schlafplatz, z.B. zu finden auf Schlafsesseln, Doppelliegen, Schlafcouchen und allen Behelfsmöglichkeiten, die permanent in den Räumlichkeiten zur Verfügung stehen.",
+        "source": "fvaAenderung2"
+      },
+      {
+        "text": "Die Abgabe fällt unabhängig davon an, ob du ganzjährig vermieten kannst.",
+        "quote": "Die Abgabe entsteht unabhängig von einer ganzjährigen Nutzungsmöglichkeit."
+      },
+      {
+        "text": "Fängst du nach dem 1. August mit der Vermietung an, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabenpflichtigen Tätigkeit nach dem 01. August eines Jahres, so kann die Jahresabgabe auf Antrag um 50 von Hundert ermäßigt werden."
+      },
+      {
+        "text": "Wenn du bis zum 31. Oktober nichts änderst oder ergänzt, legt die Kurverwaltung deine bisherigen Angaben zugrunde.",
+        "quote": "Wenn bis zum 31. Oktober keine Änderung oder Ergänzung der vormaligen Angaben seitens des Abgabepflichtigen erfolgt, werden die bisherigen Angaben der Heranziehung zugrunde gelegt."
+      },
+      {
+        "text": "Die Kurverwaltung Ostseebad Trassenheide als Eigenbetrieb der Gemeinde berechnet und erhebt die Abgabe per Bescheid.",
+        "quote": "Die Heranziehung erfolgt durch mehrjährigen, elektronischen schriftlichen Bescheid der Kurverwaltung Ostseebad Trassenheide als Eigenbetrieb der Gemeinde Ostseebad Trassenheide."
+      },
+      {
+        "text": "Die 1. Änderung der Satzung hat den zweiten Beherbergungsbereich klargestellt: Er beginnt bei 8 Gästebetten.",
+        "quote": "b) Abgabepflichtige im Beherbergungsbereich ab 8 Gästebetten zuzüglich Aufbettungsmöglichkeiten.",
+        "source": "fvaAenderung1"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/trassenheide/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 390,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-steben",
+  "name": "Bad Steben",
+  "short": "Bad Steben",
+  "ags": "09475112",
+  "state": "Bayern",
+  "district": "Hof",
+  "sources": {
+    "satzung": {
+      "title": "Verordnung über die Erhebung der Kurtaxe (KurtaxV) vom 2. September 2013, GVBl. S. 582 (Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2013)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2013/18/gvbl-2013-18.pdf",
+      "kind": "gazette",
+      "inForce": "2013-11-01",
+      "sha256": "6da9c5129816ebf246e360ffe88f3fa3f2e92d6ee809bac8b13f3e167e0378d0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung2024": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 24. Juli 2024, GVBl. S. 391 (Anlage 2, Höhe der Kurtaxe)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2024/15/gvbl-2024-15.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "26c35d326571915646c6d39d218e2cbc9895c608b595cff19d74391d2257c7a5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung2026": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 3. September 2026, GVBl. S. 593 (neue Anlage 2 ab 1. Januar 2027)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages des Marktes Bad Steben [101.10] vom 9. Oktober 2001",
+      "url": "https://www.markt-badsteben.de/wp-content/uploads/2016/07/101.10-Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2002-01-01",
+      "textLayer": "broken",
+      "changedOn": "2026-10-15",
+      "sha256": "0511640f55b30287ad8f1720568dcaab1c6092985b94765eaff3882772d049da",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Beitragssatz beträgt 5 v.H."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß $ 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß 8 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 1,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 2,
+          "reading": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5 vH. 0,0625 v.H. über 5 - 10 v.H. 0,1875 v.H. über 10 - 15 v.H. 0,3125 v.H. über 15 - 20 v.H. 0,4375 v.H. über 20 v.H. 0,6250 v.H."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellug des Bescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mlindestbeitrag (Absatz 5) multipliziert wird."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat am 1.7. jeden Jahres eine Vorauszahlung zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Betrag für jede Tätigkeit gesondert zu berechnen."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurtaxe für den Abreisetag ist mit der Kurtaxe für den Anreisetag abgegolten."
+    },
+    "area": {
+      "text": "Die Kurtaxe gilt nur im Kurbezirk, den Gemeindeteilen Bad Steben und Obersteben; im übrigen Marktgebiet fällt keine an.",
+      "quote": "Der Kurbezirk umfasst vom Gebiet des Markts Bad Steben die Gemeindeteile Bad Steben und Obersteben."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 340,
+          "quote": "2. Bad Steben: 2.1 Normalsatz 3,40",
+          "source": "aenderung2024",
+          "next": {
+            "cents": 350,
+            "quote": "2. Bad Steben: 2.1 Normalsatz 3,50",
+            "source": "aenderung2026"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung ihres 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Die Kurtaxe wird nach der Anzahl der Aufenthaltstage berechnet, längstens jedoch für 42 Tage im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Bis 31. Dezember 2026 zahlen Menschen mit einem Grad der Behinderung von mindestens 50 gegen Vorlage des Ausweises 2,90 € je Aufenthaltstag.",
+        "quote": "2. Bad Steben: 2.1 Normalsatz 3,40 2.2 Gäste gemäß § 4 Abs. 2 Nr. 1 2,90",
+        "source": "aenderung2024"
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die laut Ausweis auf ständige Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, welche laut amtlichem Ausweis auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Wer ohne Entgelt aus rein familiärem Anlass bei Verwandten wohnt, ist nicht kurtaxpflichtig.",
+        "quote": "Unterkunft im vorgenannten Sinn nimmt nicht, wer ohne Zahlung eines Entgelts aus rein familiärem Anlass bei Verwandten wohnt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ab 1. Januar 2027 zahlen Menschen mit einem Grad der Behinderung ab 50 3,00 € statt 2,90 €. Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,75 € statt 1,70 €.",
+        "quote": "2.2 Gäste gemäß § 4 Abs. 2 Nr. 1 3,00 2.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,75",
+        "source": "aenderung2026"
+      },
+      {
+        "text": "Die Kurtaxe ist ein Landesbeitrag des Staatsbads; festgesetzt und erhoben wird sie von der Bayerischen Staatsbad Bad Steben GmbH.",
+        "quote": "im Staatsbad Bad Steben von der Bayerischen Staatsbad Bad Steben GmbH"
+      },
+      {
+        "text": "Du darfst die abzuführende Kurtaxe deinem Gast in Rechnung stellen und haftest neben ihm für die Zahlung.",
+        "quote": "Die zur Erhebung Verpflichteten sind berechtigt, die abzuführende Kurtaxe der kurtaxpflichtigen Person in Rechnung zu stellen."
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": "aenderung2026"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt die Meldedaten, stellt jedem Gast eine Gastkarte aus, behält die Kurtaxe ein und führt sie an das Staatsbad ab.",
+      "quote": "Die nach Abs. 1 Verpflichteten haben die Kurtaxe einzubehalten und an die Erhebungsberechtigte abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes, wenn das Staatsbad nicht die Abführung zum Monatsende zulässt.",
+      "quote": "Die Abführung ist spätestens einen Tag nach der Abreise der kurtaxpflichtigen Person vorzunehmen."
+    },
+    "reporting": {
+      "text": "Die Meldedaten übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch oder legst die Meldescheine vor; ab zehn Betten ist der elektronische Weg Pflicht.",
+      "quote": "der Erhebungsberechtigten spätestens am dritten Werktag nach deren Eintreffen im Kurbezirk auf elektronischem Wege zu übermitteln bzw. die Meldescheine oder das elektronische Handgerät in den Geschäftsräumen der Erhebungsberechtigten vorzulegen.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Steben Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,0625 und 0,6250 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5 v.H. 0,0625 v.H. über 5 - 10 v.H. 0,1875 v.H. über 10 - 15 v.H. 0,3125 v.H. über 15 - 20 v.H. 0,4375 v.H. über 20 v.H. 0,6250 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn der Markt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellug des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitrag multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitrag (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 1. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 1.7. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Betrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-steben/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 350,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

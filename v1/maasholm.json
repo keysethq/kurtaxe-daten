@@ -1,0 +1,141 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "maasholm",
+  "name": "Maasholm",
+  "short": "Maasholm",
+  "ags": "01059142",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Maasholm vom 15.12.2014, Lesefassung mit der 1. Änderungssatzung vom 12.12.2019",
+      "url": "https://www.amt-geltingerbucht.de/fileadmin/download/gemeinden/maasholm/ortsrecht/finanzen-steuern/06_5700_ta.pdf",
+      "kind": "municipality",
+      "inForce": "2020-01-01",
+      "sha256": "28362b164efce47656bacc449a6943a276a66b49edbd5ee530fef626631a8173",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Maasholm",
+      "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/maasholm/ortsrecht",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "30aae71b93541c084f82c5dc2381c1b2d8fab253c654bfb066705233f5ddbcc3",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Maasholm steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Maasholm",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Zahlen müssen alle selbständig Tätigen, denen der Tourismus in Maasholm unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Abgabepflichtig sind alle selbständig tätigen natürlichen und juristischen Personen, denen durch den Tourismus in der Gemeinde Maasholm unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Fremdenbetten-Vermietung (Vorteilsstufe 4)",
+        "quote": "Fremdenbetten-Vermietung 4 Betten",
+        "units": {
+          "count": 4,
+          "per": "Bett",
+          "value": {
+            "cents": 2500,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 25,-€"
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Du teilst der Gemeinde bis zum 1. Juni jedes Jahres die Angaben mit, die sie für die Berechnung braucht.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde bis zum 1. Juni jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe wird in vier Raten fällig, am 15. Februar, 15. Mai, 15. August und 15. November.",
+      "quote": "Die Abgabe ist jeweils in Vierteljahresraten am 15. Februar, 15. Mai, 15. August und 15. November fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Fremdenbetten-Vermietung steht in der Anlage 4, also in Vorteilsstufe 4.",
+        "quote": "Vorteilsstufe 4: Anlage 4 zu § 8 Abs. 2d)"
+      },
+      {
+        "text": "Hast du mehr oder weniger Betten als die Satzung je Vorteilseinheit ansetzt, wird anteilig gerechnet.",
+        "quote": "Der als Vorteilseinheit zugrunde gelegte Bemessungsmaßstab ist bei einer Über- oder Unterschreitung anteilig zu berücksichtigen."
+      },
+      {
+        "text": "Eröffnest oder vergrößerst du zwischen dem 1. Juni und dem 30. September einen Betrieb, wirst du nachveranlagt.",
+        "quote": "Abgabepflichtige, die zwischen dem 1. Juni und dem 30. September eines Jahres einen Betrieb eröffnen oder vergrößern, werden nachveranlagt."
+      },
+      {
+        "text": "Gehen deine Angaben nicht ein, kann die Berechnungsgrundlage geschätzt werden.",
+        "quote": "Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+      },
+      {
+        "text": "Bei besonderen Verhältnissen, die die Leistungsfähigkeit eines Abgabepflichtigen außerordentlich beeinträchtigen, kann die Abgabe ganz oder teilweise erlassen werden.",
+        "quote": "Liegen besondere Verhältnisse vor, die die Leistungsfähigkeit eines Abgabepflichtigen in außerordentlichem Maße beeinträchtigen, so kann die Abgabe aus Billigkeitsgründen ganz oder teilweise erlassen werden."
+      },
+      {
+        "text": "Fängst du mit der Vermietung an, zeigst du das der Gemeinde an; wer die Aufnahme der Tätigkeit nicht anzeigt oder verlangte Angaben nicht macht, begeht eine Ordnungswidrigkeit.",
+        "quote": "Wer entgegen § 10 Abs. 1 dieser Satzung der Gemeinde die Aufnahme der abgabenpflichtigen Tätigkeit nicht anzeigt oder auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe nicht oder nicht vollständig mitteilt, begeht eine Ordnungswidrigkeit"
+      },
+      {
+        "text": "Lässt sich die Abgabe nicht mehr in Vierteljahresraten aufteilen, ist sie innerhalb von sieben Tagen nach Zustellung des Bescheids in einer Summe fällig.",
+        "quote": "ist die Abgabe innerhalb von sieben Tagen nach Zustellung des Heranziehungsbescheides fällig und bei der Amtskasse in einer Summe zu entrichten, sofern eine Aufteilung in Vierteljahresraten nicht mehr möglich ist."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/maasholm/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Fremdenbetten-Vermietung (Vorteilsstufe 4)",
+        "cents": 10000,
+        "per": 4,
+        "unit": "Betten",
+        "rate": "25,00 € je Bett im Jahr."
+      }
+    ]
+  }
+}

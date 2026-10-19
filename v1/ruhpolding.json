@@ -1,0 +1,255 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ruhpolding",
+  "name": "Gemeinde Ruhpolding",
+  "short": "Ruhpolding",
+  "ags": "09189140",
+  "state": "Bayern",
+  "district": "Traunstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung des Kurbeitrages (KBS) der Gemeinde Ruhpolding vom 08.01.2024 (Scan)",
+      "url": "https://www.ruhpolding-rathaus.de/fileadmin/ruhpolding/_Rathaus/Rathause_Service/Buergerservice/Satzungen/07_Fremdenverkehrsbeitragssatzung/Satzung_Kurbeitrag_vom_08.01.2024.pdf",
+      "kind": "statute",
+      "inForce": "2024-03-01",
+      "sha256": "03c645fe29316cade2eb19754d8c8a01658407d76fc50fd36feb84ef0bdd9509",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) Für Personen ab dem vollendeten 16. Lebensjahr 2,90 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "c) Für Kinder bis zur Vollendung des 6. Lebensjahres 0,00 €"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,70€"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,70€"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Bei Personen, die sich unentgeltlich bei nahen Verwandten aufhalten, die im Gemeindegebiet ansässig sind."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Begleitpersonen von Schwerbehinderten, welche laut Ausweis auf ständige Begleitung (Merkzeichen B) angewiesen sind."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Bei Sportlern aus Deutschland, die jeweils offiziell durch den jeweiligen Bundes- oder Landesverband ihrer Sportart gefördert werden (Bundes- oder Landeskader)"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 1,
+          "reading": "Bei Auszubildenden und Praktikanten in anerkannten Ausbildungsberufen, die sich ausschließlich aus Anlass ihrer Berufsausbildung in der Gemeinde aufhalten"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 1,
+          "reading": "Bei Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung in der Gemeinde aufhalten"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Diese entrichten pro Person einen reduzierten Kurbeitrag in Höhe von 1,55€"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Diese entrichten pro Person einen reduzierten Kurbeitrag in Höhe von 1,00 €"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "unmittelbar an das Ruhpolding Tourismus Kommunalunternehmen AdöR der Gemeinde Ruhpolding (kurz: RTK) zu entrichten."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Für die Meldung mittels Formblatt legt das RTK eine Bearbeitungsgebühr von 3,50 € fest und hebt diese von den Beherbergungsbetrieben ein."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweilig gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem RTK gegenüber für den vollständigen Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an das RTK abzuführen. Das RTK kann zulassen, dass der Betrag erst mit Zustellung des Kurbeitragsbescheides abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "dem RTK die Beitragspflichtigen bei digitaler Meldung am Tag der Anreise zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 290,
+          "quote": "a) Für Personen ab dem vollendeten 16. Lebensjahr 2,90 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "c) Für Kinder bis zur Vollendung des 6. Lebensjahres 0,00 €"
+          },
+          {
+            "underAge": 16,
+            "cents": 170,
+            "quote": "b) Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,70 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer unentgeltlich bei nahen Verwandten (Eltern, Großeltern, Kinder, Enkel, Geschwister, Nichten, Neffen und deren Ehegatten) wohnt, die in Ruhpolding ansässig sind",
+        "quote": "Bei Personen, die sich unentgeltlich bei nahen Verwandten aufhalten, die im Gemeindegebiet ansässig sind."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, deren Ausweis das Merkzeichen B enthält",
+        "quote": "Begleitpersonen von Schwerbehinderten, welche laut Ausweis auf ständige Begleitung (Merkzeichen B) angewiesen sind."
+      },
+      {
+        "text": "Geförderte Sportler im Bundes- oder Landeskader bei Lehrgängen und Wettkämpfen ihres Verbands",
+        "quote": "Bei Sportlern aus Deutschland, die jeweils offiziell durch den jeweiligen Bundes- oder Landesverband ihrer Sportart gefördert werden (Bundes- oder Landeskader)"
+      },
+      {
+        "text": "Auszubildende und Praktikanten in anerkannten Ausbildungsberufen, wenn sie nur wegen der Ausbildung hier sind",
+        "quote": "Bei Auszubildenden und Praktikanten in anerkannten Ausbildungsberufen, die sich ausschließlich aus Anlass ihrer Berufsausbildung in der Gemeinde aufhalten"
+      },
+      {
+        "text": "Wer sich ausschließlich beruflich in der Gemeinde aufhält, mit formloser Bestätigung des Arbeit- oder Auftraggebers",
+        "quote": "Bei Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen gegen Ausweis 1,55 €.",
+        "quote": "Diese entrichten pro Person einen reduzierten Kurbeitrag in Höhe von 1,55€"
+      },
+      {
+        "text": "Teilnehmer an Schüler- und Jugendlagern, etwa in Landschulheimen, zahlen 1,00 €.",
+        "quote": "Diese entrichten pro Person einen reduzierten Kurbeitrag in Höhe von 1,00 €"
+      },
+      {
+        "text": "Erhoben wird der Kurbeitrag vom Ruhpolding Tourismus Kommunalunternehmen (RTK), nicht von der Gemeinde selbst.",
+        "quote": "unmittelbar an das Ruhpolding Tourismus Kommunalunternehmen AdöR der Gemeinde Ruhpolding (kurz: RTK) zu entrichten."
+      },
+      {
+        "text": "Meldest du auf Papier statt digital, verlangt das RTK von dir eine Bearbeitungsgebühr von 3,50 € je Meldung.",
+        "quote": "Für die Meldung mittels Formblatt legt das RTK eine Bearbeitungsgebühr von 3,50 € fest und hebt diese von den Beherbergungsbetrieben ein."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweilig gesetzliche Umsatzsteuer enthalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet dem RTK für den vollständigen Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem RTK gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes oder bei späterer Meldung mit ihr; das RTK kann zulassen, dass erst mit dem Kurbeitragsbescheid gezahlt wird.",
+      "quote": "spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an das RTK abzuführen. Das RTK kann zulassen, dass der Betrag erst mit Zustellung des Kurbeitragsbescheides abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du digital am Anreisetag beim RTK; auf Antrag ist bei unbilliger Härte keine elektronische Meldung nötig.",
+      "quote": "dem RTK die Beitragspflichtigen bei digitaler Meldung am Tag der Anreise zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ruhpolding/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 290,
+        "children": [
+          0,
+          170
+        ]
+      }
+    ]
+  }
+}

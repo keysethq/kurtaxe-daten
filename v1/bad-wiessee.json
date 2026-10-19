@@ -1,0 +1,274 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-wiessee",
+  "name": "Gemeinde Bad Wiessee",
+  "short": "Bad Wiessee",
+  "ags": "09182111",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Neufassung der Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Bad Wiessee vom 13. Dezember 2024",
+      "url": "https://www.gemeinde.bad-wiessee.de/loadDocument.phtml?FID=3732.893.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "b9b2682e5cc5e0db4e58a33660721000da7099c4bed0b5049e5c0e36140a2ae0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Wiessee vom 28.11.2007",
+      "url": "https://www.gemeinde.bad-wiessee.de/loadDocument.phtml?FID=3732.214.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2008-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "31fcbb5ffbc0bed52a29419c4ee0bdbb7d31798d92909827f5098b7a206a8a47",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch Den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 1,
+          "reading": "Der Beitragssatz beträgt 5 v. H."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz (Nettoumsatz) innerhalb eines Kalenderjahres. Der Beitragsschuld wird gemäß $ 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß 8 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes (Nettoumsatzes) ein höherer Betrag ergibt."
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 1,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind Insbesondere Art und Umfang der selbständigen Tätigkeit die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 2,
+          "reading": "Der Mindestbeitragssatz beträgt bei einem (durch Schätzung zur ermittelnden) branchendurchschnittlichen Anteil des Gewinns am Umsatz (Nettoumsatz) von 0- 5v.H. 0,06 v.H. über 5-10v.H. 0,19 v.H. über 10 - 15 v.H. 0,31 v.H. über 15-20 v.H. 0,44 v.H. über 20 v.H. 0,63 v.H."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat Nach Zustellung des Bescheids fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Der Beitrag nach dem steuerbaren Umsatz (Nettoumsatz) errechnet sich, indem der steuerbare Umsatz (Nettoumsatz) mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat am 15. August jeden Jahres eine Vorauszahlung zu Entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag für Personen ab dem vollendeten 16. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr,"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "cents": 150,
+            "quote": "Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen einen nach § 4 Abs. 2 ermäßigten Kurbeitragssatz von 50 v. H. pro Aufenthaltstag."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbehinderten mit dem Merkzeichen B",
+        "quote": "notwendige Begleitpersonen für Schwerbehinderte"
+      },
+      {
+        "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
+        "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte ab einem Grad der Behinderung von 50 zahlen wie Jugendliche die Hälfte.",
+        "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen einen nach § 4 Abs. 2 ermäßigten Kurbeitragssatz von 50 v. H. pro Aufenthaltstag."
+      },
+      {
+        "text": "Das Gebiet oberhalb von 850 Metern über dem Meer gehört nicht zum Kurgebiet.",
+        "quote": "Kurgebiet ist das Gemeindegebiet mit Ausnahme des höher als 850 Meter"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Jeder Gast bekommt von dir als Beherbergungsbetrieb eine elektronisch lesbare Gästekarte als Nachweis.",
+        "quote": "erhält der Beitragspflichtige vom Beherbergungsbetrieb eine elektronisch lesbare Gästekarte"
+      },
+      {
+        "text": "Mit mehr als 9 Betten ist die elektronische Meldung Pflicht; sonst kannst du die Meldescheine vorlegen.",
+        "quote": "mehr als 9 Betten, so ist die elektronische Datenübermittlung nach den Maßgaben des Abs. 3 verpflichtend."
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde Bad Wiessee kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde Bad Wiessee gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise"
+    },
+    "reporting": {
+      "text": "Die Angaben deiner Gäste übermittelst du unverzüglich, spätestens am Tag nach der Anreise, elektronisch an die Gemeinde.",
+      "quote": "spätestens am Tag nach der Anreise auf elektronischen Wege nach Maßgabe des Abs. 3 zu übermitteln"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Wiessee Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch Den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz (Nettoumsatz) innerhalb eines Kalenderjahres. Der Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes (Nettoumsatzes) ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,06 und 0,63 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem (durch Schätzung zur ermittelnden) branchendurchschnittlichen Anteil des Gewinns am Umsatz (Nettoumsatz) von 0- 5v.H. 0,06 v.H. über 5-10v.H. 0,19 v.H. über 10 - 15 v.H. 0,31 v.H. über 15-20 v.H. 0,44 v.H. über 20 v.H. 0,63 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat Nach Zustellung des Bescheids fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz (Nettoumsatz) wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz (Nettoumsatz) errechnet sich, indem der steuerbare Umsatz (Nettoumsatz) mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. August jeden Jahres eine Vorauszahlung zu Entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-wiessee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

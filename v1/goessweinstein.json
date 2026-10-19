@@ -1,0 +1,270 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "goessweinstein",
+  "name": "Markt Gößweinstein",
+  "short": "Gößweinstein",
+  "ags": "09474129",
+  "state": "Bayern",
+  "district": "Forchheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung des Marktes Gößweinstein für die Erhebung eines Kurbeitrages (Kurbeitragssatzung), Scan auf der Website des Marktes",
+      "url": "https://www.goessweinstein.de/fileadmin/Gemeinde/Verwaltung/Satzungen_Verordnungen/Kurbeitrags-Satzung.pdf",
+      "kind": "municipality",
+      "inForce": "2020-05-01",
+      "sha256": "e9cfa96c06603f5543f5ba1cb80776d60aab08adb4a8edc39639236c86cc30b9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Der Beitrag beträgt pro Aufenthaltstag 1. für Personen ab dem vollendeten 14. Lebensjahr 1,00 €,"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 14. Lebensjahres und notwendige Begleitpersonen der Schwerbehinderten nach Nr. 2. Mit einem entsprechenden Ausweissind kurbeitragsfrei."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "2. für Schwerbehinderte, deren Grad der Behinderung mindestens 80 beträgt 0,50 €,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 14. Lebensjahres und notwendige Begleitpersonen der Schwerbehinderten nach Nr. 2. Mit einem entsprechenden Ausweissind kurbeitragsfrei."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Kurgebiet ist das gesamte Marktgemeindegebiet Gößweinstein."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an den Markt abzuführen."
+        }
+      ]
+    },
+    "aenderung": {
+      "title": "Satzung zur Änderung der Satzung des Marktes Gößweinstein für die Erhebung eines Kurbeitrages (Kurbeitragssatzung) vom 02.03.2026, in Kraft ab 15.03.2026",
+      "url": "https://www.goessweinstein.de/fileadmin/Gemeinde/Verwaltung/Satzungen_Verordnungen/Satzung_zur_%C3%84nderung_der_Satzung_des_Marktes_G%C3%B6%C3%9Fweinstein_f%C3%BCr_die_Erhebung_eines_Kurbeitrages__Kurbeitragssatzung__vom_08.04.2020.1pdf.pdf",
+      "kind": "municipality",
+      "inForce": "2026-03-15",
+      "sha256": "6e751a5ae93f99520999df49b678b296be242d39148734776165c06dde9bf175",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages im Markt Gößweinstein vom 30.09.1997",
+      "url": "https://www.goessweinstein.de/fileadmin/Gemeinde/Verwaltung/Satzungen_Verordnungen/Fremdenverkehrs-Beitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2015-06-01",
+      "changedOn": "2026-10-15",
+      "sha256": "6fbb5bf45101c5d53862d0ee6fb1885a05d468b37006fe03819ac9c396b52d22",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Beitragssatz beträgt 4 v.H."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "wenn sich nicht gemäß $ 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 2,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 1,
+          "reading": "Umsatz mit dem Vorteilsatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheids fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 5,
+          "reading": "Der Beitragsschuldner hat eine Vorauszahlung einen Monat nach Zustellung des Bescheides in Höhe des festgesetzten Vorauszahlungsbetrages zu entrichten."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag 1. für Personen ab dem vollendeten 14. Lebensjahr 1,00 €,"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 14. Lebensjahres und notwendige Begleitpersonen der Schwerbehinderten nach Nr. 2. Mit einem entsprechenden Ausweis sind kurbeitragsfrei."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 0,50 €",
+        "quote": "2. für Schwerbehinderte, deren Grad der Behinderung mindestens 80 beträgt 0,50 €,"
+      },
+      {
+        "text": "Notwendige Begleitpersonen von Menschen mit einem Grad der Behinderung ab 80, mit entsprechendem Ausweis",
+        "quote": "Kinder bis zur Vollendung des 14. Lebensjahres und notwendige Begleitpersonen der Schwerbehinderten nach Nr. 2. Mit einem entsprechenden Ausweis sind kurbeitragsfrei."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag gilt im gesamten Marktgemeindegebiet.",
+        "quote": "Kurgebiet ist das gesamte Marktgemeindegebiet Gößweinstein."
+      }
+    ],
+    "hostDuty": {
+      "text": "Beherbergungsbetriebe heben den Kurbeitrag ein und haften der Gemeinde für den vollständigen Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an den Markt abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch über das Verfahren der Gemeinde bis 12 Uhr am Tag nach der Anreise oder schriftlich bis zum 5. Werktag des Folgemonats nach der Abreise.",
+      "quote": "die Beitragspflichtigen und deren in § 5 Abs. 1 Satz 2 bestimmten Angaben bis spätestens 12:00 Uhr am Tag nach der Anreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens oder spätestens bis zum 5. Werktag des Folgemonats ab deren Abreise schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben.",
+      "source": "aenderung"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt der Markt für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 4,
+      "quote": "Der Beitragssatz beträgt 4 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Umsatz mit dem Vorteilsatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird"
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn der Markt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheids fällig."
+    },
+    "remarks": [
+      {
+        "text": "Eine Vorauszahlung ist einen Monat nach Zustellung des Bescheids in der festgesetzten Höhe zu entrichten.",
+        "quote": "Der Beitragsschuldner hat eine Vorauszahlung einen Monat nach Zustellung des Bescheides in Höhe des festgesetzten Vorauszahlungsbetrages zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/goessweinstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

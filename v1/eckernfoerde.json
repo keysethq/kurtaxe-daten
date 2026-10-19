@@ -1,0 +1,456 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "eckernfoerde",
+  "name": "Stadt Eckernförde",
+  "short": "Eckernförde",
+  "ags": "01058043",
+  "state": "Schleswig-Holstein",
+  "district": "Rendsburg-Eckernförde",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Eckernförde über die Erhebung von Kurabgaben vom 19.02.2020 (Scan der Stadt)",
+      "url": "https://www.eckernfoerde.de/media/custom/2460_2116_1.PDF?1614831338",
+      "kind": "statute",
+      "inForce": "2020-03-01",
+      "sha256": "d78853d3a79674fb0cb1450d4494b10824a7c9e42025fa3411a10ddbf42eeada",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 % und mehr nachweisen, sowie für die ständige Begleitperson, wenn dies durch den Eintrag \"B\" auf der Vorderseite des Behindertenausweises vermerkt ist."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die in Ausübung ihres Dienstes, Berufes, Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesend sind."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Teilnehmer/innen an den von der Stadt Eckernförde oder der Eckernförde Touristik und Marketing GmbH (ETMG) anerkannten Tagungen, Kongressen, Lehrgängen und sonstigen Veranstaltungen, sofern die Veranstaltung vor Eintreffen der Teilnehmer/innen im Stadtgebiet bei der ETMG angemeldet wird."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Bettlägerige Kranke und verletzte Personen, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Person aufgenommen sind."
+        },
+        {
+          "where": "exemptions[5]",
+          "page": 2,
+          "reading": "Eigentümer/innen von Wohneinheiten (Wohnhaus, Ferienhaus, Sommerhaus, Wochenendhaus, Wohnungen, Appartement, o. ä. Einrichtungen) in Eckernförde sowie von in Eckernförde dauerhaft liegenden Sportbooten und deren Familienangehörige, die ihren gewöhnlichen Aufenthalt nicht im Erhebungsgebiet haben."
+        },
+        {
+          "where": "exemptions[6]",
+          "page": 2,
+          "reading": "Personen, die aufgrund eines Todesfalls im Erhebungsgebiet anwesend sind."
+        },
+        {
+          "where": "exemptions[7]",
+          "page": 1,
+          "reading": "Das gilt nicht für Personen, die im Erhebungsgebiet in einem Arbeits- oder Ausbildungsverhältnis stehen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 5,
+          "reading": "Das elektronische Meldescheinverfahren ist für alle Unterkunftsgeber/innen in der Stadt Eckernförde verpflichtend. Nur in Härtefällen kann eine Ausnahme bei der ETMG beantragt werden."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 6,
+          "reading": "Eine Teilnahme am elektronischen Meldescheinverfahren setzt voraus, dass die oder der Unterkunftsgeberin der ETMG ein SEPA-Lastschriftmandat zum Einzug der Kurabgabenforderung erteilt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 6,
+          "reading": "Die Abbuchung der jeweiligen Kurabgaben wird frühestens zwei Wochen nach dem Abreisetag der betroffenen Gäste durch das System vorgenommen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "erhalten im Falle des vorzeitigen Abbruchs ihres vorgesehenen Aufenthalts die nach Tagen berechnete zu viel gezahlte Kurabgabe auf Antrag erstattet. Die Rückzahlung erfolgt nur an den/die Karteninhaber/in gegen Rückgabe der OstseeCard und eine schriftliche Bescheinigung des/der Unterkunftsgebers/Unterkunftsgeberin. Auf Ersatz- OstseeCards werden keine Rückzahlungen vorgenommen. Der Anspruch auf Rückzahlung erlischt mit Ablauf von einem Monat nach der Abreise."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 5,
+          "reading": "Bei Kindern und Jugendlichen bis zur Vollendung des 18. Lebensjahres sowie bei Menschen mit Behinderung und deren Begleitpersonen im Sinne des $ 3 Abs. 1 Nr. 1 b) der Satzung ist die entsprechende Meldescheinkategorie auszuwählen."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 5,
+          "reading": "hat diese Satzung für die von ihm/ihr aufgenommenen Personen sichtbar auszulegen."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 5,
+          "reading": "haftet gesamtschuldnerisch im Rahmen der ihm/ihr nach Absätzen 2 und 3 obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die ETMG."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "für die von ihm/ihr ausgehändigte Ostsee-Card die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an die ETMG - in der Hauptsaison 2-wöchentlich, in der Nebensaison 4-wöchentlich - kostenfrei abzuführen, oder aber der ETMG die Ermächtigung zum Lastschriftverfahren zu erteilen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "in der Hauptsaison 2-wöchentlich, in der Nebensaison 4-wöchentlich"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "innerhalb von 3 Werktagen bei der ETMG anzumelden."
+        }
+      ]
+    },
+    "aenderung1": {
+      "title": "1. Nachtragssatzung zur Satzung der Stadt Eckernförde über die Erhebung von Kurabgaben (Ratsversammlung vom 08.02.2023), in Kraft ab 01.04.2023",
+      "url": "https://www.eckernfoerde.de/media/custom/3457_470_1.PDF?1676021665",
+      "kind": "statute",
+      "inForce": "2023-04-01",
+      "sha256": "d0cb7e4ee36936a0b37320af61212c047ef8fc0441bae9bee6114797da9dad50",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Eckernförde über die Erhebung einer Tourismusabgabe (ehemals Fremdenverkehrsabgabe), Textfassung inkl. 3. Nachtragssatzung",
+      "url": "https://www.eckernfoerde.de/media/custom/2460_2128_1.PDF",
+      "kind": "municipality",
+      "inForce": "2020-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a7b24a994a9d1425f3dc6c8346819fdcc8a49461fe887b5ada4a0fab32c04ce7",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "source": "aenderung1",
+      "quote": "Bei der Ermittlung der Aufenthaltsdauer gelten der An- und Abreisetag als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-15"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "source": "aenderung1",
+          "quote": "in der Zeit vom 01. April bis zum 15. Oktober (Hauptsaison) 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-16",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "source": "aenderung1",
+          "quote": "in der übrigen Zeit (Nebensaison) 2,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 8400,
+      "text": "Pro Aufenthalt zahlt ein Gast höchstens die Jahreskurabgabe von 84,00 €, das sind 28 Tage der Hauptsaison.",
+      "source": "aenderung1",
+      "quote": "Die Kurabgabe wird für die Dauer jedes Aufenthaltes in einem Kalenderjahr mit den vorstehend genannten Sätzen, höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 2 erhoben. Absatz 2 erhält die folgende Fassung: (1) Die Zahl der Aufenthaltstage wird auf 28 Tage der Hauptsaison pauschaliert (Jahrespauschale), wenn der/die Kurabgabepflichtige einen entsprechenden Antrag stellt. Die Jahreskurabgabe beträgt für jede kurabgabepflichtige Person 84,00 €/Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre ständige Begleitperson, wenn im Ausweis das „B“ eingetragen ist",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 % und mehr nachweisen, sowie für die ständige Begleitperson, wenn dies durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Wer beruflich, gewerblich oder zur Ausbildung im Ort anwesend ist",
+        "quote": "Personen, die in Ausübung ihres Dienstes, Berufes, Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesend sind."
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Kongressen und Lehrgängen, die die Stadt oder die ETMG anerkannt hat und die vorher bei der ETMG angemeldet wurden",
+        "quote": "Teilnehmer/innen an den von der Stadt Eckernförde oder der Eckernförde Touristik und Marketing GmbH (ETMG) anerkannten Tagungen, Kongressen, Lehrgängen und sonstigen Veranstaltungen, sofern die Veranstaltung vor Eintreffen der Teilnehmer/innen im Stadtgebiet bei der ETMG angemeldet wird."
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte mit ärztlicher Bescheinigung",
+        "quote": "Bettlägerige Kranke und verletzte Personen, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Person aufgenommen sind."
+      },
+      {
+        "text": "Eigentümer von Wohneinheiten in Eckernförde und von dauerhaft dort liegenden Sportbooten samt Familienangehörigen, die nicht im Ort wohnen",
+        "quote": "Eigentümer/innen von Wohneinheiten (Wohnhaus, Ferienhaus, Sommerhaus, Wochenendhaus, Wohnungen, Appartement, o. ä. Einrichtungen) in Eckernförde sowie von in Eckernförde dauerhaft liegenden Sportbooten und deren Familienangehörige, die ihren gewöhnlichen Aufenthalt nicht im Erhebungsgebiet haben."
+      },
+      {
+        "text": "Wer wegen eines Todesfalls im Ort ist",
+        "quote": "Personen, die aufgrund eines Todesfalls im Erhebungsgebiet anwesend sind."
+      },
+      {
+        "text": "Wer im Ort in einem Arbeits- oder Ausbildungsverhältnis steht, ist nicht kurabgabepflichtig",
+        "quote": "Das gilt nicht für Personen, die im Erhebungsgebiet in einem Arbeits- oder Ausbildungsverhältnis stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze gibt es auf Antrag eine Jahreskurabgabe von 84,00 € je Person, die pauschal 28 Tage der Hauptsaison abdeckt.",
+        "source": "aenderung1",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage der Hauptsaison pauschaliert (Jahrespauschale), wenn der/die Kurabgabepflichtige einen entsprechenden Antrag stellt. Die Jahreskurabgabe beträgt für jede kurabgabepflichtige Person 84,00 €/Kalenderjahr."
+      },
+      {
+        "text": "Das elektronische Meldescheinverfahren der ETMG ist für alle Vermieter Pflicht; eine Ausnahme gibt es nur im Härtefall auf Antrag bei der ETMG.",
+        "quote": "Das elektronische Meldescheinverfahren ist für alle Unterkunftsgeber/innen in der Stadt Eckernförde verpflichtend. Nur in Härtefällen kann eine Ausnahme bei der ETMG beantragt werden."
+      },
+      {
+        "text": "Für das elektronische Meldescheinverfahren erteilst du der ETMG ein SEPA-Lastschriftmandat.",
+        "quote": "Eine Teilnahme am elektronischen Meldescheinverfahren setzt voraus, dass die oder der Unterkunftsgeber/in der ETMG ein SEPA-Lastschriftmandat zum Einzug der Kurabgabenforderung erteilt."
+      },
+      {
+        "text": "Abgebucht wird frühestens zwei Wochen nach dem Abreisetag des Gastes.",
+        "quote": "Die Abbuchung der jeweiligen Kurabgaben wird frühestens zwei Wochen nach dem Abreisetag der betroffenen Gäste durch das System vorgenommen."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe auf Antrag erstattet, gegen Rückgabe der OstseeCard und eine schriftliche Bescheinigung von dir als Vermieter. Der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "erhalten im Falle des vorzeitigen Abbruchs ihres vorgesehenen Aufenthalts die nach Tagen berechnete zu viel gezahlte Kurabgabe auf Antrag erstattet. Die Rückzahlung erfolgt nur an den/die Karteninhaber/in gegen Rückgabe der OstseeCard und eine schriftliche Bescheinigung des/der Unterkunftsgebers/Unterkunftsgeberin. Auf Ersatz- OstseeCards werden keine Rückzahlungen vorgenommen. Der Anspruch auf Rückzahlung erlischt mit Ablauf von einem Monat nach der Abreise."
+      },
+      {
+        "text": "Im elektronischen Meldeschein wählst du für Kinder und Jugendliche unter 18 sowie für Menschen mit Behinderung und ihre Begleitpersonen die passende Meldescheinkategorie aus.",
+        "quote": "Bei Kindern und Jugendlichen bis zur Vollendung des 18. Lebensjahres sowie bei Menschen mit Behinderung und deren Begleitpersonen im Sinne des § 3 Abs. 1 Nr. 1 b) der Satzung ist die entsprechende Meldescheinkategorie auszuwählen."
+      },
+      {
+        "text": "Du musst die Satzung für deine Gäste sichtbar auslegen.",
+        "quote": "hat diese Satzung für die von ihm/ihr aufgenommenen Personen sichtbar auszulegen."
+      },
+      {
+        "text": "Du haftest gesamtschuldnerisch für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "haftet gesamtschuldnerisch im Rahmen der ihm/ihr nach Absätzen 2 und 3 obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an die ETMG."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an die ETMG (Eckernförde Touristik und Marketing GmbH) ab; alternativ erteilst du ihr eine Lastschriftermächtigung.",
+      "quote": "für die von ihm/ihr ausgehändigte Ostsee-Card die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an die ETMG - in der Hauptsaison 2-wöchentlich, in der Nebensaison 4-wöchentlich - kostenfrei abzuführen, oder aber der ETMG die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird in der Hauptsaison alle zwei Wochen und in der Nebensaison alle vier Wochen.",
+      "quote": "in der Hauptsaison 2-wöchentlich, in der Nebensaison 4-wöchentlich"
+    },
+    "reporting": {
+      "text": "Gemeldet wird jeder Gast innerhalb von 3 Werktagen bei der ETMG.",
+      "quote": "innerhalb von 3 Werktagen bei der ETMG anzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Eckernförde wirtschaftliche Vorteile bietet, weil du im Rahmen selbständiger Erwerbstätigkeit im Stadtgebiet entgeltliche Leistungen anbietest.",
+      "quote": "(1) Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen der Tourismus in der Stadt Eckernförde unmittelbar und/oder mittelbar wirtschaftliche Vorteile bietet. Wirtschaftliche Vorteile aus dem Tourismus sind denjenigen geboten, die im Rahmen selbständiger, im Stadtgebiet ausgeübter Erwerbstätigkeit entgeltliche Leistungen anbieten"
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und Ferienhäuser",
+        "quote": "A04 Ferienwohnungs-/-haus-Vermietung 97% 19%",
+        "turnover": {
+          "advantage": {
+            "percent": 97,
+            "quote": "A04 Ferienwohnungs-/-haus-Vermietung 97% 19%"
+          },
+          "profit": {
+            "percent": 19
+          }
+        }
+      },
+      {
+        "label": "Privatzimmer und Gästehaus",
+        "quote": "A03 Privatzimmervermietung, Gästehaus 91% 21%",
+        "turnover": {
+          "advantage": {
+            "percent": 91,
+            "quote": "A03 Privatzimmervermietung, Gästehaus 91% 21%"
+          },
+          "profit": {
+            "percent": 21
+          }
+        }
+      },
+      {
+        "label": "Hotel garni und gewerbliche Pension mit Frühstück",
+        "quote": "A02 Hotel garni, gewerbl. Pension mit Frühstück 68% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 68,
+            "quote": "A02 Hotel garni, gewerbl. Pension mit Frühstück 68% 11%"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof und Pension mit Vollverpflegung (ohne Gaststättenbetrieb)",
+        "quote": "A01 Hotel, Gasthof, Pension (mit Vollverpflegung), hier ohne Gaststätten-Betrieb (vgl. unten B01-05) 71% 9%",
+        "turnover": {
+          "advantage": {
+            "percent": 71,
+            "quote": "A01 Hotel, Gasthof, Pension (mit Vollverpflegung), hier ohne Gaststätten-Betrieb (vgl. unten B01-05) 71% 9%"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Sonstige Unterkünfte, zum Beispiel Campingplatz",
+        "quote": "A06 sonst. Unterkünfte (z.B. Campingplatz, Bootsliegeplatzvermietung zur Übernachtung) 90% 15%",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "A06 sonst. Unterkünfte (z.B. Campingplatz, Bootsliegeplatzvermietung zur Übernachtung) 90% 15%"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 10.7,
+      "quote": "beträgt 10,7 % des nach § 3 Abs. 1 errechneten Messbetrages."
+    },
+    "basis": {
+      "text": "Es zählen deine Jahreseinnahmen aus der Vermietung, gegebenenfalls ohne Umsatzsteuer, des Vorjahres.",
+      "quote": "Jahreseinnahmen (Abs. 4 u. 5), gegebenenfalls abzüglich Umsatzsteuer,"
+    },
+    "minimum": {
+      "text": "Beträgt deine Beitragsschuld nicht mehr als 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "Auf eine Beitragsfestsetzung wird verzichtet, solange die Beitragsschuld den Betrag von 5,00 Euro nicht übersteigt.",
+      "cents": 500,
+      "kind": "threshold"
+    },
+    "reporting": {
+      "text": "Bis zum 31. August jeden Jahres erklärst du der Stadt auf dem vorgesehenen Vordruck deine betrieblichen Einnahmen; Beginn und Ende deiner Tätigkeit zeigst du innerhalb eines Monats an.",
+      "quote": "- Beginn und Ende der beitragspflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, - bis zum 31. August eines jeden Jahres auf dem vorgesehenen Erklärungsvordruck ihre betrieblichen Einnahmen gemäß § 3 Abs. 4 und 5 zu erklären,"
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "(3) Der Beitrag ist innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind die Einnahmen des Vorjahres.",
+        "quote": "zeitlich maßgeblich sind die im Vorjahr des Erhebungsjahres erzielten Einnahmen."
+      },
+      {
+        "text": "Die Tabelle der Anlage nennt den Vorteilssatz und den Gewinnsatz.",
+        "quote": "Betriebsart Vorteilssatz Gewinnsatz"
+      },
+      {
+        "text": "Die Stadt kann während des Jahres Vorausleistungen auf den erwarteten Beitrag verlangen.",
+        "quote": "Die Stadt kann auf den zu erwartenden Beitrag im Laufe des Erhebungsjahres Vorausleistungen erheben."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/eckernfoerde/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-15"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-16",
+            "03-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "stayCap": 8400
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "neuharlingersiel",
+  "name": "Neuharlingersiel",
+  "short": "Neuharlingersiel",
+  "ags": "03462010",
+  "state": "Niedersachsen",
+  "district": "Wittmund",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Gemeinde Neuharlingersiel (Gästebeitragssatzung) vom 29.05.2000 in der Fassung der 12. Änderung vom 10.12.2024 (Fassung ab 01.01.2025), Lesefassung der Samtgemeinde Esens",
+      "url": "https://daten.verwaltungsportal.de/dateien/service/2/4/8/5/3/Gaestebeitragssatzung_Neuharlingersiel_ab_01.01.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "e03704f84680c43ebb2d915c8b6f34126662e4bed141d8b3a368c25ec1a91a41",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Gemeinde Neuharlingersiel (Tourismusbeitragssatzung) in der Fassung der 9. Änderung vom 10.12.2024 (ab 01.01.2025), Lesefassung der Samtgemeinde Esens",
+      "url": "https://daten.verwaltungsportal.de/dateien/service/2/4/8/2/6/Tourismusbeitragssatzung_Neuharlingersiel_ab_01.01.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "f237b1d9971ae5e25853094a8044adb54a910618ed706df64e108fcf35dc927a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird, Tagesbesuche ausgenommen, nach der Anzahl der Übernachtungen berechnet."
+    },
+    "zones": [
+      {
+        "label": "Gästebezirk 1",
+        "area": {
+          "text": "Gästebezirk 1 sind der Ortsteil Neuharlingersiel und Teile des Ortsteils Seriem.",
+          "quote": "Gästebezirk 1: Ortsteil Neuharlingersiel und Teile des Ortsteiles Seriem"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "a) für Personen ab 16 Jahre 3,50 Euro 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "(1) Kinder bis zur Vollendung des 6. Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "bis einschließlich 15 Jahre 1,60 Euro 0,50 Euro"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-14"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "a) für Personen ab 16 Jahre 3,50 Euro 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "(1) Kinder bis zur Vollendung des 6. Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 50,
+                "quote": "bis einschließlich 15 Jahre 1,60 Euro 0,50 Euro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästebezirk 2",
+        "area": {
+          "text": "Gästebezirk 2 sind die Ortsteile Ostbense und Altharlingersiel und Teile des Ortsteils Seriem.",
+          "quote": "Gästebezirk 2: Ortsteile Ostbense und Altharlingersiel und Teile des Ortsteiles Seriem"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "a) für Personen ab 16 Jahre 3,00 Euro 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "(1) Kinder bis zur Vollendung des 6. Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 150,
+                "quote": "bis einschließlich 15 Jahre 1,50 Euro 0,50 Euro"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-14"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "a) für Personen ab 16 Jahre 3,00 Euro 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "(1) Kinder bis zur Vollendung des 6. Lebensjahres."
+              },
+              {
+                "underAge": 16,
+                "cents": 50,
+                "quote": "bis einschließlich 15 Jahre 1,50 Euro 0,50 Euro"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Wer zu einer Familie in häuslicher Gemeinschaft gehört, zahlt ab der 5. Person nichts; befreit werden jeweils die jüngsten Familienmitglieder.",
+      "quote": "(2) jede 5. und weitere Person einer in häuslicher Gemeinschaft lebenden Familie, wobei jeweils die jüngsten Familienangehörigen zu befreien sind."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Erwerbsminderung von mindestens 80 %, die laut Ausweis ständig auf Begleitung angewiesen sind, und ihre Begleitperson zahlen nichts.",
+        "quote": "(3) Schwerbehinderte mit einer Erwerbsminderung von mindestens 80%, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind, sowie deren Begleitperson."
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung in Neuharlingersiel aufhält, zahlt nichts.",
+        "quote": "Personen, die sich nur zur Berufsausübung"
+      },
+      {
+        "text": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen zahlen für die ersten drei Tage nichts.",
+        "quote": "Kongressen und Lehrgängen für die ersten drei Tage des Aufenthaltes."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im ganzen Gemeindegebiet wird der Gästebeitrag erhoben, in den beiden Gästebezirken mit unterschiedlichen Sätzen; welche Straßen zu welchem Bezirk gehören, steht in den Anlagen zur Satzung.",
+        "quote": "Das Gebiet der Gemeinde wird für die Erhebung des Gästebeitrages in nachstehende Gästebezirke eingeteilt:"
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen gut sichtbar aus.",
+        "quote": "d) diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      },
+      {
+        "text": "Du haftest dafür, dass der Gästebeitrag rechtzeitig eingezogen und vollständig abgeliefert wird.",
+        "quote": "haften für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt die Gästekarte spätestens bei der Ankunft zur Verfügung, zieht den Gästebeitrag gleichzeitig ein und führt ihn an den Kurverein Neuharlingersiel ab.",
+      "quote": "Die so erstellte Gästekarte ist dem Beitragspflichtigen spätestens bei Ankunft zur Verfügung zu stellen, der Gästebeitrag gleichzeitig einzuziehen und schließlich an den Kurverein Neuharlingersiel e.V. abzuführen."
+    },
+    "deadline": {
+      "text": "Der Kurverein rechnet über das digitale System monatlich direkt mit dir ab.",
+      "quote": "Dieser rechnet über das digitale System monatlich direkt mit dem Wohnungsgeber ab."
+    },
+    "reporting": {
+      "text": "Gemeldet wird digital über das Meldesystem des Kurvereins; Ausnahmen gibt es nur auf begründeten Antrag.",
+      "quote": "Ausnahmen vom digitalen Verfahren können nur auf begründetem Antrag durch den Kurverein Neuharlingersiel e.V. erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Neuharlingersiel selbstständig erwerbstätig bist und dadurch unmittelbar oder mittelbar Vorteile aus dem örtlichen Tourismus hast; die Anlage nennt ausdrücklich die Vermietung von Ferienwohnungen und -häusern.",
+      "quote": "Sachlich beitragspflichtig sind die in Abs. 1 bezeichneten Rechtssubjekte, sofern sie im Erhebungsgebiet zumindest vorübergehend selbständig erwerbstätig sind und dadurch unmittelbar oder mittelbar Vorteile aus dem örtlichen Tourismus geboten bekommen."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und sonstige Gästeunterkünfte",
+        "quote": "1.1.3 Vermietung von Ferienwohnungen/-häusern oder sonstigen Gästeunterkünften 100,0% 16,0% 1003",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.1.3 Vermietung von Ferienwohnungen/-häusern oder sonstigen Gästeunterkünften 100,0% 16,0% 1003"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Pension mit Frühstück",
+        "quote": "1.1.2 Pension mit Frühstück 100,0% 8,0% 1002",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.1.2 Pension mit Frühstück 100,0% 8,0% 1002"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Vollverpflegung",
+        "quote": "1.1.1 Hotel, Gasthof, Pension mit Vollverpflegung 100,0% 5,0% 1001",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.1.1 Hotel, Gasthof, Pension mit Vollverpflegung 100,0% 5,0% 1001"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Campingplatzbetrieb",
+        "quote": "1.1.4 Campingplatzbetrieb 100,0% 9,0% 1004",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.1.4 Campingplatzbetrieb 100,0% 9,0% 1004"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Erholungsheim, Sanatorium, Kurklinik",
+        "quote": "1.1.5 Erholungsheim, Sanatorium, Kurklinik 100,0% 1,0% 1005",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1.1.5 Erholungsheim, Sanatorium, Kurklinik 100,0% 1,0% 1005"
+          },
+          "profit": {
+            "percent": 1
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 10.35,
+      "quote": "Er beträgt 10,35 %."
+    },
+    "basis": {
+      "text": "Es zählen die Einnahmen des laufenden Jahres ohne Umsatzsteuer.",
+      "quote": "Die objektiven Gewinn- und Verdienstmöglichkeiten werden ausgedrückt durch die umsatzsteuerbereinigten Einnahmen des laufenden Jahres, multipliziert mit dem tourismusbedingten Anteil (Vorteilssatz) und dem durchschnittlichen Gewinnanteil (Gewinnsatz) der Betriebsart gemäß der Anlage 1 zu dieser Satzung."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 31. März des Jahres nach dem Veranlagungsjahr teilst du der Samtgemeinde Esens, die den Beitrag für die Gemeinde veranlagt, die Angaben zur Berechnung mit.",
+      "quote": "Jeder Beitragspflichtige hat die zur Berechnung des Beitrages erforderlichen Angaben bis zum 31.03. des auf das Veranlagungsjahr folgenden Jahres der Samtgemeinde Esens -als Veranlagungsbehörde- mitzuteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag und jede Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Veranlagt wird der Beitrag über die Samtgemeinde Esens, auch die Vorausleistungen für das laufende Jahr bis zur voraussichtlichen Höhe des Beitrags.",
+        "quote": "Die Gemeinde Neuharlingersiel erhebt über die Samtgemeinde Esens als Veranlagungsbehörde für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages."
+      },
+      {
+        "text": "Eine Vorausleistung entsteht mit ihrer Anforderung, frühestens zum 1. Juli des laufenden Jahres.",
+        "quote": "Die Vorausleistung entsteht mit ihrer Anforderung, frühestens jedoch zum 01.07. des laufenden Erhebungszeitraumes."
+      },
+      {
+        "text": "Deine beitragspflichtige Tätigkeit zeigst du innerhalb eines Monats nach dem Beginn an.",
+        "quote": "Die beitragspflichtige Tätigkeit ist innerhalb eines Monats nach Aufnahme anzuzeigen."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragspflicht und die Beitragsschuld entstehen mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/neuharlingersiel/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          160
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "01-01",
+            "03-14"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          50
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Gästebezirk 1",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              160
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "01-01",
+                "03-14"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gästebezirk 2",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "01-01",
+                "03-14"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0,
+              50
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

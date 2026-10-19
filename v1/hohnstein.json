@@ -1,0 +1,168 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hohnstein",
+  "name": "Stadt Hohnstein",
+  "short": "Hohnstein",
+  "ags": "14628190",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Hohnstein über die Erhebung einer Gästetaxe vom 31. Mai 2023 in der Fassung der 1. Änderung vom 22. Mai 2024, Lesefassung der Stadt",
+      "url": "https://www.hohnstein.de/wp-content/uploads/2025/08/Gaestetaxe_-Internet-zusammengefuegt.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "81abaa521e0ff8830df7840742c38a9e2210e8d17cbbbc007f1bf2e805d8db4a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Gästetaxe beträgt je Person und Aufenthaltstag 2,50 EUR."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "less": 100,
+            "quote": "Die Gästetaxe wird um 1,00 EUR ermäßigt für: 1. Kinder vom 8. Lebensjahr bis zum vollendeten 18. Lebensjahr",
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen nichts, wenn sie den Grad nachweisen.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung mindestens 80 v. H. beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn die Begleitung nachgewiesen notwendig ist.",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit der Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      },
+      {
+        "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+        "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 27. Lebensjahr zahlen 1,00 € weniger je Tag.",
+        "quote": "Die Gästetaxe wird um 1,00 EUR ermäßigt für: 1. Kinder vom 8. Lebensjahr bis zum vollendeten 18. Lebensjahr, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 27. Lebensjahr."
+      },
+      {
+        "text": "Die Satzung schreibt „vom 8. Lebensjahr“; die Seite liest das als ab dem 7. Geburtstag, nahtlos nach der Befreiung bis zur Vollendung des 7. Lebensjahres.",
+        "quote": "Die Gästetaxe wird um 1,00 EUR ermäßigt für: 1. Kinder vom 8. Lebensjahr bis zum vollendeten 18. Lebensjahr"
+      },
+      {
+        "text": "Auch wer aus beruflichen Gründen im Ort übernachtet, zahlt die Gästetaxe.",
+        "quote": "Gästetaxepflichtig nach Maßgabe Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Stadt Unterkunft nehmen."
+      },
+      {
+        "text": "In der Gästetaxe ist die Umsatzsteuer enthalten, ausgenommen der Anteil von 0,90 € für die Mobilitätskarte, der als durchlaufender Posten an den Leistungserbringer weitergereicht wird.",
+        "quote": "Die Gästetaxe beinhaltet die Umsatzsteuer nach dem Umsatzsteuergesetz in der jeweils geltenden Höhe. Davon ausgenommen ist der Anteil von 0,90 EUR für die Mobilitätskarte, welcher als durchlaufender Posten an den Leistungserbringer weitergereicht wird."
+      },
+      {
+        "text": "Hast du in einem Quartal niemanden beherbergt und meldest manuell, gibst du eine Fehlanzeige ab.",
+        "quote": "Sofern der Betrieb in einem Quartal keine Personen beherbergt hat und manuell meldet, hat eine Fehlanzeige („Null-Meldung“) zu erfolgen."
+      },
+      {
+        "text": "Du bewahrst die eingezogene Gästetaxe getrennt vom Betriebsvermögen auf, bei der Kasse wie beim Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe haben getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+      },
+      {
+        "text": "Du haftest gegenüber der Stadt für den vollständigen und richtigen Einzug der Gästetaxe.",
+        "quote": "haftet gegenüber der Stadt Hohnstein für den vollständigen und richtigen Einzug der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du das der Stadt unverzüglich mit Name und Adresse.",
+        "quote": "Weigert sich eine gästetaxepflichtige Person, die Gästetaxe zu entrichten, hat dies der in § 8 Absatz 1 benannte Personenkreis der Stadt unverzüglich unter Angabe von Namen und Adresse des Gästetaxepflichtigen zu melden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein und weist sie der Stadt nach.",
+      "quote": "Der in § 8 Abs. 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und quartalsweise bis zum zehnten Werktag des dem Quartal folgenden Monats die gewährten Gästeübernachtungen sowie die eingezogenen Beträge gegenüber der Stadt oder des von ihrem beauftragten Dritten per handschriftlicher Auflistung (manueller Meldeschein) nachzuweisen."
+    },
+    "deadline": {
+      "text": "Übernachtungen und eingezogene Beträge weist du quartalsweise bis zum zehnten Werktag des Folgemonats nach.",
+      "quote": "quartalsweise bis zum zehnten Werktag des dem Quartal folgenden Monats die gewährten Gästeübernachtungen sowie die eingezogenen Beträge gegenüber der Stadt oder des von ihrem beauftragten Dritten per handschriftlicher Auflistung (manueller Meldeschein) nachzuweisen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den amtlichen Vordrucken der Stadt.",
+      "quote": "Meldungen nach dieser Satzung sind unter Verwendung der von der Stadt bereitgestellten amtlichen Vordrucke vorzunehmen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hohnstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

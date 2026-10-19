@@ -1,0 +1,184 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "triberg",
+  "name": "Triberg im Schwarzwald",
+  "short": "Triberg",
+  "ags": "08326060",
+  "state": "Baden-Württemberg",
+  "district": "Schwarzwald-Baar-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Triberg im Schwarzwald über die Erhebung einer Kurtaxe (Kurtaxesatzung 2026), Gemeinderatsbeschluss vom 15.10.2025",
+      "url": "https://www.triberg.de/fileadmin/Dateien/Cross7/Vorseite/Stadt_Triberg/Rathaus_%26_Gemeinderat/Satzungen/Kurtaxesatzung_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "029dfbdfe20c3a3fc22d16d4387e91bb21d4255cb27e3535d03c9c14a557915d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Fremdenverkehrsbeitragssatzung der Stadt Triberg im Schwarzwald, Beschluss vom 15.04.2026",
+      "url": "https://www.triberg.de/fileadmin/Dateien/Cross7/Vorseite/Stadt_Triberg/Rathaus_%26_Gemeinderat/Offentliche_Bekanntmachungen/2-1779348294.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "5e81577d6896e767da2f078449345208a015a071229406cef8974b708450a183",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesucher von Einwohnern der Gemeinde, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Auf Antrag: Blinde und Rollstuhlfahrer; eine Begleitperson ist ebenfalls frei",
+        "quote": "Blinde und Rollstuhlfahrer werden auf Antrag von der Kurtaxe befreit. Zusätzlich ist für diese Gäste eine Begleitperson frei."
+      },
+      {
+        "text": "Auf Antrag zahlen schwerbehinderte Menschen mit 100 % Erwerbsminderung die Hälfte",
+        "quote": "Die Kurtaxe wird auf Antrag um 50 v. H. ermäßigt für schwerbehinderte Personen mit 100 % nachgewiesener Erwerbsminderung."
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "sowie von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbezirk umfasst die Kernstadt Triberg, den Ortsteil Nußbach mit dem Wohnbezirk entlang der B33 und dem Hohnenweg sowie den Ortsteil Gremmelsbach; es gibt nur einen Satz.",
+        "quote": "Der gesamte Kurbezirk erstreckt sich über die Kernstadt Triberg, den Ortsteil Nußbach einschl. dem Wohnbezirk entlang der Bundesstraße B33 und dem Hohnenweg, sowie den Ortsteil Gremmelsbach."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "haben die Kurtaxe von den kurtaxpflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Monats führst du bis zum 15. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 15. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 24 Stunden nach Ankunft an und nach Abreise ab, mit den Vordrucken der Gemeinde.",
+      "quote": "bei ihm verweilende Personen innerhalb von 24 Stunden nach Ankunft bzw. Abreise an- bzw. abzumelden"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 400,
+          "quote": "ganzjährig für jede Person ab 16 Jahren (Kurtaxe: 7%) (Tag nach Vollendung des 16. Lebensjahres) 4,0000 € (Brutto)"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr."
+          },
+          {
+            "underAge": 16,
+            "cents": 200,
+            "quote": "ganzjährig für jede Person ab 16 Jahren (Kurtaxe: 7%) (Tag nach Vollendung des 16. Lebensjahres) 4,0000 € (Brutto) 0,26 €(7% Ust) 3,74 € (Netto) ganzjährig für jede Person ab 6 Jahren (Tag nach Vollendung des 6. Lebensjahres) 2,0000 € (Brutto)"
+          }
+        ]
+      }
+    ]
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Triberg selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen, allen natürlichen Personen und allen nicht eingetragenen Vereinen, die eine selbständige Tätigkeit ausüben und denen in der Stadt Triberg im Schwarzwald aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "je Übernachtung 0,30 €",
+        "perNight": {
+          "cents": 30
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest die Zahl der Übernachtungen so, wie es die Kurtaxesatzung vorsieht.",
+      "quote": "haben gemäß der aktuell gültigen Kurtaxesatzung die Anzahl der Übernachtungen mitzuteilen"
+    },
+    "deadline": {
+      "text": "Der Beitrag auf die Übernachtungen wird so fällig, wie es die Kurtaxesatzung regelt.",
+      "quote": "wird gemäß der jeweils gültigen Kurtaxesatzung fällig"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben und Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten, bemisst sich der Beitrag nach der Zahl der Übernachtungen und nicht nach dem Umsatz.",
+        "quote": "Bei Beherbergungsbetrieben und Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag, abweichend von Abs. 2, nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 8 % des Messbetrags.",
+        "quote": "beträgt 8 v.H. des Messbetrages."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/triberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0,
+          200
+        ]
+      }
+    ]
+  }
+}

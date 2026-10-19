@@ -1,0 +1,329 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "goehren-ruegen",
+  "name": "Ostseebad Göhren",
+  "short": "Göhren",
+  "ags": "13073031",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Göhren (Kurabgabesatzung) vom 18.11.2024",
+      "url": "https://www.amt-moenchgut-granitz.de/de/kacheln/satzungen-ortsrecht/ostseebad-goehren/kurabgabesatzung.pdf?cid=7kj",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "1c8192550f98125f96bf14956081d612184b0729f2afc31fa88525d5d9acb2ab",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseebad Göhren (Fremdenverkehrsabgabensatzung)",
+      "url": "https://www.amt-moenchgut-granitz.de/de/kacheln/satzungen-ortsrecht/ostseebad-goehren/fremdenverkehrsabgabensatzung.pdf?cid=7t7",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "46bfe8fa3b89bd95fedcadb8a1f0dd4eb7fbe25d1463871da80debb45444b0a7",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen der Fremdenverkehr in der Gemeinde Ostseebad Göhren unmittelbar und/oder mittelbar wirtschaftliche Vorteile bietet."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 2,
+          "reading": "werden, und zwar je Bett Erholungssuchende 15,80 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 2,
+          "reading": "werden, und zwar je Bett Erholungssuchende 15,80 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 2,
+          "reading": "Grundflächen zwar je Stellplatz a) zum Aufstellen von Zelten, wie 2. für Zelte pp. 19,70 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 2,
+          "reading": "Grundflächen zwar je Stellplatz a) zum Aufstellen von Zelten, wie 2. für Zelte pp. 19,70 €"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 6,
+          "reading": "bis zum 15. August eines jeden Jahres die zur Berechnung der Abgabe erforderlichen Angaben, auch die Veränderung der Bemessungsgrundlage des Vorjahres gemäß $S 4 mitzuteilen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 5,
+          "reading": "Fremdenbetten im Sinne des S 4 Nr. 1 sind alle an kurabgabepflichtigen Personen vermietete Schlafgelegenheiten, also auch Notbetten, Couchen und Liegen"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Diese wird nach den Verhältnissen am 1. August des Jahres, für das die Abgabe erhoben wird, festgesetzt."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Endet die Abgabenpflicht im laufenden Kalenderjahr, so ist für jeden vollen Monat ein Zwölftel der vollen Kalenderjahresabgabe zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 1,
+          "reading": "Der Kommunale Eigenbetrieb Kurverwaltung Ostseebad Göhren erhebt im Auftrag der Gemeinde Ostseebad Göhren"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und Abreisetag gelten jeweils als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-20",
+            "to": "01-06"
+          }
+        ],
+        "adult": {
+          "cents": 337,
+          "quote": "Hauptsaison Nebensaison Erwachsene 3,37 € 2,54 €"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Von der Kurabgabe sind Kinder bis zur Vollendung des 7. Lebensjahres befreit."
+          },
+          {
+            "underAge": 14,
+            "cents": 169,
+            "quote": "Kind vom vollendeten 7. Lebensjahr bis zur 1,69€ 1,27€ Vollendung des 14. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "12-19"
+          },
+          {
+            "from": "01-07",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 254,
+          "quote": "Hauptsaison Nebensaison Erwachsene 3,37 € 2,54 €"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Von der Kurabgabe sind Kinder bis zur Vollendung des 7. Lebensjahres befreit."
+          },
+          {
+            "underAge": 14,
+            "cents": 127,
+            "quote": "Kind vom vollendeten 7. Lebensjahr bis zur 1,69€ 1,27€ Vollendung des 14. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Assistenzhunde (Blindenführhunde, Signalhunde, Begleithunde) von Menschen mit Schwerbehindertenausweis, der die Mitnahme eines Assistenzhundes vermerkt",
+        "quote": "Halter und Besitzer von Assistenzhunden, das heißt Blindenführhunde, medizinische Signalhunde, Behindertenbegleithunde, sind für die Zahlung der Abgabe für die vorgenannten Hunde befreit, wenn im Ausweis eines schwerbehinderten Menschen, der einen Hund mitführt, die Berechtigung zur Mitnahme eines Assistenzhundes nachgewiesen ist."
+      },
+      {
+        "text": "Wer in Göhren arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hälfte zahlen Schwerbehinderte ab einem Grad der Behinderung von 80 und ihre notwendige Begleitperson.",
+        "quote": "Einen ermäßigten Kurabgabensatz von 50% der regulären Kurabgabe zahlen: a. Kinder vom vollendeten 7. Lebensjahr bis zur Vollendung des 14. Lebensjahres; b. Schwerbehinderte ab einem Grad der Behinderung von 80; c. die notwendige Begleitperson von Schwerbehinderten."
+      },
+      {
+        "text": "Für mitgebrachte Hunde werden ganzjährig 1,00 € pro Tag und Hund fällig.",
+        "quote": "Für mitgebrachte Hunde ist durch den Halter oder Besitzer nach § 3 Abs. 5 unabhängig von der Reisezeit ganzjährig eine Aufenthaltsabgabe in Höhe von 1,00 € pro Tag und Hund zu entrichten."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für Erwachsene für 101,11 €.",
+        "quote": "Jahreskurkarte: Erwachsene 101,11 €"
+      },
+      {
+        "text": "Die Kurabgabe wird gemeinsam mit Baabe, Mönchgut und Sellin erhoben.",
+        "quote": "Die Kurabgabe wird mit den Gemeinden Ostseebäder Baabe, Göhren, Mönchgut und Sellin auf Grundlage eines öffentlich-rechtlichen Vertrages als eine gemeinsame Kurabgabe erhoben"
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen darfst du als Vermieter nicht selbst gewähren.",
+        "quote": "Die Beherberger sind nicht berechtigt, Befreiungen von der Kurabgabe oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Beherberger haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und stellt unverzüglich eine Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und Ihnen unverzüglich eine Kurkarte auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird an die Gemeinde nach Rechnungslegung.",
+      "quote": "die Kurabgabe an die Gemeinde Ostseebad Göhren nach Rechnungslegung abzuführen;"
+    },
+    "reporting": {
+      "text": "Gäste werden unverzüglich, spätestens am Tag nach der Anreise, im elektronischen Meldesystem der Kurverwaltung angemeldet.",
+      "quote": "Gäste, die er beherbergt unverzüglich, spätestens am Tag nach der Anreise, bei dem Eigenbetrieb Kurverwaltung der Gemeinde Ostseebad Göhren durch das von der Gemeinde Ostseebad Göhren zur Verfügung gestellte elektronische Meldesystem anzumelden;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Göhren unmittelbar oder mittelbar wirtschaftliche Vorteile bietet.",
+      "quote": "Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen der Fremdenverkehr in der Gemeinde Ostseebad Göhren unmittelbar und/oder mittelbar wirtschaftliche Vorteile bietet."
+    },
+    "letting": [
+      {
+        "label": "Hotels, Fremden- und Erholungsheime und alle, die Wohnungen, Zimmer oder Wohnwagen vermieten",
+        "quote": "werden, und zwar je Bett Erholungssuchende 15,80 €",
+        "flat": {
+          "cents": 1580,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Grundflächen zum Aufstellen von Zelten, Wohnwagen und dergleichen",
+        "quote": "Grundflächen zwar je Stellplatz a) zum Aufstellen von Zelten, wie 2. für Zelte pp. 19,70 €",
+        "flat": {
+          "cents": 1970,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Angaben zur Berechnung, auch Änderungen gegenüber dem Vorjahr, teilst du bis zum 15. August jedes Jahres mit.",
+      "quote": "bis zum 15. August eines jeden Jahres die zur Berechnung der Abgabe erforderlichen Angaben, auch die Veränderung der Bemessungsgrundlage des Vorjahres gemäß § 4 mitzuteilen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Fremdenbetten zählen alle an kurabgabepflichtige Personen vermieteten Schlafgelegenheiten, auch Notbetten, Couchen und Liegen.",
+        "quote": "Fremdenbetten im Sinne des § 4 Nr. 1 sind alle an kurabgabepflichtige Personen vermietete Schlafgelegenheiten, also auch Notbetten, Couchen und Liegen"
+      },
+      {
+        "text": "Die Abgabe wird nach den Verhältnissen am 1. August des Jahres festgesetzt, für das sie erhoben wird.",
+        "quote": "Diese wird nach den Verhältnissen am 1. August des Jahres, für das die Abgabe erhoben wird, festgesetzt."
+      },
+      {
+        "text": "Endet deine Abgabepflicht im laufenden Jahr, zahlst du für jeden vollen Monat ein Zwölftel der Jahresabgabe.",
+        "quote": "Endet die Abgabenpflicht im laufenden Kalenderjahr, so ist für jeden vollen Monat ein Zwölftel der vollen Kalenderjahresabgabe zu entrichten."
+      },
+      {
+        "text": "Die Abgabe erhebt der Kommunale Eigenbetrieb Kurverwaltung Ostseebad Göhren im Auftrag der Gemeinde.",
+        "quote": "Der Kommunale Eigenbetrieb Kurverwaltung Ostseebad Göhren erhebt im Auftrag der Gemeinde Ostseebad Göhren"
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/goehren-ruegen/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ],
+          [
+            "12-20",
+            "01-06"
+          ]
+        ],
+        "adult": 337,
+        "children": [
+          0,
+          169
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "12-19"
+          ],
+          [
+            "01-07",
+            "04-30"
+          ]
+        ],
+        "adult": 254,
+        "children": [
+          0,
+          127
+        ]
+      }
+    ]
+  }
+}

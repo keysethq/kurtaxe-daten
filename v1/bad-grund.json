@@ -1,0 +1,186 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-grund",
+  "name": "Gemeinde Bad Grund (Harz)",
+  "short": "Bad Grund",
+  "ags": "03159002",
+  "state": "Niedersachsen",
+  "district": "Göttingen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Gemeinde Bad Grund (Harz) (Gästebeitragssatzung) vom 15.12.2017 in der Fassung des 2. Nachtrags vom 02.10.2020, nichtamtliche Lesefassung der Gemeinde",
+      "url": "https://www.gemeinde-bad-grund.de/downloads/datei/ZmI0YjkzYTgzZTVkY2Q2NXNhNG9taC9McmNUazdxQmJ5RXAzVmUzZDUrSGRtTXNXQ2gxWFgxa24wWVV5azVIQTQ0REU1Uk93ZUtha3pTY3JFd1piYzYrS2J3RGQ2MW82K1UyZVZBZklYZy80MHdhK25vWU9FcnNmektsallnWld0bXFWWUVJMkZHTUpVeUlVclc1dnVURkdrd2N6MzVadDdtTUVWVWM3WmszdzFuNlBQb3lvelM3U2VIT3ZyYnUwcy9ieXYwUUQwUkVQWGRPOA",
+      "kind": "municipality",
+      "inForce": "2022-01-01",
+      "sha256": "061b4ef200257297ef13be20c530ba0867b7f4b91d6dd3686074a161cbc7177f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 210,
+          "quote": "ab dem 01.01.2022 für Einzelpersonen oder für Personen einer Familie nach Vollendung des 18. Lebensjahres je 2,10 €."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "Kinder vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres werden zu 50 % des maßgeblichen Beitragsatzes nach § 7 Abs. 1 Nr. 1 herangezogen.",
+            "cents": 105
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 4,
+      "text": "Jede vierte und jede weitere Person einer Familie ist befreit.",
+      "quote": "jede 4. und weitere Person einer Familie,"
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Minderung der Erwerbstätigkeit von 100 v. H.",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbstätigkeit 100 v. H. beträgt,"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit 100 v. H., die laut Ausweis völlig auf ständige Begleitung angewiesen sind (Merkzeichen B)",
+        "quote": "Begleitpersonen von Schwerbehinderten nach Ziffer 5, deren Minderung der Erwerbstätigkeit 100 v.H. beträgt und die laut amtlichen Ausweis völlig auf ständige Begleitung (Merkzeichen B) angewiesen sind,"
+      },
+      {
+        "text": "Bettlägerige Kranke und Personen, die die Einrichtungen des Ortes nicht nutzen können",
+        "quote": "bettlägerige Kranke oder Personen, die nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen oder an den zu Zwecken des Fremdenverkehrs durchgeführten Veranstaltungen teilzunehmen,"
+      },
+      {
+        "text": "Verwandte von Einwohnern mit Hauptwohnung im Erholungsgebiet, die ohne Entgelt aus familiären Gründen zu Besuch sind und in den Haushalt aufgenommen werden",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter- und -söhne, Schwäger und Schwägerinnen von Personen, die im Erholungsgebiet ihre Hauptwohnung haben oder in einem Arbeits- oder Ausbildungsverhältnis stehen, wenn sie ohne Entgelt oder Kostenerstattung ausschließlich aus familiären oder vergleichbaren Gründen besuchen und in deren häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausübung im Ort aufhalten",
+        "quote": "Beitragspflichtig ist nicht, wer sich nur zur Berufsausübung im Erhebungsgebiet aufhält."
+      },
+      {
+        "text": "Teilnehmer an von der Gemeinde anerkannten Kongressen, Tagungen und Lehrgängen, wenn sie die Einrichtungen des Ortes nicht nutzen können",
+        "quote": "Teilnehmer an von der Gemeinde Bad Grund (Harz) anerkannten Kongressen, Messen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen sind beitragsfrei, wenn außerhalb des Veranstaltungsprogramms eine Inanspruchnahmemöglichkeit der Fremdenverkehrseinrichtungen nicht besteht und Fremdenverkehrsveranstaltungen nicht besucht werden können."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt in Zone I und Zone II mit demselben Satz.",
+        "quote": "Der Tagesgästebeitrag beträgt pro Übernachtung in Zone I und Zone II:"
+      },
+      {
+        "text": "Die Satzung gilt für die Ortschaft Bergstadt Bad Grund (Harz) und den Bereich des Campingplatzes Hübichalm in Gittelde.",
+        "quote": "Die Zone II umfasst das über das anerkannte Gebiet nach a) hinausgehende Gebiet der Ortschaft Bergstadt Bad Grund (Harz), Gemarkung Bad Grund (Harz), Flur 1 bis Flur 8, sowie den in der Flur 11 der Gemarkung Gittelde liegenden Geltungsbereich des Bebauungsplanes Nr. 15 „Campingplatz Hübichalm“ des (ehemaligen) Fleckens Gittelde."
+      },
+      {
+        "text": "Menschen mit einer Minderung der Erwerbstätigkeit von 70 bis unter 100 v. H. zahlen nur die Hälfte.",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbstätigkeit weniger als 100 v.H. aber mindestens 70 v.H. beträgt, werden nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 1 Nr. 1 bzw. nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 2 Nr. 1 herangezogen."
+      },
+      {
+        "text": "Wer eine Zweitwohnung oder einen Dauerstellplatz hat, zahlt unabhängig von der Dauer seiner Aufenthalte einen Jahresgästebeitrag.",
+        "quote": "Zweitwohnungsinhaber und deren Angehörige und Nutzer von Campingplätzen, die einen Dauerstellplatz gemietet, gepachtet, durch Gestattung oder Nutzungsüberlassung oder in anderer Weise innehaben haben und deren Angehörige, sind unabhängig von der Dauer und Häufigkeit ihres Aufenthaltes verpflichtet, den Jahresgästebeitrag zu entrichten."
+      },
+      {
+        "text": "Der Jahresgästebeitrag beträgt 63,00 € je Person ab 18 Jahren.",
+        "quote": "1. für eine Einzelperson oder für jede Person einer Familie nach Vollendung des 18. Lebensjahres je 63,00 €"
+      },
+      {
+        "text": "Mit der Gästekarte können deine Gäste den Nahverkehr im Harz über das Harzer Urlaubs-Ticket (HATIX) kostenlos nutzen.",
+        "quote": "Beitragspflichtige nach § 3 sind während ihres Aufenthaltes im Erhebungsgebiet zur kostenfreien Nutzung des öffentlichen Nahverkehrs im definierten Gebiet nach Maßgabe der Durchführungsbestimmungen des Harzer Urlaubs-Ticket (HATIX)"
+      },
+      {
+        "text": "Die Meldevordrucke bewahrst du vier Jahre auf.",
+        "quote": "Die Meldevordrucke sind vollständig 4 Jahre nach Ablauf des jeweiligen Kalenderjahres für Kontrollzwecke aufzubewahren,"
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird der zu viel gezahlte Gästebeitrag auf Antrag gegen Rückgabe der Gästekarte erstattet.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird der nach Tagen berechnete, zu viel gezahlte Gästebeitrag auf Antrag an den Gästekarteninhaber gegen Rückgabe der Gästekarte vom Wohnungsgeber im Sinne des § 10 dieser Satzung erstattet,"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, händigt ihnen innerhalb von 24 Stunden nach der Anreise die ausgefüllte Gästekarte aus.",
+      "quote": "innerhalb von 24 Stunden nach deren Anreise die vollständig ausgefüllte Gästekarte mit HATIX-Aufdruck (1. Ausfertigung des Meldevordruckes als Durchschreibesatz) auszuhändigen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb einer Woche, nachdem die Gästebeitragsstelle die Rechnung bekannt gegeben hat; für rechtzeitige Einziehung und vollständige Ablieferung haftest du.",
+      "quote": "den Gästebeitrag innerhalb einer Woche nach Bekanntgabe der Rechnungsstellung an die Gästebeitragsstelle abzuführen. Der Wohnungsgeber haftet für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages,"
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von 7 Tagen nach der Anreise der Gästebeitragsstelle.",
+      "quote": "die bei ihm verweilenden Personen, mit Ausnahme der unter § 4 Abs. 1 Nr. 3 innerhalb von 7 Tagen nach deren Anreise der Gästebeitragsstelle zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-grund/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 210,
+        "children": [
+          0,
+          105
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 4
+    }
+  }
+}

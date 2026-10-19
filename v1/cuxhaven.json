@@ -1,0 +1,243 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "cuxhaven",
+  "name": "Stadt Cuxhaven",
+  "short": "Cuxhaven",
+  "ags": "03352011",
+  "state": "Niedersachsen",
+  "district": "Cuxhaven",
+  "sources": {
+    "satzung": {
+      "title": "Gästebeitragssatzung der Stadt Cuxhaven vom 7. Dezember 2017 in der Fassung der Achten Änderungssatzung vom 4. Dezember 2025, Lesefassung der Stadt Cuxhaven",
+      "url": "https://www.cuxhaven.de/_Resources/Persistent/7/b/4/b/7b4b5f5724326327a87a274e3f82b2390005b571/G%C3%A4stebeitragssatzung%20der%20Stadt%20Cuxhaven%20-%20in%20der%20Fassung%20der%20Achten%20%C3%84nderungssatzung-mit%20Anlage.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "eddb6749e5a8187bb3177b983aa44ff83f35a57c31effac57b664e0f7b112c60",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung8": {
+      "title": "Achte Änderungssatzung zur Gästebeitragssatzung der Stadt Cuxhaven vom 4. Dezember 2025, Amtsblatt für den Landkreis Cuxhaven Nr. 46 vom 18.12.2025, S. 499",
+      "url": "https://www.landkreis-cuxhaven.de/media/custom/3189_7234_1.PDF",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "b53f47074853c17cbbff695987b4ec8a6ddb5806c2923b84649687bb6deb1a28",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "steuer": {
+      "title": "Satzung über die Erhebung einer Übernachtungsteuer in der Stadt Cuxhaven vom 23.02.2017 in der Fassung der Vierten Änderungssatzung vom 8. Dezember 2022, Lesefassung der Stadt Cuxhaven",
+      "url": "https://www.cuxhaven.de/_Resources/Persistent/5/4/9/2/549271c66e5abb250c43160c6bfefef62e650730/%C3%9Cbernachtungsteuersatzung-in%20der%20Fassung%20der%20Vierten%20%C3%84nderungssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "89fac6203fefb0bd5a33c9bb5cffb00023e4e6b32c57c7b7d1fd3abfc68e5414",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Stadt Cuxhaven, Steueramt",
+      "kind": "answer",
+      "receivedOn": "2026-10-15",
+      "text": "Wie unserer Internetseite der Stadt Cuxhaven zu entnehmen ist, wurde die Ausnahmegenehmigung gemäß § 3 Absatz 4 Satz 2 NKAG vom Niedersächsischen Ministerium für Inneres und Sport als zuständige Kommunalaufsichtsbehörde mit Bescheid vom 01.07.2025 befristet bis zum 31.12.2026 verlängert.",
+      "changedOn": "2026-10-15",
+      "sha256": "4a3ade4499c8a0feb98c9c96a396c5e1a06264e9b469cd2ffe0d7d4f48f6f3e9",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Zahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-25",
+            "to": "01-07"
+          }
+        ],
+        "adult": {
+          "cents": 400,
+          "quote": "in der Zone 1 während der Saison A 4,00 € während der Saison B 3,20 €",
+          "source": "aenderung8"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag befreit sind: - Personen bis zur Vollendung des 16. Lebensjahres."
+          }
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          {
+            "from": "01-08",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-24"
+          }
+        ],
+        "adult": {
+          "cents": 320,
+          "quote": "in der Zone 1 während der Saison A 4,00 € während der Saison B 3,20 €",
+          "source": "aenderung8"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag befreit sind: - Personen bis zur Vollendung des 16. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Begleitpersonen von Menschen mit Merkzeichen B zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind (amtlicher Ausweis mit dem Merkzeichen \"B\"). - Schwerbehinderte, die laut amtlichem Ausweis einen Grad der Behinderung (GdB) von 100 haben."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen, zahlen nichts.",
+        "quote": "Großeltern, Eltern, Kinder, Enkelkinder, Geschwister, Schwiegerkinder von Personen mit Hauptwohnsitz in Cuxhaven, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten für Zone 1, die Stadtteile Döse, Duhnen und Sahlenburg; das übrige Stadtgebiet ist Zone 2.",
+        "quote": "Die Stadtteile Döse einschließlich Grimmershörn bis zur Bernhardstraße, Duhnen und Sahlenburg werden als - Zone 1 - festgesetzt."
+      },
+      {
+        "text": "In Zone 2 zahlen Erwachsene 3,20 € in Saison A und 2,80 € in Saison B je Nacht.",
+        "quote": "in der Zone 2 während der Saison A 3,20 € während der Saison B 2,80 €",
+        "source": "aenderung8"
+      },
+      {
+        "text": "Die Nacht des Saisonwechsels zählt zur endenden Saison.",
+        "quote": "Die Übernachtung des Saisonwechsels ist jeweils der endenden Saison zuzurechnen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, haftest du nicht, wenn du das sofort der Stadt meldest.",
+        "quote": "Weigert sich der Gästebeitragsschuldner den Gästebeitrag zu zahlen, haftet der Unterkunftgeber nicht, soweit er dies unverzüglich der Stadt Cuxhaven meldet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt die Gästekarte aus, berechnet den Gästebeitrag, zieht ihn ein und führt ihn an die Stadt ab.",
+      "quote": "Jeder Unterkunftgeber ist verpflichtet, für die von ihm ausgestellten Gästekarten den Gästebeitrag zu errechnen, diesen vom Beitragspflichtigen einzuziehen und an die Stadt Cuxhaven abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt und abgerechnet wird vierteljährlich bis zum 15. Februar, 15. Mai, 15. August und 15. November für das vorangegangene Quartal.",
+      "quote": "Die einbehaltenen Gästebeiträge sind spätestens in vierteljährlichen Teilbeträgen jeweils für das vorangegangene Quartal bis zum 15. Februar, 15. Mai, 15. August und 15. November eines jeden Jahres an die Stadt Cuxhaven abzuführen und abzurechnen."
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird über das kostenlose elektronische Abrechnungssystem der Stadt, mit Name, Anschrift und Aufenthaltszeitraum des Gastes.",
+      "quote": "Zur Erfüllung ihrer Pflichten nach den Absätzen 2 bis 3 haben die Unterkunftgeber das von der Stadt Cuxhaven unentgeltlich zur Verfügung gestellte elektronische Abrechnungssystem zu nutzen.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": {
+    "name": "Übernachtungsteuer",
+    "source": "steuer",
+    "rate": {
+      "percent": 2.75,
+      "quote": "Der Steuersatz beträgt 2,75 %."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich an dem, was der Gast für die Übernachtung bezahlt, einschließlich Mehrwertsteuer.",
+      "quote": "Die Steuer bemisst sich nach dem vom Unterkunftnehmer für die vorübergehende entgeltliche Übernachtungsmöglichkeit aufgewendeten Betrag (inklusive Mehrwert- steuer).",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst; sie bemisst sich am Übernachtungspreis einschließlich Mehrwertsteuer, berufliche Übernachtungen sind ausgenommen.",
+      "quote": "Steuerschuldner sind die Unterkunftgeber."
+    },
+    "deadline": {
+      "text": "Die Steuer meldest du vierteljährlich bis zum 15. Februar, 15. Mai, 15. August und 15. November selbst an.",
+      "quote": "Der Steuerschuldner (§ 3) hat jeweils für den vorangegangenen Steueranmeldezeitraum spätestens bis zum 15. Februar, 15. Mai, 15. August und 15. November eines jeden Jahres eine Steuererklärung nach Maßgabe des § 10 Absätze 2 und 3 vorzunehmen und die sich ergebende Steuer selbst zu berechnen."
+    },
+    "remarks": [
+      {
+        "text": "Die Genehmigung der Übernachtungsteuer ist bis zum 31.12.2026 befristet; darüber hinaus gilt sie nur, wenn sie verlängert wird.",
+        "quote": "mit Bescheid vom 01.07.2025 befristet bis zum 31.12.2026 verlängert",
+        "source": "auskunft"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/cuxhaven/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-25",
+            "01-07"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          [
+            "01-08",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-24"
+          ]
+        ],
+        "adult": 320,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

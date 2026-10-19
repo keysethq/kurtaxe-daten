@@ -1,0 +1,240 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "neuschoenau",
+  "name": "Gemeinde Neuschönau",
+  "short": "Neuschönau",
+  "ags": "09272146",
+  "state": "Bayern",
+  "district": "Freyung-Grafenau",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Neuschönau (Kurbeitragssatzung – KBS) vom 13.10.2025 (Scan)",
+      "url": "https://www.neuschoenau.de/media/neuschoenau_de/Satzungen___Verordnungen/Kurbeitragssatzung__01_11_2025-0001.pdf",
+      "kind": "municipality",
+      "inForce": "2025-11-01",
+      "sha256": "1bc8da44f13d182e07c0aacc2b491fe58ac5078b3d8a9c31ad0362cd6c6eeb6a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "1. für Personen ab dem vollendeten 16. Lebensjahr 2,50 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "3. Kinder bis zum vollendeten 6. Lebensjahr sind kurbeitragsfrei."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "2. für Personen ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 16. Lebensjahres sowie für Personen mit einem Grad der Behinderung von 80 % (It. Ausweis) und einer darin eingetragenen Betreuungsperson 1,25 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "2. für Personen ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 16. Lebensjahres sowie für Personen mit einem Grad der Behinderung von 80 % (It. Ausweis) und einer darin eingetragenen Betreuungsperson 1,25 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "sowie für Personen mit einem Grad der Behinderung von 80 % (It. Ausweis) und einer darin eingetragenen Betreuungsperson 1,25 €"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Sie sind darüber hinaus verpflichtet, den Kurbeitragspflichtigen die Gästekarte unverzüglich auszuhändigen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Auch Gruppen, die nicht kurbeitragspflichtig sind und die keine Gästekarten erhalten (z.B. Schülergruppen in einer Jugendherberge) sind im Meldescheinsystem zu erfassen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens eine Woche nach Erhalt der Kurbeitragsabrechnung an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "verpflichtet, der Gemeinde die Beitragspflichtigen elektronisch oder schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Neuschönau in der Fassung der Änderung vom 15.02.2018",
+      "url": "https://www.neuschoenau.de/media/neuschoenau_de/Satzungen___Verordnungen/Endfassung_Fremdverkehrsbeitrag_ab_1.1.2018.pdf",
+      "kind": "statute",
+      "inForce": "2018-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "faf4ad3cd2f4a747bc04c9d985549fd5751aefa364e1f005939df7279da01d59",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zum vollendeten 6. Lebensjahr sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 125,
+            "quote": "2. für Personen ab dem vollendeten 6. Lebensjahr bis zur Vollendung des 16. Lebensjahres sowie für Personen mit einem Grad der Behinderung von 80 % (lt. Ausweis) und einer darin eingetragenen Betreuungsperson 1,25 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 % und eine im Ausweis eingetragene Betreuungsperson zahlen wie Kinder und Jugendliche 1,25 €",
+        "quote": "sowie für Personen mit einem Grad der Behinderung von 80 % (lt. Ausweis) und einer darin eingetragenen Betreuungsperson 1,25 €"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du musst deinen Gästen die Gästekarte unverzüglich aushändigen.",
+        "quote": "Sie sind darüber hinaus verpflichtet, den Kurbeitragspflichtigen die Gästekarte unverzüglich auszuhändigen."
+      },
+      {
+        "text": "Auch Gruppen, die keinen Kurbeitrag zahlen und keine Gästekarte bekommen, etwa Schülergruppen in einer Jugendherberge, erfasst du im Meldescheinsystem.",
+        "quote": "Auch Gruppen, die nicht kurbeitragspflichtig sind und die keine Gästekarten erhalten (z.B. Schülergruppen in einer Jugendherberge) sind im Meldescheinsystem zu erfassen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Gemeinde dafür, dass er eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens eine Woche nach Erhalt der Kurbeitragsabrechnung ab; die Gemeinde kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens eine Woche nach Erhalt der Kurbeitragsabrechnung an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du der Gemeinde elektronisch oder schriftlich, soweit sie sich nicht selbst gemeldet haben.",
+      "quote": "verpflichtet, der Gemeinde die Beitragspflichtigen elektronisch oder schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet unmittelbar oder mittelbar wirtschaftliche Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- und körperschaftssteuerpflichtigen Gewinns (Absatz1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 4,
+      "quote": "Der Beitragssatz beträgt 4 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Am 1. August jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschuldner hat am 1. August jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/neuschoenau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          125
+        ]
+      }
+    ]
+  }
+}

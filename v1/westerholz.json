@@ -1,0 +1,163 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "westerholz",
+  "name": "Westerholz",
+  "short": "Westerholz",
+  "ags": "01059178",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung des Amtes Langballig über die Erhebung einer Tourismusabgabe vom 16. Dezember 2021",
+      "url": "https://www.amt-langballig.de/fileadmin/Amt/Dateien/Satzungen/Satzung_%C3%BCber_die_Erhebung_einer_Tourismusabgabe.PDF",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "f99c40390b40a4f0665ebb1d663440eca00accfb4af62673f793ca73dda33617",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ortsrechtAmt": {
+      "title": "Amt Langballig, Ortsrecht des Amtes Langballig",
+      "url": "https://www.amt-langballig.de/buergerservice-und-politik/ihre-digitale-amtsverwaltung/ortsrecht/Stichwort/amt-langballig",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "1bdb1bc90f690d09eed08f2985af7cc46a3ea6ee0391fa4811c54442f97e63a6",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht des Amtes Langballig, das die Tourismusabgabe erhebt, steht keine Kurabgabe.",
+    "source": "ortsrechtAmt",
+    "quote": "Satzung über die Erhebung einer Tourismusabgabe",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Tourismus im Amt Langballig unmittelbar Vorteile bringt.",
+      "quote": "Abgabepflichtig sind alle selbständig tätigen natürlichen und juristischen Personen, denen durch den Tourismus im Amt Langballig unmittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung ohne Frühstück",
+        "quote": "3. Ferienwohnung ohne Frühstück 25,80 Euro pro Bett",
+        "flat": {
+          "cents": 2580,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Privatzimmer mit Frühstück",
+        "quote": "2. Privatzimmer mit Frühstück 22,77 Euro pro Bett",
+        "flat": {
+          "cents": 2277,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotel mit Frühstück",
+        "quote": "1. Hotel mit Frühstück 6,72 Euro pro Bett",
+        "flat": {
+          "cents": 672,
+          "per": "Bett"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Bis zum 1. Juli jeden Jahres teilst du dem Amt Langballig mit, was für die Berechnung nötig ist; gehen die Angaben nicht ein, kann das Amt die Berechnungsgrundlage schätzen.",
+      "quote": "Der Abgabepflichtige hat dem Amt Langballig bis zum 1. Juli jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 14 Tage nach Zugang des Bescheids, gezahlt wird an die Amtskasse Langballig.",
+      "quote": "Die Abgabe ist innerhalb von vierzehn Tagen nach Zugang des Heranziehungsbescheides fällig und bei der Amtskasse Langballig zu entrichten."
+    },
+    "exemptions": [
+      {
+        "text": "Als gemeinnützig anerkannte Vereine zahlen keine Tourismusabgabe.",
+        "quote": "(2) Vereine, die als gemeinnützig anerkannt sind, zahlen keine Tourismusabgabe."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Tourismusabgabe erhebt das Amt Langballig, die Gemeinden haben die Erhebung auf das Amt übertragen; dieselbe Satzung gilt für Dollerup, Grundhof, Langballig, Munkbrarup, Ringsberg, Wees und Westerholz.",
+        "quote": "Die Gemeinden Dollerup, Grundhof, Langballig, Munkbrarup, Ringsberg, Wees und Westerholz sind als Erholungsorte anerkannt, die Gemeinde Langballig zusätzlich als Luftkurort. Die Gemeinden haben Aufgaben des Tourismus wie die Touristinformation, Badeaufsichten, LTO und die Erhebung einer Tourismusabgabe (Fremdenverkehrsabgabe) durch die jeweiligen Beschlüsse der Gemeindevertretungen auf das Amt übertragen. (2) Das Amt Langballig erhebt zur teilweisen Deckung seiner Aufwendungen für die Tourismuswerbung und zur teilweisen Deckung der Aufwendungen für die Herstellung, Verwaltung und Unterhaltung der zu Erholungszwecken bereitgestellten Einrichtungen eine Tourismusabgabe nach Maßgabe dieser Satzung."
+      },
+      {
+        "text": "Es ist eine Jahresabgabe, kein Betrag je Gast oder Nacht.",
+        "quote": "(1) Die Abgabe wird als Jahresabgabe erhoben."
+      },
+      {
+        "text": "Wer zwischen dem 1. Juli und dem 30. September einen Betrieb eröffnet oder vergrößert, wird nachveranlagt.",
+        "quote": "Abgabepflichtige, die zwischen dem 1. Juli und dem 30. September eines Jahres einen Betrieb eröffnen oder vergrößern, werden nachveranlagt."
+      },
+      {
+        "text": "Die Satzung sieht jedes Jahr eine Nachkalkulation vor; die Beträge können sich deshalb ändern, frag im Zweifel beim Amt nach.",
+        "quote": "Es erfolgt eine jährliche Nachkalkulation."
+      },
+      {
+        "text": "Der Bescheid kommt schriftlich zum Ende des Kalenderjahres.",
+        "quote": "Die Heranziehung zur Tourismusabgabe erfolgt durch schriftlichen Bescheid zum Ende des jeweiligen Kalenderjahres."
+      },
+      {
+        "text": "Fängst du mit der Vermietung an, zeigst du das dem Amt an; wer die Aufnahme der Tätigkeit nicht anzeigt oder verlangte Angaben nicht macht, begeht eine Ordnungswidrigkeit.",
+        "quote": "Wer entgegen § 8 Abs. 1 dieser Satzung dem Amt Langballig die Aufnahme der abgabenpflichtigen Tätigkeit nicht anzeigt oder auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe nicht oder nicht vollständig mitteilt, begeht eine Ordnungswidrigkeit"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/westerholz/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnung ohne Frühstück",
+        "cents": 2580,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "25,80 € je Bett im Jahr."
+      },
+      {
+        "label": "Privatzimmer mit Frühstück",
+        "cents": 2277,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "22,77 € je Bett im Jahr."
+      },
+      {
+        "label": "Hotel mit Frühstück",
+        "cents": 672,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "6,72 € je Bett im Jahr."
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-windsheim",
+  "name": "Bad Windsheim",
+  "short": "Bad Windsheim",
+  "ags": "09575112",
+  "state": "Bayern",
+  "district": "Neustadt a.d.Aisch-Bad Windsheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages der Stadt Bad Windsheim (2016), Ortsrecht der Stadt Bad Windsheim",
+      "url": "https://stadt.bad-windsheim.de/fileadmin/Dokumente/Ortsrecht/ortsrecht_s_kurbeitrag_2016.pdf",
+      "kind": "municipality",
+      "inForce": "2016-05-01",
+      "sha256": "74250197c6061605e5d4e31cac50e958fe3a9c985ae9a3fa3c538f3ef24d109d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Kurgebiet ist das Stadtgebiet mit Ausnahme der Stadtteile Berolzheim, Erkenbrechtshofen, Humprechtsau, Ickelheim, Kleinwindsheimermühle, Külsheim, Lenkersheim, Oberntief, Rehhof, Rüdisbronn, Unterntief, Walkmühle und Wiebelsheim."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt Bad Windsheim gegenüber für den Eingang des Betrages."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des - Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Stadt Bad Windsheim abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "Natürliche und juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen sowie Inhaber von Campingplätzen sind verpflichtet, der Stadt Bad Windsheim die Beitragspflichtigen schriftlich bzw. elektronisch zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "aenderung1": {
+      "title": "Erste Satzung zur Änderung der Satzung für die Erhebung eines Kurbeitrages, amtliche Bekanntmachung der Stadt Bad Windsheim vom 17.12.2024",
+      "url": "https://stadt.bad-windsheim.de/fileadmin/Dokumente/Amtliche_Bekanntmachungen/17-12-2024_Kurbeitragssatzung_Ortsrecht_Bekanntmachungen_Amtsblatt.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "7b70d4b603ac034bc823dbf1c0184392a7222ee08f445136292b1c28cf8e06a5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Der Beitrag beträgt pro Aufenthaltstag und Person ab dem 16. Lebensjahr 2,90 Euro."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres sind von der Entrichtung des Kurbeitrages befreit."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Auf Antrag wird der Kurbeitrag bei Nachweis einer Schwerbehinderung ab 50 v. H. auf 1,90 Euro ermäßigt."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Begleitpersonen eines Schwerbehinderten, die ihm amtlicherseits zustehen, sind von der Entrichtung eines Kurbeitrages befreit."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "Für Heilverfahrenspatienten der Rehakliniken gilt ein ermäßigter Kurbeitragssatz von 1,70 Euro und für Patienten, bei denen eine Anschlussheilbehandlung (AHB) durchgeführt wird, von 0,85 Euro."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "Für Tagungs- und Seminargäste sowie Geschäftsreisende, Messegäste und Monteure, die sich nicht ausschließlich zur Ausübung ihres Berufes oder zu Tagungen und Seminaren in Bad Windsheim aufhalten auf 1,90 Euro ermäßigt."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Bad Windsheim über die Erhebung eines Fremdenverkehrsbeitrages vom 14.07.1993",
+      "url": "https://stadt.bad-windsheim.de/fileadmin/Dokumente/Ortsrecht/ortsrecht_s_fremdenverkehrsbeitrag.pdf",
+      "kind": "municipality",
+      "inForce": "1993-07-16",
+      "changedOn": "2026-10-15",
+      "sha256": "d61e2be377553aef9e0bec0e6ace81b4622da3f91e8ee955cc4dcbde65943be2",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen, natürlichen und den juristischen Personen, den offenen Handelsgesellschaften und Kommanditgesellschaften, denen durch den Fremdenverkehr im Stadtgebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Beitragssatz beträgt vier vom Hundert."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß $ 3 Absatz 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß $ 3 Absatz 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 2,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 2,
+          "reading": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5v.H. 0,05 v. H. über 5-10 v. H. 0,15 v. HB. über 10 - 15 v. H. 0,25 v. H. über 15 - 20 v. H. 0,35 v. H. über 20 v. H. 0,50 v. H."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat am 15. März jeden Jahres eine Vorauszahlung zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 3,
+          "reading": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,20 DM."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 2,
+          "reading": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 3,
+          "reading": "Beitragsschuldner, die nur Vorauszahlungen nach $ 5 Absatz 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Stadt den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach $ 4 Absatz 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlußfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld ($ 4 Absatz 1)."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet.",
+      "source": "aenderung1"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 290,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag und Person ab dem 16. Lebensjahr 2,90 Euro.",
+          "source": "aenderung1"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres sind von der Entrichtung des Kurbeitrages befreit.",
+            "source": "aenderung1"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Schwerbehinderung ab 50 zahlen auf Antrag und gegen Nachweis 1,90 €",
+        "quote": "Auf Antrag wird der Kurbeitrag bei Nachweis einer Schwerbehinderung ab 50 v. H. auf 1,90 Euro ermäßigt.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Schwerbehinderung, die ihnen amtlicherseits zustehen",
+        "quote": "Begleitpersonen eines Schwerbehinderten, die ihm amtlicherseits zustehen, sind von der Entrichtung eines Kurbeitrages befreit.",
+        "source": "aenderung1"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag fällt im Stadtgebiet an, nicht aber in den Stadtteilen Berolzheim, Erkenbrechtshofen, Humprechtsau, Ickelheim, Kleinwindsheimermühle, Külsheim, Lenkersheim, Oberntief, Rehhof, Rüdisbronn, Unterntief, Walkmühle und Wiebelsheim.",
+        "quote": "Kurgebiet ist das Stadtgebiet mit Ausnahme der Stadtteile Berolzheim, Erkenbrechtshofen, Humprechtsau, Ickelheim, Kleinwindsheimermühle, Külsheim, Lenkersheim, Oberntief, Rehhof, Rüdisbronn, Unterntief, Walkmühle und Wiebelsheim."
+      },
+      {
+        "text": "Patienten von Rehakliniken im Heilverfahren zahlen 1,70 €, Patienten in einer Anschlussheilbehandlung 0,85 €.",
+        "quote": "Für Heilverfahrenspatienten der Rehakliniken gilt ein ermäßigter Kurbeitragssatz von 1,70 Euro und für Patienten, bei denen eine Anschlussheilbehandlung (AHB) durchgeführt wird, von 0,85 Euro.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Tagungs- und Seminargäste, Geschäftsreisende, Messegäste und Monteure, die sich nicht ausschließlich zur Berufsausübung oder zu Tagungen und Seminaren in Bad Windsheim aufhalten, zahlen 1,90 €.",
+        "quote": "Für Tagungs- und Seminargäste sowie Geschäftsreisende, Messegäste und Monteure, die sich nicht ausschließlich zur Ausübung ihres Berufes oder zu Tagungen und Seminaren in Bad Windsheim aufhalten auf 1,90 Euro ermäßigt.",
+        "source": "aenderung1"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Stadt für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt Bad Windsheim gegenüber für den Eingang des Betrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes; die Stadt kann zulassen, dass erst zum Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Stadt Bad Windsheim abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Gäste werden der Stadt schriftlich oder elektronisch gemeldet, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "Natürliche und juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen sowie Inhaber von Campingplätzen sind verpflichtet, der Stadt Bad Windsheim die Beitragspflichtigen schriftlich bzw. elektronisch zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Windsheim Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen, natürlichen und den juristischen Personen, den offenen Handelsgesellschaften und Kommanditgesellschaften, denen durch den Fremdenverkehr im Stadtgebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 4,
+      "quote": "Der Beitragssatz beträgt vier vom Hundert."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Absatz 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Absatz 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,05 und 0,50 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5v.H. 0,05 v. H. über 5-10 v. H. 0,15 v. H. über 10 - 15 v. H. 0,25 v. H. über 15 - 20 v. H. 0,35 v. H. über 20 v. H. 0,50 v. H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. März fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. März jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Nach der Satzung kann die Stadt von Vermietern eine Vorauszahlung je Übernachtung zusammen mit der Abführung der Kurbeiträge verlangen; die Satzung nennt den Betrag in D-Mark.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,20 DM."
+      },
+      {
+        "text": "Ist anzunehmen, dass diese Vorauszahlungen die sonst fällige Vorauszahlung nicht erreichen, kann die Stadt darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung nach § 5 Absatz 3 Satz 1, also nicht die weiteren nach Satz 2, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Stadt dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Absatz 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Stadt den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Absatz 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlußfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Absatz 1)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-windsheim/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 290,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

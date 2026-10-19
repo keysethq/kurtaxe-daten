@@ -1,0 +1,441 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sankt-maergen",
+  "name": "Gemeinde St. Märgen",
+  "short": "St. Märgen",
+  "ags": "08315094",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde St. Märgen über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 12.11.2024",
+      "url": "https://www.st-maergen.de/eip/media_downloads/365/14/Kurtaxesatzung+vom+12-11-2024.PDF?fl=53054594&d=da1",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "85c67c7ec203e8aebe152ebcdb70143e1cf2b087ec3893654f0d3ba59c2a5669",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+        },
+        {
+          "where": "zones[0].area",
+          "page": 1,
+          "reading": "Zum Kurbezirk II gehört der Ortsbereich."
+        },
+        {
+          "where": "zones[0].periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 €"
+        },
+        {
+          "where": "zones[0].periods[0].children[0]",
+          "page": 4,
+          "reading": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+        },
+        {
+          "where": "zones[0].periods[0].children[1]",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+        },
+        {
+          "where": "zones[0].periods[0].children[1] amount",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+        },
+        {
+          "where": "zones[1].area",
+          "page": 1,
+          "reading": "Zum Kurbezirk Ill gehört der Außenbereich."
+        },
+        {
+          "where": "zones[1].periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 €"
+        },
+        {
+          "where": "zones[1].periods[0].children[0]",
+          "page": 4,
+          "reading": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+        },
+        {
+          "where": "zones[1].periods[0].children[1]",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+        },
+        {
+          "where": "zones[1].periods[0].children[1] amount",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 4,
+          "reading": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde St. Märgen aufhalten (Tagesbesucher)"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 4,
+          "reading": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 4,
+          "reading": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "die in der Gemeinde St. Märgen arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde St. Märgen aufhalten"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Abgrenzungen sind aus dem als Anlage beigefügten Lageplan zu ersehen, der Bestandteil der Satzung ist."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 5,
+          "reading": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 5,
+          "reading": "kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "für Personen ab 16 Jahren 75,00 € 75,00 € für Kinder ab 6 Jahren und Jugendliche 33,00 € 33,00 €"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 6,
+          "reading": "Für die Meldung ist das von der Gemeinde St. Märgen unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde St. Märgen abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde St. Märgen abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde St. Märgen über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung – FBS), Beschluss vom 18.09.2001",
+      "url": "https://www.st-maergen.de/eip/media_downloads/365/6/Fremdenverkehrsbeitragssatzung.pdf?fl=53054594&d=bcf",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "sha256": "7897a269d669bd06f522c9063ffaa15a11de88cd25bf5d9f97c9af4f92d8824b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde St. Märgen aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 2,
+          "reading": "beträgt der Beitrag abweichend von Abs. 1 je Übernachtung 0,15 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 2,
+          "reading": "beträgt der Beitrag abweichend von Abs. 1 je Übernachtung 0,15 €"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 10 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "wird abweichend von Absatz 1 Satz 1 monatlich mit der Kurtaxe erhoben"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemißt sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Beitrag nach $ 4 Abs. 1 beträgt 4,5 v. H. des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 5,00 € beträgt."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk II (Ortsbereich)",
+        "area": {
+          "text": "Kurbezirk II ist der Ortsbereich.",
+          "quote": "Zum Kurbezirk II gehört der Ortsbereich."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "für Personen ab 16 Jahren 3,00 € 2,50 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III (Außenbereich)",
+        "area": {
+          "text": "Kurbezirk III ist der Außenbereich.",
+          "quote": "Zum Kurbezirk III gehört der Außenbereich."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "für Personen ab 16 Jahren 3,00 € 2,50 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde St. Märgen aufhalten (Tagesbesucher)"
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "die in der Gemeinde St. Märgen arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde St. Märgen aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wo die Grenze zwischen Ortsbereich und Außenbereich verläuft, zeigt der Lageplan, der Teil der Satzung ist.",
+        "quote": "Die Abgrenzungen sind aus dem als Anlage beigefügten Lageplan zu ersehen, der Bestandteil der Satzung ist."
+      },
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Die Gästekarte mit dem Hinweis KONUS berechtigt die Gäste zur kostenlosen Nutzung von Bus und Bahn in den teilnehmenden Verkehrsverbünden im Schwarzwald.",
+        "quote": "kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze in beiden Bezirken eine pauschale Jahreskurtaxe: 75 Euro je Person ab 16 Jahren und 33 Euro je Kind ab 6 Jahren und Jugendlichem.",
+        "quote": "für Personen ab 16 Jahren 75,00 € 75,00 € für Kinder ab 6 Jahren und Jugendliche 33,00 € 33,00 €"
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde St. Märgen unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für die rechtzeitige Einziehung und vollständige Ablieferung.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde St. Märgen abzuführen."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde St. Märgen abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in St. Märgen selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde St. Märgen aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "beträgt der Beitrag abweichend von Abs. 1 je Übernachtung 0,15 €",
+        "perNight": {
+          "cents": 15
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 10 Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 10 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen"
+    },
+    "deadline": {
+      "text": "Du zahlst den Beitrag auf die Übernachtungen monatlich zusammen mit der Kurtaxe.",
+      "quote": "wird abweichend von Absatz 1 Satz 1 monatlich mit der Kurtaxe erhoben"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Vermietest du als Privatzimmervermieter nur Wohnungen oder Zimmer vorübergehend an Fremde, richtet sich dein Beitrag nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemißt sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 4,5 % des Messbetrags; beträgt der Beitrag weniger als 5 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 1 beträgt 4,5 v. H. des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 5,00 € beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sankt-maergen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk II (Ortsbereich)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III (Außenbereich)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

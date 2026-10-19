@@ -1,0 +1,156 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kroepelin",
+  "name": "Stadt Kröpelin",
+  "short": "Kröpelin",
+  "ags": "13072058",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Kröpelin (Kurabgabesatzung), ausgefertigt am 19.02.2025",
+      "url": "https://www.stadt-kroepelin.de/wp-content/uploads/2025/02/Satzung-ueber-die-Erhebung-einer-Kurabgabe-in-der-Stadt-Kroepelin.pdf",
+      "kind": "statute",
+      "inForce": "2025-03-01",
+      "sha256": "68eee70358aabc187576c0f47c68baab214febef114b92b9a974b1b3d633e126",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung1": {
+      "title": "1. Satzung zur Änderung der Satzung der Stadt Kröpelin über die Erhebung einer Kurabgabe in der Stadt Kröpelin vom 01.03.2025, ausgefertigt am 10.04.2025",
+      "url": "https://www.stadt-kroepelin.de/wp-content/uploads/2025/04/1.-Aenderungssatzung-ausgefertigt.pdf",
+      "kind": "statute",
+      "inForce": "2025-03-01",
+      "sha256": "8ede6c6b4811b0b7b6cf420fbfcf046565392a1ef5e57eaf9a78b1a9968c71f2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Kurabgabe beträgt für jeden Tag, an dem sich der Kurabgabepflichtige (ortsfremde Person) im Erhebungsgebiet aufhält: EUR 1,50"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+        "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises; Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern, von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+      },
+      {
+        "text": "Wer sich vorübergehend beruflich in Kröpelin aufhält (zum Beispiel auf Dienstreise), gilt nicht als ortsfremd, wenn der Aufenthalt ganz oder weit überwiegend beruflich ist",
+        "quote": "Personen, die sich vorübergehend in der Stadt Kröpelin in Ausübung ihres Berufes im Erhebungsgebiet aufhalten (zum Beispiel Dienstreisen), soweit der Aufenthalt ganz oder zumindest weit überwiegend aus beruflichen Gründen erfolgt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+        "quote": "Bemessungsgrundlage für den An- und Abreisetag ist derTagessatz des Anreisetages."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 45,00 € zahlen.",
+        "quote": "Kurabgabepflichtige können an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten"
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 45,00 € für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht.",
+        "quote": "Jahreskurgabe beträgt EUR 45,00 für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+      },
+      {
+        "text": "Zweitwohnsitze und Dauercamper zahlen unabhängig von der Dauer ihres Aufenthalts die Jahreskurabgabe.",
+        "quote": "haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten. (Zweitwohnsitze + Dauercamper)"
+      },
+      {
+        "text": "Die zwei Wochen laufen ab der E-Mail, dass die Abrechnung hinterlegt ist.",
+        "quote": "die Kurabgabe nicht spätestens 2 Wochen nach Erhalt der E-Mail, dass die Abrechnung hinterlegt ist, an die Stadt Kröpelin abführt"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die digitale Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die elektronisch ausgefüllten Kurkarten/ Gästekarten auszuhändigen.",
+      "source": "aenderung1"
+    },
+    "deadline": {
+      "text": "Die im Erfassungssystem hinterlegte Abrechnung begleichst du innerhalb von 2 Wochen.",
+      "quote": "die im Erfassungssystem hinterlegte Abrechnung innerhalb von 2 Wochen zu begleichen.",
+      "source": "aenderung1"
+    },
+    "reporting": {
+      "text": "Gäste erfasst du in dem elektronischen Gästeerfassungssystem der Stadt.",
+      "quote": "ist verpflichtet, nach voriger Anmeldung, ein von der Stadt Kröpelin (Kurabgabestelle) autorisiertes elektronisches Gästeerfassungssystem zu verwenden.",
+      "source": "aenderung1"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kroepelin/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

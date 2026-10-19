@@ -1,0 +1,253 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "esens",
+  "name": "Stadt Esens",
+  "short": "Esens",
+  "ags": "03462003",
+  "state": "Niedersachsen",
+  "district": "Wittmund",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Esens (Gästebeitragssatzung) vom 17.07.2006 in der Fassung der 8. Änderung vom 02.12.2024 (Fassung ab 01.01.2025), Lesefassung der Samtgemeinde Esens",
+      "url": "https://daten.verwaltungsportal.de/dateien/service/2/4/8/5/3/Gaestebeitragssatzung_Esens_ab_01.01.2025_1.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "ea8825df86a6be504c226c1283bc934aaf93d8e68b7ca6e1887498716c6e5295",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung9": {
+      "title": "Satzung zur 9. Änderung der Gästebeitragssatzung der Stadt Esens vom 15.06.2026, Amtsblatt Landkreis Wittmund vom 30. Juni 2026, S. 50 (in Kraft ab 01.01.2027)",
+      "url": "https://www.landkreis-wittmund.de/media/custom/3105_4374_1.PDF?1782810329",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "d17c081f6de1173546a2e03ec0b54996f54d1337c8afa6d79e2f345cf5e6df7c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 320,
+          "quote": "a) für Personen ab 16 Jahre 3,20 EUR 1,00 EUR",
+          "next": {
+            "cents": 350,
+            "quote": "a) für Personen ab 16 Jahre 3,50 EUR 1,70 EUR",
+            "source": "aenderung9"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 6. Lebensjahres;"
+          },
+          {
+            "underAge": 16,
+            "cents": 100,
+            "quote": "bis einschließlich 15 Jahre 1,00 EUR 0,50 EUR",
+            "next": {
+              "cents": 200,
+              "quote": "bis einschließlich 15 Jahre 2,00 EUR 1,00 EUR",
+              "source": "aenderung9"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-14"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "a) für Personen ab 16 Jahre 3,20 EUR 1,00 EUR",
+          "next": {
+            "cents": 170,
+            "quote": "a) für Personen ab 16 Jahre 3,50 EUR 1,70 EUR",
+            "source": "aenderung9"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 6. Lebensjahres;"
+          },
+          {
+            "underAge": 16,
+            "cents": 50,
+            "quote": "bis einschließlich 15 Jahre 1,00 EUR 0,50 EUR",
+            "next": {
+              "cents": 100,
+              "quote": "bis einschließlich 15 Jahre 2,00 EUR 1,00 EUR",
+              "source": "aenderung9"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die 9. Änderung der Gästebeitragssatzung; die Saisonzeiten bleiben gleich.",
+      "quote": "Artikel 2 Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "aenderung9"
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Wer zu einer Familie gehört, zahlt ab der 5. Person nichts; befreit werden jeweils die jüngsten Familienmitglieder.",
+      "quote": "2. jede 5. und weitere Person einer Familie, wobei jeweils die jüngsten Familienangehörigen zu befreien sind;"
+    },
+    "exemptions": [
+      {
+        "text": "Wer nur zur Berufsausübung oder Ausbildung in Esens ist, zahlt nichts.",
+        "quote": "5. Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80, die laut Ausweis ständig auf Begleitung angewiesen sind, und ihre Begleitperson zahlen nichts.",
+        "quote": "6. Schwerbehinderte mit einem Grad der Behinderung von mindestens 80, die lt. amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind, sowie deren Begleitperson."
+      },
+      {
+        "text": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen zahlen für die ersten drei Tage nichts.",
+        "quote": "4. Teilnehmer an den von der Stadt Esens anerkannten Tagungen, Kongressen, Lehrgängen und vergleichbaren Veranstaltungen für die ersten drei Tage des Aufenthaltes;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten in der ganzen Stadt, also in Esens und in Bensersiel.",
+        "quote": "mit ihrem Ortsteil Bensersiel als Nordseeheilbad staatlich anerkannt."
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen gut sichtbar aus.",
+        "quote": "d) diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      },
+      {
+        "text": "Du haftest dafür, dass der Gästebeitrag rechtzeitig eingezogen und vollständig abgeliefert wird.",
+        "quote": "haften für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt die Gästekarte spätestens bei der Ankunft zur Verfügung, zieht den Gästebeitrag gleichzeitig ein und führt ihn an den Tourismusbetrieb Esens-Bensersiel ab.",
+      "quote": "Die so erstellte Gästekarte ist dem Beitragspflichtigen spätestens bei Ankunft zur Verfügung zu stellen, der Gästebeitrag gleichzeitig einzuziehen und schließlich an den Tourismusbetrieb Esens- Bensersiel abzuführen."
+    },
+    "deadline": {
+      "text": "Der Tourismusbetrieb rechnet über das digitale System monatlich direkt mit dir ab.",
+      "quote": "Dieser rechnet über das digitale System monatlich direkt mit dem Wohnungsgeber ab."
+    },
+    "reporting": {
+      "text": "Gemeldet wird digital über das Online-Meldesystem; Ausnahmen gibt es nur auf begründeten Antrag.",
+      "quote": "die Buchungsdaten gemäß § 7 Absatz 1 Satz 2 der bei ihm gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen über das Online-Meldesystem digital zu erfassen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/esens/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 320,
+        "children": [
+          0,
+          100
+        ],
+        "next": {
+          "adult": 350,
+          "children": [
+            0,
+            200
+          ]
+        }
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "01-01",
+            "03-14"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ],
+        "next": {
+          "adult": 170,
+          "children": [
+            0,
+            100
+          ]
+        }
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    },
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

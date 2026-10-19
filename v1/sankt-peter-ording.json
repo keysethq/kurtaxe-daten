@@ -1,0 +1,481 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sankt-peter-ording",
+  "name": "Sankt Peter-Ording",
+  "short": "St. Peter-Ording",
+  "ags": "01054113",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung der Kurabgabe in der Gemeinde Sankt Peter-Ording vom 22.10.2024, redaktionelle Fassung der Tourismus-Zentrale St. Peter-Ording (Stand Oktober 2024)",
+      "url": "https://www.st-peter-ording.de/fileadmin/userdaten/pdf-dokumente/gaestekarte-und-kurabgabe/Kurabgabesatzung-SPO_2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "765f16e96286427ddceffc9a92113298f44c3d59d7441bdf2ef0ce93d0571ae8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "ta": {
+      "title": "Satzung der Gemeinde Sankt Peter-Ording über die Erhebung einer Tourismusabgabe (Beschluss vom 13.09.2021)",
+      "url": "https://www.amt-eiderstedt.de/media/custom/2706_16658_1.PDF?1643034361",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "7cb9c331bf2d69c96ee33f434efd335acd48ed7440d4abfd34aa44e9baa93234",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 3,
+          "reading": "Abgabepflichtig sind natürliche und juristische Personen sowie nichtrechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen anbieten."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 3,
+          "reading": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen, multipliziert mit dem durchschnittlichen Gewinnanteil"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 4,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "Die Abgabe ist in vierteljährlichen Teilbeträgen jeweils am 15. Februar, 15. Mai, 15. August und 15. November jeden Jahres fällig. Nachzahlungen sind innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "Die Abgabepflicht beginnt am Anfang eines jeden Kalenderjahres, jedoch nicht vor Aufnahme der abgabepflichtigen Tätigkeit."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 4,
+          "reading": "wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 4,
+          "reading": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 3,
+          "reading": "Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+        }
+      ]
+    },
+    "taNachtrag": {
+      "title": "1. Nachtragssatzung zur Satzung der Gemeinde Sankt Peter-Ording über die Erhebung einer Tourismusabgabe (Beschluss vom 21.10.2024), mit der Anlage ab 1.1.2025",
+      "url": "https://www.amt-eiderstedt.de/media/custom/2706_21021_1.PDF?1736253774",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a1ceed44a3e5701ae9799476e15cc2eea6b44cbd06fe7667401d0964cae8962e",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "für die Zeit ab 01. Januar 2025 9,5 v.H."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 4,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 4,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 4,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 4,
+          "reading": "Hotels garni/Pensionen garni 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 4,
+          "reading": "Hotels garni/Pensionen garni 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 4,
+          "reading": "Hotels garni/Pensionen garni 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 4,
+          "reading": "Hotels/Pensionen mit Teil- und Vollverpflegung 100% 6%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 4,
+          "reading": "Hotels/Pensionen mit Teil- und Vollverpflegung 100% 6%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 4,
+          "reading": "Hotels/Pensionen mit Teil- und Vollverpflegung 100% 6%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 4,
+          "reading": "Zeltplätze, Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 4,
+          "reading": "Zeltplätze, Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 4,
+          "reading": "Zeltplätze, Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 5,
+          "reading": "Campingwagenstellplatzvermietung 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 5,
+          "reading": "Campingwagenstellplatzvermietung 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 5,
+          "reading": "Campingwagenstellplatzvermietung 100% 8%"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Die bisherige Anlage zur Satzung gilt für Erhebungen der Tourismusabgabe für die Zeit bis zum 31. Dezember 2024."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens wird als voller Tag, der Tag der Abreise wird nicht gewertet."
+    },
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-25",
+            "to": "01-07"
+          }
+        ],
+        "adult": {
+          "cents": 400,
+          "quote": "a) in dem in § 4 Abs. 1 Buchst. a) bezeichneten Zeitraum 4,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "bis zur Vollendung des 18. Lebensjahres, soweit sie von Erziehungsberechtigten begleitet werden,"
+          }
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          {
+            "from": "01-08",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-24"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "b) in dem in § 4 Abs. 1 Buchst. b) bezeichneten Zeitraum 3,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "bis zur Vollendung des 18. Lebensjahres, soweit sie von Erziehungsberechtigten begleitet werden,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schüler, Studenten und Auszubildende ab 18 sowie Menschen mit einem Grad der Behinderung ab 70 und eine nötige Begleitperson zahlen 50 %",
+        "quote": "Die Kurabgabesätze gemäß § 5 ermäßigen sich auf 50 % für a) Schüler, Studenten und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises); b) Schwerbehinderte Personen, die einen Grad der Behinderung von 70% und mehr nachweisen, sowie für eine erforderliche Begleitperson;"
+      },
+      {
+        "text": "Kinder, Eltern und Ehe- oder Lebenspartner von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "c) Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die in der Gemeinde ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Allein reisende Kinder und Jugendliche ab 6 und unter 18 Jahren zahlen 0,50 Euro je Tag.",
+        "quote": "a) alleinreisende Kinder und Jugendliche von der Vollendung des 6. bis zur Vollendung des 18. Lebensjahres 0,50 Euro,"
+      },
+      {
+        "text": "Der Vermieter darf für Einziehung und Abführung 2 von Hundert der Kurabgabe einbehalten.",
+        "quote": "Der Unterkunftsgeber ist berechtigt, zur Abgeltung der durch die Einziehung und Abführung der Kurabgabe entstehenden Mehraufwendungen einen Betrag in Höhe von 2 von Hundert des Kurabgabebetrages in Rechnung zu stellen."
+      },
+      {
+        "text": "Auf Antrag des Gastes werden höchstens 28 Tage der Saison A berechnet (Jahrespauschale).",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage des in Abs. 1 Buchst. a) bezeichneten Zeitraumes pauschaliert (Jahrespauschale), wenn der Kurabgabepflichtige a) einen entsprechenden Antrag stellt"
+      },
+      {
+        "text": "Vermieter müssen die Satzung für ihre Gäste sichtbar auslegen.",
+        "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe, zieht sie ein und führt sie an die Tourismus-Zentrale ab.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm auszustellenden Kurkarten die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an die Gemeinde Sankt Peter-Ording - Tourismus-Zentrale - kostenfrei abzuführen."
+    },
+    "deadline": {
+      "text": "Die Durchschriften der Gästekarten reichst du monatlich bis zum 15. für den Vormonat bei der Tourismus-Zentrale ein; sie rechnet danach ab.",
+      "quote": "Die Durchschriften der Kurkartenvordrucke sind vom Unterkunftsgeber jeweils bis zum 15. eines Monats für den vorangegangenen Monat bei der Tourismus-Zentrale zum Zwecke der Abrechnung einzureichen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit der Gästekarte auf den Vordrucken der Tourismus-Zentrale, unverzüglich nach der Ankunft.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm aufgenommenen Personen unverzüglich unter Verwendung der von der Tourismus-Zentrale zur Verfügung gestellten Vordrucke eine Kurkarte auszustellen",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Sankt Peter-Ording selbstständig tourismusbezogene Leistungen gegen Entgelt anbietest, auch eine Vermietung.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nichtrechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen anbieten."
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Ferienwohnungen, Appartements und Ferienhäusern",
+        "source": "taNachtrag",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern 100% 17%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern 100% 17%",
+            "source": "taNachtrag"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "source": "taNachtrag",
+        "quote": "Hotels garni/Pensionen garni 100% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels garni/Pensionen garni 100% 11%",
+            "source": "taNachtrag"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Teil- und Vollverpflegung",
+        "source": "taNachtrag",
+        "quote": "Hotels/Pensionen mit Teil- und Vollverpflegung 100% 6%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels/Pensionen mit Teil- und Vollverpflegung 100% 6%",
+            "source": "taNachtrag"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "source": "taNachtrag",
+        "quote": "Zeltplätze, Campingplätze 100% 14%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Zeltplätze, Campingplätze 100% 14%",
+            "source": "taNachtrag"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Campingwagen-Stellplatzvermietung",
+        "source": "taNachtrag",
+        "quote": "Campingwagenstellplatzvermietung 100% 8%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Campingwagenstellplatzvermietung 100% 8%",
+            "source": "taNachtrag"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 9.5,
+      "quote": "für die Zeit ab 01. Januar 2025 9,5 v.H.",
+      "source": "taNachtrag"
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen, multipliziert mit dem durchschnittlichen Gewinnanteil"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Die Abgabe ist in vier Teilbeträgen am 15. Februar, 15. Mai, 15. August und 15. November fällig; Nachzahlungen einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist in vierteljährlichen Teilbeträgen jeweils am 15. Februar, 15. Mai, 15. August und 15. November jeden Jahres fällig. Nachzahlungen sind innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Anlage mit den Vorteils- und Gewinnsätzen von 2025 gilt ab dem 1. Januar 2025; die frühere Anlage galt bis Ende 2024.",
+        "quote": "Die bisherige Anlage zur Satzung gilt für Erhebungen der Tourismusabgabe für die Zeit bis zum 31. Dezember 2024.",
+        "source": "taNachtrag"
+      },
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Die Abgabepflicht beginnt am Anfang des Kalenderjahres, frühestens mit dem Start deiner Vermietung.",
+        "quote": "Die Abgabepflicht beginnt am Anfang eines jeden Kalenderjahres, jedoch nicht vor Aufnahme der abgabepflichtigen Tätigkeit."
+      },
+      {
+        "text": "Hörst du im Lauf des Jahres auf, wird dir für jeden vollen Monat ohne Vermietung ein Zwölftel der festgesetzten Abgabe erstattet; eine nur saisonale Vermietung zählt nicht als Ende.",
+        "quote": "wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Fängst du im Lauf des Kalenderjahres mit der Vermietung an, zählen im Jahr des Beginns und im Jahr danach nicht die Einnahmen des Vorjahres, sondern die des jeweiligen Erhebungszeitraums.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sankt-peter-ording/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-25",
+            "01-07"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          [
+            "01-08",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-24"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

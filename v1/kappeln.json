@@ -1,0 +1,125 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kappeln",
+  "name": "Stadt Kappeln",
+  "short": "Kappeln",
+  "ags": "01059045",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Stadt Kappeln, ausgefertigt am 05.11.2024, Stadt Kappeln",
+      "url": "https://www.kappeln.de/media/custom/2989_1570_1.PDF?1730797834",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "0009c1b3f6e4192d5e905318e0d216723ce4de0019676a57431a4442fff6c33b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Übernachtungssteuer beträgt 5% der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Umsatzsteuer und etwaige Vermittlungsentgelte gehören nicht zur Bemessungsgrundlage.",
+      "quote": "Die Umsatzsteuer sowie etwaige Vermittlungsentgelte gehören nicht zur Bemessungsgrundlage.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Stadtgebiet der Stadt Kappeln gegen Entgelt bereitstellt (Betreiber eines Beherbergungsbetriebs)."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird jeweils einen Monat nach Bekanntgabe des Steuerbescheides fällig."
+    },
+    "reporting": {
+      "text": "Du gibst bis zum 40. Tag nach Ende des Besteuerungszeitraums die Erklärung auf dem amtlichen Vordruck bei der Steuerabteilung ab.",
+      "quote": "bis zum 40. Tag nachdem Ablauf des Besteuerungszeitraums (§ 6) bei der Steuerabteilung der Stadt Kappeln eine Erklärung nach amtlich vorgeschriebenen Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen, die das Grundbedürfnis nach Wohnraum decken, etwa bei Wohnungslosigkeit oder unbewohnbar gewordener eigener Wohnung, sind befreit.",
+        "quote": "Übernachtungen, die der Befriedigung des Grundbedürfnisses nach Wohnraum dienen (z.B. bei Wohnungslosigkeit oder Beherbergung von Gästen, deren eigene Wohnung durch Brand oder Wasserschaden o.ä. unbewohnbar geworden ist)"
+      },
+      {
+        "text": "Übernachtungen, die mit einer schulischen oder zu Ausbildungszwecken dienenden Tätigkeit verbunden sind, sind befreit.",
+        "quote": "Übernachtungen, die mit einer schulischen oder zu Ausbildungszwecken dienenden Tätigkeit verbunden sind"
+      },
+      {
+        "text": "Gruppenreisen von Kindern und Jugendlichen bis 18 Jahre samt Gruppenleitern sind befreit, soweit sie der Jugendhilfe dienen.",
+        "quote": "Gruppenreisen von Kindern und Jugendlichen bis zum Alter von 18 Jahren, einschließlich der sie begleitenden Gruppenleiter soweit diese Reisen der Förderung der Jugendhilfe"
+      },
+      {
+        "text": "Übernachtungen anlässlich von Gruppenreisen allgemeinbildender und beruflicher Schulen sind befreit.",
+        "quote": "Übernachtungen anlässlich von Gruppenreisen von Kindern und Jugendlichen der allgemeinbildenden und beruflichen Schulen"
+      },
+      {
+        "text": "Übernachtungen, die mit der Berufs- und Gewerbeausübung oder einer freiberuflichen Tätigkeit notwendig verbunden sind, sind befreit.",
+        "quote": "Übernachtungen, wenn diese mit der Berufs- und Gewerbeausübung oder einer freiberuflichen Tätigkeit dienenden Tätigkeit notwendig verbunden sind"
+      },
+      {
+        "text": "Zusammenhängende Übernachtungen im selben Betrieb, die zusammen länger als sechs Monate dauern, unterliegen nicht der Steuer.",
+        "quote": "Sollte ein Übernachtungsgast zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, die eine Gesamtdauer von 6 Monaten übersteigen, so unterliegt der Aufwand für diese Übernachtungen nicht der Besteuerung nach dieser Satzung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Nebenkosten wie Endreinigung, Strom und Frischwasser zählen zum aufzuwendenden Betrag.",
+        "quote": "Die Abgabe bemisst sich nach dem für die Übernachtungsleistung vom Beherbergungsgast oder einem Dritten aufzuwendenden Betrag einschließlich Nebenkosten, wie z.B. Endreinigung, Strom, Frischwasser."
+      },
+      {
+        "text": "Der Besteuerungszeitraum ist das Quartal; lag die Steuer im Vorjahr unter 750 € und bleibt sie voraussichtlich darunter, ist es das Kalenderjahr.",
+        "quote": "Der Besteuerungszeitraum ist jeweils ein Kalendervierteljahr. (2) Beträgt die Steuer im vorangegangenen Jahr weniger als 750 Euro und wird sie im laufenden Kalenderjahr diesen Betrag voraussichtlich nicht übersteigen, ist das Kalenderjahr Besteuerungszeitraum."
+      },
+      {
+        "text": "Entgelte für Frühstück, Halbpension und Getränke zählen nicht zur Bemessungsgrundlage.",
+        "quote": "Aufzuwendende Beträge für Verpflegungsleistungen wie Frühstück und/oder Halbpension bzw. Getränke sind nicht Teil der Bemessungsgrundlage."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung / Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      },
+      {
+        "text": "Wohnen in einer Unterkunft mehrere Gäste, von denen nicht alle befreit sind, wird der Betrag durch die Zahl der Gäste geteilt und nur der Anteil der nicht befreiten Gäste besteuert.",
+        "quote": "Im Falle der Belegung einer Übernachtungseinheit (z.B. Doppelzimmer, Ferienhäuser oder Ferienwohnung) durch mehrere Beherbergungsgäste, von denen nicht alle aus den in § 5 genannten Gründen von der Übernachtungssteuer befreit sind, ist der aufzuwendende Betrag für die gemeinschaftliche Beherbergung durch die Anzahl der Beherbergungsgäste zu teilen. Gegenstand der Übernachtungssteuer ist in diesem Fall der anteilig berechnete Aufwand der Beherbergungsgäste, die nicht nach § 5 steuerbefreit sind."
+      },
+      {
+        "text": "Berufliche Gründe für eine Übernachtung kannst du unter anderem mit einer Bescheinigung des Arbeitgebers oder einer vom Gast unterschriebenen Selbsterklärung nachweisen; die Selbsterklärung muss bestimmte Angaben enthalten.",
+        "quote": "Das Vorliegen beruflicher Gründe für eine Übernachtung gemäß § 5 Buchstabe e) der Satzung kann unter anderem durch eine Bescheinigung des Arbeitgebers oder durch eine eigenhändig vom Beherbergungsgast unterzeichnete Selbsterklärung nachgewiesen werden."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kappeln/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

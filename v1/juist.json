@@ -1,0 +1,437 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "juist",
+  "name": "Juist",
+  "short": "Juist",
+  "ags": "03452013",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrags für die Inselgemeinde Juist (Gästebeitragssatzung) vom 06. Dezember 2022, Amtsblatt für den Landkreis Aurich Nr. 67 vom 09.12.2022, S. 977",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2025/10/Amtsblatt_Nr._67_vom_09.12.2022.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "sha256": "e46bf7044c8d47eaa24742b3e249a867c1f3e42186c310dcf0682a93902ac917",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tarife": {
+      "title": "Gästebeitragstarife 2026, Inselgemeinde Juist (juist.de)",
+      "url": "https://www.juist.de/juisturlaub-planen/gaestebeitrag/tarife",
+      "kind": "municipality",
+      "sha256": "5855de1ed3841f294da58979862063f2037d6a2981a5827b620732b7e6079b32",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrags für die Inselgemeinde Juist (Tourismusbeitragssatzung) vom 06. Dezember 2022 mit Anlage, Amtsblatt für den Landkreis Aurich Nr. 67 vom 09.12.2022, S. 982",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2025/10/Amtsblatt_Nr._67_vom_09.12.2022.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "e46bf7044c8d47eaa24742b3e249a867c1f3e42186c310dcf0682a93902ac917",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 31,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz bis 30 TE 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 31,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz bis 30 TE 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 31,
+          "reading": "Umsatz bis 30 TE 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 31,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz über 30 T€ 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 31,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz über 30 T€ 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 31,
+          "reading": "Umsatz über 30 T€ 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 31,
+          "reading": "Hotel gami/Pension m. Frühst. 95% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 31,
+          "reading": "Hotel gami/Pension m. Frühst. 95% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 31,
+          "reading": "Hotel gami/Pension m. Frühst. 95% 11%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 31,
+          "reading": "Hotel/Pension m. Halb- oder Vollpension 95% 6%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 31,
+          "reading": "Hotel/Pension m. Halb- oder Vollpension 95% 6%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 31,
+          "reading": "ension 95% 6%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 31,
+          "reading": "sonstige Unterkunftsgewährung an wechselnde Gäste 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 31,
+          "reading": "sonstige Unterkunftsgewährung an wechselnde Gäste 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 31,
+          "reading": "wechselnde Gäste 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 31,
+          "reading": "Jugendherberge, Erholungsheim 100% 2%"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 31,
+          "reading": "Jugendherberge, Erholungsheim 100% 2%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 31,
+          "reading": "Erholungsheim 100% 2%"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthalts wird, Tagesbesuche ausgenommen, nach der Anzahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-26",
+            "to": "01-05"
+          }
+        ],
+        "adult": {
+          "cents": 480,
+          "quote": "Der Gästebeitrag für Personen ab 14 Jahren beträgt:  in der Hauptsaison 4,80 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis einschließlich 5 Jahre,"
+          },
+          {
+            "underAge": 14,
+            "cents": 240,
+            "quote": "Der ermäßigte Gästebeitrag für Kinder von 6 bis einschließlich 13 Jahren gemäß § 6 Abs. 1 der Gästebeitragssatzung beträgt pro Tag:  in der Hauptsaison 2,40 €"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-06",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-25"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Der Gästebeitrag für Personen ab 14 Jahren beträgt:  in der Hauptsaison 4,80 €  in der Nebensaison 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis einschließlich 5 Jahre,"
+          },
+          {
+            "underAge": 14,
+            "cents": 150,
+            "quote": "Der ermäßigte Gästebeitrag für Kinder von 6 bis einschließlich 13 Jahren gemäß § 6 Abs. 1 der Gästebeitragssatzung beträgt pro Tag:  in der Hauptsaison 2,40 €  in der Nebensaison 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 zahlen nichts.",
+        "quote": "Schwerbehinderte, die einen Grad der Behinderung von 100 % nachweisen,"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Merkzeichen B oder H zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis mit eingetragenem Merkzeichen B oder H auf Unterstützung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen, zahlen nichts.",
+        "quote": "Verwandtenbesuche (Großeltern, Eltern, Kinder, Enkelkinder, Geschwister und Geschwisterkinder, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen, Ehepartner, Lebenspartner nach dem LPartG) von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben oder in einem Arbeits- oder Ausbildungsverhältnis eines im Erhebungsgebiet ansässigen Unternehmens stehen, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im Regelfall zahlt der Gast den Gästebeitrag selbst bei der Inselgemeinde, spätestens am Abreisetag.",
+        "quote": "Der Gästebeitrag ist spätestens am Abreisetag vom Gästebeitragspflichtigen bei der Inselgemeinde Juist zu zahlen, soweit nicht eine Vorauszahlung geleistet wird oder die Einziehung per Lastschriftverfahren erfolgt."
+      },
+      {
+        "text": "Solange das Erlebnisbad zur Wartung geschlossen ist, wird kein Gästebeitrag erhoben; 2026 war das vom 11. Januar bis 13. Februar.",
+        "quote": "11.01. - 13.02.2026 gästebeitragsfrei frei frei frei",
+        "source": "tarife"
+      },
+      {
+        "text": "Du hängst eine Kopie der Gästebeitragssatzung für deine Gäste aus.",
+        "quote": "Alle Wohnungsgeber haben eine Kopie der Gästebeitragssatzung ihren Gästen durch Aushang bekannt zu machen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Nur wenn der Gast keine gültige Gästebeitragskarte hat oder das Kassensystem ausfällt, ziehst du den Gästebeitrag ein und lieferst ihn an die Inselgemeinde ab.",
+      "quote": "In obigen Fällen der Anmeldepflicht und falls das Kassensystem zur Abrechnung des Gästebeitrags, insbesondere aufgrund technischen Defekts nicht verwendet werden kann, hat der Wohnungsgeber den Gästebeitrag einzuziehen und an die Inselgemeinde Juist abzuliefern."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Hat der Gast keine gültige Gästebeitragskarte, meldest du ihn binnen 24 Stunden oder am ersten Werktag nach der Ankunft mit An- und Abreisetag bei der Inselgemeinde an.",
+      "quote": "Jeder Wohnungsgeber ist - sofern der Gästebeitragspflichtige keine gültige Gästebeitragskarte besitzt -verpflichtet, gästebeitragspflichtige Ortsfremde binnen 24 Stunden oder am ersten Werktag nach dem Eintreffen im Erhebungsgebiet bei der Inselgemeinde Juist unter Angabe des An- und Abreisetages anzumelden.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du auf Juist selbständig tätig bist und der Tourismus dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt, was bei der Vermietung an Gäste der Fall ist.",
+      "quote": "Beitragspflichtig sind alle natürlichen und juristischen Personen sowie nicht- oder teilrechtsfähige Personenvereinigungen, denen durch den Tourismus im Gemeindegebiet unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten sind."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung, Ferienapartment, Ferienhaus, Umsatz bis 30.000 €",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz bis 30 TE 100% 17%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Umsatz bis 30 TE 100% 17%"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnung, Ferienapartment, Ferienhaus, Umsatz über 30.000 €",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz über 30 T€ 100% 14%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Umsatz über 30 T€ 100% 14%"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, Pension mit Frühstück",
+        "quote": "Hotel garni/Pension m. Frühst. 95% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Hotel garni/Pension m. Frühst. 95% 11%"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotel, Pension mit Halb- oder Vollpension",
+        "quote": "Hotel/Pension m. Halb- oder Vollpension 95% 6%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Pension 95% 6%"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Sonstige Unterkunftsgewährung an wechselnde Gäste",
+        "quote": "sonstige Unterkunftsgewährung an wechselnde Gäste 100% 8%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "wechselnde Gäste 100% 8%"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge, Erholungsheim",
+        "quote": "Jugendherberge, Erholungsheim 100% 2%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Erholungsheim 100% 2%"
+          },
+          "profit": {
+            "percent": 2
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 4.32,
+      "quote": "Der Beitragssatz beträgt 4,32 v. H. des Messbetrags gemäß § 3 Abs. 1."
+    },
+    "basis": {
+      "text": "Es zählt dein Umsatz aus der Vermietung ohne Umsatzsteuer, und zwar der des Vorvorjahres, für 2026 also von 2024; hast du später angefangen, zählt der des Vorjahres, bei Beginn oder Ende im Erhebungsjahr der dieses Jahres.",
+      "quote": "Maßgeblich ist der im Vorvorjahr des Erhebungsjahres (§ 5) erzielte Umsatz. Wurde die beitragspflichtige Tätigkeit im Gemeindegebiet später als im Vorvorjahr begonnen, so ist der im Vorjahr erzielte Umsatz maßgeblich; wurde die Tätigkeit im Erhebungsjahr aufgenommen oder beendet, so ist der im Erhebungsjahr erzielte Umsatz maßgeblich."
+    },
+    "minimum": {
+      "text": "Liegt dein Beitrag für ein Jahr unter 5 €, kann die Gemeinde zunächst auf die Festsetzung verzichten; sie setzt ihn fest, sobald sich über mehrere Jahre insgesamt mindestens 5 € ergeben.",
+      "quote": "Ergibt sich für das Erhebungsjahr ein Beitragsanspruch von weniger als 5,00 €, so kann vorläufig von der Beitragsfestsetzung abgesehen werden. Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre ein Beitragsanspruch von mindestens 5,00 € ergibt."
+    },
+    "reporting": {
+      "text": "Fängst du mit der Vermietung an, zeigst du das der Gemeinde innerhalb eines Monats an; auf Anforderung machst du die Angaben für die Berechnung und weist deine Umsätze nach.",
+      "quote": "Die Beitragspflichtigen haben der Gemeinde die Aufnahme der beitragspflichtigen Tätigkeit innerhalb eines Monats anzuzeigen. Sie haben der Gemeinde auf Anforderung die zur Beitragsberechnung erforderlichen Angaben zu machen und Nachweise zu erbringen."
+    },
+    "deadline": {
+      "text": "Die Gemeinde setzt den Beitrag für das abgelaufene Jahr durch Bescheid fest; er ist einen Monat nach Bekanntgabe fällig.",
+      "quote": "Der sich nach Abs. 1 ergebende Tourismusbeitragsanspruch ist innerhalb eines Monats nach Bekanntgabe des Bescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Gemeinde rechnet den Beitrag aus deinem Umsatz mal Vorteilssatz mal Gewinnsatz; davon ist der Beitragssatz der Beitrag.",
+        "quote": "Dieser wird errechnet aus der Summe der vereinnahmten Leistungsentgelte aus der beitragspflichtigen Tätigkeit (im Folgenden: Umsatz), im Falle der Umsatzsteuerpflicht abzüglich enthaltener Umsatzsteuer, multipliziert mit dem touristisch bedingten Anteil (Vorteilssatz, Abs. 3) und dem Gewinnsatz (Abs. 4)."
+      },
+      {
+        "text": "Den Vorteilssatz für deine Art der Vermietung nennt Spalte 3 der Betriebsartentabelle in der Anlage.",
+        "quote": "Der Vorteilssatz ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage zu dieser Satzung (Betriebsartentabelle) in Spalte 3 bestimmt."
+      },
+      {
+        "text": "Den Gewinnsatz für deine Art der Vermietung nennt Spalte 4 der Betriebsartentabelle in der Anlage.",
+        "quote": "Der Gewinnsatz ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage zu dieser Satzung (Betriebsartentabelle) in Spalte 4 bestimmt."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/juist/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-26",
+            "01-05"
+          ]
+        ],
+        "adult": 480,
+        "children": [
+          0,
+          240
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-06",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-25"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

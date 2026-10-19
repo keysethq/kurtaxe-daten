@@ -1,0 +1,356 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "garding",
+  "name": "Stadt Garding",
+  "short": "Garding",
+  "ags": "01054036",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Garding über die Erhebung einer Tourismusabgabe (Tourismusabgabesatzung ab 1.1.2024), Beschluss der Stadtvertretung vom 16. Dezember 2024",
+      "url": "https://www.amt-eiderstedt.de/output/download.php?file=%2Fmedia%2Fcustom%2F2706_20981_1.PDF%3F1735542310&fn=Satzung_der_Stadt_Garding_%C3%BCber_die_Erhebung_einer_Tourismusabgabe",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "fb965a72134aa2ddc635b1bfa77f1a66980d8a7a401e05ac16a4dfa076a87194",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 2,
+          "reading": "Abgabepflichtig sind natürliche und juristische Personen sowie nichtrechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen anbieten. Sie sind Schuldner der Tourismusabgabe."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 3,
+          "reading": "Ab dem 1. Januar 2024 beträgt der Abgabesatz 3,92 v.H."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 8,
+          "reading": "A01 Vermietung von Ferienwohnungen/-appartements/-häusern 100,00% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 8,
+          "reading": "A01 Vermietung von Ferienwohnungen/-appartements/-häusern 100,00% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 8,
+          "reading": "A01 Vermietung von Ferienwohnungen/-appartements/-häusern 100,00% 17%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 8,
+          "reading": "A02 Hotels garni/Pensionen garni j i i 100,00% 11%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 8,
+          "reading": "A02 Hotels garni/Pensionen garni j i i 100,00% 11%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 8,
+          "reading": "A02 Hotels garni/Pensionen garni j i i 100,00% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 8,
+          "reading": "Hotels/Pensionen mit Vollverpflegung i 100,00% 6%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 8,
+          "reading": "Hotels/Pensionen mit Vollverpflegung i 100,00% 6%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 8,
+          "reading": "Hotels/Pensionen mit Vollverpflegung i 100,00% 6%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 8,
+          "reading": "Zeltplätze, Campingplätze 100,00% 14%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 8,
+          "reading": "Zeltplätze, Campingplätze 100,00% 14%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 8,
+          "reading": "Zeltplätze, Campingplätze 100,00% 14%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 9,
+          "reading": "Campingwagenstellplatzvermietung 100,00% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 9,
+          "reading": "Campingwagenstellplatzvermietung 100,00% 8%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 9,
+          "reading": "Campingwagenstellplatzvermietung 100,00% 8%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "umsatzsteuerbereinigten jährlichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 4,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "bis zum 30. Juni eines jeden Jahres oder - soweit die Stadt dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Stadt vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gemäß"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "Die Abgabe ist innerhalb 1 Monats nach Bekanntgabe des Abgabenbescheides fällig und in voller Höhe bei der Amtskasse zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 4,
+          "reading": "1. Beginn und Ende sowie Art der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 3,
+          "reading": "Wird eine abgabepflichtige Tätigkeit zu Beginn eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend. Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 3,
+          "reading": "Die Tourismusabgabe wird durch schriftlichen Bescheid festgesetzt."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "durchschnittlicher Gewinnanteil nicht angegeben, so ist er anhand der Angaben des Abgabepflichtigen aus dem tatsächlichen durchschnittlichen Betriebsgewinn der letzten fünf Jahre zu ermitteln."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 5,
+          "reading": "handelt, wer seine Mitwirkungspflichten nach 8 7 Abs. 1 dieser Satzung nicht erfüllt. Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünfhundert Euro geahndet werden."
+        }
+      ]
+    },
+    "ortsrecht": {
+      "title": "Amt Eiderstedt, Ortsrecht / Satzungen der Stadt Garding",
+      "url": "https://www.amt-eiderstedt.de/Amt-und-Gemeinden/Gemeinden/Garding/Ortsrecht-Satzungen/",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "68e44a81204d91eaf8bf94b7993c6ee3b1d3c3212627373130616f2fbe995bd3",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Stadt Garding steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Satzung der Stadt Garding über die Erhebung einer Tourismusabgabe",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Abgabepflichtig sind alle, die selbstständig tourismusbezogene Leistungen gegen Entgelt anbieten; die Vermietung von Ferienwohnungen führt die Anlage als eigene Betriebsart.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nichtrechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen anbieten. Sie sind Schuldner der Tourismusabgabe."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser",
+        "quote": "A01 Vermietung von Ferienwohnungen/-appartements/-häusern 100,00% 17%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A01 Vermietung von Ferienwohnungen/-appartements/-häusern 100,00% 17%"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "quote": "A02 Hotels garni/Pensionen garni j i i 100,00% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A02 Hotels garni/Pensionen garni j i i 100,00% 11%"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Vollverpflegung",
+        "quote": "Hotels/Pensionen mit Vollverpflegung i 100,00% 6%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels/Pensionen mit Vollverpflegung i 100,00% 6%"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "quote": "Zeltplätze, Campingplätze 100,00% 14%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Zeltplätze, Campingplätze 100,00% 14%"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Campingwagenstellplatzvermietung",
+        "quote": "Campingwagenstellplatzvermietung 100,00% 8%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Campingwagenstellplatzvermietung 100,00% 8%"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 3.92,
+      "quote": "Ab dem 1. Januar 2024 beträgt der Abgabesatz 3,92 v.H."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "umsatzsteuerbereinigten jährlichen Einnahmen"
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Du gibst bis zum 30. Juni jedes Jahres, oder innerhalb eines Monats nach Aufforderung der Stadt, die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Stadt ab.",
+      "quote": "bis zum 30. Juni eines jeden Jahres oder - soweit die Stadt dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Stadt vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gemäß"
+    },
+    "deadline": {
+      "text": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Bescheids fällig und geht an die Amtskasse.",
+      "quote": "Die Abgabe ist innerhalb 1 Monats nach Bekanntgabe des Abgabenbescheides fällig und in voller Höhe bei der Amtskasse zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Du zeigst Beginn und Ende sowie Art deiner Tätigkeit innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende sowie Art der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Maßgeblich sind die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Fängst du zu Beginn eines Kalenderjahres an, zählen im ersten Jahr die Einnahmen dieses Jahres; fängst du im Lauf des Jahres an, zählen im Jahr des Beginns und im Jahr danach jeweils die Einnahmen des Jahres selbst.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit zu Beginn eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend. Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      },
+      {
+        "text": "Die Stadt setzt die Abgabe durch schriftlichen Bescheid fest.",
+        "quote": "Die Tourismusabgabe wird durch schriftlichen Bescheid festgesetzt."
+      },
+      {
+        "text": "Ist für deine Art der Vermietung in der Anlage kein Gewinnanteil angegeben, wird er aus dem tatsächlichen durchschnittlichen Betriebsgewinn der letzten fünf Jahre ermittelt.",
+        "quote": "durchschnittlicher Gewinnanteil nicht angegeben, so ist er anhand der Angaben des Abgabepflichtigen aus dem tatsächlichen durchschnittlichen Betriebsgewinn der letzten fünf Jahre zu ermitteln."
+      },
+      {
+        "text": "Wer seine Mitwirkungspflichten nach § 7 Abs. 1 der Satzung nicht erfüllt, handelt ordnungswidrig; die Geldbuße kann bis zu 500 Euro betragen.",
+        "quote": "handelt, wer seine Mitwirkungspflichten nach § 7 Abs. 1 dieser Satzung nicht erfüllt. Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünfhundert Euro geahndet werden."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/garding/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser",
+        "permille": 6.664,
+        "rate": "0,666 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "permille": 4.312,
+        "rate": "0,431 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels und Pensionen mit Vollverpflegung",
+        "permille": 2.352,
+        "rate": "0,235 % des Jahresumsatzes."
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "permille": 5.488,
+        "rate": "0,549 % des Jahresumsatzes."
+      },
+      {
+        "label": "Campingwagenstellplatzvermietung",
+        "permille": 3.136,
+        "rate": "0,314 % des Jahresumsatzes."
+      }
+    ]
+  }
+}

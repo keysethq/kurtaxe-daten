@@ -1,0 +1,438 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "badenweiler",
+  "name": "Badenweiler",
+  "short": "Badenweiler",
+  "ags": "08315007",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Badenweiler in der Fassung vom 26.11.2025",
+      "url": "https://www.gemeinde-badenweiler.de/fileadmin/Dateien/Website/Dateien/PDF/Kurtaxesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "9853d3dfee9daafe5a6cdaf609d93b6633e1a269c29c466cacce7f8957135bec",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Badenweiler (FBS), Beschluss vom 24.07.2023",
+      "url": "https://www.gemeinde-badenweiler.de/fileadmin/Dateien/Website/Dateien/Satzungen/Juli_2023_Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "8f985a07d41ed3c59736c5f245b5efc3d860898a5074ec7e9251fedab061af4f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist das Gebiet südlich der Linie Marzeller Weg bis unterhalb „Haus am Wald“.",
+          "quote": "Kurbezirk I ist das Gebiet südlich der Linie Marzeller Weg bis unterhalb \"Haus am Wald\""
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 335,
+              "quote": "Die Kurtaxe für Kurtaxepflichtige nach § 3 Abs. 1 sowie für Kurtaxepflichtige nach § 3 Abs. 3, bei denen die Voraussetzungen nach Abs. 3 nicht gegeben sind, beträgt für jede Person und jeden Tag inklusive der gesetzlichen Umsatzsteuer ab dem Kalenderjahr 2026 in Kurbezirk I € 3,35"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II ist das Gebiet nördlich dieser Linie (ohne das Wohngebiet „Moosmatt“) und das Grundstück „Hausbaden“.",
+          "quote": "zum Kurbezirk II gehört das Gebiet nördlich der Linie Marzeller Weg bis unterhalb \"Haus am Wald\" (mit Ausnahme des Wohngebietes \"Moosmatt\") und das Grundstück \"Hausbaden\""
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 225,
+              "quote": "Kurbezirk II € 2,25"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IIa",
+        "area": {
+          "text": "Kurbezirk IIa ist das Wohngebiet „Moosmatt“.",
+          "quote": "Kurbezirk Ila ist das Wohngebiet \"Moosmatt\""
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 175,
+              "quote": "Kurbezirk IIa € 1,75"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III ist der Ortsteil Lipburg, ohne das Grundstück „Hausbaden“.",
+          "quote": "Kurbezirk III ist der Ortsteil Lipburg mit Ausnahme des Grundstückes \"Hausbaden\""
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 145,
+              "quote": "Kurbezirk III und IV € 1,45"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IV",
+        "area": {
+          "text": "Kurbezirk IV ist der Ortsteil Schweighof.",
+          "quote": "Kurbezirk IV ist der Ortsteil Schweighof"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 145,
+              "quote": "Kurbezirk III und IV € 1,45"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher, die nicht übernachten",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde aufhalten (Tagesbesucher)"
+      },
+      {
+        "text": "Eltern, Kinder, Geschwister und Geschwisterkinder von Einwohnern, die unentgeltlich in deren Haushalt wohnen",
+        "quote": "Verwandtenbesucher von Einwohnern, und zwar Eltern, Kinder, Geschwister und Geschwisterkinder, soweit sie bei einem im Erhebungsgebiet wohnhaften Verwandten in dessen Haushalt unentgeltlich Aufnahme finden."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie keine Einrichtungen besuchen können und das ärztlich belegt ist",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Einrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen, während der Dauer dieses Zustands"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn der Ausweis oder eine ärztliche Bescheinigung die Begleitung belegt",
+        "quote": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden, aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Wo genau die Grenze zwischen Kurbezirk I und II verläuft, zeigt der Lageplan in der Anlage zur Satzung.",
+        "quote": "Der Verlauf der Grenze zwischen den Kurbezirken I und II ist gesondert in einem Lageplan (Anlage) dargestellt, der Bestandteil dieser Satzung ist."
+      },
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von 100 und bestimmten Merkzeichen 50 % weniger.",
+        "quote": "Schwerbehinderte Menschen mit einem Grad der Behinderung von 100 und den Merkzeichen aG — Außergewöhnlich Gehbehindert oder H — Hilflos oder BI — Blind oder T BI — Taubblind gegen Vorlage eines gültigen Schwerbehindertenausweises um 50 %"
+      },
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von mindestens 80 10 % weniger.",
+        "quote": "Schwerbehinderte Menschen mit einem Grad der Behinderung von wenigstens 80 gegen Vorlage eines gültigen Schwerbehindertenausweises um 10 %"
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldeverfahren der Gemeinde.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du meldest jeden ortsfremden Gast bei der Gemeinde an, ziehst die Kurtaxe ein und führst sie gesammelt an die Gemeinde ab; dafür haftest du.",
+      "quote": "Wohnungsgeber, die Personen gegen Entgelt beherbergen, sowie Betreiber von Campingplätzen sind unbeschadet der ihnen nach dem Bundesmeldegesetz obliegenden polizeilichen Meldepflicht verpflichtet, jeden Ortsfremden unbeschadet möglicher Befreiungen nach § 7 zur Entrichtung der Kurtaxe bei der Gemeinde anzumelden, die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen gesammelt an die Gemeinde abzuführen. Die Anmeldung muss für die Beherbergungen eines jeden abgelaufenen Kalendermonats bis zum 5. Kalendertag des Folgemonats erfolgen. Die vereinnahmten Kurtaxezahlungen sind für die Beherbergungen eines jeden abgelaufenen Kalendermonats bis zum Ende des Folgemonats an die Gemeinde abzuführen. Wohnungsgeber nach Satz 1 haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Kurtaxe eines Kalendermonats führst du bis zum Ende des Folgemonats an die Gemeinde ab.",
+      "quote": "Die vereinnahmten Kurtaxezahlungen sind für die Beherbergungen eines jeden abgelaufenen Kalendermonats bis zum Ende des Folgemonats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste eines Kalendermonats meldest du bis zum 5. des Folgemonats an.",
+      "quote": "Die Anmeldung muss für die Beherbergungen eines jeden abgelaufenen Kalendermonats bis zum 5. Kalendertag des Folgemonats erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Badenweiler selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen Personen, die eine selbständige Tätigkeit ausüben, und von allen juristischen Personen wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben, soweit ihnen in der Gemeinde Badenweiler aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe aller Art (ohne Kliniken mit vielen sozialversicherten Patienten) in der Gemarkung Badenweiler ohne das Wohngebiet Moosmatt",
+        "quote": "in der Gemarkung Badenweiler mit Ausnahme des Wohngebietes Moosmatt € 1,30 je gewichteter Übernachtung",
+        "perNight": {
+          "cents": 130
+        }
+      }
+    ],
+    "area": {
+      "text": "Die 1,30 € gelten in der Gemarkung Badenweiler ohne das Wohngebiet Moosmatt; für Lipburg, Schweighof und Moosmatt nennt die Satzung einen eigenen Satz.",
+      "quote": "in der Gemarkung Badenweiler mit Ausnahme des Wohngebietes Moosmatt € 1,30 je gewichteter Übernachtung"
+    },
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 10 Werktagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "haben der Gemeinde die Anzahl der bei ihnen gegen Entgelt beherbergten Personen innerhalb von 10 Werktagen nach Ablauf eines jeden Kalendermonats anzuzeigen"
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben aller Art, außer Vorsorge- und Rehabilitationskliniken mit erheblichem Anteil an sozialversicherten Patienten, bemessen sich die Vorteile nach der Zahl der gewichteten Übernachtungen des Erhebungszeitraums.",
+        "quote": "Bei Beherbergungsbetrieben aller Art mit Ausnahme solcher Beherbergungsbetriebe, die Vorsorge- oder Rehabilitationskliniken sind und die einen erheblichen Anteil an sozialversicherten Patienten haben, bemessen sich die besonderen wirtschaftlichen Vorteile abweichend von Abs. 2 nach der Zahl der gewichteten Übernachtungen im Erhebungszeitraum"
+      },
+      {
+        "text": "In den Gemarkungen Lipburg und Schweighof sowie im Wohngebiet Moosmatt nennt die Satzung 0,98 € je gewichteter Übernachtung und gewichtet die Übernachtungen dort mit dem Faktor 0,75.",
+        "quote": "in den Gemarkungen Lipburg und Schweighof sowie im Wohngebiet Moosmatt € 0,98 je gewichteter Übernachtung"
+      },
+      {
+        "text": "Die Übernachtungen werden nach der Lage des Betriebs gewichtet: in der Gemarkung Badenweiler ohne Moosmatt mit dem Faktor 1,00, in Lipburg, Schweighof und Moosmatt mit 0,75.",
+        "quote": "Gemarkung Badenweiler ohne Wohngebiet Moosmatt Faktor 1,00, Gemarkungen Lipburg und Schweighof sowie Wohngebiet Moosmatt Faktor 0,75"
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 18,68 % des Messbetrags.",
+        "quote": "Der Beitrag nach § 3 Abs. 2 beträgt 18,68 v.H. des Messbetrages."
+      },
+      {
+        "text": "Auch Vorteile eines Beherbergungsbetriebs, die nicht mit einer Übernachtung zusammenhängen, werden nach den Mehreinnahmen bemessen, nicht nach der Zahl der Übernachtungen.",
+        "quote": "Besondere wirtschaftliche Vorteile von Beherbergungsbetrieben nach Satz 1, die nicht mit einer Übernachtung in Zusammenhang stehen, werden nach Abs. 2 bemessen."
+      },
+      {
+        "text": "Solange die Beitragsschuld noch nicht entstanden ist, sind Vorauszahlungen zu leisten; sie entstehen zum 1. April und zum 1. Oktober eines jeden Jahres.",
+        "quote": "Solange die Beitragsschuld noch nicht entstanden ist, sind vom Beitragsschuldner Vorauszahlungen zu leisten. Die Vorauszahlungen entstehen zum 1.4. und 1.10. eines jeden Kalenderjahres."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/badenweiler/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 335,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 335,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 225,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IIa",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 175,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 145,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IV",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 145,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

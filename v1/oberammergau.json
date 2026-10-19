@@ -1,0 +1,201 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberammergau",
+  "name": "Gemeinde Oberammergau",
+  "short": "Oberammergau",
+  "ags": "09180125",
+  "state": "Bayern",
+  "district": "Garmisch-Partenkirchen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung) der Gemeinde Oberammergau vom 20.03.2025",
+      "url": "https://www.gemeinde-oberammergau.de/wp-content/uploads/2024/04/Kurbeitragssatzung-ab-2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-04-01",
+      "sha256": "bb4c9116132cfefc76635ea98c5e1f82529587e2b5ba1dfe37bfdb3a8c5c52e4",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Oberammergau vom 1. Oktober 2004",
+      "url": "https://www.gemeinde-oberammergau.de/wp-content/uploads/2024/04/fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "3a3e686f15b60a83d061453d5158c3bc90f65c66e78409a7776fb36d11e48f2f",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Für Personen ab dem vollendeten 16. Lebensjahr 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres sind kurbeitragsfrei."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 21,
+      "perStay": true,
+      "text": "höchstens 21 Tage am Stück; für Zweitwohnungsbesitzer gilt das nicht",
+      "quote": "Personen, die sich länger als 3 Wochen (21 Tage) am Stück in Oberammergau aufhalten, sind ab dem 22. Tag von der Kurbeitragspflicht ausgenommen."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Behinderung ab 70, wenn sie einen gültigen Ausweis vorlegen",
+        "quote": "Personen mit einer Behinderung ab 70 v.H. sind bei Vorlage eines gültigen Behindertenausweises vom Kurbeitrag befreit."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbeschädigten mit dem Zusatzvermerk B im Ausweis",
+        "quote": "Ebenfalls kurbeitragsfrei ist eine Begleitperson für Schwerbeschädigte mit dem Zusatzvermerk „B“ im Schwerbeschädigtenausweis."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Die Befreiung wegen Behinderung beantragt dein Gast mit dem Ausweis bei der Kurbeitragsabrechnungsstelle, innerhalb der Meldefrist nach der Ankunft.",
+        "quote": "Die Befreiung ist innerhalb der in § 6 Abs. 1 genannten Frist nach der Ankunft unter Vorlage des Ausweises bei der Kurbeitragsabrechnungsstelle zu beantragen."
+      },
+      {
+        "text": "Auf Antrag kann die Gemeinde bei unbilliger Härte auf die elektronische Meldung verzichten.",
+        "quote": "Auf Antrag kann die Gemeinde zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb von zwei Wochen nach Erhalt der Berechnung der Gemeinde.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten innerhalb von zwei Wochen nach Erhalt der Berechnung an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du spätestens am Tag nach der Ankunft elektronisch über das Verfahren der Gemeinde, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "spätestens am Tag nach der Ankunft elektronisch zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf den Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt ab 01.01.2005 5 v.H. und ab 01.01.2006 6 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Bis zum 30. April des Folgejahres gibst du eine Erklärung nach Formblatt ab; bei reinen Beherbergungsbetrieben für höchstens acht Gäste gleichzeitig nur, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu bis zum 30. April des auf das Veranlagungsjahr folgenden Kalenderjahres eine Erklärung nach Formblatt abzugeben. Bei reinen Beherbergungsbetrieben, deren Betrieb darauf eingerichtet ist, nicht mehr als acht Gäste gleichzeitig zu beherbergen, ist abweichend von Satz 2 eine Erklärung nach Formblatt nur nach Aufforderung abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Nach der Satzung kann von dir als Vermieter zusammen mit dem Kurbeitrag eine Vorauszahlung je Übernachtung veranlagt werden: 1 % des Entgelts einschließlich Frühstück, ab 1. Januar 2006 höchstens 0,30 €; sie gilt abweichend von den Vorauszahlungen am 15. Februar, 15. Mai, 15. August und 15. November.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsgemäßen Abführung der Kurbeiträge veranlagt werden und betragen für jede Übernachtung 1 v.H. des Entgelts für die Übernachtung einschließlich Frühstück, höchstens jedoch 0,15 € ab 01.01.2002, 0,25 € ab 01.01.2005 und 0,30 € ab 01.01.2006"
+      },
+      {
+        "text": "Am 15. Februar, 15. Mai, 15. August und 15. November jedes Jahres ist eine Vorauszahlung zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat am 15.2., 15.5., 15.8. und 15.11. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Rechnet die Gemeinde damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann sie darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Absätze 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlung je Übernachtung, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn du nach § 4 Abs. 2 Satz 2 eine Erklärung abgeben musst, die Gemeinde dich schriftlich dazu auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Dies gilt nicht, wenn a) der Beitragsschuldner nach § 4 Abs. 2 Satz 2 eine Erklärung abzugeben hat, b) die Gemeinde Oberammergau den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 3 auffordert oder c) der Beitragsschuldner schriftlich einen Bescheid nach Abs. 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      },
+      {
+        "text": "Eine Erklärung nach Formblatt bis zum 30. April musst du abgeben; nur reine Beherbergungsbetriebe für höchstens acht Gäste gleichzeitig geben sie erst auf Aufforderung ab. Wo du erklären musst, ist die Summe der Vorauszahlungen je Übernachtung nach der Summenregel oben nicht deine endgültige Beitragsschuld.",
+        "quote": "Der Beitragsschuldner hat hierzu bis zum 30. April des auf das Veranlagungsjahr folgenden Kalenderjahres eine Erklärung nach Formblatt abzugeben. Bei reinen Beherbergungsbetrieben, deren Betrieb darauf eingerichtet ist, nicht mehr als acht Gäste gleichzeitig zu beherbergen, ist abweichend von Satz 2 eine Erklärung nach Formblatt nur nach Aufforderung abzugeben."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberammergau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 21,
+    "maxPerStay": true,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

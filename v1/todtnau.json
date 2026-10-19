@@ -1,0 +1,226 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "todtnau",
+  "name": "Todtnau",
+  "short": "Todtnau",
+  "ags": "08336087",
+  "state": "Baden-Württemberg",
+  "district": "Lörrach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Todtnau über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 24.07.2025",
+      "url": "https://stadt.todtnau.de/fileadmin/user_upload/Satzungen/Satzung_ueber_die_Erhebung_einer_Kurtaxe__Kurtaxesatzung__gueltig_ab_01.01.2026_Homepage.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "8e6a2211d3497c34cfab004ac6a6d483f5d4938989f6e56f78a0294e8b061574",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind Todtnauberg und Muggenbrunn.",
+          "quote": "Zum Kurbezirk I gehören Todtnauberg und Muggenbrunn."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 320,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren 3,20 € 2,80 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 130,
+                "quote": "für Personen ab 16 Jahren 3,20 € 2,80 € für Kinder ab 6 Jahren und Jugendliche 1,30 € 1,30 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind Aftersteg, Brandenberg-Fahl, Geschwend, Präg-Herrenschwand, Schlechtnau und Todtnau.",
+          "quote": "Zum Kurbezirk II gehören Aftersteg, Brandenberg-Fahl, Geschwend, Präg-Herrenschwand, Schlechtnau und Todtnau."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 280,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren 3,20 € 2,80 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 130,
+                "quote": "für Personen ab 16 Jahren 3,20 € 2,80 € für Kinder ab 6 Jahren und Jugendliche 1,30 € 1,30 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100 sowie Kranke, die Kureinrichtungen nicht nutzen können (ärztliches Zeugnis)",
+        "quote": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 % sowie Kranke, die nicht in der Lage sind, die Kureinrichtungen und Veranstaltungen sowie den öffentlichen Personennahverkehr nach § 1 zu nutzen, und dies durch ärztliches Zeugnis ausweisen, während der Dauer dieses Zustands"
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen und Kranken, wenn der Ausweis oder ein ärztliches Attest die Begleitung belegt",
+        "quote": "Begleitpersonen von Kranken und schwerbehinderten Personen im Sinne von Nr. 4 und 5, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen Eingang.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen. Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab, über das kostenlose elektronische Meldeverfahren.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/todtnau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 320,
+        "children": [
+          0,
+          130
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 320,
+            "children": [
+              0,
+              130
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 280,
+            "children": [
+              0,
+              130
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

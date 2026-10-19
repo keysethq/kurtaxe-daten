@@ -1,0 +1,277 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "boltenhagen",
+  "name": "Ostseebad Boltenhagen",
+  "short": "Boltenhagen",
+  "ags": "13074010",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Ostseebad Boltenhagen über die Erhebung von Kurabgaben (Kurabgabensatzung) vom 18.05.2026, Ortsrecht des Amtes Klützer Winkel",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/3/4/4/9/3/Kurabgabensatzung_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-05-01",
+      "sha256": "d9259bf20ef647bbca7152e4a2157a5feec0425e32a39b3e3a93b52f33098a47",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Ostseebad Boltenhagen über die Erhebung einer Tourismusabgabe (Tourismusabgabe) vom 15.06.2023, Beschluss der Gemeindevertretung vom 30.11.2006",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/1/1/8/6/Scan_2024.02.06_08.17_1_.pdf",
+      "kind": "statute",
+      "inForce": "2007-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "8560b066691a239de0c072d3b1664742eaeb3153927ca575ae55c04ec30a5ae2",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Abreisetag zählt bei der Erhebung der Kurabgabe nicht."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          },
+          {
+            "from": "12-28",
+            "to": "01-05"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "(Hauptsaison) 3,00€ pro Person und Tag."
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "(b) Kinder/Jugendliche bis zum vollendeten 15. Lebensjahr,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-06",
+            "to": "04-30"
+          },
+          {
+            "from": "10-01",
+            "to": "12-27"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "Die Höhe der Kurabgabe beträgt in der nach Absatz 1 übrigen Zeit eines Kalenderjahres (Ne bensaison) 1,80 € pro Person und Tag."
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "(b) Kinder/Jugendliche bis zum vollendeten 15. Lebensjahr,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 sowie eine Begleitperson, wenn sie auf ständige Begleitung angewiesen sind",
+        "quote": "(c) Personen mit einem Grad der Behinderung (GdB) ab 80 sowie eine Begleitperson, wenn die behinderte Person auf ihre ständige Begleitung angewiesen ist,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 bis 80 zahlen 50 %",
+        "quote": "Für Personen mit einem Grad der Behinderung (GdB) ab 50 bis 80 wird die Kurabgabe um 50 % ermäßigt."
+      },
+      {
+        "text": "Familienangehörige von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "(a) Personen, die zur Familie von Personen gehören, die im Erhebungsgebiet ihren gewöhnli chen Aufenthalt haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufge nommen sind,"
+      },
+      {
+        "text": "Wer sich beruflich oder geschäftlich in Boltenhagen aufhält",
+        "quote": "(d) Personen, die sich im Rahmen ihrer beruflichen oder geschäftlichen Tätigkeit im Erhe bungsgebiet aufhalten oder"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Diese Sätze gelten seit dem 1. Mai 2026; bis zum 30. April 2026 galt die vorherige Kurabgabensatzung.",
+        "quote": "Diese Satzung tritt am 01.05.2026 in Kraft."
+      },
+      {
+        "text": "Vermieter erhalten für Einziehung und Meldung eine Aufwandsentschädigung von 3 Prozent der eingezogenen Kurabgabe.",
+        "quote": "Die in Absatz 1 Verpflichteten erhalten für die Wahrnehmung ihrer Pflichten aus Satz 1 und 2 eine Aufwandsentschädigung in Höhe von 3 Prozent der von ihnen eingezogenen Kurabgabe."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 118,00 € zahlen.",
+        "quote": "Die Jahreskurabgabe beträgt pro Peron und Jahr 118,00€."
+      },
+      {
+        "text": "Wer vermietet, teilt das der Kurverwaltung binnen vier Wochen nach Beginn schriftlich mit und aktualisiert die Mitteilung alle zwei Jahre.",
+        "quote": "binnen vier Wochen nach Aufnahme der Beherbergungstätigkeit oder der Wohnraumüberlassung mitteilen. Die Mitteilung ist alle zwei Jahre zu aktualisieren."
+      },
+      {
+        "text": "Vermieter müssen die Kurabgabensatzung für ihre Gäste zur Einsicht bereithalten.",
+        "quote": "Die in Absatz 1 Satz 1 genannten Verpflichteten müssen die Kurabgabensatzung für die Gäste zur Einsichtnahme vorhalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe am Anreisetag ein und händigt die Kurkarte aus.",
+      "quote": "Die in Absatz 1 Satz 1 genannten Verpflichteten müssen von allen kurabgabepflichtigen Personen (siehe § 2) am Ankunftstag die Kurabgabe einziehen und die Kurkarte (siehe § 9) aushändigen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. des Folgemonats an die Kurverwaltung.",
+      "quote": "einzuziehen und hat diese bis zum 5. des darauffolgenden Monats an die Kurverwaltung abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldescheinverfahren der Kurverwaltung; Nutzung und Registrierung sind Pflicht.",
+      "quote": "Die Nutzung dieses elektronischen Meldescheinverfahrens und die dafür erforderliche Registrierung sind obligatorisch."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Boltenhagen Vorteile bietet; genannt sind auch Vermieter von Ferienwohnungen.",
+      "quote": "Abgabepflichtig sind die natürlichen und juristischen Personen, denen durch den Tourismusverkehr in der Gemeinde Vorteile geboten werden: a) Inhaber von Hotels, Tagungshotels, Akademien, Fremden-, Kinder- und Erholungsheimen und sonstige Personen, die Gäste, Kurgäste oder Erholungssuchende gegen Entgelt beherbergen sowie Vermieter von Ferienwohnungen"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe, Zimmer- und Ferienwohnungsvermieter",
+        "quote": "10,23 €je Bett, mindestens 51,13€",
+        "flat": {
+          "cents": 1023,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Du zahlst mindestens 51,13 € im Jahr.",
+      "quote": "mindestens 51,13€",
+      "cents": 5113,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du dem Eigenbetrieb Kurverwaltung bis zum 1. August jedes Jahres mit.",
+      "quote": "bis zum 01. August jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe vier Wochen nach Zustellung des Bescheids, in einer Summe beim Eigenbetrieb Kurverwaltung.",
+      "quote": "Die Abgabe ist vier Wochen nach Zustellung des Heranziehungsbescheides fällig"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Wer nach dem 1. August anfängt, reicht die Angaben unverzüglich nach.",
+        "quote": "die die abgabepflichtige Tätigkeit nach dem 1. August aufnehmen, haben die in Satz 1 genannten Angaben unverzüglich nachzureichen."
+      },
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du am 15. Juli jeden Jahres tatsächlich gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "nach der Zahl der am 15. Juli jeden Jahres vorhandenen Fremdenbetten, die tatsächlich zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Fremdenbetten sind alle an kurabgabepflichtige Personen vermietbaren Schlafgelegenheiten.",
+        "quote": "Fremdenbetten im Sinne des § 8 Abs. 1 Buchst. a sind alle an kurabgabepflichtige Personen vermietbaren Schlafgelegenheiten."
+      },
+      {
+        "text": "Beginnst du erst nach dem 31. August, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Die Abgabe für das laufende Jahr entfällt, wenn die Aufnahme der abgabepflichtigen Tätigkeit nach dem 31. August erfolgt."
+      },
+      {
+        "text": "Für jeden weiteren Betrieb oder jede weitere Tätigkeit zahlst du 75 Prozent; ab dem fünften Betrieb ist die Abgabe frei.",
+        "quote": "für die weiteren Betriebe oder Tätigkeiten jeweils mit 75 %. Vorteile ab dem fünften Betrieb oder ab der fünften Tätigkeit sind abgabenfrei."
+      },
+      {
+        "text": "Die Aufgaben der Satzung nimmt der Eigenbetrieb „Kurverwaltung Ostseebad Boltenhagen“ wahr.",
+        "quote": "Die Aufgaben dieser Satzung nimmt der Eigenbetrieb „Kurverwaltung Ostseebad Boltenhagen“ wahr."
+      },
+      {
+        "text": "Unter Gruppe VII führt die Satzung auch Inhaber von Zimmervermittlungen und -vermietungen auf.",
+        "quote": "Inhaber von Zimmervennittlungen und —vennietungen"
+      },
+      {
+        "text": "Für Gruppe VII nennt die Satzung 178,95 € im Jahr.",
+        "quote": "Gruppe VII 178,95€"
+      },
+      {
+        "text": "Wer mehreren Bemessungsgrenzen unterliegt, wird nach der höheren Bemessungsgrundlage veranlagt.",
+        "quote": "Unterliegt ein Abgabepflichtiger mehreren Bemessungsgrenzen, so ist er nach der höheren Bemessungs grundlage zu veranlagen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/boltenhagen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ],
+          [
+            "12-28",
+            "01-05"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-06",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "12-27"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

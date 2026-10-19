@@ -1,0 +1,280 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-staffelstein",
+  "name": "Bad Staffelstein",
+  "short": "Bad Staffelstein",
+  "ags": "09478165",
+  "state": "Bayern",
+  "district": "Lichtenfels",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (KBS) der Stadt Bad Staffelstein vom 24.05.2023 in der Fassung vom 04.11.2024",
+      "url": "https://bad-staffelstein.de/de-wAssets/docs/satzungen/20_kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-07-01",
+      "sha256": "25f26b0078f03b92faae83586ee532a954081fce0b30d86474b5bea14ab835bb",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Bad Staffelstein vom 11.12.1990 in der Fassung vom 12.12.2007",
+      "url": "https://www.bad-staffelstein.de/de-wAssets/docs/satzungen/19_Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "1991-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "78a353ab17664f8020771364b2838d6565c5d3f17e5f575cf727adbd08024916",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind die Stadtteile Bad Staffelstein und Oberau.",
+          "quote": "Der Kurbezirk I umfasst das Gebiet der Stadtteile: Bad Staffelstein und Oberau;"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "Im Kurbezirk I beträgt der Beitrag pro Aufenthaltstag 1. für Personen ab dem vollendeten 18. Lebensjahr 2,50 €,"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Von der Entrichtung eines Kurbeitrages sind befreit: 1. Kinder bis zur Vollendung des 14. Lebensjahres."
+              },
+              {
+                "underAge": 18,
+                "cents": 175,
+                "quote": "2. für Jugendliche ab dem vollendeten 14. Lebensjahr bis zum vollendeten 18. Lebensjahr 1,75 €."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II ist das übrige Stadtgebiet.",
+          "quote": "der Kurbezirk II umfasst das übrige Stadtgebiet."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "Im Kurbezirk II beträgt der Beitrag pro Aufenthaltstag 1. für Personen ab dem vollendeten 18. Lebensjahr 2,00 €,"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Von der Entrichtung eines Kurbeitrages sind befreit: 1. Kinder bis zur Vollendung des 14. Lebensjahres."
+              },
+              {
+                "underAge": 18,
+                "cents": 150,
+                "quote": "2. für Jugendliche ab dem vollendeten 14. Lebensjahr bis zum vollendeten 18. Lebensjahr 1,50 €."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 21,
+      "perStay": false,
+      "text": "höchstens 21 Tage je Kalenderjahr, auch über mehrere Aufenthalte",
+      "quote": "wird längstens für 21 Tage pro Jahr berechnet. Dies gilt auch für mehrere Aufenthalte im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 oder den Merkzeichen aG, Bl oder H und ihre Begleitperson zahlen 50 %",
+        "quote": "Für Schwerbehinderte, die den Behindertenausweis mit einem Grad der Behinderung von 100 % oder dem Zusatz \"aG\", \"Bl\" oder \"H\" vorlegen, und deren nachgewiesene notwendige Begleitperson (Zusatz \"B\") wird eine Ermäßigung von 50 % auf den Kurbeitrag gewährt."
+      },
+      {
+        "text": "Wer nur beruflich oder zur Ausbildung in der Stadt ist, nicht aber mitreisende Familienangehörige",
+        "quote": "2. Personen, die sich nur zur Berufsausübung oder Berufsausbildung im Erhebungsgebiet aufhalten. Dies gilt nicht für die mitreisenden Familienangehörigen."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen zu Besuch sind",
+        "quote": "3. Unmittelbare Verwandte von Ortsansässigen (Eltern, Kinder, Großeltern, Enkel, Geschwister und deren Kinder, Schwiegereltern), die bei diesen zu Besuch weilen, ohne ein Entgelt dafür zu zahlen."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet neben dem Gast gegenüber der Stadt für den Eingang.",
+      "quote": "Die Inhaber der Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag von den Beitragspflichtigen einzuheben und haften neben den Beitragspflichtigen der Stadt gegenüber für den Eingang des Beitrages als Gesamtschuldner."
+    },
+    "deadline": {
+      "text": "Die Gäste meldest du spätestens am Tag nach der Anreise; den Beitrag setzt die Stadt danach fest.",
+      "quote": "die Beitragspflichtigen und deren in § 5 Abs. 1 Satz 2 bestimmten Angaben spätestens am Tag nach der Anreise elektronisch mittels des durch die Stadt Bad Staffelstein zur Verfügung gestellten Verfahrens zu melden."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch über das kostenlose Verfahren der Stadt; Betriebe mit weniger als 10 Betten dürfen stattdessen den besonderen Meldeschein nutzen.",
+      "quote": "Soweit natürliche oder juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen, nicht den von der Stadt Bad Staffelstein kostenfrei zur Verfügung gestellten elektronischen Übermittlungsweg nutzen, kann die Übermittlung bei Betrieben mit weniger als 10 Betten auch schriftlich mittels besonderem Meldeschein (Abs. 4) erfolgen.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Staffelstein Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilsatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,0625 und 0,6250 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 – 5 v.H. 0,0625 v.H. über 5 – 10 v.H. 0,1875 v.H. über 10 – 15 v.H. 0,3125 v.H. über 15 – 20 v.H. 0,4375 v.H. über 20 v.H. 0,6250 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheids fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 1. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 01. Juli jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-staffelstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 21,
+    "maxPerStay": false,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          175
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0,
+              150
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wernigerode",
+  "name": "Stadt Wernigerode",
+  "short": "Wernigerode",
+  "ags": "15085370",
+  "state": "Sachsen-Anhalt",
+  "district": "Harz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurtaxe in der Stadt Wernigerode vom 27.06.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.wernigerode.de/loadDocument.phtml?FID=3792.1075.1&Ext=PDF",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "eb2b8646c373bb1b683720a40623e4ace750ddaa1ca93557b74d2a77434a280b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag rechnen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Die Kurtaxe beträgt täglich pro Person 3,50 EUR, soweit kein Ermäßigungsgrund gem. § 4 vorliegt."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres."
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "wird die Kurtaxe gemäß § 3 um 50 % ermäßigt: 1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt. 2. Kinder nach Vollendung des 6. und bis zur Vollendung des 18. Lebensjahres.",
+            "cents": 175
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 3,
+      "text": "Das dritte und jedes weitere Kind einer Familie ist bis zum 18. Geburtstag befreit.",
+      "quote": "Das dritte und jedes weitere Kind bei Familien mit mehreren Haushaltsangehörigen Kindern bis zur Vollendung des 18. Lebensjahres."
+    },
+    "exemptions": [
+      {
+        "text": "Personen, die sich nur zur Berufsausübung oder Berufsausbildung im Ort aufhalten",
+        "quote": "Personen, die sich nur zur Berufsausübung/Berufsausbildung im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 100 beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+      },
+      {
+        "text": "Wehr- und Bundesfreiwilligendienstleistende sowie Personen im freiwilligen sozialen oder ökologischen Jahr während ihres Dienstes im Ort",
+        "quote": "Wehr- und Bundesfreiwilligendienstleistende für die Dauer der dienstlich begründeten Stationierung im Erhebungsgebiet sowie Personen, die ein freiwilliges soziales oder ökologisches Jahr im Erhebungsgebiet ableisten."
+      },
+      {
+        "text": "Bettlägerige Kranke und andere Personen, die die touristischen Einrichtungen aus gesundheitlichen Gründen nicht nutzen können",
+        "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die touristischen Einrichtungen in Anspruch zu nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen gegen Nachweis die Hälfte.",
+        "quote": "1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt."
+      },
+      {
+        "text": "Teilnehmer an anerkannten Kongressen und Tagungen zahlen auf Antrag, der 14 Tage vor Reiseantritt bei der Wernigerode Tourismus GmbH vorliegen muss, die Hälfte.",
+        "quote": "Teilnehmer an von der Wernigerode Tourismus GmbH anerkannten Kongressen, Tagungen und vergleichbaren Veranstaltungen. Der Antrag ist schriftlich bei der Wernigerode Tourismus GmbH spätestens 14 Tage vor Reiseantritt zu stellen."
+      },
+      {
+        "text": "Die Satzung gilt im ganzen Stadtgebiet, also auch in Schierke und den Ortsteilen.",
+        "quote": "Das Erhebungsgebiet ist das Stadtgebiet und folgende Grundstücke,"
+      },
+      {
+        "text": "Auf Verlangen der Wernigerode Tourismus GmbH gibst du jederzeit Auskunft über Gäste, Aufenthaltsdauer und Zahlungspflicht und lässt Einsicht in deine Beherbergungsunterlagen zu.",
+        "quote": "Die Vermieter haben auf Verlangen der Wernigerode Tourismus GmbH jederzeit über die Anzahl der Gäste, deren Verweildauer und deren Zahlungspflicht Auskunft zu erteilen."
+      },
+      {
+        "text": "Die Kurtaxsatzung musst du deinen Gästen zugänglich machen, etwa durch Aushang oder Auslegung.",
+        "quote": "den Zahlungspflichtigen hinreichend zugänglich zu machen (Aushang, Auslegung)."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, meldet das der Wernigerode Tourismus GmbH und zieht die Kurtaxe von den Gästen ein.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, ist verpflichtet, dies der Wernigerode Tourismus GmbH mitzuteilen und die fällige Kurtaxe von dem Zahlungspflichtigen einzuziehen."
+    },
+    "deadline": {
+      "text": "Gewerbliche Vermieter führen die Kurtaxe bis zum 15. des Folgemonats ab, private Vermieter bis zum 15. Tag nach Quartalsende.",
+      "quote": "Die eingenommene Kurtaxe von gewerblichen Vermietern ist grundsätzlich spätestens zum 15. des Folgemonats, von privaten Vermietern spätestens am 15. Kalendertag nach Quartalsende an die Wernigerode Tourismus GmbH abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird digital über das Kurbeitragsabrechnungssystem, das die Wernigerode Tourismus GmbH benennt.",
+      "quote": "Die Meldung der Daten erfolgt digital über das durch die Wernigerode Tourismus GmbH benannte Kurbeitragsabrechnungssystem."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wernigerode/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          175
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 3
+    }
+  }
+}

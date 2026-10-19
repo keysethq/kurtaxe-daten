@@ -1,0 +1,279 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "traben-trarbach",
+  "name": "Stadt Traben-Trarbach",
+  "short": "Traben-Trarbach",
+  "ags": "07231124",
+  "state": "Rheinland-Pfalz",
+  "district": "Bernkastel-Wittlich",
+  "sources": {
+    "preise": {
+      "title": "Verbandsgemeinde Traben-Trarbach, Tarife Gästebeitrag ab 01.07.2025, Saison 1 und Saison 2, Gesamtbeitrag je Gemeinde",
+      "url": "https://www.vgtt.de/rathaus-politik/gaestebeitrag/gaestebeitrag/tarife-gaestebeitrag-ab-01.07.2025.pdf?cid=11vd",
+      "kind": "municipality",
+      "changedOn": "2026-10-18",
+      "sha256": "b45cc04ac8803a7f3194b2414cfcf0f0b30a2122460ee80079ac6e98af4867b5",
+      "verifiedOn": "2026-10-18"
+    },
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrags in der Verbandsgemeinde Traben-Trarbach vom 16.02.2024, durchgeschriebene Fassung inkl. 1. Satzungsänderung",
+      "url": "https://www.vgtt.de/rathaus-politik/gaestebeitrag/gaestebeitrag/vgtt-gaestebeitragssatzung-stand-16022024.pdf?cid=zpm",
+      "kind": "municipality",
+      "inForce": "2024-03-01",
+      "sha256": "10ea24bba488c4314063e2253892a2cc846cd53f02a247bc1959f5ed2bbfa984",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-15"
+    },
+    "stadt": {
+      "title": "Satzung über die Erhebung eines Gästebeitrags in der Stadt Traben-Trarbach vom 16.02.2024, Stand 28.11.2023",
+      "url": "https://www.vgtt.de/rathaus-politik/gaestebeitrag/gaestebeitrag/stadt-tt-gaestebeitragssatzung-stand-28112023.pdf?cid=tpd",
+      "kind": "municipality",
+      "inForce": "2024-03-01",
+      "sha256": "f92c15144b21e68a95f3cd40a9bd948074f7dbe88f5b0efaa5065fe2dbe3f965",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-15"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Verbandsgemeindeverwaltung Traben-Trarbach (Preistabelle als Bild, hier abgeschrieben)",
+      "kind": "answer",
+      "receivedOn": "2026-10-18",
+      "text": "bis einschließlich 31.03.2027 gelten die folgenden Sätze für den Gästebeitrag: St. Traben-Trarbach Beitrag Verbandsgemeinde 1,50 € Beitrag Ortsgemeinde/Stadt 0,50 € Gesamtbeitrag 2,00 €",
+      "changedOn": "2026-10-18",
+      "sha256": "cd4a31b39926358d9190b4edfeaf8c078702fc53e5f988d05e502f3376c155ca",
+      "verifiedOn": "2026-10-18"
+    },
+    "tarife2027": {
+      "title": "Verbandsgemeinde Traben-Trarbach, Neue Tarife Gästebeitrag ab 01.04.2027, Saison 1 und Saison 2, Gesamtbeitrag je Gemeinde",
+      "url": "https://www.vgtt.de/rathaus-politik/gaestebeitrag/gaestebeitrag/neue-tarife-gaestebeitrag-ab-01.04.2027.pdf?cid=11v7",
+      "kind": "municipality",
+      "inForce": "2027-04-01",
+      "changedOn": "2026-10-18",
+      "sha256": "65335b98aaf78b191b8aa34a55a5bf7034d0710526bcc4606fb08d1b413da98c",
+      "verifiedOn": "2026-10-18"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-18",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Anzahl der Übernachtungen bemessen."
+    },
+    "periods": [
+      {
+        "label": "Saison 1",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "7 St. Traben-Trarbach 1,10 € 0,90 € 2,00 €",
+          "source": "preise",
+          "next": {
+            "cents": 200,
+            "quote": "7 St. Traben-Trarbach 1,00 € 1,00 € 2,00 €",
+            "source": "tarife2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 6. Lebensjahres."
+          },
+          {
+            "underAge": 16,
+            "cents": 80,
+            "quote": "ab Vollendung des 6. bis zur Vollendung des 16. Lebensjahres 0,80 € 0,80 €"
+          }
+        ]
+      },
+      {
+        "label": "Saison 2",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "7 St. Traben-Trarbach 1,50 € 0,50 € 2,00 €",
+          "source": "preise",
+          "next": {
+            "cents": 220,
+            "quote": "7 St. Traben-Trarbach 1,80 € 0,40 € 2,20 €",
+            "source": "tarife2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 6. Lebensjahres."
+          },
+          {
+            "underAge": 16,
+            "cents": 80,
+            "quote": "ab Vollendung des 6. bis zur Vollendung des 16. Lebensjahres 0,80 € 0,80 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer sich zu Unterrichts- oder Ausbildungszwecken im Erhebungsgebiet aufhält, zahlt nichts.",
+        "quote": "Personen, die sich im Erhebungsgebiet (§ 2) zu Unterrichts- oder Ausbildungszwecken aufhalten."
+      },
+      {
+        "text": "Wer Verwandte vorübergehend ohne Entgelt besucht, zahlt nichts.",
+        "quote": "Personen, die sich im Erhebungsgebiet (§ 2) zum vorübergehenden Besuch bei Verwandten ohne Zahlung eines Entgelts aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 zahlen nichts, wenn sie das nachweisen.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung (GdB) 100 beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird."
+      },
+      {
+        "text": "Wer sich zur Ausübung seines Berufs im Erhebungsgebiet aufhält, zahlt nichts.",
+        "quote": "Personen, die sich im Erhebungsgebiet (§ 2) zur Ausübung ihres Berufes aufhalten"
+      },
+      {
+        "text": "Teilnehmer an Tagungen und Schulungskursen zahlen für deren Dauer nichts.",
+        "quote": "Teilnehmer an Tagungen und Schulungskursen im Erhebungsgebiet (§ 2) während deren Dauer."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bis einschließlich 31.03.2027 beträgt der Gesamtbeitrag in Traben-Trarbach 2,00 € je Nacht: 1,50 € Verbandsgemeinde und 0,50 € Stadt.",
+        "quote": "bis einschließlich 31.03.2027 gelten die folgenden Sätze für den Gästebeitrag: St. Traben-Trarbach Beitrag Verbandsgemeinde 1,50 € Beitrag Ortsgemeinde/Stadt 0,50 € Gesamtbeitrag 2,00 €",
+        "source": "auskunft"
+      },
+      {
+        "text": "Erhoben wird der Beitrag auch in Burg (Mosel), Enkirch, Kinheim, Kröv, Reil und Starkenburg, jeweils mit anderen Sätzen.",
+        "quote": "Erhebungsgebiet ist das Gebiet der Ortsgemeinden Kinheim, Kröv, Enkirch, Starkenburg, Burg (Mosel), Reil und der Stadt Traben-Trarbach."
+      },
+      {
+        "text": "Wer eine Zweitwohnung hat, zahlt unabhängig von der Aufenthaltsdauer einen jährlichen pauschalen Beitrag; beim Stadtanteil sind das 22,00 €.",
+        "quote": "unabhängig von der Aufenthaltsdauer einen jährlichen pauschalen Gästebeitrag in Höhe von 22,00 € zu entrichten.",
+        "source": "stadt"
+      },
+      {
+        "text": "Der Gast zahlt den Gästebeitrag spätestens am Abreisetag bei dir.",
+        "quote": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu entrichten."
+      },
+      {
+        "text": "Verweigert ein Gast die Zahlung, zeigst du das spätestens am nächsten Werktag der Verbandsgemeindeverwaltung an.",
+        "quote": "Verweigert eine gästebeitragspflichtige Person die Zahlung des Gästebeitrages, ist dies durch den Inhaber des Beherbergungsbetriebes spätestens am darauffolgenden Werktag der Verbandsgemeindeverwaltung Traben-Trarbach anzuzeigen."
+      },
+      {
+        "text": "Hast du in einem Monat niemanden beherbergt, gibst du eine Fehlanzeige ab.",
+        "quote": "In diesem Fall hat eine Fehlanzeige („Null-Meldung“) zu erfolgen."
+      },
+      {
+        "text": "Du haftest für das ordnungsgemäße und rechtzeitige Einziehen und Abführen des Gästebeitrags.",
+        "quote": "Der Beherbergungsbetrieb haftet für die ordnungsgemäße und rechtzeitige Einziehung und Abführung des Gästebeitrages der bei ihm verweilenden Gästebeitragspflichtigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag ein und führt ihn innerhalb von 7 Tagen nach der Zahlungsnachricht an die Verbandsgemeinde ab.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes hat den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und innerhalb von 7 Tagen nach Zugang einer entsprechenden Zahlungsnachricht an die Verbandsgemeindeverwaltung Traben-Trarbach abzuführen."
+    },
+    "deadline": {
+      "text": "Für jeden Kalendermonat gibst du bis zum 10. des Folgemonats die Abrechnung ab oder übermittelst deine elektronischen Meldedaten.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes hat für jeden Kalendermonat bis zum 10. des folgenden Monats eine Abrechnung der gewährten Gästeübernachtungen sowie der eingezogenen und abzuliefernden Gästebeiträge"
+    },
+    "reporting": {
+      "text": "Die Daten erfasst du elektronisch im Meldeverfahren der Verbandsgemeinde, druckst den Meldeschein aus und lässt ihn vom Gast unterschreiben.",
+      "quote": "Dabei werden die Daten elektronisch durch den Beherbergungsbetrieb erfasst, die Meldescheine werden von den Beherbergungsbetrieben ausgedruckt und müssen vom Gast unterschrieben werden."
+    },
+    "change": {
+      "from": "2027-04-01",
+      "text": "Ab 01.04.2027 gelten neue Sätze: in Saison 1 (April bis Oktober) bleiben es 2,00 € für Erwachsene, in Saison 2 (November bis März) werden es ab 01.11.2027 2,20 €. Kinder und Jugendliche zahlen weiter 0,80 €.",
+      "quote": "Saison 1 (ab 01.04.2027)",
+      "source": "tarife2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-18",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/traben-trarbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Saison 1",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          80
+        ],
+        "next": {
+          "adult": 200,
+          "children": [
+            0,
+            80
+          ]
+        }
+      },
+      {
+        "label": "Saison 2",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          80
+        ],
+        "next": {
+          "adult": 220,
+          "children": [
+            0,
+            80
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-04-01",
+      "label": "ab 1. April 2027"
+    }
+  }
+}

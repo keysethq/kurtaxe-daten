@@ -1,0 +1,633 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sylt",
+  "name": "Sylt",
+  "short": "Sylt",
+  "ags": "01054168",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Sylt über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 24.07.2025",
+      "url": "https://gemeinde-sylt.de/wp-content/uploads/2025/08/Kurabgabesatzung_Gemeinde_Sylt_01_01_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "fecc561d03acf62110c882b930828a21de8cf7cf28ccf4f4e6cd63e7f36639c8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.05.-31.10.: 4,10 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabepflicht sind befreit: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "b) übrige Zeit des Jahres: 2,05 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabepflicht sind befreit: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ehepartner, eingetragene Lebenspartner, Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Geschwister der Eltern, Cousin und Cousinen, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwager (1. Grades) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgesbiet befreit."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 20 %."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Begleitpersonen nach $ 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 4,
+          "reading": "Die Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "c) Jahresgästekarte 114,80 Euro"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "Die Kurabgabe ist bis spätestens einen Monat nach Abreise der"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Die Meldung erfolgt auf kostenlos von der Gemeinde hierfür zur Verfügung gestellten Meldevordrucken oder elektronisch über die hierfür von der Gemeinde zur Verfügung gestellten Schnittstellen. Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass der für die Gemeinde bestimmte Teil des Meldevordrucks spätestens fünf Werktage nach der Ankunft der beherbergten oder aufgenommenen Person bei der Gemeinde eingeht."
+        }
+      ]
+    },
+    "bekanntmachung": {
+      "title": "Bekanntmachung der Gemeinde Sylt über die Satzung zur Erhebung einer Kurabgabe (Kurabgabesatzung) vom 18.08.2025",
+      "url": "https://gemeinde-sylt.de/wp-content/uploads/2025/08/Bekanntmachung_Kurabgabesatzung_Gemeinde_Sylt_2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "79fe65a30861e724b08420afe67cc0b81f185f2ab631c65906c6af0340328a0f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "ta": {
+      "title": "Satzung der Gemeinde Sylt über die Erhebung von Tourismusabgaben vom 21.12.2023",
+      "url": "https://gemeinde-sylt.de/wp-content/uploads/2023/12/Tourismusabgabensatzung_inkl_Anlage_21_12_2023.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "6a0d2bb17bc5b1549848581c60cde66a46b7f67fe57b3831c0480e17d9b3b668",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Zu den abgabenpflichtigen Personen gehören auch diejenigen Personen, die tourismusbezogene entgeltliche Leistungen lediglich im Rahmen privater Vermögensverwaltung anbieten, insbesondere durch das Vermieten von Ferienwohnungen oder Ferienhäusern."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 3,
+          "reading": "Der Abgabesatz beträgt 2,77 % des Messbetrags."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 6,
+          "reading": "0040 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz bis 30.000 € 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 6,
+          "reading": "0040 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz bis 30.000 € 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 6,
+          "reading": "0040 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz bis 30.000 € 100% 17%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 6,
+          "reading": "0050 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz über 30.000 € 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 6,
+          "reading": "0050 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz über 30.000 € 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 6,
+          "reading": "0050 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz über 30.000 € 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 6,
+          "reading": "0030 Hotels garnis, Gasthöfe u. Pensionen mit Frühstück 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 6,
+          "reading": "0030 Hotels garnis, Gasthöfe u. Pensionen mit Frühstück 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 6,
+          "reading": "0030 Hotels garnis, Gasthöfe u. Pensionen mit Frühstück 100% 11%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 6,
+          "reading": "0010 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € 100% 7%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 6,
+          "reading": "0010 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € 100% 7%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 6,
+          "reading": "0010 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € 100% 7%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 6,
+          "reading": "0020 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € 100% 4%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 6,
+          "reading": "0020 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € 100% 4%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 6,
+          "reading": "0020 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € 100% 4%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 6,
+          "reading": "0070 Kurkliniken, Rehakliniken, Erholungsheime, Jugendherbergen 100% 1%"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 6,
+          "reading": "0070 Kurkliniken, Rehakliniken, Erholungsheime, Jugendherbergen 100% 1%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 6,
+          "reading": "0070 Kurkliniken, Rehakliniken, Erholungsheime, Jugendherbergen 100% 1%"
+        },
+        {
+          "where": "businessLevy.letting[6]",
+          "page": 6,
+          "reading": "0080 Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[6] figure 1",
+          "page": 6,
+          "reading": "0080 Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 6,
+          "reading": "0080 Campingplätze 100% 14%"
+        },
+        {
+          "where": "businessLevy.letting[7]",
+          "page": 6,
+          "reading": "0085 sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste 100% 10%"
+        },
+        {
+          "where": "businessLevy.letting[7] figure 1",
+          "page": 6,
+          "reading": "0085 sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste 100% 10%"
+        },
+        {
+          "where": "businessLevy.letting[7].turnover.advantage",
+          "page": 6,
+          "reading": "0085 sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste 100% 10%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Abgabenpflichtigen"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 3,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 EUR nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "bis zum 30. April eines jeden Jahres oder - soweit die Gemeinde schriftlich dazu auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind jeweils die Einnahmen des Vorjahres."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Die Tourismusabgabe entsteht mit Ablauf des Kalenderjahres (Erhebungszeitraum)."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 3,
+          "reading": "Vorausleistungen auf die Abgabe bis zur Höhe der voraussichtlichen Höhe der Abgabe."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 3,
+          "reading": "Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "Wird eine abgabenpflichtige Tätigkeit im Laufe des Erhebungsjahres vor Erlass oder vor Bestandskraft des Tourismusabgabebescheides endgültig aufgegeben, wird für jeden bis dahin verstrichenen angefangenen Kalendermonat ein Zwölftel der Tourismusabgabe erhoben"
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 1,
+          "reading": "Die Gemeinde Sylt erhebt in ihrem gesamten Gemeindegebiet (Erhebungsgebiet) Tourismusabgaben"
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 3,
+          "reading": "Wird eine abgabenpflichtige Tätigkeit erstmals aufgenommen, so sind abweichend von Abs. 4 im Jahr der Tätigkeitsaufnahme und im darauf folgenden Jahr die Einnahmen des jeweils aktuell laufenden Jahres maßgebend."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 410,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.05.-31.10.: 4,10 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Von der Kurabgabepflicht sind befreit: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 205,
+          "quote": "b) übrige Zeit des Jahres: 2,05 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Von der Kurabgabepflicht sind befreit: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Ehepartner, eingetragene Lebenspartner, Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Geschwister der Eltern, Cousin und Cousinen, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwager (1. Grades) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind"
+      },
+      {
+        "text": "Wer in einer anderen Gemeinde auf Sylt schon Kurabgabe bezahlt hat, ist für diese Zeit als Tagesgast befreit",
+        "quote": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 20 % weniger",
+        "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 20 %."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die im öffentlichen Verkehr regelmäßig auf Hilfe angewiesen sind",
+        "quote": "Begleitpersonen nach § 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Gästekarte, die dein Gast bei der Zahlung bekommt, ist höchstens 28 Tage gültig.",
+        "quote": "Die Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahresgästekarte für 114,80 €.",
+        "quote": "c) Jahresgästekarte 114,80 Euro"
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet.",
+        "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, berechnet und zieht die Kurabgabe ein, händigt die Gästekarte aus und führt den Betrag an die Gemeinde ab; dafür haftest du.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Monat nach der Abreise der Gäste.",
+      "quote": "Die Kurabgabe ist bis spätestens einen Monat nach Abreise der"
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch spätestens am Tag nach der Ankunft; auf Papier muss der Meldevordruck spätestens fünf Werktage nach der Ankunft bei der Gemeinde eingehen.",
+      "quote": "Die Meldung erfolgt auf kostenlos von der Gemeinde hierfür zur Verfügung gestellten Meldevordrucken oder elektronisch über die hierfür von der Gemeinde zur Verfügung gestellten Schnittstellen. Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass der für die Gemeinde bestimmte Teil des Meldevordrucks spätestens fünf Werktage nach der Ankunft der beherbergten oder aufgenommenen Person bei der Gemeinde eingeht."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du auch, wenn du Ferienwohnungen oder Ferienhäuser nur privat vermietest.",
+      "quote": "Zu den abgabenpflichtigen Personen gehören auch diejenigen Personen, die tourismusbezogene entgeltliche Leistungen lediglich im Rahmen privater Vermögensverwaltung anbieten, insbesondere durch das Vermieten von Ferienwohnungen oder Ferienhäusern."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Appartements, Ferienhäuser und Privatzimmer, Umsatz bis 30.000 €",
+        "quote": "0040 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz bis 30.000 € 100% 17%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0040 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz bis 30.000 € 100% 17%"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, Appartements, Ferienhäuser und Privatzimmer, Umsatz über 30.000 €",
+        "quote": "0050 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz über 30.000 € 100% 14%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0050 Gästevermietung von Ferienwohnungen, -appartements, -häusern, Privatzimmern, Umsatz über 30.000 € 100% 14%"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück",
+        "quote": "0030 Hotels garnis, Gasthöfe u. Pensionen mit Frühstück 100% 11%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0030 Hotels garnis, Gasthöfe u. Pensionen mit Frühstück 100% 11%"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 €",
+        "quote": "0010 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € 100% 7%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0010 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € 100% 7%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- und Vollpension, Umsatz über 500.000 €",
+        "quote": "0020 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € 100% 4%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0020 Hotels, Gasthöfe u. Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € 100% 4%"
+          },
+          "profit": {
+            "percent": 4
+          }
+        }
+      },
+      {
+        "label": "Kurkliniken, Rehakliniken, Erholungsheime und Jugendherbergen",
+        "quote": "0070 Kurkliniken, Rehakliniken, Erholungsheime, Jugendherbergen 100% 1%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0070 Kurkliniken, Rehakliniken, Erholungsheime, Jugendherbergen 100% 1%"
+          },
+          "profit": {
+            "percent": 1
+          }
+        }
+      },
+      {
+        "label": "Campingplätze",
+        "quote": "0080 Campingplätze 100% 14%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0080 Campingplätze 100% 14%"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste",
+        "quote": "0085 sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste 100% 10%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "0085 sonstige Betriebe der Gewährung von Unterkunft an wechselnde Gäste 100% 10%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.77,
+      "quote": "Der Abgabesatz beträgt 2,77 % des Messbetrags."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne Umsatzsteuer.",
+      "quote": "aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Abgabenpflichtigen"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 EUR nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. April jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 30. April eines jeden Jahres oder - soweit die Gemeinde schriftlich dazu auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind jeweils die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Die Abgabe entsteht mit Ablauf des Kalenderjahres.",
+        "quote": "Die Tourismusabgabe entsteht mit Ablauf des Kalenderjahres (Erhebungszeitraum)."
+      },
+      {
+        "text": "Die Gemeinde erhebt Vorauszahlungen auf die Abgabe bis zur Höhe der voraussichtlichen Abgabe.",
+        "quote": "Vorausleistungen auf die Abgabe bis zur Höhe der voraussichtlichen Höhe der Abgabe."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Gibst du die Vermietung im Lauf des Jahres vor dem Bescheid endgültig auf, zahlst du für jeden angefangenen Monat bis dahin ein Zwölftel der Jahresabgabe.",
+        "quote": "Wird eine abgabenpflichtige Tätigkeit im Laufe des Erhebungsjahres vor Erlass oder vor Bestandskraft des Tourismusabgabebescheides endgültig aufgegeben, wird für jeden bis dahin verstrichenen angefangenen Kalendermonat ein Zwölftel der Tourismusabgabe erhoben"
+      },
+      {
+        "text": "Die Gemeinde Sylt erhebt die Abgabe in ihrem gesamten Gemeindegebiet.",
+        "quote": "Die Gemeinde Sylt erhebt in ihrem gesamten Gemeindegebiet (Erhebungsgebiet) Tourismusabgaben"
+      },
+      {
+        "text": "Fängst du erstmals mit der Vermietung an, zählen im Jahr des Beginns und im Jahr danach die Einnahmen des laufenden Jahres statt der des Vorjahres.",
+        "quote": "Wird eine abgabenpflichtige Tätigkeit erstmals aufgenommen, so sind abweichend von Abs. 4 im Jahr der Tätigkeitsaufnahme und im darauf folgenden Jahr die Einnahmen des jeweils aktuell laufenden Jahres maßgebend."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/sylt/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 410,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "04-30"
+          ]
+        ],
+        "adult": 205,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

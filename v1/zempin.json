@@ -1,0 +1,320 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "zempin",
+  "name": "Zempin",
+  "short": "Zempin",
+  "ags": "13075148",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Seebad Zempin, Beschluss vom 08.12.2025, bekannt gemacht am 22.12.2025 auf www.amtusedom-sued.de",
+      "url": "https://www.amtusedom.de/wp-content/uploads/2025/12/Zempin-Kurabgabesatzung-2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "8e5f6f75cf65d15393a912bfe5b82f6950fa8979b42bbc4db05fca984cef9e25",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. - 31.12. (Nebensaison): 3,30 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "ein Entgelt in Höhe von 0,90 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 45,80 Euro brutto"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: 124,20 Euro Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. eines Pauschalbetrages für inkludierte OPNV-Leistungen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Abgabepflichtige nach $ 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach $ 4 Abs. 3."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinde bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung der Gemeinde Seebad Zempin über die Erhebung einer Fremdenverkehrsabgabe, Beschluss vom 09.12.2024",
+      "url": "https://www.amtusedom.de/wp-content/uploads/2025/01/Zempin-Satzung-FVA-2025-VOe.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "70a6fe34d993b8f7fd557e93efc66271b81f8d9bc4829bc8e677aec567ecd946",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "b) in der Zeit vom 01.01. – 31.03. sowie vom 01.11. – 31.12. (Nebensaison): 3,30 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe schließt die gesetzliche Mehrwertsteuer ein.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Im Satz ist ein Entgelt von 0,90 € für die Bahn enthalten.",
+        "quote": "ein Entgelt in Höhe von 0,90 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 45,80 Euro brutto"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurabgabe von 124,20 €; sie schließt die Nahverkehrsleistungen ein.",
+        "quote": "Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: 124,20 Euro Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen zzgl. eines Pauschalbetrages für inkludierte ÖPNV-Leistungen."
+      },
+      {
+        "text": "Eigentümer oder Besitzer einer Wohnung, die sie überwiegend zur Erholung nutzen, sowie Dauercamper und Dauerlieger zahlen die Jahreskurabgabe unabhängig von ihrer Aufenthaltsdauer.",
+        "quote": "Abgabepflichtige nach § 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach § 4 Abs. 3."
+      },
+      {
+        "text": "Die Kurabgabesatzung musst du für deine Gäste sichtbar auslegen.",
+        "quote": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinde bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn du Gäste beherbergst, auch als Vermieter einer Ferienwohnung, eines Ferienhauses oder eines Ferienzimmers ohne Gewerbeanzeige.",
+      "quote": "sonstige Personen, die Kurgäste und Erholungssuchende gegen ein Entgelt direkt oder über Dritte beherbergen; einschließlich Vermieter von Ferienhäusern, Ferienwohnungen und Ferienzimmern, die der Gewerbeanzeigepflicht nicht unterliegen"
+    },
+    "letting": [
+      {
+        "label": "Beherbergung (Ferienwohnung, Ferienhaus, Zimmer)",
+        "quote": "1. im Beherbergungsbereich 8,00 €/ Bett",
+        "flat": {
+          "cents": 800,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Campingplatz",
+        "quote": "4. Campingplatz 5,00 €/ Stellplatz",
+        "flat": {
+          "cents": 500,
+          "per": "Stellplatz"
+        }
+      },
+      {
+        "label": "Parkplätze, Caravan- und Wohnmobilstellplätze (Stellfläche)",
+        "quote": "5. Parkplätze/ Caravan-/ Wohnmobilstellplätze 1,50 €/ Stellfläche",
+        "flat": {
+          "cents": 150,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 31. Oktober jedes Jahres teilst du der Gemeinde mit, was sie für die Berechnung braucht; änderst du nichts, gelten deine bisherigen Angaben weiter.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde die erforderlichen Angaben zur Berechnung der Abgabe bis zum 31. Oktober eines jeden Jahres mitzuteilen oder spätestens bei Inbetriebnahme. Die Heranziehung erfolgt auf der Grundlage der vorhandenen Angaben. Wenn bis zum 31. Oktober keine Änderungen oder Ergänzungen der vormaligen Angaben seitens des Abgabepflichtigen erfolgen, werden die bisherigen Angaben bei der Heranziehung zugrunde gelegt."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 30 Tage nach Bekanntgabe des Bescheids, in einer Summe.",
+      "quote": "Die Abgabe ist innerhalb von 30 Tagen nach Bekanntgabe des Heranziehungsbescheides fällig und ist in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenverkehrsbetten, die am 1. Januar eines Jahres vorhanden sind.",
+        "quote": "nach der Anzahl der am 01. Januar eines Jahres vorhandenen Fremdenverkehrsbetten"
+      },
+      {
+        "text": "Für jede Aufbettung kommen 4,00 € im Jahr dazu.",
+        "quote": "4,00 €/ Aufbettung"
+      },
+      {
+        "text": "Fängst du nach dem 1. August mit der Vermietung an oder hörst du vor dem 1. August auf, ist die Jahresabgabe um die Hälfte ermäßigt.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01. August eines Jahres, wird die Jahresabgabe um 50 von Hundert ermäßigt. Liegt die Aufgabe eines Betriebes oder einer abgabepflichtigen Tätigkeit vor dem 01. August eines Jahres, wird die Jahresabgabe ebenfalls um 50 von Hundert ermäßigt."
+      },
+      {
+        "text": "Eine nebenberufliche Tätigkeit, die eine Person mit weniger als 5 Wochenstunden ausübt, ist abgabefrei.",
+        "quote": "Handelt es sich bei dem Betrieb um eine nebenberufliche Tätigkeit, die nur von einer Person ausgeführt wird, deren wöchentliche Arbeitszeit unter 5 Stunden liegt, entfällt die Abgabepflicht."
+      },
+      {
+        "text": "Die Aufgaben nach der Satzung hat der Eigenbetrieb Fremdenverkehrsamt Seebad Zempin übernommen.",
+        "quote": "Die nach dieser Satzung der Gemeinde Seebad Zempin obliegenden Aufgaben werden dem kommunalen Eigenbetrieb Fremdenverkehrsamt Seebad Zempin übertragen"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/zempin/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

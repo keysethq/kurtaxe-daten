@@ -1,0 +1,159 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schmallenberg",
+  "name": "Stadt Schmallenberg",
+  "short": "Schmallenberg",
+  "ags": "05958040",
+  "state": "Nordrhein-Westfalen",
+  "district": "Hochsauerlandkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Schmallenberg über die Erhebung von Kurbeiträgen vom 25.11.2016 (Kurbeitragssatzung) einschließlich 1. bis 3. Nachtrag (Stand 3. Nachtrag vom 05.12.2023), Zusammenstellung der Stadt",
+      "url": "https://www.schmallenberg.de/fileadmin/Kundenbereich/Microsites/schmallenberg.de/Downloads/02Rathaus/Ortsrecht_und_Satzungen/30_Kurbeitragssatzung_inkl._Nachtraege.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "4aecd621f875ab7eaf6fdba4ab6afa14902e937d6aae880eeb06d687565d161c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "netOfVat": {
+      "quote": "Der Kurbeitrag beträgt ab dem 01.01.2024 je Person und Aufenthaltstag 2,34 € zuzüglich der gesetzlichen Mehrwertsteuer."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 234,
+          "quote": "Der Kurbeitrag beträgt ab dem 01.01.2024 je Person und Aufenthaltstag 2,34 € zuzüglich der gesetzlichen Mehrwertsteuer."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "a) Kinder bis zum vollendeten 14. Lebensjahr;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich in deren Haushalt aufgenommen werden",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden;"
+      },
+      {
+        "text": "Personen mit einem zweitwohnungssteuerpflichtigen Nebenwohnsitz im Erhebungsgebiet",
+        "quote": "Ortsfremde Personen, die einen zweitwohnungssteuerpflichtigen Nebenwohnsitz im Sinne von § 16 Abs. 3 des Meldegesetzes für das Land Nordrhein-Westfalen im Erhebungsgebiet begründet haben;"
+      },
+      {
+        "text": "Teilnehmer an organisierten Jugendlagern in Schützenhallen und Zeltlagern",
+        "quote": "Ortsfremde Personen, die im Rahmen von organisierten Jugendlagern in Schützenhallen und Zeltlagern Unterkunft nehmen;"
+      },
+      {
+        "text": "Kranke, die zur stationären Behandlung im Krankenhaus sind",
+        "quote": "Kranke, die sich zur stationären Behandlung in einem Krankenhaus aufhalten, das der allgemeinen Krankenversorgung dient;"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, die die Kureinrichtungen nicht besuchen können, mit amtlicher oder ärztlicher Bescheinigung",
+        "quote": "Kranke und Schwerbehinderte sowie Personen, für die Heilfürsorgemaßnahmen durch Landschaftsverbände und Versorgungsämter durchgeführt werden, solange sie (unabhängig von einem Grad der Behinderung) nicht in der Lage sind, Kureinrichtungen zu besuchen und dies durch amtliche oder ärztliche Bescheinigung nachweisen;"
+      },
+      {
+        "text": "Personen, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen",
+        "quote": "Ortsfremde Personen, besonders Schüler, Studenten und Rentner, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Satzung gilt nur in den staatlich anerkannten Kurgebieten der Kurorte Bad Fredeburg, Grafschaft, Nordenau, Schmallenberg sowie Westfeld, Ohlenbach und Hoher Knochen, nicht im übrigen Stadtgebiet.",
+        "quote": "Die Kurgebiete umfassen die vom Minister für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen nach dem Kurortegesetz in den Kurorten Bad Fredeburg, Grafschaft, Nordenau, Schmallenberg sowie Westfeld, Ohlenbach und Hoher Knochen als Kurgebiet anerkannten Bereiche."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80, ihre Begleitpersonen und Personen mit beruflichem Aufenthalt zahlen gegen Nachweis die Hälfte.",
+        "quote": "Der Kurbeitrag wird unter Nachweis des Vorliegens der Voraussetzungen in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung; b) Begleitpersonen von Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird; c) Personen, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten, wenn ein Nachweis über den berufsbedingten Aufenthalt beigebracht wird."
+      },
+      {
+        "text": "Du haftest für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrags und dessen Abführung.",
+        "quote": "Der Unterkunftsgeber haftet dabei nach § 11 Abs. 3 des Kommunalabgabengesetzes für das Land Nordrhein-Westfalen vom 21.10.1969 (GV. NW. S. 712/SGV NW. 610) in der zurzeit gültigen Fassung für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung."
+      },
+      {
+        "text": "Du lässt jedem Gast unmittelbar nach der Ankunft eine Gästekarte ausstellen.",
+        "quote": "Der Unterkunftsgeber ist daher verpflichtet, dafür Sorge zu tragen, dass von ihm jede kurbeitragspflichtige Person unmittelbar nach seiner Ankunft im Erhebungsgebiet eine nach Abs. 1 ausgestellte Gästekarte erhält."
+      },
+      {
+        "text": "Die Kurbeitragssatzung musst du deinen Gästen zur Einsicht ermöglichen.",
+        "quote": "Die Unterkunftsgeber erhalten eine Ausfertigung der Kurbeitragssatzung, deren Einsichtnahme sie ihren Gästen ermöglichen müssen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn an die Stadt ab.",
+      "quote": "Der Kurbeitrag ist durch den Unterkunftsgeber (Aufzeichnungs- und Meldepflichtiger nach Abs. 2) von den kurbeitragspflichtigen Personen einzuziehen und an die Stadt Schmallenberg abzuführen."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt den Kurbeitrag per Bescheid fest; er ist innerhalb eines Monats nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Kurbeitrag wird von der Stadt Schmallenberg durch Bescheid festgesetzt und ist innerhalb eines Monats nach Bekanntgabe des Bescheides fällig."
+    },
+    "reporting": {
+      "text": "Du erfasst die Gästedaten und übermittelst alle Übernachtungen des Vormonats bis zum 5. Tag des Folgemonats auf elektronischem Weg an die Stadt.",
+      "quote": "bis zum 5. Tag des Folgemonats alle Übernachtungen des Vormonats auf dem elektronischen Wege"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schmallenberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 234,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

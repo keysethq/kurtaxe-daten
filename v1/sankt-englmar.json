@@ -1,0 +1,183 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sankt-englmar",
+  "name": "Sankt Englmar",
+  "short": "Sankt Englmar",
+  "ags": "09278184",
+  "state": "Bayern",
+  "district": "Straubing-Bogen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung – KBS) der Gemeinde Sankt Englmar vom 17.06.2021 (Scan)",
+      "url": "https://gemeinde.sankt-englmar.de/media/kurbeitragssatzung_01.12.2021.pdf",
+      "kind": "municipality",
+      "inForce": "2021-11-01",
+      "sha256": "3c2b6c6bbbc79f660a2c23901b8d1f6b4eca3c1c163c83bd4da329fe6580b84e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Angefangene Tage gelten als volle Tage, wobei die Tage der An- und Abreise als ein Aufenthaltstag berechnet werden."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) für Personen ab dem vollendeten 16. Lebensjahr 2,30 EUR"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahres, sowie Personen mit einem Grad der Behinderung von mindestens 80 % und deren notwendige Begleitpersonen sind kurbeitragsbefreit"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "b) für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,40 EUR"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "b) für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,40 EUR"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "sowie Personen mit einem Grad der Behinderung von mindestens 80 % und deren notwendige Begleitpersonen sind kurbeitragsbefreit"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Bei Personen, die mehr als 28 Tage am Stück kurbeitragspflichtig sind, reduziert sich der zu zahlende Kurbeitrag um 50%."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "verpflichtet, der Gemeinde innerhalb von 24 Stunden die Beitragspflichtigen elektronisch mittels des von der Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage, wobei die Tage der An- und Abreise als ein Aufenthaltstag berechnet werden."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 230,
+          "quote": "a) für Personen ab dem vollendeten 16. Lebensjahr 2,30 EUR"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahres, sowie Personen mit einem Grad der Behinderung von mindestens 80 % und deren notwendige Begleitpersonen sind kurbeitragsbefreit"
+          },
+          {
+            "underAge": 16,
+            "cents": 140,
+            "quote": "b) für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,40 EUR"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 % und ihre notwendigen Begleitpersonen",
+        "quote": "sowie Personen mit einem Grad der Behinderung von mindestens 80 % und deren notwendige Begleitpersonen sind kurbeitragsbefreit"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer mehr als 28 Tage am Stück beitragspflichtig ist, zahlt 50 % weniger; ob die Hälfte für den ganzen Aufenthalt oder erst ab dem 29. Tag gilt, sagt die Satzung nicht.",
+        "quote": "Bei Personen, die mehr als 28 Tage am Stück kurbeitragspflichtig sind, reduziert sich der zu zahlende Kurbeitrag um 50%."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Gemeinde kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von 24 Stunden elektronisch über das Verfahren der Gemeinde, soweit sie sich nicht selbst gemeldet haben.",
+      "quote": "verpflichtet, der Gemeinde innerhalb von 24 Stunden die Beitragspflichtigen elektronisch mittels des von der Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sankt-englmar/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 230,
+        "children": [
+          0,
+          140
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "borkum",
+  "name": "Borkum",
+  "short": "Borkum",
+  "ags": "03457002",
+  "state": "Niedersachsen",
+  "district": "Leer",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Borkum (Gästebeitragssatzung) vom 19.09.2019 in der Fassung der 5. Änderungssatzung vom 21.11.2024, Lesefassung der Stadt Borkum",
+      "url": "https://www.stadt-borkum.de/loadDocument.phtml?FID=3480.435.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "c0974dd8b54c4fb6359edc827b3e5d27ce9a19b47edb2576d7e44d4336c0c4b8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung4": {
+      "title": "Satzung zur 4. Änderung der Gästebeitragssatzung der Stadt Borkum, Amtsblatt für den Landkreis Leer Nr. 22 vom 30.11.2023",
+      "url": "https://www.landkreis-leer.de/output/download.php?fid=3399.4922.1.PDF",
+      "kind": "gazette",
+      "inForce": "2024-01-01",
+      "sha256": "a7926697eda159ef6dcae5eb4ff303ffa3529f60e4d65d8adcbf34d816782b89",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Borkum (Tourismusbeitragssatzung) vom 11.12.2019 in der Fassung der 5. Änderungssatzung vom 21.11.2024, Lesefassung der Stadt Borkum",
+      "url": "https://www.stadt-borkum.de/loadDocument.phtml?FID=3480.433.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "65b6abf611576c10badbfb5c9128a2e1aa28f3d25cd2e36ce8142ceebc0d848d",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAnlage": {
+      "title": "Anlage zur Tourismusbeitragssatzung der Stadt Borkum (incl. 5. Änderungssatzung), Lesefassung der Stadt Borkum",
+      "url": "https://www.stadt-borkum.de/loadDocument.phtml?FID=3480.434.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "775b1c634b40e881bfd657ec72cb642c07a8faa4015253545956a3e5cd14bc24",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Erhebungszeitraum für den Gästebeitrag gemäß § 3 Abs. 1 Satz 1 ist die Dauer des Aufenthaltes im Erhebungsgebiet, der nach der Anzahl der Übernachtungen gerechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 480,
+          "quote": "a) für jede Person ab Vollendung 4,80 Euro des 18. Lebensjahres"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 12. Lebensjahres zahlen keinen Gästebeitrag nach § 3 Abs.1 Satz 2 und 4."
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "b) für Kinder vom vollendeten 12. bis zum vollendeten 18. Lebensjahr 1,50 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 oder dem Merkzeichen B und ihre Begleitperson zahlen auf Antrag 2,40 Euro je Übernachtung.",
+        "quote": "c) Schwerbehinderte, deren Grad der Behinderung 100 beträgt und Schwerbehinderte, mit amtlichem Ausweis mit Merkzeichen \"B\", sowie deren Begleit- 2,40 Euro person."
+      },
+      {
+        "text": "Wer nur zur Berufsausübung auf der Insel ist und die Tourismuseinrichtungen nicht nutzt, zahlt nichts.",
+        "quote": "a) Personen, die sich nur zur Berufsausübung im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Wer Einwohner zu einer besonderen Familienfeier besucht, zahlt für höchstens zwei Übernachtungen nichts.",
+        "quote": "b) Personen, die zur Teilnahme an besonderen Familienfeiern (insbesondere Eheschließung, besondere Ehejubiläen, Taufe, Firmung, Jugendweihe, sowie vergleichbare religiös oder weltlich tradierte Feiern) Einwohner im Erhebungsgebiet besuchen, die dort ihren Hauptwohnsitz haben, für maximal 2 Übernachtungen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im Kalenderjahr zahlt ein Gast höchstens den Jahresgästebeitrag, für Erwachsene 144,00 Euro.",
+        "quote": "Der unter Anwendung des nach Abs. 1 festgelegten \"Gästebeitrag pro Übernachtung\" zu errechnende Gästebeitrag beträgt im Kalenderjahr höchstens den in Abs. 3 festgelegten Jahresgästebeitrag."
+      },
+      {
+        "text": "Kinder unter 12 Jahren zahlen nichts, werden aber gemeldet und bekommen eine Gästekarte.",
+        "quote": "Sie unterliegen der Gästebeitragspflicht und den Meldepflichten nach dieser Satzung und erhalten eine Gästekarte bzw. Jahresgästekarte,"
+      },
+      {
+        "text": "Du legst die Satzung in der vermieteten Unterkunft gut sichtbar aus.",
+        "quote": "Die nach Abs. 1 verpflichteten Personen haben diese Satzung in den vermieteten Gasträumen an gut sichtbarer Stelle auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht den Gästebeitrag ein und liefert ihn an die Stadt ab; du haftest für die vollständige Ablieferung.",
+      "quote": "Sie sind ferner verpflichtet, den Gästebeitrag einzuziehen und an die Stadt abzuliefern; sie haften insoweit für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+    },
+    "deadline": {
+      "text": "Innerhalb von 24 Stunden nach der Ankunft stellst du die Gästekarte aus und ziehst den Beitrag ein.",
+      "quote": "Die nach Abs. 1 verpflichteten Personen haben den bei ihnen verweilenden Gästebeitragsschuldner innerhalb von 24 Stunden nach deren Ankunft eine Gästekarte auszustellen, den Gästebeitrag einzuziehen",
+      "source": "aenderung4"
+    },
+    "reporting": {
+      "text": "Gemeldet wird innerhalb von 48 Stunden bei der Nordseeheilbad Borkum GmbH mit dem analogen oder digitalen Meldevordruck der Stadt.",
+      "quote": "den Gästebeitragsschuldner innerhalb von 48 Stunden bei der Nordseeheilbad Borkum GmbH mittels des von der Stadt vorgeschriebenen analogen oder digitalen Meldevordrucks (§ 7 Abs. 3 Satz 1) anzumelden.",
+      "source": "aenderung4"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Borkum selbständig tätig bist und der Tourismus dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt, was bei der Vermietung an Gäste der Fall ist.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Tourismus in der Stadt Borkum unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung, Ferienhaus, Apartment, Gästezimmer",
+        "quote": "Vermieter/-innen von Ferienwohnungen und Ferienhäusern, Apartments, Gästezimmern und sonstige Personen und Unternehmen,die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen. 100 24",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "gegen Entgelt beherbergen. 100 24",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotel garni, konzessionierte Pension, Gästehaus",
+        "quote": "Inhaber/-innen von Hotels garni, konzessionierten Pensionen und Gästehäusern 95 12",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Gästehäusern 95 12",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotel",
+        "quote": "501 Inhaber/-innen von Hotels 95 7",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Hotels 95 7",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Erholungsheim, Familienfreizeitheim, Mutter-Kind-Heim, Jugendfreizeitheim",
+        "quote": "Inhaber/-innen von Erholungsheimen, Familienfreizeitheimen, Mutter-Kind-Heimen, 503 95 7",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "503 95 7",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz, Vermietung von Stellplätzen",
+        "quote": "Inhaber/-innen von Camping- und Zeltplätzen, Vermietung von Stellplätzen auf dem 505 100 12",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "505 100 12",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge",
+        "quote": "506 Inhaber/-innen von Jugendherbergen 95 3,5",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Jugendherbergen 95 3,5",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 3.5
+          }
+        }
+      },
+      {
+        "label": "Sonstige selbständige Personen und Unternehmen mit Beherbergungsleistungen",
+        "quote": "Sonstige selbständige Personen und Unternehmen mit Beherbergungsleistungen, denen 520 unmittelbar oder mittelbar durch den Fremdenverkehr besondere wirtschaftliche Vorteile 83 19",
+        "source": "fvbAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 83,
+            "quote": "besondere wirtschaftliche Vorteile 83 19",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 19
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 4.59,
+      "quote": "Der Beitragssatz beträgt 4,59 v.H."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz des Kalenderjahres vor dem Beitragsjahr.",
+      "quote": "Maßgebend ist der Umsatz des Kalenderjahres, das dem Erhebungszeitraum vorausgegangen ist."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Du meldest der Stadt, wenn du mit der Vermietung anfängst, sie änderst oder aufgibst, und machst auf Anforderung die Angaben, die sie für die Berechnung braucht.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Stadt Borkum die Aufnahme, Änderung und Beendigung der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Angaben zur Berechnung des Beitrages oder der Vorausleistung mitzuteilen."
+    },
+    "deadline": {
+      "text": "Beitrag und Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Stadt rechnet den Beitrag aus deinem steuerbaren Umsatz mal Mindestgewinnsatz mal Vorteilssatz mal Beitragssatz.",
+        "quote": "Der Tourismusbeitrag errechnet sich, indem der im Geltungsbereich dieser Satzung erzielte steuerbare Umsatz mit dem Mindestgewinnsatz (Abs. 3), mit dem Vorteilssatz (Abs. 2) und mit dem Beitragssatz (Abs. 4) multipliziert wird."
+      },
+      {
+        "text": "Als steuerbarer Umsatz gilt der Umsatz im Sinne des Umsatzsteuergesetzes, ersatzweise deine Bruttoeinnahmen ohne Umsatzsteuer.",
+        "quote": "Der Vorteil richtet sich nach dem steuerbaren Umsatz im Sinne des § 1 des Umsatzsteuergesetzes, ersatzweise Bruttoeinnahmen ohne Umsatzsteuer (nachfolgend ebenfalls steuerbarer Umsatz genannt)."
+      },
+      {
+        "text": "Fängst du im Lauf eines Jahres an oder hörst auf, zählt der Umsatz des jeweiligen Beitragszeitraums statt des Vorjahres.",
+        "quote": "Abweichend von Abs. 2 ist für die Berechnung des Beitrages der Umsatz des jeweiligen Erhebungszeitraumes zugrunde zu legen:"
+      },
+      {
+        "text": "Auf den Beitrag kann die Stadt für das laufende Jahr Vorausleistungen bis zur voraussichtlichen Höhe verlangen.",
+        "quote": "Die Stadt Borkum erhebt für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/borkum/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 480,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

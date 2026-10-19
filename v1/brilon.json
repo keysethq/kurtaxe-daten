@@ -1,0 +1,156 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "brilon",
+  "name": "Stadt Brilon",
+  "short": "Brilon",
+  "ags": "05958012",
+  "state": "Nordrhein-Westfalen",
+  "district": "Hochsauerlandkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Brilon (Kurbeitragssatzung) vom 07. Dezember 2018, in Kraft ab 01.01.2019",
+      "url": "https://www.brilon.de/fileadmin/user_upload/Ortsrecht/Kurbeitragssatzung_ab_2019.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "sha256": "1fde06195ceaf1e40bdecd0689b764c7cb1255214ae48e423b5acb5b98339625",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im anerkannten Kurgebiet der Stadt Brilon, nicht im ganzen Stadtgebiet; die Grenze beschreibt die Anlage der Satzung.",
+      "quote": "Kurbeitragspflichtig sind Personen, die im Erhebungsgebiet nach § 2 Abs. 1 dieser Satzung (im anerkannten Kurgebiet) Unterkunft nehmen"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Der Kurbeitrag beträgt je Person und Aufenthaltstag 1,50 Euro."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 14. Lebensjahres;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Jugendliche bis 18 Jahre in Jugendlagern, Zeltlagern und Ähnlichem samt Begleitpersonen (Jugendgruppen)",
+        "quote": "jugendliche Besucher (bis zur Vollendung des 18. Lebensjahres) von Jugendlagern, Schützenhallen, Zeltlagern einschl. ihrer Begleitpersonen (Jugendgruppen);"
+      },
+      {
+        "text": "Familienbesucher von Einwohnern mit Hauptwohnsitz, die unentgeltlich in deren Wohnung oder Haushalt aufgenommen werden",
+        "quote": "Familienbesucher von denen im Erhebungsgebiet mit Hauptwohnsitz wohnhaften Einwohnern, sofern sie in deren Wohnung oder Haushalt vorübergehend ohne jegliches Entgelt oder Kostenerstattung für Unterbringung und Verpflegung aufgenommen werden;"
+      },
+      {
+        "text": "Ortsfremde, die nur zur Ausübung ihres Berufs oder zu Ausbildungszwecken vor Ort übernachten (zum Beispiel Geschäftsreisende, Tagungs- und Seminarteilnehmer)",
+        "quote": "Ortsfremde Personen, die nur zur örtlichen Ausübung ihres Berufes oder zu Ausbildungszwecken im Erhebungsgebiet Unterkunft nehmen"
+      },
+      {
+        "text": "Besucher aus den Partnerstädten bei organisierten Treffen und Veranstaltungen",
+        "quote": "Besucher aus den Partnerstädten der Stadt Brilon anlässlich organisierter Treffen und Veranstaltungen;"
+      },
+      {
+        "text": "Inhaber von Zweitwohnungen",
+        "quote": "Inhaber von Zweitwohnungen"
+      },
+      {
+        "text": "Besucher der Jugendherberge Brilon",
+        "quote": "Besucher der Jugendherberge Brilon"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Blinde und Menschen mit einem Grad der Behinderung von mindestens 80 zahlen die Hälfte, ebenso ihre Begleiter mit ärztlicher Bescheinigung.",
+        "quote": "Der Kurbeitrag wird auf 50 % ermäßigt für: a) Blinde und Schwerbehinderte mit einem Grad von mindestens 80 % Behinderung;"
+      },
+      {
+        "text": "Wer einen Dauer- oder Saisonplatz auf einem Campingplatz hat, zahlt statt der Tagessätze einen pauschalen Jahreskurbeitrag von 60 Euro.",
+        "quote": "zu einem pauschalen Jahreskurbeitrag pro Kalenderjahr von 60,00 Euro herangezogen."
+      },
+      {
+        "text": "Du sorgst dafür, dass jeder kurbeitragspflichtige Gast gleich nach der Ankunft eine Kurkarte bekommt.",
+        "quote": "Der Unterkunftsgeber ist daher verpflichtet, dafür Sorge zu tragen, dass von ihm jede kurbeitragspflichtige Person unmittelbar nach ihrer Ankunft im Erhebungsgebiet eine Kurkarte erhält."
+      },
+      {
+        "text": "Du haftest neben dem Gast gesamtschuldnerisch für die vollständige, pünktliche und richtige Entrichtung des Kurbeitrags und für einen Ausfall.",
+        "quote": "gesamtschuldnerisch für die vollständige, pünktliche und richtige Entrichtung sowie für einen Ausfall des Kurbeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn ab.",
+      "quote": "Der Kurbeitrag wird durch den Unterkunftsgeber bzw. Campingplatzbetreiber von den kurbeitragspflichtigen Personen eingezogen."
+    },
+    "deadline": {
+      "text": "Die eingezogenen Beträge führst du binnen 14 Tagen nach Bekanntgabe des Kurbeitragsbescheides ab.",
+      "quote": "binnen 14 Tagen nach Bekanntgabe des Kurbeitragsbescheides an die Stadt Brilon"
+    },
+    "reporting": {
+      "text": "Du erfasst Name, Anschrift, Alter sowie An- und Abreisetag deiner Gäste, meldest sie bei der Stadt an und ab und nutzt dafür das elektronische Kurkarten- und Meldescheinsystem.",
+      "quote": "die Personalien (Name, Anschrift, Alter, Ankunfts- und Abreisetag) der bei ihm verweilenden Kurbeitragspflichtigen zu erfassen und jeden Beitragspflichtigen zur Entrichtung des Kurbeitrages bei der Stadt Brilon an- und abzumelden. Für die Meldung ist ein elektronisches Kurkarten- und Meldescheinsystem zu nutzen"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/brilon/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

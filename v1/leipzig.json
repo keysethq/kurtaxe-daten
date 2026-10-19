@@ -1,0 +1,130 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "leipzig",
+  "name": "Stadt Leipzig",
+  "short": "Leipzig",
+  "ags": "14713000",
+  "state": "Sachsen",
+  "district": "Leipzig",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungssteuer in der Stadt Leipzig (Beherbergungssteuersatzung), Stand Februar 2023, Stadtrecht Leipzig",
+      "url": "https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/details/satzung/2-09/download",
+      "kind": "municipality",
+      "inForce": "2023-04-01",
+      "sha256": "9de9a4ea5c5f5f44c1c2d291493127c6d19bdfbfde9731b051607df3f94544aa",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "faq": {
+      "title": "Informationen zur Beherbergungssteuer in der Stadt Leipzig, Stand Februar 2023, Stadtkämmerei Leipzig",
+      "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.2_Dez2_Finanzen/20_Stadtkaemmerei/Steuern/Fragen_und_Antworten_Beherbergungssteuer.pdf",
+      "kind": "municipality",
+      "inForce": "2023-04-01",
+      "sha256": "4371dbb741a6ed4f12db9fbb09e9bc1a7f9eb60b188f542cf0361dd3cf55f7df",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Der auf eine einzelne Übernachtung entfallende Beherbergungssteueranteil beträgt fünf Prozent des Wertes der Bemessungsgrundlage"
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Übernachtungsentgelt einschließlich Umsatzsteuer; teilen sich mehrere Personen eine Leistung, wird das Entgelt anteilig auf sie verteilt.",
+      "quote": "Bemessungsgrundlage sind die jeweils für die einzelnen Übernachtungen der Beherbergung des Gastes geschuldeten Entgelte einschließlich der gesetzlich geschuldeten Umsatzsteuer. Nehmen mehrere Personen eine Leistung gemeinsam in Anspruch, ist das für die Leistung geschuldete Entgelt diesen Personen anteilig zuzuordnen.",
+      "source": "satzung",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei seiner Abreise ein.",
+      "quote": "Wer innerhalb der Stadt Leipzig eine Beherbergungseinrichtung betreibt, ist verpflichtet, von den bei ihm beherbergten Personen die Beherbergungssteuer zum Entstehungszeitpunkt (§ 6) einzuziehen.",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Du berechnest die im Monat eingezogene Steuer selbst und meldest sie bis zum zehnten Tag des Folgemonats mit dem amtlichen Formular an und führst sie ab.",
+      "quote": "Die innerhalb eines Kalendermonats vereinnahmte Beherbergungssteuer ist vom Betreiber der Beherbergungseinrichtung bis zum zehnten Tag des Folgemonats selbst zu berechnen und unter Verwendung des amtlichen Formulars bei der Stadt anzumelden und abzuführen.",
+      "source": "satzung"
+    },
+    "reporting": {
+      "text": "Gäste, von denen du keine Steuer einziehst, vermerkst du mit Namen, Wohnanschrift, Geburtsdatum sowie An- und Abreise auf einem Meldeschein, den der Gast unterschreibt.",
+      "quote": "Personen, von denen der Betreiber der Beherbergungseinrichtung keine Beherbergungssteuer einzieht, sind durch den Betreiber der Beherbergungseinrichtung gesondert mit Namen, Wohnanschrift, Geburtsdatum und Daten der An- und Abreise auf Meldescheinen zu vermerken, die jeweils vom Gast zu unterschreiben sind.",
+      "source": "satzung"
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr zahlen keine Beherbergungssteuer.",
+        "quote": "Von der Zahlung einer Beherbergungssteuer befreit sind: 1. Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr,",
+        "source": "satzung"
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80 sind befreit, bei Merkzeichen B im Ausweis auch eine Begleitperson.",
+        "quote": "schwerbehinderte Personen mit einem in einem entsprechenden Ausweis angegebenen Grad der Behinderung von 80 oder mehr; bei einem im Ausweis angegebenen Merkzeichen „B“ gilt die Befreiung auch für eine Begleitperson,",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Leipzig übernachten muss, ist befreit, bei medizinischer Notwendigkeit auch die Begleitperson; die Befreiung gibt es nur über die Rückerstattung bei der Stadtkämmerei.",
+        "quote": "Personen, welche zum Zweck einer zwingend notwendigen medizinischen Behandlung in Leipzig übernachten müssen; ist aus medizinischen Gründen die Übernachtung einer Begleitperson erforderlich, gilt die Befreiung auch für die Begleitperson,",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit Haupt- oder Nebenwohnung gemeldet ist, zahlt nichts.",
+        "quote": "Personen, die unter der Anschrift der Beherbergungseinrichtung mit alleiniger Wohnung, Haupt- oder Nebenwohnung nach dem Bundesmeldegesetz gemeldet sind.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch Leistungen, die unmittelbar der Beherbergung dienen und mit 7 Prozent Umsatzsteuer berechnet werden, zählen zur Bemessungsgrundlage, selbst wenn du sie auf der Rechnung getrennt ausweist.",
+        "quote": "Zur Ermittlung des geschuldeten Entgelts gehören demnach alle Leistungen, die unmittelbar der Beherbergung dienen (ermäßigter Umsatzsteuersatz i. H. v. 7 Prozent), auch wenn diese Leistungen auf der Rechnung separat ausgewiesen werden.",
+        "source": "faq"
+      },
+      {
+        "text": "Auch wenn du in einem Monat niemanden beherbergt hast, meldest du das mit einer Nullmeldung.",
+        "quote": "Dies gilt auch, sofern die Beherbergungseinrichtung in einem Monat keine Person beherbergt hat; in diesem Fall hat eine Fehlanzeige („Nullmeldung\") zu erfolgen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer eine Unterkunft eröffnet oder aufgibt, zeigt das der Stadt innerhalb eines Monats mit dem amtlichen Formular an.",
+        "quote": "Wer innerhalb der Stadt Leipzig eine Beherbergungseinrichtung im Sinne des § 2 S. 2 der Satzung eröffnet oder endgültig aufgibt, hat dies der Stadt innerhalb eines Monats unter Verwendung des amtlichen Formulars anzuzeigen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Als Unterkunft gilt grundsätzlich jeder möblierte Wohnraum, den du kurzfristig, also für weniger als sechs Monate, vermietest.",
+        "quote": "Grundsätzlich gilt jeder möblierte Wohnraum, der zur kurzfristigen Vermietung (weniger als sechs Monate) angeboten wird, als Beherbergungseinrichtung im Sinne der Beherbergungssteuersatzung.",
+        "source": "faq"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/leipzig/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

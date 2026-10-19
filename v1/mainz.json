@@ -1,0 +1,155 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "mainz",
+  "name": "Landeshauptstadt Mainz",
+  "short": "Mainz",
+  "ags": "07315000",
+  "state": "Rheinland-Pfalz",
+  "district": "Mainz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungsabgabe in der Landeshauptstadt Mainz (Beherbergungsabgabensatzung), Stand Juli 2026, Landeshauptstadt Mainz",
+      "url": "https://www.mainz.de/medien/internet/downloads/steuerverwaltung/satzung-der-beherbergungsabgabe-stand-juli-2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "89771e27c18a5ab4d443497fabbe80562227089d9bef98d870729ce0a65c12c1",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsabgabe",
+    "source": "satzung",
+    "rate": null,
+    "tiers": [
+      {
+        "overCents": 2000,
+        "upToCents": 5000,
+        "cents": 200,
+        "quote": "Die Abgabe beträgt je Gast und Übernachtung bei einer Bemessungsgrundlage von Über 20,00 EUR bis zu 50,00 EUR 2,00 EUR,"
+      },
+      {
+        "overCents": 5000,
+        "upToCents": 10000,
+        "cents": 300,
+        "quote": "über 50,00 EUR bis zu 100,00 EUR 3,00 EUR,"
+      },
+      {
+        "overCents": 10000,
+        "upToCents": 20000,
+        "cents": 400,
+        "quote": "über 100,00 EUR bis zu 200,00 EUR 4,00 EUR"
+      },
+      {
+        "overCents": 20000,
+        "upToCents": null,
+        "cents": 500,
+        "quote": "über 200,00 EUR 5,00 EUR"
+      }
+    ],
+    "basis": {
+      "text": "Maßgeblich ist der Betrag je Gast und Übernachtung einschließlich Umsatzsteuer; teilen sich mehrere Personen eine Leistung, wird das Entgelt anteilig auf sie verteilt. Frühstück, Verpflegung, Minibar und Parkkosten zählen nicht dazu.",
+      "quote": "Bemessungsgrundlage ist der vom Gast oder einem Dritten für die Beherbergung aufgewendete Betrag je Übernachtung (einschließlich Umsatzsteuer).",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Abgabe; du ziehst sie als Vermieter bei ihm ein.",
+      "quote": "Der Betreiber eines Beherbergungsbetriebes innerhalb der Landeshauptstadt Mainz ist verpflichtet, die Beherbergungsabgabe (§ 1) vom steuerpflichtigen Beherbergungsgast einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Abgabe für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe an die Stadtkasse fällig.",
+      "quote": "Anmeldungszeitraum ist das Kalendervierteljahr. Die Beherbergungsabgabe wird durch einen Abgabenbescheid festgesetzt und einen Monat nach dessen Bekanntgabe an den Abgabenentrichtungsverpflichteten fällig und von diesem an die Stadtkasse der Landeshauptstadt Mainz zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 14. Tag nach Quartalsende die Abgabenerklärung auf dem amtlichen Vordruck bei der Steuerverwaltung ein.",
+      "quote": "Für die innerhalb eines Anmeldungszeitraums vereinnahmte Beherbergungsabgabe ist der Steuerverwaltung der Landeshauptstadt Mainz durch den Abgabenentrichtungsverpflichteten bis zum 14. Tag nach Ablauf eines Anmeldungszeitraums eine Abgabenerklärung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Die Beherbergung von Begleitpersonen schwerbehinderter Menschen mit Merkzeichen B im Ausweis gilt nicht als Übernachtung.",
+        "quote": "Weiterhin nicht als Übernachtung im Sinne dieser Satzung gilt die Beherbergung von Begleitpersonen schwerbehinderter Personen bei einem im Ausweis angegebenen Merkzeichen „B“."
+      },
+      {
+        "text": "Der Aufenthalt in Krankenhäusern, Kliniken, Pflege- und Altenheimen, Hospizen, Frauenhäusern und ähnlichen Einrichtungen für Menschen in besonderen sozialen Situationen gilt nicht als Übernachtung.",
+        "quote": "Nicht als Übernachtung im Sinne dieser Satzung gilt das Unterkommen in Krankenhäusern, Vorsorge- und Rehabilitationskliniken, Senioren-, Alten- und Pflegeheimen, stationären Einrichtungen der Hilfe für behinderte Menschen, Hospizen, Frauenhäusern und vergleichbaren Einrichtungen, die dem Unterkommen von Personen in besonderen sozialen Situationen dienen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Abgabe besteuert nur den Aufwand des Gastes, der über den Grundbedarf des Wohnens hinausgeht.",
+        "quote": "Gegenstand der Beherbergungsabgabe ist der über den Grundbedarf des Wohnens hinausgehende Bruttoaufwand des Beherbergungsgastes"
+      },
+      {
+        "text": "Als Betreiber haftest du neben dem Gast für die Beherbergungsabgabe, wenn du den Nachweis der Rechnungsstellung nicht erbringen kannst oder der Gast die Abgabe nicht zahlt.",
+        "quote": "Für Abgabenentrichtungspflichtige im Sinne des § 3 (2) besteht neben dem Abgabenschuldner im Sinne des § 3 (1) eine Haftung für die Beherbergungsabgabe. (4) Abgabenentrichtungspflichtige im Sinne des § 3 (2) haften für die Schulden des Übernachtungsgastes oder der Übernachtungsgäste in dem Fall, in dem sie den Nachweis der Rechnungsstellung nicht erbringen können oder der Hauptschuldner die Steuer nicht begleichen kann."
+      },
+      {
+        "text": "Die Staffel beginnt erst bei einem Betrag über 20 € je Gast und Übernachtung; für niedrigere Beträge nennt die Satzung keinen Satz.",
+        "quote": "Die Abgabe beträgt je Gast und Übernachtung bei einer Bemessungsgrundlage von Über 20,00 EUR bis zu 50,00 EUR 2,00 EUR,"
+      },
+      {
+        "text": "Aufwendungen für Verpflegung wie Frühstück oder Halbpension, für Getränke aus der Minibar und für Parkkosten gehören nicht zur Bemessungsgrundlage.",
+        "quote": "Aufzuwendende Beträge für Nebenleistungen in Beherbergungsbetrieben, die nicht unmittelbar der Beherbergung dienen (z.B. Verpflegungsleistungen, wie Frühstück oder Halbpension bzw. Getränke aus der Minibar oder Parkkosten etc.) sind nicht Teil der Bemessungsgrundlage."
+      },
+      {
+        "text": "Für Buchungen, die vor dem 1. Mai 2026 vereinbart wurden, fällt die Abgabe bis zum 31. März 2027 nicht an.",
+        "quote": "Beherbergungsleistungen, die vor dem 01.05.2026 vertraglich vereinbart worden sind, sind bis zum 31.03.2027 von der Abgabe ausgenommen"
+      },
+      {
+        "text": "Die Satzung gilt seit dem 1. Juli 2026 und löst die Kulturabgabe von 2012 ab.",
+        "quote": "Diese Satzung tritt am 01.07.2026 in Kraft. Gleichzeitig tritt die Satzung über die Erhebung einer Kulturabgabe für Übernachtungsgäste der Stadt Mainz (Kulturabgabensatzung) vom 01.02.2012 außer Kraft."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/mainz/",
+  "calculation": {
+    "kind": "town",
+    "perPerson": true,
+    "byLabel": false,
+    "tiers": [
+      {
+        "over": 2000,
+        "upTo": 5000,
+        "cents": 200
+      },
+      {
+        "over": 5000,
+        "upTo": 10000,
+        "cents": 300
+      },
+      {
+        "over": 10000,
+        "upTo": 20000,
+        "cents": 400
+      },
+      {
+        "over": 20000,
+        "upTo": null,
+        "cents": 500
+      }
+    ],
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

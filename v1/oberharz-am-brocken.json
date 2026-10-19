@@ -1,0 +1,229 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberharz-am-brocken",
+  "name": "Stadt Oberharz am Brocken",
+  "short": "Oberharz am Brocken",
+  "ags": "15085228",
+  "state": "Sachsen-Anhalt",
+  "district": "Harz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurtaxe in der Stadt Oberharz am Brocken in der Fassung der 4. Änderung vom 12.03.2026, Lesefassung der Stadt",
+      "url": "https://stadtoberharz.de/downloads/satzungen/Eigenbetrieb/Kurtaxsatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-04-01",
+      "sha256": "3153365c4fd21f76c63087d0feba081a811f23cf20413e2b91fd3ff96c80404f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet, dabei zählen An- und Abreise als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Die Kurtaxe beträgt pro Übernachtung/Zahlungspflichtigen 2,50 EUR inklusive der gesetzlichen Mehrwertsteuer"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": "1. Kinder bis zum 16.Geburtstag."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 3,
+          "reading": "Personen, die sich nur zur Berufsausübung und Berufsausbildung im Erhebungsgebiet aufhalten."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 3,
+          "reading": "Schwerbehinderte mit 100 % Behinderung und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 5,
+          "reading": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 5,
+          "reading": "Für Schwerbehinderte, deren Minderungsgrad mindestens 50 v. H. beträgt wird die ermäßigte Kurtaxe in Höhe von 1,50 EUR je Übernachtung fällig."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "lediglich die Flurstücke 75,77,78 der Gemarkung Elend in der Flur 3 sind kein Bestandteil des Erhebungsgebietes."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Kurtaxpflichtige Personen haben Anspruch auf eine Gästekarte (Haptisches Urlaubs-Ticket oder digitale Gästekarte), die vom Vermieter auszustellen ist."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 7,
+          "reading": "Die Jahreskurtaxe beträgt für Personen ab dem vollendeten 15. Lebensjahr 60,00 EUR."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 9,
+          "reading": "Bei vorzeitigem Abbruch des vorgesehenen Kur- oder Erholungsaufenthaltes wird die nach Übernachtungen berechnete Kurtaxe auf Antrag erstattet."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 7,
+          "reading": "Die Kurtaxsatzung sowie die Information über die Gästekarte ist den Gästen der jeweiligen Unterkunft in geeigneter Form (Auslage, Aushang, Information auf der Gäste- bzw. Buchungsbestätigung, Hinweis zur digitalen Gästekarte) zugänglich zu machen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Wer Personen gegen Entgelt oder Kostenerstattung beherbergt, ist verpflichtet, dies dem Tourismusbetrieb der Stadt Oberharz am Brocken zu melden und die Kurtaxe dem Zahlungspflichtigen einzuziehen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "Die eingenommene Kurtaxe von gewerblichen Vermietern ist grundsätzlich spätestens zum 15. des Folgemonats, von privaten Vermietern spätestens am 15. Kalendertag nach Quartalsende an den Tourismusbetrieb der Stadt Oberharz am Brocken vollständig und ohne Abzug abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 7,
+          "reading": "Alternativ hat der Vermieter die Möglichkeit, spätestens bei Anreise eine digitale Gästekarte bzw. ein digitaler Meldeschein über das System des Tourismusbetriebs der Stadt Oberharz am Brocken auszustellen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet, dabei zählen An- und Abreise als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Kurtaxe beträgt pro Übernachtung/Zahlungspflichtigen 2,50 EUR inklusive der gesetzlichen Mehrwertsteuer"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "1. Kinder bis zum 16.Geburtstag."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Personen, die nur zur Berufsausübung oder Berufsausbildung im Ort sind, zahlen nichts.",
+        "quote": "Personen, die sich nur zur Berufsausübung und Berufsausbildung im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson zahlen nichts, wenn der Ausweis ständige Begleitung ausweist.",
+        "quote": "Schwerbehinderte mit 100 % Behinderung und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+      },
+      {
+        "text": "Bettlägerige Kranke und Personen, die aus gesundheitlichen Gründen keine Einrichtungen nutzen können, zahlen nichts; das musst du nachweisen lassen.",
+        "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen 1,50 € je Nacht.",
+        "quote": "Für Schwerbehinderte, deren Minderungsgrad mindestens 50 v. H. beträgt wird die ermäßigte Kurtaxe in Höhe von 1,50 EUR je Übernachtung fällig."
+      },
+      {
+        "text": "Drei Flurstücke in Elend (Flur 3) gehören nicht zum Erhebungsgebiet; dort gilt diese Satzung nicht.",
+        "quote": "lediglich die Flurstücke 75,77,78 der Gemarkung Elend in der Flur 3 sind kein Bestandteil des Erhebungsgebietes."
+      },
+      {
+        "text": "Gäste haben Anspruch auf eine Gästekarte, die du als Vermieter ausstellst, entweder haptisch im Urlauber-Ticketheft oder digital.",
+        "quote": "Kurtaxpflichtige Personen haben Anspruch auf eine Gästekarte (Haptisches Urlaubs-Ticket oder digitale Gästekarte), die vom Vermieter auszustellen ist."
+      },
+      {
+        "text": "Zweitwohnungsinhaber und Dauercamper zahlen statt der Nächte eine Jahreskurtaxe, 60,00 € für Personen ab 15 Jahren.",
+        "quote": "Die Jahreskurtaxe beträgt für Personen ab dem vollendeten 15. Lebensjahr 60,00 EUR."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurtaxe auf Antrag erstattet; der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Kur- oder Erholungsaufenthaltes wird die nach Übernachtungen berechnete Kurtaxe auf Antrag erstattet."
+      },
+      {
+        "text": "Du musst die Satzung und die Information über die Gästekarte deinen Gästen zugänglich machen, zum Beispiel per Aushang oder in der Buchungsbestätigung.",
+        "quote": "Die Kurtaxsatzung sowie die Information über die Gästekarte ist den Gästen der jeweiligen Unterkunft in geeigneter Form (Auslage, Aushang, Information auf der Gäste- bzw. Buchungsbestätigung, Hinweis zur digitalen Gästekarte) zugänglich zu machen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, meldet das dem Tourismusbetrieb der Stadt und zieht die Kurtaxe von den Gästen ein.",
+      "quote": "Wer Personen gegen Entgelt oder Kostenerstattung beherbergt, ist verpflichtet, dies dem Tourismusbetrieb der Stadt Oberharz am Brocken zu melden und die Kurtaxe dem Zahlungspflichtigen einzuziehen."
+    },
+    "deadline": {
+      "text": "Gewerbliche Vermieter führen die Kurtaxe bis zum 15. des Folgemonats ab, private Vermieter bis zum 15. Tag nach Quartalsende.",
+      "quote": "Die eingenommene Kurtaxe von gewerblichen Vermietern ist grundsätzlich spätestens zum 15. des Folgemonats, von privaten Vermietern spätestens am 15. Kalendertag nach Quartalsende an den Tourismusbetrieb der Stadt Oberharz am Brocken vollständig und ohne Abzug abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird mit den Vordrucken des Tourismusbetriebs oder über dessen digitales System, das digitale Meldeschein und Gästekarte spätestens bei der Anreise ausstellt.",
+      "quote": "Alternativ hat der Vermieter die Möglichkeit, spätestens bei Anreise eine digitale Gästekarte bzw. ein digitaler Meldeschein über das System des Tourismusbetriebs der Stadt Oberharz am Brocken auszustellen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberharz-am-brocken/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

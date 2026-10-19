@@ -1,0 +1,581 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "krummhoern-greetsiel",
+  "name": "Gemeinde Krummhörn",
+  "short": "Krummhörn (Greetsiel)",
+  "ags": "03452014",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Gemeinde Krummhörn (Gästebeitragssatzung), Ratsbeschluss vom 19.12.2024, Amtsblatt für den Landkreis Aurich Nr. 55 vom 20.12.2024, S. 1213",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2025/10/Amtsblatt_Nr._55_vom_20.12.2024.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "sha256": "79ef19a644cb62350094db74be768a93b367d7c525e2754122879fe5adc18a5d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Gemeinde Krummhörn (Tourismusbeitragssatzung), gültig ab 01.01.2025, mit Anlage, Amtsblatt für den Landkreis Aurich Nr. 55 vom 20.12.2024, S. 1222",
+      "url": "https://www.landkreis-aurich.de/wp-content/uploads/2025/10/Amtsblatt_Nr._55_vom_20.12.2024.pdf",
+      "kind": "gazette",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "79ef19a644cb62350094db74be768a93b367d7c525e2754122879fe5adc18a5d",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 60,
+          "reading": "Vermieter/-Innen von Ferienwohnungen und -häusern, Gästezimmern und sonstige Personen und Betriebe 95% 95% 26%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 60,
+          "reading": "Vermieter/-Innen von Ferienwohnungen und -häusern, Gästezimmern und sonstige Personen und Betriebe 95% 95% 26%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 60,
+          "reading": "Betriebe 95% 95% 26%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 60,
+          "reading": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 60,
+          "reading": "Camping- und Zeltplätzen, Wohnwagen- und Woh: bilstell 100% 100% 18%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 60,
+          "reading": "Camping- und Zeltplätzen, Wohnwagen- und Woh: bilstell 100% 100% 18%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 60,
+          "reading": "Camping- und Zeltplätzen, Wohnwagen- und Woh: bilstell 100% 100% 18%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 60,
+          "reading": "nhaber/-Innen von Jugendherbergen 95% 80% 0,25%"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "zones": [
+      {
+        "label": "Zone I",
+        "area": {
+          "text": "Zone I sind Greetsiel, Hauen, Pilsum und Uiterstewehr.",
+          "quote": "Zone I: Greetsiel, Hauen, Pilsum, Uiterstewehr"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 260,
+              "quote": "2,60 € 1,60 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 50,
+                "quote": "b) für Personen nach Vollendung Zone I Zone II des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0,50 € 0,50 €"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 130,
+              "quote": "1,30 € 0,80 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 25,
+                "quote": "b) für Personen nach Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0,25 € 0,25 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone II",
+        "area": {
+          "text": "Zone II ist das übrige Gemeindegebiet.",
+          "quote": "Zone II: übriges Gemeindegebiet"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "03-15",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 160,
+              "quote": "2,60 € 1,60 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 50,
+                "quote": "b) für Personen nach Vollendung Zone I Zone II des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0,50 € 0,50 €"
+              }
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-14"
+              }
+            ],
+            "adult": {
+              "cents": 80,
+              "quote": "1,30 € 0,80 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Vom Gästebeitrag sind befreit: 1. Kinder bis zur Vollendung des 6. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "cents": 25,
+                "quote": "b) für Personen nach Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .0,25 € 0,25 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Verwandte von Einwohnern oder Beschäftigten im Ort, die ohne Entgelt bei ihnen wohnen",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwäger und Schwägerinnen von Personen, die im Gebiet der Gemeinde Krummhörn ihre Hauptwohnung haben oder in einem Arbeits- oder Ausbildungsverhältnis stehen, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden"
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung oder Ausbildung im Ort aufhält",
+        "quote": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten"
+      },
+      {
+        "text": "Bettlägerig Kranke und andere, die die Tourismuseinrichtungen nicht nutzen können",
+        "quote": "bettlägerig Kranke oder andere Personen, die nicht in der Lage sind, die Tourismuseinrichtungen zu benutzen"
+      },
+      {
+        "text": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit von 100 % und schwerbehinderte Kinder bis 16 Jahre ab einem Grad der Behinderung von 50",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nach amtlichen Ausweis 100 v. H. beträgt und schwerbehinderte Kinder (bis einschl. 16. Lebensjahr) deren Grad der Behinderung mindestens 50 v. H. beträgt"
+      },
+      {
+        "text": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit von mindestens 80 % zahlen die Hälfte",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nach amtlichen Ausweis weniger als 100 v. H., aber mindestens 80 v. H. beträgt, werden nur zu 50 v. H. des maßgeblichen Gästebeitrages nach § 4 herangezogen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bei einer Familie werden höchstens vier Personen berechnet; als Familie gelten Ehegatten, ihre Kinder bis 18 Jahre und ständig in der Familie lebende Verwandte ohne eigenes Einkommen.",
+        "quote": "Bei einer Familie werden höchstens vier Personen der Berechnung des Gästebeitrages zugrunde gelegt. Als Personen einer Familie im Sinne dieser Satzung gelten die Ehegatten, die ihrem Haushalt angehörenden Kinder bis zur Vollendung des 18. Lebensjahres sowie die ständig in der Familie lebenden Verwandten ohne eigenes Einkommen."
+      },
+      {
+        "text": "Statt der Tage können Gäste einen Jahresgästebeitrag zahlen, der auf 30 Aufenthaltstagen beruht.",
+        "quote": "Der Bemessung des Jahresgästebeitrages liegen 30 Aufenthaltstage zugrunde."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird der Gästebeitrag auf Antrag erstattet, gegen Rückgabe der Gästekarte mit deiner Bescheinigung der Abreise; der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Erholungsaufenthaltes wird der nach Tagen berechnete zu viel gezahlte Gästebeitrag auf Antrag erstattet. Die Rückzahlung erfolgt an den Gästekarteninhaber gegen Rückgabe der Gästekarte. Die vorzeitige Abreise ist vom Wohnungsgeber auf der Gästekarte zu bescheinigen. Der Anspruch auf Rückzahlung erlischt einen Monat nach der Abreise."
+      },
+      {
+        "text": "Als Zahlungsnachweis gibst du deinen Gästen eine Gästekarte aus.",
+        "quote": "Als Zahlungsnachweis wird vom Wohnungsgeber oder vergleichbaren Personen eine Gästekarte/Jahresgästekarte ausgegeben"
+      },
+      {
+        "text": "Wenn du deinen Pflichten nicht nachkommst, haftest du für die rechtzeitige Einziehung und vollständige Zahlung des Gästebeitrags.",
+        "quote": "Die Verpflichteten nach § 8 haften bei Verletzung ihrer Pflichten für die rechtzeitige Einziehung und vollständige Bezahlung des Gästebeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie innerhalb von 24 Stunden nach der Ankunft der Gemeinde Krummhörn.",
+      "quote": "Wer andere Personen beherbergt, ihnen Wohnraum zur vorübergehenden Nutzung überlässt, einen Campingplatz, einen Wohnwagen-/Wohnmobilparkplatz oder Bootsliegeplatz betreibt und dort Plätze anderen Personen zur vorübergehenden Nutzung überlässt, ist verpflichtet, die bei ihm gegen Entgelt oder Kostenerstattung beherbergten beitragspflichtigen Personen innerhalb von 24 Stunden nach deren Ankunft der Gemeinde Krummhörn"
+    },
+    "deadline": {
+      "text": "Soweit der Gästebeitrag nicht direkt gezahlt wurde, zahlst du ihn innerhalb von 10 Tagen nach Aufforderung an die Gemeinde.",
+      "quote": "Der Gästebeitrag ist, soweit er nicht nach § 7 (2) direkt gezahlt wurde, innerhalb von 10 Tagen nach Aufforderung an die Gemeinde Krummhörn zu zahlen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird per Meldeschein oder digital innerhalb von 24 Stunden nach der Ankunft.",
+      "quote": "innerhalb von 24 Stunden nach deren Ankunft der Gemeinde Krummhörn, Rathausstr. 2, 26736 Krummhörn, durch Abgabe der Durchschrift des Meldescheines (Original des Durchschreibesatzes) oder digital zu melden."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Jede fünfte und weitere Person einer Familie zahlt nichts.",
+      "quote": "jede fünfte und weitere Person einer Familie,"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Krummhörn selbständig tätig bist und der Tourismus dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt, was bei der Vermietung an Gäste der Fall ist.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Tourismus im Gemeindegebiet der Gemeinde Krummhörn unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung, Ferienhaus, Gästezimmer (in beiden Zonen derselbe Satz)",
+        "quote": "Vermieter/-innen von Ferienwohnungen und -häusern, Gästezimmern und sonstige Personen und Betriebe 95% 95% 26%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Betriebe 95% 95% 26%"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof, Fremden-, Erholungs-, Kur-, Kranken- oder Kinderheim, Sanatorium, Kurklinik in Zone I (Greetsiel, Hauen, Pilsum, Uiterstewehr)",
+        "quote": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof, Fremden-, Erholungs-, Kur-, Kranken- oder Kinderheim, Sanatorium, Kurklinik in Zone II (übriges Gemeindegebiet)",
+        "quote": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken-und 95% 80% 26%"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz, Wohnwagen- und Wohnmobilstellplatz",
+        "quote": "Camping- und Zeltplätzen, Wohnwagen- und Wohnmobilstell 100% 100% 18%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Camping- und Zeltplätzen, Wohnwagen- und Wohnmobilstell 100% 100% 18%"
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge in Zone I (Greetsiel, Hauen, Pilsum, Uiterstewehr)",
+        "quote": "Inhaber/-innen von Jugendherbergen 95% 80% 0,25%",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Inhaber/-innen von Jugendherbergen 95% 80% 0,25%"
+          },
+          "profit": {
+            "percent": 0.25
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge in Zone II (übriges Gemeindegebiet)",
+        "quote": "Inhaber/-innen von Jugendherbergen 95% 80% 0,25%",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Inhaber/-innen von Jugendherbergen 95% 80% 0,25%"
+          },
+          "profit": {
+            "percent": 0.25
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 1.51,
+      "quote": "Der Beitragssatz beträgt 1,51 v.H.."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz des laufenden Jahres.",
+      "quote": "Maßgebend ist der Umsatz des laufenden Jahres."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Du teilst der Gemeinde den Beginn deiner Vermietung und auf Anforderung die Angaben für die Berechnung bis zum 31. März des Jahres nach dem Veranlagungsjahr mit.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Gemeinde Krummhörn die Aufnahme der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Angaben zur Berechnung des Beitrages oder der Vorausleistung bis zum 31.03. des auf das Veranlagungsjahr folgende Jahr der Gemeinde Krummhörn mitzuteilen."
+    },
+    "deadline": {
+      "text": "Beitrag und Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Gemeinde erhebt den Tourismusbeitrag im ganzen Gemeindegebiet.",
+        "quote": "Sie erhebt in ihrem gesamten Gemeindegebiet zur Deckung des Aufwandes für die Förderung des Tourismus"
+      },
+      {
+        "text": "Die Gemeinde rechnet den Beitrag aus deinem steuerbaren Umsatz mal Mindestgewinnsatz mal Vorteilssatz mal Beitragssatz.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der im Geltungsbereich dieser Satzung erzielte steuerbare Umsatz mit dem Mindestgewinnsatz (Abs. 3), mit dem Vorteilssatz (Abs. 2) und dem Beitragssatz (Abs. 4) multipliziert wird."
+      },
+      {
+        "text": "Der Vorteilssatz ist nach Zone I (Greetsiel, Hauen, Pilsum, Uiterstewehr) und Zone II (übriges Gemeindegebiet) getrennt; für Ferienwohnungen und Gästezimmer gilt in beiden derselbe Satz, bei Hotels und Jugendherbergen weicht Zone II ab.",
+        "quote": "Die Erhebung des Tourismusbeitrages erfolgt in den nachstehenden Tourismusbeitragszonen (sh. Anlage 2 u. 3): Zone I: Greetsiel, Hauen, Pilsum, Uiterstewehr Zone II: übriges Gemeindegebiet"
+      },
+      {
+        "text": "Auf den Beitrag kann die Gemeinde für das laufende Jahr Vorausleistungen bis zur voraussichtlichen Höhe verlangen.",
+        "quote": "Die Gemeinde Krummhörn kann für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages erheben."
+      },
+      {
+        "text": "Bei einer unbilligen Härte kann die Gemeinde den Beitrag ganz oder teilweise erlassen.",
+        "quote": "Der Beitrag kann ganz oder teilweise erlassen werden, wenn seine Einziehung nach Lage des einzelnen Falles unbillig wäre."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/krummhoern-greetsiel/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0,
+          50
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "03-14"
+          ]
+        ],
+        "adult": 130,
+        "children": [
+          0,
+          25
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Zone I",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 260,
+            "children": [
+              0,
+              50
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "11-01",
+                "03-14"
+              ]
+            ],
+            "adult": 130,
+            "children": [
+              0,
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone II",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "03-15",
+                "10-31"
+              ]
+            ],
+            "adult": 160,
+            "children": [
+              0,
+              50
+            ]
+          },
+          {
+            "label": "Übrige Zeit",
+            "ranges": [
+              [
+                "11-01",
+                "03-14"
+              ]
+            ],
+            "adult": 80,
+            "children": [
+              0,
+              25
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

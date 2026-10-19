@@ -1,0 +1,170 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "grafenau",
+  "name": "Stadt Grafenau",
+  "short": "Grafenau",
+  "ags": "09272120",
+  "state": "Bayern",
+  "district": "Freyung-Grafenau",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (KBS) des Zweckverbands Sport und Erholung Grafenau, in Kraft seit 01.07.2023",
+      "url": "https://www.grafenau.de/media/ZV_Satzungen_und_Verordnungen/Kurbeitragswesen/Kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-07-01",
+      "sha256": "5256bf753593fc3e81b0cdb1a3ddd79eadb643f8d678b017085eb5692f1fa527",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages der Stadt Grafenau mit Änderungen",
+      "url": "https://www.grafenau.de/media/Stadt_Satzungen/Fremdenverkehrsbeitraege/Satzung_Fremdenverkehrsbeitrag_samt_AEnderung.pdf",
+      "kind": "statute",
+      "inForce": "2015-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2691be26e6c31116d1c9a63f8266e066ba0627eda3bc23279c0ac23b1dfcfe97",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 160,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,60 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Den Kurbeitrag erhebt der Zweckverband Sport und Erholung Grafenau; Kurgebiet ist das gesamte Stadtgebiet.",
+        "quote": "Kurgebiet ist das gesamte Gebiet der Stadt Grafenau."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber dem Zweckverband dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Zweckverband Sport und Erholung Grafenau gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; der Zweckverband kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an den Zweckverband Sport und Erholung Grafenau abzuführen. Der Zweckverband Sport und Erholung kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von zwei Tagen nach deren Abreise elektronisch über das Verfahren des Zweckverbands; mit weniger als 10 Betten darfst du auch schriftlich melden.",
+      "quote": "innerhalb von zwei Tagen ab deren Abreise elektronisch mittels des durch den Zweckverband Sport und Erholung Grafenau zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben. Soweit natürliche oder juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen, über weniger als 10 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Stadt für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Abs. 1) oder des steuerbaren Umsatzes (Abs. 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6.5,
+      "quote": "Der Beitragssatz beträgt 6,5 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Abs. 3) und mit dem Mindestbeitragssatz (Abs. 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Am 1. Juli jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschuldner hat am 1. Juli jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/grafenau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ]
+  }
+}

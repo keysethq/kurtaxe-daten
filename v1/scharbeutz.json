@@ -1,0 +1,544 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "scharbeutz",
+  "name": "Scharbeutz",
+  "short": "Scharbeutz",
+  "ags": "01055044",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Scharbeutz über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 12.12.2024, amtliche Bekanntmachung der Gemeinde Scharbeutz",
+      "url": "https://www.gemeinde-scharbeutz.de/city_info/display/dokument/show.cfm?region_id=358&id=418178",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "6a4ba2df2a29c28a0ce317589df860efef833ee5ca30d18582637e1b31610994",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "ta": {
+      "title": "Satzung der Gemeinde Scharbeutz über die Erhebung von Tourismusabgaben (Tourismusabgabensatzung) vom 12.12.2024",
+      "url": "https://www.gemeinde-scharbeutz.de/city_info/display/dokument/show.cfm?region_id=358&id=418179",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "03b652190eaf77ebf7237d3d05ad931a29865f1e015383967be06db43506267e",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-15",
+            "to": "09-14"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "a) Nebensaison 01.01.-14.05. 1,90 Euro b) Hauptsaison 15.05.-14.09. 3,50 Euro c) Nebensaison 15.09.-31.12. 1,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "09-15",
+            "to": "05-14"
+          }
+        ],
+        "adult": {
+          "cents": 190,
+          "quote": "a) Nebensaison 01.01.-14.05. 1,90 Euro b) Hauptsaison 15.05.-14.09. 3,50 Euro c) Nebensaison 15.09.-31.12. 1,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 50 %, ihre im Ausweis eingetragene Begleitperson zahlt nichts",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 % nachweisen, erhalten eine Ermäßigung von 50 % auf die von ihnen zu entrichtende Kurabgabe. Eine nachweislich erforderliche Begleitperson, die durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist, ist von der Kurabgabe befreit."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "1. Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwäger von Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Kur- und Erholungseinrichtungen nicht in Anspruch nehmen;"
+      },
+      {
+        "text": "Wer beruflich oder zur Ausbildung vorübergehend im Ort ist und die Einrichtungen nicht nutzt",
+        "quote": "2. Personen, die in Ausübung ihres Dienstes, Berufs oder ihrer Ausbildung nur vorübergehend im Erhebungsgebiet anwesend sind und die Kur- und Erholungseinrichtungen nicht in Anspruch nehmen;"
+      },
+      {
+        "text": "Wer die Unterkunft aus gesundheitlichen Gründen nicht verlassen kann, mit ärztlichem Zeugnis",
+        "quote": "3. Personen, die ihre Unterkunft aus gesundheitlichen Gründen nicht verlassen können sowie Personen, die aus sonstigen medizinischen Gründen zur Inanspruchnahme der Kur- und Erholungseinrichtungen nicht in der Lage sind und dies durch ein ärztliches Zeugnis glaubhaft machen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe gilt in den Ortsteilen Scharbeutz, Haffkrug und Gronenberg sowie in Teilen von Klingberg und Pönitz am See.",
+        "quote": "Die Gemeinde ist mit ihren Ortsteilen Scharbeutz und Haffkrug als Seebad sowie mit ihren Ortsteilen Gronenberg, Klingberg und mit dem Gebiet Pönitz am See des Ortsteils Pönitz als Erholungsort nach der Landesverordnung über die Anerkennung als Kurort, Erholungsort oder Tourismusort (KurortVO) anerkannt."
+      },
+      {
+        "text": "In Klingberg gehört nur der Teil östlich der Landesstraße 309 dazu, in Pönitz am See nur ein in der Satzung abgegrenztes Teilgebiet.",
+        "quote": "Vom Ortsteil Klingberg gehört nur der Teilbereich zum Erhebungsgebiet für die Kurabgabe, der östlich der Landesstraße 309 liegt. Im Bereich Pönitz am See gehört nur dasjenige Teilgebiet zum Erhebungsgebiet, das begrenzt wird durch"
+      },
+      {
+        "text": "Auf Antrag des Gastes werden pauschal 28 Tage berechnet (Jahres-Ostseecard).",
+        "quote": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden pauschal 28 Tage berücksichtigt (Jahres-Ostseecard), wenn 1. der Abgabenschuldner dies beantragt oder"
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 98,00 €.",
+        "quote": "d) Jahreskurabgabe 01.01.-31.12. 98,00 Euro"
+      },
+      {
+        "text": "Die Ermäßigung für Schwerbehinderte kann der Gast schriftlich mit Nachweis auch bei dir als Vermieter beantragen.",
+        "quote": "Die Ermäßigung kann bei der Gemeinde oder beim Unterkunftsgeber beantragt werden. Der Antrag ist schriftlich mit den entsprechenden Nachweisen zu stellen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du das unverzüglich der Gemeinde mit allen Angaben, die sie zur Berechnung braucht.",
+        "quote": "Weigert sich der Abgabenschuldner gegenüber dem Unterkunftsgeber, die Kurabgabe zu zahlen, so ist der Unterkunftsgeber verpflichtet, die Gemeinde hierüber unverzüglich zu unterrichten und dabei Namen, Anschrift und sämtliche Angaben mitzuteilen, die zur Berechnung der Kurabgabe erforderlich sind."
+      },
+      {
+        "text": "Weicht die tatsächliche Abreise vom gemeldeten Datum ab, teilst du das der Gemeinde innerhalb einer Woche mit.",
+        "quote": "Entspricht das tatsächliche Abreisedatum nicht einem bereits vor der Abreise gemeldeten voraussichtlichen Abreisedatum, hat der Unterkunftsgeber dies der Gemeinde innerhalb von einer Woche nach Abreise mitzuteilen."
+      },
+      {
+        "text": "Du musst ein Gästeverzeichnis mit Belegungsplan führen.",
+        "quote": "Jeder Unterkunftsgeber hat ein Gästeverzeichnis mit Belegungsplan zu führen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe, zieht sie beim Gast ein und führt sie vollständig an die Gemeinde ab.",
+      "quote": "Der Unterkunftsgeber ist verpflichtet, die Kurabgabe zu berechnen und vom Abgabenschuldner einzuziehen und die eingezogene Kurabgabe an die Gemeinde vollständig abzuführen."
+    },
+    "deadline": {
+      "text": "Elektronisch meldest du spätestens am Tag nach der Ankunft; auf dem Formular muss der Teil für die Gemeinde spätestens fünf Werktage nach der Ankunft dort eingehen.",
+      "quote": "Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Anmeldung über das Anmeldeformular muss so erfolgen, dass der für die Gemeinde bestimmte Teil des Formulars spätestens fünf Werktage nach der Ankunft der beherbergten oder aufgenommenen Person bei der Gemeinde eingeht."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch oder auf dem kostenlosen Formular „Anmeldung für die Ostseecard“ der Gemeinde.",
+      "quote": "Die Anmeldung erfolgt auf kostenlos von der Gemeinde hierfür zur Verfügung gestellten Anmeldeformularen (die sogenannte „Anmeldung für die Ostseecard“) oder elektronisch."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn du im Erhebungsgebiet selbstständig oder freiberuflich tätig bist und dir der Tourismus wirtschaftliche Vorteile bietet.",
+      "quote": "Abgabenpflichtig sind die im Erhebungsgebiet selbständig oder freiberuflich tätigen natürlichen und juristischen Personen sowie nichtrechtsfähigen und teilrechtsfähigen Gesellschaften und Personenvereinigungen, denen durch den Tourismus im Erhebungsgebiet unmittelbar oder mittelbar wirtschaftliche Vorteile beim Anbieten von tourismusbezogenen entgeltlichen Leistungen geboten werden"
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, ohne hotelmäßige Leistungen in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Vermietung von Schlafgelegenheiten 5 40 263 (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 40
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, mit hotelmäßigen Leistungen in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Vermietung von Schlafgelegenheiten mit hotelmäßigen 5 35 262 Leistungen (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 35
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz bis 200.000 € 5 30 178",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz über 200.000 € 5 24 179",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz bis 500.000 € in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 25 180 (auch Jugendherbergen) Umsatz bis 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz über 500.000 € in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 15 181 (auch Jugendherbergen) Umsatz über 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze in Scharbeutz und Haffkrug (Vorteilssatz 100 %)",
+        "quote": "Campingplätze 5 20 126",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v. H."
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, ohne hotelmäßige Leistungen in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Vermietung von Schlafgelegenheiten 5 40 263 (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 40
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, mit hotelmäßigen Leistungen in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Vermietung von Schlafgelegenheiten mit hotelmäßigen 5 35 262 Leistungen (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 35
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz bis 200.000 € 5 30 178",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz über 200.000 € 5 24 179",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz bis 500.000 € in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 25 180 (auch Jugendherbergen) Umsatz bis 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz über 500.000 € in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 15 181 (auch Jugendherbergen) Umsatz über 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze in Klingberg, Pönitz am See und Gronenberg (Vorteilssatz 80 %)",
+        "quote": "Campingplätze 5 20 126",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 5 80 v. H."
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, ohne hotelmäßige Leistungen in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Vermietung von Schlafgelegenheiten 5 40 263 (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 40
+          }
+        }
+      },
+      {
+        "label": "Vermietung von Schlafgelegenheiten, auch Ferienimmobilien, mit hotelmäßigen Leistungen in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Vermietung von Schlafgelegenheiten mit hotelmäßigen 5 35 262 Leistungen (u.a. Ferienimmobilien, auch Mobilheime)",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 35
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz bis 200.000 € 5 30 178",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Hotels garnis, Gasthöfe u. Pensionen Umsatz über 200.000 € 5 24 179",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz bis 500.000 € in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 25 180 (auch Jugendherbergen) Umsatz bis 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Umsatz über 500.000 € in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung 5 15 181 (auch Jugendherbergen) Umsatz über 500.000 €",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze in Schürsdorf (Vorteilssatz 70 %)",
+        "quote": "Campingplätze 5 20 126",
+        "turnover": {
+          "advantage": {
+            "percent": 70,
+            "quote": "Vorteilsstufe 5 70 v. H"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.3,
+      "quote": "Der Abgabesatz beträgt 5,3 % des Messbetrages."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne Umsatzsteuer.",
+      "quote": "aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Abgabenpflichtigen"
+    },
+    "area": {
+      "text": "Die Abgabe gilt nicht im ganzen Gemeindegebiet: Von Klingberg gehört nur der Teil östlich der Landesstraße 309 zum Erhebungsgebiet, von Pönitz am See nur ein in der Satzung beschriebenes Teilgebiet.",
+      "quote": "Vom Ortsteil Klingberg gehört nur der Teilbereich zum Erhebungsgebiet für die Tourismusabgabe, der östlich der Landesstraße 309 liegt. Im Bereich Pönitz am See gehört nur dasjenige Teilgebiet zum Erhebungsgebiet, das begrenzt wird durch die westliche Grenze des Flurstücks"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. April jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 30. April eines jeden Jahres oder – soweit die Gemeinde schriftlich dazu auffordert – innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gemäß § 4 abzugeben"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Scharbeutz und Haffkrug sind als Seebad anerkannt, Gronenberg, Klingberg und Pönitz am See als Erholungsort.",
+        "quote": "Die Gemeinde ist mit ihren Ortsteilen Scharbeutz und Haffkrug als Seebad sowie mit ihren Ortsteilen Gronenberg, Klingberg und mit dem Gebiet Pönitz am See des Ortsteils Pönitz als Erholungsort"
+      },
+      {
+        "text": "Die Anlage nennt die Vorteilssätze in drei Spalten: für die Seeheilbäder Haffkrug und Scharbeutz, für die Erholungsorte Klingberg, Pönitz am See und Gronenberg und für den Ortsteil Schürsdorf.",
+        "quote": "Seeheilbäder Klingberg, Pönitz am See und Ortsteil Schürsdorf Haffkrug, Scharbeutz Gronenberg,"
+      },
+      {
+        "text": "Die Zeilen stehen je Bereich: In Scharbeutz und Haffkrug gilt in der Vorteilsstufe 5 ein Vorteilssatz von 100 v. H., in Klingberg, Pönitz am See und Gronenberg von 80 v. H., in Schürsdorf von 70 v. H.",
+        "quote": "Vorteilsstufe 5 100 v. H. Vorteilsstufe 5 80 v. H. Vorteilsstufe 5 70 v. H"
+      },
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen für das Erhebungsjahr sind jeweils die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Die Abgabe entsteht mit Beginn des Kalenderjahres.",
+        "quote": "Die Tourismusabgabe entsteht mit Beginn des Erhebungszeitraumes, also des Kalenderjahres."
+      },
+      {
+        "text": "Vorauszahlungen sind jeweils am ersten Werktag eines Quartals fällig, frühestens einen Monat nach Bekanntgabe des Bescheids.",
+        "quote": "Die Vorausleistungen sind jeweils am ersten Werktag eines Quartals fällig, jedoch nicht früher als einen Monat nach Bekanntgabe des Vorausleistungsbescheides."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Gibst du die Vermietung im Lauf des Jahres vor dem Bescheid endgültig auf, zahlst du für jeden Monat bis dahin, auch den Monat der Aufgabe, ein Zwölftel der Jahresabgabe.",
+        "quote": "Wird eine abgabenpflichtige Tätigkeit im Laufe des Erhebungsjahres vor Erlass oder vor Bestandskraft des Tourismusabgabebescheides endgültig aufgegeben, wird für jeden bis dahin verstrichenen Kalendermonat, einschließlich des Monats, in dem die abgabenpflichtige Tätigkeit eingestellt wird, ein Zwölftel der Tourismusabgabe erhoben"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/scharbeutz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-15",
+            "09-14"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "09-15",
+            "05-14"
+          ]
+        ],
+        "adult": 190,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

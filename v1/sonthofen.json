@@ -1,0 +1,151 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sonthofen",
+  "name": "Stadt Sonthofen",
+  "short": "Sonthofen",
+  "ags": "09780139",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (Kurbeitragssatzung – KBS) der Stadt Sonthofen vom 24.07.2025, Lesefassung der Stadt",
+      "url": "https://www.stadt-sonthofen.de/media/4883/satzung_kurbeitrag_lesefassung_2025_07_24.pdf",
+      "kind": "municipality",
+      "inForce": "2025-11-01",
+      "sha256": "e91e527c061962561887c7d696194704a9c9f8d7249268beb2640ce85fdc5b5f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag werden gemeinsam als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "ab Beginn des 17. Lebensjahres (ab 16 Jahren) EUR 3,50"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr (bis einschließlich 5 Jahren) sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 225,
+            "quote": "vom 7. bis zum vollendeten 16. Lebensjahr (von 6 bis einschließlich 15 Jahren) EUR 2,25"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Personen, die einen Grad der Behinderung von 100 nachweisen können"
+      },
+      {
+        "text": "Begleitpersonen von Behinderten, wenn der Schwerbehindertenausweis mit Merkzeichen B eine Begleitperson vorsieht",
+        "quote": "Begleitpersonen von Behinderten, wenn nach dem Schwerbehindertenausweis für den Behinderten eine Begleitperson erforderlich ist"
+      },
+      {
+        "text": "Personen, die sich ausschließlich wegen ihrer Berufsausübung in Sonthofen aufhalten; das weisen sie dem Beherbergungsbetrieb oder der Stadt nach",
+        "quote": "Personen, welche sich ausschließlich aus Anlass ihrer Berufsausübung im Stadtgebiet Sonthofen aufhalten, sind nicht kurbeitragspflichtig."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 bis 95 zahlen die Hälfte.",
+        "quote": "Von der Entrichtung des Kurbeitrags um 50 % ermäßigt sind Personen, die einen Grad der Behinderung von 80 - 95 nachweisen können."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Jeder zahlende und jeder befreite Gast bekommt eine elektronische, nicht übertragbare Gästekarte.",
+        "quote": "Befreite Beitragspflichtige nach § 4 Abs. (3) erhalten ebenfalls eine elektronische Gästekarte."
+      },
+      {
+        "text": "Änderungen der Meldedaten wie vorzeitige Abreise oder Verlängerung meldest du unverzüglich, spätestens am Abreisetag.",
+        "quote": "ist der Stadt Sonthofen diese unverzüglich, jedoch spätestens am Tag der Abreise zu melden."
+      },
+      {
+        "text": "Die Übermittlung auf elektronischem Weg ist für alle Beherbergungsbetriebe Pflicht; die Stadt kann auf Antrag Ausnahmen bei unbilliger Härte erteilen.",
+        "quote": "Der Einsatz und die Übermittlung auf elektronischem Weg sind grundsätzlich für alle Beherbergungsbetriebe verpflichtend."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Stadt gesamtschuldnerisch für den vollständigen Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt Sonthofen gegenüber für den vollständigen Eingang des Beitrages gesamtschuldnerisch."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens am siebten Tag nach Zustellung des jeweiligen Bescheids der Stadt.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens am siebten Tag nach Zustellung des jeweiligen Bescheides an die Stadt Sonthofen abzuführen."
+    },
+    "reporting": {
+      "text": "Deine Gäste übermittelst du spätestens am Werktag nach der Ankunft elektronisch an die Stadt.",
+      "quote": "die Beitragspflichtigen spätestens am folgenden Werktag nach deren Ankunft im Kurgebiet auf elektronischem Wege zu übermitteln"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sonthofen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          225
+        ]
+      }
+    ]
+  }
+}

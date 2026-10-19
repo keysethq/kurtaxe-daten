@@ -1,0 +1,197 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "luebeck",
+  "name": "Hansestadt Lübeck",
+  "short": "Lübeck-Travemünde",
+  "ags": "01003000",
+  "state": "Schleswig-Holstein",
+  "district": "Lübeck",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Hansestadt Lübeck über die Erhebung von Kurabgabe und Strandbenutzungsgebühr im Stadtteil Kurort und Seeheilbad Travemünde vom 30.11.2020, in der Fassung der 2. Änderungssatzung vom 04.05.2026, Lesefassung der Hansestadt",
+      "url": "https://bekanntmachungen.luebeck.de/ortsrecht/d/8-8/download",
+      "kind": "municipality",
+      "inForce": "2026-05-15",
+      "sha256": "47e7d1065ec7c2f132326897dcf20fa5f168315d300998922750967c3482b651",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Sommerkurzeit",
+        "ranges": [
+          {
+            "from": "05-15",
+            "to": "09-14"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "pro Person € 2,00 € 3,50"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+          }
+        ]
+      },
+      {
+        "label": "Frühjahrs-, Herbst- und Winterkurzeit",
+        "ranges": [
+          {
+            "from": "09-15",
+            "to": "05-14"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "pro Person € 2,00 € 3,50"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, bei Nachweis des Lebensalters."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100."
+      },
+      {
+        "text": "Die Begleitperson eines Menschen mit Schwerbehinderung, wenn eine ständige Begleitung notwendig und im Ausweis eingetragen ist",
+        "quote": "Die Begleitperson eines Schwerbehinderten, sofern eine ständige Begleitung notwendig ist und dies im Ausweis des Schwerbehinderten eingetragen ist."
+      },
+      {
+        "text": "Studierende der Hoch- und Fachschulen in Lübeck mit gültigem Studierendenausweis",
+        "quote": "Studierende an den Hoch- und Fachschulen in der Hansestadt Lübeck mit gültigem Studierendenausweis."
+      },
+      {
+        "text": "Personen mit gewöhnlichem Aufenthalt in der Hansestadt Lübeck",
+        "quote": "Personen mit gewöhnlichem Aufenthalt in der Hansestadt Lübeck."
+      },
+      {
+        "text": "Inhaber einer ostseecard aus einem anderen Ort, solange die Karte gilt",
+        "quote": "ostseecard-Inhaber:innen aus anderen Orten während der Geltungsdauer der Karte."
+      },
+      {
+        "text": "Wer beruflich oder zur Ausbildung hier ist und die Kureinrichtungen nicht nutzt",
+        "quote": "Personen, die zu Erwerbszwecken oder gewerblichen Ausbildungszwecken Unterkunft nehmen, soweit sie die Kureinrichtungen weder während noch außerhalb der o. g. Aufenthaltszwecke in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört."
+      },
+      {
+        "text": "Bettlägerig Kranke und Verletzte mit ärztlicher Bescheinigung",
+        "quote": "bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe gilt nur im Stadtteil Travemünde (Ivendorf, Alt-Travemünde/Rönnau, Priwall, Teutendorf, Brodten), nicht in der übrigen Hansestadt Lübeck.",
+        "quote": "im Stadtteil Travemünde (Stadtbezirke: Ivendorf, Alt- Travemünde/Rönnau, Priwall, Teutendorf, Brodten)"
+      },
+      {
+        "text": "Diese Sätze gelten seit dem 15.05.2026.",
+        "quote": "In der Fassung der 2. Änderungssatzung vom 04.05.2026, in Kraft ab 15.05.2026"
+      },
+      {
+        "text": "Auf Antrag und nach Bewilligung durch den Kurbetrieb gilt statt der Tagessätze eine Jahreskurabgabe von 98,00 € für pauschal 28 Tage der Sommerkurzeit.",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage der Sommerkurzeit pauschaliert (Jahreskurabgabe von € 98,00), wenn der Kurabgabepflichtige einen entsprechenden Antrag stellt und dieser vom Kurbetrieb Travemünde nach Prüfung des Sachverhaltes bewilligt wird."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen darfst du nur im System des Kurbetriebs über die dort wählbaren Kategorien vergeben; alles andere spricht der Kurbetrieb Travemünde auf Antrag aus.",
+        "quote": "sind außerhalb der im System wählbaren Kategorien und der sich aus diesen ergebenden automatischen Berechnungen nicht berechtigt, Ermäßigungen bei der Berechnung der Kurabgabe oder Befreiungen zu gewähren. Entsprechende Ermäßigungen oder Befreiungen kann nur der Kurbetrieb Travemünde auf Antrag aussprechen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, entgehst du der Haftung nur, wenn du den Kurbetrieb Travemünde unverzüglich mit Namen, Anschrift und Aufenthaltsdauer informierst.",
+        "quote": "Weigert sich der/die Kurabgabepflichtige, die Kurabgabe zu zahlen, kann sich der/die Wohnungsgeber:in nur durch die unverzügliche Unterrichtung des Kurbetriebs Travemünde von seiner/ihrer Haftung befreien."
+      },
+      {
+        "text": "Du musst ein Gästeverzeichnis führen und dem Kurbetrieb jederzeit auf Anforderung vorlegen.",
+        "quote": "Das Gästeverzeichnis ist den Beauftragten des Kurbetriebes Travemünde jederzeit auf Anforderung vorzulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein, gibt eine ostseecard aus und führt die Abgabe an den Kurbetrieb Travemünde ab; dafür haftest du.",
+      "quote": "Die Wohnungsgeber:innen haben die Kurabgabe von den kurabgabepflichtigen Personen, die sie beherbergen oder denen sie Wohnraum überlassen, einzuziehen, ihnen eine ostseecard auszuhändigen und die Kurabgabe innerhalb von 14 Tagen nach Rechnungslegung an den Kurbetrieb Travemünde oder die von diesem mit der Einziehung beauftragte Stelle abzuführen. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb von 14 Tagen nach Rechnungslegung.",
+      "quote": "die Kurabgabe innerhalb von 14 Tagen nach Rechnungslegung an den Kurbetrieb Travemünde oder die von diesem mit der Einziehung beauftragte Stelle abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird digital innerhalb von 3 Tagen im onlinemeldeschein ostseecard des Kurbetriebs Travemünde; ein Papiermeldeschein ist nur nach genehmigtem Härtefallantrag erlaubt.",
+      "quote": "innerhalb von 3 Tagen beim Kurbetrieb Travemünde unter Verwendung des onlinemeldeschein ostseecard digital anzumelden. Bei der Verwendung ist die zugehörige Datenschutzerklärung in der jeweils geltenden Fassung zu beachten. Eine analoge Meldung ist nur dann zulässig, wenn ein zuvor beim Kurbetrieb Travemünde gestellter Antrag auf Erteilung einer Ausnahmegenehmigung wegen des Vorliegens eines Härtefalles positiv beschieden wurde."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/luebeck/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Sommerkurzeit",
+        "ranges": [
+          [
+            "05-15",
+            "09-14"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Frühjahrs-, Herbst- und Winterkurzeit",
+        "ranges": [
+          [
+            "09-15",
+            "05-14"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

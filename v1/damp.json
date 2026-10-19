@@ -1,0 +1,90 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "damp",
+  "name": "Gemeinde Damp",
+  "short": "Damp",
+  "ags": "01058040",
+  "state": "Schleswig-Holstein",
+  "district": "Rendsburg-Eckernförde",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Gemeinde Damp vom 15.10.2024, bekanntgemacht im Amtsblatt Nr. 36/2024",
+      "url": "https://www.amt-schlei-ostsee.de/fileadmin/ortsrecht/dokument/homepagesatzungueberdieerhebungeinersteueraufuebernachtu.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "30e119c8efa68da2dff9334b22514504e2ecaa319932303b3affd24136e9c4fe",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 2,
+      "quote": "Die Übernachtungssteuer beträgt 2,0 vom Hundert der Bemessungsgrundlage nach § 4."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich nach dem Preis der Übernachtung einschließlich Nebenkosten wie Endreinigung, Strom und Wasser und einschließlich Umsatzsteuer; Verpflegung wie Frühstück gehört nicht dazu.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtungsleistung vom Beherbergungsgast oder einem Dritten aufzuwendenden Betrag einschließlich Nebenkosten, wie z. B. Endreinigung, Strom, Frischwasser, Abwasser und der Umsatzsteuer.",
+      "vatIncluded": true
+    },
+    "maxNights": null,
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft selbst.",
+      "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Gemeindegebiet der Gemeinde Damp gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+    },
+    "deadline": {
+      "text": "Die Steuer wird einen Monat nach Bekanntgabe des Steuerbescheids fällig.",
+      "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides an die Steuerpflichtige"
+    },
+    "reporting": {
+      "text": "Du reichst bis zum 31. Januar nach Ablauf des Kalenderjahres eine Erklärung auf dem amtlichen Vordruck beim Amt Schlei-Ostsee ein.",
+      "quote": "jeweils bis zum 31.01. nach Ablauf des Kalenderjahres dem Bereich Steuern und Abgaben des Amtes Schlei-Ostsee eine Erklärung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen in Kliniken, Seniorenheimen und ähnlichen Einrichtungen sind steuerfrei.",
+        "quote": "Für Übernachtungen in Kliniken, Seniorenheimen und ähnlichen Einrichtungen wird keine Übernachtungssteuer erhoben."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Verpflegungsleistungen wie Frühstück oder Halbpension und Getränke gehören nicht zur Bemessungsgrundlage.",
+        "quote": "Aufzuwendende Beträge für Verpflegungsleistungen wie Frühstück und/oder Halbpension"
+      },
+      {
+        "text": "Die Steuer wird für das Kalenderjahr durch Steuerbescheid festgesetzt.",
+        "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalenderjahr (Veranlagungszeitraum) festgesetzt."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/damp/",
+  "calculation": {
+    "kind": "town",
+    "percent": 2,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

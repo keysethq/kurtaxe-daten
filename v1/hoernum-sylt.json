@@ -1,0 +1,290 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hoernum-sylt",
+  "name": "Gemeinde Hörnum (Sylt)",
+  "short": "Hörnum (Sylt)",
+  "ags": "01054046",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Hörnum über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 01.06.2026",
+      "url": "https://www.amtlandschaftsylt.de/images/stories/Satzungen_neu/Gemeinde%20Hoernum/20260521_Satzung_Kur-undTourismusabgabe_signed2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-06-01",
+      "sha256": "90c1b69c8e3538c6ebfa579edfa92d18470e52693c7e6d6d122c84d5e44cdc60",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.05.-31.10.: 4,10 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "b) übrige Zeit des Jahres: 2,05 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Verwandte 1. Grades (Ehepartner, eingetragene Lebenspartner, Eltern, und Kinder) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Auf der Insel länger als 3 Monate Beschäftigte, die eine Bescheinigung des Arbeitsgebers vorlegen."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 50 %."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Begleitpersonen nach 8 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+        },
+        {
+          "where": "exemptions[5]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden 28 Hauptsaisontage berücksichtigt (Jahresgästekarte), wenn der Abgabenschuldner"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Die Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen. Die Rückzahlung erfolgt nur an den Inhaber der Gästekarte und nur dann, wenn er die Gästekarte der Gemeinde aushändigt und eine schriftliche Bescheinigung des Unterkunftsgebers über den Tag der Abreise vorlegt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 5,
+          "reading": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 8,
+          "reading": "Diese Satzung tritt mit dem 01.06.2026 in Kraft."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an den TSH. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 6,
+          "reading": "Die Kurabgabe ist bis spätestens einen Monat nach Abreise der abgabepflichtigen Personen an den TSH abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass der für die Gemeinde bestimmte Teil des Meldevordrucks spätestens fünf Werktage nach der Ankunft der beherbergten oder aufgenommenen Person beim TSH eingeht."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 410,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.05.-31.10.: 4,10 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 205,
+          "quote": "b) übrige Zeit des Jahres: 2,05 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Eltern, Kinder und Ehepartner von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Verwandte 1. Grades (Ehepartner, eingetragene Lebenspartner, Eltern, und Kinder) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind."
+      },
+      {
+        "text": "Wer in einer anderen Gemeinde auf Sylt schon Kurabgabe bezahlt hat, ist für diese Zeit als Tagesgast befreit",
+        "quote": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit."
+      },
+      {
+        "text": "Wer länger als 3 Monate auf der Insel beschäftigt ist und eine Bescheinigung des Arbeitgebers vorlegt",
+        "quote": "Auf der Insel länger als 3 Monate Beschäftigte, die eine Bescheinigung des Arbeitsgebers vorlegen."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 50 % weniger",
+        "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 50 %."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die im öffentlichen Verkehr regelmäßig auf Hilfe angewiesen sind",
+        "quote": "Begleitpersonen nach § 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer im Ort arbeitet oder in Ausbildung ist, gilt nicht als ortsfremd und zahlt keine Kurabgabe.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer es beantragt (oder Eigentümer einer Wohnung im Ort ist), zahlt statt der Tage 28 Hauptsaisontage, die Jahresgästekarte für 114,75 €.",
+        "quote": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden 28 Hauptsaisontage berücksichtigt (Jahresgästekarte), wenn der Abgabenschuldner"
+      },
+      {
+        "text": "Die Gästekarte, die dein Gast bei der Zahlung bekommt, ist höchstens 28 Tage gültig.",
+        "quote": "Die Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet, wenn der Gast die Gästekarte abgibt und du den Abreisetag schriftlich bescheinigst.",
+        "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen. Die Rückzahlung erfolgt nur an den Inhaber der Gästekarte und nur dann, wenn er die Gästekarte der Gemeinde aushändigt und eine schriftliche Bescheinigung des Unterkunftsgebers über den Tag der Abreise vorlegt."
+      },
+      {
+        "text": "Als Unterkunftsgeber giltst du auch, wenn du Gäste in deiner eigenen Wohnung unentgeltlich übernachten lässt, selbst Freunde und Angehörige.",
+        "quote": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+      },
+      {
+        "text": "Die Satzung gilt seit 1. Juni 2026 und löst die frühere Kurabgabesatzung ab.",
+        "quote": "Diese Satzung tritt mit dem 01.06.2026 in Kraft."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, berechnet und zieht die Kurabgabe ein, händigt die Gästekarte aus und führt den Betrag an den Tourismus-Service Hörnum ab; dafür haftest du.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an den TSH. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Monat nach der Abreise der Gäste.",
+      "quote": "Die Kurabgabe ist bis spätestens einen Monat nach Abreise der abgabepflichtigen Personen an den TSH abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch spätestens am Tag nach der Ankunft; auf Papier muss der Meldevordruck spätestens fünf Werktage nach der Ankunft beim Tourismus-Service eingehen.",
+      "quote": "Die elektronische Meldung muss spätestens am Tag nach der Ankunft erfolgen; die Meldung über Meldevordrucke muss so erfolgen, dass der für die Gemeinde bestimmte Teil des Meldevordrucks spätestens fünf Werktage nach der Ankunft der beherbergten oder aufgenommenen Person beim TSH eingeht."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hoernum-sylt/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 410,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "04-30"
+          ]
+        ],
+        "adult": 205,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

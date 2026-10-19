@@ -1,0 +1,148 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "pottenstein",
+  "name": "Pottenstein",
+  "short": "Pottenstein",
+  "ags": "09472179",
+  "state": "Bayern",
+  "district": "Bayreuth",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags der Stadt Pottenstein vom 26. Oktober 2004 (KurBS 2004) in der Fassung der 3. Änderungssatzung vom 21.10.2025, Lesefassung der Stadt Pottenstein",
+      "url": "https://www.pottenstein.de/_Resources/Persistent/3/6/2/a/362ae8c95e8c50c8cd562c0e8a7dfd10b0100575/Satzung%20f%C3%BCr%20die%20Erhebung%20eines%20Kurbeitrags%20vom%2026.10.2004%20i.d.F.%20vom%2021.10.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-10-31",
+      "sha256": "caa33200e2aaecf23a038e85452821cac2bf1bfea75a623ba858bcf182e2de9d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fassung2010": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags der Stadt Pottenstein vom 26. Oktober 2004 in der Fassung der 2. Änderungssatzung vom 20.12.2010, Lesefassung der Stadt Pottenstein",
+      "url": "https://pottenstein.digiportal.de/_Resources/Persistent/3/7/7/5/37758d8b2f13f87f954ee717f4d27525960ab842/028-921-99KurBS2004idF20101220.pdf",
+      "kind": "municipality",
+      "inForce": "2011-01-28",
+      "sha256": "c5361fad76d843542fc26df6428c71991658d47d3cdb0f10257234b62382d541",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "Satzung der Stadt Pottenstein zur 3. Änderung der Satzung für die Erhebung eines Kurbeitrages vom 21.10.2025, Bekanntmachung der Stadt Pottenstein vom 31.10.2025",
+      "url": "https://www.pottenstein.de/stadtinfo-verwaltung/aktuelles/bekanntmachungen/satzung-der-stadt-pottenstein-ueber-die-erhebung-eines-kurbeitrages-hier-3-aenderung",
+      "kind": "gazette",
+      "inForce": "2025-10-31",
+      "sha256": "6ef98107c0ff9d46e2173cfd07b74b64169e139004e44551f9c392a220ae4346",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "fassung2010",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage, die Tage der An- und Abreise werden als 1 Tag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im Kurgebiet, den Stadtteilen Pottenstein, Kirchenbirkig, Tüchersfeld und Haselbrunn; in Weidenloh seit der 3. Änderung vom Oktober 2025 nicht mehr.",
+      "quote": "Kurgebiet sind die Stadtteile Pottenstein, Kirchenbirkig, Tüchersfeld und Haselbrunn.",
+      "source": "satzung"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Der Beitrag beträgt pro Aufenthaltstag im Kurgebiet (§ 2) einheitlich 1,00 Euro.",
+          "source": "satzung"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 14. Lebensjahres und"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen 0,30 € weniger je Tag.",
+        "quote": "Personen, die im Besitz eines Behindertenausweises sind mit einem Grad der Behinderung von mindestens 50 v. H. erhalten eine Ermäßigung in Höhe von 0,30 €."
+      },
+      {
+        "text": "Notwendige Begleitpersonen von Menschen mit Schwerbehindertenausweis zahlen nichts.",
+        "quote": "Notwendige Begleitpersonen für Schwerbehinderte mit einem entsprechenden Ausweis."
+      },
+      {
+        "text": "Wer nur übernachtet und sich nicht zur Erholung im Kurgebiet aufhält, zahlt nichts.",
+        "quote": "Personen, deren Aufenthalt nur der Übernachtung dient und die sich somit auch nicht kurzfristig zu Erholungszwecken im Kurgebiet aufhalten."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie schriftlich der Stadt, soweit sie sich nicht selbst gemeldet haben, hebt den Kurbeitrag ein und haftet für den vollständigen Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den vollständigen Eingang des Betrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb eines Monats nach dem Abreisetag; bei kleinen Beträgen kann die Stadt auf Antrag bis zu sechs Monate einräumen.",
+      "quote": "Der Kurbeitrag ist innerhalb eines Monats nach dem Abreisetag des Kurbeitragspflichtigen von dem zur Einhebung Verpflichteten an die Stadt Pottenstein abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird schriftlich mit dem Formblatt der Stadt, das spätestens am Tag nach der Ankunft ausgefüllt und binnen zwei Werktagen beim Verkehrsbüro abgegeben wird.",
+      "quote": "Dieses Formblatt muss innerhalb von 2 Werktagen beim Verkehrsbüro der Stadt Pottenstein abgegeben werden.",
+      "source": "fassung2010"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/pottenstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

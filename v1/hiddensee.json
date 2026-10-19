@@ -1,0 +1,328 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hiddensee",
+  "name": "Seebad Insel Hiddensee",
+  "short": "Hiddensee",
+  "ags": "13073040",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Seebad Insel Hiddensee (Kurabgabesatzung), Beschluss der Gemeindevertretung vom 15.07.2025",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/3/5/9/7/Kurabgabesatzung_15.07.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-08-15",
+      "changedOn": "2026-10-15",
+      "sha256": "a9e9131e0fe69eb88203d72e4286453664f9e73cc0334a01ad632afd89170eec",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "An- und Abreisetag gelten als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt für jede abgabepflichtige Person 2,50 € pro Tag."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+        },
+        {
+          "where": "stayCap",
+          "page": 2,
+          "reading": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den in Absatz 1 genannten Sätzen, höchstens jedoch in Höhe der Jahreskurabgabe erhoben. Eigentümer, Miteigentümer und Besitzer einer Wohngelegenheit in der Gemeinde Seebad Insel Hiddensee sowie mit diesem in einem Haushalt lebende Familienangehörige haben eine Jahreskurabgabe zu entrichten, soweit kein Befreiungstatbestand des $ 3 vorliegt. Der Bemessung der Jahreskurabgabe liegen 30 Tage zugrunde. Die Jahreskurabgabe beträgt für jede abgabepflichtige Person jährlich 75,00 €."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Personen ab einem Behinderungsgrad von 80 % gegen Vorlage des Ausweises, sowie deren erforderliche Begleitperson (Voraussetzung: Kennzeichen B auf der Vorderseite des Schwerbehindertenausweises)."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Verwandte 1. Grades (gemäß BGB $ 1589) von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben. Für diesen Personenkreis erfolgt die Befreiung durch Nachweis des Verwandtschaftsverhältnisses."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Für von kurabgabepflichtigen Personen, die im Erhebungsgebiet einen Hund mitführen, erhöht sich die Abgabe um 0,50 E/Tag."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Die Jahresaufenthaltsabgabe bemisst sich nach 30 Aufenthaltstagen und beträgt 15,00 € und kann unabhängig von der Aufenthaltsdauer anstelle der nach Tagen berechneten Abgabe erworben werden."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Verbänden der Wohlfahrtspflege, Bildungseinrichtungen und Schulen sowie Verbänden und Einrichtungen der Kinder- und Jugendarbeit wird auf Antrag bei dem Hiddenseer Hafen- und Kurbetrieb für die von ihnen verschickten Personen eine Ermäßigung um 50 % der Kurabgabe gewährt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 4,
+          "reading": "Die Beherberger und beauftragten Personen sind nicht berechtigt, ohne Zustimmung des Hiddenseer Hafen- und Kurbetriebes Befreiungen, Ermäßigungen oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Der Beherberger bzw. die beauftragte Person haftet für die rechtzeitige und vollständige Vereinnahmung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen zu vereinnahmen und ihnen unverzüglich eine Kurkarte auszustellen,"
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "die Kurabgabe an den Hiddenseer Hafen- und Kurbetrieb nach Rechnungslegung abzuführen,"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "die Meldung der Kurabgabepflichtigen unverzüglich, spätestens am Tag der Anreise an den Hiddenseer Hafen- und Kurbetrieb durch das zur Verfügung gestellte, elektronische Meldesystem weiterzuleiten,"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Seebad Insel Hiddensee (Beschluss vom 7. September 1999, ausgefertigt am 23.10.2002)",
+      "url": "https://www.seebad-hiddensee.de/wp-content/uploads/2024/07/Fremdenverkehrsabgabesatzung.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "709f93c3973b449f1d99b95814481887ac53464abba3ad740250678d3c41818f",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind die natürlichen und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde Seebad Insel Hiddensee Vorteile geboten werden: a) Inhaber von Hotels, Pensionen, Fremden-, Kinder- und Erholungsheimen, Jugendherbergen sowie sonstige Personen, die Gäste oder Erholungssuchende gegen Entgelte beherbergen sowie Vermieter von Fenenwohnungen und -Zimmern sowie Ferienhäusern/Bungalows"
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "in den Fällen des $ 6 Abs. l a) 5,00 EUR / Bett",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 5,
+          "reading": "in den Fällen des $ 6 Abs. l a) 5,00 EUR / Bett",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 5,
+          "reading": "Die Mindestabgabe beträgt jedoch 10,00 EUR / Jahr"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 5,
+          "reading": "die Aufnahme, Beendigung oder Veränderung einer abgabepflichtigen Tätigkeit innerhalb von 14 Kalendertagen nach Aufnahme, Beendigung oder Veränderung schriftlich anzuzeigen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 6,
+          "reading": "Die Abgabe ist innerhalb von |4 Tagen nach Bekanntmachung des Abgabenbescheides fällig und bei der Gemeinde Seebad Insel Hiddensee",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "nach der Zahi der am |. Juni jeden Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Abgabepflichtige, die die abgabenpflichtige Tätigkeit vor dem 1. 5. eines Jahres aufgeben bzw. erst nach dem 30. 9. eines Jahres aufnehmen, werden für das Jahr der Betriebsaufgabe bzw. - Aufnahme nicht veranlagt."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Kurabgabe beträgt für jede abgabepflichtige Person 2,50 € pro Tag."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 7500,
+      "text": "Für einen ununterbrochenen Aufenthalt im Kalenderjahr zahlst du höchstens die Jahreskurabgabe von 75,00 € pro Person.",
+      "quote": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den in Absatz 1 genannten Sätzen, höchstens jedoch in Höhe der Jahreskurabgabe erhoben. Eigentümer, Miteigentümer und Besitzer einer Wohngelegenheit in der Gemeinde Seebad Insel Hiddensee sowie mit diesem in einem Haushalt lebende Familienangehörige haben eine Jahreskurabgabe zu entrichten, soweit kein Befreiungstatbestand des § 3 vorliegt. Der Bemessung der Jahreskurabgabe liegen 30 Tage zugrunde. Die Jahreskurabgabe beträgt für jede abgabepflichtige Person jährlich 75,00 €."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre erforderliche Begleitperson (Kennzeichen B im Ausweis)",
+        "quote": "Personen ab einem Behinderungsgrad von 80 % gegen Vorlage des Ausweises, sowie deren erforderliche Begleitperson (Voraussetzung: Kennzeichen B auf der Vorderseite des Schwerbehindertenausweises)."
+      },
+      {
+        "text": "Verwandte ersten Grades von Menschen, die auf Hiddensee ihren gewöhnlichen Aufenthalt haben, mit Nachweis des Verwandtschaftsverhältnisses",
+        "quote": "Verwandte 1. Grades (gemäß BGB § 1589) von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben. Für diesen Personenkreis erfolgt die Befreiung durch Nachweis des Verwandtschaftsverhältnisses."
+      },
+      {
+        "text": "Wer auf Hiddensee arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für einen mitgeführten Hund erhöht sich die Abgabe um 0,50 € pro Tag.",
+        "quote": "Für von kurabgabepflichtigen Personen, die im Erhebungsgebiet einen Hund mitführen, erhöht sich die Abgabe um 0,50 €/Tag."
+      },
+      {
+        "text": "Für einen Hund gibt es statt der Tagessätze eine Jahresaufenthaltsabgabe von 15,00 € (30 Aufenthaltstage).",
+        "quote": "Die Jahresaufenthaltsabgabe bemisst sich nach 30 Aufenthaltstagen und beträgt 15,00 € und kann unabhängig von der Aufenthaltsdauer anstelle der nach Tagen berechneten Abgabe erworben werden."
+      },
+      {
+        "text": "Verbände der Wohlfahrtspflege, Bildungseinrichtungen, Schulen und Einrichtungen der Kinder- und Jugendarbeit erhalten auf Antrag 50 % Ermäßigung für die von ihnen verschickten Personen.",
+        "quote": "Verbänden der Wohlfahrtspflege, Bildungseinrichtungen und Schulen sowie Verbänden und Einrichtungen der Kinder- und Jugendarbeit wird auf Antrag bei dem Hiddenseer Hafen- und Kurbetrieb für die von ihnen verschickten Personen eine Ermäßigung um 50 % der Kurabgabe gewährt."
+      },
+      {
+        "text": "Du darfst als Vermieter Befreiungen oder Ermäßigungen nur mit Zustimmung des Hafen- und Kurbetriebs gewähren.",
+        "quote": "Die Beherberger und beauftragten Personen sind nicht berechtigt, ohne Zustimmung des Hiddenseer Hafen- und Kurbetriebes Befreiungen, Ermäßigungen oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Vereinnahmung und Abführung.",
+        "quote": "Der Beherberger bzw. die beauftragte Person haftet für die rechtzeitige und vollständige Vereinnahmung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, nimmt die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und stellt unverzüglich eine Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen zu vereinnahmen und ihnen unverzüglich eine Kurkarte auszustellen,"
+    },
+    "deadline": {
+      "text": "Abgeführt wird an den Hiddenseer Hafen- und Kurbetrieb nach Rechnungslegung.",
+      "quote": "die Kurabgabe an den Hiddenseer Hafen- und Kurbetrieb nach Rechnungslegung abzuführen,"
+    },
+    "reporting": {
+      "text": "Gäste werden unverzüglich, spätestens am Anreisetag, im elektronischen Meldesystem des Hafen- und Kurbetriebs gemeldet.",
+      "quote": "die Meldung der Kurabgabepflichtigen unverzüglich, spätestens am Tag der Anreise an den Hiddenseer Hafen- und Kurbetrieb durch das zur Verfügung gestellte, elektronische Meldesystem weiterzuleiten,"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr auf Hiddensee Vorteile bietet; genannt sind auch Vermieter von Ferienwohnungen, Zimmern und Ferienhäusern.",
+      "quote": "Abgabepflichtig sind die natürlichen und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde Seebad Insel Hiddensee Vorteile geboten werden: a) Inhaber von Hotels, Pensionen, Fremden-, Kinder- und Erholungsheimen, Jugendherbergen sowie sonstige Personen, die Gäste oder Erholungssuchende gegen Entgelte beherbergen sowie Vermieter von Ferienwohnungen und -Zimmern sowie Ferienhäusern/Bungalows"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "in den Fällen des § 6 Abs. 1 a) 5,00 EUR / Bett",
+        "flat": {
+          "cents": 500,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Du zahlst mindestens 10,00 € im Jahr.",
+      "quote": "Die Mindestabgabe beträgt jedoch 10,00 EUR / Jahr",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Aufnahme, Beendigung oder Veränderung deiner Tätigkeit zeigst du der Gemeinde innerhalb von 14 Kalendertagen schriftlich an.",
+      "quote": "die Aufnahme, Beendigung oder Veränderung einer abgabepflichtigen Tätigkeit innerhalb von 14 Kalendertagen nach Aufnahme, Beendigung oder Veränderung schriftlich anzuzeigen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 14 Tage nach Bekanntmachung des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe ist innerhalb von 14 Tagen nach Bekanntmachung des Abgabenbescheides fällig und bei der Gemeinde Seebad Insel Hiddensee"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du am 1. Juni jeden Jahres gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "nach der Zahl der am 1. Juni jeden Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Gibst du deine Tätigkeit vor dem 1. Mai auf oder nimmst du sie erst nach dem 30. September auf, wirst du für dieses Jahr nicht veranlagt.",
+        "quote": "Abgabepflichtige, die die abgabenpflichtige Tätigkeit vor dem 1. 5. eines Jahres aufgeben bzw. erst nach dem 30. 9. eines Jahres aufnehmen, werden für das Jahr der Betriebsaufgabe bzw. - Aufnahme nicht veranlagt."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/hiddensee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "stayCap": 7500
+  }
+}

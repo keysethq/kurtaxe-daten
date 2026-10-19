@@ -1,0 +1,243 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bernkastel-kues",
+  "name": "Stadt Bernkastel-Kues",
+  "short": "Bernkastel-Kues",
+  "ags": "07231008",
+  "state": "Rheinland-Pfalz",
+  "district": "Bernkastel-Wittlich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages (Gästebeitragssatzung) in der Stadt Bernkastel-Kues vom 25.10.2017, inklusive 1. Änderungssatzung vom 17.04.2018 und 2. Änderungssatzung vom 21.10.2019",
+      "url": "https://www.bernkastel-kues.de/verwaltung-buergerdienste/satzungen/stadt-bernkastel-kues/07.bf-satzung-ueber-die-erhebung-eines-gaestebeitrages-vom-25.10.2017.pdf",
+      "kind": "municipality",
+      "inForce": "2018-04-01",
+      "sha256": "f2b48b2389cbd7ab635db7a66f45c68d947a8e571bdcb0e4d79c2fc79518770d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "haushalt": {
+      "title": "Haushaltssatzung und Haushaltsplan 2026 der Stadt Bernkastel-Kues, § 6 Gebühren und Beiträge",
+      "url": "https://www.bernkastel-kues.de/verwaltung-buergerdienste/haushaltssatzungen/2026-stadt-bernkastel-kues.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "6f4d671844af6fa605faa517d8f21688429db7a9b7adeacbc015bdcc33421827",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Bernkastel-Kues (Tourismusbeitragssatzung) vom 23.12.2016",
+      "url": "https://www.bernkastel-kues.de/verwaltung-buergerdienste/satzungen/stadt-bernkastel-kues/06.-satzung-ueber-die-erhebung-eines-tourismusbeitrages-in-der-stadt-bernkastel-kues-vom-23.12.2016.pdf?cid=24i",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "sha256": "47c6d179667cb9581a79d5c7122059ffcb3023d37b2d56add85a345a0621181d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "tbsAenderung3": {
+      "title": "3. Änderung der Tourismusbeitragssatzung der Stadt Bernkastel-Kues vom 09.01.2020 (Betriebsartentabelle)",
+      "url": "https://www.bernkastel-kues.de/verwaltung-buergerdienste/satzungen/stadt-bernkastel-kues/06.-3.-aenderungs-satzung-zur-tourismusbeitragssatzung-bks-vom-09.01.2020.pdf?cid=bgu",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "sha256": "73edb21e73b567e9b214bb72ec754aed61bea3ae94989be419a0f0ae2ce8961a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Anzahl der Übernachtungen bemessen."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 170,
+          "source": "haushalt",
+          "quote": "Der Betrag für die Erhebung des Gästebeitrages wird gemäß der Satzung über die Erhebung eines Gästebeitrages vom 25.10.2017 auf 1,70 € je Übernachtung festgesetzt."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 25,
+      "perStay": true,
+      "text": "höchstens 25 Übernachtungen je zusammenhängendem Aufenthalt; wer länger bleibt, zahlt pauschal den Satz für 25 Übernachtungen",
+      "quote": "Für Langzeitgäste (Personen, die zusammenhängend Unterkunft für mehr als 25 Übernachtungen nehmen) wird ein Pauschalbetrag erhoben. Für die Berechnung gilt § 5 Abs. 3 Satz 2 entsprechend."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 oder mit dem Merkzeichen „H“ zahlen nichts, wenn sie es nachweisen; ihre Begleitpersonen ebenfalls.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 100 beträgt oder die das Merkzeichen „H“ besitzen, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, den Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird."
+      },
+      {
+        "text": "Bettlägerig Kranke, die ihre Unterkunft nicht verlassen können, zahlen mit ärztlichem Zeugnis nichts.",
+        "quote": "Bettlägerig Kranke, die ihre Unterkunft nicht verlassen können, brauchen bei Vorlage eines ärztlichen Zeugnisses für die Dauer dieses Zustands keinen Gästebeitrag zu entrichten."
+      },
+      {
+        "text": "Wer sich zu Unterrichts-, Studiums- oder Ausbildungszwecken in Bernkastel-Kues aufhält, ist nicht beitragspflichtig.",
+        "quote": "Personen, die sich im Erhebungsgebiet (§ 2) zu Unterrichts-, Studiums- oder Ausbildungszwecken aufhalten."
+      },
+      {
+        "text": "Wer Verwandte oder Bekannte ohne Entgelt besucht, ist nicht beitragspflichtig.",
+        "quote": "Personen, die sich im Erhebungsgebiet (§ 2) zum vorübergehenden Besuch bei Verwandten und Bekannten (ergänzend zu § 12 Absatz 2 KAG) ohne Zahlung eines Entgelts aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Satz je Übernachtung wird nicht in der Satzung, sondern jedes Jahr in der Haushaltssatzung der Stadt festgelegt.",
+        "quote": "Der Gästebeitrag einschließlich Umsatzsteuer pro beitragspflichtige Person und Übernachtung wird ab dem Jahr 2018 in der für das Erhebungsjahr geltenden Haushaltssatzung festgelegt."
+      },
+      {
+        "text": "Gäste zahlen den Gästebeitrag spätestens am Abreisetag an dich als Beherbergungsbetrieb.",
+        "quote": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu entrichten."
+      },
+      {
+        "text": "Verweigert ein Gast die Zahlung, meldest du das innerhalb von fünf Werktagen der Verbandsgemeindeverwaltung.",
+        "quote": "Verweigert eine gästebeitragspflichtige Person die Zahlung des Gästebeitrages, ist dies durch den Inhaber des Beherbergungsbetriebes innerhalb von fünf Werktagen der Verbandsgemeindeverwaltung Bernkastel-Kues anzuzeigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag ein und führt ihn auf Anforderung per Bescheid der Verbandsgemeindeverwaltung ab; dafür haftest du.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes hat den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und auf Anforderung durch Bescheid der Verbandsgemeindeverwaltung Bernkastel-Kues abzuführen."
+    },
+    "deadline": {
+      "text": "Die Meldedaten schickst du für jeden Kalendermonat bis zum 10. des Folgemonats an die Stadt, auch wenn niemand übernachtet hat.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes ist verpflichtet für jeden Kalendermonat bis zum 10. des Folgemonats, seine elektronischen Meldedaten bzw. die ausgefüllten Meldevordrucke der Stadt Bernkastel-Kues zu übermitteln."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit dem Meldevordruck der Stadt oder über das elektronische Meldeverfahren der Stadt.",
+      "quote": "Zudem besteht die Möglichkeit, statt des manuellen Verfahrens, das elektronische Meldeverfahren der Stadt Bernkastel-Kues in Anspruch zu nehmen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Bernkastel-Kues im Rahmen einer selbstständigen Erwerbstätigkeit entgeltliche Leistungen anbietest und dir der Tourismus dadurch unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Beitragspflichtig sind alle natürlichen und juristischen Personen sowie nicht- oder teilrechtsfähige Personenvereinigungen, denen aufgrund des Tourismus im Erhebungsgebiet unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden. (2) Besondere wirtschaftliche Vorteile aufgrund des Tourismus werden den in Abs. 1 genannten Rechtssubjekten geboten, wenn sie im Erhebungsgebiet im Rahmen selbstständiger Erwerbstätigkeit entgeltliche Leistungen anbieten."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Für Privatzimmervermieter schätzt die Stadt den Messbetrag anhand der Bettenzahl, einer durchschnittlichen Belegungsdauer und eines durchschnittlichen Übernachtungspreises.",
+      "quote": "Für Privatzimmervermieter wird der Messbetrag (gem. Absatz 1) unter Zugrundelegung der Bettenzahl, einer durchschnittlichen Belegungsdauer und eines durchschnittlichen Übernachtungspreises geschätzt."
+    },
+    "rate": {
+      "percent": 14,
+      "source": "haushalt",
+      "quote": "Der Hebesatz für die Erhebung des Tourismusbeitrages wird gemäß der Satzung über die Erhebung eines Tourismusbeitrages vom 15.12.2016 auf 14 % festgesetzt."
+    },
+    "basis": {
+      "text": "Der Beitrag ist ein Prozentsatz des Messbetrags, den die Stadt für das Erhebungsjahr in der Haushaltssatzung festlegt.",
+      "quote": "Der Tourismusbeitrag wird nach einem Vomhundertsatz von dem nach § 3 Abs. 1 ermittelten Messbetrag bemessen. Dieser Vomhundertsatz (Beitragssatz) ist in der für das Erhebungsjahr geltenden Haushaltssatzung festgelegt."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Auf Anforderung der Verbandsgemeindeverwaltung machst du die Angaben, die sie zur Berechnung braucht, besonders zu deinem erzielten Umsatz.",
+      "quote": "Sie haben der Verbandsgemeindeverwaltung auf Anforderung die zur Beitragsberechnung erforderlichen Angaben zu machen. Insbesondere haben sie den erzielten Umsatz zu erklären."
+    },
+    "deadline": {
+      "text": "Du zahlst während des Jahres Vorauszahlungen in bis zu vier Raten; wann sie fällig sind, steht in deinem Bescheid.",
+      "quote": "Die Vorausleistung wird in bis zu vier Raten erhoben. Die Fälligkeit der Raten innerhalb des laufenden Erhebungszeitraumes wird im Bescheid festgesetzt."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Tourismusbeitrag gilt im gesamten Stadtgebiet von Bernkastel-Kues.",
+        "quote": "Erhebungsgebiet ist das gesamte Stadtgebiet."
+      },
+      {
+        "text": "Den Beginn deiner beitragspflichtigen Tätigkeit zeigst du der Verbandsgemeindeverwaltung innerhalb eines Monats an.",
+        "quote": "Die Beitragspflichtigen haben der Verbandsgemeindeverwaltung die Aufnahme der beitragspflichtigen Tätigkeit innerhalb eines Monats anzuzeigen."
+      },
+      {
+        "text": "Den Beitrag setzt die Stadt nach Ablauf des Jahres mit einem Bescheid fest, der einen Monat nach Bekanntgabe fällig ist; die gezahlten Vorauszahlungen werden angerechnet.",
+        "quote": "Der Tourismusbeitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach dessen Bekanntgabe fällig. Auf die Beitragsschuld wird die für das Erhebungsjahr gezahlte Vorausleistung angerechnet."
+      },
+      {
+        "text": "Vorauszahlungen bis 10 Euro im Jahr sind auf einmal am 15. August fällig, Vorauszahlungen von 10,01 bis 20 Euro je zur Hälfte am 15. Mai und am 15. August.",
+        "quote": "Jährliche Vorausleistungen bis 10,00 Euro sind in einer Summe am 15.August und Vorausleistungen zwischen 10,01 Euro bis 20,00 Euro sind je zur Hälfte am 15. Mai und 15. August des laufenden Erhebungszeitraumes zu entrichten."
+      },
+      {
+        "text": "Für die Vermietung von Ferienwohnungen, -appartements, -häusern und Privatzimmern ohne Frühstück rechnet die Anlage im Stadtteil Plateau mit 180 Tagen je Bett und Jahr zu 20 € je Bett, also 3.600 € Umsatz, einem Umsatzanteil Fremdenverkehr von 100 % und einem geschätzten Reingewinnsatz von 16 %, und nennt als Messbetrag je Bett 576 €; in der Spalte Vorteilssatz steht 90 %.",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/- häusern, Privatzimmern ohne Frühstück Durchschnittliche Belegungsdauer je Bett = 180 Tage/Jahr Durchschnittlicher Preis je Bett = 20,00€ = unterstellter Umsatz = 3.600,00 € x Umsatzanteil Fremdenverkehr = 100% = Umsatz aus dem Fremdenverkehr = 3.600,00 € X geschätzter Reingewinnsatz = 16% Stadteil Plateau Messbetrag je Bett: = 576 € 90 % 16%",
+        "source": "tbsAenderung3"
+      },
+      {
+        "text": "Für dieselbe Vermietung rechnet die Anlage in Kues und Bernkastel mit 90 Tagen je Bett und Jahr zu 20 € je Bett, also 1.800 € Umsatz, einem Umsatzanteil Fremdenverkehr von 100 % und einem geschätzten Reingewinnsatz von 16 %, und nennt als Messbetrag je Bett 288 €; in der Spalte Vorteilssatz steht 90 %.",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/- häusern, Privatzimmern ohne Frühstück Durchschnittliche Belegungsdauer je Bett = 90 Tage/Jahr Durchschnittlicher Preis je Bett = 20,00€ = unterstellter Umsatz = 1.800,00 € x Umsatzanteil Fremdenverkehr = 100% = Umsatz aus dem Fremdenverkehr = 1.800,00 € X geschätzter Reingewinnsatz = 16% Messbetrag je Bett: = 288,00€ Stadteil Kues und Bernkastel 90 % 16%",
+        "source": "tbsAenderung3"
+      },
+      {
+        "text": "Für dieselbe Vermietung rechnet die Anlage in Wehlen und Andel mit 60 Tagen je Bett und Jahr zu 20 € je Bett, also 1.200 € Umsatz, einem Umsatzanteil Fremdenverkehr von 100 % und einem Reingewinnsatz von 16 %, und nennt als Messbetrag je Bett 192 €; in der Spalte Vorteilssatz steht 90 %.",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/- häusern, Privatzimmern ohne Frühstück Durchschnittliche Belegungsdauer je Bett = 60 Tage/Jahr Durchschnittlicher Preis je Bett = 20,00€ = unterstellter Umsatz = 1.200,00 € x Umsatzanteil Fremdenverkehr = 100% = Umsatz aus dem Fremdenverkehr = 1.200,00 € Stadteil Wehlen und X Reingewinnsatz = 16% Andel Messbetrag je Bett: = 192,00€ 90% 16%",
+        "source": "tbsAenderung3"
+      },
+      {
+        "text": "Die Änderung der Anlage mit diesen Vorteilssätzen gilt rückwirkend ab dem 1. Januar 2019.",
+        "quote": "Diese Satzungsänderung tritt rückwirkend zum 01.01.2019 in Kraft.",
+        "source": "tbsAenderung3"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bernkastel-kues/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 25,
+    "maxPerStay": true,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 170,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

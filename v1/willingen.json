@@ -1,0 +1,376 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "willingen",
+  "name": "Gemeinde Willingen (Upland)",
+  "short": "Willingen",
+  "ags": "06635022",
+  "state": "Hessen",
+  "district": "Waldeck-Frankenberg",
+  "sources": {
+    "satzung": {
+      "title": "Kurbeitragssatzung der Gemeinde Willingen (Upland) in der ab 12.09.2026 geltenden Fassung (8. Nachtrag, beschlossen am 31.08.2026), Lesefassung der Gemeinde",
+      "url": "https://www.rathaus-willingen.de/ud/gemeindewillingen/PDFs/Satzungen/Kurbeitragssatzung_der_Gemeinde_Willingen_inkl._8._Nachtrag.pdf",
+      "kind": "municipality",
+      "inForce": "2026-09-12",
+      "sha256": "15dedd8dcf79e69fb72026611c18dd58ce9328f3b4f763867bfe65e57c5b11b6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Beide Tage gelten für die Festsetzung des Kurbeitrages als ein Tag."
+    },
+    "zones": [
+      {
+        "label": "Kurgebiet Willingen und Stryck",
+        "area": {
+          "text": "Zum Kurgebiet Willingen und Stryck gehören Willingen und Stryck einschließlich der Straße „Im Stryck“.",
+          "quote": "a) Kurgebiet Willingen und Stryck einschl. Straße „Im Stryck“"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "beträgt pro Aufenthaltstag und Person: a) Kurgebiet Willingen und Stryck einschl. Straße „Im Stryck“ 3,00 € (einschl. Umsatzsteuer)"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "a) Kinder bis zur Vollendung des 14. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiete Usseln und Wakenfeld",
+        "area": {
+          "text": "Zum Kurgebiet Usseln und Wakenfeld gehören Usseln und Wakenfeld.",
+          "quote": "b) Kurgebiete Usseln u. Wakenfeld"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "b) Kurgebiete Usseln u. Wakenfeld 2,50 € (einschl. Umsatzsteuer)"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "a) Kinder bis zur Vollendung des 14. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Schwalefeld",
+        "area": {
+          "text": "Das Kurgebiet Schwalefeld ist der Ortsteil Schwalefeld.",
+          "quote": "c) Kurgebiet Schwalefeld"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "c) Kurgebiet Schwalefeld 2,00 € (einschl. Umsatzsteuer)"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "a) Kinder bis zur Vollendung des 14. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Bömighausen",
+        "area": {
+          "text": "Das Kurgebiet Bömighausen ist der Ortsteil Bömighausen.",
+          "quote": "d) Kurgebiet Bömighausen"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "d) Kurgebiet Bömighausen 1,50 € (einschl. Umsatzsteuer)"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "a) Kinder bis zur Vollendung des 14. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Eimelrod",
+        "area": {
+          "text": "Das Kurgebiet Eimelrod ist der Ortsteil Eimelrod.",
+          "quote": "e) Kurgebiet Eimelrod"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "e) Kurgebiet Eimelrod 1,50 € (einschl. Umsatzsteuer)"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "a) Kinder bis zur Vollendung des 14. Lebensjahres;"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tage je Kalenderjahr",
+      "quote": "Hält sich ein Kurgast länger als 28 Tage in einem Kalenderjahr im Erhebungsgebiet auf, so ist er für die über diese 28 Tage hinausgehende Zeit von der Zahlung des Kurbeitrages befreit."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie ist befreit.",
+      "quote": "f) die 5. und jede weitere Person einer Familie;"
+    },
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich bei ihnen wohnen und nicht zur Erholung oder Kur im Ort sind",
+        "quote": "Familienbesucher von den in § 1 Absatz 2 genannten Ortsteilen wohnhaften Einwohnern, sofern sie in deren Wohnung und Haushalt unentgeltlich aufgenommen werden und sich nicht zu Erholungs- und Kurzwecken aufhalten;"
+      },
+      {
+        "text": "Besucher von Jugendherbergen",
+        "quote": "d) Besucher von Jugendherbergen;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Menschen, die laut Ausweis auf eine Begleitperson angewiesen sind, samt Begleitperson",
+        "quote": "Schwerbehinderte mit einer durch Schwerbehinderten-ausweis nachgewiesenen Erwerbsminderung von 100 % sowie Schwerbehinderte, die laut amtlichem Schwerbehindertenausweis auf eine Begleitperson angewiesen sind, einschl. der Begleitperson;"
+      },
+      {
+        "text": "Kranke in Krankenhäusern, die keine Kurkliniken sind",
+        "quote": "Kranke, die sich in Krankenhäusern aufhalten, die nicht Kurkrankenhäuser (Kurkliniken) sind;"
+      },
+      {
+        "text": "Inhaber von Nebenwohnungen, die der Gemeinde Zweitwohnungssteuer zahlen",
+        "quote": "Inhaber von Nebenwohnungen, die an die Gemeinde Zweitwohnungssteuer nach der einschlägigen Satzung der Gemeinde Willingen (Upland) nachweislich entrichten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kinder in Kindererholungsheimen, Schullandheimen und Freizeitheimen zahlen ab dem 15. Lebensjahr 0,40 € je Tag.",
+        "quote": "Der Kurbeitrag für Kinder in Kindererholungsheimen, Schullandheimen, Freizeitheimen und sonstigen ähnlichen Einrichtungen beträgt ab dem 15. Lebensjahr 0,40 € einschl. Umsatzsteuer für jeden Tag des Aufenthalts im Erhebungsgebiet."
+      },
+      {
+        "text": "Du erstellst ein Verzeichnis über die aufgenommenen Gäste und führst es fortlaufend.",
+        "quote": "Der Meldepflichtige hat ein Verzeichnis über die aufgenommenen Gäste zu erstellen und fortlaufend zu führen."
+      },
+      {
+        "text": "Jeder Beherbergungsbetrieb erhält eine Abschrift der Kurbeitragssatzung und hängt sie für die Gäste an geeigneter Stelle aus.",
+        "quote": "Jeder Beherbergungsbetrieb erhält eine Abschrift der Kurbeitragssatzung. Diese ist den Gästen durch Aushang an geeigneter Stelle bekanntzugeben."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag im Voraus für die Aufenthaltsdauer ein und führt ihn an die Gemeindekasse ab.",
+      "quote": "Die Beherbergungsbetriebe (Wohnungsgeber) haben den Kurbeitrag (Kurtaxe) von den Beitragspflichtigen im Voraus für die Aufenthaltsdauer einzuziehen und an die Gemeindekasse Willingen (Upland) monatlich unter Beifügung der Abrechnung abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich zusammen mit der Abrechnung.",
+      "quote": "an die Gemeindekasse Willingen (Upland) monatlich unter Beifügung der Abrechnung abzuführen."
+    },
+    "reporting": {
+      "text": "Jeden Gast meldest du unverzüglich an; die ausgefüllten Meldeformulare gehen zum Ende jedes Monats an die Gemeinde.",
+      "quote": "die mit den zwingend vorgeschriebenen Angaben vollständig ausgefüllten Meldeformulare zum Ende eines jeden Monats der Gemeinde Willingen (Upland) zuzuleiten."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/willingen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurgebiet Willingen und Stryck",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiete Usseln und Wakenfeld",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Schwalefeld",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Bömighausen",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurgebiet Eimelrod",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "pfronten",
+  "name": "Gemeinde Pfronten",
+  "short": "Pfronten",
+  "ags": "09777159",
+  "state": "Bayern",
+  "district": "Ostallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Vierte Satzung zur Änderung der Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Pfronten vom 15.11.2022 (ersetzt § 4 Höhe des Kurbeitrages)",
+      "url": "https://rathaus.pfronten.de/fileadmin/user_upload/Rathaus/Hauptamt/Dokumente/Satzungen/02_Kurbeitragssatzung/Vierte_Satzung_zur_AEnderung_der_Satzung_fuer_die_Erhebung_eines_Kurbeitrages_-_ausgefertigt.pdf",
+      "kind": "statute",
+      "inForce": "2023-04-01",
+      "sha256": "f66434c3797cec8eaece285358eb1fd085bf347a062f0f44e050042482c5be8d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "grundsatzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags in der Gemeinde Pfronten vom 09.11.2009 (Scan, §§ 2 und 6 gelten unverändert fort)",
+      "url": "https://rathaus.pfronten.de/fileadmin/user_upload/Rathaus/Hauptamt/Dokumente/Satzungen/02_Kurbeitragssatzung/Kurbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2009-12-01",
+      "sha256": "27d5f99d00e0c72dd0062e209b8063c8d0340361abd8e55e699c644bd4eabd5e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "zones[0].area",
+          "page": 1,
+          "reading": "Der Kurbezirk | umfasst das Gebiet der Gemeindeteile Weißbach mit Ausnahme des Wohnmobilstellplatzes im Gewerbegebiet \"Wiesele\", Kreuzegg, Röfleuten, Halden, Berg, Ried, Meilingen, Ösch, Steinach, Dorf und Heitlern."
+        },
+        {
+          "where": "zones[1].area",
+          "page": 1,
+          "reading": "Der Kurbezirk Il umfasst das Gebiet der Gemeindeteile Kappel und Rehbichl, den Wohnmobilstellplatz im Gewerbegebiet \"Wiesele\", den Campingplatz in Pfronten-Steinach und das übrige Gemeindegebiet"
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Beitrag ist innerhalb der auf dem Kurbeitragsbescheid angegebenen Frist, frühestens jedoch einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "die Meldung der Kurbeitragspflichtigen unverzüglich, spätestens am Tag nach der Anreise, an die Gemeinde schriftlich bzw. mit dem EDV-System \"Pfronten-Card\" weiterzuleiten."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Aufenthaltstag."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind Weißbach (ohne den Wohnmobilstellplatz im Gewerbegebiet Wiesele), Kreuzegg, Röfleuten, Halden, Berg, Ried, Meilingen, Ösch, Steinach, Dorf und Heitlern.",
+          "quote": "Der Kurbezirk I umfasst das Gebiet der Gemeindeteile Weißbach mit Ausnahme des Wohnmobilstellplatzes im Gewerbegebiet \"Wiesele\", Kreuzegg, Röfleuten, Halden, Berg, Ried, Meilingen, Ösch, Steinach, Dorf und Heitlern.",
+          "source": "grundsatzung"
+        },
+        "periods": [
+          {
+            "label": "Übriges Jahr",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "10-31"
+              },
+              {
+                "from": "12-16",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 240,
+              "quote": "1. im Kurbezirk I für Personen (ab dem 17. Lebensjahr) 2,40 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres (= 6. Geburtstag) sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 150,
+                "quote": "für Personen vom 7. bis zum vollendeten 16. Lebensjahr (= 6. bis zum 16. Geburtstag) 1,50 €"
+              }
+            ]
+          },
+          {
+            "label": "1. November bis 15. Dezember",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "12-15"
+              }
+            ],
+            "share": {
+              "percent": 50,
+              "of": "Übriges Jahr",
+              "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+            },
+            "adult": {
+              "cents": 120,
+              "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+              },
+              {
+                "underAge": 16,
+                "cents": 75,
+                "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind Kappel und Rehbichl, der Wohnmobilstellplatz im Gewerbegebiet Wiesele, der Campingplatz in Pfronten-Steinach und das übrige Gemeindegebiet außer einigen Berggaststätten und Hütten.",
+          "quote": "Der Kurbezirk II umfasst das Gebiet der Gemeindeteile Kappel und Rehbichl, den Wohnmobilstellplatz im Gewerbegebiet „Wiesele“, den Campingplatz in Pfronten-Steinach und das übrige Gemeindegebiet",
+          "source": "grundsatzung"
+        },
+        "periods": [
+          {
+            "label": "Übriges Jahr",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "10-31"
+              },
+              {
+                "from": "12-16",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "2. im Kurbezirk II für Personen (ab dem 17. Lebensjahr) 1,80 € für Personen vom 7. bis zum vollendeten 16. Lebensjahr (= 6. bis zum 16. Geburtstag) 1,20 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres (= 6. Geburtstag) sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 120,
+                "quote": "2. im Kurbezirk II für Personen (ab dem 17. Lebensjahr) 1,80 € für Personen vom 7. bis zum vollendeten 16. Lebensjahr (= 6. bis zum 16. Geburtstag) 1,20 €"
+              }
+            ]
+          },
+          {
+            "label": "1. November bis 15. Dezember",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "12-15"
+              }
+            ],
+            "share": {
+              "percent": 50,
+              "of": "Übriges Jahr",
+              "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+            },
+            "adult": {
+              "cents": 90,
+              "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+              },
+              {
+                "underAge": 16,
+                "cents": 60,
+                "quote": "In der Zeit vom 01.11. bis 15.12. (einschließlich) wird in allen Kurbezirken nur 50 v.H. des Beitrages pro Aufenthaltstag erhoben."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen auf Antrag 50 % weniger; ihre notwendige Begleitperson ist auf Antrag befreit",
+        "quote": "Für Personen, die eine Behinderung von 80 v.H. und mehr durch Behindertenausweis nachweisen können, wird der Kurbeitrag auf Antrag um 50 v.H. ermäßigt."
+      },
+      {
+        "text": "Begleitpersonen, wenn der Schwerbehindertenausweis eine Begleitperson vorsieht, auf Antrag",
+        "quote": "Ist entsprechend dem Schwerbehindertenausweis für den Behinderten eine Begleitperson erforderlich, wird diese auf Antrag vom Kurbeitrag befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bei Familien mit mehr als vier beitragspflichtigen Kindern ist jedes weitere Kind kurbeitragsfrei; zur Familie zählen nur die Ehegatten und ihre wirtschaftlich abhängigen Kinder.",
+        "quote": "Bei Familien, mit mehr als vier beitragspflichtigen Kindern, ist jedes weitere Kind kurbeitragsfrei."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages.",
+      "source": "grundsatzung"
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb der Frist im Kurbeitragsbescheid, frühestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Beitrag ist innerhalb der auf dem Kurbeitragsbescheid angegebenen Frist, frühestens jedoch einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen.",
+      "source": "grundsatzung"
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du unverzüglich, spätestens am Tag nach der Anreise, schriftlich oder über das System Pfronten-Card an die Gemeinde.",
+      "quote": "die Meldung der Kurbeitragspflichtigen unverzüglich, spätestens am Tag nach der Anreise, an die Gemeinde schriftlich bzw. mit dem EDV-System „Pfronten-Card“ weiterzuleiten.",
+      "source": "grundsatzung"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/pfronten/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Übriges Jahr",
+        "ranges": [
+          [
+            "01-01",
+            "10-31"
+          ],
+          [
+            "12-16",
+            "12-31"
+          ]
+        ],
+        "adult": 240,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "1. November bis 15. Dezember",
+        "ranges": [
+          [
+            "11-01",
+            "12-15"
+          ]
+        ],
+        "adult": 120,
+        "children": [
+          0,
+          75
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Übriges Jahr",
+            "ranges": [
+              [
+                "01-01",
+                "10-31"
+              ],
+              [
+                "12-16",
+                "12-31"
+              ]
+            ],
+            "adult": 240,
+            "children": [
+              0,
+              150
+            ]
+          },
+          {
+            "label": "1. November bis 15. Dezember",
+            "ranges": [
+              [
+                "11-01",
+                "12-15"
+              ]
+            ],
+            "adult": 120,
+            "children": [
+              0,
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Übriges Jahr",
+            "ranges": [
+              [
+                "01-01",
+                "10-31"
+              ],
+              [
+                "12-16",
+                "12-31"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0,
+              120
+            ]
+          },
+          {
+            "label": "1. November bis 15. Dezember",
+            "ranges": [
+              [
+                "11-01",
+                "12-15"
+              ]
+            ],
+            "adult": 90,
+            "children": [
+              0,
+              60
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

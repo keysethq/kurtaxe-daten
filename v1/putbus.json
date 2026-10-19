@@ -1,0 +1,314 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "putbus",
+  "name": "Stadt Putbus",
+  "short": "Putbus",
+  "ags": "13073070",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "2. Änderungssatzung zur Neufassung der Satzung der Stadt Putbus über die Erhebung einer Kurabgabe, Putbusser Nachrichten Sonderdruck Nr. 7/2025 (mit dem Volltext der Satzung)",
+      "url": "https://putbus.de/wp-content/uploads/2026/01/2.-Aenderungssatzung-Kurabgabesatzung.pdf",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "d59afdbe05068d13d9d53ed41a758fbf4333b3a2f2abd2909ab8926a4af1368b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe der Stadt Putbus (Fremdenverkehrsabgabesatzung, FVAS), Beschluss vom 25.08.2014",
+      "url": "https://putbus.de/stadt-putbus/wp-content/uploads/sites/3/2025/09/Fremdenverkehrsabgabe.pdf",
+      "kind": "statute",
+      "inForce": "2014-10-01",
+      "sha256": "ea666c9c974d830be46e05a21a8a10d87adde45f7b3ac84aec6af8917aeee9a8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Fremdenverkehrsabgabepflichtig sind alle Personen und Personenvereinigungen (hierzu zählen auch private Kleinvermieter), denen durch den Fremdenverkehr im Gebiet der Stadt Putbus"
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "Betriebe die Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten vermieten Betten 10,00 € / Bett"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 5,
+          "reading": "Betriebe die Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten vermieten Betten 10,00 € / Bett"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 5,
+          "reading": "03. Camping-/Zelt-\\Nohnmobilstellplätze Schiffsliegeplätze a) Stellplätze b) Liegeplätze a) 10,00€ b) 10,00 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 5,
+          "reading": "03. Camping-/Zelt-\\Nohnmobilstellplätze Schiffsliegeplätze a) Stellplätze b) Liegeplätze a) 10,00€ b) 10,00 €"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "Der Abgabepflichtige sowie sein Vertreter hat der Stadt Putbus - Eigenbetrieb / Bereich Tourismus bis zum 25. Juli jeden Jahres unaufgefordert die erforderlichen Angaben gemäß $ 5 dieser Satzung zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i. S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Stadt Putbus - Eigenbetrieb / Bereich Tourismus - anzuzeigen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 5,
+          "reading": "Abgabesatz pro Jahr"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Merkmale der Einstufung (Bettenzahl, Fläche, Sitzplätze, Zahl der Beschäftigten usw.) werden nach den Verhältnissen am 15. Juli jeden Jahres ermittelt."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 3,
+          "reading": "Für Betriebe oder Tätigkeiten, die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Endet eine abgabepflichtige Tätigkeit im laufenden Kalenderjahr, so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "Die Heranziehung erfolgt durch schriftlichen Bescheid der Stadt Putbus - Eigenbetrieb / Bereich Tourismus."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Kurabgabe beträgt pro Tag und Person einschließlich der gesetzlichen Mehrwertsteuer a) in der Hauptsaison (vom 01. Mai bis 31. Oktober) 2,50 EUR"
+        },
+        "children": [
+          {
+            "underAge": 8,
+            "cents": 0,
+            "quote": "Kinder im Alter bis einschließlich 7 Jahre,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 125,
+          "quote": "b) in der Nebensaison (vom 01. November bis 30. April) 1,25 EUR"
+        },
+        "children": [
+          {
+            "underAge": 8,
+            "cents": 0,
+            "quote": "Kinder im Alter bis einschließlich 7 Jahre,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte ab 80 % Grad der Behinderung gegen Vorlage des amtlichen Ausweises",
+        "quote": "Schwerbehinderte ab 80% GdB gegen Vorlage des entsprechenden amtlichen Ausweises."
+      },
+      {
+        "text": "Halter und Besitzer von Assistenzhunden, für die Abgabe für den Hund",
+        "quote": "Halter und Besitzer von Assistenzhunden für die Zahlung der Abgabe für den Hund, wenn die Berechtigung zum Mitführen des Assistenzhundes im Ausweis des Halters/Besitzers eingetragen ist."
+      },
+      {
+        "text": "Nicht abgabepflichtig sind Einwohner mit Hauptwohnsitz in Putbus und ihre Verwandten ersten Grades sowie Personen, die dort in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen, ein genehmigtes Gewerbe betreiben oder sich nur vorübergehend zur Berufsausübung aufhalten.",
+        "quote": "Abgabepflichtig sind nicht Einwohner mit Hauptwohnsitz im Erhebungsgebiet sowie deren Verwandte 1. Grades sowie Personen, die in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen oder einem vom Gewerbeamt genehmigten Gewerbe nachgehen oder sich nur vorrübergehend zur Ausübung ihres Berufes im Erhebungsgebiet aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagesgäste ohne Übernachtung zahlen 1,50 € ganzjährig.",
+        "quote": "Die Kurabgabe beträgt für Tagesgäste (§3 Abs. 2) 1,50 EUR ganzjährig"
+      },
+      {
+        "text": "Wer in Putbus eine eigene Wohnung oder ein eigenes Ferienhaus überwiegend zur Erholung nutzt, zahlt eine Jahreskurabgabe von 75,00 € pro Person.",
+        "quote": "Die Jahreskurabgabe für kurabgabepflichtige Eigentümer und Besitzer von Wohngelegenheiten und deren Familienangehörige (§3 Abs. 4, 6) beträgt pro Person und Kalenderjahr 75,00 EUR"
+      },
+      {
+        "text": "Du haftest als Vermieter für die Abgabenschuld deiner Gäste.",
+        "quote": "Der Gastgeber haftet für die Abgabenschuld seine Kurgäste."
+      },
+      {
+        "text": "Wenn du deine Melde- und Abrechnungspflichten nicht erfüllst und der Gast die Kurabgabe selbst in der Kurverwaltung zahlt, werden dir jährlich 25 % des eingezahlten Betrags als Verwaltungsaufwand in Rechnung gestellt.",
+        "quote": "Kommt ein Gastgeber bzw. sein Beauftragter seinen Melde-/Abrechnungspflichten nicht nach und nimmt der Gast die Anmeldung und Zahlung der Kurabgabe selbst in der Kurverwaltung vor, wird dem Gastgeber jährlich ein Verwaltungsaufwand von 25 % des eingezahlten Kurbeitrages in Rechnung gestellt."
+      },
+      {
+        "text": "Boots- und Schiffseigner mit jährlichem Dauerliegeplatz in Putbus und ihre Familienangehörigen zahlen eine Jahreskurabgabe von 37,50 € pro Person.",
+        "quote": "Die Jahreskurabgabe für Boots-/Schiffseigner mit jährlichem Dauerliegeplatz in Putbus und deren Familienangehörige beträgt pro Person und Kalenderjahr 37,50 EUR"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet jeden Gast zur Kurabgabe an und ab und zieht die Kurabgabe ein.",
+      "quote": "Wer Ortsfremde beherbergt oder Wohnraum, einen Stellplatz oder Liegeplatz ortsfremden Personen gegen Entgelt zur Verfügung stellt (Gastgeber) ist verpflichtet, jeden Ortsfremden zur Kurabgabe an- und abzumelden und die Kurabgabe einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Kurverwaltung rechnet monatlich mit dir ab; eine längere Abrechnungsfrist vereinbarst du schriftlich mit ihr.",
+      "quote": "Die Rechnungslegung erfolgt monatlich durch den Eigenbetrieb/Kurverwaltung. Eine verlängerte Abrechnungsfrist ist mit dem Eigenbetrieb der Stadt Putbus/Kurverwaltung schriftlich zu vereinbaren."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Verfahren der Kurverwaltung (AVS-Meldeschein).",
+      "quote": "In der Stadt Putbus wird das elektronische Verfahren „AVS-Meldeschein“ angewandt. Begründete Ausnahmen werden individuell geregelt."
+    },
+    "area": {
+      "text": "Die Kurabgabe gilt nur in der Stadt Putbus mit den Ortsteilen Putbus, Alt Lanschvitz, Altkamp, Beuchow, Freetz, Groß Stresow, Güstelitz, Kasnevitz, Ketelshagen, Klein Stresow, Krakvitz, Krimvitz, Lauterbach, Lonvitz, Muglitz, Neuendorf, Neukamp, Vilmnitz und Wreechen.",
+      "quote": "Die Kurabgabe wird in der Stadt Putbus mit den Ortsteilen Putbus, Alt Lanschvitz, Altkamp, Beuchow, Freetz, Groß Stresow, Güstelitz, Kasnevitz, Ketelshagen, Klein Stresow, Krakvitz, Krimvitz, Lauterbach, Lonvitz, Muglitz, Neuendorf, Neukamp, Vilmnitz und Wreechen als staatlich anerkannter Erholungsort erhoben."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Putbus Vorteile bringt; private Kleinvermieter nennt die Satzung ausdrücklich.",
+      "quote": "Fremdenverkehrsabgabepflichtig sind alle Personen und Personenvereinigungen (hierzu zählen auch private Kleinvermieter), denen durch den Fremdenverkehr im Gebiet der Stadt Putbus"
+    },
+    "letting": [
+      {
+        "label": "Betriebe, die Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten vermieten",
+        "quote": "Betriebe die Betten, Zimmer, Wohnungen und sonstige Schlafgelegenheiten vermieten Betten 10,00 € / Bett",
+        "flat": {
+          "cents": 1000,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Camping-, Zelt- und Wohnmobilstellplätze",
+        "quote": "03. Camping-/Zelt-/Wohnmobilstellplätze Schiffsliegeplätze a) Stellplätze b) Liegeplätze a) 10,00€ b) 10,00 €",
+        "flat": {
+          "cents": 1000,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 25. Juli jedes Jahres teilst du dem Eigenbetrieb Tourismus der Stadt Putbus unaufgefordert mit, was er für die Berechnung braucht; beginnst du neu, zeigst du das spätestens 4 Wochen nach dem Start an.",
+      "quote": "Der Abgabepflichtige sowie sein Vertreter hat der Stadt Putbus — Eigenbetrieb / Bereich Tourismus bis zum 25. Juli jeden Jahres unaufgefordert die erforderlichen Angaben gemäß § 5 dieser Satzung zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i. S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Stadt Putbus — Eigenbetrieb / Bereich Tourismus - anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Tabelle nennt den Abgabesatz pro Jahr.",
+        "quote": "Abgabesatz pro Jahr"
+      },
+      {
+        "text": "Merkmale wie die Bettenzahl gelten nach den Verhältnissen am 15. Juli jedes Jahres.",
+        "quote": "Merkmale der Einstufung (Bettenzahl, Fläche, Sitzplätze, Zahl der Beschäftigten usw.) werden nach den Verhältnissen am 15. Juli jeden Jahres ermittelt."
+      },
+      {
+        "text": "Beginnst du erst nach dem 30. September mit der Vermietung, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Für Betriebe oder Tätigkeiten, die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+      },
+      {
+        "text": "Endest du im Lauf des Jahres, wird dir für jeden vollen Kalendermonat ohne Abgabepflicht ein Zwölftel erstattet.",
+        "quote": "Endet eine abgabepflichtige Tätigkeit im laufenden Kalenderjahr, so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet."
+      },
+      {
+        "text": "Den Bescheid erlässt der Eigenbetrieb Tourismus der Stadt Putbus.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid der Stadt Putbus — Eigenbetrieb / Bereich Tourismus."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/putbus/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      8
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "04-30"
+          ]
+        ],
+        "adult": 125,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

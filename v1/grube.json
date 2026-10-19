@@ -1,0 +1,168 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "grube",
+  "name": "Grube",
+  "short": "Grube",
+  "ags": "01055018",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Grube (Lesefassung inkl. 4. Änderung)",
+      "url": "https://www.groemitz.eu/fileadmin/Dateien/Satzungen/Grube/Aktuell/Grube_Tourismusabgabe_ab_2022_Lesefassung_inkl._4_%C3%84nd.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a23fd685d64874c55d65fe1e2e4713bdb2350ad3d70548d801c95f8be68823eb",
+      "verifiedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Verwaltungsgemeinschaft Grömitz, Satzungen der Gemeinde Grube, Stichwort Steuern, Abgaben, Finanzen",
+      "url": "https://www.groemitz.eu/grube/buerger-ratsinformationssystem/satzungen-und-verordnungen/Ort/grube/Stichwort/steuern-abgaben-finanzen",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "179919b00d1b1e2f308f54f46a35e6e9ed586fd70c852a4ab8ba699c732657dc",
+      "verifiedOn": "2026-10-15",
+      "hashOf": "quotes"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Grube steht unter „Steuern, Abgaben, Finanzen“ keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Tourismusabgabe Grube"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Abgabepflichtig sind alle, die selbstständig tourismusbezogene Leistungen gegen Entgelt anbieten und denen der Tourismus Vorteile bietet; Ferienwohnungen und -häuser führt die Anlage ausdrücklich auf.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten und denen der Tourismus in der Gemeinde Grube unmittelbare und mittelbare wirtschaftliche Vorteile bietet."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und sonstige Ferienunterkünfte",
+        "quote": "Fe.-Wo./-app./-häuser, sonst. Ferien- Anzahl der vorhan- A1 unterkünfte denen Schlafgeleje Schlaf-gele- A2 Hotel / Pension genheiten (bei Kin- Anzahl 12,50 €",
+        "flat": {
+          "cents": 1250,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Hotel und Pension",
+        "quote": "Hotel / Pension genheiten (bei Kin- Anzahl 12,50 €",
+        "flat": {
+          "cents": 1250,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Campingplätze",
+        "quote": "A4 Campingplatzbetreiber Anzahl je Stellplatz 9,40 €",
+        "flat": {
+          "cents": 940,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du machst die Angaben zur Abgabe bis zum 31. Juli eines jeden Jahres und zeigst Beginn und Ende deiner Tätigkeit innerhalb eines Monats an.",
+      "quote": "Die Pflichtigen haben alle für die Ermittlung der Abgabeschuld erforderlichen Angaben bis zum 31.07. eines jeden Jahres zu machen, insbesondere auch den Beginn und das Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig, wenn der Bescheid keinen späteren Termin nennt.",
+      "quote": "Die Abgabe wird innerhalb eines Monats nach Bekanntgabe des Bescheides fällig, soweit der Bescheid nicht ausdrücklich einen späteren Fälligkeitstermin bestimmt."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Abgabe wird als Jahresabgabe erhoben.",
+        "quote": "Die Abgabe wird als Jahresabgabe erhoben und beträgt"
+      },
+      {
+        "text": "Gezählt werden die gegen Entgelt bereitgehaltenen Schlafgelegenheiten.",
+        "quote": "Anzahl der zur Beherbergung gegen Entgelt bereitgehaltenen Schlafgelegenheiten oder Stellplätze"
+      },
+      {
+        "text": "Die Merkmale für die Einstufung werden nach den Verhältnissen am 30. Juni eines jeden Jahres ermittelt.",
+        "quote": "Die Merkmale der Einstufung nach § 4 werden nach den Verhältnissen am 30.06. eines jeden Jahres ermittelt."
+      },
+      {
+        "text": "Beginnst du im Lauf des Jahres mit der Vermietung, beginnt deine Abgabepflicht mit dem Beginn des Kalendermonats, in dem du anfängst.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit im Laufe eines Jahres aufgenommen, beginnt die Abgabepflicht mit Beginn des Kalendermonats der Tätigkeitsaufnahme."
+      },
+      {
+        "text": "Fängst du nach dem 30. Juni an, werden die Merkmale für die Einstufung nach den Verhältnissen am ersten Tag des Folgemonats ermittelt.",
+        "quote": "Beginnt die abgabepflichtige Tätigkeit nach dem 30.06. eines Jahres werden die Merkmale der Einstufung abweichend von § 6 Abs. 1 Satz 2 nach den Verhältnissen am ersten Tag des Folgemonats der Tätigkeitsaufnahme ermittelt."
+      },
+      {
+        "text": "Die Abgabepflicht endet mit dem Ablauf des Kalendermonats, in dem du die Tätigkeit aufgibst.",
+        "quote": "Die Abgabepflicht endet mit dem Ablauf des Kalendermonats, in dem die abgabepflichtige Tätigkeit aufgegeben wird."
+      },
+      {
+        "text": "Vermietest du nur saisonal, gilt das nicht als Aufgabe der Tätigkeit.",
+        "quote": "Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+      },
+      {
+        "text": "Die Gemeinde setzt die Abgabe durch schriftlichen Bescheid fest.",
+        "quote": "Die Tourismusabgabe wird durch schriftlichen Bescheid festgesetzt."
+      },
+      {
+        "text": "Wer seine Mitwirkungspflichten nach § 7 Abs. 1 der Satzung nicht erfüllt, handelt ordnungswidrig; die Geldbuße kann bis zu 500 Euro betragen.",
+        "quote": "handelt, wer seine Mitwirkungspflichten nach § 7 Abs. 1 dieser Satzung nicht erfüllt. (2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu fünfhundert Euro geahndet werden."
+      },
+      {
+        "text": "Auch ohne Betriebssitz in der Gemeinde bist du abgabepflichtig, wenn deine Leistung dort gelegene Objekte, zum Beispiel Grundstücke, umfasst.",
+        "quote": "Der Abgabepflicht unterliegen auch solche Tätigkeiten im Sinne von Absatz 1, die ohne Betriebssitz, Filialsitz oder dauernde Geschäftsstelle im Gemeindegebiet 1. vorübergehend dort ausgeübt werden oder 2. deren Leistungsgegenstand dort gelegene Objekte (z. B. Grundstücke oder Grundstücksteile, Anschlüsse an Leitungen oder markierte ständige Treffpunkte) umfasst."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/grube/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und sonstige Ferienunterkünfte",
+        "cents": 1250,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "12,50 € je Bett im Jahr."
+      },
+      {
+        "label": "Hotel und Pension",
+        "cents": 1250,
+        "per": 1,
+        "unit": "Betten",
+        "rate": "12,50 € je Bett im Jahr."
+      },
+      {
+        "label": "Campingplätze",
+        "cents": 940,
+        "per": 1,
+        "unit": "Stellplätze",
+        "rate": "9,40 € je Stellplatz im Jahr."
+      }
+    ]
+  }
+}

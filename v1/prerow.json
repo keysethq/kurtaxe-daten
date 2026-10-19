@@ -1,0 +1,195 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "prerow",
+  "name": "Ostseebad Prerow",
+  "short": "Prerow",
+  "ags": "13073067",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurabgabe in der Gemeinde Ostseebad Prerow (Kurabgabensatzung), Beschluss der Gemeindevertretung vom 18. Dezember 2025",
+      "url": "https://www.darss-fischland.de/de/gemeinden/ostseebad-prerow/satzungen/satzung-kurabgabe-prerow-ab-01.01.2026.pdf?cid=f0d",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "e387bfc98ba4e657a4c11eddc332593cf590c3b60f6d1b4fd5202b44ce5ee137",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseebad Prerow, Nr. 88/23, in der Fassung der 2. Änderung vom 21.12.2023",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/prerow/fremdenverkehrsabgabesatzung/2-aenderungssatzung/fremdenverkehrsabgabesatzung-2.-aenderung-text.pdf?cid=3tj",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "0c00b150e8315f5cee4481b12eb5a3c8bba27ea9c9b67c8b157d46b7b535ca5d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und der Abreisetag werden als jeweils ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Die Kurabgabe beträgt pro Person und Aufenthaltstag ganzjährig 2,50 Euro."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres bei Nachweis des Lebensalters"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitpersonen, wenn das Merkzeichen B im Ausweis steht",
+        "quote": "Schwerstbehinderte mit einer Behinderung von 100 % und Begleitpersonen, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Satz enthält die gesetzliche Mehrwertsteuer.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Auf Antrag und gegen Nachweis zahlen Schüler, Studenten im Direktstudium, Auszubildende und Freiwilligendienstleistende sowie Menschen mit einem Grad der Behinderung ab 70 die Hälfte.",
+        "quote": "Auf Antrag und Nachweis der Voraussetzungen erhalten: (1) Schüler, Studenten im Direktstudium, Auszubildende, freiwillig Wehr- und Bundes- freiwilligendienstleistende eine Ermäßigung um 50%, (2) Schwerbehinderte Personen mit mindestens 70% Grad der Behinderung eine Ermäßigung um 50 % (Erwachsene und Kinder)."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 90,00 € zahlen; Eigentümer von Zweitwohnungen müssen sie zahlen.",
+        "quote": "Der Abgabepflichtige kann anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe in Höhe von 90 Euro zahlen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie am Tag der Ankunft und zieht die Kurabgabe für den gesamten geplanten Aufenthalt ein.",
+      "quote": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. eines jeden Monats für den Vormonat.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat beim Kurbetrieb abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird über das elektronische Melde- und Kurabgabenabrechnungssystem des Kurbetriebs; auf Antrag befreit der Kurbetrieb bei unbilliger Härte.",
+      "quote": "das von dem Kurbetrieb unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Prerow unmittelbar oder mittelbar Vorteile bringt.",
+      "quote": "Abgabepflichtig sind Personen und Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde Vorteile (unmittelbar oder mittelbar) geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "a) in den Fällen des § 3 Abs. 1a) 22,50 €/Bett",
+        "flat": {
+          "cents": 2250,
+          "per": "Fremdenbett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Den Beginn deiner Vermietung teilst du dem Kurbetrieb unverzüglich mit, Änderungen zeigst du ihm bis zum 31. Oktober jedes Jahres an.",
+      "quote": "haben dem Kurbetrieb die Aufnahme der abgabepflichtigen Tätigkeiten und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe oder der Vorausleistung unverzüglich mitzuteilen. Änderungen sind bis zum 31.Oktober jedes Jahres beim Kurbetrieb anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 30 Tage nach Bekanntgabe des Bescheids; bei mehr als 100 € kannst du Ratenzahlung beantragen.",
+      "quote": "Die Abgabe ist innerhalb von 30 Tagen nach Bekanntgabe des Heranziehungsbescheides fällig. Bei Abgaben über 100,00 € kann auf Antrag Ratenzahlung zugelassen werden."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben und Zimmervermietern werden die Fremdenbetten gezählt, die bis zum 1. Juli jedes Jahres vorhanden sind und gegen Entgelt zur Beherbergung bereitgehalten werden.",
+        "quote": "Bei Beherbergungsbetrieben und Zimmervermietern nach der Zahl der bis 01. Juli jedes Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Die Anlage der Satzung führt auch die Vermietung von Ferienwohnungen, -appartements und -häusern sowie von Gästezimmern auf.",
+        "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern Vermietung von Gästezimmern"
+      },
+      {
+        "text": "Fängst du nach dem 1. Juli mit der Vermietung an oder hörst du vor dem 1. Juli auf, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01. Juli oder das Ende der abgabepflichtigen Tätigkeit vor dem 1. Juli eines Jahres, so kann die Jahresabgabe auf Antrag um 50 von 100 ermäßigt werden."
+      },
+      {
+        "text": "Eine nebenberufliche Tätigkeit, die eine Person mit weniger als 5 Wochenstunden ausübt, ist abgabefrei.",
+        "quote": "Handelt es sich bei dem Betrieb um eine nebenberufliche Tätigkeit, die nur von einer Person ausgeführt wird, deren wöchentliche Arbeitszeit unter 5 Stunden liegt, entfällt die Abgabepflicht."
+      },
+      {
+        "text": "Die Gemeinde zieht die Abgabe über ihren Kur- und Tourismusbetrieb ein.",
+        "quote": "Die Fremdenverkehrsabgabe wird vom Kur- und Tourismusbetrieb der Gemeinde Ostseebad Prerow, Gemeindeplatz 1 in 18375 Ostseebad Prerow, (nachfolgend Kurbetrieb) für die Gemeinde Ostseebad Prerow (nachfolgend Gemeinde) eingezogen."
+      },
+      {
+        "text": "Du zahlst die Abgabe für jeden Betrieb gesondert, wenn du aus mehreren Betrieben oder Tätigkeiten Vorteile ziehst.",
+        "quote": "Zieht ein Abgabepflichtiger aus mehreren Betrieben oder Tätigkeiten Vorteile, so ist die Abgabe für jeden Betrieb bzw. jede Tätigkeit gesondert zu entrichten."
+      },
+      {
+        "text": "Den Bescheid erlässt das Amt Darß/Fischland für die Gemeinde.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch das Amt Darß/Fischland für die Gemeinde."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/prerow/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "groemitz",
+  "name": "Grömitz",
+  "short": "Grömitz",
+  "ags": "01055016",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Grömitz, ausgefertigt am 18.12.2025, bekannt gemacht am 18.12.2025 auf www.groemitz.eu",
+      "url": "https://www.groemitz.eu/fileadmin/Dateien/Satzungen/Gr%C3%B6mitz/Aktuell/Groemitz_Kurabgabe_ab_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "e12f22eae8da360ca86deeed70af1cc0807f6f894eb53d1f4b2fea886cd4c097",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Grömitz (Lesefassung inkl. 4. Änderung)",
+      "url": "https://www.groemitz.eu/fileadmin/Dateien/Satzungen/Gr%C3%B6mitz/Aktuell/Groemitz_Tourismusabgabe_ab_2022_Lesefassung_inkl._4_%C3%84nd.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "50dc430329cf07875eb93e910fdbabf047f11bacc164032053d27478b3dc2fa6",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten jeweils als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "zones": [
+      {
+        "label": "Grömitz und Lensterstrand",
+        "area": {
+          "text": "Der erste Satz gilt für Grömitz und Lensterstrand.",
+          "quote": "Grömitz/Lensterstrand Erholungsorte a) Nebensaison 2,50 EUR 1,80 EUR"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              },
+              {
+                "from": "12-25",
+                "to": "01-03"
+              }
+            ],
+            "adult": {
+              "cents": 400,
+              "quote": "Grömitz/Lensterstrand Erholungsorte a) Nebensaison 2,50 EUR 1,80 EUR b) Hauptsaison 4,00 EUR 2,50 EUR"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              {
+                "from": "01-04",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-24"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "Grömitz/Lensterstrand Erholungsorte a) Nebensaison 2,50 EUR 1,80 EUR b) Hauptsaison 4,00 EUR 2,50 EUR"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Erholungsorte",
+        "area": {
+          "text": "Der zweite Satz gilt für die als Erholungsorte anerkannten Ortsteile der Gemeinde; die Satzung zählt sie nicht einzeln auf.",
+          "quote": "aufgrund ihrer Anerkennung als Kurort (Ostseebad bzw. Erholungsorte)"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              },
+              {
+                "from": "12-25",
+                "to": "01-03"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "Grömitz/Lensterstrand Erholungsorte a) Nebensaison 2,50 EUR 1,80 EUR b) Hauptsaison 4,00 EUR 2,50 EUR"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              {
+                "from": "01-04",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-24"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "Grömitz/Lensterstrand Erholungsorte a) Nebensaison 2,50 EUR 1,80 EUR b) Hauptsaison 4,00 EUR 2,50 EUR"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und eine ständige Begleitperson mit Merkzeichen B",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, sowie eine ständige Begleitperson, wenn dieses durch den Eintrag \"B\" auf der Vorderseite des Schwerbehindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Auf Antrag Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "auf Antrag Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Einrichtungen nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Gruppenreisen und Betriebsausflüge ab 20 Personen zahlen auf vorherigen Antrag 50 %",
+        "quote": "Teilnehmer/innen an Sammelreisen und Betriebsausflügen (ab 20 Personen) erhalten auf vorherigen Antrag (bei Aufenthalten mit Übernachtung durch den Vermieter) bei dem Tourismus-Service Grömitz eine Ermäßigung der Kurabgabepflicht in Höhe von 50 %."
+      },
+      {
+        "text": "Wer nur beruflich oder zur Ausbildung im Ort ist und die Einrichtungen nicht nutzt",
+        "quote": "vorübergehend Anwesende aufgrund der Ausübung ihres Dienstes, ihres Berufs, oder ihrer Ausbildung für den Zeitraum der Tätigkeit"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Nur vom 1. bis 3. Januar 2026 galt als Übergang 2,00 € in Grömitz und Lensterstrand und 1,40 € in den Erholungsorten.",
+        "quote": "Übergangsregelung: In der Übergangszeit der Saisonzeitenänderung gilt vom 01.01.2026 bis 03.01.2026 ein Abgabesatz für Grömitz/Lensterstrand in Höhe von 2,00 EUR und für die Erholungsorte in Höhe von 1,40 EUR."
+      },
+      {
+        "text": "Auf Antrag wird die Kurabgabe pauschal für 28 Tage der Hauptsaison im Jahr berechnet (Jahrespauschale).",
+        "quote": "auf 28 Tage der Hauptsaisonzeit pauschaliert (Jahrespauschale), wenn der/die Kurabgabepflichtige a) einen entsprechenden Antrag stellt"
+      },
+      {
+        "text": "Die Jahresostseecard kostet 112,00 € in Grömitz und Lensterstrand und 70,00 € in den Erholungsorten.",
+        "quote": "c) Jahresostseecard (Jahreskurabgabe) 112,00 EUR 70,00 EUR"
+      },
+      {
+        "text": "Ermäßigungen darfst du als Vermieter nicht selbst gewähren; der Gast beantragt sie vor der Ankunft beim Tourismus-Service Grömitz.",
+        "quote": "Anträge auf Ermäßigung der Kurabgabepflicht sind mit Begründung schriftlich vor Ankunft beim Tourismus-Service Grömitz zu stellen. Der Wohnungsgeber ist nicht berechtigt, Ermäßigungen zu gewähren."
+      },
+      {
+        "text": "Du führst ein Gästeverzeichnis, in das jeder Gast am Tag der Ankunft eingetragen wird; Mietverträge können es ersetzen.",
+        "quote": "Die Unterkunftsgeber haben selbst oder durch ihre Bevollmächtigten bzw. Beauftragten ein Gästeverzeichnis zu führen, in das alle aufgenommenen Personen am Tage der Ankunft einzutragen sind."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe für jede ostseecard und zieht sie beim Gast ein.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm ausgehändigte ostseecard die Kurabgabe zu errechnen, diese vom Gast einzuziehen"
+    },
+    "deadline": {
+      "text": "Du führst die Kurabgabe binnen 14 Tagen nach Rechnung des Tourismus-Service Grömitz ab oder erteilst ein Lastschriftmandat.",
+      "quote": "an den Tourismus-Service Grömitz innerhalb von 14 Tagen nach Rechnungsstellung kostenfrei abzuführen, oder aber dem Tourismus-Service Grömitz die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird für alle Vermieter im Onlineverfahren, spätestens am Tag nach der Ankunft des Gastes.",
+      "quote": "Bei einer Datenerfassung über das Onlineverfahren des Tourismus-Service Grömitz wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Ankunft des Gastes an den Tourismus-Service Grömitz erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Grömitz selbständig tourismusbezogene Leistungen gegen Entgelt anbietest, also auch, wenn du Ferienwohnungen vermietest.",
+      "quote": "(1) Abgabepflichtig sind natürliche und juristische Personen sowie Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten und denen der Tourismus in der Gemeinde Grömitz unmittelbare und/oder mittelbare wirtschaftliche Vorteile bietet."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen ohne Frühstück, Umsatz bis 50.000 €",
+        "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels /Pensionen 101 18% 100% (ohne Frühstück): Umsatz bis 50 T€",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels /Pensionen 101 18% 100% (ohne Frühstück): Umsatz bis 50 T€"
+          },
+          "profit": {
+            "percent": 18
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen ohne Frühstück, Umsatz über 50.000 €",
+        "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels /Pensionen 102 14% 100% (ohne Frühstück): Umsatz über 50 T€",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels /Pensionen 102 14% 100% (ohne Frühstück): Umsatz über 50 T€"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen mit Frühstück",
+        "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels/Pensionen mit 103 12% 100% Frühstück",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohngelegenheiten außer Hotels/Pensionen mit 103 12% 100% Frühstück"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen garni (mit Frühstück)",
+        "quote": "105 Hotels/Pensionen garni (mit Frühstück) 10% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "105 Hotels/Pensionen garni (mit Frühstück) 10% 100%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Teil- oder Vollverpflegung",
+        "quote": "104 Hotels/Pensionen mit Teil- oder Vollverpflegung 7% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "104 Hotels/Pensionen mit Teil- oder Vollverpflegung 7% 100%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "quote": "108 Zeltplätze, Campingplätze 10% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "108 Zeltplätze, Campingplätze 10% 100%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Sonstige Unterkünfte",
+        "quote": "109 sonstige Unterkünfte 10% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "109 sonstige Unterkünfte 10% 100%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 6.8,
+      "quote": "Der Abgabesatz beträgt 6,8 %."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne die ans Finanzamt abgeführte Umsatzsteuer.",
+      "quote": "Vom Pflichtigen auf die erzielten Einnahmen an das Finanzamt entrichtete bescheinigte Umsatzsteuern sind von den erzielten Bruttoeinnahmen abzusetzen."
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "(3) Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 EUR nicht übersteigt.",
+      "cents": 500,
+      "kind": "threshold"
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jeden Jahres gibst du auf dem Formblatt der Gemeinde die Erklärung über deine Einnahmen ab, oder innerhalb eines Monats nach schriftlicher Aufforderung der Gemeinde.",
+      "quote": "2. bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gem. § 4 Abs. 4, 5 und 6 abzugeben"
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Abgabebescheids fällig.",
+      "quote": "(2) Die Tourismusabgabe ist innerhalb eines Monats nach Bekanntgabe des Abgabebescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind die Einnahmen des Vorjahres.",
+        "quote": "(4) Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "In der Tabelle der Anlage steht der Gewinnsatz vor dem Vorteilssatz, beide in Prozent.",
+        "quote": "Bezeichnung der Betriebsart Gewinnsatz Vorteilssatz Nr. (bzw. Berufs- oder Personengruppe) (%) (%)"
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Gemeinde innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Fängst du im Laufe eines Kalenderjahres an, zählen im Jahr des Starts und im Folgejahr die Einnahmen des jeweiligen Erhebungszeitraums.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Abs. 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/groemitz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-25",
+            "01-03"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-04",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-24"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Grömitz und Lensterstrand",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ],
+              [
+                "12-25",
+                "01-03"
+              ]
+            ],
+            "adult": 400,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              [
+                "01-04",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-24"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Erholungsorte",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ],
+              [
+                "12-25",
+                "01-03"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              [
+                "01-04",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-24"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

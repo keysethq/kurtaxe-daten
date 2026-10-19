@@ -1,0 +1,183 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "gersfeld-rhoen",
+  "name": "Stadt Gersfeld (Rhön)",
+  "short": "Gersfeld (Rhön)",
+  "ags": "06631010",
+  "state": "Hessen",
+  "district": "Fulda",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Gersfeld (Rhön) über die Erhebung eines Kurbeitrages (Kurtaxe) und eines Tourismusbeitrages vom 15.12.2022",
+      "url": "https://www.gersfeld.de/files/gersfeld/downloads/rathaus/verwaltung-satzungen/Kur%20-%20u.%20Tourismusbeitragssatzung%20-Beschluss%20StaVo-%2021.07.22.%20und%2015.12.2022.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "17da01511580818697c5709cbf18b33363fbd3e6e01a482e581996e5d17aa6a2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "nachtrag1": {
+      "title": "I. Nachtrag zur Satzung der Stadt Gersfeld (Rhön) über die Erhebung eines Kurbeitrages (Kurtaxe) und eines Tourismusbeitrages vom 20.11.2025 (ändert § 10)",
+      "url": "https://www.gersfeld.de/files/gersfeld/downloads/rathaus/verwaltung-satzungen/Kurbeitragssatzung%20I.%20Nachtrag.pdf",
+      "kind": "statute",
+      "sha256": "da0f4a6d9fd1863943e240a51e6b4c63f2ce38dcc640206509af395de834cc8a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "reporting",
+          "page": 1,
+          "reading": "Die Meldungen haben grundsätzlich unter Verwendung des, von der Stadt Gersfeld (Rhön) vorgegebenen, digitalen Meldesystems zu erfolgen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens und der Tag der Abreise werden bei der Beitragsfestsetzung zusammen als ein Tag angerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 210,
+          "quote": "Der Kurbeitrag beträgt ab der Vollendung des 14. Lebensjahres pro Person und Tag Euro 2,10."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 14. Lebensjahres;"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 21,
+      "perStay": false,
+      "text": "höchstens 21 Tage je Kalenderjahr",
+      "quote": "Die Kurbeitragspflicht oder Tourismusbeitragspflicht besteht im Kalenderjahr längstens für 21 Tage."
+    },
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich in deren Wohnung und nicht überwiegend zu Erholungs- und Kurzwecken wohnen, zahlen nichts.",
+        "quote": "Familienbesucher der Einwohner der in §§ 1 und 2 genannten Stadtteile, sofern sich diese in deren Wohnung unentgeltlich und nicht überwiegend zu Erholungs- und Kurzwecken aufhalten;"
+      },
+      {
+        "text": "Besucher von Jugendherbergen zahlen nichts, ausgenommen Erwachsene, die unter keinen anderen Befreiungstatbestand fallen.",
+        "quote": "Besucher von Jugendherbergen mit Ausnahme Erwachsener, die unter keinen anderen Befreiungstatbestand fallen;"
+      },
+      {
+        "text": "Schwerbehinderte, die laut Ausweis auf eine Begleitperson angewiesen sind, und ihre Begleitperson zahlen nichts.",
+        "quote": "Schwerbehinderte, die laut amtlichem Schwerbehindertenausweis auf eine Begleitperson angewiesen sind, einschließlich der Begleitperson;"
+      },
+      {
+        "text": "Zweitwohnungsinhaber, die zweitwohnungssteuerpflichtig sind, zahlen nichts.",
+        "quote": "Zweitwohnungsinhaber, die nach der Zweitwohnungssteuersatzung der Stadt Gersfeld (Rhön) zweitwohnungssteuerpflichtig sind;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer sich zur Berufsausübung oder für berufliche Aus- und Fortbildung im Ort aufhält, zahlt 0,50 € je Tag.",
+        "quote": "Für Personen, die sich zur örtlichen Ausübung ihres Berufes oder zu beruflichen Aus- und Fortbildungszwecken im Erhebungsgebiet aufhalten, beträgt der Kur- oder der Tourismusbeitrag EURO 0,50 pro Person und Tag."
+      },
+      {
+        "text": "In den Stadtteilen außerhalb der Kernstadt heißt die Abgabe Tourismusbeitrag und beträgt ebenfalls 2,10 € je Person und Tag.",
+        "quote": "Der Tourismusbeitrag beträgt ab der Vollendung des 14. Lebensjahres pro Person und Tag Euro 2,10."
+      },
+      {
+        "text": "Im Betrag steckt die ermäßigte Umsatzsteuer.",
+        "quote": "In den vorgenannten Beträgen ist die ermäßigte Umsatzsteuer nach § 12 Abs. 2 Nr. 9 Umsatzsteuergesetz enthalten."
+      },
+      {
+        "text": "Du stellst dem Gast über den gezahlten Beitrag eine Kur- oder Gästekarte aus.",
+        "quote": "Über den gezahlten Kurbeitrag oder Tourismusbeitrag wird dem Gast vom Vermieter, nach den Vorgaben der Stadt Gersfeld (Rhön), eine Bescheinigung, eine Kur- oder Gästekarte, ausgestellt und ausgehändigt."
+      },
+      {
+        "text": "Du musst die Satzung deinen Gästen durch Aushang an einer geeigneten Stelle zur Kenntnis bringen.",
+        "quote": "die sie ihren Gästen durch Aushang an einer geeigneten Stelle zur Kenntnis zu bringen haben."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet den Kurbeitrag monatlich unaufgefordert mit der Stadt ab.",
+      "quote": "Der Kurbeitrag oder der Tourismusbeitrag ist von den Vermietern monatlich unaufgefordert mit der Stadt Gersfeld (Rhön) unter Nutzung eines, von der Stadt Gersfeld (Rhön) vorgegebenen, Meldeweges abzurechnen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird monatlich, ohne Aufforderung der Stadt.",
+      "quote": "ist von den Vermietern monatlich unaufgefordert mit der Stadt Gersfeld (Rhön)"
+    },
+    "reporting": {
+      "text": "Gemeldet wird grundsätzlich über das digitale Meldesystem der Stadt.",
+      "quote": "Die Meldungen haben grundsätzlich unter Verwendung des, von der Stadt Gersfeld (Rhön) vorgegebenen, digitalen Meldesystems zu erfolgen",
+      "source": "nachtrag1"
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person eines Familienhausstands zahlt nichts.",
+      "quote": "Die Fünfte und jede weitere Person eines Familienhausstandes."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/gersfeld-rhoen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 21,
+    "maxPerStay": false,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 210,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kuehlungsborn",
+  "name": "Ostseebad Kühlungsborn",
+  "short": "Kühlungsborn",
+  "ags": "13072060",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Stadt Ostseebad Kühlungsborn (Kurabgabesatzung) vom 09.11.2022, Amtliches Bekanntmachungsblatt der Stadt Ostseebad Kühlungsborn Nr. 10/2022",
+      "url": "https://www.stadt-kuehlungsborn.de/amtsblatt?_hash=VDT_HtULXg6_u_JbRLIIlF1B5S69vjiEKU0tOaBanLI&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A860%3B%7D&p=content%2Faktuelles%2Famtsblatt%2F2022%2FAmtliches+Bekanntmachungsblatt+2022-10+%28PDF%29.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "sha256": "3622f7f99ac0ade4037eb4b9c596737aad742d0de4921a867930316ddb73b350",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "ortsrecht": {
+      "title": "Kurabgabesatzung ab 01.01.2023, Ortsrecht der Stadt Ostseebad Kühlungsborn",
+      "url": "https://www.stadt-kuehlungsborn.de/ortsrecht?_hash=j8umk5eTn5narTHqYPIodYsgfGt2EaX28-81o3Qaix8&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A407%3B%7D&p=content%2Fservice%2Fortsrecht%2Feigenbetrieb-fremdenverkehr%2FKurabgabesatzung+ab+01.01.2023.pdf",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "a03bf672df780e84ca4a4b6849b4ad8036e03cae5b2d7096f1a152f1522090da",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Stadt Ostseebad Kühlungsborn (Fremdenverkehrsabgabesatzung) vom 18.12.2006, mit Anlage 1",
+      "url": "https://www.stadt-kuehlungsborn.de/ortsrecht?_hash=EhxlSwvaXaHfu8Wt24_6vAfWHiKKB2SM-iKuSirozIQ&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A407%3B%7D&p=content%2Fservice%2Fortsrecht%2Feigenbetrieb-fremdenverkehr%2FFremdenverkehrsabgabesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2007-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "90c23e99849caba200aabfd4eb96c2d57114d69253f34b65f82e2fa7d1c76729",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a. in der Hauptsaison EUR 3,00"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres (16. Geburtstag – 1 Tag),"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 160,
+          "quote": "b. in der Nebensaison EUR 1,60"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres (16. Geburtstag – 1 Tag),"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+        "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises; Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern, von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+        "quote": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 69,00 € zahlen.",
+        "quote": "Die Jahreskurabgabe beträgt EUR 69,00 für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+      },
+      {
+        "text": "Vermieter müssen die gültige Kurabgabesatzung für ihre Gäste auslegen und Fragen zur Kurabgabe beantworten.",
+        "quote": "die jeweils aktuell gültige Satzung der Gemeinde Stadt Ostseebad Kühlungsborn über die Erhebung einer Kurabgabe an geeigneter Stelle für die Gäste auszulegen und den Gästen über Fragen, die die Entrichtung der Kurabgabe betreffen, Auskunft zu erteilen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Bis zum 5. eines Monats leitest du die Meldescheine des Vormonats an die Kurabgabestelle weiter und führst die Kurabgabe unbar ab.",
+      "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Stadt Ostseebad Kühlungsborn (Kurabgabestelle) - eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Stadt Ostseebad Kühlungsborn (Kurabgabestelle) elektronisch zu erfolgen und - die Kurabgabe unbar abzuführen;"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen der Kurabgabestelle oder über das elektronische Meldesystem; ab acht Betten ist das elektronische Meldesystem Pflicht.",
+      "quote": "entweder die von der Kurabgabestelle der Stadt Ostseebad Kühlungsborn zur Verfügung gestellten besonderen Meldescheine für Beherbergungsstätten nach § 27 LMG M-V bereitzustellen und zu nutzen oder das elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;",
+      "source": "ortsrecht"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr in Kühlungsborn Vorteile bringt.",
+      "quote": "Abgabepflichtig sind alle selbständig tätigen natürlichen und juristischen Personen und alle selbständig tätigen Personenvereinigungen, denen durch den Fremdenverkehr in der Stadt Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Appartements und Gästezimmer ohne hotelmäßige Leistungen",
+        "quote": "4. Fewo/Appartements/Gästezimmer 4.1 ohne hotelmäßige Leistungen 12",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, Appartements und Gästezimmer mit hotelmäßigen Leistungen",
+        "quote": "4. Fewo/Appartements/Gästezimmer 4.1 ohne hotelmäßige Leistungen 12 4.2 mit hotelmäßigen Leistungen 7",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension, Umsatz bis 130.000 €",
+        "quote": "3.Hotel Garni / Pensionen Wirtsch. Umsatz bis 130 T€ 3",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 3
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension, Umsatz über 130.000 €",
+        "quote": "3.Hotel Garni / Pensionen Wirtsch. Umsatz bis 130 T€ 3 Wirtsch. Umsatz über 130 T€ 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- und Vollverpflegung, Umsatz bis 360.000 €",
+        "quote": "2. Hotels/Pensionen mit Teil- und Vollverpflegung Wirtsch. Umsatz bis 360 T€ 5",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- und Vollverpflegung, Umsatz über 360.000 €",
+        "quote": "2. Hotels/Pensionen mit Teil- und Vollverpflegung Wirtsch. Umsatz bis 360 T€ 5 Wirtsch. Umsatz über 360 T€ 3",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 3
+          }
+        }
+      },
+      {
+        "label": "Campingplätze",
+        "quote": "5.3 Campingplätze 12",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100%"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 6.5,
+      "quote": "Die Abgabe beträgt 6,5 v. H. des Messbetrages (§ 5)."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen des Vorjahres ohne Umsatzsteuer.",
+      "quote": "Der Vorteil richtet sich nach den Einnahmen nach Abzug der Umsatzsteuer. Maßgebend sind die Einnahmen des Jahres, das dem Erhebungszeitraum vorangegangen ist."
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe weniger als 10 €, wird sie nicht erhoben.",
+      "quote": "Sie wird nicht erhoben, wenn sie weniger als 10,- € beträgt.",
+      "cents": 1000,
+      "kind": "below"
+    },
+    "reporting": {
+      "text": "Die Aufnahme und die Beendigung deiner Tätigkeit meldest du der Stadt innerhalb eines Monats; die Angaben zur Berechnung machst du auf Anforderung (Abgabeerklärung).",
+      "quote": "haben der Stadt die Aufnahme und die Beendigung der abgabepflichtigen Tätigkeit innerhalb eines Monats von sich aus und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen (Abgabeerklärung)."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabeschuld wird einen Monat nach Bekanntgabe des Abgabebescheides zur Zahlung fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Körperschaften, Anstalten und Stiftungen des öffentlichen Rechts sind befreit, es sei denn, sie stehen mit privatwirtschaftlichen Unternehmen im Wettbewerb.",
+        "quote": "Von der Abgabe sind befreit die Körperschaften, Anstalten und Stiftungen des öffentlichen Rechts, es sei denn, sie stehen mit privatwirtschaftlichen Unternehmen im Wettbewerb."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Alle Zeilen stehen in Vorteilsstufe 5 mit einem Vorteilssatz von 100 Prozent.",
+        "quote": "Vorteilsstufe 5 100%"
+      },
+      {
+        "text": "Der Messbetrag ist deine Einnahme ohne Umsatzsteuer mal Mindestgewinnsatz mal Vorteilssatz; davon zahlst du 6,5 Prozent.",
+        "quote": "Dieser ergibt sich, indem die Einnahmen nach Abzug der Umsatzsteuer mit dem Mindestgewinnsatz/Reingewinnsatz (Abs. 3) und dem Vorteilssatz (Abs. 2) multipliziert werden."
+      },
+      {
+        "text": "Der Mindestgewinnsatz folgt der Richtsatzsammlung für Gewerbebetriebe des Jahres vor dem Erhebungszeitraum, und zwar ihrem niedrigsten Reingewinnsatz.",
+        "quote": "Der Mindestgewinnsatz ist auf Grundlage der Reingewinnsätze der Richtsatzsammlung für Gewerbebetriebe des Bundesministeriums für Finanzen für das dem Erhebungszeitraum vorangegangene Jahr festgelegt, wobei von dem niedrigsten Reingewinnsatz ausgegangen wird."
+      },
+      {
+        "text": "Für die in der Anlage genannten Betriebsarten ist der Mindestgewinnsatz in der Anlage bestimmt; das sind die Gewinnsätze, mit denen die Zeilen oben rechnen.",
+        "quote": "Der Mindestgewinnsatz für die in Spalte 2 der Anlage 1 genannten Personen und Personenvereinigungen ist in Spalte 3 der Anlage bestimmt."
+      },
+      {
+        "text": "Fängst du erst im Laufe eines Jahres an, zählen die Einnahmen des laufenden Jahres.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit zu Beginn oder im Laufe eines Kalenderjahres aufgenommen, sind abweichend von Abs. 2 im Jahr der Tätigkeitsaufnahme die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/kuehlungsborn/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 160,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

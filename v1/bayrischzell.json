@@ -1,0 +1,220 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bayrischzell",
+  "name": "Gemeinde Bayrischzell",
+  "short": "Bayrischzell",
+  "ags": "09182112",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages in der Gemeinde Bayrischzell (Kurbeitragssatzung) vom 17.09.2025",
+      "url": "https://gemeinde.bayrischzell.de/fileadmin/Dateien/Cross7/Root/de/Rathaus/Satzungen,_Verordnungen/Kurbeitragssatzung-25-09-17.pdf",
+      "kind": "statute",
+      "inForce": "2025-12-01",
+      "sha256": "3bc8b2cf7d286d50f0fabbe0fc1d04f1c21607a085851a869fa77a5142d01c94",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrags der Gemeinde Bayrischzell vom 21.12.1978",
+      "url": "https://gemeinde.bayrischzell.de/fileadmin/Dateien/Dateien/Rathaus/Satzungen__Verordnungen/FV-BEITRAGSSATZUNG-78-12-21.pdf",
+      "kind": "statute",
+      "inForce": "1979-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "c3cb0639647bdcba19bc267e103aa0898b3299bed7a641ae58a0a992569be32c",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) für Personen ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr."
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche bei Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Personen, die ausschließlich zur Berufsausübung im Kurgebiet übernachten, etwa Monteure oder Messebesucher",
+        "quote": "Personen, die ausschließlich zum Zweck der Berufsausübung im Kurgebiet übernachten (z. B. Bauarbeiter, Monteure, Messebesucher)."
+      },
+      {
+        "text": "Schwerbeschädigte mit Ausweis (B, aG, Bl oder H) oder mit einem Grad der Behinderung ab 80, auf Antrag",
+        "quote": "Schwerbeschädigte mit dem Ausweis und Zusatz „B“, „aG“, „BI“ und / oder „H“ und / oder GdB >=80 %"
+      },
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbeschädigten mit Ausweis, auf Antrag",
+        "quote": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagungs- und Seminargäste zahlen 1,50 Euro.",
+        "quote": "c) für Tagungs- und Seminargäste 1,50 €"
+      },
+      {
+        "text": "Die Umsatzsteuer ist in den Beträgen enthalten.",
+        "quote": "In den vorstehenden Beträgen ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Der Kurbeitrag wird das ganze Jahr erhoben.",
+        "quote": "Der Kurbeitrag wird ganzjährig erhoben."
+      },
+      {
+        "text": "Die Gästekarte stellst du als Gastgeber auf den Namen des Gastes aus.",
+        "quote": "Die Gästekarte wird auf den Namen des Kurbeitragspflichtigen vom Gastgeber ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Seit dem 1. Dezember 2025 ist das elektronische Meldeverfahren der Gemeinde Pflicht; auf Antrag kann die Gemeinde bei unbilliger Härte davon befreien.",
+        "quote": "Die Nutzung des elektronischen Meldewesens ist ab dem 01.12.2025 für alle nach § 7 Abs. 1 Meldepflichtigen verpflichtend."
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du unverzüglich, spätestens am Tag nach der Anreise, bei der Gemeinde, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "unverzüglich, spätestens am Tag nach der Anreise, bei der Gemeinde zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bayrischzell Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 4,
+      "quote": "Der Beitragssatz beträgt 4 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns bzw. des steuerbaren Umsatzes. Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,05 und 0,50 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 – 5 v.H. 0,05 v.H. über 5 – 10 v.H. 0,15 v.H. über 10 – 15 v.H. 0,25 v.H. über 15 – 20 v.H. 0,35 v.H. über 20 v.H. 0,50 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, in dem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 1. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 1.7. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bayrischzell/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

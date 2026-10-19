@@ -1,0 +1,361 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "gohrisch",
+  "name": "Gemeinde Gohrisch",
+  "short": "Gohrisch",
+  "ags": "14628140",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "aenderung1": {
+      "title": "1. Satzung zur Änderung der Satzung der Gemeinde Gohrisch über die Erhebung einer Gästetaxe (Gästetaxesatzung) vom 29.12.2021",
+      "url": "https://admin-storage.munipolis.com/10358/custom_pages/f52fea9a-2993-4162-a02b-a4d4f1b3dd5b.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "a04667c6fcc6deb6dcb182077586c6e151c404b64e4c205de622f849bff3824d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Die Gästetaxe beträgt, ab dem 01. Januar 2022, je Person und Aufenthaltstag 2,30 EUR, inklusive der laut Umsatzsteuergesetz festgelegten Umsatzsteuer.",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Die Gästetaxe wird auf 1,80 EUR, inklusive der laut Umsatzsteuergesetz festgelegten Umsatzsteuer, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "Die Gästetaxe wird auf 1,80 EUR, inklusive der laut Umsatzsteuergesetz festgelegten Umsatzsteuer, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Teilnehmer an Schulfahrten"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundestkleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr, Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminare"
+        }
+      ]
+    },
+    "satzung": {
+      "title": "Satzung der Gemeinde Gohrisch über die Erhebung einer Gästetaxe (Gästetaxesatzung) vom 10.04.2018",
+      "url": "https://admin-storage.munipolis.com/10358/custom_pages/3309a1d0-2e5a-4ef1-9426-19e6c84efb1b.pdf",
+      "kind": "statute",
+      "sha256": "9843e4299cace4a4059d5abd1efa3298984cd35bc473d1dca62ccc0d3b7612b5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "exemptions[3]",
+          "page": 1,
+          "reading": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Diese beträgt für Gästetaxepflichtige nach $ 2 Absatz 1 Satz 3 26,00 € inkl. der It. Umsatzsteuergesetz festgesetzten Umsatzsteuer und für Gästetaxepflichtige nach 8 2 Absatz 2 15,00 €"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 5,
+          "reading": "Die Aufbewahrung und Abrechnung der Gästetaxe hat getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Der in $ 8 Absatz 1 genannte Personenkreis hat die Gästetaxe incl. der Umsatzsteuer von den gästetaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "erhalten die Quartiergeber im Sinne von & 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Terminen zur Zahlung fällig."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 15. Werktag des Folgemonats zuzuleiten."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Gohrisch über die Erhebung einer Tourismusabgabe vom 09.05.2019",
+      "url": "https://admin-storage.munipolis.com/10358/custom_pages/a49c8a4d-5ceb-43e1-b108-cb44eee77197.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "8fc147fb68b63252af9724c6ad327e932198a7c561fe59e9c6af6c90a8944eb5",
+      "verifiedOn": "2026-10-15",
+      "textLayer": "broken",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 3,
+          "reading": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 3,
+          "reading": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 3,
+          "reading": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 3,
+          "reading": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "in einem Hotel, Gasthof oder Pension, in einer Ferienwohnung oder bei sonstiger Beherbergung"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "aenderung1",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 230,
+          "quote": "Die Gästetaxe beträgt, ab dem 01. Januar 2022, je Person und Aufenthaltstag 2,30 EUR, inklusive der laut Umsatzsteuergesetz festgelegten Umsatzsteuer."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 180,
+            "quote": "Die Gästetaxe wird auf 1,80 EUR, inklusive der laut Umsatzsteuergesetz festgelegten Umsatzsteuer, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      },
+      {
+        "text": "Teilnehmer an Schulfahrten zahlen nichts.",
+        "quote": "Teilnehmer an Schulfahrten"
+      },
+      {
+        "text": "Kleingärtner in Anlagen nach dem Bundeskleingartengesetz zahlen nichts, wenn sie den Status behördlich nachweisen.",
+        "quote": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundestkleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+      },
+      {
+        "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+        "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch wer aus beruflichen Gründen im Ort übernachtet, zahlt die Gästetaxe.",
+        "quote": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Der ermäßigte Satz von 1,80 € gilt auch für Schüler, Studenten und Auszubildende von 18 bis unter 27 Jahren, für Menschen mit einem Grad der Behinderung ab 50 und für Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren.",
+        "quote": "Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr, Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminare"
+      },
+      {
+        "text": "Eigentümer von Wochenendhäusern, Datschen und Lauben zahlen statt der Nächte eine Jahresgästetaxe von 26,00 €, Nebenwohnsitz-Inhaber 15,00 €.",
+        "quote": "Diese beträgt für Gästetaxepflichtige nach § 2 Absatz 1 Satz 3 26,00 € inkl. der lt. Umsatzsteuergesetz festgesetzten Umsatzsteuer und für Gästetaxepflichtige nach § 2 Absatz 2 15,00 €",
+        "source": "satzung"
+      },
+      {
+        "text": "Du bewahrst die eingezogene Gästetaxe getrennt vom Betriebsvermögen auf, bei der Kasse wie beim Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe hat getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung.",
+        "source": "satzung"
+      },
+      {
+        "text": "Du haftest gegenüber der Gemeinde für das Einziehen und Abführen der Gästetaxe.",
+        "quote": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung.",
+        "source": "satzung"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe einschließlich Umsatzsteuer von ihnen ein und führt sie an die Gemeinde ab.",
+      "quote": "Der in § 8 Absatz 1 genannte Personenkreis hat die Gästetaxe incl. der Umsatzsteuer von den gästetaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen.",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Nach deiner Meldung bekommst du eine Abrechnung der Gemeinde und zahlst zu den dort genannten Terminen.",
+      "quote": "erhalten die Quartiergeber im Sinne von § 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Terminen zur Zahlung fällig.",
+      "source": "satzung"
+    },
+    "reporting": {
+      "text": "Eine Mehrfertigung jedes Meldescheins reichst du bis zum 15. Werktag des Folgemonats bei der Gemeindeverwaltung ein.",
+      "quote": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 15. Werktag des Folgemonats zuzuleiten.",
+      "source": "satzung"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig Tätige oder Tätiger, wenn dir der Tourismus in Gohrisch unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt; ausdrücklich genannt sind Vermieter von Ferienwohnungen.",
+      "quote": "Personen und Unternehmen im Sinne des Abs. 1 sind: a) Inhaber von Beherbergungsbetrieben (Hotels, Gasthöfen, Pensionen und Kurheimen), Vermieter von Ferienwohnungen, sonstige Personen und Unternehmen, die Erholungssuchende gegen Entgelt beherbergen,"
+    },
+    "letting": [
+      {
+        "label": "Hotel, Gasthof, Pension, Ferienwohnung oder sonstige Beherbergung",
+        "quote": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €",
+        "flat": {
+          "cents": 3000,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Wohnwagen-, Caravan-, Camping- und Zeltplätze",
+        "quote": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €",
+        "flat": {
+          "cents": 2000,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Die Angaben für die Abgabe von Vermietern entnimmt die Gemeinde den elektronisch erfassten Daten der Gästetaxe.",
+      "quote": "gemäß § 2 Abs. 2 a) werden auf der Grundlage der elektronisch erfassten Daten der Gästetaxe ermittelt."
+    },
+    "deadline": {
+      "text": "Die Abgabe kommt per Bescheid und ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Abgabe wird für den jeweiligen Erhebungszeitraum durch schriftlichen Bescheid festgesetzt. Die Abgabe wird einen Monat nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Satzung fasst Hotel, Gasthof, Pension, Ferienwohnung und sonstige Beherbergung in einer Zeile zusammen.",
+        "quote": "in einem Hotel, Gasthof oder Pension, in einer Ferienwohnung oder bei sonstiger Beherbergung"
+      },
+      {
+        "text": "Für jede Aufbettung sind es 15 € im Jahr.",
+        "quote": "je Bett je Aufbettung je Stellplatz je Bus/Kleinbus je Taxe je Kutsche je Mietwagen je Fahrrad je Quad je Spielautomat mit Gewinn je Spielautomat ohne Gewinn je Warenautomat 30,00 € 15,00 € 20,00 €"
+      },
+      {
+        "text": "Es ist eine Jahresabgabe, der Erhebungszeitraum ist das Kalenderjahr.",
+        "quote": "Die Abgabe wird jährlich erhoben. Der Erhebungszeitraum ist das Kalenderjahr."
+      },
+      {
+        "text": "Für die Festsetzung zählen die Verhältnisse zum 1. Juli.",
+        "quote": "Für die Festsetzung der Abgabe sind die Verhältnisse zum 01.07. maßgeblich."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/gohrisch/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 230,
+        "children": [
+          0,
+          180
+        ]
+      }
+    ]
+  }
+}

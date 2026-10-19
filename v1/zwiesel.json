@@ -1,0 +1,130 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "zwiesel",
+  "name": "Stadt Zwiesel",
+  "short": "Zwiesel",
+  "ags": "09276148",
+  "state": "Bayern",
+  "district": "Regen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung des Kurbeitrages (Kurbeitragssatzung – KBS) der Stadt Zwiesel vom 3. Dezember 2025",
+      "url": "https://www.zwiesel.de/media/user_upload/stadt_zwiesel_Kurbeitragssatzung_01_01_2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "98cd0a7cc5ba8015dbbea36c9ff47a30ac6c6acb242df9726592661d1dfd908e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei Kurbeitragspflichtigen, die im Kurgebiet übernachten, werden die Tage der An- und Abreise als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 360,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 3,60 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Personen bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 180,
+            "quote": "2. für Personen vom vollendeten 6. bis zur Vollendung des 16. Lebensjahres 1,80 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 zahlen auf Antrag die Hälfte: 1,80 € ab 16 Jahren und 0,90 € von 6 bis 15 Jahren",
+        "quote": "(3) Auf Antrag wird der Kurbeitrag ermäßigt 1. für schwerbehinderte Personen ab dem vollendeten 16. Lebensjahr mit mindestens 100 % Grad der Behinderung auf 1,80 € 2. für schwerbehinderte Personen vom vollendeten 6. bis zum vollendeten 16. Lebensjahr mit mindestens 100 % Grad der Behinderung auf 0,90 €."
+      },
+      {
+        "text": "Wer sich aus beruflichen Gründen in Zwiesel aufhält und keine Möglichkeit hat, die Kureinrichtungen zu nutzen",
+        "quote": "Vom Kurbeitrag befreit sind Personen, die sich aus beruflichen Gründen in Zwiesel aufhalten und keine Möglichkeit haben, die Kureinrichtungen zu nutzen"
+      },
+      {
+        "text": "Wer einen schwerbehinderten Menschen mit der Berechtigung zur Mitnahme einer Begleitperson begleitet",
+        "quote": "einen schwerbehinderten Menschen mit der Berechtigung zur Mitnahme einer Begleitperson begleiten."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Stadt dafür, dass er eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Stadt kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am Tag nach der Ankunft, elektronisch oder schriftlich, soweit sie sich nicht selbst gemeldet haben.",
+      "quote": "Beitragspflichtigen spätestens am Tag nach Ihrer Ankunft elektronisch oder schriftlich zu melden, sofern sich diese nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/zwiesel/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 360,
+        "children": [
+          0,
+          180
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "glottertal",
+  "name": "Glottertal",
+  "short": "Glottertal",
+  "ags": "08315041",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Glottertal, Gemeinderatsbeschluss vom 28.10.2021",
+      "url": "https://www.gemeinde-glottertal.de/eip/eip_media.php?f=Satzung+uber+die+Erhebung+einer+Kurtaxe.11.21.pdf&m=422&i=26&fl=51722697&d=63a",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "0ffe00ca269e38bff12d2b9bb1699fba26f7bc3c1548c7cf14447b0ee7fcc620",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 16. Lebensjahr."
+        },
+        {
+          "where": "oneNight",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 2 Tage aufhalten (Passanten mit einer Übernachtung)."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 2 Tage aufhalten (Passanten mit einer Übernachtung)."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100 sowie kranke und schwerbehinderte Personen, solange sie nicht in der Lage sind, Kureinrichtungen und Veranstaltungen zu besuchen."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Die Begleitperson eines Behinderten mit einem GdB von 100, der laut amtlichem Ausweis auf ständige Begleitung angewiesen ist.",
+          "digitsUnread": true
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Teilnehmer von Schullandheimaufenthalten."
+        },
+        {
+          "where": "exemptions[5]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten"
+        },
+        {
+          "where": "exemptions[6]",
+          "page": 1,
+          "reading": "die in der Gemeinde Glottertal arbeiten oder Ausbildung stehen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Auf Antrag werden Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten, für die Dauer der ersten drei Tage des Aufenthaltes von der Kurtaxe befreit. Dies gilt nicht für mitreisende Personen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen mit einem Grad der Behinderung von 50-90 um 50 %."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Der Gastgeber ist verpflichtet, dem Gast eine KONUS-Gästekarte auszuhändigen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils nach der im Bescheid angegebenen Fälligkeit zu entrichten."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "innerhalb von zwei Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "aenderung2024": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Glottertal, Gemeinderatsbeschluss vom 16.05.2024",
+      "url": "https://www.gemeinde-glottertal.de/eip/eip_media.php?f=Satzung+zur+Anderung+der+Kurtaxesatzung.5.24.pdf&m=422&i=27&fl=51722697&d=138",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "f890b389feebdf8c416f812abd5d75c714bed1e4c7e6886653da79cfdad2963b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,10 €."
+        }
+      ]
+    },
+    "aenderung2026": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Glottertal, Gemeinderatsbeschluss vom 27.11.2025",
+      "url": "https://www.gemeinde-glottertal.de/eip/eip_media.php?f=Satzung+zur+Anderung+der+Kurtaxesatzung.1.26.pdf&m=422&i=28&fl=51722697&d=26c",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "a6b0b393d0bec091525e17f3691446ed6a546e8a6c211bc22bb1636048413dca",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "Kurtaxepflichtig sind darüber hinaus ortsfremde Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde Glottertal aufhalten."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Glottertal über die Erhebung eines Beitrages zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Beschluss vom 08.07.1999",
+      "url": "https://www.gemeinde-glottertal.de/eip/eip_media.php?f=Satzung_Fremdenverkehrbeitrag.6.01.pdf&m=422&i=15&fl=51722697&d=f90",
+      "kind": "statute",
+      "inForce": "1999-01-01",
+      "sha256": "17fd79ef0258677eb654a8e1637a80d2fd3733ec341825b92cdcc96c0a1969e9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvbAe": {
+      "title": "Satzung zur Änderung der Fremdenverkehrsbeitragssatzung der Gemeinde Glottertal, Beschluss vom 15.12.2005",
+      "url": "https://www.gemeinde-glottertal.de/eip/eip_media.php?f=Satzung_Anderung_Fremdenverkehrsbeitragssatzung.12.05.pdf&m=422&i=16&fl=51722697&d=576",
+      "kind": "statute",
+      "inForce": "2006-01-01",
+      "sha256": "4b91513b753e182b9c9c3488f691a9e015a22fb06f850debcb8d4a4ea9122b17",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 210,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,10 €.",
+          "source": "aenderung2024"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 16. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Ortsfremde, die höchstens 2 Tage in der Gemeinde bleiben (Passanten mit einer Übernachtung)",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 2 Tage aufhalten (Passanten mit einer Übernachtung)."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 sowie Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100 sowie kranke und schwerbehinderte Personen, solange sie nicht in der Lage sind, Kureinrichtungen und Veranstaltungen zu besuchen."
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit einem Grad der Behinderung von 100, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "Die Begleitperson eines Behinderten mit einem GdB von 100, der laut amtlichem Ausweis auf ständige Begleitung angewiesen ist."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      },
+      {
+        "text": "Ortsfremde, die sich aus beruflichen Gründen in der Gemeinde aufhalten, zum Beispiel Monteure",
+        "quote": "Ortsfremde Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "die in der Gemeinde Glottertal arbeiten oder Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer beruflich an einer Tagung oder Veranstaltung teilnimmt, ist auf Antrag für die ersten drei Tage des Aufenthalts befreit; mitreisende Personen nicht.",
+        "quote": "Auf Antrag werden Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten, für die Dauer der ersten drei Tage des Aufenthaltes von der Kurtaxe befreit. Dies gilt nicht für mitreisende Personen."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 50 bis 90 zahlen auf Antrag die Hälfte.",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 50-90 um 50 %."
+      },
+      {
+        "text": "Kurtaxepflichtig sind auch ortsfremde Personen, die sich beruflich zur Teilnahme an Tagungen oder Veranstaltungen in der Gemeinde aufhalten.",
+        "source": "aenderung2026",
+        "quote": "Kurtaxepflichtig sind darüber hinaus ortsfremde Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde Glottertal aufhalten."
+      },
+      {
+        "text": "Du händigst jedem Gast eine KONUS-Gästekarte aus; damit fahren die Gäste kostenlos mit Bus und Bahn im Schwarzwald.",
+        "quote": "Der Gastgeber ist verpflichtet, dem Gast eine KONUS-Gästekarte auszuhändigen."
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats zahlst du zu der Fälligkeit, die im Bescheid der Gemeinde steht.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils nach der im Bescheid angegebenen Fälligkeit zu entrichten."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von zwei Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von zwei Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "oneNight": {
+      "cents": 0,
+      "text": "Wer nur eine Nacht bleibt, zahlt nichts (Passanten mit einer Übernachtung).",
+      "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 2 Tage aufhalten (Passanten mit einer Übernachtung)."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Glottertal selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Glottertal aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe einschließlich der privaten Zimmervermieter (Bettengeld)",
+        "quote": "Der Beitrag beträgt für die Beitragspflichtigen nach § 3 Abs. 2.1 0,15 € je Person und Übernachtung (Bettengeld).",
+        "perNight": {
+          "cents": 15,
+          "perGuest": true
+        },
+        "source": "fvbAe"
+      }
+    ],
+    "reporting": {
+      "text": "Du gibst dem Bürgermeisteramt über alle Übernachtungen Auskunft.",
+      "quote": "Bei der Veranlagung nach § 3 Abs. 2.1 haben die Beitragspflichtigen dem Bürgermeisteramt über alle Übernachtungen Auskunft zu erteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheids zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben einschließlich der privaten Zimmervermieter richtet sich der Beitrag nach der Zahl der erreichten Übernachtungen.",
+        "quote": "Bei Beherbergungsbetrieben einschließlich der privaten Zimmervermieter durch die Zahl der erreichten Übernachtungen nach Maßgabe des § 4 der Satzung"
+      },
+      {
+        "text": "Bei Ferienwohnungs- und Privatzimmervermietern sind mit dem Bettengeld die wirtschaftlichen Vorteile aller Umsätze durch Übernachtung einschließlich Frühstück abgegolten.",
+        "quote": "Ferienwohnung- und Privatzimmervermieter) sind mit dem Bettengeld (§ 6 Abs. 1) die wirtschaftlichen Vorteile aller Umsätze durch Übernachtung einschließlich Frühstück abgegolten"
+      },
+      {
+        "text": "Der Beitrag entsteht am letzten Aufenthaltstag der beherbergten Person.",
+        "quote": "Der Beitrag nach den §§ 4 und 6 Abs. 1 (Bettengeld) entsteht am letzten Aufenthaltstag der beherbergten Person in der Gemeinde."
+      },
+      {
+        "text": "Für Umsätze von Beherbergungsbetrieben und privaten Zimmervermietern, die das Bettengeld nicht abgilt, und für alle anderen Beitragspflichtigen beträgt der Beitrag 5,5 % des Messbetrags; für kleine Beträge nennt die Satzung noch eine Grenze in DM, unter der kein Beitrag erhoben wird.",
+        "quote": "Für Beherbergungsbetriebe und private Zimmervermieter – soweit nicht nach Abs. 1 i.V. mit § 4 abgegolten – und für alle anderen Beitragspflichtigen nach § 3 Abs. 2.2 beträgt der Beitrag für ein Haushaltsjahr 5,5 v. H. des Messbetrages nach § 5 Abs. 2 und 3. Der Beitrag wird nicht erhoben, wenn er voraussichtlich weniger als 10, -- DM beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/glottertal/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 210,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "oneNight": 0
+  }
+}

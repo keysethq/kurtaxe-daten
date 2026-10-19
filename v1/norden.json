@@ -1,0 +1,330 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "norden",
+  "name": "Stadt Norden",
+  "short": "Norden",
+  "ags": "03452019",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Auszug aus der Gästebeitragssatzung der Stadt Norden vom 07.12.2017, zuletzt geändert durch 8. Änderungssatzung vom 04.11.2025 (Fassung ab 01.01.2026), Stadt Norden",
+      "url": "https://www.norden.de/loadDocument.phtml?FID=3170.4616.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "f743c7b1acf360c5cb4d71c13df488464713ec0604ef2bbcceb9e3a041cbb63e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Auszug aus der Tourismusbeitragssatzung der Stadt Norden vom 07.12.2017, zuletzt geändert durch 8. Änderungssatzung vom 04.11.2025 (Fassung ab 01.01.2026), Stadt Norden",
+      "url": "https://www.norden.de/loadDocument.phtml?FID=3170.4617.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "5a4e3313357220ed2d18577b8e7ceb9b17195360d9ecf00228217ce8466ee66a",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Zahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Er beträgt pro Übernachtung für Personen ab 14 Jahren: in der Hauptsaison: 3,50 Euro in der übrigen Zeit: 1,80 Euro"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "a) Kinder bis einschließlich 13 Jahre,"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-14"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "Er beträgt pro Übernachtung für Personen ab 14 Jahren: in der Hauptsaison: 3,50 Euro in der übrigen Zeit: 1,80 Euro"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "a) Kinder bis einschließlich 13 Jahre,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 % zahlen nichts.",
+        "quote": "b) schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80 %,"
+      },
+      {
+        "text": "Die Begleitperson eines schwerbehinderten Menschen zahlt nichts, wenn die Berechtigung zur Begleitung im Ausweis eingetragen ist.",
+        "quote": "c) eine Begleitperson eines schwerbehinderten Menschen, wenn die Berechtigung zur Mitnahme einer Begleitperson durch Eintragung im Ausweis des schwerbehinderten Menschen nachgewiesen ist."
+      },
+      {
+        "text": "Wer nur zur Berufsausübung, zum Schulbesuch oder zur Ausbildung in Norden ist, zahlt nichts.",
+        "quote": "b) Personen, die sich nur zur Berufsausübung, zum Schulbesuch oder zur Ausbildung im Gebiet der Stadt Norden aufhalten,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Entgelt in deren Haushalt aufgenommen werden, zahlen nichts.",
+        "quote": "Schwäger und Schwägerinnen von Personen, die im Gebiet der Stadt Norden ihre alleinige Wohnung oder Hauptwohnung im Sinne des Bundesmeldegesetzes haben oder in einem Arbeits- oder Ausbildungsverhältnis stehen, wenn sie ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt im ganzen Stadtgebiet von Norden, nicht nur in Norddeich.",
+        "quote": "erhebt die Stadt Norden, im gesamten Gebiet der Stadt Norden, einen Gästebeitrag."
+      },
+      {
+        "text": "Auch befreite Gäste bekommen eine Gästekarte, wenn sie vom Gästebeitrag befreit sind.",
+        "quote": "An die vom Gästebeitrag zu befreienden Personen im Sinne von § 3 Abs. 1 Buchstaben a) bis c) ist eine Gästekarte entsprechend § 7 Abs. 4 Satz 1 auszugeben."
+      },
+      {
+        "text": "Du legst die Satzung in der vermieteten Unterkunft gut sichtbar aus.",
+        "quote": "d) diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      },
+      {
+        "text": "Du haftest dafür, dass der Gästebeitrag rechtzeitig eingezogen und vollständig abgeliefert wird.",
+        "quote": "haften für die rechtzeitige Einziehung und vollständige Ablieferung des Gästebeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt jedem Gast innerhalb von 24 Stunden nach der Ankunft eine Gästekarte aus und zieht den Gästebeitrag gleichzeitig ein.",
+      "quote": "a) den bei ihnen gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen innerhalb von 24 Stunden nach deren Ankunft eine Gästekarte auszustellen und den Gästebeitrag gleichzeitig einzuziehen"
+    },
+    "deadline": {
+      "text": "Den eingezogenen Gästebeitrag zahlst du innerhalb von 14 Tagen nach der Zahlungsaufforderung der Gästebeitragskasse.",
+      "quote": "Der Gästebeitrag ist innerhalb von 14 Tagen nach Zahlungsaufforderung durch die Gästebeitragskasse bei den Wirtschaftsbetrieben der Stadt Norden GmbH oder die Stadt Norden zu entrichten."
+    },
+    "reporting": {
+      "text": "Gemeldet wird innerhalb von drei Tagen bei der Gästebeitragskasse der Wirtschaftsbetriebe der Stadt Norden, mit dem Meldeschein oder dem Online-Meldeschein.",
+      "quote": "sowie die Gästebeitragspflichtigen innerhalb von drei Tagen bei der Gästebeitragskasse bei den Wirtschaftsbetrieben der Stadt Norden GmbH zu melden. Der Meldeschein (Formular zur Anmeldung von Gästebeitragspflichtigen) oder der Online-Meldeschein der Gästebeitragskasse bei den Wirtschaftsbetrieben der Stadt Norden GmbH ist zu verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Norden selbständig tätig bist und der Tourismus dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt, was bei der Vermietung an Gäste der Fall ist.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Tourismus in der Stadt Norden unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnung, Ferienhaus, Pension, Gästezimmer (in beiden Zonen derselbe Satz)",
+        "quote": "Vermieter/-innen von Ferienwohnungen und -häusern, Pensionen, Gästezimmern und sonstige Personen und Betriebe, die Kurgäste, Erholungssuchende oder Touristen gegen Entgelt beherbergen 100 % 100 % 25 %",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "gegen Entgelt beherbergen 100 % 100 %"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof, Fremden-, Erholungs-, Kur-, Kranken- oder Kinderheim, Sanatorium, Kurklinik in Zone 1 (Teile von Norddeich und Westermarsch)",
+        "quote": "Inhaber/-innen des Beherbergungsgewerbes (Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime), Sanatorien, Kurkliniken 95 % 80 % 7 %",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "Inhaber/-innen des Beherbergungsgewerbes (Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime), Sanatorien, Kurkliniken 95 % 80 % 7 %"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof, Fremden-, Erholungs-, Kur-, Kranken- oder Kinderheim, Sanatorium, Kurklinik in Zone 2 (übriges Stadtgebiet)",
+        "quote": "Inhaber/-innen des Beherbergungsgewerbes (Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime), Sanatorien, Kurkliniken 95 % 80 % 7 %",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Inhaber/-innen des Beherbergungsgewerbes (Hotels, Gasthöfe, Fremden-, Erholungs-, Kur-, Kranken- und Kinderheime), Sanatorien, Kurkliniken 95 % 80 % 7 %"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz, Wohnwagen- und Wohnmobilstellplatz",
+        "quote": "Inhaber/-innen von Camping- und Zeltplätzen, Wohnwagen- und Wohnmobilstellplätzen 100 % 100 % 12 %",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Inhaber/-innen von Camping- und Zeltplätzen, Wohnwagen- und Wohnmobilstellplätzen 100 % 100 % 12 %"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge in Zone 1 (Teile von Norddeich und Westermarsch)",
+        "quote": "1.050 Inhaber/-innen von Jugendherbergen 95 % 80 % 0,25 %",
+        "turnover": {
+          "advantage": {
+            "percent": 95,
+            "quote": "1.050 Inhaber/-innen von Jugendherbergen 95 % 80 % 0,25 %"
+          },
+          "profit": {
+            "percent": 0.25
+          }
+        }
+      },
+      {
+        "label": "Jugendherberge in Zone 2 (übriges Stadtgebiet)",
+        "quote": "1.050 Inhaber/-innen von Jugendherbergen 95 % 80 % 0,25 %",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "1.050 Inhaber/-innen von Jugendherbergen 95 % 80 % 0,25 %"
+          },
+          "profit": {
+            "percent": 0.25
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.75,
+      "quote": "Der Beitragssatz beträgt 5,75 v. H."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz des laufenden Jahres.",
+      "quote": "Maßgebend ist der Umsatz des laufenden Jahres."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Fängst du mit der Vermietung an, zeigst du das der Stadt innerhalb eines Monats an; die Angaben für die Berechnung teilst du ihr bis zum 31. März des Jahres nach dem Veranlagungsjahr mit.",
+      "quote": "Die beitragspflichtige Tätigkeit ist innerhalb eines Monats nach Aufnahme anzuzeigen. Jede(r) Beitragspflichtige hat die zur Berechnung des Beitrages erforderlichen Angaben bis zum 31.03. des auf das Veranlagungsjahr folgende Jahr der Stadt Norden mitzuteilen."
+    },
+    "deadline": {
+      "text": "Beitrag und Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Stadt rechnet den Beitrag aus deinem steuerbaren Umsatz mal Mindestgewinnsatz mal Vorteilssatz mal Beitragssatz.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der im Geltungsbereich dieser Satzung erzielte steuerbare Umsatz mit dem Mindestgewinnsatz (Absatz 3), mit dem Vorteilssatz (Abs. 2) und mit dem Beitragssatz (Absatz 4) multipliziert wird."
+      },
+      {
+        "text": "Als Umsatz zählt der steuerbare Umsatz im Sinne des Umsatzsteuergesetzes, ersatzweise deine Bruttoeinnahmen ohne Umsatzsteuer.",
+        "quote": "Der Vorteil richtet sich nach dem steuerbaren Umsatz i. S. des § 1 des Umsatzsteuergesetzes - ersatzweise Bruttoeinnahmen ohne Umsatzsteuer -."
+      },
+      {
+        "text": "Der Vorteilssatz ist nach Zone 1 und Zone 2 getrennt.",
+        "quote": "Der Vorteilssatz ist unterteilt in Zone 1 und 2."
+      },
+      {
+        "text": "Zone 1 sind Gebietsteile der Ortsteile Norddeich und Westermarsch und der Stadt Norden nach dem Gebietsstand vom 30.06.1972 innerhalb bestimmter Grenzen.",
+        "quote": "Gebietsteile der Ortsteile Norddeich und Westermarsch und der Stadt Norden nach dem Gebietsstand vom 30.06.1972 innerhalb folgender Grenzen"
+      },
+      {
+        "text": "Zone 2 ist das übrige Stadtgebiet, soweit es nicht zu Zone 1 gehört.",
+        "quote": "Das übrige Stadtgebiet, soweit nicht als Zone 1 bestimmt."
+      },
+      {
+        "text": "Auf den Beitrag kann die Stadt für das laufende Jahr Vorausleistungen bis zur voraussichtlichen Höhe verlangen.",
+        "quote": "Die Stadt Norden kann für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Tourismusbeitrages erheben."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen oder zu schätzen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/norden/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "01-01",
+            "03-14"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

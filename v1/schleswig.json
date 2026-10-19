@@ -1,0 +1,106 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schleswig",
+  "name": "Stadt Schleswig",
+  "short": "Schleswig",
+  "ags": "01059075",
+  "state": "Schleswig-Holstein",
+  "district": "Schleswig-Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Stadt Schleswig, 1. Nachtragssatzung vom 23.02.2026, Stadt Schleswig, Ortsrecht",
+      "url": "https://www.schleswig.de/verwaltung-politik/satzungen-ortsrecht-ksh-recht/details/pdf/satzung-ueber-die-erhebung-einer-steuer-auf-uebernachtungen-in-beherbergungsbetrieben-uebernachtungs-297635245/tt_content%7C1462/locallaw.pdf?cHash=b267b7103f432df7e4b4dc074484d5b0",
+      "kind": "municipality",
+      "inForce": "2026-04-01",
+      "sha256": "8d21dd89ad0a37f166f1eb8774a79bfed1a20af81b5452badfd113a793a950e3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "hashOf": "text"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Übernachtungssteuer beträgt 5,0 % der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt für die Übernachtung ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtung geschuldeten Entgelt ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du entrichtest sie als Vermieter für ihn und haftest neben ihm dafür.",
+      "quote": "Steuerschuldner ist der Beherbergungsgast. (2) Steuerentrichtungspflichtig ist der Betreiber des Beherbergungsbetriebes. Er hat die Übernachtungssteuer für Rechnung des Beherbergungsgastes zu entrichten und haftet neben den Steuerschuldner"
+    },
+    "deadline": {
+      "text": "Die Steuer ist am 20. Tag nach Ende des Quartals fällig.",
+      "quote": "Die Steuer ist am 20. Tag nach Ablauf eines Kalendervierteljahres fällig und zu entrichten."
+    },
+    "reporting": {
+      "text": "Du meldest die Steuer vierteljährlich bis zum 20. Tag nach Quartalsende für jede Unterkunft gesondert an und berechnest sie dabei selbst.",
+      "quote": "bis zum 20. Tag nach Ablauf des Kalendervierteljahres (Veranlagungszeitraum) eine Steueranmeldung auf dem von der Stadt Schleswig vorgeschriebenen amtlichen Vordruck gesondert für jeden Beherbergungsbetrieb abzugeben, in der er die Steuer für den maßgeblichen Steueranmeldezeitraum selbst zu berechnen hat"
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen, die das Grundbedürfnis nach Wohnraum decken, etwa bei Wohnungslosigkeit oder unbewohnbar gewordener eigener Wohnung, sind befreit.",
+        "quote": "Übernachtungen, die der Befriedigung des Grundbedürfnisses nach Wohnraum dienen (z. B. bei Wohnungslosigkeit oder Beherbergung von Gästen, deren eigene Wohnung durch Brand oder Wasserschaden o. ä. unbewohnbar geworden ist)"
+      },
+      {
+        "text": "Übernachtungen, die mit schulischer Ausbildung, Studium oder laufender erstmaliger Berufsausbildung verbunden sind, sind befreit.",
+        "quote": "Übernachtungen, die mit einer schulischen Ausbildung, Studium oder laufenden erstmaligen Berufsausbildung verbunden sind"
+      },
+      {
+        "text": "Gruppenreisen von Kindern und Jugendlichen samt Gruppenleitern sind befreit, soweit sie der Jugendhilfe dienen.",
+        "quote": "Gruppenreisen von Kindern und Jugendlichen, einschließlich der sie begleitenden Gruppenleiter, soweit diese Reisen der Förderung der Jugendhilfe"
+      },
+      {
+        "text": "Übernachtungen anlässlich von Gruppenreisen allgemeinbildender oder beruflicher Schulen sind befreit.",
+        "quote": "Übernachtungen anlässlich von Gruppenreisen allgemeinbildender oder beruflicher Schulen"
+      },
+      {
+        "text": "Dauern zusammenhängende Übernachtungen im selben Betrieb länger als drei Monate, fällt dafür keine Steuer an.",
+        "quote": "Sollte ein Übernachtungsgast zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, die eine Gesamtdauer von 3 Monaten übersteigen, so unterliegt der Aufwand für diese Übernachtungen nicht der Besteuerung nach dieser Satzung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für Buchungen, die du vor dem 1. Januar 2026 vereinbart hast, fällt 2026 keine Steuer an.",
+        "quote": "Beherbergungsleistungen, die vor dem 01.01.2026 vertraglich vereinbart wurden, sind im Jahr 2026 von der Steuer ausgenommen."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung /Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schleswig/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

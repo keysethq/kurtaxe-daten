@@ -1,0 +1,247 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "karlshagen",
+  "name": "Ostseebad Karlshagen",
+  "short": "Karlshagen",
+  "ags": "13075058",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Ostseebad Karlshagen vom 05.12.2025, Lesefassung der Gemeinde",
+      "url": "https://www.karlshagen.de/images/downloads/2026%20Kurabgabesatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "cab8dc7ed2e94985c3f47ad7c9f777271d551aa627b880988418c3d11ac0f926",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über Erhebung einer Fremdenverkehrsabgabe des Ostseebades Karlshagen (Fremdenverkehrsabgabesatzung), aktuelle Lesefassung mit Anlage",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/2025-04-03_Fremdenverkehrsabgabesatzung_Lesefassung_inkl.Anlage.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "f2fdb73f26fee3208e20c584121b4f99391f815c013ece329ccc6fe12f4915a3",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 305,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,05 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 265,
+          "quote": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. – 31.12. (Nebensaison): 2,65 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe schließt die gesetzliche Mehrwertsteuer ein.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Im Satz ist ein Entgelt von 0,25 € für das Shuttle-Bus-Angebot enthalten.",
+        "quote": "In der Kurabgabe ist ein Entgelt in Höhe von 0,25 Euro brutto und für Jahreskurkarteninhaber eine Pauschale in Höhe von 7,00 Euro brutto"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurabgabe von 85,40 €, berechnet aus 28 Tagessätzen der Hauptsaison.",
+        "quote": "Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: 85,40 Euro Zur Berechnung der Jahreskurabgabe werden 28 Tagessätze (Hauptsaison) als Grundlage genommen."
+      },
+      {
+        "text": "Eigentümer oder Besitzer einer Wohnung, die sie überwiegend zur Erholung nutzen, sowie Dauercamper und Dauerlieger zahlen die Jahreskurabgabe unabhängig von ihrer Aufenthaltsdauer.",
+        "quote": "Abgabepflichtige nach § 2 Abs. 1 S. 2 dieser Satzung sowie Dauercamper und Dauerlieger zahlen unabhängig von ihrer tatsächlichen Aufenthaltsdauer im Erhebungsgebiet eine Jahreskurabgabe nach § 4 Abs. 3."
+      },
+      {
+        "text": "Die Kurabgabesatzung musst du für deine Gäste sichtbar auslegen.",
+        "quote": "Jeder Quartiergeber ist verpflichtet, die Kurabgabesatzung für die Gäste sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Karlshagen Vorteile bietet; das gilt auch, wenn du nur nebenberuflich Unterkünfte vermietest.",
+      "quote": "Abgabepflichtig sind alle selbständig tätigen natürlichen und juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet unmittelbar oder mittelbar Vorteile geboten werden. Abgabenpflichtig im Sinne dieser Satzung sind auch die nur nebenberuflich tätigen Vermieter von Unterkünften."
+    },
+    "letting": [
+      {
+        "label": "Fremdenbetten (Vorteilsstufe 4)",
+        "quote": "Fremdenbetten 8 Betten",
+        "units": {
+          "count": 8,
+          "per": "Bett",
+          "value": {
+            "cents": 2200,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 22,00 Euro."
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      },
+      {
+        "label": "Hotelbetten (Vorteilsstufe 4)",
+        "quote": "Hotelbetten 6 Betten",
+        "units": {
+          "count": 6,
+          "per": "Bett",
+          "value": {
+            "cents": 2200,
+            "quote": "Der Abgabesatz für eine Vorteilseinheit (§ 7) beträgt 22,00 Euro."
+          },
+          "times": {
+            "factor": 4,
+            "quote": "in der Vorteilsstufe 4 dem vierfachen Satz der Vorteilseinheit"
+          }
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du der Gemeinde bis zum 1. Juni jedes Jahres mit; gehen sie nicht ein, kann die Gemeinde die Berechnungsgrundlage schätzen.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde bis zum 1. Juni jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Gehen die Angaben nicht ein, so kann die Berechnungsgrundlage geschätzt werden."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Zugang des Bescheids, in einer Summe.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Zugang des Heranziehungsbescheides fällig und in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Fremdenbetten stehen in Vorteilsstufe 4, also beim vierfachen Satz von 88,00 € je Vorteilseinheit.",
+        "quote": "Vorsteilsstufe 4 - vierfacher Satz Einheit 88,00 €"
+      },
+      {
+        "text": "Du zahlst höchstens 5.000 € im Jahr.",
+        "quote": "Die Höchstabgabe beträgt 5.000 Euro."
+      },
+      {
+        "text": "Beginnst du erst nach dem 1. August mit der Vermietung, kann die Jahresabgabe auf Antrag, den du innerhalb eines Monats nach Beginn stellst, um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabenpflichtigen Tätigkeit nach dem 1. August eines Jahres, so kann die Jahresabgabe auf Antrag innerhalb eines Monats nach Beginn der Abgabepflicht um 50 von Hundert ermäßigt werden."
+      },
+      {
+        "text": "Die Aufgaben der Gemeinde übernimmt der Eigenbetrieb „Tourismus & Wirtschaft“.",
+        "quote": "Die nach dieser Satzung der Gemeinde Karlshagen obliegenden Aufgaben werden dem kommunalen Eigenbetrieb „Tourismus & Wirtschaft“ übertragen, dessen Betriebsleitung die Gemeinde insoweit vertritt."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/karlshagen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 305,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 265,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

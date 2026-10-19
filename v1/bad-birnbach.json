@@ -1,0 +1,307 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-birnbach",
+  "name": "Markt Bad Birnbach",
+  "short": "Bad Birnbach",
+  "ags": "09277113",
+  "state": "Bayern",
+  "district": "Rottal-Inn",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages des Marktes Bad Birnbach vom 18.10.2024, Sätze ab 01.01.2026",
+      "url": "https://www.badbirnbach.de/content/download/25802/326338/version/1/file/Kurbeitrags-Satzung+ab+2025.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "b5643e571f230ddfe82f9992c57804e5f9d59e206cc78709c99359d4dd49f91a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung zur Erhebung eines Fremdenverkehrsbeitrages des Marktes Bad Birnbach vom 27.12.2012",
+      "url": "https://www.badbirnbach.de/content/download/17479/258973/version/1/file/Fremdenverkehrsbeitrags-Satzung.pdf",
+      "kind": "municipality",
+      "inForce": "2013-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "d12ea4fc9802e6396830a26563ea0189a3aa15e8f3d1e67669a07a98d5881b8b",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag gilt als ein Tag. Angefangene Tage gelten als volle Tage."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind die Gemeindeteile Bad Birnbach und Aunham.",
+          "quote": "Der Kurbezirk I umfasst das Gebiet der Gemeindeteile Bad Birnbach und Aunham."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 340,
+              "quote": "ab 01.01.2026 a) im Kurbezirk I 2,90 € 3,40 €"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "4. Kinder bis zur Vollendung des 14. Lebensjahres Befreiung"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Gemeindeteile Lengham und Schwaibach.",
+          "quote": "Der Kurbezirk II umfasst das Gebiet der Gemeindeteile Lengham und Schwaibach."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 290,
+              "quote": "ab 01.01.2026 a) im Kurbezirk I 2,90 € 3,40 € b) im Kurbezirk II 2,50 € 2,90 €"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "4. Kinder bis zur Vollendung des 14. Lebensjahres Befreiung"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III ist das übrige Gemeindegebiet.",
+          "quote": "Der Kurbezirk III umfasst das übrige Gemeindegebiet."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 160,
+              "quote": "ab 01.01.2026 a) im Kurbezirk I 2,90 € 3,40 € b) im Kurbezirk II 2,50 € 2,90 € c) im Kurbezirk III 1,40 € 1,60 €"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "4. Kinder bis zur Vollendung des 14. Lebensjahres Befreiung"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 oder 90 zahlen die Hälfte",
+        "quote": "1. 80 % und 90 % Schwerbehinderung 50 % Ermäßigung"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "2. 100 % Schwerbehinderung Befreiung"
+      },
+      {
+        "text": "Die notwendige Begleitperson eines schwerbehinderten Menschen",
+        "quote": "3. Notwendige Begleitperson bei Schwerbehinderung Befreiung"
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber dem Markt dafür, dass er eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt gegenüber für den Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; der Markt kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an den Markt abzuführen. Der Markt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Alle beherbergten Personen meldest du unverzüglich elektronisch über das Meldescheinverfahren des Marktes.",
+      "quote": "dem Markt unverzüglich alle beherbergten Personen elektronisch zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Birnbach Vorteile bringt.",
+      "quote": "Von allen selbständigen tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt 6 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf den Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,0750 und 0,7500 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 - 5 v.H. 0,0750 v.H. über 5 - 10 v.H. 0,2250 v.H. über 10 - 15 v.H. 0,3750 v.H. über 15 - 20 v.H. 0,5250 v.H. über 20 v.H. 0,7500 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn der Markt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. September fällig.",
+        "quote": "Der Beitragsschuldner hat am 15.09. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-birnbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 340,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 290,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 160,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

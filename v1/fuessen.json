@@ -1,0 +1,231 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "fuessen",
+  "name": "Stadt Füssen",
+  "short": "Füssen",
+  "ags": "09777129",
+  "state": "Bayern",
+  "district": "Ostallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Dritte Satzung zur Änderung der Kurbeitragssatzung des Kommunalunternehmens Füssen Tourismus und Marketing vom 21.11.2024, mit konsolidierter Fassung der Kurbeitragssatzung vom 18.09.2019",
+      "url": "https://www.stadt-fuessen.de/resources/01%20Website/Unterseiten/Stadtpolitik/Stadtrecht/Kurbeitragssatzung%203.%20%C3%84nderung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "0afe5b33b0bba8e6d2d6b1151493fad3f419f6b842492676eb67a68729909988",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Füssen vom 23.01.1986",
+      "url": "https://www.stadt-fuessen.de/resources/01%20Website/Unterseiten/Stadtpolitik/Stadtrecht/Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "1986-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "44114444944075f28881558cc442ef88210ea9e31dbdad067779744603a8152c",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAe4": {
+      "title": "Vierte Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Füssen vom 14. Dezember 2022",
+      "url": "https://www.stadt-fuessen.de/resources/01%20Website/Unterseiten/Stadtpolitik/Stadtrecht/Fremdenverkehrsbeitragssatzung%204.%20%C3%84nderung.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "1598f68be149242dcdbe094373eb343fb90397abdd10319bd7445f17c6dc727c",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAe5": {
+      "title": "Fünfte Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Füssen vom 20.12.2023",
+      "url": "https://www.stadt-fuessen.de/resources/01%20Website/Unterseiten/Stadtpolitik/Stadtrecht/Fremdenverkehrsbeitragssatzung%205.%20%C3%84nderung.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "d6353ce3f3fdfed9ba8debb405b0b4ac3a3e221fcd51acaf3c2bcf6b724f0fbe",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage für die An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "1. für Personen ab dem Alter von 16 Jahren 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zum Alter von 5 Jahren kurbeitragsfrei"
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "2. für Kinder im Alter von 6 bis 15 Jahren 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 sowie ihre notwendige Begleitperson; ab einem Grad der Behinderung von 50 zahlen sie 50 % weniger, gegen Vorlage des Ausweises",
+        "quote": "Schwerbehinderte ab 50% Behinderung: 50% Ermäßigung Schwerbehinderte mit 100% Behinderung: kurbeitragsfrei"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, wenn der Ausweis eine Begleitung vorsieht, erhalten dieselbe Ermäßigung",
+        "quote": "Begleitpersonen von Schwerbehinderten, deren Notwendigkeit sich aus den Eintragungen im Schwerbehindertenausweis ergibt, erhalten die gleiche Ermäßigung wie die Schwerbehinderten selbst."
+      },
+      {
+        "text": "Geschäftsreisende",
+        "quote": "2. Geschäftsreisende."
+      },
+      {
+        "text": "Schulklassen können auf Antrag befreit werden.",
+        "quote": "Schulklassen auf Antrag zur Befreiung vom Kurbeitrag"
+      },
+      {
+        "text": "Teilnehmer an Lehrgängen des Deutschen Eishockey-Bundes, des Deutschen Curling-Verbands, der Deutschen Eislauf-Union und des Bayerischen Eissportverbands",
+        "quote": "Teilnehmer an Lehrgängen, die vom Deutschen Eishockey-Bund (DEB) e.V., dem Deutschen Curling-Verband (DCV) e.V., der Deutschen Eislauf-Union (DEU) e.V. oder dem Bayerischen Eissportverband (BEV) e.V. im Stadtgebiet durchgeführt werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird der Kurbeitrag nicht von der Stadt, sondern vom Kommunalunternehmen Füssen Tourismus und Marketing.",
+        "quote": "Die Erhebung und Einziehung des Kurbeitrages erfolgt durch das Kommunalunternehmen Füssen Tourismus und Marketing, Anstalt des öffentlichen Rechts der Stadt Füssen."
+      },
+      {
+        "text": "Die gesetzliche Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Wenn die Meldung das genaue Abreisedatum noch nicht enthielt oder sich der Aufenthalt geändert hat, meldest du die Abreise bis zum nächsten Werktag danach nach.",
+        "quote": "Der zur Einhebung Verpflichtete hat spätestens am nächsten Werktag nach der Abreise der beherbergten Personen, soweit das Abreisedatum nicht auf dem Formblatt der Anmeldung enthalten war oder sich Änderungen gegenüber den bereits gemachten Angaben bezüglich der Aufenthaltsdauer ergeben haben, die zur Errechnung des Kurbeitrages erforderlichen Angaben (Abmeldung) zu machen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie elektronisch, hebt den Kurbeitrag beim Gast ein und haftet gegenüber Füssen Tourismus und Marketing für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag von dem Kurbeitragspflichtigen einzuheben, und haften dem Kommunalunternehmen Füssen Tourismus und Marketing gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb der Frist, die im Kurbeitragsbescheid steht.",
+      "quote": "Der Beitrag ist von dem zur Einhebung Verpflichteten innerhalb der auf dem Kurbeitragsbescheid angegebenen Frist an das Kommunalunternehmen Füssen Tourismus und Marketing abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du spätestens am nächsten Werktag nach der Ankunft elektronisch; Papier gibt es nur auf Antrag bei unbilliger Härte.",
+      "quote": "die beherbergten Personen spätestens am nächsten Werktag nach ihrer Ankunft elektronisch zu melden. Auf Antrag kann das Kommunalunternehmen Füssen Tourismus und Marketing zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Stadtgebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch Fremdenverkehr im Stadtgebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Stadt für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 7,
+      "quote": "Absatz 4 wird „6,0 v.H.“ durch „7,0 v.H.“ ersetzt.",
+      "source": "fvbAe4"
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt"
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Stadt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Die Stadt kann von dir als Vermieter zusammen mit dem Kurbeitrag eine Vorauszahlung je Übernachtung verlangen; sie gilt abweichend von der Vorauszahlung am 15. Juli.",
+        "quote": "Die Vorauszahlung von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung"
+      },
+      {
+        "text": "Diese Vorauszahlung je Übernachtung beträgt seit 1. Januar 2024 0,30 € statt 0,26 €.",
+        "quote": "In Satz 1 wird 0,26 € durch 0,30 € ersetzt. §2 Inkrafttreten Diese Satzung tritt am 1. Januar 2024 in Kraft.",
+        "source": "fvbAe5"
+      },
+      {
+        "text": "Am 15. Juli jedes Jahres ist eine Vorauszahlung zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat am 15.07. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Rechnet die Stadt damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann sie darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/fuessen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

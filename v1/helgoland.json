@@ -1,0 +1,358 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "helgoland",
+  "name": "Helgoland",
+  "short": "Helgoland",
+  "ags": "01056025",
+  "state": "Schleswig-Holstein",
+  "district": "Pinneberg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Helgoland über die Erhebung einer Kurabgabe im Geltungsbereich der Gemeinde Helgoland (Kurabgabesatzung) nach Beschlussfassung vom 28.01.2025, ausgefertigt am 31.01.2025",
+      "url": "https://www.helgoland.de/content/uploads/sites/2/2025/02/2025_01_30__Satzung-ueber-die-Erhebung-einer-Kurabgabe-im-Geltungsbereich-der-Gemeinde-Helgoland_GV28.01.2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-04-01",
+      "sha256": "3d427ce2f827a6164d4283e049178b35510fb4e95f0935f0d75adc19037b833a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Gesamtfassung der Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Helgoland vom 07.07.2015",
+      "url": "https://www.helgoland.de/content/uploads/sites/2/2022/07/Satzung-über-die-Erhebung-einer-Tourismusabgabe-in-der-Gemeinde-Helgoland-vom-07.07.2015.pdf",
+      "kind": "municipality",
+      "inForce": "2015-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "d11daca86b76adebb4a659201fdef459b5229ac2bf3a7fbed24870508790b900",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Sommersaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 375,
+          "quote": "a) Sommersaison für: Erwachsene 3,75 € pro Tag"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres frei"
+          }
+        ]
+      },
+      {
+        "label": "Wintersaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "b) Wintersaison für: Erwachsene 2,00 € pro Tag"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres frei"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Auszubildende und Studierende bis zur Vollendung des 27. Lebensjahres zahlen nichts, wenn sie es nachweisen.",
+        "quote": "Jugendliche bis zur Vollendung des 27. Lebensjahres, die sich nachweislich in der Ausbildung bzw. im Studium befinden,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 70 % und mehr zahlen nichts.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 70 % und mehr nachweisen,"
+      },
+      {
+        "text": "Ständige Begleitpersonen von Schwerbehinderten zahlen nichts, wenn im Ausweis das Merkzeichen B eingetragen ist.",
+        "quote": "Ständige Begleitpersonen der Schwerbehinderten, soweit dies durch den Eintrag \"B\" auf der Vorderseite des Behindertenausweises vermerkt ist,"
+      },
+      {
+        "text": "Wer dienstlich oder beruflich auf der Insel ist und die Einrichtungen nicht nutzt (oder nutzen muss), zahlt nichts; die Tätigkeit weist du als Vermieter nach.",
+        "quote": "In Ausübung ihres Dienstes oder Berufs Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Pro Kalenderjahr zahlt ein Erwachsener höchstens 135,00 Euro, auch bei mehreren Aufenthalten.",
+        "quote": "Der Jahreshöchstbetrag für die Kurabgabe beträgt für Erwachsene 135,00 € pro Kalenderjahr"
+      },
+      {
+        "text": "Wer auf Helgoland Eigentum oder eine Wohneinheit besitzt, aber dort nicht wohnt, zahlt unabhängig von der Aufenthaltsdauer den Jahreshöchstbetrag.",
+        "quote": "Eigentümer/Eigentümerin oder Besitzer/Besitzerin von Wohneinheiten, die ihren gewöhnlichen Aufenthalt nicht im Erhebungsgebiet haben, zahlen - unabhängig von der Aufenthaltsdauer – den Jahreshöchstbetrag der Kurabgabe (Jahreskurkarte)."
+      },
+      {
+        "text": "Die Kurabgabe ist am Ankunftstag fällig und wird beim Vermieter gezahlt.",
+        "quote": "Sie ist eine Bringschuld und beim Unterkunftsgeber/der Unterkunftsgeberin, dessen Beauftragtem/Beauftragten zu zahlen. Sie wird fällig am Tag der Ankunft."
+      },
+      {
+        "text": "Du legst die Satzung für deine Gäste sichtbar aus.",
+        "quote": "Jeder Unterkunftsgeber/jede Unterkunftsgeberin hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe bei den Gästen ein.",
+      "quote": "Jeder Unterkunftsgeber/jede Unterkunftsgeberin ist verpflichtet, die Kurabgabe von den Gästen einzuziehen."
+    },
+    "deadline": {
+      "text": "Der Helgoland Tourismus-Service stellt dir die Kurabgabe monatlich in Rechnung.",
+      "quote": "Die Kurabgabeschuld wird dem Unterkunftsgeber/Unterkunftsgeberin, anhand der eingereichten Vordrucke und der durch die elektronische Erfassung erzeugten Daten, durch den Helgoland Tourismus-Service monatlich in Rechnung gestellt."
+    },
+    "reporting": {
+      "text": "Am Ankunftstag stellst du für jeden Gast unverzüglich eine Kurkarte (HelgolandCard) aus, auf Papier oder über das elektronische Gästecard-System des Tourismus-Service.",
+      "quote": "Jede/r Unterkunftsgebende ist verpflichtet, für die von ihm/ihr aufgenommenen beherbergten Personen am Tag der Ankunft unverzüglich eine Kurkarte auszustellen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus auf Helgoland unmittelbar oder mittelbar Vorteile bietet, also auch als Vermieter von Ferienwohnungen oder Privatzimmern.",
+      "quote": "(1) Abgabepflichtig sind die natürlichen und juristischen Personen und alle selbständig tätigen Personenvereinigungen, denen durch den Tourismus in der Gemeinde Helgoland unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienhäuser und Ferienwohnungen, überwiegend an Kurgäste und Erholungsuchende vermietet",
+        "quote": "01.04.00 Ferienhäusern und -wohnungen, die diese überwiegend 90 35 an Kurgäste und erholungssuchende Gäste vermieten.",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.04.00 Ferienhäusern und -wohnungen, die diese überwiegend 90 35 an Kurgäste und erholungssuchende Gäste vermieten."
+          },
+          "profit": {
+            "percent": 35
+          }
+        }
+      },
+      {
+        "label": "Privatzimmer ohne Frühstück",
+        "quote": "01.03.03 ohne Frühstück vermieten. 90 35",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.03.03 ohne Frühstück vermieten. 90 35"
+          },
+          "profit": {
+            "percent": 35
+          }
+        }
+      },
+      {
+        "label": "Privatzimmer nur mit Frühstück",
+        "quote": "01.03.02 nur mit Frühstück 90 26",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.03.02 nur mit Frühstück 90 26"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen nur mit Frühstück",
+        "quote": "01.02.02 nur mit Frühstück gewähren. 90 26",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.02.02 nur mit Frühstück gewähren. 90 26"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen für Kurgäste, mit Teil- oder Vollverpflegung",
+        "quote": "01.02.01 mit Teil- oder Vollverpflegung 90 15",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.02.01 mit Teil- oder Vollverpflegung 90 15"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Privatzimmer mit Teil- oder Vollverpflegung",
+        "quote": "01.03.01 mit Teil- oder Vollverpflegung 90 15",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "01.03.01 mit Teil- oder Vollverpflegung 90 15"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Hotels und Gasthöfe für Geschäftsreisende",
+        "quote": "01.01.00 Hotels und Gasthöfen, die überwiegend Personen in 60 19 Ausübung ihrer geschäftlichen Tätigkeit Unterkunft gewähren",
+        "turnover": {
+          "advantage": {
+            "percent": 60,
+            "quote": "01.01.00 Hotels und Gasthöfen, die überwiegend Personen in 60 19 Ausübung ihrer geschäftlichen Tätigkeit Unterkunft gewähren"
+          },
+          "profit": {
+            "percent": 19
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplätze",
+        "quote": "02.00.00 Inhaber von Camping- und Zeltplätzen. 60 40",
+        "turnover": {
+          "advantage": {
+            "percent": 60,
+            "quote": "02.00.00 Inhaber von Camping- und Zeltplätzen. 60 40"
+          },
+          "profit": {
+            "percent": 40
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 3.75,
+      "quote": "Die Abgabe beträgt 3,75 v. H. des Messbetrages ( § 5 ) dieser Satzung."
+    },
+    "basis": {
+      "text": "Es zählen die Einnahmen des Vorjahres; bei privater Vermietung sind das die Bruttoeinnahmen aus der Vermietung (Übernachtungen mal Zimmer- oder Bettenpreis).",
+      "quote": "Bei privater Vermietung von Zimmern, Wohnungen und/oder Appartements gelten die Bruttoeinnahmen aus der Vermietung ( Anzahl der Übernachtungen x Zimmer-/Bettenpreis ) als Einnahmen im genannten Sinne."
+    },
+    "minimum": {
+      "text": "Es wird ein Mindestbetrag von 10 Euro erhoben.",
+      "quote": "Es wird ein Mindestbetrag in Höhe von EUR 10,00 erhoben.",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Den Beginn deiner Tätigkeit meldest du der Gemeinde innerhalb eines Monats von dir aus, die Angaben zur Berechnung auf ihre Anforderung (Abgabeerklärung).",
+      "quote": "haben der Gemeinde die Aufnahme der abgabepflichtigen Tätigkeit innerhalb eines Monats von sich aus und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen ( Abgabeerklärung )."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Abgabebescheids fällig.",
+      "quote": "Die Abgabeschuld wird einen Monat nach Bekanntgabe des Abgabebescheides zur Zahlung fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Alle Körperschaften des öffentlichen Rechts sind befreit.",
+        "quote": "Von der Abgabe sind befreit: a) Alle Körperschaften des öffentlichen Rechts;"
+      },
+      {
+        "text": "Gemeinnützige Einrichtungen sind befreit, es sei denn, sie stehen mit Privatbetrieben im Wettbewerb, wie zum Beispiel Erholungsheime.",
+        "quote": "b) Stiftungen, Anstalten, Einrichtungen und Unternehmen, die nach ihrer Satzung oder nach ihrer tatsächlichen Geschäftsführung ausschließlich und unmittelbar gemeinnützigen Zwecken dienen und als gemeinnützig anerkannt sind, es sei denn, dass sie mit Privatbetrieben in Wettbewerb stehen, wie z. B. Kinderheime, Erholungsheime oder Sparkassen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Maßgebend sind die Einnahmen des Jahres vor dem Erhebungsjahr.",
+        "quote": "Maßgebend sind die Einnahmen des Jahres, das dem Erhebungszeitraum vorangegangen ist."
+      },
+      {
+        "text": "Die Anlage nennt den Vorteilssatz und den Mindestgewinnsatz, beide in Prozent.",
+        "quote": "Vorteilssatz Mindestgewinngemäß § 2 Absatz 1 gemäß satz gemäß § 5 Abs. 2 § 5 Abs. 3 in v.H. in v.H."
+      },
+      {
+        "text": "Der Mindestgewinnsatz wird nach den jeweils gültigen Reingewinnsätzen der Richtsatzsammlung des Vorjahres festgesetzt.",
+        "quote": "Der Mindestgewinnsatz wird unter Anwendung der jeweils gültigen Reingewinnsätze der Richtsatzsammlung für Gewerbebetriebe des Bereiches Nord (Bremen, Hamburg, Niedersachsen, Schleswig-Holstein) für das dem Erhebungszeitraum vorangegangene Kalenderjahr festgesetzt,"
+      },
+      {
+        "text": "Erhebungszeitraum ist das Kalenderjahr.",
+        "quote": "Erhebungszeitraum ist das Kalenderjahr."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/helgoland/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Sommersaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 375,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Wintersaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

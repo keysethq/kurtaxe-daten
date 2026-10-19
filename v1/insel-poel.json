@@ -1,0 +1,384 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "insel-poel",
+  "name": "Ostseebad Insel Poel",
+  "short": "Insel Poel",
+  "ags": "13074035",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Ostseebad Insel Poel über die Erhebung einer Kurabgabe vom 13. November 2025 (Kurabgabensatzung - KurAbgSatz)",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/4c70730226bd31c87943398e693324cf157645/20260415102915589.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "e2afe5adb546f7da9ad1d08c433bbf6cb3f5def9b8c0ce69a92a91f15f8218f8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Der Tag der An- und der Abreise zählt als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "In der Zeit vom 1. April bis zum 31. Oktober eines jeden Jahres (Hauptsaison): 3,00 € je Tag,"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder/ Jugendliche bis zur Vollendung des 16. Lebensjahres,"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "in der Zeit vom 1. November bis zum 31. März eines jeden Jahres (Nebensaison): 1,80 € je Tag."
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder/ Jugendliche bis zur Vollendung des 16. Lebensjahres,"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Eltern, Kinder, Enkelkinder, Geschwister, Schwiegereltern, Schwiegertöchter und -söhne, Schwager und Schwägerinnen von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt (Alleiniger- oder Hauptwohnsitz) haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufgenommen sind,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen ab einem Grad der Behinderung (GdB) 80,",
+          "digitsUnread": true
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "und eine Begleitperson eines Schwerbehinderten unter Nr. 3 (Merkzeichen: B im Schwerbehindertenausweis oder Feststellungsbescheid der ausstellenden Behörde)."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "Die Jahreskurabgabe beträgt, unabhängig der tatsächlichen Aufenthaltsdauer, gemäß $ 4 Abs. 4 dieser Satzung je Person ab Vollendung des 16. Lebensjahres und Jahr: 90,00 € je Jahr."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Für Inhaber einer eigenen Wohngelegenheit im Sinne des $ 2 Abs. 3 dieser Satzung und deren Ehegatten/ eheähnlichen Lebensgemeinschaften und im selben Haushalt lebende Kinder (ab einem Alter von 16 Jahren) entsteht die Kurabgabepflicht (Jahreskurabgabe) am 01. Januar eines jeden Jahres."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "In den Beträgen der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 4,
+          "reading": "Das elektronische Kurkarten-Abrechnungssystem nach Absatz 2 wird im Laufe des Jahres 2026 eingeführt. Bis zur vollständigen Einführung des Systems sind die analogen Anmeldeformulare nach Absatz 4 Satz 3 anzuwenden. ?Diese Übergangsfrist greift bis spätestens zum 31. Dezember 2026."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wohnungsgeber, die Wohnraum zu Erholungszwecken zur Verfügung stellen, sind verpflichtet, die beherbergten Personen zeitnah zu melden, die Kurabgabe einzuziehen und abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "Die Abrechnung der vereinnahmten Kurabgabe erfolgt monatlich über das elektronische Kurkarten-Abrechnungssystem."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Die Anmeldung nach Absatz 1 Satz 1 erfolgt grundsätzlich elektronisch über das von der Gemeinde Ostseebad Insel Poel zur Verfügung gestellte Kurkarten-Abrechnungssystem. Die elektronische Anmeldung muss spätestens am Tag nach der Ankunft erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Ostseebad Insel Poel über die Erhebung einer Fremdenverkehrsabgabe vom 18. Dezember 2024 (Fremdenverkehrsabgabesatzung – FrVerkAbgS)",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/4c70730226bd31c87943398e693324cf157645/FrVerkAbgS_2024.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "ce6ca32e94166f6abef3e11fc4913198f2606511ec2ae9ffab0485410c081a79",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind alle natürlichen und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde unmittelbare oder mittelbare Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 4,
+          "reading": "in den Fällen des $ 3 Absatz 1a dieser Satzung 12,00 € je Bett und 6,00 € je Aufbettung"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 4,
+          "reading": "in den Fällen des $ 3 Absatz 1a dieser Satzung 12,00 € je Bett und 6,00 € je Aufbettung"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 5,
+          "reading": "haben der Kurverwaltung der Gemeinde Ostseebad Insel Poel bis zum 1. Juli eines jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabenschuld mitzuteilen. ?Alle bis zum Ende eines jeweiligen Jahres eintretenden Änderungen sind der Kurverwaltung unverzüglich anzuzeigen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 5,
+          "reading": "Die Abgabe ist innerhalb von 14 Tagen nach Zustellung des Heranziehungsbescheides der Gemeinde Ostseebad Insel Poel fällig."
+        },
+        {
+          "where": "businessLevy.exemptions[0]",
+          "page": 5,
+          "reading": "Vereine, die als gemeinnützig anerkannt sind, zahlen keine Fremdenverkehrsabgabe."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 4,
+          "reading": "in den Fällen des $ 3 Absatz 1a dieser Satzung 12,00 € je Bett und 6,00 € je Aufbettung. Ein Doppelbett zählt als zwei Betten, als Aufbettung zählen Schlafsofas, Beistellbetten etc."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "nach der Zahl der am 1. Juli eines jeden Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "Die Höchstabgabe für einen Abgabepflichtigen beträgt 2.500,00 €."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 4,
+          "reading": "so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 1,
+          "reading": "Die Fremdenverkehrsabgabe wird vom Eigenbetrieb Kurverwaltung der Gemeinde Ostseebad Insel Poel für die Gemeinde Ostseebad Insel Poel eingezogen."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 5,
+          "reading": "Unbeschadet der nach anderen Vorschriften bestehenden Anzeige- und Meldepflicht haben Abgabepflichtige der Kurverwaltung der Gemeinde Ostseebad Insel Poel gegenüber die Aufnahme einer Tätigkeit im Gemeindegebiet binnen eines Monats anzuzeigen."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der An- und der Abreise zählt als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "In der Zeit vom 1. April bis zum 31. Oktober eines jeden Jahres (Hauptsaison): 3,00 € je Tag,"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder/ Jugendliche bis zur Vollendung des 16. Lebensjahres,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "in der Zeit vom 1. November bis zum 31. März eines jeden Jahres (Nebensaison): 1,80 € je Tag."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder/ Jugendliche bis zur Vollendung des 16. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Verwandte, Schwiegerfamilie, Schwäger und Schwägerinnen von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern, Kinder, Enkelkinder, Geschwister, Schwiegereltern, Schwiegertöchter und -söhne, Schwager und Schwägerinnen von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt (Alleiniger- oder Hauptwohnsitz) haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufgenommen sind,"
+      },
+      {
+        "text": "Menschen mit Schwerbehinderung ab einem Grad der Behinderung von 80",
+        "quote": "Schwerbehinderte Personen ab einem Grad der Behinderung (GdB) 80,"
+      },
+      {
+        "text": "Eine Begleitperson, wenn der Schwerbehindertenausweis das Merkzeichen B trägt",
+        "quote": "und eine Begleitperson eines Schwerbehinderten unter Nr. 3 (Merkzeichen: B im Schwerbehindertenausweis oder Feststellungsbescheid der ausstellenden Behörde)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Jahreskurabgabe beträgt 90,00 € je Person ab 16 Jahren und Jahr, unabhängig von der Dauer des Aufenthalts.",
+        "quote": "Die Jahreskurabgabe beträgt, unabhängig der tatsächlichen Aufenthaltsdauer, gemäß $ 4 Abs. 4 dieser Satzung je Person ab Vollendung des 16. Lebensjahres und Jahr: 90,00 € je Jahr."
+      },
+      {
+        "text": "Inhaber einer eigenen Wohngelegenheit, ihre Ehegatten und die im selben Haushalt lebenden Kinder ab 16 Jahren zahlen die Jahreskurabgabe; sie entsteht am 1. Januar.",
+        "quote": "Für Inhaber einer eigenen Wohngelegenheit im Sinne des § 2 Abs. 3 dieser Satzung und deren Ehegatten/ eheähnlichen Lebensgemeinschaften und im selben Haushalt lebende Kinder (ab einem Alter von 16 Jahren) entsteht die Kurabgabepflicht (Jahreskurabgabe) am 01. Januar eines jeden Jahres."
+      },
+      {
+        "text": "In den Beträgen ist die Mehrwertsteuer enthalten.",
+        "quote": "In den Beträgen der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Das elektronische Kurkarten-Abrechnungssystem wird 2026 eingeführt; bis dahin, spätestens bis 31. Dezember 2026, gelten die Papierformulare.",
+        "quote": "Das elektronische Kurkarten-Abrechnungssystem nach Absatz 2 wird im Laufe des Jahres 2026 eingeführt. Bis zur vollständigen Einführung des Systems sind die analogen Anmeldeformulare nach Absatz 4 Satz 3 anzuwenden. Diese Übergangsfrist greift bis spätestens zum 31. Dezember 2026."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie zeitnah, zieht die Kurabgabe ein und führt sie ab.",
+      "quote": "Wohnungsgeber, die Wohnraum zu Erholungszwecken zur Verfügung stellen, sind verpflichtet, die beherbergten Personen zeitnah zu melden, die Kurabgabe einzuziehen und abzuführen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird monatlich über das elektronische Kurkarten-Abrechnungssystem.",
+      "quote": "Die Abrechnung der vereinnahmten Kurabgabe erfolgt monatlich über das elektronische Kurkarten-Abrechnungssystem."
+    },
+    "reporting": {
+      "text": "Gäste meldest du grundsätzlich elektronisch über das Kurkarten-Abrechnungssystem der Gemeinde, spätestens am Tag nach der Ankunft.",
+      "quote": "Die Anmeldung nach Absatz 1 Satz 1 erfolgt grundsätzlich elektronisch über das von der Gemeinde Ostseebad Insel Poel zur Verfügung gestellte Kurkarten-Abrechnungssystem. Die elektronische Anmeldung muss spätestens am Tag nach der Ankunft erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr auf Poel unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen, denen durch den Fremdenverkehr in der Gemeinde unmittelbare oder mittelbare Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "in den Fällen des § 3 Absatz 1a dieser Satzung 12,00 € je Bett und 6,00 € je Aufbettung",
+        "flat": {
+          "cents": 1200,
+          "per": "Bett"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du der Kurverwaltung bis zum 1. Juli jedes Jahres mit, Änderungen bis zum Jahresende zeigst du unverzüglich an.",
+      "quote": "haben der Kurverwaltung der Gemeinde Ostseebad Insel Poel bis zum 1. Juli eines jeden Jahres die erforderlichen Angaben zur Berechnung der Abgabenschuld mitzuteilen. Alle bis zum Ende eines jeweiligen Jahres eintretenden Änderungen sind der Kurverwaltung unverzüglich anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 14 Tage nach Zustellung des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb von 14 Tagen nach Zustellung des Heranziehungsbescheides der Gemeinde Ostseebad Insel Poel fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Als gemeinnützig anerkannte Vereine zahlen keine Fremdenverkehrsabgabe.",
+        "quote": "Vereine, die als gemeinnützig anerkannt sind, zahlen keine Fremdenverkehrsabgabe."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für eine Aufbettung zahlst du 6,00 €; ein Doppelbett zählt als zwei Betten, als Aufbettung zählen Schlafsofas, Beistellbetten und Ähnliches.",
+        "quote": "in den Fällen des § 3 Absatz 1a dieser Satzung 12,00 € je Bett und 6,00 € je Aufbettung. Ein Doppelbett zählt als zwei Betten, als Aufbettung zählen Schlafsofas, Beistellbetten etc."
+      },
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du am 1. Juli jedes Jahres gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "nach der Zahl der am 1. Juli eines jeden Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Die Abgabe beträgt für einen Abgabepflichtigen höchstens 2.500 €.",
+        "quote": "Die Höchstabgabe für einen Abgabepflichtigen beträgt 2.500,00 €."
+      },
+      {
+        "text": "Endet deine Tätigkeit im laufenden Jahr, wird dir für jeden vollen Kalendermonat ohne Abgabepflicht ein Zwölftel der Jahresabgabe erstattet.",
+        "quote": "so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet."
+      },
+      {
+        "text": "Die Abgabe zieht die Kurverwaltung der Gemeinde ein.",
+        "quote": "Die Fremdenverkehrsabgabe wird vom Eigenbetrieb Kurverwaltung der Gemeinde Ostseebad Insel Poel für die Gemeinde Ostseebad Insel Poel eingezogen."
+      },
+      {
+        "text": "Die Aufnahme einer Tätigkeit zeigst du der Kurverwaltung binnen eines Monats an.",
+        "quote": "Unbeschadet der nach anderen Vorschriften bestehenden Anzeige- und Meldepflicht haben Abgabepflichtige der Kurverwaltung der Gemeinde Ostseebad Insel Poel gegenüber die Aufnahme einer Tätigkeit im Gemeindegebiet binnen eines Monats anzuzeigen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/insel-poel/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "butjadingen",
+  "name": "Gemeinde Butjadingen",
+  "short": "Butjadingen",
+  "ags": "03461003",
+  "state": "Niedersachsen",
+  "district": "Wesermarsch",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Gemeinde Butjadingen (Gästebeitragssatzung) vom 18.12.2025, gültig ab 01.01.2026",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/7/1/3/5/GBS_2026_B.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "369e130d02f750910fab85f4fc07a9afcc8ed7905f81a93765c19425ef9be75d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Gemeinde Butjadingen (Tourismusbeitragssatzung) vom 18.12.2025, gültig ab 01.01.2026",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/7/1/3/4/TBS_2026_B.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "987541502295859d37fd9ca8fb49c8a9c84fd7a87da7262d83c1cf0472bb3875",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "anlage": {
+      "title": "Betriebsartentabelle (Spalten Betriebsart, Bezeichnung, Vorteilssatz, Gewinnsatz) der Gemeinde Butjadingen, im selben Ordner veröffentlicht wie die Tourismusbeitragssatzung vom 18.12.2025; die Datei trägt selbst weder Titel noch Datum",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/7/1/3/4/Kopie_von_Ueberarbeitung_BA_Tabelle_3.pdf",
+      "kind": "municipality",
+      "inForce": null,
+      "sha256": "196545b9774dd4d00a515b93679eaeee9d86e4b5828930b4fdccb5a1f44074d0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthalts wird nach der Zahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-15"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "In der Hauptsaison a) nach Vollendung des 13. Lebensjahres 3,50 €"
+        },
+        "children": [
+          {
+            "underAge": 3,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 3. Lebensjahres."
+          },
+          {
+            "underAge": 13,
+            "cents": 210,
+            "quote": "b) nach Vollendung des 3. bis zur Vollendung des 13. Lebensjahres (3 bis 12 Jahre) 2,10 €"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-16",
+            "to": "12-31"
+          },
+          {
+            "from": "01-01",
+            "to": "03-14"
+          }
+        ],
+        "adult": {
+          "cents": 160,
+          "quote": "in der Nebensaison a) nach Vollendung des 13. Lebensjahres 1,60 €"
+        },
+        "children": [
+          {
+            "underAge": 3,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 3. Lebensjahres."
+          },
+          {
+            "underAge": 13,
+            "cents": 100,
+            "quote": "b) nach Vollendung des 3. bis zur Vollendung des 13. Lebensjahres (3 bis 12 Jahre) 1,00 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "children",
+      "from": 3,
+      "text": "Das dritte und jedes weitere Kind einer Familie zahlt nichts, wenn für das erste und zweite Kind der Gästebeitrag entrichtet wird.",
+      "quote": "2. das 3. und jedes weitere Kind einer Familie, sofern für das 1. und 2. Kind der Gästebeitrag entrichtet wird."
+    },
+    "exemptions": [
+      {
+        "text": "Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen, zahlen nichts.",
+        "quote": "wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen werden"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 oder dem Merkzeichen H zahlen nichts.",
+        "quote": "4. Schwerbehinderte, deren Grad der Behinderung mindestens 80 v.H. beträgt oder in deren Ausweis das Merkzeichen H eingetragen ist."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis regelmäßig auf Hilfe angewiesen sind, zahlen nichts.",
+        "quote": "5. Begleitpersonen von Schwerbehinderten, die lt. amtlichem Ausweis infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind."
+      },
+      {
+        "text": "Wer nur für eine Übernachtung zu einer besonderen Familienfeier kommt (etwa Hochzeit oder Beerdigung), zahlt nichts.",
+        "quote": "6. Personen, die sich anlässlich besonderer Familienfeiern (z.B. Hochzeitsfeiern, Beerdigungen) für nur eine Übernachtung in Butjadingen aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Hauptsaison ist vom 15. März bis 15. Oktober, die übrige Zeit ist Nebensaison.",
+        "quote": "als Hauptsaison die Zeit vom 15.03. - 15.10. als Nebensaison die übrige Zeit."
+      },
+      {
+        "text": "Die Übernachtung am Saisonwechsel zählt zur Saison, die gerade endet.",
+        "quote": "Die Übernachtung des Saisonwechsels ist der jeweils endenden Saison zuzurechnen."
+      },
+      {
+        "text": "Zweitwohnungs-Eigentümer, Dauercamper und Dauerlieger in Yachthäfen zahlen den Jahresgästebeitrag statt des Tagessatzes.",
+        "quote": "Beitragspflichtige Eigentümer oder Inhaber von Wohnungseinheiten im Sinne des § 2 Satz 2 und Dauerbenutzer von Campingplätzen, Dauerlieger in Yachthäfen sowie ihre jeweiligen Familienangehörigen sind verpflichtet, den Jahresgästebeitrag zu entrichten."
+      },
+      {
+        "text": "Teilnehmer an von der Gemeinde anerkannten Tagungen, Kongressen und Lehrgängen zahlen die Hälfte.",
+        "quote": "Teilnehmer an den vorher von der Gemeinde anerkannten Tagungen, Kongressen und Lehrgängen erhalten eine Ermäßigung von 50 v.H."
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen gut sichtbar aus.",
+        "quote": "diese Satzung in den vermieteten Räumen an gut sichtbarer Stelle auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt innerhalb von 24 Stunden nach der Ankunft die digitale Gästekarte aus und zieht den Gästebeitrag gleichzeitig ein; du haftest für die vollständige Ablieferung.",
+      "quote": "den bei ihnen gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen innerhalb von 24 Stunden nach deren Ankunft eine digitale Gästekarte auszustellen und den Gästebeitrag gleichzeitig einzuziehen"
+    },
+    "deadline": {
+      "text": "Den eingezogenen Gästebeitrag lieferst du innerhalb von 14 Tagen nach der Zahlungsaufforderung der Tourismus-Service Butjadingen ab.",
+      "quote": "Der Gästebeitrag ist innerhalb von 14 Tagen nach Zahlungsaufforderung durch die TSB dort abzuliefern."
+    },
+    "reporting": {
+      "text": "Jeden Gast meldest du innerhalb von drei Tagen bei der Tourismus-Service Butjadingen, grundsätzlich digital über das Web-Portal AVS.",
+      "quote": "den Gästebeitragspflichtigen innerhalb von drei Tagen bei der Tourismus-Service Butjadingen GmbH & Co. KG (TSB) zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du als selbstständig tätige Person oder als Unternehmen, wenn dir der Tourismus in Butjadingen unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt; das trifft auch alle, die Ferienunterkünfte vermieten.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Tourismus unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser, Appartements und Privatzimmer, Umsatz bis 90.000 €",
+        "quote": "Vermietung von Ferienwohnungen/-häusern/- 104 appartements und Privatzimmern, Umsatz bis 90.000 € 100 28",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen/-häusern/- 104 appartements und Privatzimmern, Umsatz bis 90.000 € 100 28",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 28
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, Ferienhäuser, Appartements und Privatzimmer, Umsatz über 90.000 €",
+        "quote": "Vermietung von Ferienwohnungen/-häusern/- 105 appartements und Privatzimmern, Umsatz über 90.000 100 23",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen/-häusern/- 105 appartements und Privatzimmern, Umsatz über 90.000 100 23",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 23
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension garni, Umsatz bis 200.000 €",
+        "quote": "100 100 30 Hotel, Gasthof. Pension, garni bis 200.000 € Umsatz",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100 100 30 Hotel, Gasthof. Pension, garni bis 200.000 € Umsatz",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension garni, Umsatz über 200.000 €",
+        "quote": "101 Hotel, Gasthof. Pension, garni über 200.000 € Umsatz 100 24",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "101 Hotel, Gasthof. Pension, garni über 200.000 € Umsatz 100 24",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Umsatz bis 500.000 €",
+        "quote": "Halb-/Vollpension bis 102 100 25 500.000 € Umsatz",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Halb-/Vollpension bis 102 100 25 500.000 € Umsatz",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotel, Gasthof oder Pension mit Halb- oder Vollpension, Umsatz über 500.000 €",
+        "quote": "Halb-/Vollpension über 103 100 15 500.000 € Umsatz",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Halb-/Vollpension über 103 100 15 500.000 € Umsatz",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Familienerholungsstätte",
+        "quote": "106 Familienerholungsstätte 100 2",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "106 Familienerholungsstätte 100 2",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 2
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltplatz",
+        "quote": "107 Camping-, Zeltplatz 100 23",
+        "source": "anlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "107 Camping-, Zeltplatz 100 23",
+            "source": "anlage"
+          },
+          "profit": {
+            "percent": 23
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.75,
+      "quote": "Der Beitragssatz beträgt 5,75 v.H. des Messbetrages gemäß § 3 Abs. 1."
+    },
+    "basis": {
+      "text": "Es zählt der steuerbare Umsatz ohne Umsatzsteuer, bei fehlender Umsatzsteuerpflicht die Summe der Einnahmen.",
+      "quote": "Unter Umsatz im Sinne dieser Satzung wird verstanden: der steuerbare Umsatz (ohne Umsatzsteuer) im Sinne des § 1 des Umsatzsteuergesetzes, bei fehlender Umsatzsteuerpflicht die Summe der Einnahmen."
+    },
+    "minimum": {
+      "text": "Beträgt dein Beitrag für das Jahr weniger als 5 €, wird er nicht erhoben.",
+      "quote": "Ergibt sich für das Erhebungsjahr eine Beitragsschuld von weniger als 5,00 €, so wird von einer Beitragserhebung abgesehen."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Mai jedes Jahres meldest du der Gemeinde ungefragt die Angaben, die sie zur Berechnung braucht.",
+      "quote": "Jeder Beitragspflichtige hat der Gemeinde unaufgefordert bis zum 31.05. eines jeden Kalenderjahres die zur Berechnung des Beitrages erforderlichen Angaben zu machen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Vorteilssätze und Gewinnsätze stehen in der Betriebsartentabelle, einer Anlage der Satzung.",
+        "quote": "Der Gewinnsatz ist in der Anlage zu dieser Satzung (Betriebsartentabelle) in Spalte 4 bestimmt."
+      },
+      {
+        "text": "Maßgeblich ist der Umsatz des Kalenderjahres vor dem Erhebungsjahr.",
+        "quote": "Maßgebend ist der Umsatz des Kalenderjahres, das dem Erhebungszeitraum vorausgegangen ist."
+      },
+      {
+        "text": "Beginnst du deine Tätigkeit zu Jahresbeginn oder im Laufe eines Jahres, zählt stattdessen der Umsatz des Erhebungsjahres.",
+        "quote": "Abweichend hiervon ist der Umsatz des jeweiligen Erhebungszeitraumes zugrunde zu legen: a) für den Fall der Aufnahme einer beitragspflichtigen Tätigkeit zu Beginn oder im Laufe eines Jahres;"
+      },
+      {
+        "text": "Deine beitragspflichtige Tätigkeit zeigst du der Gemeinde innerhalb eines Monats nach dem Beginn an.",
+        "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Gemeinde die jeweilige beitragspflichtige Tätigkeit innerhalb eines Monats nach ihrer Aufnahme anzuzeigen."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbstständige Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/butjadingen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      3,
+      13
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-15",
+            "10-15"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          210
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-16",
+            "12-31"
+          ],
+          [
+            "01-01",
+            "03-14"
+          ]
+        ],
+        "adult": 160,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ],
+    "family": {
+      "free": "children",
+      "from": 3
+    }
+  }
+}

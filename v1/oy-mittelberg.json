@@ -1,0 +1,382 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oy-mittelberg",
+  "name": "Gemeinde Oy-Mittelberg",
+  "short": "Oy-Mittelberg",
+  "ags": "09780128",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages der Gemeinde Oy-Mittelberg vom 21.01.2019 (Scan), von der Gemeinde als aktuelle Fassung ausgewiesen",
+      "url": "https://www.oy-mittelberg.de/fileadmin/user_upload/Oy-Allgemein/Oy-Mittelberg_Tourismus/Formulare/Satzungen/Kurbeitragssatzung_aktuell_Oy-Mittelberg.pdf",
+      "kind": "municipality",
+      "inForce": "2019-03-01",
+      "sha256": "70400cee50e4089adfd142bd6402edd91d1b4ed94555ec34108a7046a7f8c184",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "An- und Abreisetag gelten als ein Aufenthaltstag."
+        },
+        {
+          "where": "zones[0].area",
+          "page": 1,
+          "reading": "umfasst das Gebiet des Gemeindeteiles Oy;"
+        },
+        {
+          "where": "zones[0].periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+        },
+        {
+          "where": "zones[0].periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+        },
+        {
+          "where": "zones[0].periods[0].children[1]",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "zones[0].periods[0].children[1] amount",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "zones[1].area",
+          "page": 1,
+          "reading": "umfasst das Gebiet des Gemeindeteiles Mittelberg;"
+        },
+        {
+          "where": "zones[1].periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+        },
+        {
+          "where": "zones[1].periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+        },
+        {
+          "where": "zones[1].periods[0].children[1]",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "zones[1].periods[0].children[1] amount",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "zones[2].area",
+          "page": 1,
+          "reading": "umfasst das Gebiet der Gemeindeteile Bachtel, Bichel, Burgkranzegg,"
+        },
+        {
+          "where": "zones[2].periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+        },
+        {
+          "where": "zones[2].periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+        },
+        {
+          "where": "zones[2].periods[0].children[1]",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "zones[2].periods[0].children[1] amount",
+          "page": 2,
+          "reading": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "für schwerbehinderte Personen, die einen Grad der Behinderung von 50 % und mehr durch Behindertenausweis nachweisen können, sofern sie die Kosten des Kuraufenthalts selbst tragen"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Der Kurbeitrag kann auf Antrag ermäßigt werden um bis zu 100% 1. für Begleitpersonen einer schwerbehinderten Person"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Kurbeitrag ist innerhalb der auf dem Kurbeitragsbescheid angegebenen Frist an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "die Beitragspflichtigen spätestens am Tag nach deren Ankunft durch elektronischen Meldeschein oder schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Aufenthaltstag."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist der Gemeindeteil Oy.",
+          "quote": "umfasst das Gebiet des Gemeindeteiles Oy;"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 100,
+                "quote": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II ist der Gemeindeteil Mittelberg.",
+          "quote": "umfasst das Gebiet des Gemeindeteiles Mittelberg;"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 160,
+              "quote": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 90,
+                "quote": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III umfasst die übrigen Gemeindeteile, etwa Haslach, Petersthal und Schwarzenberg.",
+          "quote": "umfasst das Gebiet der Gemeindeteile Bachtel, Bichel, Burgkranzegg,"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 140,
+              "quote": "für Personen ab dem vollendeten 16. Lebensjahr 1,80 € 1,60 € 1,40 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 16,
+                "cents": 80,
+                "quote": "ab dem vollendeten 6. bis zum vollendeten 16. Lebensjahr 1,00 € 0,90 € 0,80 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Auf Antrag kann der Kurbeitrag für schwerbehinderte Personen mit einem Grad der Behinderung ab 50 ermäßigt werden, wenn sie die Kosten des Aufenthalts selbst tragen.",
+        "quote": "für schwerbehinderte Personen, die einen Grad der Behinderung von 50 % und mehr durch Behindertenausweis nachweisen können, sofern sie die Kosten des Kuraufenthalts selbst tragen"
+      },
+      {
+        "text": "Auf Antrag kann der Kurbeitrag für Begleitpersonen einer schwerbehinderten Person bis zu 100 % ermäßigt werden.",
+        "quote": "Der Kurbeitrag kann auf Antrag ermäßigt werden um bis zu 100% 1. für Begleitpersonen einer schwerbehinderten Person"
+      },
+      {
+        "text": "Die Mehrwertsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Mehrwertsteuer enthalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag innerhalb der Frist ab, die auf dem Kurbeitragsbescheid der Gemeinde steht.",
+      "quote": "Der Kurbeitrag ist innerhalb der auf dem Kurbeitragsbescheid angegebenen Frist an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste spätestens am Tag nach der Ankunft per elektronischem Meldeschein oder schriftlich, wenn sie sich nicht selbst gemeldet haben.",
+      "quote": "die Beitragspflichtigen spätestens am Tag nach deren Ankunft durch elektronischen Meldeschein oder schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oy-mittelberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 160,
+            "children": [
+              0,
+              90
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 140,
+            "children": [
+              0,
+              80
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

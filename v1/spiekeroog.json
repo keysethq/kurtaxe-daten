@@ -1,0 +1,204 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "spiekeroog",
+  "name": "Spiekeroog",
+  "short": "Spiekeroog",
+  "ags": "03462014",
+  "state": "Niedersachsen",
+  "district": "Wittmund",
+  "sources": {
+    "satzung": {
+      "title": "Gästebeitragssatzung der Gemeinde Spiekeroog vom 22.11.2024, Amtsblatt Landkreis Wittmund vom 29. November 2024, S. 117",
+      "url": "https://www.landkreis-wittmund.de/media/custom/3105_3521_1.PDF",
+      "kind": "gazette",
+      "inForce": "2024-12-01",
+      "sha256": "7c951b4e199010f7ad9030b4e3266ddbf277576b0cfac5f47b8cc690ffcffca0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung1": {
+      "title": "1. Änderungssatzung zur Gästebeitragssatzung der Gemeinde Spiekeroog vom 20.03.2025, Amtsblatt Landkreis Wittmund März 2025",
+      "url": "https://www.landkreis-wittmund.de/media/custom/3105_3685_1.PDF",
+      "kind": "gazette",
+      "inForce": "2024-12-01",
+      "sha256": "38c39301d7a7feac680327cc5991ef628060702a4905bb5bd7c467e8fad1cf07",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "lesefassung": {
+      "title": "Lesefassung der Gästebeitragssatzung vom 22.11.2024 mit Einarbeitung der 1. Änderungssatzung vom 20.03.2025, Nordseebad Spiekeroog GmbH",
+      "url": "https://www.spiekeroog.de/fileadmin/user_upload/Dateien-Download/NSB/250414_Lesefassung_-_G%C3%A4stebeitragssatzung_vom_22.11.2024_mit_1._%C3%84nderungssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2024-12-01",
+      "sha256": "0c8e5eea5bfb2e0e7fc60f68a3fe37d4bb8bd34749c69f101452edf362fb49a3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der Anreise und der Abreise werden als ein Aufenthaltstag gerechnet.",
+      "source": "aenderung1"
+    },
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 550,
+          "quote": "Saison A Saison B Erwachsene 5,50 Euro 2,20 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag befreit sind: - Personen bis zur Vollendung des 6. Lebensjahres.",
+            "source": "lesefassung"
+          },
+          {
+            "underAge": 15,
+            "cents": 230,
+            "quote": "Erwachsene 5,50 Euro 2,20 Euro Kinder 2,30 Euro 0,90 Euro Als Saison A gilt die Zeit vom 15.03. bis zum 31.10., als Saison B gilt die übrige Zeit eines jeden Jahres. Ein gästebeitragspflichtiges Kind im Sinne dieser Satzung ist zwischen 6 und 14 Jahre alt."
+          }
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-14"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "Saison A Saison B Erwachsene 5,50 Euro 2,20 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Vom Gästebeitrag befreit sind: - Personen bis zur Vollendung des 6. Lebensjahres.",
+            "source": "lesefassung"
+          },
+          {
+            "underAge": 15,
+            "cents": 90,
+            "quote": "Erwachsene 5,50 Euro 2,20 Euro Kinder 2,30 Euro 0,90 Euro Als Saison A gilt die Zeit vom 15.03. bis zum 31.10., als Saison B gilt die übrige Zeit eines jeden Jahres. Ein gästebeitragspflichtiges Kind im Sinne dieser Satzung ist zwischen 6 und 14 Jahre alt."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Begleitpersonen von Menschen mit Merkzeichen B zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis völlig auf ständige Begleitung angewiesen sind (amtlicher Ausweis mit dem Merkzeichen >B<). - Schwerbehinderte, die laut amtlichem Ausweis einen Grad der Behinderung (GdB) von 100 haben.",
+        "source": "lesefassung"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 70 bis unter 100 zahlen den ermäßigten Satz von 2,10 Euro in Saison A und 0,70 Euro in Saison B.",
+        "quote": "c) Schwerbehinderte, deren Grad der Behinderung weniger als 100 v. H., aber mindestens 70 v. H. beträgt.",
+        "source": "lesefassung"
+      },
+      {
+        "text": "Auf Antrag zahlen nahe Angehörige von Einwohnern und Beschäftigten nichts.",
+        "quote": "Auf Antrag: Ehepartner und Lebenspartner nach Lebenspartnerschaftsgesetz, Partner in eheähnlicher Lebensgemeinschaft, wenn diese einen gemeinsamen Wohnsitz unterhalten,",
+        "source": "lesefassung"
+      },
+      {
+        "text": "Auf Antrag zahlt nichts, wer nur zur Arbeit oder Ausbildung auf der Insel ist und das nachweist.",
+        "quote": "Personen, die sich nur zur Berufsausübung oder -ausbildung im Erhebungsgebiet aufhalten und einen Tätigkeitsnachweis vorlegen,",
+        "source": "lesefassung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gast meldet sich innerhalb von 24 Stunden nach der Ankunft selbst bei der Nordseebad Spiekeroog GmbH und zahlt dort den Gästebeitrag für den ganzen geplanten Aufenthalt.",
+        "quote": "Der Gästebeitrag wird innerhalb von 24 Stunden nach Ankunft im Erhebungsgebiet für die gesamte geplante Aufenthaltsdauer fällig;",
+        "source": "lesefassung"
+      },
+      {
+        "text": "Du führst ein Gästeverzeichnis, legst es auf Verlangen der Gemeinde vor und bewahrst es sechs Jahre auf.",
+        "quote": "das Gästeverzeichnis nicht, nicht vollständig, nicht tagaktuell oder kontrollfähig oder unrichtig führt, soweit kein abweichendes Verfahren nach § 8 Absatz 4 vereinbart ist oder es nicht sechs Jahre ab Beginn des auf die Eintragung folgenden Kalenderjahres aufbewahrt.",
+        "source": "lesefassung"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, fordert sie auf, sich rechtzeitig bei der Nordseebad Spiekeroog GmbH zu melden; den Beitrag zieht die Gesellschaft ein, nicht du.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet, den Beitragsschuldner entsprechend der Fälligkeit des Gästebeitrages (§ 10 Absatz 1) nach dieser Satzung aufzufordern, sich bei der Gästebeitragseinziehenden Stelle, der Nordseebad Spiekeroog GmbH, zu melden.",
+      "source": "lesefassung"
+    },
+    "deadline": null,
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/spiekeroog/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Saison A",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 550,
+        "children": [
+          0,
+          230
+        ]
+      },
+      {
+        "label": "Saison B",
+        "ranges": [
+          [
+            "11-01",
+            "03-14"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0,
+          90
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dranske",
+  "name": "Ostseebad Dranske",
+  "short": "Dranske",
+  "ags": "13073019",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe der Gemeinde Dranske, Beschluss der Gemeindevertretung vom 12.11.2020, ausgefertigt am 01.12.2020",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/1/2/Dranske_Kur.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "20bf79365399c581ae0d16268f7558e2c7f0f7ee44de163f2cab65b6a02aa99c",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag)"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "periods[0].children[1] limit",
+          "page": 2,
+          "reading": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "periods[1].children[1] limit",
+          "page": 2,
+          "reading": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v.H. beträgt, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Begleitpersonen von Schwerbehinderten und Schwerkriegsbeschädigten, die It. amtlichem Ausweis auf völlig ständige Begleitung angewiesen sind, auf Antrag."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Die Kurabgabe wird ermäßigt für: (1) Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "(2) Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden, (3) Schwerbehinderte mit mehr als 50% Behinderung, sofern sie den Behindertenausweis vorlegen, sowie Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April) Jahreskurkarten 40,00 € 25,00 €"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungseinheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt, In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Die Wohnungsgeber haften für die Abgabeschuld."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Jeder Wohnungsgeber (oder dessen Bevollmächtigter) ist verpflichtet, an die von ihm aufgenommenen Personen innerhalb von 24 Stunden (Meldegesetz) eine Kurkarte auszugeben und den fälligen Betrag monatlich an die Gemeinde Dranske abzuführen und seine Belege abzurechnen."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "den fälligen Betrag monatlich an die Gemeinde Dranske abzuführen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Dranske – staatlich anerkannter Erholungsort (nichtamtliche Lesefassung der Satzung vom 28.12.2010, Ortsrecht des Amtes Nord-Rügen)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/0/4/Satzung-_ber-die-Erhebung-einer-Fremdenverkehrsabgabe-in-der-Gemeinde-Dranske.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "4297789fda72bebac725661c26cab5ab673ecc6a66f682678c9e27f06b780a86",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag)"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 50,
+            "quote": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April)",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte und Schwerkriegsbeschädigte mit einer Minderung der Erwerbsfähigkeit von 100 v. H., wenn sie die Kosten des Aufenthalts in voller Höhe selbst tragen",
+        "quote": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v.H. beträgt, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten und Schwerkriegsbeschädigten, die laut amtlichem Ausweis auf völlig ständige Begleitung angewiesen sind, auf Antrag",
+        "quote": "Begleitpersonen von Schwerbehinderten und Schwerkriegsbeschädigten, die lt. amtlichem Ausweis auf völlig ständige Begleitung angewiesen sind, auf Antrag."
+      },
+      {
+        "text": "Wer in Dranske in einem Arbeits- oder Ausbildungsverhältnis steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kinder zahlen den ermäßigten Satz nur in Begleitung ihrer Eltern.",
+        "quote": "Die Kurabgabe wird ermäßigt für: (1) Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres,"
+      },
+      {
+        "text": "Den ermäßigten Satz zahlen auch Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis 27 Jahre mit Nachweis, Schwerbehinderte mit mehr als 50 Prozent Behinderung gegen Vorlage des Behindertenausweises sowie Begleitpersonen körperbehinderter Gäste mit ärztlicher Bescheinigung.",
+        "quote": "(2) Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden, (3) Schwerbehinderte mit mehr als 50% Behinderung, sofern sie den Behindertenausweis vorlegen, sowie Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird."
+      },
+      {
+        "text": "Die Jahreskurkarte kostet 40,00 € (ermäßigt 25,00 €).",
+        "quote": "voll ermäßigt Hauptsaison 1,50 € 1,00 € (01.Mai bis 31.Oktober) Nebensaison 1,00 € 0,50 € (01.November bis 30.April) Jahreskurkarten 40,00 € 25,00 €"
+      },
+      {
+        "text": "Eigentümer und Besitzer einer Wohnung, die sie überwiegend zu Erholungszwecken nutzen, zahlen pro Person eine Jahreskurabgabe.",
+        "quote": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungseinheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt, In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
+      },
+      {
+        "text": "Du haftest als Vermieter für die Abgabeschuld.",
+        "quote": "Die Wohnungsgeber haften für die Abgabeschuld."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, gibt innerhalb von 24 Stunden eine Kurkarte aus und führt den Betrag monatlich an die Gemeinde ab.",
+      "quote": "Jeder Wohnungsgeber (oder dessen Bevollmächtigter) ist verpflichtet, an die von ihm aufgenommenen Personen innerhalb von 24 Stunden (Meldegesetz) eine Kurkarte auszugeben und den fälligen Betrag monatlich an die Gemeinde Dranske abzuführen und seine Belege abzurechnen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich.",
+      "quote": "den fälligen Betrag monatlich an die Gemeinde Dranske abzuführen"
+    },
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du aus dem Fremdenverkehr in Dranske Vorteile ziehst.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen, die aus dem Fremdenverkehr Vorteile erzielen."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "a) bei Beherbergungsbetrieben und Zimmervermietern 6,00 EUR je Bett, jedoch mindestens 10,00 EUR",
+        "flat": {
+          "cents": 600,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Du zahlst mindestens 10,00 € im Jahr.",
+      "quote": "jedoch mindestens 10,00 EUR",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Die Zahlenangaben zur Berechnung teilst du der Gemeinde Dranske bis zum 15. Juli jedes Jahres mit.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde Dranske bis zum 15. Juli j. J. die erforderlichen Zahlenangaben zur Berechnung der Abgabe (§ 5) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe zwei Wochen nach Bekanntgabe des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe ist 2 Wochen nach Bekanntgabe des Veranlagungsbescheides fällig und an die Gemeinde Dranske in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du am 1. Juli gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern nach der Zahl der am 01. Juli j. J. vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Diese Satzung von 2010 hat die Satzung vom 3. Dezember 2001 abgelöst.",
+        "quote": "Gleichzeitig tritt die Satzung über die Erhebung der Fremdenverkehrsabgabe in der Gemeinde Dranske – Fremdenverkehrsabgabesatzung – vom 03.12.2001 außer Kraft."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/dranske/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          100
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "04-30"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ]
+      }
+    ]
+  }
+}

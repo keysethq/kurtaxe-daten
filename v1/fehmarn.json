@@ -1,0 +1,392 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "fehmarn",
+  "name": "Stadt Fehmarn",
+  "short": "Fehmarn",
+  "ags": "01055046",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Fehmarn über die Erhebung einer Kurabgabe, beschlossen am 28.11.2024, ausgefertigte Fassung im Ortsrecht der Stadt Fehmarn",
+      "url": "https://www.stadtfehmarn.de/media/custom/2114_2920_1.PDF",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "c9a824d2127ef92f0e542b5ddb0ef1f7c8ecd7e421d46cc0af65d7dc47eb8eb5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "lesefassung": {
+      "title": "Satzung der Stadt Fehmarn über die Erhebung einer Kurabgabe, Textfassung des Tourismus-Service Fehmarn (Kurabgabesatzung_Fehmarn_2025)",
+      "url": "https://www.fehmarn.de/fileadmin/fehmarn/Dateien/Business/Kurabgabesatzung_Fehmarn_2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "7321b7c3c38590e653ea4069f8e3fda54c33ad6995a3660a436b621831ce0f24",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Fehmarn über die Erhebung einer Tourismusabgabe (Lesefassung inkl. dritter Nachtrag)",
+      "url": "https://www.stadtfehmarn.de/media/custom/2114_3128_1.PDF?1766045627",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "20c1246fd460f083c74066cea9366ef178d1870619bc99ee863e6ff67fcbc612",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAnlage": {
+      "title": "Verzeichnis der Betriebsarten, Anlage zur Tourismusabgabesatzung der Stadt Fehmarn (Fassung ab 01.01.2026)",
+      "url": "https://www.stadtfehmarn.de/media/custom/2114_3129_1.PDF?1766045756",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "2fbb9c77d64ab00937956271c33a2ff7055fe6cbdb92b4a7fa6821f7a802d844",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "lesefassung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten bei Personen, die im Erhebungsgebiet übernachten, als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-15",
+            "to": "09-14"
+          }
+        ],
+        "adult": {
+          "cents": 230,
+          "quote": "b) 15.05. -14.09. (Hauptsaison) 2,30 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "05-14"
+          },
+          {
+            "from": "09-15",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "a) 01.01. -14.05. (Nebensaison) 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Von der Kurabgabepflicht sind freigestellt: a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und eine ständige Begleitperson mit Merkzeichen B zahlen 50 %",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 v. H. und mehr nachweisen, erhalten eine Ermäßigung von 50 %. Dieses gilt auch für eine ständig erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Gruppenreisen ab 25 Personen zahlen auf vorherigen Antrag 10 % weniger",
+        "quote": "Teilnehmer an Sammelreisen (z. B. Betriebsausflüge) ab 25 Personen erhalten auf vorherigen Antrag vom Tourismus-Service Fehmarn eine Ermäßigung der Kurabgabe in Höhe von 10 %."
+      },
+      {
+        "text": "Familienangehörige von Einwohnern, die bei ihnen wohnen und keine touristischen Leistungen nutzen",
+        "quote": "Direkte und erweiterte Familienangehörige - dazu gehören Kinder, Enkelinnen, Geschwister, Nichten und Neffen, Eltern, Großeltern sowie Angehörige durch Heirat und deren Lebenspartnerinnen - von Personen mit Hauptwohnsitz in der Stadt Fehmarn. Sie dürfen kostenfrei in den Haushalt integriert werden, sofern sie keine touristischen Dienstleistungen und touristische Infrastruktur in Anspruch nehmen."
+      },
+      {
+        "text": "Wer nur beruflich auf der Insel ist und die Einrichtungen nicht nutzt",
+        "quote": "in Ausübung ihres Dienstes oder Berufs vorübergehend Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Nutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Anmeldung zur ostseecard läuft für alle Vermieter elektronisch; Ausnahmen gibt es nur für Härtefälle auf vorherigen schriftlichen Antrag.",
+        "quote": "Die elektronische Anmeldung zur ostseecard ist für alle Unterkunftsgeber/innen in der Stadt Fehmarn verpflichtend."
+      },
+      {
+        "text": "Nutzt du die volldigitale ostseecard eines Drittanbieters, zahlt der Gast die Kurabgabe direkt an den Tourismus-Service Fehmarn; deine Kontrollpflichten bleiben.",
+        "quote": "Bei einer Nutzung dieser Anmeldetechnik zahlt der Gast die Kurabgabe direkt an den Tourismus-Service Fehmarn. Sie entbindet den Unterkunftsgeber nicht von seinen Kontrollpflichten"
+      },
+      {
+        "text": "Auf Antrag mit Nachweis wird die Kurabgabe pauschal für 28 Tage der Hauptsaison im Jahr berechnet (Jahressaisonpauschale).",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage der Hauptsaison pauschaliert (Jahressaisonpauschale), wenn der Kurabgabepflichtige a) einen entsprechenden Antrag stellt und einen Nachweis vorlegt."
+      },
+      {
+        "text": "Du führst ein Gästeverzeichnis, in das jeder Gast am Tag der Ankunft eingetragen wird.",
+        "quote": "Jeder Unterkunftsgeber, dessen Bevollmächtigter oder Beauftragter, hat ein Gästeverzeichnis zu führen, in das alle Gäste am Tage der Ankunft einzutragen sind."
+      },
+      {
+        "text": "Vermieter müssen die Satzung für ihre Gäste sichtbar auslegen.",
+        "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe über die Anmeldung zur ostseecard und zieht sie beim Gast ein.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, über die elektronischen Anmeldemöglichkeiten oder Anmeldungen zur ostseecard die Kurabgabe zu errechnen, diese vom Gast einzuziehen"
+    },
+    "deadline": {
+      "text": "Nach der Rechnung des Tourismus-Service Fehmarn überweist du die Kurabgabe binnen 14 Tagen oder erteilst ein Lastschriftmandat.",
+      "quote": "nach Rechnungsstellung durch den Tourismus-Service Fehmarn kostenfrei und grundsätzlich bargeldlos innerhalb von 14 Tagen abzuführen oder dem Tourismus-Service Fehmarn die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "reporting": {
+      "text": "Die Daten zur ostseecard reichst du binnen drei Wochen nach Anreise des Gastes beim Tourismus-Service Fehmarn ein.",
+      "quote": "die zur Abrechnung der ostseecard erforderlichen Daten sind innerhalb von drei Wochen nach Anreise des Gastes beim Tourismus-Service Fehmarn einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Fehmarn selbstständig tourismusbezogene Leistungen gegen Entgelt anbietest, also auch, wenn du Ferienwohnungen oder Zimmer vermietest.",
+      "quote": "(1) Abgabepflichtig sind natürliche und juristische Personen sowie ganz oder teilweise rechtsfähige Personenvereinigungen, die in der Stadt Fehmarn selbstständig tourismusbezogene entgeltliche Leistungen anbieten und denen in der Stadt Fehmarn unmittelbare und / oder mittelbare wirtschaftliche Vorteile am Tourismus entstehen könnten."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Fremdenzimmer und Mietwohnwagen, Umsatz bis 50.000 €",
+        "quote": "A3 Ferienwohnungen und Fremdenzimmern sowie Mietwohnwagen A 3.1 mit einem Umsatz bis 50.000 Euro 18% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A3 Ferienwohnungen und Fremdenzimmern sowie Mietwohnwagen A 3.1 mit einem Umsatz bis 50.000 Euro 18% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 18
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Ferienwohnungen, Fremdenzimmer und Mietwohnwagen, Umsatz über 50.000 € bis 100.000 €",
+        "quote": "A 3.2 mit einem Umsatz bis 100.000 Euro 13% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 3.2 mit einem Umsatz bis 100.000 Euro 13% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 13
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Ferienwohnungen, Fremdenzimmer und Mietwohnwagen, Umsatz über 100.000 €",
+        "quote": "A 3.3 mit einem Umsatz über 100.000 Euro 6% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 3.3 mit einem Umsatz über 100.000 Euro 6% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 6
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 €",
+        "quote": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A 2.1 mit einem Umsatz bis 200.000 Euro 30% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A2 Hotels Garni, Gasthöfe und Pensionen mit Frühstück A 2.1 mit einem Umsatz bis 200.000 Euro 30% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 30
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 €",
+        "quote": "A 2.2 mit einem Umsatz über 200.000 Euro 24% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 2.2 mit einem Umsatz über 200.000 Euro 24% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 24
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 €",
+        "quote": "A1 Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A 1.1 mit einem Umsatz bis 500.000 Euro 25% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A1 Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension A 1.1 mit einem Umsatz bis 500.000 Euro 25% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 25
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 €",
+        "quote": "A 1.2 mit einem Umsatz über 500.000 Euro 15% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A 1.2 mit einem Umsatz über 500.000 Euro 15% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 15
+          }
+        },
+        "source": "fvbAnlage"
+      },
+      {
+        "label": "Campingplätze",
+        "quote": "A5 Campingplätze 14% 5 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A5 Campingplätze 14% 5 100%",
+            "source": "fvbAnlage"
+          },
+          "profit": {
+            "percent": 14
+          }
+        },
+        "source": "fvbAnlage"
+      }
+    ],
+    "rate": {
+      "percent": 3.3,
+      "quote": "Der Abgabesatz beträgt 3,30 %."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "(7) Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 Euro nicht übersteigt.",
+      "cents": 500,
+      "kind": "threshold"
+    },
+    "reporting": {
+      "text": "Bis zum 31. Mai des Folgejahres gibst du auf dem Formblatt der Stadt die Erklärung über deine Einnahmen ab, oder innerhalb eines Monats nach schriftlicher Aufforderung der Stadt.",
+      "quote": "2. bis zum 31. Mai eines jeden Folgejahres oder - soweit die Stadt Fehmarn dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gemäß § 4 dieser Satzung abzugeben,"
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig, wenn der Bescheid keinen späteren Termin nennt.",
+      "quote": "Die festgesetzten Beträge werden jeweils innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig, soweit im Bescheid nicht ausdrücklich ein späterer Fälligkeitstermin bestimmt ist."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind die betrieblichen Einnahmen des Erhebungszeitraums.",
+        "quote": "(4) Maßgeblich für die Ermittlung des tourismusbedingten Teils der jährlichen Einnahmen sind die im Geltungsbereich dieser Satzung erzielten betrieblichen Einnahmen des Erhebungszeitraumes."
+      },
+      {
+        "text": "Erhebungszeitraum ist das Kalenderjahr.",
+        "quote": "(3) Erhebungszeitraum ist das Kalenderjahr."
+      },
+      {
+        "text": "Die Tabelle der Anlage nennt Gewinnsatz, Vorteilsstufe und Vorteilssatz.",
+        "quote": "Gewinnsatz Vorteilsstufe Vorteilssatz",
+        "source": "fvbAnlage"
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Stadt innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Die Stadt kann während des Jahres Vorausleistungen auf die erwartete Abgabe verlangen.",
+        "quote": "(4) Auf die Tourismusabgabe können im Verlauf des Erhebungszeitraumes Vorausleistungen in Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/fehmarn/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-15",
+            "09-14"
+          ]
+        ],
+        "adult": 230,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "05-14"
+          ],
+          [
+            "09-15",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

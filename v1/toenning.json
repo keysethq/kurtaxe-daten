@@ -1,0 +1,582 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "toenning",
+  "name": "Stadt Tönning",
+  "short": "Tönning",
+  "ags": "01054138",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Tönning vom 04.04.2023 (rückwirkend ab 01.01.2023)",
+      "url": "https://www.toenning.de/fileadmin/download/Satzungen/Tourist-und-Freizeit/Satzung-Erhebung-Kurabgabe-2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "aae0c8f2fe8d7727eaba5b8fe6581d5bf69206b3853afe6c912061b6ff639793",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "nachtrag1": {
+      "title": "1. Nachtrag zur Satzung über die Erhebung einer Kurabgabe in der Stadt Tönning vom 10.12.2025 (neuer § 5, in Kraft ab 01.01.2026)",
+      "url": "https://www.toenning.de/fileadmin/download/Satzungen/Tourist-und-Freizeit/Satzung-Erhebung-Kurabgabe-1-Nachtragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "0c97fb76c776c0267fa93f058cda8c1dc7c80d151709bf78d59fe9f9dcf0cf0c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Ankunfts- und Abreisetag gelten als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro"
+        },
+        {
+          "where": "stayCap",
+          "page": 1,
+          "reading": "Die © Kurabgabe wird nach Dauer des Aufenthaltes - höchstens mit dem Satz der vollen Jahreskurabgabe - erhoben. Ankunfts- und Abreisetag gelten als ein Tag. Bemessungsgrundlage für An- und Abreisetag ist.der Tagessatz für den Ankunftstag. Die Kurabgabe beträgt je Tag einschließlich Mehrwertsteuer a. in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro b. in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,15 Euro 2. Dem Gast steht es frei, anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen, die a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) i 78,00 Euro"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Bemessungsgrundlage für An- und Abreisetag ist.der Tagessatz für den Ankunftstag."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro b. in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "Die Kurabgabe beträgt je Tag einschließlich Mehrwertsteuer"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 1,
+          "reading": "b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 1,
+          "reading": "in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,15 Euro"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 1,
+          "reading": "Dem Gast steht es frei, anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen, die a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) i 78,00 Euro"
+        },
+        {
+          "where": "remarks[6]",
+          "page": 1,
+          "reading": "b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) \"44,00 Euro beträgt."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 1,
+          "reading": "Bei mehreren Aufenthalten in einem Kalenderjahr wird die Kurabgabe nur bis zur Höhe der Jahreskurabgabe erhoben."
+        },
+        {
+          "where": "remarks[8]",
+          "page": 1,
+          "reading": "Eigentümer oder Besitzer von Wohnungseinheiten, die ihren Wohnsitz nicht in der Stadt Tönning haben, zahlen für sich und ihre Familienangehörigen. die Kurabgabebeträge der Jahreskurkarte."
+        }
+      ]
+    },
+    "ta": {
+      "title": "Satzung der Stadt Tönning über die Erhebung einer Tourismusabgabe vom 04.04.2023",
+      "url": "https://www.toenning.de/fileadmin/download/Satzungen/Tourist-und-Freizeit/Satzung-Erhebung-Tourismusabgabe-2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "ca016bced399c25911cd7eb8dd6b65180c5439c0c1db2f94528fbc36a84ea53c",
+      "verifiedOn": "2026-10-15"
+    },
+    "taAnlage": {
+      "title": "Anlage 1 zur Satzung über die Erhebung einer Tourismusabgabe in der Stadt Tönning",
+      "url": "https://www.toenning.de/fileadmin/download/Satzungen/Tourist-und-Freizeit/Satzung-Tourismusabgabe-2023-Anlage-1.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "5bd1a81c29af125696b8ff32962451deaf21e827558499434c8b8a024516601c",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "19 Vermietung von Ferienwohnungen u. Gästezimmern ohne Frühstück 30"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 5,
+          "reading": "19 Vermietung von Ferienwohnungen u. Gästezimmern ohne Frühstück 30"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 5,
+          "reading": "9 Hotels garni, Gasthöfe, Pensionen, Vermietung von i Ferienwohnungen und Gästezimmern mit Frühstück 9.1 wirtschaftlicher Umsatz bis 130.000 € 21"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 5,
+          "reading": "9 Hotels garni, Gasthöfe, Pensionen, Vermietung von i Ferienwohnungen und Gästezimmern mit Frühstück 9.1 wirtschaftlicher Umsatz bis 130.000 € 21"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 5,
+          "reading": "9.2 wirtschaftlicher Umsatz über 130.000 € 16"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 5,
+          "reading": "9.2 wirtschaftlicher Umsatz über 130.000 € 16"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 5,
+          "reading": "8 Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Vermietung von Ferienwohnungen und Gästezimmern mit hotelmäßigen Leistungen 8.1 wirtschaftlicher Umsatz bis 360.000 € 21"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 5,
+          "reading": "8 Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Vermietung von Ferienwohnungen und Gästezimmern mit hotelmäßigen Leistungen 8.1 wirtschaftlicher Umsatz bis 360.000 € 21"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 5,
+          "reading": "8.2 wirtschaftlicher Umsatz über 360.000 € 16"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 5,
+          "reading": "8.2 wirtschaftlicher Umsatz über 360.000 € 16"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 5,
+          "reading": "3 Campingplätze 30"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 5,
+          "reading": "3 Campingplätze 30"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 1,
+          "reading": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 5,
+          "reading": "Vortslsstute 4 Personengruppe bzw. Betriebsart a 1 |Badeärzte (bezogen auf die badeärztliche Tätigkeit)"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "nachtrag1",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag gelten als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-15",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "source": "satzung",
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, soweit sie sich in Begleitung einer oder eines Erziehungsberechtigten befinden."
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "05-14"
+          },
+          {
+            "from": "10-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 165,
+          "quote": "in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "source": "satzung",
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, soweit sie sich in Begleitung einer oder eines Erziehungsberechtigten befinden."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche unter 18 Jahren in Begleitung einer oder eines Erziehungsberechtigten zahlen nichts.",
+        "source": "satzung",
+        "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, soweit sie sich in Begleitung einer oder eines Erziehungsberechtigten befinden."
+      },
+      {
+        "text": "Auf Antrag zahlen Angehörige von Einwohnern mit Hauptwohnsitz in Tönning nichts, wenn sie unentgeltlich im Haushalt aufgenommen sind.",
+        "source": "satzung",
+        "quote": "auf Antrag Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertochter und ‐söhne, Schwager und Schwägerinnen von Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn die unentgeltlich in die häusliche Gemeinschaft aufgenommen sind."
+      },
+      {
+        "text": "Wer dienstlich oder beruflich in Tönning ist und die Einrichtungen nicht nutzt, zahlt nichts.",
+        "source": "satzung",
+        "quote": "Personen, die in Ausübung ihres Dienstes oder Berufes anwesend sind, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu ihren Aufgaben im Rahmen ihrer Tätigkeiten gehört"
+      },
+      {
+        "text": "Kranke, die mit ärztlichem Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können, zahlen nichts.",
+        "source": "satzung",
+        "quote": "Kranke, die durch ein ärztliches Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Ankunftstags.",
+        "quote": "Bemessungsgrundlage für An- und Abreisetag ist der Tagessatz für den Ankunftstag."
+      },
+      {
+        "text": "Die Satzung nennt Sätze für 15. Mai bis 30. September sowie für 1. April bis 14. Mai und 1. bis 31. Oktober; für November bis März steht kein Satz darin.",
+        "quote": "in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro b. in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro"
+      },
+      {
+        "text": "Die Sätze enthalten die Mehrwertsteuer.",
+        "quote": "Die Kurabgabe beträgt je Tag einschließlich Mehrwertsteuer"
+      },
+      {
+        "text": "Schüler und Auszubildende ab 18 Jahren zahlen gegen Ausweis in der Hauptsaison 1,50 € am Tag.",
+        "quote": "b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro"
+      },
+      {
+        "text": "Schüler und Auszubildende ab 18 Jahren zahlen gegen Ausweis in der Vor- und Nachsaison 1,15 € am Tag.",
+        "quote": "in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,15 Euro"
+      },
+      {
+        "text": "Statt der Tagessätze kann der Gast die Jahreskurabgabe wählen: 78,00 € für Erwachsene.",
+        "quote": "Dem Gast steht es frei, anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen, die a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 78,00 Euro"
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt für Schüler und Auszubildende ab 18 Jahren gegen Ausweis 44,00 €.",
+        "quote": "b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 44,00 Euro beträgt."
+      },
+      {
+        "text": "Bei mehreren Aufenthalten im Kalenderjahr wird höchstens die Jahreskurabgabe erhoben.",
+        "quote": "Bei mehreren Aufenthalten in einem Kalenderjahr wird die Kurabgabe nur bis zur Höhe der Jahreskurabgabe erhoben."
+      },
+      {
+        "text": "Eigentümer oder Besitzer von Wohnungseinheiten ohne Wohnsitz in Tönning zahlen für sich und ihre Familie die Jahreskurabgabe.",
+        "quote": "Eigentümer oder Besitzer von Wohnungseinheiten, die ihren Wohnsitz nicht in der Stadt Tönning haben, zahlen für sich und ihre Familienangehörigen die Kurabgabebeträge der Jahreskurkarte.",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 50 % und mehr und eine erforderliche Begleitperson zahlen die Hälfte.",
+        "source": "satzung",
+        "quote": "Schwerbehinderte, die eine Behinderung von 50 % und mehr nachweisen, wird die nach § 5 jeweils geltende Kurabgabe auf 50 % ermäßigt; dies gilt auch für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Kinder und Jugendliche bis 18 Jahre in Kinder- und Jugendheimen, Jugendherbergen und vergleichbaren Einrichtungen für Gruppen zahlen 0,50 € am Tag.",
+        "source": "satzung",
+        "quote": "Benutzer von Kinder- und Jugendheimen, Kinder- und Jugenderholungsheimen, Jugendherbergen und vergleichbaren Einrichtungen, die Unterkunft für Kinder- und Jugendgruppen anbieten, bis zum Alter von 18 Jahren zahlen je Tag des Aufenthaltes eine ermäßigte Kurabgabe in Höhe von 0,50 EUR."
+      },
+      {
+        "text": "Du darfst 5 % der Kurabgabe für deinen Aufwand beim Einziehen und Abführen einbehalten.",
+        "source": "satzung",
+        "quote": "ist berechtigt, zur Abgeltung der durch die Einziehung und Abführung der Kurabgabe entstehenden Mehraufwendungen einen Betrag in Höhe von 5 von Hundert des Kurabgabebetrages einzubehalten."
+      },
+      {
+        "text": "Du legst die Satzung für deine Gäste sichtbar aus.",
+        "source": "satzung",
+        "quote": "hat diese Satzung die von ihm aufgenommenen Personen sichtbar auszulegen."
+      },
+      {
+        "text": "Für Kinder und Jugendliche ohne Begleitung einer oder eines Erziehungsberechtigten nennt die Satzung keinen Satz; frei sind sie nur in Begleitung.",
+        "source": "satzung",
+        "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, soweit sie sich in Begleitung einer oder eines Erziehungsberechtigten befinden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt jedem Gast eine Kurkarte aus, zieht die Kurabgabe ein und führt sie kostenfrei an die Tourist- und Freizeitbetriebe der Stadt Tönning ab.",
+      "source": "satzung",
+      "quote": "verpflichtet, für die von ihm auszustellenden Kurkarten die Kurabgabe zu errechnen, diese vom Gast einzuziehen und sie an die Stadt Tönning ‐ Tourist‐ und Freizeitbetriebe ‐ kostenfrei abzuführen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Du stellst jedem Gast unverzüglich eine Kurkarte aus und lässt An- und Abreisetag und Heimatanschrift auf der Kopie für die Tourist- und Freizeitbetriebe vom Gast eintragen.",
+      "source": "satzung",
+      "quote": "unverzüglich unter Verwendung der von den Tourist‐ und Freizeitbetrieben der Stadt Tönning zur Verfügung gestellten Vordrucke eine Kurkarte auszustellen und auf der für die Tourist‐ und Freizeitbetriebe der Stadt Tönning bestimmten Kopie den An‐ und Abreisetag und die Heimatanschrift durch den Gast eintragen zu lassen."
+    },
+    "stayCap": {
+      "cents": 7800,
+      "text": "Pro Aufenthalt zahlt ein Erwachsener höchstens die Jahreskurabgabe von 78,00 €.",
+      "quote": "Die Kurabgabe wird nach Dauer des Aufenthaltes ‐ höchstens mit dem Satz der vollen Jahreskurabgabe ‐ erhoben. Ankunfts- und Abreisetag gelten als ein Tag. Bemessungsgrundlage für An- und Abreisetag ist der Tagessatz für den Ankunftstag. Die Kurabgabe beträgt je Tag einschließlich Mehrwertsteuer a. in der Zeit vom 15. Mai bis 30. September a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 2,80 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,50 Euro b. in der Zeit vom 01. April bis 14. Mai sowie vom 01. Oktober bis 31. Oktober a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 1,65 Euro b) für Schüler*innen und Auszubildende, die das 18. Lebensjahr vollendet haben (gegen Vorlage eines Ausweises) 1,15 Euro 2. Dem Gast steht es frei, anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen, die a) für jede erwachsene Person (Personen, die das 18. Lebensjahr vollendet haben) 78,00 Euro",
+      "source": "nachtrag1"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Tönning selbstständig tourismusbezogene Leistungen gegen Entgelt anbietest, auch eine Vermietung.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nichtrechtsfähige Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und Gästezimmer ohne Frühstück (Vorteilsstufe 4)",
+        "quote": "19 Vermietung von Ferienwohnungen u. Gästezimmern ohne Frühstück 30",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe, Pensionen, Ferienwohnungen und Gästezimmer mit Frühstück, Umsatz bis 130.000 € (Vorteilsstufe 4)",
+        "quote": "9 Hotels garni, Gasthöfe, Pensionen, Vermietung von Ferienwohnungen und Gästezimmern mit Frühstück 9.1 wirtschaftlicher Umsatz bis 130.000 € 21",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 21
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe, Pensionen, Ferienwohnungen und Gästezimmer mit Frühstück, Umsatz über 130.000 € (Vorteilsstufe 4)",
+        "quote": "9.2 wirtschaftlicher Umsatz über 130.000 € 16",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe, Pensionen mit Teil- oder Vollverpflegung, Ferienwohnungen und Gästezimmer mit hotelmäßigen Leistungen, Umsatz bis 360.000 € (Vorteilsstufe 4)",
+        "quote": "8 Hotels, Gasthöfe und Pensionen mit Teil- oder Vollverpflegung, Vermietung von Ferienwohnungen und Gästezimmern mit hotelmäßigen Leistungen 8.1 wirtschaftlicher Umsatz bis 360.000 € 21",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 21
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe, Pensionen mit Teil- oder Vollverpflegung, Ferienwohnungen und Gästezimmer mit hotelmäßigen Leistungen, Umsatz über 360.000 € (Vorteilsstufe 4)",
+        "quote": "8.2 wirtschaftlicher Umsatz über 360.000 € 16",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Campingplätze (Vorteilsstufe 4)",
+        "quote": "3 Campingplätze 30",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe 1 Vorteilsstufe 2 Vorteilsstufe 3 Vorteilsstufe 4 Vorteilssatz 20 v.H. 40 v.H. 60 v.H. 80 v.H.",
+            "source": "taAnlage"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.25,
+      "quote": "Der Abgabesatz beträgt 2,25 %."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne Umsatzsteuer.",
+      "quote": "der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen multipliziert mit dem durchschnittlichen Gewinnanteil"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 15. Juli jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Vordruck der Stadt ab, oder innerhalb eines Monats, wenn die Stadt dich schriftlich auffordert.",
+      "quote": "bis zum 15. Juli eines jeden Jahres oder, soweit die Stadt dazu schriftlich auffordert, innerhalb eines Monats nach Aufforderung anhand eines von der Stadt bereitgestellten Vordrucks die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids, in einer Summe.",
+      "quote": "Sie ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheids fällig und in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Bei der Berechnung der Abgabe für ein Jahr werden die Einnahmen des Vorjahres zu Grunde gelegt."
+      },
+      {
+        "text": "Die Zeilen oben stehen in der Vorteilsstufe 4 der Anlage, die mit 80 v. H. gerechnet wird.",
+        "quote": "Vorteilsstufe 4 Personengruppe bzw. Betriebsart 1 Badeärzte (bezogen auf die badeärztliche Tätigkeit)",
+        "source": "taAnlage"
+      },
+      {
+        "text": "Die Abgabe entsteht am Anfang des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Der Abgabeanspruch entsteht am Anfang des Kalenderjahres, auf das sich die Abgabe bezieht."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Die Abgabepflicht endet mit Ablauf des Monats, in dem du die Tätigkeit einstellst; eine nur saisonale Vermietung zählt nicht als Einstellung.",
+        "quote": "Die Abgabepflicht endet mit Ablauf des Kalendermonats, in dem die abgabepflichtige Tätigkeit eingestellt wird. Als Einstellung einer abgabepflichtigen Tätigkeit ist es nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/toenning/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-15",
+            "09-30"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "04-01",
+            "05-14"
+          ],
+          [
+            "10-01",
+            "10-31"
+          ]
+        ],
+        "adult": 165,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "stayCap": 7800
+  }
+}

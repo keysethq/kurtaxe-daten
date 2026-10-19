@@ -1,0 +1,152 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-saarow",
+  "name": "Bad Saarow",
+  "short": "Bad Saarow",
+  "ags": "12067024",
+  "state": "Brandenburg",
+  "district": "Oder-Spree",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages in der Gemeinde Bad Saarow (Kurbeitragssatzung) vom 20.12.2022",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/3/2/6/7/6/Kurbeitragssatzung_2024.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "d79db6efff9a0c2b779d77997c9247e5db882b00d185e7faa60e6cc0531ae17f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als ganze Tage; An- und Abreisetag gelten zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) jede Person ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 10,
+            "cents": 0,
+            "quote": "1. Kinder bis zum vollendeten 10. Lebensjahr"
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "b) Kinder und Jugendliche ab dem vollendeten 10. Lebensjahr bis zur Vollendung des 18. Lebensjahres 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 30,
+      "perStay": false,
+      "text": "höchstens 30 Tage je Kalenderjahr",
+      "quote": "Der Kurbeitrag wird ganzjährig nach der Dauer des Aufenthaltes (Anzahl der Aufenthaltstage) erhoben, längstens jedoch für 30 Tage im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Begleitpersonen von Menschen mit Schwerbehinderung und den Merkzeichen aG, H oder B zahlen nichts, wenn sie den Ausweis vorlegen.",
+        "quote": "Begleitpersonen von Schwerbehinderten mit einem der Merkzeichen aG, H oder B (nur bei Vorlage eines Ausweises nach § 152 Abs. 5 S. 1 SGB IX)"
+      },
+      {
+        "text": "Wer sich zur Therapie und Betreuung in Kliniken, Alters- und Pflegeheimen oder Einrichtungen der Hilfe zur Erziehung aufhält, zahlt nichts.",
+        "quote": "Personen, die sich zur Therapie und Betreuung in Kliniken, in Alters- und Pflegeheimen sowie in Einrichtungen der Hilfe zur Erziehung gem. § 34 SGB VIII aufhalten"
+      },
+      {
+        "text": "Kinder- und Schülergruppen ab 12 Personen und ihre Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen zahlen nichts.",
+        "quote": "Kinder- und Schülergruppen ab 12 Personen und deren Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten in der Gemeinde Bad Saarow ohne die Ortsteile Neu Golm und Petersdorf.",
+        "quote": "Die Gemeinde Bad Saarow (ausgenommen die Ortsteile Neu Golm und Petersdorf), nachstehend nur als Gemeinde bezeichnet,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen 1,50 € je Tag, wenn sie den Ausweis vorlegen.",
+        "quote": "c) Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 (bei Vorlage eines Ausweises nach § 152 Abs. 5 S. 1 SGB IX) 1,50 €"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es einen pauschalen Jahreskurbeitrag von 90,00 € für Erwachsene und 45,00 € für Kinder ab 10 Jahren und Jugendliche.",
+        "quote": "Der pauschale Jahreskurbeitrag beträgt bei Personen ab dem vollendeten 18. Lebensjahr 90,00 €, bei Kindern und Jugendlichen ab dem vollendeten 10. bis zum vollendeten 18. Lebensjahr und bei Schwerbehinderten gem. Abs. 2 lit. c) 45,00 €."
+      },
+      {
+        "text": "Der Kurbeitrag wird bei Beginn des Aufenthalts für die ganze Dauer fällig und an dich als Vermieter gezahlt; als Nachweis bekommt der Gast die Kurkarte.",
+        "quote": "Der Kurbeitrag wird mit dem Entstehen fällig und ist bei Beginn des Aufenthaltes für die Dauer des Aufenthaltes an den Erhebenden oder - falls ein solcher nicht vorhanden ist - an die Gemeinde zu zahlen. Als Zahlungsnachweis erhält der Kurbeitragspflichtige die Kurkarte ausgehändigt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag ein und führt ihn an die Gemeinde ab; dafür haftest du.",
+      "quote": "Die in Abs. 1 genannten Personen sind weiterhin verpflichtet, den Kurbeitrag von den Kurbeitragspflichtigen einzuziehen und an die Gemeinde abzuführen."
+    },
+    "deadline": {
+      "text": "Abgerechnet und abgeführt wird monatlich zum 10. des Folgemonats auf den Vordrucken der Gemeinde.",
+      "quote": "Die Meldeverpflichteten nach Abs. 1 haben die im Laufe eines Kalendermonats fällig gewordenen Kurbeiträge jeweils zum 10. des folgenden Kalendermonats auf den von der Gemeinde vorgegebenen Vordrucken abzurechnen und an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du der Gemeinde spätestens am Tag nach der Ankunft.",
+      "quote": "der Gemeinde die Beitragspflichtigen und die zur Ermittlung und Festsetzung sowie Erhebung des Kurbeitrages erforderlichen Daten spätestens am Tag nach deren Ankunft zu übermitteln."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-saarow/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 30,
+    "maxPerStay": false,
+    "childLimits": [
+      10,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

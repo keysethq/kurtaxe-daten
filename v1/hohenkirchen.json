@@ -1,0 +1,266 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hohenkirchen",
+  "name": "Gemeinde Hohenkirchen",
+  "short": "Hohenkirchen",
+  "ags": "13074032",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Hohenkirchen über die Erhebung von Kurabgaben (Kurabgabensatzung) vom 22.05.2026",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/1/1/8/8/Kurabgabesatzung_22.5.26.pdf",
+      "kind": "statute",
+      "inForce": "2026-04-01",
+      "sha256": "c13037a73f82fef39c7493a81ee6e8513bef0666d873d5ae025f0c174fc82c7c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Kurabgabe wird bei Übernachtungsgästen pro Nacht eingezogen"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Die Höhe der Kurabgabe pro Tag im Erhebungsgebiet beträgt 1,00 € pro Person;"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahr / bis zu ihrem 6. Geburtstag sind von der Kurabgabe befreit."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Kindern/Jugendlichen ab 6 Jahren bis zum vollendeten 16. Lebensjahr wird die Kurabgabe um 50% ermäßigt."
+        },
+        {
+          "where": "periods[0].children[1] percent",
+          "page": 2,
+          "reading": "Kindern/Jugendlichen ab 6 Jahren bis zum vollendeten 16. Lebensjahr wird die Kurabgabe um 50% ermäßigt."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Einwohner der Gemeinde Hohenkirchen mit Erstwohnsitz in der Gemeinde sind von der Kurabgabe befreit"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "wer im Erhebungsgebiet einen Arbeitsplatz besitzt oder in einem Ausbildungsverhältnis steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Kurabgabe wird in der Zeit vom 1. April bis zum 31. Oktober eines jeden Jahres erhoben."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Schwerbehinderten mit einem Grad der Behinderung ab 50 % wird die Kurabgabe um 50% ermäßigt. Gleiches gilt für die Begleitperson eines Schwerbehinderten, der völlig auf ständige Begleitung angewiesen ist (Merkzeichen B Schwerbehindertenausweis)."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Den kurabgabepflichtigen Personen steht es frei, anstelle einer nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 4,
+          "reading": "Die Jahreskurabgabe beträgt: pro voll zahlende Person: 32,00 € pro ermäßigte Person: 16,00 €."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Jede Person, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Wohnmobilen, Zelten, Booten und dgl. aufhält, zahlt eine Kurabgabe in Höhe der jeweils geltenden Jahreskurabgabe nach $ 7 dieser Satzung. Das gleiche gilt für deren Ehegatten/eingetragene Lebenspartner und im selben Haushalt lebende Kinder."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 2,
+          "reading": "Der Vermieter/Vermittler erhält monatlich von der Gemeinde Hohenkirchen, c/o Amt Klützer Winkel, Schloßstraße 1, 23948 Klütz einen Bescheid für die im Vormonat abgereisten Gäste.",
+          "digitsUnread": true
+        },
+        {
+          "where": "remarks[6]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die Umsatzsteuer nach dem jeweils gültigen Umsatzsteuergesetz enthalten."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 4,
+          "reading": "unter Angabe der Art der Unterkunft und die darin aufgestellten Betten mitzuteilen,"
+        },
+        {
+          "where": "remarks[8]",
+          "page": 3,
+          "reading": "Die Ausgabe von alternativen Quittungen über die Entrichtung der Kurabgabe sind nicht gestattet."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Vermieter, die Wohnraum zu Erholungszwecken zur Verfügung stellen, sind verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen und abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "von allen aufgenommen Personen nach $ 2 spätestens am Tage der Ankunft die Kurabgabe einzuziehen und eine elektronische Meldung vorzunehmen, die die automatische Ausgabe der Gästekarte auslöst."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "Jeder Vermieter/Vermittler von Unterkünften ist verpflichtet, sich am elektronischen Meldeverfahren zu beteiligen und erhält von der Gemeinde Hohenkirchen Zugangsdaten für die Meldesoftware."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurabgabe wird bei Übernachtungsgästen pro Nacht eingezogen"
+    },
+    "periods": [
+      {
+        "label": "Erhebungszeitraum",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Die Höhe der Kurabgabe pro Tag im Erhebungsgebiet beträgt 1,00 € pro Person;"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr / bis zu ihrem 6. Geburtstag sind von der Kurabgabe befreit."
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Kindern/Jugendlichen ab 6 Jahren bis zum vollendeten 16. Lebensjahr wird die Kurabgabe um 50% ermäßigt.",
+            "cents": 50
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Einwohner mit Erstwohnsitz in der Gemeinde",
+        "quote": "Einwohner der Gemeinde Hohenkirchen mit Erstwohnsitz in der Gemeinde sind von der Kurabgabe befreit"
+      },
+      {
+        "text": "Wer im Ort arbeitet oder in Ausbildung ist, gilt nicht als ortsfremd",
+        "quote": "wer im Erhebungsgebiet einen Arbeitsplatz besitzt oder in einem Ausbildungsverhältnis steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird nur vom 1. April bis zum 31. Oktober erhoben.",
+        "quote": "Die Kurabgabe wird in der Zeit vom 1. April bis zum 31. Oktober eines jeden Jahres erhoben."
+      },
+      {
+        "text": "Menschen mit Schwerbehinderung ab einem Grad der Behinderung von 50 zahlen die Hälfte; das gilt auch für die Begleitperson eines Schwerbehinderten, der völlig auf ständige Begleitung angewiesen ist (Merkzeichen B).",
+        "quote": "Schwerbehinderten mit einem Grad der Behinderung ab 50 % wird die Kurabgabe um 50% ermäßigt. Gleiches gilt für die Begleitperson eines Schwerbehinderten, der völlig auf ständige Begleitung angewiesen ist (Merkzeichen B Schwerbehindertenausweis)."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe zahlen.",
+        "quote": "Den kurabgabepflichtigen Personen steht es frei, anstelle einer nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 32,00 € (ermäßigt 16,00 €).",
+        "quote": "Die Jahreskurabgabe beträgt: pro voll zahlende Person: 32,00 € pro ermäßigte Person: 16,00 €."
+      },
+      {
+        "text": "Wer sich in eigenen Wohngelegenheiten (Wohnhaus, Wohnwagen, Boot und dergleichen) aufhält, zahlt die Jahreskurabgabe; das gilt auch für Ehegatten und im Haushalt lebende Kinder.",
+        "quote": "Jede Person, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Wohnmobilen, Zelten, Booten und dgl. aufhält, zahlt eine Kurabgabe in Höhe der jeweils geltenden Jahreskurabgabe nach § 7 dieser Satzung. Das gleiche gilt für deren Ehegatten/eingetragene Lebenspartner und im selben Haushalt lebende Kinder."
+      },
+      {
+        "text": "Du bekommst monatlich einen Bescheid für die im Vormonat abgereisten Gäste.",
+        "quote": "Der Vermieter/Vermittler erhält monatlich von der Gemeinde Hohenkirchen, c/o Amt Klützer Winkel, Schloßstraße 1, 23948 Klütz einen Bescheid für die im Vormonat abgereisten Gäste."
+      },
+      {
+        "text": "In der Kurabgabe ist die Umsatzsteuer enthalten.",
+        "quote": "In der Kurabgabe ist die Umsatzsteuer nach dem jeweils gültigen Umsatzsteuergesetz enthalten."
+      },
+      {
+        "text": "Du teilst die Art deiner Unterkunft und die Zahl der Betten mit.",
+        "quote": "unter Angabe der Art der Unterkunft und die darin aufgestellten Betten mitzuteilen,"
+      },
+      {
+        "text": "Eigene Quittungen über die Kurabgabe dürfen nicht ausgegeben werden, nur die elektronische Gästekarte.",
+        "quote": "Die Ausgabe von alternativen Quittungen über die Entrichtung der Kurabgabe sind nicht gestattet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein und führt sie ab.",
+      "quote": "Vermieter, die Wohnraum zu Erholungszwecken zur Verfügung stellen, sind verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen und abzuführen."
+    },
+    "deadline": {
+      "text": "Du ziehst die Kurabgabe spätestens am Anreisetag ein und meldest den Gast elektronisch.",
+      "quote": "von allen aufgenommen Personen nach § 2 spätestens am Tage der Ankunft die Kurabgabe einzuziehen und eine elektronische Meldung vorzunehmen, die die automatische Ausgabe der Gästekarte auslöst."
+    },
+    "reporting": {
+      "text": "Alle Vermieter und Vermittler melden Gäste über das elektronische Meldeverfahren der Gemeinde.",
+      "quote": "Jeder Vermieter/Vermittler von Unterkünften ist verpflichtet, sich am elektronischen Meldeverfahren zu beteiligen und erhält von der Gemeinde Hohenkirchen Zugangsdaten für die Meldesoftware."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hohenkirchen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Erhebungszeitraum",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ]
+      }
+    ]
+  }
+}

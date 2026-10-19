@@ -1,0 +1,388 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "heiligenhafen",
+  "name": "Heiligenhafen",
+  "short": "Heiligenhafen",
+  "ags": "01055021",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Heiligenhafen vom 19.04.2023",
+      "url": "https://www.heiligenhafen.de/fileadmin/ortsrecht/dokument/satzung_kurabgabe_2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "c4bc3533f72979d4a35ceec2a188d66f3e444a6a6cc7a34d390c766e9dd00d44",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung2": {
+      "title": "2. Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Stadt Heiligenhafen vom 01.10.2024",
+      "url": "https://www.heiligenhafen.de/fileadmin/ortsrecht/dokument/kurabgabe_2024_2.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "6f9b68ffdbcd9feb027659466a071604ea5b43c9147f615b224ec03ab45a040d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "3. Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Stadt Heiligenhafen vom 29.06.2026",
+      "url": "https://admin.die-netzwerkstatt.de/ortsrecht/dokument/kurabgabe_3.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-04",
+      "sha256": "9a393c9dea8b9f0de80ca57f41bcc7556106f0b12ffeb9be783bd7325bf40155",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tourismusabgabe": {
+      "title": "Satzung der Stadt Heiligenhafen über die Erhebung einer Tourismusabgabe (Neufassung)",
+      "url": "https://www.heiligenhafen.de/fileadmin/ortsrecht/dokument/satzung_tourismusabgabe_neufassung_2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "37edba2df2b5bc725dcf28c93cd122cb792b69d5bbdc6b3470e65cd66d32ce0e",
+      "verifiedOn": "2026-10-15"
+    },
+    "tourismusabgabe1": {
+      "title": "1. Satzung zur Änderung der Satzung über die Erhebung einer Tourismusabgabe in der Stadt Heiligenhafen",
+      "url": "https://www.heiligenhafen.de/fileadmin/ortsrecht/dokument/tourismusabgabe_1.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "b3a8c2aac159c6f104c07281fdc41f5aa4d0ba91846ba528074f2d0ebc46a7af",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Die Kurabgabe wird für jeden Tag, an dem sich die kurabgabepflichtige Person im Erhebungsgebiet aufhält berechnet.",
+      "source": "aenderung2"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-22",
+            "to": "01-08"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) Hauptsaison 01.01. - 08.01. 3,00 € b) Nebensaison: 09.01. - 31.03. 1,80 € c) Hauptsaison: 01.04. - 31.10. 3,00 € d) Nebensaison: 01.11. - 21.12. 1,80 € e) Hauptsaison: 22.12. - 31.12. 3,00 €",
+          "next": {
+            "cents": 350,
+            "quote": "a) Hauptsaison 01.01. - 08.01. 3,50 € b) Nebensaison: 09.01. - 31.03. 2,00 € c) Hauptsaison: 01.04. - 31.10. 3,50 € d) Nebensaison: 01.11. - 21.12. 2,00 € e) Hauptsaison: 22.12. - 31.12. 3,50 €",
+            "source": "aenderung3"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres,",
+            "source": "aenderung2"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-09",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-21"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "a) Hauptsaison 01.01. - 08.01. 3,00 € b) Nebensaison: 09.01. - 31.03. 1,80 € c) Hauptsaison: 01.04. - 31.10. 3,00 € d) Nebensaison: 01.11. - 21.12. 1,80 € e) Hauptsaison: 22.12. - 31.12. 3,00 €",
+          "next": {
+            "cents": 200,
+            "quote": "a) Hauptsaison 01.01. - 08.01. 3,50 € b) Nebensaison: 09.01. - 31.03. 2,00 € c) Hauptsaison: 01.04. - 31.10. 3,50 € d) Nebensaison: 01.11. - 21.12. 2,00 € e) Hauptsaison: 22.12. - 31.12. 3,50 €",
+            "source": "aenderung3"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres,",
+            "source": "aenderung2"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 50 %, ihre im Ausweis eingetragene Begleitperson zahlt nichts",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 v. H. und mehr nachweisen, erhalten eine Ermäßigung von 50 v. H. Nachweislich erforderliche Begleitpersonen, die durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt sind, sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer beruflich oder zur Ausbildung im Ort ist und die Kureinrichtungen nicht nutzt",
+        "quote": "a) in Ausübung ihres Dienstes, Berufs oder Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesende Personen, soweit sie die Kureinrichtungen nicht in Anspruch nehmen,",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte mit ärztlicher Bescheinigung",
+        "quote": "c) bettlägerige Kranke und Verletzte, die nicht in der Lage sind Kureinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Einwohner der Mitgliedsgemeinden der LTO OstseeSpitze mit Personalausweis",
+        "quote": "d) Einwohner/innen mit dem Hauptwohnsitz in den Mitgliedsgemeinden der LTO OstseeSpitze GmbH bei Vorlage des Personalausweises",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Auf Antrag nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "b) auf Antrag Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwäger/innen von Personen, die im Erhebungsgebiet ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Einrichtungen nicht in Anspruch nehmen,",
+        "source": "aenderung2"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag des Gastes werden pauschal 28 Tage der Hauptsaison im Jahr berechnet (Jahrespauschale).",
+        "quote": "a) 28 Tgae der Hauptsaison pauschaliert (Jahrespauschale), wenn der/die Kurabgabepflichtige einen entsprechenden Antrag stellt oder",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Ermäßigungen darfst du als Vermieter in keinem Fall selbst gewähren.",
+        "quote": "In keinem Fall ist der/die Unterkunftsgeber/in berechtigt, Ermäßigungen zu gewähren."
+      },
+      {
+        "text": "Du musst die Satzung für deine Gäste sichtbar auslegen und ein Gästeverzeichnis führen, in das jeder Gast am Anreisetag eingetragen wird.",
+        "quote": "Jede/r Unterkunftsgeber/in hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen und ein Gästeverzeichnis zu führen, in das alle Gäste (auch Eigenbelegungen) am Tage der Ankunft einzutragen sind."
+      }
+    ],
+    "change": {
+      "from": "2027-01-04",
+      "text": "Das regelt die 3. Änderung der Kurabgabesatzung; die Saisonzeiten bleiben gleich.",
+      "quote": "Heiligenhafen tritt zum 04.01.2027 in Kraft.",
+      "source": "aenderung3"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe für jede ausgegebene OstseeCard und zieht sie beim Gast ein.",
+      "quote": "Jede/r Unterkunftsgeber/in ist verpflichtet, für die von ihm ausgehändigte OstseeCard die Kurabgabe zu errechnen, diese vom Gast einzuziehen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird in der Hauptsaison alle zwei Wochen und sonst alle vier Wochen, per Überweisung oder SEPA-Lastschrift.",
+      "quote": "in der Hauptsaison zweiwöchentlich, in der Zwischensaison vierwöchentlich - kostenfrei und bargeldlos abzuführen oder aber der Stadt Heiligenhafen bzw. dem Beauftragten ein SEPA-Lastschriftmandat zu erteilen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen des Tourismus-Service Heiligenhafen; die Kopie reichst du innerhalb von drei Werktagen dort ein.",
+      "quote": "Jede/r Unterkunftsgeber/in ist verpflichtet, jeder von ihm aufgenommenen Person ab 18 Jahren eine OstseeCard auszuhändigen und unter Verwendung der von dem Tourismus-Service Heiligenhafen kostenlos zur Verfügung gestellten Meldescheine, durch den Gast den An- und Abreisetag und die Heimatanschrift eintragen zu lassen und die für den Tourismus-Service Heiligenhafen bestimmte Kopie innerhalb von 3 Werktagen beim Tourismus-Service Heiligenhafen einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "tourismusabgabe",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Heiligenhafen selbständig tourismusbezogene Leistungen gegen Entgelt anbietest, also auch, wenn du Ferienwohnungen oder Zimmer vermietest.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nicht rechtsfähige Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten und denen daher durch den Tourismus wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Gästezimmer und Hausboote (Vorteilsstufe 5)",
+        "quote": "1.4 sonstige (d.h. nicht unter lfd. Nr. 1.2 o. 1.3 30 fallende Vermietung von Ferienwohnungen u. Gästezimmer, Hausbooten u. ä.)",
+        "source": "tourismusabgabe1",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H.",
+            "source": "tourismusabgabe"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück (Vorteilsstufe 5)",
+        "quote": "1.3 Hotels garnis, Gasthöfe und Pensionen mit 26 Frühstück",
+        "source": "tourismusabgabe1",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H.",
+            "source": "tourismusabgabe"
+          },
+          "profit": {
+            "percent": 26
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- und Vollpension (Vorteilsstufe 5)",
+        "quote": "1.2 Hotels, Gasthöfe und Pensionen mit Halb- und 15 Vollpension",
+        "source": "tourismusabgabe1",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H.",
+            "source": "tourismusabgabe"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze (Vorteilsstufe 5)",
+        "quote": "3 Campingplätze 42",
+        "source": "tourismusabgabe1",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe 5 100 v.H.",
+            "source": "tourismusabgabe"
+          },
+          "profit": {
+            "percent": 42
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.7,
+      "quote": "Der Abgabesatz beträgt 2,7 % ab 01.01.2023."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich für jeden Abgabepflichtigen aus dem tourismusbedingten Teil seiner umsatzsteuerbereinigten jährlichen Einnahmen,"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "(5) Die Tourismusabgabe wird nicht festgesetzt, wenn die Forderung im Einzelfall den Betrag von 5,00 Euro nicht übersteigt.",
+      "cents": 500,
+      "kind": "threshold"
+    },
+    "reporting": {
+      "text": "Als Vermieter (Vorteilsstufe 5) gibst du bis zum 30. April jeden Jahres die Erklärung über deine Einnahmen ab, auf dem Formblatt der Stadt; fordert die Stadt dich schriftlich auf, innerhalb eines Monats nach der Aufforderung.",
+      "quote": "(2) Die Pflichtigen der Vorteilsstufe 5 haben alle für die Ermittlung der Abgabeschuld erforderlichen Angaben zu machen, insbesondere 1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, 2. bis zum 30.04. eines jeden Jahres oder - soweit die Stadt Heiligenhafen schriftlich dazu auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Stadt Heiligenhafen vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gem. § 4 Abs. 4 und 5 abzugeben."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist in vier Teilbeträgen am 15. Februar, 15. Mai, 15. August und 15. November fällig; Kleinbeträge bis 25 € am 15. August in einer Summe, bis 50 € je zur Hälfte am 15. Februar und 15. August; Nachzahlungen einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "(4) Die Abgabe ist in vierteljährlichen Teilbeträgen jeweils am 15. Februar, 15. Mai, 15. August und 15. November jeden Jahres fällig. Kleinbeträge bis 25,00 Euro sind jedoch zum 15. August in einer Summe und bis 50,00 Euro zum 15. Februar und 15. August je zur Hälfte fällig. Nachzahlungen sind innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind die Einnahmen des Vorjahres.",
+        "quote": "(4) Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Fängst du im Laufe eines Kalenderjahres mit der Vermietung an, zählen im Jahr des Starts und im Folgejahr die Einnahmen des jeweiligen Jahres.",
+        "quote": "Wird eine abgabepflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Abs. 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Stadt innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Die Stadt kann vierteljährliche Vorausleistungen auf die Abgabe verlangen.",
+        "quote": "(2) Die Stadt Heiligenhafen kann vierteljährliche Vorausleistungen auf die Abgabe bis zur voraussichtlichen Höhe der Abgabe erheben."
+      },
+      {
+        "text": "Die Spalte „durchschnittlicher Gewinnanteil“ der Anlage ist in Prozent angegeben.",
+        "quote": "durchschnittlicher Gewinnanteil in v.H."
+      },
+      {
+        "text": "An anderer Stelle sagt die Satzung auch, dass die Abgabe einen Monat nach Bekanntgabe des Festsetzungsbescheids fällig ist.",
+        "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Festsetzungsbescheides fällig."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/heiligenhafen/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-22",
+            "01-08"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 350,
+          "children": [
+            0
+          ]
+        }
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-09",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-21"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 200,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-04",
+      "label": "ab 4. Januar 2027"
+    }
+  }
+}

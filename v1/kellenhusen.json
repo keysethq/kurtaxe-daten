@@ -1,0 +1,326 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kellenhusen",
+  "name": "Ostseebad Kellenhusen",
+  "short": "Kellenhusen",
+  "ags": "01055025",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Kellenhusen vom 11.12.2024, Lesefassung der Gemeinde einschließlich 3. Änderungssatzung (gültig ab 03.07.2026)",
+      "url": "https://www.groemitz.eu/fileadmin/Dateien/Satzungen/Kellenhusen/Aktuell/Kellenhusen_Kurabgabe_Lesefassung_inkl._3._Aenderung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-03",
+      "sha256": "6c7122398d53ecdd4bbd551fada7a7be8a5498a0adc9590690f150245259ebb6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Kellenhusen (Lesefassung inkl. 4. Änderung)",
+      "url": "https://www.groemitz.eu/fileadmin/Dateien/Satzungen/Kellenhusen/Aktuell/Kellenhusen_Tourismusabgabe_ab_2022_inkl._4._Aend.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "eaede7a354a62b5c45f95d96527c9b64ab0edda18cafa4829b8544f4921a9790",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten bei Personen, die im Erhebungsgebiet übernachten, als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-20",
+            "to": "01-05"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "in der Zeit vom 01.04. bis 31.10. 3,50 €, in der Zeit vom 01.11. bis 19.12. 2,00 €, in der Zeit vom 20.12. bis 05.01. 3,50 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-06",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-19"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Zeit vom 06.01. bis 31.03. 2,00 €, in der Zeit vom 01.04. bis 31.10. 3,50 €, in der Zeit vom 01.11. bis 19.12. 2,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 9800,
+      "text": "Pro ununterbrochenem Aufenthalt zahlt ein Gast höchstens die Jahreskurabgabe von 98,00 €; dieselbe Grenze gilt über mehrere Aufenthalte im Kalenderjahr.",
+      "quote": "Sie wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den vorstehend genannten Sätzen, höchstens jedoch in der Höhe der Jahreskurabgabe nach Absatz 2 erhoben. Bei mehreren Aufenthalten im Kalenderjahr wird die Kurabgabe nur bis zur Höhe der Jahreskurabgabe erhoben. 2. Die Jahreskurabgabe beträgt für jede Person ab 18 Jahren 98,00 €."
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre ständige Begleitperson, wenn sie darauf angewiesen sind",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 100 nachweisen. Dies gilt auch für eine ständige Begleitperson dieser schwerbehinderten Person, wenn diese nachweislich auf eine ständige Begleitung angewiesen ist."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 50 %; das gilt auch für eine ständige Begleitperson mit Merkzeichen B",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe in Höhe von 50 %. Dieses gilt auch für eine ständige Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Wer beruflich, zur Ausbildung oder im Dienst vorübergehend im Ort ist und die Einrichtungen nicht nutzt",
+        "quote": "Vorübergehend Anwesende aufgrund der Ausübung ihres Dienstes, ihres Berufs, oder ihrer Ausbildung für den Zeitraum der Tätigkeit"
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte mit ärztlicher Bescheinigung",
+        "quote": "Bei Vorlage einer ärztlichen Bescheinigung bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die öffentlichen Kur- und Erholungseinrichtungen in Anspruch zu nehmen."
+      },
+      {
+        "text": "Nahe Angehörige von Einwohnern, wenn sie ohne Vergütung aufgenommen sind und die Einrichtungen nicht nutzen",
+        "quote": "gewöhnlichen Wohnsitz haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen sind und die öffentlichen Kur- und Erholungseinrichtungen nicht in Anspruch nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe schließt die Mehrwertsteuer ein.",
+        "quote": "Die Kurabgabe schließt die Mehrwertsteuer ein."
+      },
+      {
+        "text": "Gästekarten anderer Ferienorte in Schleswig-Holstein gelten in Kellenhusen für einen Tag.",
+        "quote": "von anderen Ferienorten in Schleswig-Holstein haben einen Tag Gültigkeit."
+      },
+      {
+        "text": "Ermäßigungen darfst du als Vermieter nicht selbst gewähren.",
+        "quote": "Unterkunftsgeber/innen sind nicht berechtigt, Ermäßigungen zu gewähren."
+      },
+      {
+        "text": "Du führst ein Gästeverzeichnis, in das jeder Gast am Tag der Ankunft eingetragen wird; Mietverträge können es ersetzen.",
+        "quote": "Die Unterkunftsgeber/innen haben selbst oder durch ihre Bevollmächtigten bzw. Beauftragten ein Gästeverzeichnis zu führen, in das alle aufgenommenen Personen am Tage der Ankunft einzutragen sind."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein und führt sie an den Tourismus-Service ab; dafür haftest du.",
+      "quote": "Die Unterkunftsgeber/innen haben die Kurabgabe von den abgabepflichtigen Personen, die sie beherbergen oder denen sie Wohnraum überlassen, einzuziehen und innerhalb von einer Woche an den Tourismus-Service abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird innerhalb einer Woche an den Tourismus-Service; auf Antrag kann das auch über eine digitale Rechnung des Tourismus-Service laufen.",
+      "quote": "innerhalb von einer Woche an den Tourismus-Service abzuführen. Nach Antrag kann dies auch durch eine digitale Rechnung des Tourismus-Service erfolgen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das digitale Anmeldeverfahren für die ostseecard, innerhalb von 24 Stunden nach Beherbergungsbeginn; Papier gibt es nur auf Antrag bei unbilliger Härte.",
+      "quote": "Jede/r Unterkunftsgeber/in ist verpflichtet, die aufgenommenen Personen (auch Bekannten- und Verwandtenbesuche) innerhalb von 24 Stunden ab Beherbergungsbeginn bei dem Tourismus-Service anzumelden. Für die Anmeldung ist das vom Tourismus-Service unentgeltlich bereitgestellte digitale Anmeldeverfahren für die ostseecard zu verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Kellenhusen selbständig tourismusbezogene Leistungen gegen Entgelt anbietest, also auch, wenn du Ferienwohnungen vermietest.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie Personenvereinigungen, die selbständig tourismusbezogene entgeltliche Leistungen anbieten und denen durch den Tourismus in der Gemeinde besondere Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz bis 45.000 €",
+        "quote": "A1 Fe.-Wo./-app./-häuser, Umsatz bis 45 TEUR 100 17",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A1 Fe.-Wo./-app./-häuser, Umsatz bis 45 TEUR 100 17"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz über 45.000 €",
+        "quote": "A2 Fe.-Wo./-app./-häuser, Umsatz über 45 TEUR 100 14",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A2 Fe.-Wo./-app./-häuser, Umsatz über 45 TEUR 100 14"
+          },
+          "profit": {
+            "percent": 14
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Frühstück",
+        "quote": "A4 Hotel / Pension mit Frühstück 100 10",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A4 Hotel / Pension mit Frühstück 100 10"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- oder Vollverpflegung",
+        "quote": "A3 Hotel / Pension m. Teil- oder Vollverpflegung 100 6",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A3 Hotel / Pension m. Teil- oder Vollverpflegung 100 6"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Campingplatz",
+        "quote": "A5 Campingplatz 100 10",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "A5 Campingplatz 100 10"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 9.1,
+      "quote": "Der Abgabesatz beträgt 9,1 %."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen,"
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "(3) Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jeden Jahres gibst du auf dem Formblatt der Gemeinde die Erklärung über deine Einnahmen ab, oder innerhalb eines Monats nach schriftlicher Aufforderung der Gemeinde.",
+      "quote": "2. bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Gemeinde vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen gemäß § 4 Absätze 4 und 5 abzugeben."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig, wenn der Bescheid keinen späteren Termin nennt.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Bescheids fällig, soweit im Bescheid nicht ausdrücklich ein späterer Fälligkeitstermin bestimmt ist."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind deine Einnahmen des Vorvorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorvorjahres."
+      },
+      {
+        "text": "In der Tabelle der Anlage stehen Vorteilssatz und Gewinnsatz, beide in Prozent.",
+        "quote": "Vorteilssatz Gewinnsatz Nr. Betriebsart: in % in %"
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Gemeinde innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Bei der Überlassung von Ferienunterkünften an wechselnde Gäste zählen nur die Einnahmen aus den Tätigkeiten im Gemeindegebiet oder aus den Objekten dort.",
+        "quote": "zählen nur die aus der vorübergehend im Gemeindegebiet ausgeübten oder objektbezogenen Tätigkeiten (§ 3 Abs. 2) erzielten Einnahmen zur Bemessungsgrundlage."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/kellenhusen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-20",
+            "01-05"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-06",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-19"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "stayCap": 9800
+  }
+}

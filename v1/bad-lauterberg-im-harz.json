@@ -1,0 +1,440 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-lauterberg-im-harz",
+  "name": "Stadt Bad Lauterberg im Harz",
+  "short": "Bad Lauterberg im Harz",
+  "ags": "03159003",
+  "state": "Niedersachsen",
+  "district": "Göttingen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Bad Lauterberg im Harz (Gästebeitragssatzung GB-S) vom 19.12.2024, Amtsblatt für den Landkreis Göttingen Nr. 57/2024 vom 30.12.2024, S. 1503",
+      "url": "https://www.badlauterberg.de/downloads/datei/YzI2Mzg5NDA0MzMxM2UxNE1oRExMQ2lCVG5iR3dSdHkxbGtnN1VRR25qcWNGcGxiUnNENlhtMHd2SmNJUmtFRHhyMEt0QzNzdE12dUROUHBLTzVJaEg0MXJQL1BPcXkxL3RlTEdLakpiOE4ydXhTSlF5UEt4RlcwK3FPdEhZa281Sm05T0xUUnR4ekpJcVloNkw1U2JnUFJyNnJxbWpnWGZUNHRJQT09",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "257c17432e00b4d1f2beadfdbf04172d59bf8e3febec1a5fd7dced16fb910519",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "nachtrag1": {
+      "title": "1. Nachtragssatzung zur Gästebeitragssatzung GB-S vom 25.06.2026, Amtsblatt für den Landkreis Göttingen Nr. 32 vom 16.07.2026, S. 936 (in Kraft ab 01.01.2027)",
+      "url": "https://www.badlauterberg.de/downloads/datei/ZjBiMjllNzMzYjI0Y2ExNE1qYS9yTHk2bFlGNU5mZWoyUmt6dkcyY3Q2dWhNVkJyc0NxRHFKWCt2b1BSZjd1ejlaeTFESGJSd25waEZIMEtmbHpqYXFBT3RZbjl2U0xnM1A4ZjkwWnNlVGJXWlprVVhKTnhhbU11eElCaTRteHdzSFB2QUljTEs0NlI4eGZrYmdOdFROK202S2E0WllLK294Nm8rSXNzUVRtd3JXTHlpblBia1lYU3o3Zz0",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "sha256": "6209dca92df808a703eff39551665287ebfe5810d41cc1ec86abf96d9da9a899",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Diese 1. Nachtragssatzung tritt am 01. Januar 2027 in Kraft."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Bad Lauterberg im Harz (Tourismusbeitragssatzung) vom 22.11.2017, Amtsblatt für den Landkreis Göttingen Nr. 52/2017 vom 30.11.2017",
+      "url": "https://www.badlauterberg.de/downloads/datei/OGUzYWI1YzA2NDk2ZTA1MHY5dndjSnkrb3RvRThOdzU2L09PTEh1NGx5QXNKc0wzY1FrT1BiNDZhWGZadU9JRlpIY21CR29tVmF1Q3hkL2RWNUpQNWgvSkMwOERBVGxjM1VNZG1rcUZhVUk4aGE4NGNkS0FRZGd6VEtadUlIcUJtNHlBY2JFNHc1alNmNHY4eG9HczZGQ1EyNmlBaTFOekdHWGs2dz09",
+      "kind": "statute",
+      "inForce": "2018-01-01",
+      "sha256": "65b8a48a9ca8017fe0d9262510e9dedafc503b8b697bf344fa4f8969db17a78c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 2,
+          "reading": "Beitragspflichtig sind alle in Spalte 1 der Anlage genannten selbständig tätigenden Personen und Unternehmen, denen durch den Tourismus unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.area",
+          "page": 1,
+          "reading": "Erhebungsgebiet für den Tourismusbeitrag ist der in der \"Anlage Erhebungsgebiet\" dargestellte Teil des Stadtgebiets, der Bestandteil dieser Satzung ist."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 6,
+          "reading": "Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in den Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre eine Beitragsschuld von mindestens 10,00 € ergibt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "Die Beitragspflichtigen haben der Stadt Bad Lauterberg im Harz die Aufnahme der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Angaben zur Berechnung des Beitrages oder der Vorausleistung mitzuteilen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 5,
+          "reading": "Der Tourismusbeitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "Die jeweils zugrunde liegende Anzahl des Maßstabes wird mit dem in Spalte 3 der Anlage festgelegten Beitrag multipliziert."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "Maßgebend sind die Verhältnisse am 30. Juni des Kalenderjahres, für das der Beitrag erhoben wird."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "wird für jeden vollen Monat, für den die Voraussetzungen der Beitragspflicht erfüllt sind, 1/12 des Tourismusbeitrages erhoben."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 5,
+          "reading": "Die Stadt Bad Lauterberg im Harz kann für das laufende Kalenderjahr Vorausleistungen bis zur Höhe des voraussichtlichen Tourismusbeitrages erheben."
+        }
+      ]
+    },
+    "tbs2": {
+      "title": "2. Nachtragssatzung zur Tourismusbeitragssatzung der Stadt Bad Lauterberg im Harz vom 23.11.2023 mit Anlage ab 01.01.2024, Amtsblatt für den Landkreis Göttingen Nr. 59 vom 30.11.2023, S. 1076",
+      "url": "https://www.badlauterberg.de/downloads/datei/MzRmYTQxYzU2OGU0MDBhMDg1N0ZJWDN5THN0NjNtci9RSE9sejZRQW40SWQ4Ymc4SktZYlc3T3p1L2hldm52V0FheGtrZDJiRy9NekhTZmgrNWl2WlA0ZHJJUWFZc3ZHU0N3ZlhUdTdCMTBCNWN3Ny9sdlJoUkVzYTgzUWNaVmcwelpRVjJ4b093TW9RbXdIckgvNEViTCs1ckhNV3FBbVRuY2dCM0dQcGp1NXp5NklEdXBoVmVGMGZ2QT0",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "72d1bfab2d8515609c516ae558e3034d5564b13b1f00df79693960525163a2d1",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 3,
+          "reading": "2. Vermieter von Ferienwohnungen und Ferien- Anzahl der vorhandenen Fremdenbetten, 10,69 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 3,
+          "reading": "2. Vermieter von Ferienwohnungen und Ferien- Anzahl der vorhandenen Fremdenbetten, 10,69 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 3,
+          "reading": "1. Inhaber von Betrieben des Beherbergungs- Anzahl der vorhandenen Fremdenbetten, 16,57 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 3,
+          "reading": "1. Inhaber von Betrieben des Beherbergungs- Anzahl der vorhandenen Fremdenbetten, 16,57 €"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 3,
+          "reading": "3. Fachkliniken Anzahl der vorhandenen Fremdenbetten, 1,66 €"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 3,
+          "reading": "3. Fachkliniken Anzahl der vorhandenen Fremdenbetten, 1,66 €"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 3,
+          "reading": "4. Inhaber von Gruppenunterkünften Anzahl der vorhandenen Fremdenbetten, 1,66 €"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 3,
+          "reading": "4. Inhaber von Gruppenunterkünften Anzahl der vorhandenen Fremdenbetten, 1,66 €"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 3,
+          "reading": "5. Inhaber von Camping- und Zeltplätzen Anzahl der Wohnwagen- und Zeltplätze 8,29 €"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 3,
+          "reading": "5. Inhaber von Camping- und Zeltplätzen Anzahl der Wohnwagen- und Zeltplätze 8,29 €"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Aufenthaltsdauer wird nach der Anzahl der Übernachtungen, Tagesbesuche ausgenommen, berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Normalbeitrag 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung des 14. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 70,
+            "quote": "Kinder ab 14 Jahre und 0,70 € 21,00€ Jugendliche bis 18 Jahre"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie, die im gemeinsamen Haushalt lebt, ist befreit.",
+      "quote": "Jede 5. und weitere Person einer Familie, soweit sie im gemeinsamen Haushalt lebt,"
+    },
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100, wenn sie die Kosten des Aufenthalts selbst tragen",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100 %, wenn sie die Kosten des Aufenthalts oder der Kur in voller Höhe selbst tragen,"
+      },
+      {
+        "text": "Die Begleitperson eines solchen Menschen, wenn der Ausweis die Mitnahme einer Begleitperson vorsieht",
+        "quote": "Eine Begleitperson eines Schwerbehinderten gemäß Absatz 2 (Grad der Behinderung 100 %), wenn die Berechtigung zur Mitnahme einer Begleitperson durch Eintragung im Ausweis der schwerbehinderten Person nachgewiesen ist,"
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Personen, die eine im Erhebungsgebiet mit Hauptwohnung gemeldete Person ausschließlich aus familiären oder vergleichbaren Gründen besuchen und dabei ohne Entgelt oder Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Personen, die sich ausschließlich zur Berufsausübung, zum Schulbesuch oder zur Ausbildung im Ort aufhalten",
+        "quote": "Personen, die sich ausschließlich zur Berufsausübung, zum Schulbesuch oder zur Ausbildung im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Gäste, die in einem Kalenderjahr schon für mindestens 42 Tage Gästebeitrag gezahlt haben, für alle weiteren Tage dieses Jahres",
+        "quote": "Personen, die innerhalb eines Kalenderjahres für mindestens 42 Tage Gästebeitrage in Bad Lauterberg im Harz entrichtet haben, für die über 42 Tage hinausgehende Aufenthaltsdauer innerhalb desselben Kalenderjahres."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Bis Ende 2026 gilt die Satzung im Stadtgebiet ohne die Ortsteile Barbis, Bartolfelde und Osterhagen; dort wird kein Gästebeitrag erhoben.",
+        "quote": "Das Erhebungsgebiet für den Gästebeitrag erstreckt sich auf das Gebiet der Stadt Bad Lauterberg im Harz mit Ausnahme der Ortsteile Barbis, Bartolfelde und Osterhagen."
+      },
+      {
+        "text": "Ab dem 1. Januar 2027 gilt eine geänderte Satzung mit neuen Sätzen und zwei Zonen.",
+        "quote": "Diese 1. Nachtragssatzung tritt am 01. Januar 2027 in Kraft.",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 zahlen Erwachsene in Zone I (Stadtgebiet ohne Barbis, Bartolfelde, Osterhagen) 3,00 € und in Zone II (Barbis, Bartolfelde, Osterhagen) 2,00 € je Übernachtung.",
+        "quote": "1. Normalbeitrag Zone I 3,00 € 90,00 € 2. Normalbeitrag Zone II 2,00 € 60,00 €",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 gehört das Gebiet der Ortsteile Barbis, Bartolfelde und Osterhagen zur Zone II; alles andere im Stadtgebiet ist Zone I.",
+        "quote": "Die Zone II umfasst das Gebiet der Ortsteile Barbis, Bartolfelde und Osterhagen.",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 sind Personen bis zur Vollendung des 7. Lebensjahres befreit.",
+        "quote": "Personen bis zur Vollendung des 7. Lebensjahres,",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 zahlen Kinder ab 7 Jahren und Jugendliche bis 18 Jahre in Zone I 1,50 € und in Zone II 1,00 € je Übernachtung.",
+        "quote": "a) Kinder ab 7 Jahre und 1,50 € 45,00 € Jugendliche bis 18 Jahre Zone I aa) Kinder ab 7 Jahre und 1,00 € 30,00 € Jugendliche bis 18 Jahre Zone II",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 ist das zweite und jedes weitere minderjährige Kind einer Familie im gemeinsamen Haushalt befreit.",
+        "source": "nachtrag1",
+        "quote": "Jedes 2. und weitere minderjährige Kind einer Familie, soweit es im gemeinsamen Haushalt lebt,"
+      },
+      {
+        "text": "Bis Ende 2026 zahlen Menschen mit einem Grad der Behinderung von 70 bis 99 1,70 €, wenn sie die Kosten des Aufenthalts selbst tragen.",
+        "quote": "Schwerbehinderte gemäß § 2 Sozialgesetzbuch IX, welche die Kosten des Aufenthalts in voller Höhe selbst 1,70€ 51,00 € tragen, bei einer Erwerbsminderung von 70 - 99 %"
+      },
+      {
+        "text": "Ab 2027 zahlen sie in Zone I 2,20 €.",
+        "quote": "in voller Höhe selbst 2,20 € 66,00 € tragen, bei einer Erwerbsminderung von 70 – 99 % Zone I",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Ab 2027 zahlen sie in Zone II 1,50 €.",
+        "quote": "in voller Höhe selbst 1,50 € 45,00 € tragen, bei einer Erwerbsminderung von 70 – 99 % Zone II",
+        "source": "nachtrag1"
+      },
+      {
+        "text": "Du haftest neben dem Gast für die rechtzeitige und vollständige Einziehung und Abführung des Gästebeitrags.",
+        "quote": "haften für die rechtzeitige und vollständige Einziehung und Abführung des Gästebeitrages an die Stadt Bad Lauterberg im Harz."
+      },
+      {
+        "text": "Du führst ein tagesaktuelles Gästeverzeichnis über alle Gäste, auch befreite, und bewahrst es vier Jahre auf.",
+        "quote": "Das Gästeverzeichnis ist 4 Jahre ab Beginn des auf die Eintragung folgenden Kalenderjahres aufzubewahren."
+      },
+      {
+        "text": "Die Gästebeitragssatzung musst du an einer für den Gast gut sichtbaren Stelle auslegen oder aushändigen.",
+        "quote": "die Gästebeitragssatzung an einer für den Gast gut sichtbaren Stelle auszulegen bzw. auszuhändigen."
+      },
+      {
+        "text": "Die Meldung läuft über das kostenlose elektronische Gästebeitragsabrechnungssystem der Stadt, das du nutzen musst.",
+        "quote": "das von der Stadt Bad Lauterberg im Harz unentgeltlich zur Verfügung gestellte elektronische Gästebeitragsabrechnungssystem zu nutzen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag für die gesamte Aufenthaltsdauer ein und stellt die Gästekarte aus.",
+      "quote": "den Gästebeitrag für die gesamte Dauer des Aufenthaltes des Beitragspflichtigen einzuziehen und die Gästekarte auszustellen"
+    },
+    "deadline": {
+      "text": "Der eingezogene Gästebeitrag geht binnen zehn Tagen nach dem Bescheid der Stadt an die Stadt.",
+      "quote": "den eingezogenen Gästebeitrag innerhalb von 10 Tagen nach Bescheiderteilung an die Stadt Bad Lauterberg im Harz abzuführen,"
+    },
+    "reporting": {
+      "text": "Die notwendigen Gästedaten erfasst du innerhalb von 24 Stunden nach der Anreise.",
+      "quote": "von den bei ihnen gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen innerhalb von 24 Stunden nach Anreise, die für die Erhebung des Gästebeitrages notwendigen Daten"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbstständig tätig bist und dir der Tourismus in Bad Lauterberg unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bietet; die Anlage nennt die Vermieter von Ferienwohnungen ausdrücklich.",
+      "quote": "Beitragspflichtig sind alle in Spalte 1 der Anlage genannten selbständig tätigenden Personen und Unternehmen, denen durch den Tourismus unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Vermieter von Ferienwohnungen und Ferienappartements, Privatvermietung",
+        "quote": "2. Vermieter von Ferienwohnungen und Ferien- Anzahl der vorhandenen Fremdenbetten, 10,69 €",
+        "flat": {
+          "cents": 1069,
+          "per": "Fremdenbett"
+        },
+        "source": "tbs2"
+      },
+      {
+        "label": "Hotels, Gasthöfe, Pensionen und andere Betriebe des Beherbergungsgewerbes",
+        "quote": "1. Inhaber von Betrieben des Beherbergungs- Anzahl der vorhandenen Fremdenbetten, 16,57 €",
+        "flat": {
+          "cents": 1657,
+          "per": "Fremdenbett"
+        },
+        "source": "tbs2"
+      },
+      {
+        "label": "Fachkliniken",
+        "quote": "3. Fachkliniken Anzahl der vorhandenen Fremdenbetten, 1,66 €",
+        "flat": {
+          "cents": 166,
+          "per": "Fremdenbett"
+        },
+        "source": "tbs2"
+      },
+      {
+        "label": "Gruppenunterkünfte, insbesondere Naturfreundehäuser und Harzklubheime",
+        "quote": "4. Inhaber von Gruppenunterkünften Anzahl der vorhandenen Fremdenbetten, 1,66 €",
+        "flat": {
+          "cents": 166,
+          "per": "Fremdenbett"
+        },
+        "source": "tbs2"
+      },
+      {
+        "label": "Camping- und Zeltplätze",
+        "quote": "5. Inhaber von Camping- und Zeltplätzen Anzahl der Wohnwagen- und Zeltplätze 8,29 €",
+        "flat": {
+          "cents": 829,
+          "per": "Stellplatz"
+        },
+        "source": "tbs2"
+      }
+    ],
+    "area": {
+      "text": "Der Beitrag gilt nur in dem Teil des Stadtgebiets, den die „Anlage Erhebungsgebiet“ der Satzung zeigt, nicht überall in der Stadt.",
+      "quote": "Erhebungsgebiet für den Tourismusbeitrag ist der in der „Anlage Erhebungsgebiet“ dargestellte Teil des Stadtgebiets, der Bestandteil dieser Satzung ist."
+    },
+    "minimum": {
+      "text": "Liegt der Beitrag für ein Jahr unter 10,00 €, setzt die Stadt ihn vorläufig nicht fest; sie holt ihn nach, sobald mehrere Jahre zusammen mindestens 10,00 € ergeben.",
+      "quote": "Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in den Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre eine Beitragsschuld von mindestens 10,00 € ergibt."
+    },
+    "reporting": {
+      "text": "Du zeigst der Stadt die Aufnahme deiner Tätigkeit an und machst auf Anforderung die Angaben, die sie für die Berechnung braucht.",
+      "quote": "Die Beitragspflichtigen haben der Stadt Bad Lauterberg im Harz die Aufnahme der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Angaben zur Berechnung des Beitrages oder der Vorausleistung mitzuteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag und die Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Tourismusbeitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du zur Beherbergung gegen Entgelt zur Verfügung stellst; den Betrag je Bett nennt die Anlage.",
+        "quote": "Die jeweils zugrunde liegende Anzahl des Maßstabes wird mit dem in Spalte 3 der Anlage festgelegten Beitrag multipliziert."
+      },
+      {
+        "text": "Maßgebend sind die Verhältnisse am 30. Juni des Jahres, für das der Beitrag erhoben wird.",
+        "quote": "Maßgebend sind die Verhältnisse am 30. Juni des Kalenderjahres, für das der Beitrag erhoben wird."
+      },
+      {
+        "text": "Beginnt oder endet deine Tätigkeit im Laufe eines Jahres, zahlst du für jeden vollen Monat ein Zwölftel des Beitrags.",
+        "quote": "wird für jeden vollen Monat, für den die Voraussetzungen der Beitragspflicht erfüllt sind, 1/12 des Tourismusbeitrages erhoben."
+      },
+      {
+        "text": "Die Stadt kann schon im laufenden Jahr Vorausleistungen bis zur Höhe des voraussichtlichen Beitrags erheben.",
+        "quote": "Die Stadt Bad Lauterberg im Harz kann für das laufende Kalenderjahr Vorausleistungen bis zur Höhe des voraussichtlichen Tourismusbeitrages erheben."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-lauterberg-im-harz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          70
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "zingst",
+  "name": "Ostseeheilbad Zingst",
+  "short": "Zingst",
+  "ags": "13073105",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Ostseeheilbad Zingst über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 10.07.2025, Lesefassung der Gemeinde",
+      "url": "https://www.gemeinde-zingst.de/fileadmin/Ablage/Dokumente/Satzungen/Fremdenverkehr_Tourismus/Kurabgabesatzung_2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "87f2506e29cc06f77fc7a91a310580f1facb76189be1c1def8aef2b60feb4c83",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bekanntmachung": {
+      "title": "Bekanntmachung der Satzung der Gemeinde Ostseeheilbad Zingst über die Erhebung einer Kurabgabe (gültig ab 01.01.2026), ausgefertigt am 10.07.2025 (Scan)",
+      "url": "https://www.gemeinde-zingst.de/fileadmin/Ablage/Dokumente/Bekanntmachungen/Kur-_und_Tourismus_GmbH/Zingster_Fremdenverkehrsbetrieb/BK_Kurabgabesatzung_ab_01.01.2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "d077735bc42379bfff0d47f12adb6c3091896b65866ee1601900de357437d946",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fva": {
+      "title": "Satzung der Gemeinde Ostseeheilbad Zingst über die Erhebung einer Fremdenverkehrsabgabe (Fremdenverkehrsabgabesatzung) vom 29.01.2016, Lesefassung Stand 04.11.2016",
+      "url": "https://www.gemeinde-zingst.de/fileadmin/Ablage/Dokumente/Satzungen/Fremdenverkehr_Tourismus/Fremdenverkehrsabgabesatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2017-01-01",
+      "sha256": "b65761b1abe375a80664e47e7d5f0102fa2657f07b0af020051d1b8bd740a31d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurabgabe wird nach der Dauer des Aufenthalts tageweise berechnet. Der Tag der Anreise und der Tag der Abreise werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) für Übernachtungsgäste 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 15,
+            "percent": 50,
+            "quote": "Minderjährigen ab Vollendung des 6. Lebensjahres bis zur Vollendung des 15. Lebensjahres wird die Kurabgabe um 50 von Hundert ermäßigt.",
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Schwerstbehinderten mit einem GdB 100"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit einem Grad der Behinderung ab 50 und Merkzeichen B",
+        "quote": "Begleitpersonen von Schwerbehinderten ab einem GdB 50, sofern im Schwerbeschädigtenausweis des Schwer- oder Schwerstbehinderten das Kennzeichen „B“ vermerkt ist."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 zahlen gegen Ausweis 50 %",
+        "quote": "Schwerbehinderten ab einem GdB 50 wird auf Vorlage des entsprechenden Ausweises während des ganzen Jahres die Kurabgabe um 50 von Hundert ermäßigt."
+      },
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und nicht zur Erholung im Ort sind",
+        "quote": "Ehepartner, eingetragene Lebenspartner, Kinder, Kindeskinder, Eltern und Großeltern, sowie Geschwister nebst deren Ehepartnern und minderjährigen Kindern, von Personen, die in der Gemeinde Ostseeheilbad Zingst ihren Hauptwohnsitz haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden und sich nicht zu Erholungszwecken in der Gemeinde Ostseeheilbad Zingst aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im Satz für Übernachtungsgäste sind 0,14 € für das Mobilitätsangebot enthalten.",
+        "quote": "Bei den Übernachtungsgästen ist in der Kurabgabe ein Entgelt in Höhe von 0,14 EUR für die Nutzung des bereitgestellten Mobilitätsangebots enthalten."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahresgästekarte kaufen: 84,00 € für Vollzahler, 42,00 € für Minderjährige ab 6 Jahren.",
+        "quote": "Unabhängig von der Dauer des Aufenthaltes beträgt die Jahreskurabgabe für Vollzahler 84,00 EUR, für Minderjährige ab der Vollendung des 6. Lebensjahres 42,00 EUR."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen darfst du als Vermieter nicht ohne Anweisung des Zingster Fremdenverkehrsbetriebs gewähren.",
+        "quote": "Die Quartiergeber sind nicht berechtigt, ohne Anweisung des Zingster Fremdenverkehrsbetriebes Befreiungen und Ermäßigungen von der Kurabgabe im Sinne dieser Satzung zu gewähren."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe am Tag der Ankunft ein und händigt die Gästekarten aus.",
+      "quote": "die Kurabgabe am Tag der Ankunft von den Gästen einzuziehen und ihnen Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Abgeführt wird unbar bis zum dritten Werktag des Monats nach der Einziehung.",
+      "quote": "die Kurabgabe spätestens bis zum dritten Werktag des auf die Einziehung folgenden Monats an den Zingster Fremdenverkehrsbetrieb unbar abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird online über das elektronische Gästekartensystem des Zingster Fremdenverkehrsbetriebs; den Papierbogen gibt es nur auf Antrag bei unbilliger Härte.",
+      "quote": "dem Zingster Fremdenverkehrsbetrieb die von ihm beherbergten Personen anzuzeigen. Hierbei hat der Quartiergeber die Anzeige unter Nutzung des elektronischen Gästekartensystems online vorzunehmen. Der entsprechende Zugangscode für das elektronische Gästekartensystem ist im Zingster Fremdenverkehrsbetrieb erhältlich. Auf Antrag kann der Zingster Fremdenverkehrsbetrieb zur Vermeidung unbilliger Härten auf eine elektronische Übermittlung verzichten."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du als Vermieter von Ferienhäusern, Ferienwohnungen oder Ferienzimmern, auch wenn du kein Gewerbe anmelden musst.",
+      "quote": "sonstige Personen, die Kurgäste und Erholungssuchende gegen ein Entgelt beherbergen, einschließlich Vermieter von Ferienhäusern, Ferienwohnungen und Ferienzimmern, auch die, die der Gewerbeanmeldungspflicht nicht unterliegen"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbereich bis zu 9 Betten",
+        "quote": "im Beherbergungsbereich bis zu 9 Betten je Gästebett 18,00 EUR",
+        "flat": {
+          "cents": 1800,
+          "per": "Gästebett"
+        }
+      },
+      {
+        "label": "Beherbergungsbereich ab 10 Betten",
+        "quote": "im Beherbergungsbereich ab 10 Betten je Gästebett 27,00 EUR",
+        "flat": {
+          "cents": 2700,
+          "per": "Gästebett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 30. November jedes Jahres teilst du der Kur- und Tourismus GmbH Zingst mit, was sie für die Berechnung des Folgejahres braucht, spätestens bei Inbetriebnahme.",
+      "quote": "die erforderlichen Angaben zur Berechnung der Abgabe für das Folgejahr bis zum 30. November eines jeden Jahres mitzuteilen, spätestens bei Inbetriebnahme."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Gästebetten, die am 1. Januar eines Jahres vorhanden sind.",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern nach der Anzahl der am 1.Januar eines Jahres vorhandenen Gästebetten"
+      },
+      {
+        "text": "Für jede Aufbettungsmöglichkeit kommen 5,00 € im Jahr dazu; Kinderbetten sind frei.",
+        "quote": "je Aufbettungsmöglichkeit 5,00 EUR je Kinderbett frei"
+      },
+      {
+        "text": "Als Aufbettungsmöglichkeiten gelten Schlafsessel, Doppelliegen, Schlafcouch sowie Behelfs- und Campingliegen.",
+        "quote": "Aufbettungsmöglichkeiten definieren sich wie folgt: (Schlafsessel, Doppelliegen, Schlafcouch, Behelfs- und Campingliegen etc.)"
+      },
+      {
+        "text": "Die Abgabe fällt unabhängig davon an, ob du ganzjährig vermieten kannst.",
+        "quote": "Die Abgabe entsteht unabhängig von einer ganzjährigen Nutzungsmöglichkeit."
+      },
+      {
+        "text": "Fängst du nach dem 1. August mit der Vermietung an, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01. August eines Jahres, so kann die Jahresabgabe auf Antrag um 50 vom Hundert ermäßigt werden."
+      },
+      {
+        "text": "Eine nebenberufliche Tätigkeit, die eine Person mit weniger als 5 Wochenstunden ausübt, ist abgabefrei.",
+        "quote": "Handelt es sich bei dem Betrieb um eine nebenberufliche Tätigkeit, die nur von einer Person ausgeführt wird, deren wöchentliche Arbeitszeit unter 5 Stunden liegt, entfällt die Abgabenpflicht."
+      },
+      {
+        "text": "Den Bescheid erlässt der Zingster Fremdenverkehrsbetrieb als Eigenbetrieb der Gemeinde.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid des Zingster Fremdenverkehrsbetriebes als Eigenbetrieb der Gemeinde Ostseeheilbad Zingst."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/zingst/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-duerkheim",
+  "name": "Stadt Bad Dürkheim",
+  "short": "Bad Dürkheim",
+  "ags": "07332002",
+  "state": "Rheinland-Pfalz",
+  "district": "Bad Dürkheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages (Gästebeitragssatzung) in der Stadt Bad Dürkheim vom 27.10.2020",
+      "url": "https://www.bad-duerkheim.de/rathaus-buergerservice/verwaltung/satzungen-richtlinien/gaestebeitrages-27-10-2020.pdf?cid=n9v",
+      "kind": "statute",
+      "inForce": "2021-01-01",
+      "sha256": "4c8fad47edd58fde7d9165552e8ada7b4caa12a28325d029ef43b98e1dd011e0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 14. Lebensjahres;"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 14. Lebensjahres;"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Personen, die sich nur zur Berufsausübung oder nur zur Ausbildung im Gemeindegebiet aufhalten, sind nicht beitragspflichtig."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Personen, die in einem Arbeits- oder Ausbildungsverhältnis stehen, und eine unentgeltliche Aufnahme in die häusliche Gemeinschaft erfolgt;"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Schwerbehinderte, deren Grad der Behinderung 100 % beträgt und Schwerbehinderte, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind, sowie Begleitpersonen von Schwerbehinderten, die It. Ausweis völlig auf ständige Begleitung angewiesen sind, Blinde und deren Begleitperson;"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 1,
+          "reading": "Bettlägerig Kranke und andere Personen, die nicht in der Lage sind, die touristischen Einrichtungen zu benutzen;"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "a) eine Hauptsaison: 01. März bis 31. Oktober b) eine Nebensaison: 01. November bis 29.Februar"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu zahlen."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 3,
+          "reading": "Verweigert ein Gast die Zahlung des Gästebeitrages, ist: dies durch den Beherbergungsbetrieb unverzüglich bei der Stadtverwaltung anzuzeigen."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 3,
+          "reading": "dies gilt auch, sofern der Beherbergungsbetrieb in einem Monat keine Gäste Aufgenommen hat. In diesem Falle hat eine Fehlanzeige (Null-Meldung) zu erfolgen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Der Beherbergungsbetrieb hat. den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und innerhalb. von 10 Tagen nach Zugang einer entsprechenden. Zahlungsnachricht an die Stadt Bad Dürkheim abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "Der Beherbergungsbetrieb hat für jeden Kalendermonat bis zum 10.. des folgenden Monats eine elektronische Gästebeitragserklärung nach dem von der Stadtverwaltung vorgeschriebenen Muster abzugeben"
+        }
+      ]
+    },
+    "aenderung2025": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung eines Gästebeitrages in der Stadt Bad Dürkheim vom 27.09.2024 (§ 5, Höhe des Gästebeitrages)",
+      "url": "https://www.bad-duerkheim.de/rathaus-buergerservice/verwaltung/satzungen-richtlinien/gaestebeitrag-01.01.2025-komplett-internet.pdf?cid=1srn",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "a3f68704b072e38db12d398b6ed5aedc01e6e4dc0660367832afa33cf486a509",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Der Gästebeitrag wird in Form eines Übernachtungsbeitrages erhoben."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Hauptsaison: Nebensaison: pro Person und Übernachtung: 3,00 EUR 2,50 EUR"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "Hauptsaison: Nebensaison: pro Person und Übernachtung: 3,00 EUR 2,50 EUR"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 1,
+          "reading": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 1,
+          "reading": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "Für Dauercamper wird eine Jahrespauschale von 90,00 EUR pro Stellplatz erhoben."
+        }
+      ]
+    },
+    "aenderung2026": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung eines Gästebeitrages in der Stadt Bad Dürkheim vom 28.10.2025 (§§ 5, 8, 10 und 13)",
+      "url": "https://www.bad-duerkheim.de/rathaus-buergerservice/verwaltung/satzungen-richtlinien/gaestebeitrag-01.01.2026.pdf?cid=1yup",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "82db688596bf03ede72790f28db6436321493fa1e2cb9bd1844ce389b6f16936",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "tbs": {
+      "title": "Satzung über die Erhebung eines Tourismusbeitrages der Stadt Bad Dürkheim (Tourismusbeitragssatzung) vom 20.06.2017",
+      "url": "https://www.bad-duerkheim.de/rathaus-buergerservice/verwaltung/satzungen-richtlinien/96-20-06-2017.pdf?cid=9uj",
+      "kind": "statute",
+      "inForce": "2017-07-01",
+      "sha256": "70f2f018c16e152c34114a241b0c19880353f4c81f360abfd69dd86b452a0586",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 2,
+          "reading": "Beitragspflichtig sind alle natürlichen und juristischen Personen sowie nicht- oder teilrechtsfähige Personenvereinigungen, denen auf Grund des Tourismus im Erhebungsgebiet unmittelbar oder mittelbar besondere Vorteile geboten werden. (2) Besondere wirtschaftliche Vorteile auf Grund des Tourismus werden den in Absatz 1 genannten Rechtssubjekten geboten, wenn sie im Erhebungsgebiet im Rahmen selbstständiger Erwerbstätigkeit entgeltliche Leistungen anbieten."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 3,
+          "reading": "Der Tourismusbeitrag bei Vermietern von Privatzimmern und Ferienwohnungen an Gäste bemisst sich (abweichend von den Regelungen der Absätze 1 bis 4) nach der Zahl der Schlafgelegenheiten. Pro Schlafgelegenheit beträgt der Beitrag im Kalenderjahr 15,00 EUR."
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 3,
+          "reading": "Der Tourismusbeitrag bei Vermietern von Privatzimmern und Ferienwohnungen an Gäste bemisst sich (abweichend von den Regelungen der Absätze 1 bis 4) nach der Zahl der Schlafgelegenheiten. Pro Schlafgelegenheit beträgt der Beitrag im Kalenderjahr 15,00 EUR."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 5,
+          "reading": "Ergibt sich für das Erhebungsjahr eine Beitragsschuld bis zu 15,00 EUR, so wird vorläufig von einer Beitragsfestsetzung abgesehen. Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in den Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre eine Beitragsschuld von mindestens 15,00 EUR ergibt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 4,
+          "reading": "bis zum 31.05. eines Kalenderjahres oder - soweit die Stadtverwaltung dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Stadtverwaltung vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen abzugeben"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 4,
+          "reading": "Der Beitragspflichtige hat am 15.02., 15.05., 15.08. und 15.11. eines jeden Jahres eine Vorausleistung in Höhe eines Viertels seiner Beitragsschuld für das laufende Erhebungsjahr zu entrichten; auf Antrag kann der Beitrag auch mit dem Jahresbetrag am 01.07. gezahlt werden."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Erhebungsgebiet ist das gesamte Stadtgebiet."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "bemisst sich (abweichend von den Regelungen der Absätze 1 bis 4) nach der Zahl der Schlafgelegenheiten."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 4,
+          "reading": "Beginn und Ende der beitragspflichtigen Tätigkeit innerhalb eines Monats durch die Gewerbeanmeldung beim Gewerbeamt anzuzeigen (gemäß 8 14 Gewerbeordnung), bei freiberuflich Tätigen, bei Vermietung und Verpachtung eigener Gebäude und Grundstücke an Touristen oder unmittelbar bevorteilte Beitragspflichtige ist Beginn und Ende der beitragspflichtigen Tätigkeit innerhalb eines Monats beim Steueramt anzuzeigen"
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 5,
+          "reading": "Die Beitragsschuld wird durch schriftlichen Bescheid festgesetzt. Der Beitrag ist, soweit er nicht bereits nach Absatz 1 gezahlt ist, innerhalb eines Monats nach Bekanntgabe des Bescheides zur Zahlung fällig."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "Der Vorteilssatz bezeichnet für die einzelnen Arten der beitragspflichtigen Tätigkeit den auf dem Tourismus beruhenden Teil des Umsatzes. Der Vorteilssatz ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage Nr. 1 zu dieser Satzung (Betriebsartentabelle) bestimmt."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 3,
+          "reading": "Der Gewinnsatz drückt die objektiven Gewinnmöglichkeiten der jeweiligen Betriebsart aus und ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage zu dieser Satzung (Betriebsartentabelle) in der Spalte \"Gewinnsatz\" (GS) bestimmt."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird in Form eines Übernachtungsbeitrages erhoben.",
+      "source": "aenderung2025"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "03-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Hauptsaison: Nebensaison: pro Person und Übernachtung: 3,00 EUR 2,50 EUR",
+          "source": "aenderung2025"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 14. Lebensjahres;"
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR",
+            "source": "aenderung2025"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "02-29"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Hauptsaison: Nebensaison: pro Person und Übernachtung: 3,00 EUR 2,50 EUR",
+          "source": "aenderung2025"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 14. Lebensjahres;"
+          },
+          {
+            "underAge": 18,
+            "cents": 125,
+            "quote": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR",
+            "source": "aenderung2025"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Personen, die sich nur zur Berufsausübung oder nur zur Ausbildung im Ort aufhalten, zahlen nichts.",
+        "quote": "Personen, die sich nur zur Berufsausübung oder nur zur Ausbildung im Gemeindegebiet aufhalten, sind nicht beitragspflichtig."
+      },
+      {
+        "text": "Personen im Arbeits- oder Ausbildungsverhältnis, die unentgeltlich in die häusliche Gemeinschaft aufgenommen werden, zahlen nichts.",
+        "quote": "Personen, die in einem Arbeits- oder Ausbildungsverhältnis stehen, und eine unentgeltliche Aufnahme in die häusliche Gemeinschaft erfolgt;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100, Blinde und Menschen, die laut Ausweis völlig auf ständige Begleitung angewiesen sind, sowie ihre Begleitpersonen zahlen nichts.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 100 % beträgt und Schwerbehinderte, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind, sowie Begleitpersonen von Schwerbehinderten, die lt. Ausweis völlig auf ständige Begleitung angewiesen sind, Blinde und deren Begleitperson;"
+      },
+      {
+        "text": "Bettlägerig Kranke und Personen, die die touristischen Einrichtungen nicht nutzen können, zahlen nichts.",
+        "quote": "Bettlägerig Kranke und andere Personen, die nicht in der Lage sind, die touristischen Einrichtungen zu benutzen;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison geht vom 1. März bis 31. Oktober, die Nebensaison vom 1. November bis 29. Februar.",
+        "quote": "a) eine Hauptsaison: 01. März bis 31. Oktober b) eine Nebensaison: 01. November bis 29.Februar"
+      },
+      {
+        "text": "Auch Menschen mit einem Grad der Behinderung ab 80 zahlen den ermäßigten Satz von 1,50 € in der Hauptsaison und 1,25 € in der Nebensaison.",
+        "quote": "Kinder ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr sowie für Schwerbehinderte ab einem Grad der Behinderung von 80 %: 1,50 EUR 1,25 EUR",
+        "source": "aenderung2025"
+      },
+      {
+        "text": "Dauercamper zahlen eine Jahrespauschale von 90,00 € je Stellplatz.",
+        "quote": "Für Dauercamper wird eine Jahrespauschale von 90,00 EUR pro Stellplatz erhoben.",
+        "source": "aenderung2025"
+      },
+      {
+        "text": "Personen, die zu einer Kurbehandlung auf Kosten von Krankenkassen, Rentenversicherung und ähnlichen Trägern entsandt wurden, zahlen 20 % weniger.",
+        "quote": "Der Gästebeitrag wird um 20 % ermäßigt für Personen, die zu einer Kurbehandlung entsandt wurden auf Kosten",
+        "source": "aenderung2026"
+      },
+      {
+        "text": "Der Gast zahlt den Gästebeitrag spätestens am Abreisetag bei dir.",
+        "quote": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu zahlen."
+      },
+      {
+        "text": "Du haftest der Stadt gegenüber für den vollständigen Eingang des geschuldeten Beitrags.",
+        "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Gästebeitrag zu erheben und haften der Stadt gegenüber für den vollständigen Eingang des geschuldeten Beitrages.",
+        "source": "aenderung2026"
+      },
+      {
+        "text": "Verweigert ein Gast die Zahlung, zeigst du das der Stadtverwaltung unverzüglich an.",
+        "quote": "Verweigert ein Gast die Zahlung des Gästebeitrages, ist dies durch den Beherbergungsbetrieb unverzüglich bei der Stadtverwaltung anzuzeigen."
+      },
+      {
+        "text": "Hast du in einem Monat keine Gäste aufgenommen, gibst du eine Fehlanzeige ab.",
+        "quote": "dies gilt auch, sofern der Beherbergungsbetrieb in einem Monat keine Gäste Aufgenommen hat. In diesem Falle hat eine Fehlanzeige (Null-Meldung) zu erfolgen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Gästebeitrag ein und führt ihn innerhalb von 10 Tagen nach der Zahlungsnachricht der Stadt ab.",
+      "quote": "Der Beherbergungsbetrieb hat den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und innerhalb von 10 Tagen nach Zugang einer entsprechenden Zahlungsnachricht an die Stadt Bad Dürkheim abzuführen."
+    },
+    "deadline": {
+      "text": "Für jeden Kalendermonat gibst du bis zum 10. des Folgemonats die Gästebeitragserklärung ab.",
+      "quote": "Der Beherbergungsbetrieb hat für jeden Kalendermonat bis zum 10. des folgenden Monats eine elektronische Gästebeitragserklärung nach dem von der Stadtverwaltung vorgeschriebenen Muster abzugeben"
+    },
+    "reporting": {
+      "text": "Die Angaben meldest du ab der Anreise elektronisch über das Verfahren der Stadt; auf Antrag kann die Stadt in Härtefällen darauf verzichten.",
+      "quote": "sind verpflichtet, der Stadt die geforderten Angaben ab deren Anreise elektronisch mit dem durch die Stadt zur Verfügung gestellten Verfahren zu melden. Auf Antrag kann die Stadt zur Vermeidung von unbilligen Härten in Einzelfällen auf eine elektronische Übermittlung verzichten.",
+      "source": "aenderung2026"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "tbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Bad Dürkheim im Rahmen einer selbstständigen Erwerbstätigkeit entgeltliche Leistungen anbietest und dir der Tourismus dadurch unmittelbar oder mittelbar besondere Vorteile bringt.",
+      "quote": "Beitragspflichtig sind alle natürlichen und juristischen Personen sowie nicht- oder teilrechtsfähige Personenvereinigungen, denen auf Grund des Tourismus im Erhebungsgebiet unmittelbar oder mittelbar besondere Vorteile geboten werden. (2) Besondere wirtschaftliche Vorteile auf Grund des Tourismus werden den in Absatz 1 genannten Rechtssubjekten geboten, wenn sie im Erhebungsgebiet im Rahmen selbstständiger Erwerbstätigkeit entgeltliche Leistungen anbieten."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmer und Ferienwohnungen, je Schlafgelegenheit",
+        "quote": "Der Tourismusbeitrag bei Vermietern von Privatzimmern und Ferienwohnungen an Gäste bemisst sich (abweichend von den Regelungen der Absätze 1 bis 4) nach der Zahl der Schlafgelegenheiten. Pro Schlafgelegenheit beträgt der Beitrag im Kalenderjahr 15,00 EUR.",
+        "flat": {
+          "cents": 1500,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Beträgt deine Beitragsschuld für ein Jahr höchstens 15 Euro, setzt die Stadt sie vorläufig nicht fest und holt sie nach, sobald mehrere Jahre zusammen mindestens 15 Euro ergeben.",
+      "quote": "Ergibt sich für das Erhebungsjahr eine Beitragsschuld bis zu 15,00 EUR, so wird vorläufig von einer Beitragsfestsetzung abgesehen. Der Beitrag wird im Rahmen der gesetzlichen Festsetzungsverjährung in den Folgejahren festgesetzt, sobald sich insgesamt für mehrere Erhebungsjahre eine Beitragsschuld von mindestens 15,00 EUR ergibt."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Mai eines Jahres, oder innerhalb eines Monats nach schriftlicher Aufforderung der Stadt, gibst du auf dem Formblatt der Stadt die Erklärung über deine betrieblichen Einnahmen ab.",
+      "quote": "bis zum 31.05. eines Kalenderjahres oder – soweit die Stadtverwaltung dazu schriftlich auffordert – innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür von der Stadtverwaltung vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen abzugeben"
+    },
+    "deadline": {
+      "text": "Du zahlst vierteljährlich am 15. Februar, 15. Mai, 15. August und 15. November je ein Viertel; auf Antrag kannst du den Jahresbetrag auch auf einmal am 1. Juli zahlen.",
+      "quote": "Der Beitragspflichtige hat am 15.02., 15.05., 15.08. und 15.11. eines jeden Jahres eine Vorausleistung in Höhe eines Viertels seiner Beitragsschuld für das laufende Erhebungsjahr zu entrichten; auf Antrag kann der Beitrag auch mit dem Jahresbetrag am 01.07. gezahlt werden."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Tourismusbeitrag gilt im gesamten Stadtgebiet von Bad Dürkheim.",
+        "quote": "Erhebungsgebiet ist das gesamte Stadtgebiet."
+      },
+      {
+        "text": "Für Privatzimmer und Ferienwohnungen gilt die Pauschale je Schlafgelegenheit statt der Berechnung nach Umsatz, Vorteilssatz und Gewinnsatz.",
+        "quote": "bemisst sich (abweichend von den Regelungen der Absätze 1 bis 4) nach der Zahl der Schlafgelegenheiten."
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit meldest du innerhalb eines Monats, über die Gewerbeanmeldung beim Gewerbeamt und, wenn du eigene Gebäude vermietest oder freiberuflich arbeitest, beim Steueramt.",
+        "quote": "Beginn und Ende der beitragspflichtigen Tätigkeit innerhalb eines Monats durch die Gewerbeanmeldung beim Gewerbeamt anzuzeigen (gemäß § 14 Gewerbeordnung), bei freiberuflich Tätigen, bei Vermietung und Verpachtung eigener Gebäude und Grundstücke an Touristen oder unmittelbar bevorteilte Beitragspflichtige ist Beginn und Ende der beitragspflichtigen Tätigkeit innerhalb eines Monats beim Steueramt anzuzeigen"
+      },
+      {
+        "text": "Die Stadt setzt den Beitrag mit schriftlichem Bescheid fest; was nicht schon durch die Vorauszahlungen bezahlt ist, wird einen Monat nach Bekanntgabe des Bescheids fällig.",
+        "quote": "Die Beitragsschuld wird durch schriftlichen Bescheid festgesetzt. Der Beitrag ist, soweit er nicht bereits nach Absatz 1 gezahlt ist, innerhalb eines Monats nach Bekanntgabe des Bescheides zur Zahlung fällig."
+      },
+      {
+        "text": "Für Betriebe, die nicht unter die Pauschale fallen, etwa Hotels und Pensionen, bestimmt die Betriebsartentabelle der Satzung je Betriebsart den Vorteilssatz, also den auf dem Tourismus beruhenden Teil des Umsatzes.",
+        "quote": "Der Vorteilssatz bezeichnet für die einzelnen Arten der beitragspflichtigen Tätigkeit den auf dem Tourismus beruhenden Teil des Umsatzes. Der Vorteilssatz ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage Nr. 1 zu dieser Satzung (Betriebsartentabelle) bestimmt."
+      },
+      {
+        "text": "Auch den Gewinnsatz je Betriebsart nennt die Betriebsartentabelle der Satzung.",
+        "quote": "Der Gewinnsatz drückt die objektiven Gewinnmöglichkeiten der jeweiligen Betriebsart aus und ist für die einzelnen Arten der beitragspflichtigen Tätigkeit in der Anlage zu dieser Satzung (Betriebsartentabelle) in der Spalte „Gewinnsatz“ (GS) bestimmt."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-duerkheim/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "03-01",
+            "10-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "02-29"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          125
+        ]
+      }
+    ]
+  }
+}

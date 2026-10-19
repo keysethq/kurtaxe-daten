@@ -1,0 +1,296 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hamburg",
+  "name": "Freie und Hansestadt Hamburg",
+  "short": "Hamburg",
+  "ags": "02000000",
+  "state": "Hamburg",
+  "district": "Hamburg",
+  "sources": {
+    "satzung": {
+      "title": "Merkblatt zu den häufig gestellten Fragen zur Erhebung der Kultur- und Tourismustaxe in Hamburg (Hamburgisches Kultur- und Tourismustaxengesetz), Stand Juli 2025, Finanzbehörde Hamburg",
+      "url": "https://www.hamburg.de/resource/blob/207446/90d2c9949332b9e4619e89478d939012/ktt-merkblatt-data.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "e0ed55dc077b450d3e5607b237b0800f1f1f6afd7222e6e9dc5d6d2445b7f053",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "gvbl": {
+      "title": "Drittes Gesetz zur Änderung kommunalabgabenrechtlicher Vorschriften vom 4. März 2026, Hamburgisches Gesetz- und Verordnungsblatt Nr. 9 vom 17.03.2026, S. 98",
+      "url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "6609b4dbf07ff889657fe32ba2f215b9efe2837d87a834a57b7de70846b25d91",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Kultur- und Tourismustaxe",
+    "source": "satzung",
+    "rate": null,
+    "tiers": [
+      {
+        "overCents": 0,
+        "upToCents": 1000,
+        "cents": 0,
+        "quote": "bis zu 10 Euro 0 Euro 0 Euro"
+      },
+      {
+        "overCents": 1000,
+        "upToCents": 2500,
+        "cents": 60,
+        "quote": "bis zu 25 Euro 0,50 Euro 0,60 Euro"
+      },
+      {
+        "overCents": 2500,
+        "upToCents": 5000,
+        "cents": 120,
+        "quote": "bis zu 50 Euro 1 Euro 1,20 Euro"
+      },
+      {
+        "overCents": 5000,
+        "upToCents": 10000,
+        "cents": 240,
+        "quote": "bis zu 100 Euro 2 Euro 2,40 Euro"
+      },
+      {
+        "overCents": 10000,
+        "upToCents": 15000,
+        "cents": 360,
+        "quote": "bis zu 150 Euro 3 Euro 3,60 Euro"
+      },
+      {
+        "overCents": 15000,
+        "upToCents": 20000,
+        "cents": 480,
+        "quote": "bis zu 200 Euro 4 Euro 4,80 Euro"
+      }
+    ],
+    "basis": {
+      "text": "Die Taxe richtet sich nach dem Nettoentgelt ohne Umsatzsteuer für die Übernachtung und ist nach diesem Betrag gestaffelt.",
+      "quote": "Der Steuersatz berechnet sich nach dem Nettoentgelt (ohne Umsatzsteuer) für die Übernachtung. Dabei ist eine Staffelung vorgesehen.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Taxe schuldest du als Vermieter selbst; du kannst sie an deine Gäste weitergeben, musst es aber nicht.",
+      "quote": "Steuerschuldner ist der Beherbergungsbetrieb, der die Steuer wiederum dem Übernachtungsgast in Rechnung stellen kann. Es besteht aber keine Verpflichtung, die Steuer an den Gast weiterzugeben."
+    },
+    "deadline": {
+      "text": "Die Taxe berechnest du in der Anmeldung selbst und zahlst sie gleichzeitig.",
+      "quote": "Die Steuer ist in der Anmeldung selbst zu berechnen und zeitgleich abzuführen."
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 15. Tag nach Quartalsende eine Steueranmeldung beim Finanzamt für Verkehrsteuern und Grundbesitz ab; bei weniger als 1.000 € Steuer im Vorjahr genügt eine Jahresanmeldung bis zum 15. Januar.",
+      "quote": "Der Betreiber des Beherbergungsbetriebes ist verpflichtet, jedes Vierteljahr (Quartal) beim Finanzamt für Verkehrsteuern und Grundbesitz in Hamburg eine Steueranmeldung auf dem amtlichen Formular abzugeben. Stichtag zur Abgabe ist der fünfzehnte Tag nach Ablauf des Quartals, also der 15. April., 15. Juli, 15. Oktober und 15.Januar. Beträgt die Steuer im vorangegangenen Kalenderjahr weniger als 1.000 Euro und wird sie im laufenden Jahr diesen Betrag voraussichtlich nicht übersteigen, ist das Kalenderjahr Anmeldungszeitraum."
+    },
+    "exemptions": [
+      {
+        "text": "Erfasst werden nur kurzzeitige Beherbergungen von unter zwei Monaten.",
+        "quote": "Von der Steuer werden nur kurzzeitige Beherbergungen erfasst, die sich über einen Zeitraum von unter zwei Monaten erstrecken."
+      },
+      {
+        "text": "Beträgt das Nettoentgelt für die Übernachtung pro Person 10 € oder weniger, fällt keine Taxe an.",
+        "quote": "Nur für den absoluten Niedrigpreissektor fällt keine Kultur- und Tourismustaxe an, wenn das Nettoentgelt für die Übernachtung pro Person 10 Euro oder weniger beträgt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Taxe fällt pro Person an, nicht pro Zimmer; bei mehreren Personen im Zimmer wird der Gesamtpreis auf die Personen aufgeteilt.",
+        "quote": "Zu beachten ist, dass die Steuer pro Person anfällt, nicht pro Zimmer. Wird ein Zimmer durch mehrere Personen genutzt, ist der Gesamtpreis nach Personen aufzuteilen."
+      },
+      {
+        "text": "Ausnahmen gibt es sonst nicht: Auch Minderjährige werden erfasst.",
+        "quote": "Ausnahmen sind generell nicht vorgesehen. Auch Minderjährige werden erfasst, ebenso Übernachtungen in Jugendherbergen oder Tageszimmer in Stundenhotels."
+      },
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. Januar 2023.",
+        "quote": "Auch für Übernachtungen, die für eine berufliche oder betriebliche Tätigkeit des Übernachtungsgastes zwingend erforderlich sind, ist ab dem 01.01.2023 Kultur- und Tourismustaxe abzuführen."
+      },
+      {
+        "text": "Du führst Aufzeichnungen über Namen und Aufenthaltsdauer aller Gäste.",
+        "quote": "Der Betreiber des Beherbergungsbetriebs hat die Namen und die Dauer des Aufenthaltes aller Übernachtungsgäste und ggf. besondere soziale Gründe (wie z.B. zur Vermeidung von Obdachlosigkeit) in geeigneter Form aufzuzeichnen."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du dem Finanzamt vor dem Ereignis an.",
+        "quote": "Der Betreiber eines Beherbergungsbetriebes ist verpflichtet, dem Finanzamt für Verkehrsteuern und Grundbesitz in Hamburg den Beginn und das Ende seiner Tätigkeit, den Wechsel des Betreibers oder der Betreiberin des Beherbergungsbetriebes und die Verlegung des Beherbergungsbetriebes anzuzeigen. Die Anzeige ist vor Eintritt des anzeigepflichtigen Ereignisses zu erstatten."
+      },
+      {
+        "text": "Für Beherbergungsleistungen, die vor dem Inkrafttreten der neuen Sätze vereinbart wurden, gelten weiter die bisherigen Bestimmungen.",
+        "quote": "Für Beherbergungsleistungen, die vor dem Inkraft­treten dieses Gesetzes nach Absatz 1 vereinbart worden sind, gelten die bisherigen Bestimmungen fort.",
+        "source": "gvbl"
+      }
+    ],
+    "beyond": {
+      "everyCents": 5000,
+      "cents": 120,
+      "text": "darüber je weitere angefangene 50,00 € Nettoentgelt 1,20 € mehr",
+      "quote": "Je weitere angefangene 50 Euro Nettoentgelt erhöht sich die Steuer um jeweils 1 Euro (ab 01.01.2025: 1,20 Euro)."
+    },
+    "nextTiers": [
+      {
+        "overCents": 0,
+        "upToCents": 1500,
+        "cents": 0,
+        "quote": "Nettoentgelt von bis zu 15 Euro 0 Euro",
+        "source": "gvbl"
+      },
+      {
+        "overCents": 1500,
+        "upToCents": 3500,
+        "cents": 80,
+        "quote": "35 Euro 0,80 Euro,",
+        "source": "gvbl"
+      },
+      {
+        "overCents": 3500,
+        "upToCents": 5000,
+        "cents": 150,
+        "quote": "50 Euro 1,50 Euro,",
+        "source": "gvbl"
+      },
+      {
+        "overCents": 5000,
+        "upToCents": 10000,
+        "cents": 300,
+        "quote": "100 Euro 3 Euro,",
+        "source": "gvbl"
+      },
+      {
+        "overCents": 10000,
+        "upToCents": 15000,
+        "cents": 450,
+        "quote": "150 Euro 4,50 Euro,",
+        "source": "gvbl"
+      },
+      {
+        "overCents": 15000,
+        "upToCents": 20000,
+        "cents": 600,
+        "quote": "200 Euro 6 Euro.",
+        "source": "gvbl"
+      }
+    ],
+    "nextBeyond": {
+      "everyCents": 5000,
+      "cents": 150,
+      "text": "darüber je weitere angefangene 50,00 € Nettoentgelt 1,50 € mehr",
+      "quote": "50 Euro 1,50 Euro, 100 Euro 3 Euro, 150 Euro 4,50 Euro, 200 Euro 6 Euro. Je weitere angefangene 50 Euro Nettoentgelt erhöht sich die Steuer um jeweils einen Euro und fünfzig Cent.",
+      "source": "gvbl"
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Ab dem 1. Januar 2027 gelten neue Stufen: bis 15 € Nettoentgelt 0 €, bis 35 € 0,80 €, bis 50 € 1,50 €, bis 100 € 3 €, bis 150 € 4,50 €, bis 200 € 6 €, darüber je weitere angefangene 50 € 1,50 € mehr.",
+      "quote": "Artikel 1, 2 und 3a treten am 1. Januar 2027 in Kraft.",
+      "source": "gvbl"
+    }
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hamburg/",
+  "calculation": {
+    "kind": "town",
+    "perPerson": true,
+    "byLabel": false,
+    "tiers": [
+      {
+        "over": 0,
+        "upTo": 1000,
+        "cents": 0
+      },
+      {
+        "over": 1000,
+        "upTo": 2500,
+        "cents": 60
+      },
+      {
+        "over": 2500,
+        "upTo": 5000,
+        "cents": 120
+      },
+      {
+        "over": 5000,
+        "upTo": 10000,
+        "cents": 240
+      },
+      {
+        "over": 10000,
+        "upTo": 15000,
+        "cents": 360
+      },
+      {
+        "over": 15000,
+        "upTo": 20000,
+        "cents": 480
+      }
+    ],
+    "beyond": {
+      "everyCents": 5000,
+      "cents": 120
+    },
+    "maxDays": null,
+    "maxPerStay": null,
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    },
+    "next": {
+      "tiers": [
+        {
+          "over": 0,
+          "upTo": 1500,
+          "cents": 0
+        },
+        {
+          "over": 1500,
+          "upTo": 3500,
+          "cents": 80
+        },
+        {
+          "over": 3500,
+          "upTo": 5000,
+          "cents": 150
+        },
+        {
+          "over": 5000,
+          "upTo": 10000,
+          "cents": 300
+        },
+        {
+          "over": 10000,
+          "upTo": 15000,
+          "cents": 450
+        },
+        {
+          "over": 15000,
+          "upTo": 20000,
+          "cents": 600
+        }
+      ],
+      "beyond": {
+        "everyCents": 5000,
+        "cents": 150
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-liebenzell",
+  "name": "Stadt Bad Liebenzell",
+  "short": "Bad Liebenzell",
+  "ags": "08235008",
+  "state": "Baden-Württemberg",
+  "district": "Calw",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxe-Satzung - KTS) der Stadt Bad Liebenzell vom 10. Dezember 2024",
+      "url": "https://stadt.bad-liebenzell.de/download/2172/",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "4cef6cde438fe8d0cda055e9dd25fa96aa1947cb3d289e80f9e5f35b60a0c0d9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Bad Liebenzell über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Beschluss vom 10.12.2024",
+      "url": "https://stadt.bad-liebenzell.de/download/2174/",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "2fe1aaef3893ed02c4bcf9ca7248ba28ceb439c2ffa771499314e72d13117388",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "netOfVat": {
+      "quote": "Bei der Festsetzung der Kurtaxe und der pauschalen Jahreskurtaxe wird die jeweils gültige gesetzliche Mehrwertsteuer hinzugerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag in Bad Liebenzell vom 01.01. bis 31.12. (ganzjährig) 2,80 € netto."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste, die nicht länger als einen Tag in der Stadt bleiben; An- und Abreisetag zählen dabei zusammen als ein Tag",
+        "quote": "Ortsfremde Personen, die sich in der Stadt nicht länger als einen Tag auf-halten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 2 entsprechend"
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "die in der Stadt arbeiten oder dort die Ausbildung machen."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z.B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 50."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Weil An- und Abreisetag zusammen als ein Tag zählen, kann schon eine einzelne Übernachtung frei sein; frag im Zweifel die Gemeinde. Der Rechner zählt jede Nacht.",
+        "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe (Dauerkurkarte) von 84 Euro je Person, ebenfalls zuzüglich Mehrwertsteuer.",
+        "quote": "Diese beträgt je Person 84,00 € netto."
+      },
+      {
+        "text": "Die Gästekarte berechtigt die Gäste auch zur kostenlosen Nutzung des öffentlichen Nahverkehrs im Rahmen von KONUS.",
+        "quote": "und zur Nutzung von KONUS (kostenlose Nutzung des ÖPNV für Schwarzwaldurlauber)."
+      },
+      {
+        "text": "Die Stadt hat die Freizeit- und Tourismus Bad Liebenzell GmbH beauftragt, die Kurtaxe zu berechnen, mit den Beherbergern abzurechnen und einzuziehen.",
+        "quote": "Die Stadt beauftragt die Freizeit- und Tourismus Bad Liebenzell GmbH, die Kurtaxe nach § 3 Abs. 1 zu berechnen, Abrechnungen mit den Beherbergern vorzunehmen und die Kurtaxe einzuziehen"
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Stadt kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Stadt unentgeltlich bereitgestellt elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats teilst du bis zum 10. des Folgemonats über das elektronische Meldeverfahren aufgeschlüsselt mit und führst sie ab.",
+      "quote": "jeweils bis zum 10. des folgenden Monats an die Kurtaxe-Meldestelle mittels elektronischem Meldeverfahren (§ 7 Abs. 6 und 7) aufgeschlüsselt mitzuteilen und abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von einem Tag nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von einem Tag nach deren Ankunft bzw. Abreise"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Bad Liebenzell selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben, und denen in der Stadt Bad Liebenzell aus dem Kurbetrieb oder Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "Im Fall des § 3 Abs. 4 beträgt der Beitrag abweichend von Abs. 1 je Übernachtung 0,15 €.",
+        "perNight": {
+          "cents": 15
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Stadt innerhalb von 10 Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 10 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Vermietest du als Privatzimmervermieter nur Wohnungen oder Zimmer vorübergehend an Fremde, richtet sich dein Beitrag nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Du zahlst Vorauszahlungen, die sich nach den Übernachtungen des zurückliegenden Monats richten.",
+        "quote": "Der Beitragspflichtige hat Vorauszahlungen zu leisten, die sich nach der Zahl der Übernachtungen im zurückliegenden Monat bemessen."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 0,9 % des Messbetrags; beträgt der Beitrag weniger als 6 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 1 beträgt 0,9 v. H. des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 6,- € beträgt."
+      },
+      {
+        "text": "Der Messbetrag ist der Umsatz ohne Umsatzsteuer, den du in der Stadt erzielst, abzüglich der Betriebsausgaben, multipliziert mit dem Vorteilsatz.",
+        "quote": "Die Mehreinnahmen (§ 3 Abs. 1) werden in einem Messbetrag ausgedrückt. Dieser ergibt sich, indem der steuerbare Umsatz im Sinne des § 1 des Umsatzsteuergesetzes (Reineinnahmen) mit dem Vorteilsatz (§ 5) multipliziert wird. (2) Die Reineinnahmen ergeben sich aus dem in der Stadt erzielten Umsatz (Betriebseinnahmen ohne Umsatzsteuer) abzüglich der Betriebsausgaben."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-liebenzell/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

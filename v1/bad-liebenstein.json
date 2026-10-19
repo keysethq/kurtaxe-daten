@@ -1,0 +1,174 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-liebenstein",
+  "name": "Stadt Bad Liebenstein",
+  "short": "Bad Liebenstein",
+  "ags": "16063099",
+  "state": "Thüringen",
+  "district": "Wartburgkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages in der Stadt Bad Liebenstein (Kurbeitragssatzung) vom 6. April 2017, Lesefassung der Stadt mit Stand 1. Juli 2026",
+      "url": "https://rathaus.bad-liebenstein.de/ortsrecht?_hash=3JfBojUdgVCAQ5sV8Ijc75wjwhMXZKmn4HeV3rmbgvU%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A3899%3B%7D&p=rathaus%2Fortsrecht%2Fkurbeitragssatzung_lesefassung_ab_2026-07-01_bf.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "b8fbf8ae82e4c7639d25b035f87ce9c3518f2ef2c0124643b219b97d64d10ff3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung3": {
+      "title": "3. Satzung zur Änderung der Satzung über die Erhebung eines Kurbeitrages in der Stadt Bad Liebenstein (3. Änderungssatzung – Kurbeitragssatzung) vom 18. Mai 2026",
+      "url": "https://rathaus.bad-liebenstein.de/ortsrecht?_hash=WGJvqyoz9tIsp4rmm%2Ff%2BLjvlwkqoA4tth36sbWDzevQ%3D&ctx=a%3A1%3A%7Bs%3A2%3A%22id%22%3Bi%3A3899%3B%7D&p=rathaus%2Fortsrecht%2Fkurbeitragssatzung_3te_ae_ausfertigung_bf_signed_2026-05-18_.pdf",
+      "kind": "statute",
+      "inForce": "2026-07-01",
+      "sha256": "88f6298969a28826a84c42ea21d50568306108801c5e5f7aa2dc28757dc53850",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Anreise und der Tag der Abreise gelten für die Festsetzung des Kurbeitrages als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Der Kurbeitrag beträgt pro Aufenthaltstag pro Beitragspflichtigen 3,00 EUR."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Von der Entrichtung eines Kurbeitrages sind auf Antrag befreit: 1. Kinder bis zur Vollendung des 14. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Teilnehmer an Tagungen, Lehrgängen und Kursen, auf Antrag",
+        "quote": "2. Teilnehmer an Tagungen, Lehrgängen und Kursen,"
+      },
+      {
+        "text": "Wer sich nur zur Ausübung seines Berufs oder zu Ausbildungszwecken im Erhebungsgebiet aufhält, auf Antrag",
+        "quote": "3. Personen, die sich nur zur Ausübung ihres Berufes oder zu Ausbildungszwecken im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Bettlägerige Kranke für die Zeit, in der sie ihre Unterkunft nicht verlassen können und keine Kurmittel nutzen, mit ärztlichem Attest, auf Antrag",
+        "quote": "5. bettlägerige Kranke für die Zeit, in der sie ihre Unterkunft nicht verlassen können und keine Kurmittel in Anspruch nehmen, bei Vorlage eines ärztlichen Attestes."
+      },
+      {
+        "text": "Besuch einer Familie am Ort ohne Entgelt, wenn der Gast keine Kureinrichtungen oder Kurveranstaltungen nutzt",
+        "quote": "1. Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltliche Aufnahme finden und weder Kureinrichtungen noch Kurveranstaltungen in Anspruch nehmen,"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag wird nur im Ortsteil Bad Liebenstein erhoben.",
+        "quote": "Erhebungsgebiet ist der Ortsteil Bad Liebenstein."
+      },
+      {
+        "text": "Die 3. Änderungssatzung hat den Satz je Aufenthaltstag von 2,00 auf 3,00 Euro angehoben.",
+        "quote": "In § 6 Abs. 1 Satz 1 wird der Betrag „2,00 EUR“ durch „3,00 EUR“ ersetzt.",
+        "source": "aenderung3"
+      },
+      {
+        "text": "Wer Eigentümer oder Besitzer einer Wohneinheit ist und seinen Hauptwohnsitz nicht in Bad Liebenstein hat, zahlt unabhängig von Dauer und Häufigkeit der Aufenthalte einmal im Kalenderjahr 84,00 Euro.",
+        "quote": "Von Beitragspflichtigen, die Eigentümer oder Besitzer einer Wohneinheit (z. B. Ferienwohnung, Ferien- oder Wochenendhaus) sind und die nicht ihren Hauptwohnsitz in Bad Liebenstein haben, wird unabhängig von der Dauer oder der Häufigkeit ihrer Aufenthalte während eines Kalenderjahres und der Lage der Wohneinheit im Erhebungsgebiet einmal im Kalenderjahr der Kurbeitrag in Höhe von 84,00 EUR erhoben."
+      },
+      {
+        "text": "Alle Befreiungen gelten nur auf Antrag des Gastes.",
+        "quote": "Von der Entrichtung eines Kurbeitrages sind auf Antrag befreit:"
+      },
+      {
+        "text": "Wer ausschließlich das elektronische Meldeverfahren der Stadt nutzt, bekommt einen Digitalbonus von 5 Prozent des Kurbeitrages gutgeschrieben.",
+        "quote": "Soweit die Wohnungsgeber ihre Meldungen ausschließlich über das von der Stadtverwaltung eingerichtete elektronische Meldeverfahren abwickeln erhalten sie einen Digitalbonus in Höhe von 5 % des Kurbeitrages."
+      },
+      {
+        "text": "Bricht ein Gast vorzeitig ab, bekommt er den Kurbeitrag anteilig zurück, wenn er das spätestens am Abreisetag bei dir geltend macht.",
+        "quote": "Bricht der Beitragspflichtige seinen Aufenthalt vorzeitig ab, so erhält er auf Antrag gegen Vorlage der Kurkarte den entrichteten Kurbeitrag anteilig erstattet. Die Erstattung ist spätestens am Tag der Abreise gegenüber dem Wohnungsgeber geltend zu machen."
+      },
+      {
+        "text": "Du haftest neben dem Gast als Gesamtschuldner für die rechtzeitige und vollständige Einziehung und Abführung des Kurbeitrages.",
+        "quote": "Der Wohnungsgeber haftet neben den Beitragspflichtigen für die rechtzeitige und vollständige Einziehung und Abführung des Kurbeitrages als Gesamtschuldner."
+      },
+      {
+        "text": "Mit dem Papier-Meldeschein gibst du den Durchschlag für die Stadt innerhalb von sieben Werktagen nach der Abreise des Gastes ab.",
+        "quote": "Der Meldepflicht im Sinne des Absatzes 1 wird dadurch entsprochen, dass die für die Stadtverwaltung bestimmte Durchschrift des Meldescheins innerhalb von sieben Werktagen nach Abreise des Gastes bei der Stadtverwaltung abgegeben wird."
+      },
+      {
+        "text": "Die Satzung hängst du in deinem Betrieb gut sichtbar für deine Gäste aus.",
+        "quote": "Diese Satzung ist in jedem Betrieb im Sinne des § 10 Abs. 1 an allgemein zugänglicher Stelle deutlich sichtbar auszuhängen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag im Voraus für die ganze Aufenthaltsdauer von deinen Gästen ein und führst ihn nach der Zahlungsaufforderung der Stadt unverzüglich ab.",
+      "quote": "Der Wohnungsgeber hat den satzungsgemäßen Kurbeitrag von den Beitragspflichtigen im Voraus für die Aufenthaltsdauer einzuziehen und unverzüglich nach Zahlungsaufforderung an die Stadtverwaltung abzuführen."
+    },
+    "deadline": {
+      "text": "Nach der Zahlungsaufforderung der Stadt führst du den Kurbeitrag unverzüglich ab.",
+      "quote": "unverzüglich nach Zahlungsaufforderung an die Stadtverwaltung abzuführen."
+    },
+    "reporting": {
+      "text": "Im Meldescheinsystem der Stadt meldest du Gäste unverzüglich, spätestens am Tag nach ihrer Abreise.",
+      "quote": "Bei einer Datenerfassung über das internetbasierte Meldescheinsystem der Stadtverwaltung wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Abreise des Gastes, an die Stadtverwaltung erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-liebenstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

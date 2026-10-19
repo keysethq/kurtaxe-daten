@@ -1,0 +1,381 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "laboe",
+  "name": "Ostseebad Laboe",
+  "short": "Laboe",
+  "ags": "01057043",
+  "state": "Schleswig-Holstein",
+  "district": "Plön",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe und einer Strandbenutzungsgebühr in der Gemeinde Ostseebad Laboe (KurAbSa) vom 20.12.2023, Scan der Gemeinde",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Laboe/Laboe_KurAbGaSa_2024.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "1d78936537e69258adc49285eb5b32ebb50018053de6225889fab621c80056a2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Dabei zählen der An- und der Abreisetag als ein Tag"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "2. in der Zeit vom 01.05. bis 30.09. des Jahres (Hauptsaison) 3,00 EUR"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": " in der Zeit vom 15.03. bis 30.04. des Jahres (Vorsaison) 1,50 EUR",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 1,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit um wenigstens 80 von Hundert, sowie eine ständige Begleitperson, wenn dies durch den Eintrag \"B\" auf der Vorderseite des Behindertenausweises vermerkt ist."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von den Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen werden und soweit sie die Einrichtungen und Veranstaltungen gemäß $ 1 Abs. 1 nicht in Anspruch nehmen"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Personen, die durch ein ärztliches Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können für die Dauer der physischen Verhinderung"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Inhaber einer gültigen Ostseecard für die Dauer der Gültigkeit der Ostseecard"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer sich auf Grund eines Arbeits- oder Ausbildungsverhältnisses in der Gemeinde Ostseebad Laboe aufhält."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Die kurabgabepflichtige Zeit beginnt mit dem 15. März eines Jahres, sie endet mit dem 31. Oktober desselben Jahres."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Inhaber von Wohngelegenheiten im Gemeindegebiet sowie ihre volljährigen Angehörigen, die ihren gewöhnlichen Aufenthalt nicht in der Gemeinde haben, zahlen unabhängig von der Aufenthaltsdauer die Jahreskurabgabe in Höhe von 75,00 Euro."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Ortsfremde Kinder und Jugendliche, die das 18. Lebensjahr noch nicht vollendet haben, erhalten eine KinderÖstseeCard, sofern sie sich in Begleitung einer erwachsenen Person im Gemeindegebiet aufhalten, die ihrerseits die Kurabgabe zahlt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 4,
+          "reading": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes, oder einer nachgewiesen verspäteten Anreise, wird die nach Übernachtungen berechnete, zu viel gezahlte Kurabgabe auf Antrag erstattet. Die Erstattung erfolgt nur an den Inhaber der OstseeCard gegen Rückgabe der OstseeCard und gegen schriftliche Bescheinigung des Unterkunftsgebers über den Tag der Abreise bzw. Anreise des Abgabepflichtigen. Der Erstattungsanspruch erlischt einen Monat nach der Abreise."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber sowie deren Bevollmächtigte oder Beauftragte haben ein Verzeichnis zu führen, in das am Tage der Ankunft alle Gäste einzutragen sind."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber haften im Rahmen der ihnen nach den Absätzen 1 bis 3 obliegenden Pflichten für die Abgabeschuld und damit für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an den Tourismusbetrieb Ostseebad Laboe."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber sind verpflichtet, für jede von ihnen ausgehändigte OstseeCard die Kurabgabe zu errechnen, die Kurabgabe vom Gast einzuziehen und an den Tourismusbetrieb Ostseebad Laboe abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "Die Abführung der Kurabgabe an den Tourismusbetrieb Ostseebad Laboe hat in der Hauptsaison 14tägig, in der Vor- und Nachsaison monatlich kostenfrei zu erfolgen."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "die für den Tourismusbetrieb Ostseebad Laboe bestimmte Durchschrift/Kopie innerhalb von 3 Werktagen bei den Dienststellen des Tourismusbetriebes Ostseebad Laboe einzureichen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Ostseebad Laboe (TA Sa) in der Fassung des 2. Nachtrags vom 19.11.2019",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Laboe/Laboe__TaSa_idF-2Nachtrags.pdf",
+      "kind": "municipality",
+      "inForce": "2020-01-18",
+      "changedOn": "2026-10-15",
+      "sha256": "0dd37dae4447950a63db0d529fa85bca4e3e64201bd0d2a3cebd238a6dfff8e2",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Dabei zählen der An- und der Abreisetag als ein Tag"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "2. in der Zeit vom 01.05. bis 30.09. des Jahres (Hauptsaison) 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "04-30"
+          },
+          {
+            "from": "10-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "1. in der Zeit vom 15.03. bis 30.04. des Jahres (Vorsaison) 1,50 EUR"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Minderung der Erwerbsfähigkeit von mindestens 80 und ihre ständige Begleitperson, wenn im Ausweis das „B“ eingetragen ist",
+        "quote": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit um wenigstens 80 von Hundert, sowie eine ständige Begleitperson, wenn dies durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von den Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen werden und soweit sie die Einrichtungen und Veranstaltungen gemäß § 1 Abs. 1 nicht in Anspruch nehmen"
+      },
+      {
+        "text": "Wer die Unterkunft aus gesundheitlichen Gründen nicht verlassen kann, mit ärztlichem Zeugnis",
+        "quote": "Personen, die durch ein ärztliches Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können für die Dauer der physischen Verhinderung"
+      },
+      {
+        "text": "Inhaber einer gültigen Ostseecard, solange die Karte gilt",
+        "quote": "Inhaber einer gültigen Ostseecard für die Dauer der Gültigkeit der Ostseecard"
+      },
+      {
+        "text": "Wer im Ort in einem Arbeits- oder Ausbildungsverhältnis ist, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer sich auf Grund eines Arbeits- oder Ausbildungsverhältnisses in der Gemeinde Ostseebad Laboe aufhält."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird nur vom 15. März bis 31. Oktober erhoben; außerhalb dieses Zeitraums fällt keine an.",
+        "quote": "Die kurabgabepflichtige Zeit beginnt mit dem 15. März eines Jahres, sie endet mit dem 31. Oktober desselben Jahres."
+      },
+      {
+        "text": "Wer im Ort eine Wohngelegenheit innehat und dort nicht wohnt, zahlt mit seinen volljährigen Angehörigen unabhängig von der Aufenthaltsdauer eine Jahreskurabgabe von 75,00 €.",
+        "quote": "Inhaber von Wohngelegenheiten im Gemeindegebiet sowie ihre volljährigen Angehörigen, die ihren gewöhnlichen Aufenthalt nicht in der Gemeinde haben, zahlen unabhängig von der Aufenthaltsdauer die Jahreskurabgabe in Höhe von 75,00 Euro."
+      },
+      {
+        "text": "Kinder und Jugendliche unter 18 bekommen eine Kinder-OstseeCard, wenn sie mit einem Erwachsenen reisen, der die Kurabgabe zahlt.",
+        "quote": "Ortsfremde Kinder und Jugendliche, die das 18. Lebensjahr noch nicht vollendet haben, erhalten eine KinderOstseeCard, sofern sie sich in Begleitung einer erwachsenen Person im Gemeindegebiet aufhalten, die ihrerseits die Kurabgabe zahlt."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise oder verspäteter Anreise wird die zu viel gezahlte Kurabgabe auf Antrag erstattet, gegen Rückgabe der OstseeCard und eine Bescheinigung von dir als Unterkunftsgeber; der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes, oder einer nachgewiesen verspäteten Anreise, wird die nach Übernachtungen berechnete, zu viel gezahlte Kurabgabe auf Antrag erstattet. Die Erstattung erfolgt nur an den Inhaber der OstseeCard gegen Rückgabe der OstseeCard und gegen schriftliche Bescheinigung des Unterkunftsgebers über den Tag der Abreise bzw. Anreise des Abgabepflichtigen. Der Erstattungsanspruch erlischt einen Monat nach der Abreise."
+      },
+      {
+        "text": "Du musst ein Verzeichnis führen, in das du am Ankunftstag alle Gäste einträgst.",
+        "quote": "Die Unterkunftsgeber sowie deren Bevollmächtigte oder Beauftragte haben ein Verzeichnis zu führen, in das am Tage der Ankunft alle Gäste einzutragen sind."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Die Unterkunftsgeber haften im Rahmen der ihnen nach den Absätzen 1 bis 3 obliegenden Pflichten für die Abgabeschuld und damit für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an den Tourismusbetrieb Ostseebad Laboe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet für jede ausgehändigte OstseeCard die Kurabgabe aus, zieht sie beim Gast ein und führt sie an den Tourismusbetrieb Ostseebad Laboe ab.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet, für jede von ihnen ausgehändigte OstseeCard die Kurabgabe zu errechnen, die Kurabgabe vom Gast einzuziehen und an den Tourismusbetrieb Ostseebad Laboe abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird in der Hauptsaison alle 14 Tage, in der Vor- und Nachsaison monatlich.",
+      "quote": "Die Abführung der Kurabgabe an den Tourismusbetrieb Ostseebad Laboe hat in der Hauptsaison 14tägig, in der Vor- und Nachsaison monatlich kostenfrei zu erfolgen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit dem Meldeschein des Tourismusbetriebs, dessen Durchschrift du innerhalb von 3 Werktagen bei den Dienststellen des Tourismusbetriebs einreichst.",
+      "quote": "die für den Tourismusbetrieb Ostseebad Laboe bestimmte Durchschrift/Kopie innerhalb von 3 Werktagen bei den Dienststellen des Tourismusbetrieb Ostseebad Laboe einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Laboe unmittelbar oder mittelbar Vorteile bietet; ausdrücklich genannt sind Personen, die gegen Entgelt beherbergen, und Vermieter von Ferienwohnungen.",
+      "quote": "Abgabepflichtig sind die natürlichen und juristischen Personen sowie rechtsfähigen und nicht rechtsfähigen Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde Ostseebad Laboe unmittelbare oder mittelbare Vorteile geboten werden. 2 Dies gilt insbesondere für : a) Inhaber von Hotels, Fremden-, Kinder-, und Erholungsheimen und sonstigen Personen, die Kurgäste oder Erholungssuchende gegen Entgelt beherbergen sowie Vermieter von Ferienwohnungen ;"
+    },
+    "letting": [
+      {
+        "label": "Private Zimmer- und Ferienwohnungsvermietung (nichtgewerblich), je Fremdenbett",
+        "quote": "bei Privatvermietern (nichtgewerbliche Zimmervermietung) je Fremdenbett 4,35 EUR 6,21 EUR 7,45 EUR",
+        "flat": {
+          "cents": 745,
+          "per": "Fremdenbett"
+        },
+        "floor": {
+          "cents": 3000,
+          "quote": "mindestens jedoch 17,50 EUR 25,00 EUR 30,00 EUR"
+        }
+      },
+      {
+        "label": "Gewerbliche Zimmer- und Ferienwohnungsvermietung (Beherbergungsbetriebe), je Fremdenbett",
+        "quote": "bei Beherbergungsbetrieben (gewerbliche Zimmervermietung) je Fremdenbett 5,95 EUR 8,50 EUR 10,20 EUR",
+        "flat": {
+          "cents": 1020,
+          "per": "Fremdenbett"
+        },
+        "floor": {
+          "cents": 11500,
+          "quote": "mindestens jedoch 67,50 EUR 96,00 EUR 115,00 EUR"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Mindestens zahlst du im Jahr 30 Euro als privater Vermieter und 115 Euro bei gewerblicher Zimmervermietung.",
+      "quote": "mindestens jedoch 17,50 EUR 25,00 EUR 30,00 EUR b) in den Fällen des § 6 Abs. 1 Buchst. a bei Beherbergungsbetrieben (gewerbliche Zimmervermietung) je Fremdenbett 5,95 EUR 8,50 EUR 10,20 EUR mindestens jedoch 67,50 EUR 96,00 EUR 115,00 EUR"
+    },
+    "reporting": {
+      "text": "Beginn, Ende und Änderungen deiner Vermietung zeigst du innerhalb eines Monats an.",
+      "quote": "[1] Der Beginn und das Ende sowie die Änderung einer abgabenpflichtigen Tätigkeit ist vom Abgabepflichtigen innerhalb eines Monats bei der Abgabenbehörde anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist am 15. August jeden Jahres fällig; ist der Termin bei Bekanntgabe des Bescheids schon vorbei, einen Monat nach Bekanntgabe.",
+      "quote": "Die Tourismusabgabe ist am 15.08. eines Kalenderjahres fällig. 2 Ist der Fälligkeitstag bei Bekanntgabe des Abgabenbescheides bereits verstrichen, wird die Tourismusabgabe innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Du zahlst eine Jahresabgabe nach der Zahl der Fremdenbetten, die am 1. Juli jeden Jahres für Gäste bereitstehen.",
+        "quote": "nach der Zahl der am 1. Juli jeden Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden."
+      },
+      {
+        "text": "Die Tabelle nennt die Beträge für 2012, 2013 und ab dem 1. Januar 2014; hier stehen die Beträge ab 2014.",
+        "quote": "im Kalender- im Kalender- ab jahr 2012 jahr 2013 01.01.2014"
+      },
+      {
+        "text": "Ändern sich die Verhältnisse nach dem Bescheid, zeigst du das bis zum 1. August des Jahres an; sonst wird ein bestandskräftiger Bescheid nicht zu deinen Gunsten geändert.",
+        "quote": "hat der Abgabenschuldner diese Änderung bis zum 01.08. des Kalenderjahres anzuzeigen"
+      },
+      {
+        "text": "Fehlt deine Abgabenerklärung, kann die Abgabenbehörde die Grundlagen schätzen.",
+        "quote": "Wird eine Abgabenerklärung nicht abgegeben oder haben sich die nach § 6 dieser Satzung maßgeblichen Verhältnisse für die Abgabenbehörde erkennbar verändert, können die Grundlagen der Abgabenerhebung geschätzt werden."
+      },
+      {
+        "text": "Eine Abgabenerklärung gibst du auf Verlangen der Abgabenbehörde auf dem amtlichen Vordruck ab.",
+        "quote": "Zur Feststellung der Abgabepflicht und der Grundlagen der Abgabenerhebung hat der Abgabepflichtige auf Verlangen der Abgabenbehörde eine Abgabenerklärung auf amtlich vorgeschriebenen Vordruck abzugeben."
+      },
+      {
+        "text": "Beherbergungsbetriebe und Zimmervermieter, zu denen nach der Satzung auch Vermieter von Ferienwohnungen zählen, zahlen nach der Zahl der Fremdenbetten.",
+        "quote": "a) bei Beherbergungsbetrieben und Zimmervermietern (§ 2 Absatz 1 Buchstabe a) nach der Zahl der am 1. Juli jeden Jahres vorhandenen Fremdenbetten"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/laboe/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "03-15",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

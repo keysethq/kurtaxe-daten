@@ -1,0 +1,245 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "nienhagen",
+  "name": "Ostseebad Nienhagen",
+  "short": "Nienhagen",
+  "ags": "13072075",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Nienhagen (Kurabgabesatzung) 2025",
+      "url": "https://www.ostseebad-nienhagen.de/files/aid/inhalt/dokumente/satzungen/Kurabgabesatzung%202025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "e57ad80dba0040c763c6ba6f87b358077eed166f6cd02a37ae8eda5db003b43f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 4,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "in der Hauptsaison EUR 2,00"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "in der Nebensaison EUR 1,00"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 3,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 3,
+          "reading": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 3,
+          "reading": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 4,
+          "reading": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Kurabgabepflichtige können anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten, die zur ganzjährigen Benutzung der zur Erholungszwecken bereitgestellten öffentlichen Einrichtungen berechtigt, ohne dass ein zusammenhängender Aufenthalt vorliegen muss."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Die Jahreskurabgabe beträgt 45,00 EUR für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 6,
+          "reading": "entweder die von der Kurabgabestelle der Gemeinde Ostseebad Nienhagen zur Verfügung gestellten besonderen Meldescheine für Beherbergungsstätten nach & 11 KAG M-V bereitzustellen und zu nutzen oder das elektronische Meldesystem"
+        },
+        {
+          "where": "hostDuty",
+          "page": 7,
+          "reading": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+        },
+        {
+          "where": "deadline",
+          "page": 7,
+          "reading": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Ostseebad Nienhagen (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Ostseebad Nienhagen (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+        },
+        {
+          "where": "reporting",
+          "page": 7,
+          "reading": "für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Hauptsaison EUR 2,00"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "in der Nebensaison EUR 1,00"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+        "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+        "quote": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+      },
+      {
+        "text": "Statt der Tagessätze können Kurabgabepflichtige eine Jahreskurabgabe entrichten, die ganzjährig zur Nutzung der Einrichtungen berechtigt.",
+        "quote": "Kurabgabepflichtige können anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten, die zur ganzjährigen Benutzung der zur Erholungszwecken bereitgestellten öffentlichen Einrichtungen berechtigt, ohne dass ein zusammenhängender Aufenthalt vorliegen muss."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 45,00 € für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht.",
+        "quote": "Die Jahreskurabgabe beträgt 45,00 EUR für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+      },
+      {
+        "text": "Gemeldet wird mit den Meldescheinen der Kurabgabestelle oder über das elektronische Meldesystem.",
+        "quote": "entweder die von der Kurabgabestelle der Gemeinde Ostseebad Nienhagen zur Verfügung gestellten besonderen Meldescheine für Beherbergungsstätten nach § 11 KAG M-V bereitzustellen und zu nutzen oder das elektronische Meldesystem"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Bis zum 5. eines Monats leitest du die Meldescheine des Vormonats an die Kurabgabestelle weiter und führst die Kurabgabe unbar ab.",
+      "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Ostseebad Nienhagen (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Ostseebad Nienhagen (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+    },
+    "reporting": {
+      "text": "Quartiergeber ab acht Betten müssen das elektronische Meldesystem verwenden.",
+      "quote": "für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/nienhagen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

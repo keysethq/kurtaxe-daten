@@ -1,0 +1,111 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "koeln",
+  "name": "Stadt Köln",
+  "short": "Köln",
+  "ags": "05315000",
+  "state": "Nordrhein-Westfalen",
+  "district": "Köln",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kulturförderabgabe im Gebiet der Stadt Köln vom 18.11.2014 (Übernachtungssteuer) in der Fassung der 4. Änderungssatzung vom 29. Februar 2024, Stadt Köln",
+      "url": "https://www.stadt-koeln.de/mediaasset/content/satzungen/satzung_zur_erhebung_einer_kulturfoerderabgabe_2024-02-29.pdf",
+      "kind": "municipality",
+      "inForce": "2024-07-01",
+      "sha256": "4bfa686241b5e252926bdc10049f4a2e43b917c09c9cbfd7aa7a18afaeb3e668",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Kulturförderabgabe (Übernachtungssteuer)",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Übernachtungssteuer beträgt 5 Prozent der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Gast für die Beherbergung aufgewendete Betrag (einschließlich Umsatzsteuer).",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein und führst sie an die Stadt ab.",
+      "quote": "Abgabenentrichtungspflichtig ist die Betreiberin bzw. der Betreiber des Beherbergungsbetriebes. Die Übernachtungssteuer ist vom Beherbergungsgast einzuziehen und für diesen zu entrichten."
+    },
+    "deadline": {
+      "text": "Die Steuer zahlst du vierteljährlich bis zum 30. Tag nach Ablauf des Quartals an die Stadtkasse.",
+      "quote": "Die Übernachtungssteuer ist bis zum 30. Tag nach Ablauf eines Kalendervierteljahres an die Stadtkasse Köln zu entrichten."
+    },
+    "reporting": {
+      "text": "Die Steueranmeldung gibst du vierteljährlich bis zum 15. Tag nach Ablauf des Quartals beim Steueramt ab und berechnest die Steuer dabei selbst.",
+      "quote": "beim Steueramt der Stadt Köln bis zum 15. Tag nach Ablauf eines Kalendervierteljahres eine Steueranmeldung nach amtlich vorgeschriebenem Vordruck in formgültiger Weise oder in einer amtlich zugelassenen elektronischen Steueranmeldung abzugeben."
+    },
+    "exemptions": [
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit Haupt- oder Nebenwohnung gemeldet ist, zahlt keine Übernachtungssteuer.",
+        "quote": "Personen, die unter der Anschrift des Beherbergungsbetriebes mit alleiniger Wohnung, Haupt- oder Nebenwohnung nach dem Bundesmeldegesetz gemeldet sind, sind von der Besteuerung ausgenommen."
+      },
+      {
+        "text": "Schülerreisen, die die Schulleitung genehmigt hat und die von Lehrkräften begleitet werden, sind befreit.",
+        "quote": "Von der Zahlung einer Übernachtungssteuer sind insbesondere Übernachtungsaufwendungen befreit, die durch von der Schulleitung genehmigten und von Lehrkräften begleiteten Schülerreisen entstehen."
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Köln übernachtet, wird auf Antrag nachträglich befreit, bei medizinischer Notwendigkeit auch die Begleitperson.",
+        "quote": "Personen, die zum Zweck einer zwingend notwendigen medizinischen Behandlung in Köln übernachten müssen, werden auf Antrag nachträglich befreit. Ist aus medizinischen Gründen die Übernachtung einer Begleitperson erforderlich, gilt die Befreiung auch für diese Begleitperson."
+      },
+      {
+        "text": "Du musst die Steuer nicht einziehen, wenn der Gast mit dem amtlichen Vordruck erklärt und belegt, dass die Übernachtung den Grundbedarf Wohnen deckt.",
+        "quote": "diese Pflicht besteht insbesondere dann nicht, wenn der Beherbergungsgast durch vollständiges Ausfüllen des amtlichen Vordrucks erklärt und belegt, dass die Übernachtung der Deckung des Grundbedarfs „Wohnen“ dient"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Berufliche Übernachtungen sind steuerpflichtig; die frühere Ausnahme gilt nur noch für ununterbrochene Aufenthalte, die vor dem 1. Juli 2024 begonnen haben.",
+        "quote": "Für ununterbrochene beruflich zwingend erforderliche Übernachtungen, die vor dem 01.07.2024 begonnen haben, gilt der Ausnahmetatbestand des § 2 Abs. 3 der Satzung zur Erhebung einer Kulturförderabgabe im Gebiet der Stadt Köln vom 18.11.2014 in der Fassung der 3. Satzung zur Änderung der Satzung zur Erhebung einer Kulturförderabgabe im Gebiet der Stadt Köln vom 13. Dezember 2019 fort."
+      },
+      {
+        "text": "Lässt sich die Rechnung ausnahmsweise nicht in Übernachtung und Verpflegung aufteilen, ziehst du bei Pauschalpreisen je Gast 7 € für das Frühstück und je 10 € für Mittag- und Abendessen ab.",
+        "quote": "der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 EUR für Frühstück und je 10,00 EUR für Mittagessen und Abendessen je Gast und Mahlzeit"
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du dem Steueramt an, und zwar vor dem Ereignis.",
+        "quote": "den Beginn und das Ende seiner Tätigkeit, den Wechsel der Betreiberin bzw. des Betreibers des Beherbergungsbetriebes und die Verlegung des Beherbergungsbetriebes dem Steueramt der Stadt Köln anzuzeigen. Die Anzeige ist vor Eintritt des jeweiligen anzeigepflichtigen Ereignisses zu erstatten."
+      }
+    ],
+    "maxMonths": {
+      "months": 6,
+      "text": "Bei einem ununterbrochenen Aufenthalt in derselben Unterkunft wird die Steuer höchstens für sechs Monate erhoben.",
+      "quote": "Die Übernachtungssteuer wird bei einer ununterbrochenen Beherbergungsdauer im selben Beherbergungsbetrieb längstens für 6 Monate erhoben."
+    }
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/koeln/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 6
+  }
+}

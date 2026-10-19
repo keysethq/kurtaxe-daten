@@ -1,0 +1,246 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lenzkirch",
+  "name": "Lenzkirch",
+  "short": "Lenzkirch",
+  "ags": "08315068",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Lenzkirch über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 10.10.2024",
+      "url": "https://www.lenzkirch.de/fileadmin/Dateien/Cross7/Startseite/Verwaltung_und_Politik/Kommunalpolitik/Satzungen/2025_Satzung_Kurtaxe_unterschrieben.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "9585f3edfd8b5654c40fb9303d32f03784a13bb570e162b2e5c2d50f96a761f5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 4,
+          "reading": "Kinder bis zum vollendeten sechsten Lebensjahr"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € für Kinder ab 6 Jahren und Jugendliche 1,60 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "für Personen ab 16 Jahren 3,00 € für Kinder ab 6 Jahren und Jugendliche 1,60 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 4,
+          "reading": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde Lenzkirch aufhalten (Tagesbesucher)"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 4,
+          "reading": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 4,
+          "reading": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "die in der Gemeinde Lenzkirch arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde Lenzkirch aufhalten"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Zum Kurbezirk Il gehören die Ortsteile Lenzkirch, Saig, Kappel, Grünwald, Raitenbuch mit Möslehof"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 5,
+          "reading": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "der zur kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "für Personen ab 16 Jahren 75,00 € für Kinder ab 6 Jahren und Jugendliche 33,00 €"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 6,
+          "reading": "Für die Meldung ist das von der Gemeinde Lenzkirch unentgeltliche bereitgestellte elektronische Meldeverfahren zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Lenzkirch abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Lenzkirch abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "für Personen ab 16 Jahren 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten sechsten Lebensjahr"
+          },
+          {
+            "underAge": 16,
+            "cents": 160,
+            "quote": "für Personen ab 16 Jahren 3,00 € für Kinder ab 6 Jahren und Jugendliche 1,60 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde Lenzkirch aufhalten (Tagesbesucher)"
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "die in der Gemeinde Lenzkirch arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde Lenzkirch aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten im Kurbezirk II, zu dem die Ortsteile Lenzkirch, Saig, Kappel, Grünwald und Raitenbuch mit Möslehof gehören; einen Satz für einen anderen Bezirk nennt die Satzung nicht.",
+        "quote": "Zum Kurbezirk Il gehören die Ortsteile Lenzkirch, Saig, Kappel, Grünwald, Raitenbuch mit Möslehof"
+      },
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Die Gästekarte mit dem Hinweis KONUS berechtigt die Gäste zur kostenlosen Nutzung von Bus und Bahn in den teilnehmenden Verkehrsverbünden im Schwarzwald.",
+        "quote": "der zur kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: 75 Euro je Person ab 16 Jahren und 33 Euro je Kind ab 6 Jahren und Jugendlichem.",
+        "quote": "für Personen ab 16 Jahren 75,00 € für Kinder ab 6 Jahren und Jugendliche 33,00 €"
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde Lenzkirch unentgeltliche bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für die rechtzeitige Einziehung und vollständige Ablieferung.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Lenzkirch abzuführen."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Lenzkirch abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lenzkirch/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ]
+  }
+}

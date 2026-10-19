@@ -1,0 +1,198 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-salzuflen",
+  "name": "Stadt Bad Salzuflen",
+  "short": "Bad Salzuflen",
+  "ags": "05766008",
+  "state": "Nordrhein-Westfalen",
+  "district": "Lippe",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Bad Salzuflen über die Erhebung eines Kurbeitrages (Kurbeitragssatzung) vom 07.12.2023, zuletzt geändert durch die 2. Änderungssatzung vom 06.03.2025, Lesefassung der Stadt im Ortsrecht",
+      "url": "https://www.stadt-bad-salzuflen.de/stadt-und-rathaus/politik-und-wahlen/ortsrecht/abschnitt-2/kurbeitragssatzung",
+      "kind": "municipality",
+      "inForce": "2025-04-01",
+      "sha256": "5387999f220017198a25796655a5d6fe0551c13da94be381d0e1973f3d656496",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Anreise und der Tag der Abreise gelten als ein Tag, für den sich die Höhe des Kurbeitrages nach dem Anreisetag bemisst."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im Erhebungsgebiet, das die Anlage 1 der Satzung auf einer Karte zeigt und beschreibt, nicht in der ganzen Stadt.",
+      "quote": "Das Erhebungsgebiet der Stadt Bad Salzuflen ist in der Anlage 1, welche Bestandteil dieser Satzung ist, zeichnerisch dargestellt und erläutert."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 400,
+          "quote": "und beträgt je Tag in der Zeit vom 1.11. – 31.3. (Nebensaison) 3,70 Euro und je Tag in der Zeit vom 1.4. – 31.10. (Hauptsaison) 4,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "vor Vollendung des 14. Lebensjahres das Erhebungsgebiet nur in Begleitung erziehungsberechtigter Personen aufsuchen und selbst keine Gesundheitsmaßnahme durchführen,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "und beträgt je Tag in der Zeit vom 1.11. – 31.3. (Nebensaison) 3,70 Euro und je Tag in der Zeit vom 1.4. – 31.10. (Hauptsaison) 4,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "vor Vollendung des 14. Lebensjahres das Erhebungsgebiet nur in Begleitung erziehungsberechtigter Personen aufsuchen und selbst keine Gesundheitsmaßnahme durchführen,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Der Kurbeitrag wird für die Dauer des Aufenthaltes, höchstens jedoch für 42 Tage je Kalenderjahr, erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder unter 14 zahlen nichts, wenn sie nur in Begleitung Erziehungsberechtigter kommen und selbst keine Gesundheitsmaßnahme durchführen.",
+        "quote": "vor Vollendung des 14. Lebensjahres das Erhebungsgebiet nur in Begleitung erziehungsberechtigter Personen aufsuchen und selbst keine Gesundheitsmaßnahme durchführen,"
+      },
+      {
+        "text": "Wer aufgrund einer Krankheit die Kureinrichtungen nicht nutzen kann, zahlt nichts.",
+        "quote": "aufgrund psychischer oder physischer Krankheiten zur Inanspruchnahme von Kureinrichtungen oder zur Teilnahme an Kurveranstaltungen nicht in der Lage sind,"
+      },
+      {
+        "text": "Wer am Ort eine Schule besucht, ausgebildet oder weitergebildet wird oder seinen Beruf ausübt, zahlt nichts.",
+        "quote": "am Ort eine Schule besuchen, für einen Beruf ausgebildet oder weitergebildet werden, ihren Beruf ausüben,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn sie die Notwendigkeit nachweisen, den Aufenthalt selbst bezahlen und selbst keine Gesundheitsmaßnahme durchführen.",
+        "quote": "als Begleitperson von schwerbehinderten Personen das Erhebungsgebiet aufsuchen, wenn die Notwendigkeit der ständigen Begleitung durch Vorlage eines gültigen amtlichen Ausweises bei Aufenthaltsbeginn nachgewiesen wird, sie die Kosten des Aufenthalts selbst in voller Höhe tragen und die Begleitpersonen selbst keine Gesundheitsmaßnahme durchführen,"
+      },
+      {
+        "text": "Hausbesucher, die bei einem Einwohner unentgeltlich aufgenommen werden, zahlen nichts.",
+        "quote": "als Hausbesucher bei einem im Erhebungsgebiet wohnhaften Wohnungsgeber unentgeltlich Aufnahme finden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 und Personen mit geringem Einkommen zahlen 3,60 € in der Hauptsaison und 3,30 € in der Nebensaison, wenn sie das bei Aufenthaltsbeginn nachweisen.",
+        "quote": "Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro"
+      },
+      {
+        "text": "Kinder unter 14, die selbst eine Gesundheitsmaßnahme durchführen, zahlen 2,00 € je Tag.",
+        "quote": "a) für kurbeitragspflichtige Personen vor Vollendung des 14. Lebensjahres 2,00 Euro"
+      },
+      {
+        "text": "Zweitwohnungsinhaber und Eigentümer von Wohneinheiten zahlen einen Jahreskurbeitrag, der dem Beitrag für 42 Tage in der Nebensaison entspricht.",
+        "quote": "Dieser Jahreskurbeitrag bemisst sich nach dem Kurbeitrag für 42 Tage in der Nebensaison (vgl. Anlage 2)."
+      },
+      {
+        "text": "Du stellst jedem Gast unmittelbar nach der Ankunft eine Gästekarte aus.",
+        "quote": "jeder kurbeitragspflichtigen Person unmittelbar nach Ankunft im Erhebungsgebiet eine Gästekarte auszustellen,"
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, informierst du die Stadt sofort.",
+        "quote": "Weigert sich der Kurbeitragspflichtige, den Kurbeitrag zu zahlen, ist die Stadt Bad Salzuflen sofort zu unterrichten."
+      },
+      {
+        "text": "Du haftest der Stadt für den vollständigen und richtigen Einzug des Kurbeitrags.",
+        "quote": "Der Einzugsverpflichtete haftet der Stadt Bad Salzuflen für den vollständigen und richtigen Einzug des Kurbeitrages"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag ein und führt ihn nach der Rechnung der Stadt ab.",
+      "quote": "den Kurbeitrag einzuziehen und nach Rechnungsstellung an die Stadt Bad Salzuflen abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird nach der Rechnung der Stadt; einen festen Termin nennt die Satzung nicht.",
+      "quote": "den Kurbeitrag einzuziehen und nach Rechnungsstellung an die Stadt Bad Salzuflen abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird elektronisch; die Stadt stellt dir Zugangsdaten und Druckvorlagen zur Verfügung.",
+      "quote": "Die Meldungen nach Abs. 1 Buchstabe a) der Satzung haben mittels eines elektronischen Meldeverfahren zu erfolgen. Die Stadt Bad Salzuflen stellt hierfür den Unterkunftsgebern die personalisierten Zugangsdaten und die Druckvorlagen für die Gasterhebungsbögen und Gästekarten zur Verfügung."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-salzuflen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

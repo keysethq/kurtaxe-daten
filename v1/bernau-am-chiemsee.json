@@ -1,0 +1,188 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bernau-am-chiemsee",
+  "name": "Gemeinde Bernau a. Chiemsee",
+  "short": "Bernau am Chiemsee",
+  "ags": "09187118",
+  "state": "Bayern",
+  "district": "Rosenheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages der Gemeinde Bernau a. Chiemsee vom 12.11.2024",
+      "url": "https://www.gemeinde-bernau.de/content/download/11581/96998/version/2/file/Kurbeitrag.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "ce86bd81e0fed6b3f21b4acdaa4a22517845697e327496087b8795c359a01ca3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrags der Gemeinde Bernau a. Chiemsee vom 12. November 2024",
+      "url": "https://www.gemeinde-bernau.de/content/download/11569/96974/version/2/file/Fremdenverkehrsbeitrag.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "9fbc00f9a5cc4b713dc742892ab5f69c1e9ddf3aa62371901efd95fe342b6ddc",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "3. für Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte, deren Grad der Behinderung 90 % beträgt mit deren notwendigen Begleitpersonen, sind vom Kurbeitrag befreit."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche unter 16",
+        "quote": "3. für Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr, sowie Schwerbehinderte, deren Grad der Behinderung 90 % beträgt mit deren notwendigen Begleitpersonen, sind vom Kurbeitrag befreit."
+      },
+      {
+        "text": "Schwerbehinderte, deren Grad der Behinderung laut Satzung „90 %“ beträgt, mit ihren notwendigen Begleitpersonen, mit Schwerbehindertenausweis",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 90 % beträgt mit deren notwendigen Begleitpersonen, sind vom Kurbeitrag befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch Gäste ab 16, die nicht in Bernau übernachten, zahlen 1,50 € je Tag.",
+        "quote": "2. für Personen ab dem vollendeten 16 Lebensjahr, die nicht im Kurgebiet übernachten 1,50 €"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "(3) Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      },
+      {
+        "text": "Die Gästekarte als Nachweis der Meldung stellt die Kurverwaltung oder du als Einhebungspflichtiger aus.",
+        "quote": "Die Gästekarte wird von der Kurverwaltung oder dem Einhebungspflichtigen nach § 6 ausgestellt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Monat nach Bekanntgabe des Kurbeitragsbescheids ab.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Monat nach Bekanntgabe des Kurbeitragsbescheids an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste innerhalb von 5 Tagen nach deren Abreise elektronisch über das Verfahren der Gemeinde; bei weniger als 10 Betten geht es auch schriftlich.",
+      "quote": "innerhalb von 5 Tagen nach deren Abreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben. Soweit natürliche oder juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen, über weniger als 10 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommenoder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt 6 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach geschätztem Gewinnanteil am Umsatz zwischen 0,075 und 0,750 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 – 5 v. H. 0,075 v. H. über 5 – 10 v. H. 0,225 v. H. über 10 – 15 v. H. 0,375 v. H. über 15 – 20 v. H. 0,525 v. H. über 20 v. H. 0,750 v. H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Am 15. August jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bernau-am-chiemsee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

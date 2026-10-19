@@ -1,0 +1,362 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wiek-ruegen",
+  "name": "Wiek",
+  "short": "Wiek (Rügen)",
+  "ags": "13073101",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe der Gemeinde Wiek (Beschluss 16.09.2020, gültig ab 06.11.2020 laut Ortsrechtsverzeichnis des Amtes Nord-Rügen)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/9/5/Wiek_Kur.pdf",
+      "kind": "statute",
+      "sha256": "f52e7c0d1296835f8132fbf1e49e4e84ade01c0535b1846a86ea377c18b8a024",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Höhe der Kurabgabe beträgt pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag) im Erhebungsgebiet"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Hauptsaison 1,25 € 1,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder unter 6 (sechs) Jahren,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Hauptsaison 1,25 € 1,00 €"
+        },
+        {
+          "where": "periods[0].children[1] limit",
+          "page": 2,
+          "reading": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "Hauptsaison 1,25 € 1,00 €"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "Nebensaison 1,00 € 0,75 €"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder unter 6 (sechs) Jahren,"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 2,
+          "reading": "Nebensaison 1,00 € 0,75 €"
+        },
+        {
+          "where": "periods[1].children[1] limit",
+          "page": 2,
+          "reading": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 2,
+          "reading": "Nebensaison 1,00 € 0,75 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v.H. beträgt, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Hauptsaison 1,25 € 1,00 € (01.Juni bis 30.September) Nebensaison 1,00 € 0,75 € (01.Oktober bis 31.Mai)"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Hauptsaison 1,25 € 1,00 € (01.Juni bis 30.September) Nebensaison 1,00 € 0,75 €"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden, Schwerbehinderte mit mehr als 50% Behinderung, sofern sie den Behindertenausweis vorlegen, Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird,"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Jahreskurkarten 30,00 € 20,00 €"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungseinheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 3,
+          "reading": "Die Wohnungsgeber haften für die Abgabeschuld."
+        }
+      ],
+      "inForce": "2020-11-06"
+    },
+    "aenderung1": {
+      "title": "Erste Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Wiek (Hundesatz, Quartiergeber)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/9/5/WIE_Kursatzung.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "3fc897b1d24f08c052e617d9156e23f1a79702f9f1a07f180b18e7be27acb917",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Wiek, Beschluss vom 02.05.2012, nichtamtliche Lesefassung",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/3/0/1/Satzung-_ber-die-Erhebung-einer-Fremdenverkehrsabgabe-in-der-Gemeinde-Wiek.pdf",
+      "kind": "municipality",
+      "inForce": "2012-12-31",
+      "sha256": "05b64eb72d66e80a7bddae1b49142ea13ae6be595ac49ecce7d00876ec2931e9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Höhe der Kurabgabe beträgt pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag) im Erhebungsgebiet"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "06-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 125,
+          "quote": "Hauptsaison 1,25 € 1,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder unter 6 (sechs) Jahren,"
+          },
+          {
+            "underAge": 17,
+            "cents": 100,
+            "quote": "Hauptsaison 1,25 € 1,00 €",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "05-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Nebensaison 1,00 € 0,75 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder unter 6 (sechs) Jahren,"
+          },
+          {
+            "underAge": 17,
+            "cents": 75,
+            "quote": "Nebensaison 1,00 € 0,75 €",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte und Schwerkriegsbeschädigte mit 100 v.H. Minderung der Erwerbsfähigkeit, wenn sie ihren Aufenthalt selbst bezahlen",
+        "quote": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v.H. beträgt, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),"
+      },
+      {
+        "text": "Wer in Wiek in einem Arbeits- oder Ausbildungsverhältnis steht, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison geht vom 1. Juni bis 30. September, die Nebensaison vom 1. Oktober bis 31. Mai.",
+        "quote": "Hauptsaison 1,25 € 1,00 € (01.Juni bis 30.September) Nebensaison 1,00 € 0,75 € (01.Oktober bis 31.Mai)"
+      },
+      {
+        "text": "Der ermäßigte Satz beträgt in der Hauptsaison 1,00 € und in der Nebensaison 0,75 €.",
+        "quote": "Hauptsaison 1,25 € 1,00 € (01.Juni bis 30.September) Nebensaison 1,00 € 0,75 €"
+      },
+      {
+        "text": "Der ermäßigte Satz für Kinder vom Beginn des 7. bis zur Vollendung des 17. Lebensjahres gilt nur in Begleitung ihrer Eltern.",
+        "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 7. bis zur Vollendung des 17.Lebensjahres,"
+      },
+      {
+        "text": "Den ermäßigten Satz zahlen auch Schüler, Auszubildende, Studenten sowie Wehr- und Zivildienstleistende bis zum vollendeten 27. Lebensjahr mit Nachweis, Schwerbehinderte mit mehr als 50 % Behinderung mit Ausweis und ärztlich bescheinigte Begleitpersonen von körperbehinderten Gästen.",
+        "quote": "Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden, Schwerbehinderte mit mehr als 50% Behinderung, sofern sie den Behindertenausweis vorlegen, Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird,"
+      },
+      {
+        "text": "Eine Jahreskurkarte kostet 30,00 € (voll) oder 20,00 € (ermäßigt).",
+        "quote": "Jahreskurkarten 30,00 € 20,00 €"
+      },
+      {
+        "text": "Wer in Wiek eine eigene Wohnung überwiegend zur Erholung nutzt, zahlt eine Jahreskurabgabe.",
+        "quote": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungs- einheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
+      },
+      {
+        "text": "Du haftest als Vermieter für die Abgabeschuld.",
+        "quote": "Die Wohnungsgeber haften für die Abgabeschuld."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt die Kurkarte aus.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt, (Quartiergeber) ist verpflichtet, die Kurabgabe einzuziehen, an die Gemeinde Wiek abzuführen und ihnen die Kurkarte auszustellen.",
+      "source": "aenderung1"
+    },
+    "deadline": null,
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn du aus dem Fremdenverkehr in Wiek Vorteile erzielst.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen, die aus dem Fremdenverkehr Vorteile erzielen."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermieter",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern 8,00 EUR je Bett, jedoch mindestens 10,00 EUR",
+        "flat": {
+          "cents": 800,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Für Beherbergungsbetriebe und Zimmervermieter beträgt die Abgabe mindestens 10,00 € im Jahr; Teilbeträge für einzelne Saisonzeiten gibt es nicht.",
+      "quote": "bei Beherbergungsbetrieben und Zimmervermietern 8,00 EUR je Bett, jedoch mindestens 10,00 EUR. Saisonbedingte Teilbeträge sind nicht zulässig.",
+      "cents": 1000,
+      "kind": "floor"
+    },
+    "reporting": {
+      "text": "Bis zum 15. Juli jedes Jahres teilst du der Gemeinde Wiek mit, was sie für die Berechnung braucht.",
+      "quote": "Der Abgabepflichtige hat der Gemeinde Wiek bis zum 15. Juli j. J. die erforderlichen Zahlenangaben zur Berechnung der Abgabe (§ 5) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 2 Wochen nach Bekanntgabe des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe 2 Wochen nach Bekanntgabe des Veranlagungsbescheides fällig und an die Gemeinde Wiek in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Für Beherbergungsbetriebe und Zimmervermieter zählen die Fremdenbetten, die am 1. Juli des Jahres vorhanden sind und gegen Entgelt zur Beherbergung bereitgehalten werden.",
+        "quote": "bei Beherbergungsbetrieben und Zimmervermietern nach der Zahl der am 01. Juli j. J. vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Machst du keine Angaben, werden sie sachgerecht geschätzt.",
+        "quote": "Wenn der Abgabepflichtige die ihm nach dieser Satzung auferlegten Pflichten nicht erfüllt, werden die erforderlichen Angaben sachgerecht geschätzt."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wiek-ruegen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "06-01",
+            "09-30"
+          ]
+        ],
+        "adult": 125,
+        "children": [
+          0,
+          100
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "05-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          75
+        ]
+      }
+    ]
+  }
+}

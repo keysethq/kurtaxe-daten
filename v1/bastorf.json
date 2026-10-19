@@ -1,0 +1,169 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bastorf",
+  "name": "Gemeinde Bastorf",
+  "short": "Bastorf",
+  "ags": "13072008",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Bastorf (Kurabgabesatzung), Beschluss 19.09.2024, bekannt gemacht am 27.09.2024",
+      "url": "https://www.neubukow-salzhaff.de/downloads/datei/ZDlmMjViOGM0MzRiYzU3NHBhQ3gvbXlFdHMrZSthR3Z1YXFyTVJEVE1RTjZEU2VWVkVDMjNDSXlnelpIRUgvMmRGeUpNRnRJeUFBR2ZUbmlOckdnWnZJcnZ0OUMzRkF6SG1hOVJIZmZVY0NTWE5uQ3VCdjd2QitMZGFJa1lxNU9KNWNKMzkySVNZMkNkZUNDTURjVUUxUWlRcExvWTdXTDhEVFVBekdGNi9NZGVBaTJUTEZxRTc2MXY0UT0",
+      "kind": "statute",
+      "inForce": "2024-10-01",
+      "sha256": "ca90f9048746f27f9613a51f54753cc0d3b55d0c7150d24a9d21368c3b81462e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag werden zusammen als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "a. in der Hauptsaison 1,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres (16. Geburtstag - 1 Tag),"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 50,
+          "quote": "b. in der Nebensaison 0,50 EUR"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres (16. Geburtstag - 1 Tag),"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+        "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises; Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern, von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+      },
+      {
+        "text": "Wer sich vorübergehend beruflich in Bastorf aufhält (zum Beispiel auf Dienstreise), wenn der Aufenthalt ganz oder weit überwiegend beruflich ist",
+        "quote": "Personen, die in der Gemeinde Bastorf in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen oder einem vom Gewerbeamt genehmigten Gewerbe nachgehen, sowie Personen, die sich vorübergehend in der Gemeinde Bastorf in Ausübung ihres Berufes im Erhebungsgebiet aufhalten (zum Beispiel Dienstreisen), soweit der Aufenthalt ganz oder zumindest weit überwiegend aus berufliche Gründen erfolgt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+        "quote": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 22,50 € zahlen.",
+        "quote": "Die Jahreskurgabe beträgt 22,50 EUR für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+      },
+      {
+        "text": "Wer nach § 2 Abs. 4 Satz 1 oder Abs. 5 Satz 1 der Satzung kurabgabepflichtig ist, zahlt unabhängig von der Dauer des Aufenthalts die Jahreskurabgabe.",
+        "quote": "Kurabgabepflichtige, die dem Regelungsbereich des § 2 Abs. 4 Satz 1 und des § 2 Abs. 5 Satz 1 dieser Satzung unterfallen, haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Bis zum 5. eines Monats leitest du die Meldescheine des Vormonats an die Kurabgabestelle weiter und führst die Kurabgabe unbar ab.",
+      "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die von der Gemeinde Bastorf genannte Kurabgabestelle - eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die von der Gemeinde Bastorf genannte Kurabgabestelle elektronisch zu erfolgen und - die Kurabgabe unbar abzuführen;"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen der Kurabgabestelle oder über das elektronische Meldesystem; ab acht Betten ist das elektronische Meldesystem Pflicht.",
+      "quote": "entweder die von der genannten Kurabgabestelle der Gemeinde Bastorf freigegebenen besonderen Meldescheine für Beherbergungsstätten nach § 27 LMG M-V bereitzustellen und zu nutzen oder das autorisierte elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bastorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 50,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

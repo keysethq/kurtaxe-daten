@@ -1,0 +1,227 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "garmisch-partenkirchen",
+  "name": "Markt Garmisch-Partenkirchen",
+  "short": "Garmisch-Partenkirchen",
+  "ags": "09180117",
+  "state": "Bayern",
+  "district": "Garmisch-Partenkirchen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung - KBS) des Marktes Garmisch-Partenkirchen vom 17.02.2023, Lesefassung der Gemeinde",
+      "url": "https://markt.gapa.de/wp-content/uploads/2025/03/Kurbeitragssatzung_KBS-01.04.2023-Lesefassung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-04-01",
+      "sha256": "aa9b9ed9d4a2bbc213ac4f4f420503da0442c79f0b55162648c81eb4e6250a60",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags des Marktes Garmisch-Partenkirchen (Lesefassung 2022)",
+      "url": "https://markt.gapa.de/wp-content/uploads/2025/03/2022-Fremdenverkehrsbeitragsatzung_Lesefassung.pdf",
+      "kind": "municipality",
+      "inForce": "2022-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "bed30d8d06d7fd1f53bb5d2465d58c9ad285f2f4f5ef4c2c5be1962c938dcea9",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "1. Personen ab dem vollendeten 16. Lebensjahr 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "1. Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 16,
+            "cents": 100,
+            "quote": "2. Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,00 EUR"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "2. Schwerbehinderte mit einem Behinderungsgrad von 100 %"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit einem Grad der Behinderung ab 80, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "3. Begleitpersonen von Schwerbehinderten ab einem Grad der Behinderung von wenigstens 80%, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
+      },
+      {
+        "text": "Angehörige von Patienten unter 18, die in einer örtlichen Klinik behandelt werden, wenn es für das Wohlergehen des Patienten erforderlich ist",
+        "quote": "4. Angehörige von Patienten, sofern es für das Wohlergehen des Patienten erforderlich ist, wenn der Patient in einer lokalen Klinik behandelt wird und er das 18. Lebensjahr noch nicht vollendet hat."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 1,00 € je Aufenthaltstag.",
+        "quote": "3. Schwerbehinderte mit einem Behinderungsgrad von 1,00 EUR mindestens 80 %,"
+      },
+      {
+        "text": "Kurgebiet ist nur das Gemeindegebiet bis zu einer Höhe von 1.000 m über Normalnull.",
+        "quote": "Kurgebiet ist das Gemeindegebiet bis zu einer Höhe von 1.000 m ü.N.N.."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Eine Befreiung beantragt der Gast innerhalb der Meldefrist bei der Gemeinde und legt dabei den Ausweis vor.",
+        "quote": "Die Befreiung ist innerhalb der in § 5 genannten Frist nach der Ankunft bei der Gemeinde unter Vorlage des Ausweises zu beantragen."
+      },
+      {
+        "text": "Verwaltungshelfer der Gemeinde für die Erhebung ist die GaPa Tourismus GmbH.",
+        "quote": "Der Markt Garmisch-Partenkirchen bedient sich zur Ermittlung der Grundlagen und zur Erhebung des Kurbeitrags der GaPa Tourismus GmbH, Richard-Strauss-Platz 1a, 82467 Garmisch-Partenkirchen als Verwaltungshelfer."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den vollständigen Eingang.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes oder bei späterer Meldung zusammen mit ihr; die Gemeinde kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du innerhalb eines Tages nach der Anreise elektronisch über das Verfahren der Gemeinde; Betriebe mit weniger als 9 Betten dürfen auch schriftlich melden.",
+      "quote": "innerhalb eines Tages nach deren Anreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben. Soweit natürliche oder juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen, über weniger als 9 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, den offenen Handelsgesellschaften und den Kommanditgesellschaften, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge veranlagt werden und betragen für jede Übernachtung 0,40 EUR",
+        "perNight": {
+          "cents": 40
+        }
+      }
+    ],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt der Markt für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerlichen Gewinns (Abs. 1) oder des steuerbaren Umsatzes (Abs. 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Bis zum 30. April des Folgejahres gibst du eine Erklärung nach Formblatt ab; bei reinen Beherbergungsbetrieben für höchstens acht Gäste gleichzeitig nur, wenn der Markt dich dazu auffordert.",
+      "quote": "hat hierzu bis zum 30. April des auf das Veranlagungsjahr folgenden Kalenderjahres eine Erklärung nach Formblatt abzugeben. Bei reinen Beherbergungsbetrieben, deren Betrieb darauf eingerichtet ist, nicht mehr als acht Gäste gleichzeitig zu beherbergen, ist abweichend von Satz 2 eine Erklärung nach Formblatt nur nach Aufforderung abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Nach der Satzung kann die Vorauszahlung von 0,40 € je Übernachtung von dir als Vermieter zusammen mit dem Kurbeitrag veranlagt werden; sie gilt abweichend von der Vorauszahlung am 1. Juli.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge veranlagt werden und betragen für jede Übernachtung 0,40 EUR"
+      },
+      {
+        "text": "Am 1. Juli jedes Jahres ist eine Vorauszahlung zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat am 1.7. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Rechnet der Markt damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann er darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, daß die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn der Markt dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) der Markt Garmisch-Partenkirchen den Beitragsschuldner nach § 4 Abs.2 Satz 3 schriftlich zur Abgabe einer Erklärung auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Abs. 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlußfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      },
+      {
+        "text": "Eine Erklärung nach Formblatt bis zum 30. April muss jeder Beitragsschuldner abgeben; nur reine Beherbergungsbetriebe für höchstens acht Gäste gleichzeitig geben sie erst auf Aufforderung ab. Die Summenregel nennt als Ausnahme nur die Aufforderung zur Erklärung; ob die Summe der Vorauszahlungen für einen größeren Betrieb, der ohnehin erklären muss, endgültig ist, sagt die Satzung nicht ausdrücklich. Frag im Zweifel beim Markt nach.",
+        "quote": "Der Beitragsschuldner hat hierzu bis zum 30. April des auf das Veranlagungsjahr folgenden Kalenderjahres eine Erklärung nach Formblatt abzugeben. Bei reinen Beherbergungsbetrieben, deren Betrieb darauf eingerichtet ist, nicht mehr als acht Gäste gleichzeitig zu beherbergen, ist abweichend von Satz 2 eine Erklärung nach Formblatt nur nach Aufforderung abzugeben."
+      },
+      {
+        "text": "Der Markt bedient sich für die Ermittlung der Grundlagen und die Erhebung der Vorauszahlung je Übernachtung der GaPa Tourismus GmbH.",
+        "quote": "Der Markt Garmisch-Partenkirchen bedient sich zur Ermittlung der Grundlagen und zur Erhebung der Vorauszahlung für den Fremdenverkehrsbeitrag gemäß § 5 Abs. 3 dieser Satzung der GaPa Tourismus GmbH"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/garmisch-partenkirchen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "alkersum",
+  "name": "Gemeinde Alkersum",
+  "short": "Alkersum",
+  "ags": "01054005",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe (Kurabgabesatzung) in der Gemeinde Alkersum vom 20.09.2024, Ortsrecht der Gemeinde Alkersum (Amt Föhr-Amrum)",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/87d04a8a1ca2c75ad04587faa555bb16147581/01_KA_neu_2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "840adaf882d2e95e0e9fe848b1f163a78898c39b39b17ecbef8d4b45bd72d6d5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Bei der Berechnung der Kurabgabe für Übernachtungsgäste wird der Tag der Anreise als voller Tag, der Tag der Abreise nicht gewertet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Die Kurabgabe beträgt für jede abgabepflichtige Person in der Hauptkurzeit vom 1. März bis 31.Oktober täglich 3,50 €."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, wenn sie sich in Begleitung einer volljährigen Aufsichtsperson befinden, nicht aber im Rahmen einer Gruppenreise (Klassenfahrt 0.ä.), bei Nachweis des Lebensalters."
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "In der übrigen Zeit beträgt sie täglich 1,80 €."
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, wenn sie sich in Begleitung einer volljährigen Aufsichtsperson befinden, nicht aber im Rahmen einer Gruppenreise (Klassenfahrt 0.ä.), bei Nachweis des Lebensalters."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Menschen mit Behinderung, die nachweislich durch amtliche Unterlagen auf ständige Begleitung angewiesen sind. Die Begleitperson ist ebenfalls kurabgabefrei, wenn sie zusammen mit der in Satz 1 genannten Person in derselben Unterkunft beherbergt wird."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Schwiegereltern, Schwiegertöchter und -söhne, Ehegatten, Lebenspartner/innen, Schwägerinnen und Schwager von Personen, die in der Gemeinde ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und die gemeindlichen Kur- und Erholungseinrichtungen und -veranstaltungen nicht in Anspruch nehmen."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Personen, die in Ausübung ihres Dienstes, Berufes oder Gewerbes im Auftrag ortsansässiger Auftraggeber anwesend sind, soweit sie die gemeindlichen Kur- und Erholungseinrichtungen und -veranstaltungen nicht in Anspruch nehmen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "Für Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, die sie sich nicht in Begleitung einer volljährigen Aufsichtsperson befinden oder die an einer Gruppenreise teilnehmen, beträgt die Kurabgabe in Abweichung zu den vorgenannten Sätzen 0,50 € je Aufenthaltstag."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "Die Kurabgabe wird mit den anderen Gemeinden der Insel Föhr - Borgsum, Dunsum, Midlum, Nieblum, Oevenum, Oldsum, Süderende, Utersum, Witsum, Wrixum und der Stadt Wyk auf Föhr auf Grundlage eines öffentlich-rechtlichen Vertrages als eine gemeinsame Kurabgabe nach $ 10 Abs. 2 Satz 4 KAG erhoben."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den in Absatz 1 genannten Sätzen, bei mehreren Aufenthalten im Kalenderjahr höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 3, erhoben.",
+          "digitsUnread": true
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Die Jahreskurabgabe beträgt für jede abgabepflichtige Person im Kalenderjahr 105,00 € Zur Berechnung der Jahreskurabgabe werden 30 Tagessätze der Hauptsaison als Grundlage genommen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Zur Erfüllung der Melde-, Einziehungs- und Abführungspflichten können die Unterkunftsgebenden wählen, ob sie das elektronische Meldescheinverfahren (8 9) oder das Papiermeldescheinverfahren (8 10) nutzen möchten. Die Entscheidung hat die unterkunftsgebende Person der in 8 13 genannten Stelle schriftlich vor der Aufnahme der Personenbeherbergung mitzuteilen."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 7,
+          "reading": "Die unterkunftsgebende Person ist verpflichtet, für die von ihr ausgehändigten Vordrucke die Kurabgabe zu errechnen, diese vom Gast einzuziehen und innerhalb von zwei Kalenderwochen ab Ankunftstag des Gastes an die in & 13 genannte Stelle kostenfrei abzuführen."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 5,
+          "reading": "Jede unterkunftsgebende Person ist verpflichtet, die Kurabgabensatzung für die Gäste sichtbar auszulegen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Alle Unterkunftsgebenden sind verpflichtet, jeder von ihnen aufgenommenen Person eine Kurkarte auszustellen, die von der aufgenommenen Person zu zahlende Kurabgabe einzuziehen und die Abgabe an die in $ 13 genannte Stelle kostenlos abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 7,
+          "reading": "Die Abbuchung der jeweiligen Kurabgaben wird frühestens zwei Wochen nach dem Abreisetag der betroffenen Gäste durch das System vorgenommen."
+        },
+        {
+          "where": "reporting",
+          "page": 6,
+          "reading": "Spätestens am Tag nach der Ankunft der beherbergten Person (Fälligkeit der Kurabgabe) ist der entsprechende, vorher im System erfasste Meldeschein mit dem eigenen Drucker auf einer der überlassenen Druckvorlagen auszudrucken."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "tourismusabgabe": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe (Tourismusabgabesatzung) in der Gemeinde Alkersum",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/87d04a8a1ca2c75ad04587faa555bb16147581/01_TA_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a18c06100af75eca0fb7f1748e5f42bf85051b1d5b2692b56843f71eaae7f2de",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabenpflichtig sind die natürlichen und juristischen Personen sowie die Personenvereinigungen, denen durch den Tourismus im Gemeindegebiet wirtschaftliche Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Abgabensatz wird dadurch ermittelt, dass der zu deckende Aufwand im Sinne des $ 1 dieser Satzung durch die Summe aller Maßstabseinheiten dividiert wird. Der Abgabensatz beträgt 4,0 %."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz bis 30 TE"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 5,
+          "reading": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz über 30 T€"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 5,
+          "reading": "Vermietung von Gästezimmern Vermietung von Gästezimmern mit Frühstück"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 5,
+          "reading": "Vermietung von Gästezimmern mit Frühstück Hotels garni/Pensionen garni"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25% 21%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 5,
+          "reading": "Hotels garni/Pensionen garni Hotels/Pensionen mit Vollverpflegung"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25% 21% 11%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 5,
+          "reading": "Hotels/Pensionen mit Vollverpflegung"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100% 100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25% 21% 11% 6%"
+        },
+        {
+          "where": "businessLevy.letting[6]",
+          "page": 5,
+          "reading": "Zeltplätze, Campingplätze"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100% 100% 100% 100% 100% 100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25% 21% 11% 6% 2% 2% 1% 16%"
+        },
+        {
+          "where": "businessLevy.letting[7]",
+          "page": 5,
+          "reading": "sonstige Betriebe der Gästebeherbergung"
+        },
+        {
+          "where": "businessLevy.letting[7].turnover.advantage",
+          "page": 5,
+          "reading": "100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%"
+        },
+        {
+          "where": "businessLevy.letting[7].turnover.profit",
+          "page": 5,
+          "reading": "18% 15% 25% 21% 11% 6% 2% 2% 1% 16% 12%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "Unter Umsatz im Sinne dieser Satzung ist die jährliche Summe der vereinnahmten Entgelte (8 10 Abs. 1 Satz 1 und 2 Umsatzsteuergesetz) für die der jeweiligen Betriebsart It. Anlage zu dieser Satzung zuzuordnenden Leistungen, abzüglich gegebenenfalls enthaltener Umsatzsteuer, zu verstehen."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 2,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "2. bis zum 31. März eines jeden Jahres die zur Berechnung erforderlichen Angaben durch Vorlage geeigneter Nachweise (z.B. Umsatzsteuervoranmeldungen, Umsatzsteuererklärung, Umsatzsteuerbescheid, Erklärungen des Steuerberaters oder Erklärungsformblatt der Gemeinde) mitzuteilen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Tourismusabgabe ebenso wie die Vorausleistung ist jeweils innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig, soweit nicht im Bescheid ausdrücklich ein späterer Fälligkeitstermin bestimmt ist."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Maßgeblich ist der im Erhebungsjahr (8 1 Abs. 3) vereinnahmte Umsatz."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "1. Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Gemeinde kann während des Erhebungsjahres auf den zu erwartenden Abgabenanspruch eine Vorausleistung erheben."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Als Beendigung einer abgabenpflichtigen Tätigkeit ist nicht anzusehen, wenn .diese nur saisonal ausgeübt wird."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "multipliziert mit dem Vorteilssatz (= tourismusbedingten Anteil, Absatz 3) in % sowie mit dem Gewinnsatz (Absatz 4) in %."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei der Berechnung der Kurabgabe für Übernachtungsgäste wird der Tag der Anreise als voller Tag, der Tag der Abreise nicht gewertet."
+    },
+    "periods": [
+      {
+        "label": "Hauptkurzeit",
+        "ranges": [
+          {
+            "from": "03-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Die Kurabgabe beträgt für jede abgabepflichtige Person in der Hauptkurzeit vom 1. März bis 31.Oktober täglich 3,50 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, wenn sie sich in Begleitung einer volljährigen Aufsichtsperson befinden, nicht aber im Rahmen einer Gruppenreise (Klassenfahrt o.ä.), bei Nachweis des Lebensalters."
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "02-29"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "In der übrigen Zeit beträgt sie täglich 1,80 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, wenn sie sich in Begleitung einer volljährigen Aufsichtsperson befinden, nicht aber im Rahmen einer Gruppenreise (Klassenfahrt o.ä.), bei Nachweis des Lebensalters."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit Behinderung, die nachweislich auf ständige Begleitung angewiesen sind, und ihre Begleitperson in derselben Unterkunft",
+        "quote": "Menschen mit Behinderung, die nachweislich durch amtliche Unterlagen auf ständige Begleitung angewiesen sind. Die Begleitperson ist ebenfalls kurabgabefrei, wenn sie zusammen mit der in Satz 1 genannten Person in derselben Unterkunft beherbergt wird."
+      },
+      {
+        "text": "Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
+        "quote": "Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Schwiegereltern, Schwiegertöchter und -söhne, Ehegatten, Lebenspartner/innen, Schwägerinnen und Schwager von Personen, die in der Gemeinde ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und die gemeindlichen Kur- und Erholungseinrichtungen und -veranstaltungen nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Wer im Auftrag ortsansässiger Auftraggeber beruflich auf der Insel ist und die Kureinrichtungen nicht nutzt",
+        "quote": "Personen, die in Ausübung ihres Dienstes, Berufes oder Gewerbes im Auftrag ortsansässiger Auftraggeber anwesend sind, soweit sie die gemeindlichen Kur- und Erholungseinrichtungen und -veranstaltungen nicht in Anspruch nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kinder und Jugendliche unter 18 Jahren ohne volljährige Begleitung oder auf einer Gruppenreise zahlen 0,50 € je Aufenthaltstag.",
+        "quote": "Für Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres, die sie sich nicht in Begleitung einer volljährigen Aufsichtsperson befinden oder die an einer Gruppenreise teilnehmen, beträgt die Kurabgabe in Abweichung zu den vorgenannten Sätzen 0,50 € je Aufenthaltstag."
+      },
+      {
+        "text": "Die Kurabgabe gilt gemeinsam für ganz Föhr; Alkersum erhebt sie zusammen mit den übrigen Inselgemeinden und der Stadt Wyk.",
+        "quote": "Die Kurabgabe wird mit den anderen Gemeinden der Insel Föhr – Borgsum, Dunsum, Midlum, Nieblum, Oevenum, Oldsum, Süderende, Utersum, Witsum, Wrixum und der Stadt Wyk auf Föhr auf Grundlage eines öffentlich-rechtlichen Vertrages als eine gemeinsame Kurabgabe nach § 10 Abs. 2 Satz 4 KAG erhoben."
+      },
+      {
+        "text": "Über mehrere Aufenthalte im Kalenderjahr zahlt ein Gast höchstens die Jahreskurabgabe.",
+        "quote": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den in Absatz 1 genannten Sätzen, bei mehreren Aufenthalten im Kalenderjahr höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 3, erhoben."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 105,00 € je Person, berechnet aus 30 Tagessätzen der Hauptsaison.",
+        "quote": "Die Jahreskurabgabe beträgt für jede abgabepflichtige Person im Kalenderjahr 105,00 € Zur Berechnung der Jahreskurabgabe werden 30 Tagessätze der Hauptsaison als Grundlage genommen."
+      },
+      {
+        "text": "Ob du elektronisch oder mit Papiermeldescheinen meldest, teilst du der Föhr Tourismus GmbH vor der ersten Vermietung schriftlich mit.",
+        "quote": "Zur Erfüllung der Melde-, Einziehungs- und Abführungspflichten können die Unterkunftsgebenden wählen, ob sie das elektronische Meldescheinverfahren (§ 9) oder das Papiermeldescheinverfahren (§ 10) nutzen möchten. Die Entscheidung hat die unterkunftsgebende Person der in § 13 genannten Stelle schriftlich vor der Aufnahme der Personenbeherbergung mitzuteilen."
+      },
+      {
+        "text": "Mit Papiermeldescheinen führst du die Kurabgabe binnen zwei Kalenderwochen ab Ankunft des Gastes ab.",
+        "quote": "Die unterkunftsgebende Person ist verpflichtet, für die von ihr ausgehändigten Vordrucke die Kurabgabe zu errechnen, diese vom Gast einzuziehen und innerhalb von zwei Kalenderwochen ab Ankunftstag des Gastes an die in § 13 genannte Stelle kostenfrei abzuführen."
+      },
+      {
+        "text": "Vermieter müssen die Kurabgabensatzung für ihre Gäste sichtbar auslegen.",
+        "quote": "Jede unterkunftsgebende Person ist verpflichtet, die Kurabgabensatzung für die Gäste sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt jedem Gast eine Kurkarte aus, zieht die Kurabgabe ein und führt sie an die Föhr Tourismus GmbH ab.",
+      "quote": "Alle Unterkunftsgebenden sind verpflichtet, jeder von ihnen aufgenommenen Person eine Kurkarte auszustellen, die von der aufgenommenen Person zu zahlende Kurabgabe einzuziehen und die Abgabe an die in § 13 genannte Stelle kostenlos abzuführen."
+    },
+    "deadline": {
+      "text": "Im elektronischen Verfahren wird die Kurabgabe frühestens zwei Wochen nach der Abreise der Gäste abgebucht.",
+      "quote": "Die Abbuchung der jeweiligen Kurabgaben wird frühestens zwei Wochen nach dem Abreisetag der betroffenen Gäste durch das System vorgenommen."
+    },
+    "reporting": {
+      "text": "Im elektronischen Meldescheinverfahren erfasst du die Gäste im System und druckst ihre Gästekarten spätestens am Tag nach der Ankunft aus.",
+      "quote": "Spätestens am Tag nach der Ankunft der beherbergten Person (Fälligkeit der Kurabgabe) ist der entsprechende, vorher im System erfasste Meldeschein mit dem eigenen Drucker auf einer der überlassenen Druckvorlagen auszudrucken."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "tourismusabgabe",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus im Gemeindegebiet wirtschaftliche Vorteile bietet.",
+      "quote": "Abgabenpflichtig sind die natürlichen und juristischen Personen sowie die Personenvereinigungen, denen durch den Tourismus im Gemeindegebiet wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz bis 30 T€",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz bis 30 TE",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100%"
+          },
+          "profit": {
+            "percent": 18,
+            "quote": "18% 15% 25%"
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz über 30 T€",
+        "quote": "Vermietung von Ferienwohnungen/-appartements/-häusern, Umsatz über 30 T€",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100%"
+          },
+          "profit": {
+            "percent": 15,
+            "quote": "18% 15% 25%"
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer",
+        "quote": "Vermietung von Gästezimmern Vermietung von Gästezimmern mit Frühstück",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100%"
+          },
+          "profit": {
+            "percent": 25,
+            "quote": "18% 15% 25%"
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer mit Frühstück",
+        "quote": "Vermietung von Gästezimmern mit Frühstück Hotels garni/Pensionen garni",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 21,
+            "quote": "18% 15% 25% 21%"
+          }
+        }
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "quote": "Hotels garni/Pensionen garni Hotels/Pensionen mit Vollverpflegung",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 11,
+            "quote": "18% 15% 25% 21% 11%"
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Vollverpflegung",
+        "quote": "Hotels/Pensionen mit Vollverpflegung",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100% 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 6,
+            "quote": "18% 15% 25% 21% 11% 6%"
+          }
+        }
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "quote": "Zeltplätze, Campingplätze",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100% 100% 100% 100% 100% 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 16,
+            "quote": "18% 15% 25% 21% 11% 6% 2% 2% 1% 16%"
+          }
+        }
+      },
+      {
+        "label": "Sonstige Betriebe der Gästebeherbergung",
+        "quote": "sonstige Betriebe der Gästebeherbergung",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%"
+          },
+          "profit": {
+            "percent": 12,
+            "quote": "18% 15% 25% 21% 11% 6% 2% 2% 1% 16% 12%"
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 4,
+      "quote": "Der Abgabensatz wird dadurch ermittelt, dass der zu deckende Aufwand im Sinne des $ 1 dieser Satzung durch die Summe aller Maßstabseinheiten dividiert wird. Der Abgabensatz beträgt 4,0 %."
+    },
+    "basis": {
+      "text": "Es zählt der Umsatz, den du im Erhebungsjahr einnimmst, ohne die darin enthaltene Umsatzsteuer.",
+      "quote": "Unter Umsatz im Sinne dieser Satzung ist die jährliche Summe der vereinnahmten Entgelte (8 10 Abs. 1 Satz 1 und 2 Umsatzsteuergesetz) für die der jeweiligen Betriebsart It. Anlage zu dieser Satzung zuzuordnenden Leistungen, abzüglich gegebenenfalls enthaltener Umsatzsteuer, zu verstehen."
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 31. März jeden Jahres teilst du der Gemeinde mit, was sie für die Berechnung braucht, mit Nachweisen wie Umsatzsteuererklärung oder Umsatzsteuerbescheid; das geht auch mit dem Formblatt der Gemeinde.",
+      "quote": "2. bis zum 31. März eines jeden Jahres die zur Berechnung erforderlichen Angaben durch Vorlage geeigneter Nachweise (z.B. Umsatzsteuervoranmeldungen, Umsatzsteuererklärung, Umsatzsteuerbescheid, Erklärungen des Steuerberaters oder Erklärungsformblatt der Gemeinde) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig, wenn der Bescheid keinen späteren Termin nennt.",
+      "quote": "Die Tourismusabgabe ebenso wie die Vorausleistung ist jeweils innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig, soweit nicht im Bescheid ausdrücklich ein späterer Fälligkeitstermin bestimmt ist."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich ist der Umsatz, den du im Erhebungsjahr einnimmst.",
+        "quote": "Maßgeblich ist der im Erhebungsjahr (8 1 Abs. 3) vereinnahmte Umsatz."
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du der Gemeinde innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Die Gemeinde kann schon während des Jahres eine Vorausleistung auf die zu erwartende Abgabe verlangen.",
+        "quote": "Die Gemeinde kann während des Erhebungsjahres auf den zu erwartenden Abgabenanspruch eine Vorausleistung erheben."
+      },
+      {
+        "text": "Eine Pause zwischen den Saisons beendet deine Abgabepflicht nicht.",
+        "quote": "Als Beendigung einer abgabenpflichtigen Tätigkeit ist nicht anzusehen, wenn .diese nur saisonal ausgeübt wird."
+      },
+      {
+        "text": "Die Prozentspalten der Anlage nennen den Vorteilssatz und den Gewinnsatz, beide in Prozent.",
+        "quote": "multipliziert mit dem Vorteilssatz (= tourismusbedingten Anteil, Absatz 3) in % sowie mit dem Gewinnsatz (Absatz 4) in %."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/alkersum/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptkurzeit",
+        "ranges": [
+          [
+            "03-01",
+            "10-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "02-29"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

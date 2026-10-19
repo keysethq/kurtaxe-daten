@@ -1,0 +1,651 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "westerdeichstrich",
+  "name": "Westerdeichstrich",
+  "short": "Westerdeichstrich",
+  "ags": "01051132",
+  "state": "Schleswig-Holstein",
+  "district": "Dithmarschen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurabgaben in der Gemeinde Westerdeichstrich (Kurabgabesatzung) vom 17. Dezember 2025",
+      "url": "https://www.amt-buesum-wesselburen.de/downloads/datei/NzIxYTNhNjYxYzZhMzQ1YTh5blhIc3ozSnNsZUZOR3p4VkRaTjVkbkp6S0FWcCt1czNpcnZlTjRBdE9ucFNOM1J2Z1lrdjNBTG03SmNmTEFzYjlZRGlUSkdJT3Jmbk9tQlE4NUtZRmpvOGM0K3gxYzd6ODZqRi9WaUp2TTZWWGlUWW9QY2RnMzYwOGlGL25GUDBWZFMyaGVKaFVUeUNtOTg0SGIvbDUvazdXb3JJdW15THpMSzNOSVVrWT0",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "cec12b328bc6c03d41d6f4e60c066626afa7a8d83df31b4a60ec765ee8503cfa",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt für jeden Tag, an dem sich der oder die Kurabgabepflichtige im Erhebungsgebiet aufhält, für jede kurabgabepflichtige Person"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "in.der Zeit vom 01. Januar bis 07. Januar, 01. April bis 31. Oktober 2,00 € und 25. Dezember bis 31. Dezember des Jahres, (Hauptsaison)"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 16. Lebensjahres bei Nachweis des Lebensalters"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "in.der Zeit vom 08. Januar bis 31. März und 01. November bis 24. 100 € Dezember des Jahres (Nebensaison)",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 16. Lebensjahres bei Nachweis des Lebensalters"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen, die einen Grad der Behinderung von 100% nachweisen. Dies gilt auch für Begleitpersonen schwerbehinderter Personen, wenn die schwerbehinderten Personen nachweislich auf eine ständige Begleitung angewiesen sind."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Kinder, Kindeskinder, Eitern und Großeltern von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind und die Erholungseinrichtungen nicht in Anspruch nehmen"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "in Ausübung ihres Dienstes, Berufs oder Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesende Personen, soweit sie die Erholungseinrichtungen nicht in Anspruch nehmen"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Personen, die eine Kurkarte oder Gästekarte aus einer anderen Kurabgabe erhebenden Gemeinde Schleswig-Holsteins vorweisen, sind bei der Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Kurkarte oder Gästekarte an einem Tage von der Kurabgabe befreit"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "beitlägerige Kranke und Verletzte, die nicht in der Lage sind, die Erholungssinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit dem vorstehend genannten Satz, höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 4, erhoben.",
+          "digitsUnread": true
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Bei mehreren Aufenthalten im Kalenderjahr wird die Kurabgabe nur bis zur Höhe der Jahreskurabgabe nach Absatz 4 erhoben."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Die Jahreskurabgabe beträgt für jede kurabgabepflichtige Person im Kalenderjahr 56,00 € (28 volle Tagessätze der Hauptsaison)."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "zahlen unabhängig von der Aufenthaltsdauer die Kurabgabe in Höhe der Jahreskurabgabe,"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Die Kurabgabepflichtigen haben die Kurabgabe spätestens am Tage nach der Ankunft an den Wohnungsgeber oder an die Wohnungsgeberin gegen Aushändigung der Gästekarte für die gesamte Dauer des voraussichtlichen Aufenthalts im Erhebungsgebiet zu zahlen."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "Die \\Wohnungsgeber und Wohnungsgeberinnen haften für die vollständige und rechtzeitige Abführung der Kurabgabe."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 4,
+          "reading": "dass die für die Gemeinde bestimmte Durchschrift des Meldevordrucks innerhalb von 2 Werktagen nach der Ankunft des Gastes bei der Gemeinde oder einem von der Gemeinde bestimmten Abgabeort vollständig, leserlich, nicht gefaltet oder mechanisch bearbeitet abgegeben wird."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt für jeden Tag, an dem sich der oder die Kurabgabepflichtige im Erhebungsgebiet aufhält"
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Die Wohnungsgeber und Wohnungsgeberinnen haben die Kurabgabe von den kurabgabepflichtigen Personen, die sie beherbergen oder denen sie Wohnraum oder Stellplätze/Liegeplätze überlassen, einzuziehen und innerhalb von 14 Tagen nach Rechnungsstellung an die Gemeinde abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "innerhalb von 14 Tagen nach Rechnungsstellung an die Gemeinde abzuführen. Das Abführen der Kurabgabebefräge erfolgt ausschließlich unbar (per Überweisung oder im Lastschriftverfahren)."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Bei einer Datenerfassung über das internetbasierende Meidescheinsystem der Gemeinde wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich spätestens am Folgetag nach Ankunft des Gastes an die Gemeinde erfolgt."
+        }
+      ]
+    },
+    "ta": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Westerdeichstrich (Tourismusabgabesatzung) vom 17. Dezember 2025 mit Anlage",
+      "url": "https://www.amt-buesum-wesselburen.de/downloads/datei/ZDI3YjQzM2Y1NzJjODQ5ZS9oYlNhWCtzNVljdEpYeVdXRFRWZ3JOWExNUXE0aEM1YTdzYm1OWWU0Ti94anZYQnlKaGswMHpqTC8wVmdjYng3RkczRm9lTjdwc1VpeUpmY1huWlJJd2I0R0RDWmI0bnpNN1NhUDJEbC9vM2NDOGtEY3RtSGZVdThpaklRRElFckpKbXNSYkt1TkwyK1RTT3VRc1d4V3hWVDlqSjlkSG9CSGFTRHprK2Vvbz0",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "9771de3fc654d392a889c40a5a79eedc38dbd6fa0bba6b8b2cf0b6d85dce219a",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind alle natürlichen und juristischen Personen und Unternehmen sowie Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde unmittelbar oder mittelbar wirtschaftliche Vorteile geboten werden."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Abgabesatz beträgt 9,81 v.H..",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166 Dienstleistung Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166 Dienstleistung Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 13,
+          "reading": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166 Dienstleistung Ferienwohnungen"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 13,
+          "reading": "701075] Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1|Gastgewerbe init einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 13,
+          "reading": "701075] Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1|Gastgewerbe init einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 13,
+          "reading": "701075] Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1|Gastgewerbe init einem Umsatz bis 200.000 Euro 30% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 13,
+          "reading": "701075.2]Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 13,
+          "reading": "701075.2]Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 13,
+          "reading": "701075.2]Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 13,
+          "reading": "701076 |Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1|Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 13,
+          "reading": "701076 |Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1|Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 13,
+          "reading": "701076 |Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1|Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4]",
+          "page": 13,
+          "reading": "701076.2| Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4] figure 1",
+          "page": 13,
+          "reading": "701076.2| Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 13,
+          "reading": "701076.2| Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5]",
+          "page": 13,
+          "reading": "701024 | Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5] figure 1",
+          "page": 13,
+          "reading": "701024 | Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 13,
+          "reading": "701024 | Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6]",
+          "page": 13,
+          "reading": "701094 Dienstleistung |Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6] figure 1",
+          "page": 13,
+          "reading": "701094 Dienstleistung |Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 13,
+          "reading": "701094 Dienstleistung |Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "Maßgeblich für die Ermittlung des fremdenverkehrsbedingten Teils der jährlichen Einnahmen sind die im Geltungsbereich dieser Satzung erzielten betrieblichen Einnahmen des Erhebungszeitraumes."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 3,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Ein nach dem Ergebnis der Endabrechnung noch festzusetzender Abgabenanteil wird einen Monat nach Bekanntgabe des Festsetzungsbescheides in einer Summe fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 3,
+          "reading": "Die festgesetzten Vorausleistungen werden in Vierteljahresbeträgen jeweils am 15.02., 15.05., 15.08. und 15.11. eines Jahres fällig"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Vorteil errechnet sich aus dem fremdenverkehrsbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 1,
+          "reading": "Erhebungsgebiet für die Tourismusabgabe ist das gesamte Gemeindegebiet."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Die Abgabepflicht entsteht, sobald die abgabenpflichtige Tätigkeit aufgenommen wird."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "Die Abgabepflicht endet mit Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit endgültig eingestellt wird. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt und am Saisonende vorübergehend eingesteilt wird."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 3,
+          "reading": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Die Kurabgabe beträgt für jeden Tag, an dem sich der oder die Kurabgabepflichtige im Erhebungsgebiet aufhält, für jede kurabgabepflichtige Person"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-25",
+            "to": "01-07"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Zeit vom 01. Januar bis 07. Januar, 01. April bis 31. Oktober 2,00 € und 25. Dezember bis 31. Dezember des Jahres, (Hauptsaison)"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 16. Lebensjahres bei Nachweis des Lebensalters"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-08",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-24"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "in der Zeit vom 08. Januar bis 31. März und 01. November bis 24. 1,00 € Dezember des Jahres (Nebensaison)"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 16. Lebensjahres bei Nachweis des Lebensalters"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre ständige Begleitperson zahlen nichts.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 100% nachweisen. Dies gilt auch für Begleitpersonen schwerbehinderter Personen, wenn die schwerbehinderten Personen nachweislich auf eine ständige Begleitung angewiesen sind."
+      },
+      {
+        "text": "Kinder, Enkel, Eltern und Großeltern von Einwohnern, die unentgeltlich bei ihnen wohnen und die Erholungseinrichtungen nicht nutzen",
+        "quote": "Kinder, Kindeskinder, Eltern und Großeltern von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind und die Erholungseinrichtungen nicht in Anspruch nehmen"
+      },
+      {
+        "text": "Wer nur beruflich oder zur Ausbildung im Ort ist und die Erholungseinrichtungen nicht nutzt",
+        "quote": "in Ausübung ihres Dienstes, Berufs oder Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesende Personen, soweit sie die Erholungseinrichtungen nicht in Anspruch nehmen"
+      },
+      {
+        "text": "Wer eine Gästekarte aus einer anderen Kurabgabe-Gemeinde in Schleswig-Holstein vorzeigt, ist bei Gegenseitigkeit für einen Tag befreit.",
+        "quote": "Personen, die eine Kurkarte oder Gästekarte aus einer anderen Kurabgabe erhebenden Gemeinde Schleswig-Holsteins vorweisen, sind bei der Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Kurkarte oder Gästekarte an einem Tage von der Kurabgabe befreit"
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte, die die Erholungseinrichtungen nicht nutzen können, zahlen mit ärztlicher Bescheinigung nichts.",
+        "quote": "bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die Erholungseinrichtungen in Anspruch zu nehmen, bei Vorlage einer ärztlichen Bescheinigung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für einen ununterbrochenen Aufenthalt zahlt ein Gast höchstens die Jahreskurabgabe.",
+        "quote": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit dem vorstehend genannten Satz, höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 4, erhoben."
+      },
+      {
+        "text": "Über alle Aufenthalte eines Kalenderjahres zahlt ein Gast höchstens die Jahreskurabgabe.",
+        "quote": "Bei mehreren Aufenthalten im Kalenderjahr wird die Kurabgabe nur bis zur Höhe der Jahreskurabgabe nach Absatz 4 erhoben."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 56,00 €, das sind 28 volle Tagessätze der Hauptsaison.",
+        "quote": "Die Jahreskurabgabe beträgt für jede kurabgabepflichtige Person im Kalenderjahr 56,00 € (28 volle Tagessätze der Hauptsaison)."
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohnungseinheiten im Ort zahlen unabhängig von der Aufenthaltsdauer die Jahreskurabgabe.",
+        "quote": "zahlen unabhängig von der Aufenthaltsdauer die Kurabgabe in Höhe der Jahreskurabgabe,"
+      },
+      {
+        "text": "Der Gast zahlt die Kurabgabe für den ganzen Aufenthalt spätestens am Tag nach der Ankunft bei dir und erhält dafür die Gästekarte.",
+        "quote": "Die Kurabgabepflichtigen haben die Kurabgabe spätestens am Tage nach der Ankunft an den Wohnungsgeber oder an die Wohnungsgeberin gegen Aushändigung der Gästekarte für die gesamte Dauer des voraussichtlichen Aufenthalts im Erhebungsgebiet zu zahlen."
+      },
+      {
+        "text": "Die Wohnungsgeber haften für die vollständige und rechtzeitige Abführung der Kurabgabe.",
+        "quote": "Die Wohnungsgeber und Wohnungsgeberinnen haften für die vollständige und rechtzeitige Abführung der Kurabgabe."
+      },
+      {
+        "text": "Mit manuellen Meldescheinen gibst du die Durchschrift innerhalb von 2 Werktagen nach der Ankunft des Gastes bei der Gemeinde ab.",
+        "quote": "dass die für die Gemeinde bestimmte Durchschrift des Meldevordrucks innerhalb von 2 Werktagen nach der Ankunft des Gastes bei der Gemeinde oder einem von der Gemeinde bestimmten Abgabeort vollständig, leserlich, nicht gefaltet oder mechanisch bearbeitet abgegeben wird."
+      },
+      {
+        "text": "Die Satzung sagt nichts zum Abreisetag; gezählt wird jeder Tag, an dem sich der Gast im Ort aufhält.",
+        "quote": "Die Kurabgabe beträgt für jeden Tag, an dem sich der oder die Kurabgabepflichtige im Erhebungsgebiet aufhält"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe beim Gast ein und führt sie innerhalb von 14 Tagen nach Rechnungsstellung an die Gemeinde ab.",
+      "quote": "Die Wohnungsgeber und Wohnungsgeberinnen haben die Kurabgabe von den kurabgabepflichtigen Personen, die sie beherbergen oder denen sie Wohnraum oder Stellplätze/Liegeplätze überlassen, einzuziehen und innerhalb von 14 Tagen nach Rechnungsstellung an die Gemeinde abzuführen."
+    },
+    "deadline": {
+      "text": "Die eingezogene Kurabgabe führst du binnen 14 Tagen nach Rechnungsstellung an die Gemeinde ab, per Überweisung oder Lastschrift.",
+      "quote": "innerhalb von 14 Tagen nach Rechnungsstellung an die Gemeinde abzuführen. Das Abführen der Kurabgabebeträge erfolgt ausschließlich unbar (per Überweisung oder im Lastschriftverfahren)."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldescheinsystem der Gemeinde, spätestens am Folgetag nach der Ankunft des Gastes.",
+      "quote": "Bei einer Datenerfassung über das internetbasierende Meldescheinsystem der Gemeinde wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich spätestens am Folgetag nach Ankunft des Gastes an die Gemeinde erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Westerdeichstrich unmittelbar oder mittelbar wirtschaftliche Vorteile bietet.",
+      "quote": "Abgabepflichtig sind alle natürlichen und juristischen Personen und Unternehmen sowie Personenvereinigungen, denen durch den Tourismus im Gebiet der Gemeinde unmittelbar oder mittelbar wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere Ferienwohnungen (Vorteilsstufe 4)",
+        "quote": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166 Dienstleistung Ferienwohnungen",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Schlafgelegenheiten ohne hotelmäßige Leistungen, insbesondere von 38% 100% 701166 Dienstleistung Ferienwohnungen"
+          },
+          "profit": {
+            "percent": 38
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "quote": "701075 Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701075 Gastgewerbe Hotels garnis, Gasthöfe und Pensionen mit Frühstück 701075.1 Gastgewerbe mit einem Umsatz bis 200.000 Euro 30% 100%"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "quote": "701075.2 Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701075.2 Gastgewerbe mit einem Umsatz über 200.000 Euro 24% 100%"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz bis 500.000 € (Vorteilsstufe 4)",
+        "quote": "701076 Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701076 Gastgewerbe Hotels, Gasthöfe und Pensionen mit Halb- o. Vollpension 701076.1 Gastgewerbe mit einem Umsatz bis 500.000 Euro 25% 100%"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- oder Vollpension, Umsatz über 500.000 € (Vorteilsstufe 4)",
+        "quote": "701076.2 Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701076.2 Gastgewerbe mit einem Umsatz über 500.000 Euro 15% 100%"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Campingplätze und Wohnmobilübernachtungsplätze (Vorteilsstufe 4)",
+        "quote": "701024 Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701024 Gastgewerbe Campingplätze, sowie Wohnmobilübernachtungsplätze 20% 100%"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Kur- und Erholungsheime sowie Kliniken (Vorteilsstufe 4)",
+        "quote": "701094 Dienstleistung Kur- und Erholungsheime, sowie -kliniken 29% 100%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "701094 Dienstleistung Kur- und Erholungsheime, sowie -kliniken 29% 100%"
+          },
+          "profit": {
+            "percent": 29
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 9.61,
+      "quote": "Der Abgabesatz beträgt 9,61 v. H.."
+    },
+    "basis": {
+      "text": "Es zählen deine betrieblichen Einnahmen des Jahres, für das die Abgabe erhoben wird.",
+      "quote": "Maßgeblich für die Ermittlung des fremdenverkehrsbedingten Teils der jährlichen Einnahmen sind die im Geltungsbereich dieser Satzung erzielten betrieblichen Einnahmen des Erhebungszeitraumes."
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 30. Juni eines jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats nach Aufforderung durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Eine Restzahlung nach der Endabrechnung ist einen Monat nach Bekanntgabe des Bescheids in einer Summe fällig.",
+      "quote": "Ein nach dem Ergebnis der Endabrechnung noch festzusetzender Abgabenanteil wird einen Monat nach Bekanntgabe des Festsetzungsbescheides in einer Summe fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Gemeinde kann Vorauszahlungen festsetzen; sie sind in vier Raten fällig, am 15. Februar, 15. Mai, 15. August und 15. November.",
+        "quote": "Die festgesetzten Vorausleistungen werden in Vierteljahresbeträgen jeweils am 15.02., 15.05., 15.08. und 15.11. eines Jahres fällig."
+      },
+      {
+        "text": "Die Einnahmen werden ohne Umsatzsteuer gerechnet.",
+        "quote": "Der Vorteil errechnet sich aus dem fremdenverkehrsbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+      },
+      {
+        "text": "Westerdeichstrich erhebt die Abgabe im gesamten Gemeindegebiet.",
+        "quote": "Erhebungsgebiet für die Tourismusabgabe ist das gesamte Gemeindegebiet."
+      },
+      {
+        "text": "Die Abgabepflicht entsteht, sobald du die Tätigkeit aufnimmst.",
+        "quote": "Die Abgabepflicht entsteht, sobald die abgabenpflichtige Tätigkeit aufgenommen wird."
+      },
+      {
+        "text": "Die Abgabepflicht endet erst mit dem Ende des Kalenderjahres, in dem du die Tätigkeit endgültig einstellst; eine nur saisonale Vermietung zählt nicht als Ende.",
+        "quote": "Die Abgabepflicht endet mit Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit endgültig eingestellt wird. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt und am Saisonende vorübergehend eingestellt wird."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/westerdeichstrich/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-25",
+            "01-07"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-08",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-24"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

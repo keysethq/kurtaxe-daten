@@ -1,0 +1,161 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "rerik",
+  "name": "Ostseebad Rerik",
+  "short": "Rerik",
+  "ags": "13072085",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe für die Stadt Ostseebad Rerik (Kurabgabesatzung), Leseausfertigung, ausgefertigt am 30.05.2013",
+      "url": "https://www.neubukow-salzhaff.de/downloads/datei/NTQ2MTc0YWMzMTgzODI1OXBoWGtncm1vU3RiV0Z3K0QrcDRiVm9zb01HYjRtQ2JCTGZJc3d6VlAxVk9EeGloRnh2dmtzV2ZoS0YzMTh3Y2JPM2twNDNlUUtzUVhsYTJxRk9lbXhHZ3hoNDVYdWRvcFpWRThYZVlmNHJ5LzBGR1ovWVpWMk1aVVY3bEZVNTVHUnh3Unk4bWRuOGVxbTRLWDZ4ckdkTVNyQ1ovcENWNDRKSmZpZ2JVOG9BMD0",
+      "kind": "municipality",
+      "inForce": "2013-01-01",
+      "sha256": "569fe01bbaf216bf80962379dbe267aea3dbf5323dc414e3dfdd249fd16cf729",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-15",
+            "to": "09-15"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Hauptsaison für die Zeit vom 15.05 bis 15.09. 2,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "09-16",
+            "to": "05-14"
+          }
+        ],
+        "adult": {
+          "cents": 75,
+          "quote": "in der Nebensaison für die Zeit vom 16.09 bis 14.05. 0,75Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Personen bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Erwerbsminderung von 100 Prozent und ihre ausgewiesenen Begleitpersonen",
+        "quote": "Schwerbehinderte mit Erwerbsminderung von 100 % sowie deren ausgewiesene Begleitpersonen"
+      },
+      {
+        "text": "Bettlägerig Kranke und andere Personen, die die Einrichtungen nicht nutzen können",
+        "quote": "bettlägerig Kranke oder andere Personen, die nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Nachweis zahlst du weniger: Schwerbehinderte sowie Schüler, Auszubildende und Studenten unter 27 Jahren zahlen in der Hauptsaison 0,70 € und in der Nebensaison 0,25 € weniger.",
+        "quote": "Die Kurabgabe ermäßigt sich in der Hauptsaison um 0,70 Euro, in der Nebensaison um 0,25 Euro bei:"
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 56,00 € zahlen; Zweitwohnungsinhaber müssen sie zahlen.",
+        "quote": "eine Jahreskurabgabe in Höhe von 56,00 Euro zahlen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, stellt innerhalb eines Tages nach der Ankunft eine Kurkarte aus und zieht die Kurabgabe für den gesamten geplanten Aufenthalt ein.",
+      "quote": "innerhalb von einem Tag nach ihrer Ankunft eine Kurkarte auszustellen, die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. eines jeden Monats für den Vormonat.",
+      "quote": "bis zum 10. eines jeden Monats für den vorangegangenen Monat an die Stadt Ostseebad Rerik abzuführen"
+    },
+    "reporting": {
+      "text": "Du führst ein Gästeverzeichnis mit Name, Geburtsjahr, Anschrift, An- und Abreisetag und der Nummer der ausgestellten Kurkarte.",
+      "quote": "Es ist ein Gästeverzeichnis zu führen, in das alle Personen am Tage der Ankunft(mit Vor- und Zunamen, Geburtsjahr, Anschrift, An- und Abreisetag sowie der Nummer der ausgestellten Kurkarte) einzutragen sind."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/rerik/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-15",
+            "09-15"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "09-16",
+            "05-14"
+          ]
+        ],
+        "adult": 75,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

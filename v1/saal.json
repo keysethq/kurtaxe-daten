@@ -1,0 +1,248 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "saal",
+  "name": "Saal",
+  "short": "Saal",
+  "ags": "13073077",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Saal (Neufassung, Beschluss 04.03.2025)",
+      "url": "https://www.amt-barth.de/fileadmin/alle/pdf/satzungen/saal/andere/2025-03-04_Kurabgabesatzung_Saal.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "fe7041fdbc33c2230d0092c3916a8f14c913f827ed2d8acfd51b812f8edce8e9",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 4,
+          "reading": "Der An- und Abreistag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "area",
+          "page": 1,
+          "reading": "Die Kurabgabe wird im Gebiet der Gemeinde Saal in den Ortsteilen Saal, Hessenburg, Neuendorf und Neuendorf-Heide (Erholungsgebiet} erhoben."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 4,
+          "reading": "Die Kurabgabe beträgt pro kurabgabepflichtiger Person und Aufenthaltstag 2,00 EUR."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "ab dem 01.01.2026 Kinder bis zur Vollendung des 6. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 3,
+          "reading": "Personen ab einem Behinderungsgrad von 80 gegen Vorlage des Ausweises sowie deren erforderliche Begleitperson (Voraussetzung: Kennzeichen B auf der Vorderseite des Schwerbehindertenausweises)"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Kurabgabe wird mit den Gemeinden Fuhlendorf und Pruchten auf Grundlage eines öffentlich-rechtlichen Vertrages vom 07.04.2021 als eine gemeinsame Kurabgabe erhoben"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Der Abgabepflichtige kann anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurkarte erwerben. Die Jahreskurabgabe beträgt pro Person und Kalenderjahr 60,00 EUR."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Inhaber eigener Wohnungseinheiten und deren Familienangehörige sind verpflichtet, eine pauschalierte Jahreskurabgabe zu entrichten"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Tagesgäste, die sich im Erhebungsgebiet aufhalten, ohne dort zu übernachten, unterliegen ebenfalls der Abgabepflicht."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 6,
+          "reading": "Verwendung des elektronischen Kurkartenmeldesystems hat die Übermittlung elektronisch zu erfolgen und nach Aufforderung durch die Gemeinde die Kurabgabe unbar abzuführen"
+        },
+        {
+          "where": "remarks[6]",
+          "page": 6,
+          "reading": "Die Quartiergeber sind nicht berechtigt, ohne Zustimmung der Gemeinde Saal Befreiungen von der Kurabgabe im Sinne dieser Satzung zu gewähren."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 6,
+          "reading": "Der Quartiergeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die ausgefüllten Kurkarten auszuhändigen"
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Saal eine Ausführung der manuellen Kurkartenvordrucke weiterzuleiten"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "beherbergte Gäste bei der Gemeinde Saal zu melden; die von der Gemeinde Saal zur Verfügung gestellten manuellen Kurkartenvordrucke oder das elektronische Kurkartenmeldesystem",
+          "digitsUnread": true
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreistag werden als ein Aufenthaltstag berechnet."
+    },
+    "area": {
+      "text": "Die Kurabgabe gilt nur in den Ortsteilen Saal, Hessenburg, Neuendorf und Neuendorf-Heide (Erholungsgebiet).",
+      "quote": "Die Kurabgabe wird im Gebiet der Gemeinde Saal in den Ortsteilen Saal, Hessenburg, Neuendorf und Neuendorf-Heide (Erholungsgebiet) erhoben."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Die Kurabgabe beträgt pro kurabgabepflichtiger Person und Aufenthaltstag 2,00 EUR."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "ab dem 01.01.2026 Kinder bis zur Vollendung des 6. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 gegen Vorlage des Ausweises und ihre erforderliche Begleitperson, wenn im Schwerbehindertenausweis das Kennzeichen B steht",
+        "quote": "Personen ab einem Behinderungsgrad von 80 gegen Vorlage des Ausweises sowie deren erforderliche Begleitperson (Voraussetzung: Kennzeichen B auf der Vorderseite des Schwerbehindertenausweises)"
+      },
+      {
+        "text": "Wer in Saal arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird gemeinsam mit Fuhlendorf und Pruchten als eine gemeinsame Kurabgabe erhoben.",
+        "quote": "Die Kurabgabe wird mit den Gemeinden Fuhlendorf und Pruchten auf Grundlage eines öffentlich-rechtlichen Vertrages vom 07.04.2021 als eine gemeinsame Kurabgabe erhoben"
+      },
+      {
+        "text": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 60,00 € pro Person und Kalenderjahr.",
+        "quote": "Der Abgabepflichtige kann anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurkarte erwerben. Die Jahreskurabgabe beträgt pro Person und Kalenderjahr 60,00 EUR."
+      },
+      {
+        "text": "Wer in Saal eine eigene Wohnung oder ein eigenes Ferienhaus hat, zahlt eine pauschale Jahreskurabgabe.",
+        "quote": "Inhaber eigener Wohnungseinheiten und deren Familienangehörige sind verpflichtet, eine pauschalierte Jahreskurabgabe zu entrichten"
+      },
+      {
+        "text": "Auch Tagesgäste ohne Übernachtung zahlen die Kurabgabe, über eine Tageskurkarte.",
+        "quote": "Tagesgäste, die sich im Erhebungsgebiet aufhalten, ohne dort zu übernachten, unterliegen ebenfalls der Abgabepflicht."
+      },
+      {
+        "text": "Mit dem elektronischen Kurkartenmeldesystem erfolgt die Übermittlung elektronisch, und die Kurabgabe wird nach Aufforderung der Gemeinde unbar abgeführt.",
+        "quote": "Verwendung des elektronischen Kurkartenmeldesystems hat die Übermittlung elektronisch zu erfolgen und nach Aufforderung durch die Gemeinde die Kurabgabe unbar abzuführen"
+      },
+      {
+        "text": "Befreiungen darfst du als Vermieter nicht ohne Zustimmung der Gemeinde gewähren.",
+        "quote": "Die Quartiergeber sind nicht berechtigt, ohne Zustimmung der Gemeinde Saal Befreiungen von der Kurabgabe im Sinne dieser Satzung zu gewähren."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Quartiergeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die ausgefüllte Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die ausgefüllten Kurkarten auszuhändigen"
+    },
+    "deadline": {
+      "text": "Bis zum 5. Tag des Folgemonats leitest du die Kurkartenvordrucke für den Vormonat an die Gemeinde weiter.",
+      "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Saal eine Ausführung der manuellen Kurkartenvordrucke weiterzuleiten"
+    },
+    "reporting": {
+      "text": "Gäste werden bei der Gemeinde gemeldet, über Kurkartenvordrucke oder das elektronische Kurkartenmeldesystem.",
+      "quote": "beherbergte Gäste bei der Gemeinde Saal zu melden; 2. die von der Gemeinde Saal zur Verfügung gestellten manuellen Kurkartenvordrucke oder das elektronische Kurkartenmeldesystem"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/saal/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

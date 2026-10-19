@@ -1,0 +1,207 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "grainau",
+  "name": "Gemeinde Grainau",
+  "short": "Grainau",
+  "ags": "09180118",
+  "state": "Bayern",
+  "district": "Garmisch-Partenkirchen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages (Kurbeitragssatzung – KBS) der Gemeinde Grainau vom 18.04.2013, in der Fassung der Bekanntmachung vom 26.01.2023",
+      "url": "https://gemeinde-grainau.de/wp-content/uploads/2024/12/Kurbeitragssatzung-Stand-26.01.2023.pdf",
+      "kind": "municipality",
+      "inForce": "2013-06-01",
+      "sha256": "f042c80b9cb17577f00026dc30c3dc741d4926f8c0ad8a21986d67e758cc7c7d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Grainau vom 13.12.1979 in der Fassung der Bekanntmachung vom 14.12.2017",
+      "url": "https://gemeinde-grainau.de/wp-content/uploads/2024/12/Fremdenverkehrsbeitragssatzung-Stand-14-12-2017.pdf",
+      "kind": "municipality",
+      "inForce": "1979-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "3e1769fda1c5283aec35176f57736570d1a59602c475fba230a30b4925183c62",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Der An- und Abreisetag wird als ein Aufenthaltstag gewertet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "a. für Personen ab dem vollendeten 16. Lebensjahr 3,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a. Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "b. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis 1,50 € zum vollendeten 16. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von 100 %",
+        "quote": "b. Schwerbehinderte mit einem Behinderungsgrad von 100 %"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "c. Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung ab 80 % zahlen 1,50 € je Tag.",
+        "quote": "c. Schwerbehinderte mit einem Behinderungsgrad von mind. 80 % 1,50€"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "(3) Im Kurbeitrag ist die gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Die Kurkarte als Nachweis für den bezahlten Kurbeitrag stellst du jedem Gast spätestens am Anreisetag aus und gibst sie ihm.",
+        "quote": "Zudem ist den Beitragspflichtigen spätestens am Tag der Ankunft eine gültige Kurkarte als Nachweis für die Bezahlung des Kurbeitrags auszustellen und auszuhändigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde dafür.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde"
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Gemeinde kann zulassen, dass erst am Monatsende oder nach Aufforderung abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende oder nach Beitragsaufforderung abgeführt wird."
+    },
+    "reporting": {
+      "text": "Wenn der Gast seine Angaben nicht oder nur unvollständig macht, meldest du ihn am Anreisetag per Meldeschein oder elektronisch und gibst die Angaben spätestens am Folgetag bei der Gemeinde ab.",
+      "quote": "am Tag der Ankunft des Gastes schriftlich mittels eines bei der Gemeinde erhältlichen Meldescheins oder auf elektronischem Wege zu machen und diese spätestens am darauf folgenden Tag der Gemeinde zukommen zu lassen"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsgemäßen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,25 €",
+        "perNight": {
+          "cents": 25
+        }
+      }
+    ],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt 6 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Die Gemeinde kann die Vorauszahlung von 0,25 € je Übernachtung zusammen mit dem Kurbeitrag von dir als Vermieter verlangen; sie gilt abweichend von den Vorauszahlungen zum 15. Februar, 15. Mai, 15. August und 15. November.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsgemäßen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,25 €"
+      },
+      {
+        "text": "Zum 15. Februar, 15. Mai, 15. August und 15. November jedes Jahres sind Vorauszahlungen zu entrichten; die Vorauszahlung je Übernachtung gilt abweichend davon (siehe oben).",
+        "quote": "Der Beitragsschuldner hat zum 15. Februar, 15. Mai, 15. August und 15. November jeden Jahres Vorauszahlungen zu entrichten."
+      },
+      {
+        "text": "Rechnet die Gemeinde damit, dass die Vorauszahlungen je Übernachtung unter der sonst üblichen Vorauszahlung bleiben, kann sie darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreicht werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Abs. 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/grainau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "nordstrand",
+  "name": "Gemeinde Nordstrand",
+  "short": "Nordstrand",
+  "ags": "01054091",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung der Kurabgabe in der Gemeinde Nordstrand vom 23.11.2023",
+      "url": "https://www.nordstrand.de/fileadmin/nordstrand/Nordstrand_Eigenbetrieb_Dokumente/23_11_29_Kurabgabesatzung_final_sign__002_.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "65319d57c437bf32d6b0407a3f941669b01f71bf8b9ea827205a641acaa90de1",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Ankunfts- und Abreisetag gelten als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt für jeden Tag, an dem sich der Kurabgabepflichtige (ortsfremde Person) im Erhebungsgebiet aufhält: a) in der Hauptsaison (01.06.- 30.09.) 2,20 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Vor- und Nachsaison (01.10.- 31.05.) 1,00 €"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+        },
+        {
+          "where": "maxNights",
+          "page": 2,
+          "reading": "Die Kurabgabe wird höchstens für 28 Tage erhoben."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "in Ausübung ihres Dienstes oder Berufsanwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Kranke, die durch ein ärztliches Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können, für die Dauer der physischen Verhinderung"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 3,
+          "reading": "Schwerbehinderten, die eine Behinderung ab einem Grad von 50 und mehr nachweisen, wird die Kurabgabe auf 50 % ermäßigt; dasselbe gilt für eine erforderliche Begleitperson."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "c) Die Jahreskurabgabe beträgt 61,60 €"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird die nach Tagen berechnete und zu viel gezahlte Kurabgabe auf Antrag anteilig reduziert und erstattet. Die Rückzahlung erfolgt nur an die Kurkarteninhaberin bzw. den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite die Wohnungsgeberin bzw. der Wohnungsgeber die Abreise des Gastes bescheinigt hat."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 5,
+          "reading": "Die Pflichten der Wohnungsgeberinnen und Wohnungsgeber gelten auch für Personen, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Zelten und dergleichen aufhalten"
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Die Wohnungsgeberinnen und Wohnungsgeber haben die Kurabgabe zu berechnen, von den Gästen einzuziehen und binnen 28 Tagen kostenfrei an die Kurverwaltung abzuführen. Sie haften für die rechtzeitige ° und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "binnen 28 Tagen kostenfrei an die Kurverwaltung abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Jede Wohnungsgeberin bzw. jeder Wohnungsgeber, dessen Bevollmächtigte oder Beauftragte ist verpflichtet, die von ihm bzw. ihr aufgenommene, abgabepflichtige Person innerhalb von 24 Stunden bei der Kurverwaltung an- und ggf. abzumelden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag gelten als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "06-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "Die Kurabgabe beträgt für jeden Tag, an dem sich der Kurabgabepflichtige (ortsfremde Person) im Erhebungsgebiet aufhält: a) in der Hauptsaison (01.06.— 30.09.) 2,20 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "05-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "b) in der Vor- und Nachsaison (01.10.- 31.05.) 1,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tage",
+      "quote": "Die Kurabgabe wird höchstens für 28 Tage erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder, Eltern und Ehepartner von Einwohnern mit Hauptwohnung vor Ort, die unentgeltlich bei ihnen wohnen",
+        "quote": "Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind"
+      },
+      {
+        "text": "Wer beruflich oder dienstlich da ist und die Einrichtungen nicht nutzt",
+        "quote": "in Ausübung ihres Dienstes oder Berufsanwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört"
+      },
+      {
+        "text": "Kranke mit ärztlichem Zeugnis, die ihre Unterkunft nicht verlassen können",
+        "quote": "Kranke, die durch ein ärztliches Zeugnis nachweisen, dass sie ihre Unterkunft nicht verlassen können, für die Dauer der physischen Verhinderung"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 zahlen die Hälfte, ihre erforderliche Begleitperson ebenso",
+        "quote": "Schwerbehinderten, die eine Behinderung ab einem Grad von 50 und mehr nachweisen, wird die Kurabgabe auf 50 % ermäßigt; dasselbe gilt für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Wer in Nordstrand arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Jahreskurabgabe beträgt 61,60 €.",
+        "quote": "c) Die Jahreskurabgabe beträgt 61,60 €"
+      },
+      {
+        "text": "Kinder und Jugendliche von 6 bis 17 Jahren sind nur frei, wenn sie mit Erziehungsberechtigten im Ort sind.",
+        "quote": "Kinder und Jugendliche von der Vollendung des 6. Bis zur Vollendung des 18. Lebensjahres, die sich gemeinsam mit Erziehungsberechtigten oder einer oder einem Erziehungsberechtigten im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag anteilig erstattet, gegen Rückgabe der Kurkarte mit deiner Abreisebestätigung auf der Rückseite; der Anspruch erlischt einen Monat nach der Abreise.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird die nach Tagen berechnete und zu viel gezahlte Kurabgabe auf Antrag anteilig reduziert und erstattet. Die Rückzahlung erfolgt nur an die Kurkarteninhaberin bzw. den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite die Wohnungsgeberin bzw. der Wohnungsgeber die Abreise des Gastes bescheinigt hat."
+      },
+      {
+        "text": "Als Wohnungsgeber giltst du auch, wenn du dich in deiner eigenen Wohnung aufhältst und andere dort unterbringst.",
+        "quote": "Die Pflichten der Wohnungsgeberinnen und Wohnungsgeber gelten auch für Personen, die sich vorübergehend in eigenen Wohngelegenheiten wie Wohnhäusern, Appartements, Sommerhäusern, Wochenendhäusern, Wohnwagen, Zelten und dergleichen aufhalten"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe, zieht sie ein, führt sie an die Kurverwaltung ab und händigt die ausgefüllte Kurkarte aus; dafür haftest du.",
+      "quote": "Die Wohnungsgeberinnen und Wohnungsgeber haben die Kurabgabe zu berechnen, von den Gästen einzuziehen und binnen 28 Tagen kostenfrei an die Kurverwaltung abzuführen. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird binnen 28 Tagen.",
+      "quote": "binnen 28 Tagen kostenfrei an die Kurverwaltung abzuführen"
+    },
+    "reporting": {
+      "text": "Jeden aufgenommenen Gast meldest du innerhalb von 24 Stunden bei der Kurverwaltung an und gegebenenfalls ab.",
+      "quote": "Jede Wohnungsgeberin bzw. jeder Wohnungsgeber, dessen Bevollmächtigte oder Beauftragte ist verpflichtet, die von ihm bzw. ihr aufgenommene, abgabepflichtige Person innerhalb von 24 Stunden bei der Kurverwaltung an- und ggf. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/nordstrand/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "06-01",
+            "09-30"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0,
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "10-01",
+            "05-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

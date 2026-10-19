@@ -1,0 +1,398 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kurort-rathen",
+  "name": "Gemeinde Kurort Rathen",
+  "short": "Kurort Rathen",
+  "ags": "14628310",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxsatzung) der Gemeinde Kurort Rathen vom 23.10.2023, voller Wortlaut unter Einbeziehung der 1. Änderungssatzung vom 16.03.2026 (Fassung der Gemeinde)",
+      "url": "https://www.kurort-rathen.de/files/pdf/satzungen/2026/Voller%20Wortlaut%20der%20Kurtaxsatzung%20unter%20Einbeziehung%20der%201.%20%C3%84nderungssatzung%20vom%2023.03.2026.pdf",
+      "kind": "municipality",
+      "sha256": "44558b9c88a891d8b9a6bfffce87b251bb48218878b65a9e0c5e571eff11500b",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Sie beträgt ganzjährig pro Person und Aufenthaltstag 2,50 EUR."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 4,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahr"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 3,
+          "reading": "Die Kurtaxe wird um 50 v. H. ermäßigt für: 1. Schwerbehinderte, mit einem Grad der Behinderung ab 50 GdB. 2. Kinder und Jugendliche ab der Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres."
+        },
+        {
+          "where": "periods[0].children[1] percent",
+          "page": 3,
+          "reading": "Die Kurtaxe wird um 50 v. H. ermäßigt für: 1. Schwerbehinderte, mit einem Grad der Behinderung ab 50 GdB. 2. Kinder und Jugendliche ab der Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 4,
+          "reading": "Besucher von Einwohnern der Gemeinde Kurort Rathen, sofern die in deren privaten Haushalt unentgeltlich aufgenommen werden."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 4,
+          "reading": "Schwerbehinderte mit dem vorgedruckten Merkzeichen BL und aG im Schwerbehindertenausweis."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 4,
+          "reading": "Begleitpersonen von Schwerbehinderten, wenn im Ausweis des begleitenden Schwerbehinderten das Merkzeichen B und der Satz \"Die Notwendigkeit ständiger Begleitung ist nachgewiesen\" vorgedruckt eingetragen sind."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 4,
+          "reading": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Kurtaxpflichtig sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Kurort Rathen Unterkunft nehmen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Die Kurtaxe wird um 50 v. H. ermäßigt für: 1. Schwerbehinderte, mit einem Grad der Behinderung ab 50 GdB."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "zahlen unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes eine pauschale Jahreskurtaxe in Höhe von 200,00 € pro Objekt (für bis zu 3 Personen )."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 7,
+          "reading": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Gemeinde Kurort Rathen Befreiungen und Ermäßigungen von der Kurtaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 7,
+          "reading": "haftet gegenüber der Gemeinde Kurort Rathen für die vollständige und richtige Einzug und Abführung der Kurtaxe nach Maßgabe der vorliegenden Satzung."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 7,
+          "reading": "Bei Nutzung des elektronischen Meldesystems erfolgt der Nachweis der fälligen Kurtaxe per elektronischer Datenübermittlung an die Gemeinde Kurort Rathen. Die Abrechnung derselben erfolgt per Rechnungslegung durch die Gemeinde Kurort Rathen."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 7,
+          "reading": "Dem Gast eine ausgefüllte Gästekarte für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft auszuhändigen oder elektronisch zu übermitteln."
+        },
+        {
+          "where": "hostDuty",
+          "page": 7,
+          "reading": "Die Kurtaxe von den kurtaxpflichtigen Personen gemäß 88 2 und 3 rechtzeitig und vollständig einzuziehen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "Sie wird am Anreisetag fällig und ist bei dem zum Einzug verpflichtenden Eigentümer/ Beherberger zu entrichten."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Beginnend ab dem 01.01.2024 ist zur Erfüllung der Meldepflicht dann durch alle Meldepflichtigen in Kurort Rathen, dass durch die Gemeinde Kurort Rathen unentgeltlich zur Verfügung gestellte, elektronische Meldesystem (AVS) verpflichtend zu nutzen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe der Gemeinde Kurort Rathen vom 30.10.2018",
+      "url": "https://www.kurort-rathen.de/files/pdf/satzungen/Satzung%20ueber%20die%20Erhebung%20einer%20Tourismusabgabe%20der%20Gemeinde%20Kurort%20Rathen.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "de96cdedd8fb71e724cee951558bd84c3537175c27f580314555b9bdb0f29ab7",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Inhaber von Beherbergungsbetrieben (Hotels, Gasthöfen und Pensionen, Kurheimen), Vermieter von Ferienwohnungen, sonstige Personen und Unternehmen, die Kurgäste und Erholungssuchende gegen Entgelt beherbergen,"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 5,
+          "reading": "bis zum 31. Juli jeden Jahres unaufgefordert die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i. S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Gemeinde Kurort Rathen anzuzeigen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 5,
+          "reading": "Die Abgabe wird einen Monat nach Bekanntgabe des Abgabenbescheides fällig."
+        },
+        {
+          "where": "businessLevy.exemptions[0]",
+          "page": 2,
+          "reading": "Von der Abgabe befreit sind Körperschaften des öffentlichen Rechtes sowie Stiftungen, Anstalten, Körperschaften, Einrichtungen und Unternehmen, die entsprechend ihrer Satzung oder ihrer tatsächlichen Geschäftsführung ausschließlich und unmittelbar gemeinnützigen, mildtätigen und kirchlichen Zwecken dienen und als solche anerkannt sind"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "nach der Anzahl der Übernachtungen"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 4,
+          "reading": "Die Abgabe wird jährlich erhoben. Der Erhebungszeitraum ist das Kalenderjahr."
+        }
+      ]
+    },
+    "fvbAenderung": {
+      "title": "1. Änderungssatzung zur Satzung über die Erhebung einer Tourismusabgabe der Gemeinde Kurort Rathen (Beschluss vom 29.01.2024)",
+      "url": "https://www.kurort-rathen.de/files/pdf/satzungen/1.%20%C3%84nderungssatzung%20zur%20Satzung%20%C3%BCber%20die%20Erhebung%20einer%20Tourismusabgabe%20der%20Gemeinde%20Kurort%20Rathen_Tourismusabgabesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2024-04-01",
+      "changedOn": "2026-10-15",
+      "sha256": "759da73288d9e18cb88c405b179622e9b66252e0db09af834dfa98b9dea9c87b",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 1,
+          "reading": "von Personen ab Vollendung des 6 Jahres je Übernachtung 0,35 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 1,
+          "reading": "von Personen ab Vollendung des 6 Jahres je Übernachtung 0,35 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 2,
+          "reading": "Inhaber von Wohnwagen-, Caravan-, je Stellplatz 10,00 € Camping- und Zeltplätzen"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 2,
+          "reading": "Inhaber von Wohnwagen-, Caravan-, je Stellplatz 10,00 € Camping- und Zeltplätzen"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "Sie beträgt ganzjährig pro Person und Aufenthaltstag 2,50 EUR."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Die Kurtaxe wird um 50 v. H. ermäßigt für: 1. Schwerbehinderte, mit einem Grad der Behinderung ab 50 GdB. 2. Kinder und Jugendliche ab der Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres.",
+            "cents": 125
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im privaten Haushalt aufgenommen werden, zahlen nichts.",
+        "quote": "Besucher von Einwohnern der Gemeinde Kurort Rathen, sofern die in deren privaten Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Schwerbehinderte mit den Merkzeichen BL und aG zahlen nichts.",
+        "quote": "Schwerbehinderte mit dem vorgedruckten Merkzeichen BL und aG im Schwerbehindertenausweis."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn der Ausweis das Merkzeichen B und die nachgewiesene Notwendigkeit ständiger Begleitung enthält.",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn im Ausweis des begleitenden Schwerbehinderten das Merkzeichen B und der Satz „Die Notwendigkeit ständiger Begleitung ist nachgewiesen“ vorgedruckt eingetragen sind."
+      },
+      {
+        "text": "Kleingärtner in Anlagen nach dem Bundeskleingartengesetz zahlen nichts, wenn sie den Status behördlich nachweisen.",
+        "quote": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch wer aus beruflichen Gründen im Ort übernachtet, zahlt die Kurtaxe.",
+        "quote": "Kurtaxpflichtig sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Kurort Rathen Unterkunft nehmen."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 zahlen die Hälfte.",
+        "quote": "Die Kurtaxe wird um 50 v. H. ermäßigt für: 1. Schwerbehinderte, mit einem Grad der Behinderung ab 50 GdB."
+      },
+      {
+        "text": "Treffen mehrere Ermäßigungsgründe zusammen, gilt nur eine Ermäßigung.",
+        "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+      },
+      {
+        "text": "Eigentümer von Hütten, Wochenendhäusern oder Bungalows zahlen eine Jahreskurtaxe von 200,00 € je Objekt für bis zu drei Personen; bei Vermietung an Dritte kommt die Kurtaxe je Gast hinzu.",
+        "quote": "zahlen unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes eine pauschale Jahreskurtaxe in Höhe von 200,00 € pro Objekt (für bis zu 3 Personen )."
+      },
+      {
+        "text": "Du darfst ohne Zustimmung der Gemeinde keine Befreiungen oder Ermäßigungen gewähren, die die Satzung nicht vorsieht.",
+        "quote": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Gemeinde Kurort Rathen Befreiungen und Ermäßigungen von der Kurtaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+      },
+      {
+        "text": "Du haftest gegenüber der Gemeinde für das vollständige und richtige Einziehen und Abführen der Kurtaxe.",
+        "quote": "haftet gegenüber der Gemeinde Kurort Rathen für die vollständige und richtige Einzug und Abführung der Kurtaxe nach Maßgabe der vorliegenden Satzung."
+      },
+      {
+        "text": "Abgerechnet wird per Rechnung der Gemeinde, auf Grundlage deiner elektronischen Meldung.",
+        "quote": "Bei Nutzung des elektronischen Meldesystems erfolgt der Nachweis der fälligen Kurtaxe per elektronischer Datenübermittlung an die Gemeinde Kurort Rathen. Die Abrechnung derselben erfolgt per Rechnungslegung durch die Gemeinde Kurort Rathen."
+      },
+      {
+        "text": "Du händigst jedem Gast am Anreisetag eine ausgefüllte Gästekarte für den ganzen Aufenthalt aus oder übermittelst sie elektronisch.",
+        "quote": "Dem Gast eine ausgefüllte Gästekarte für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft auszuhändigen oder elektronisch zu übermitteln."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe rechtzeitig und vollständig von ihnen ein.",
+      "quote": "Die Kurtaxe von den kurtaxpflichtigen Personen gemäß §§ 2 und 3 rechtzeitig und vollständig einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Kurtaxe wird am Anreisetag fällig und beim Beherberger entrichtet.",
+      "quote": "Sie wird am Anreisetag fällig und ist bei dem zum Einzug verpflichtenden Eigentümer/ Beherberger zu entrichten."
+    },
+    "reporting": {
+      "text": "Gemeldet wird ausschließlich über das elektronische Meldesystem (AVS) der Gemeinde, das du kostenlos nutzt.",
+      "quote": "Beginnend ab dem 01.01.2024 ist zur Erfüllung der Meldepflicht dann durch alle Meldepflichtigen in Kurort Rathen, dass durch die Gemeinde Kurort Rathen unentgeltlich zur Verfügung gestellte, elektronische Meldesystem (AVS) verpflichtend zu nutzen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du Gäste gegen Entgelt beherbergst, etwa als Hotel, Gasthof, Pension oder Vermieter einer Ferienwohnung.",
+      "quote": "Inhaber von Beherbergungsbetrieben (Hotels, Gasthöfen und Pensionen, Kurheimen), Vermieter von Ferienwohnungen, sonstige Personen und Unternehmen, die Kurgäste und Erholungssuchende gegen Entgelt beherbergen,"
+    },
+    "letting": [
+      {
+        "label": "Übernachtungen von Gästen ab Vollendung des 6. Lebensjahres",
+        "quote": "von Personen ab Vollendung des 6 Jahres je Übernachtung 0,35 €",
+        "perNight": {
+          "cents": 35
+        },
+        "source": "fvbAenderung",
+        "perGuest": true
+      },
+      {
+        "label": "Wohnwagen-, Caravan-, Camping- und Zeltplätze",
+        "quote": "Inhaber von Wohnwagen-, Caravan-, je Stellplatz 10,00 € Camping- und Zeltplätzen",
+        "flat": {
+          "cents": 1000,
+          "per": "Stellplatz"
+        },
+        "source": "fvbAenderung"
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 31. Juli jedes Jahres teilst du der Gemeinde ungefragt die Angaben zur Berechnung der Abgabe mit; den Start einer abgabepflichtigen Tätigkeit zeigst du spätestens vier Wochen nach Beginn an.",
+      "quote": "bis zum 31. Juli jeden Jahres unaufgefordert die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i. S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Gemeinde Kurort Rathen anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe kommt per Bescheid und ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Abgabe wird einen Monat nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Körperschaften des öffentlichen Rechts sowie als gemeinnützig, mildtätig oder kirchlich anerkannte Stiftungen, Einrichtungen und Unternehmen zahlen die Abgabe nicht.",
+        "quote": "Von der Abgabe befreit sind Körperschaften des öffentlichen Rechtes sowie Stiftungen, Anstalten, Körperschaften, Einrichtungen und Unternehmen, die entsprechend ihrer Satzung oder ihrer tatsächlichen Geschäftsführung ausschließlich und unmittelbar gemeinnützigen, mildtätigen und kirchlichen Zwecken dienen und als solche anerkannt sind"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Abgabe bemisst sich bei Beherbergung nach der Anzahl der Übernachtungen.",
+        "quote": "nach der Anzahl der Übernachtungen"
+      },
+      {
+        "text": "Es ist eine Jahresabgabe, der Erhebungszeitraum ist das Kalenderjahr.",
+        "quote": "Die Abgabe wird jährlich erhoben. Der Erhebungszeitraum ist das Kalenderjahr."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kurort-rathen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          125
+        ]
+      }
+    ]
+  }
+}

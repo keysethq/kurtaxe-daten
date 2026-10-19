@@ -1,0 +1,254 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wangels",
+  "name": "Wangels",
+  "short": "Wangels",
+  "ags": "01055043",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Wangels über die Erhebung einer Kurabgabe im Gemeindeteil Weißenhäuser Strand vom 12. Dezember 2025 (Original)",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Wangels_original/Kurabgabesatzung_Wangels_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "4a3fd055f273df7057f3fca47cd2e221c497b8af522b4a665c08a926e3abe061",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "nachtrag1": {
+      "title": "1. Nachtragssatzung zur Satzung der Gemeinde Wangels über die Erhebung einer Kurabgabe im Gemeindeteil Weißenhäuser Strand vom 23. April 2026",
+      "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Wangels_original/Kurabgabesatzung_Wangels_1._Nachtrag_2027.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "sha256": "8ee0d0ea5059fa8d87fcfd31d728d4e328be14e31cfa6aa11ecba5cc68d63ffb",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "bgb": {
+      "title": "Bürgerliches Gesetzbuch, § 2 Eintritt der Volljährigkeit",
+      "url": "https://www.gesetze-im-internet.de/bgb/__2.html",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "73aca90eb3f35af63ebacd6942b0185096dcff0dfc420f143eb52f680ed24da7",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei allen Berechnungen nach dieser Satzung gelten An- und Abreisetag als ein Tag."
+    },
+    "area": {
+      "text": "Die Kurabgabe gilt nur im Gemeindeteil Weißenhäuser Strand, nicht in der übrigen Gemeinde Wangels.",
+      "quote": "Erhebungsgebiet für die Kurabgabe in der Gemeinde Wangels ist ausschließlich der Gemeindeteil/Ortsteil Weißenhäuser Strand."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "06-01",
+            "to": "08-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger volljähriger Person: in der Hauptsaison = 2,00 €",
+          "next": {
+            "cents": 170,
+            "quote": "Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger volljähriger Person: in der Hauptsaison = 1,70 €",
+            "source": "nachtrag1"
+          }
+        },
+        "children": [
+          {
+            "underAge": 4,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 4. Lebensjahres;"
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger minderjähriger Person ab der Vollendung des 4. Lebensjahres: in der Hauptsaison = 1,00 € in der Nebensaison = 0,50 €",
+            "limit": {
+              "quote": "Die Volljährigkeit tritt mit der Vollendung des 18. Lebensjahres ein.",
+              "source": "bgb"
+            },
+            "next": {
+              "cents": 90,
+              "quote": "Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger minderjähriger Person ab der Vollendung des 4. Lebensjahres: in der Hauptsaison = 0,90 € in der Nebensaison = 0,50 €",
+              "source": "nachtrag1"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "05-31"
+          },
+          {
+            "from": "09-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "in der Hauptsaison = 2,00 € in der Nebensaison = 1,00 €",
+          "next": {
+            "cents": 90,
+            "quote": "in der Hauptsaison = 1,70 € in der Nebensaison = 0,90 €",
+            "source": "nachtrag1"
+          }
+        },
+        "children": [
+          {
+            "underAge": 4,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 4. Lebensjahres;"
+          },
+          {
+            "underAge": 18,
+            "cents": 50,
+            "quote": "Die Kurabgabe beträgt pro Tag und kurabgabepflichtiger minderjähriger Person ab der Vollendung des 4. Lebensjahres: in der Hauptsaison = 1,00 € in der Nebensaison = 0,50 €",
+            "limit": {
+              "quote": "Die Volljährigkeit tritt mit der Vollendung des 18. Lebensjahres ein.",
+              "source": "bgb"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Ehe- und Lebenspartner, Kinder, Eltern, Geschwister und weitere nahe Angehörige von Personen mit Hauptwohnung in Weißenhäuser Strand, die ohne Vergütung bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
+        "quote": "Ehe- und Lebenspartner/in, Kinder, Kindeskinder, Geschwister, Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Wangels, Ortsteil Weißenhäuser Strand ihre Hauptwohnung haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen sind und die Kureinrichtungen nicht in Anspruch nehmen;"
+      },
+      {
+        "text": "Wer eine Gästekarte, Kurkarte oder OstseeCard aus einer anderen Kurabgabe-Gemeinde in Schleswig-Holstein vorzeigt, ist bei Gegenseitigkeit für einen Tag befreit.",
+        "quote": "sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tage von der Kurabgabe befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und eine erforderliche Begleitperson mit Eintrag „B“ im Ausweis zahlen nur die Hälfte.",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung des Kurabgabebeitrages in Höhe von 50 %. Dieses gilt auch für eine erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohngelegenheiten im Erhebungsgebiet zahlen unabhängig von der Aufenthaltsdauer die Jahreskurabgabe, das 25-fache des vollen Hauptsaison-Satzes.",
+        "quote": "zahlen, unabhängig von der Aufenthaltsdauer, den Kurabgabenbeitrag in Höhe der Jahreskurkarte, die das 25-fache des vollen Kurabgabenbetrages der Hauptsaison beträgt"
+      },
+      {
+        "text": "Jeder Unterkunftsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Jeder Unterkunftsgeber haftet im Rahmen der den ihm obliegenden Pflichten für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Die Sätze sinken mit der 1. Nachtragssatzung vom 23. April 2026.",
+      "quote": "tritt am 01.01.2027 in Kraft.",
+      "source": "nachtrag1"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an die Gemeinde ab.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm ausgehändigte Kurkarte die Kurabgabe zu errechnen, diese vom Gast einzuziehen und kostenfrei an die Gemeinde Wangels abzuführen."
+    },
+    "deadline": {
+      "text": "Die eingetragenen Angaben reichst du innerhalb von 3 Werktagen bei der Gemeinde Wangels ein.",
+      "quote": "eintragen zu lassen und innerhalb von 3 Werktagen bei der Gemeinde Wangels einzureichen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 24 Stunden an.",
+      "quote": "innerhalb von 24 Stunden unter Verwendung der Kurkarte, die kostenlos ausgegeben werden, anzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wangels/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      4,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "06-01",
+            "08-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          100
+        ],
+        "next": {
+          "adult": 170,
+          "children": [
+            0,
+            90
+          ]
+        }
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "05-31"
+          ],
+          [
+            "09-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ],
+        "next": {
+          "adult": 90,
+          "children": [
+            0,
+            50
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dagebuell",
+  "name": "Dagebüll",
+  "short": "Dagebüll",
+  "ags": "01054022",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Dagebüll über die Erhebung einer Tourismusabgabe (Lesefassung, Stand vom 28.12.2021)",
+      "url": "https://www.amt-suedtondern.de/output/download.php?fid=2861.18776.1..PDF&fn=Satzung_%FCber_die_Erhebung_einer_Tourismusabgabe_in_der_Gemeinde_Dageb%FCll_Stand_28.12.2021",
+      "kind": "municipality",
+      "inForce": "2021-12-28",
+      "changedOn": "2026-10-15",
+      "sha256": "d633e1df0a7e5f6b51c445541699c1a5a427416b36bf90567bf7752adad02666",
+      "verifiedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Amt Südtondern, Gemeinde Dagebüll: Satzungen der Gemeinde Dagebüll",
+      "url": "https://www.amt-suedtondern.de/Unsere-Gemeinden/Dageb%C3%BCll/",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "ae7cb24b8c6d23208804ad0083215ba6e60831adf2d2deedee26feddfdfc62d5",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "badedeich": {
+      "title": "Gemeinde Dagebüll, Benutzungsordnung für den Badedeich Dagebüll (Lesefassung, 1. Änderung)",
+      "url": "https://www.amt-suedtondern.de/output/download.php?fid=2861.17751.1..PDF&fn=Benutzungsordnung_Badedeich_Dageb%FCll",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "7278080b8e255bc6575c6001f35f9086c5582ba5db6541012f7bc1ba69a25ccf",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Gemeinde Dagebüll steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Dagebüll Stand_28.12.2021",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Abgabenpflichtig sind alle, die in Dagebüll selbstständig tätig sind, tourismusbezogene Leistungen gegen Entgelt anbieten und denen der Tourismus dadurch Vorteile bietet; die Vermietung von Ferienwohnungen führt die Anlage als eigene Betriebsart.",
+      "quote": "Abgabenpflichtig sind die im Gemeindegebiet selbstständig oder freiberuflich tätigen natürliche und juristische Personen sowie nichtrechtsfähigen und teilrechtsfähigen Gesellschaften und Personenvereinigungen, denen durch den Tourismus in der Gemeinde Vorteile geboten werden beim Anbieten von tourismusbezogenen entgeltlichen Leistungen (abgabenpflichtige Personen)"
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz bis 30 T€",
+        "quote": "Vermietung von Ferienwohnungen/- 17 100 appartements/-häusern, Umsatz bis 30 T€",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen/- 17 100 appartements/-häusern, Umsatz bis 30 T€"
+          },
+          "profit": {
+            "percent": 17
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz über 30 T€",
+        "quote": "Vermietung von Ferienwohnungen/- 13 100 appartements/-häusern, Umsatz über 30 T€",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen/- 13 100 appartements/-häusern, Umsatz über 30 T€"
+          },
+          "profit": {
+            "percent": 13
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer",
+        "quote": "Vermietung von Gästezimmern 24 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Gästezimmern 24 100"
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer mit Frühstück",
+        "quote": "Vermietung von Gästezimmern mit Frühstück 19 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Gästezimmern mit Frühstück 19 100"
+          },
+          "profit": {
+            "percent": 19
+          }
+        }
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "quote": "Hotels garni / Pensionen garni 9 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels garni / Pensionen garni 9 100"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen mit Vollverpflegung",
+        "quote": "Hotels/Pensionen mit Vollverpflegung 7 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels/Pensionen mit Vollverpflegung 7 100"
+          },
+          "profit": {
+            "percent": 7
+          }
+        }
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "quote": "Zeltplätze, Campingplätze 12 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Zeltplätze, Campingplätze 12 100"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Sonstige Betriebe der Gästebeherbergung",
+        "quote": "Sonstige Betriebe der Gästebeherbergung 11 100",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Sonstige Betriebe der Gästebeherbergung 11 100"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 4,
+      "quote": "Der Abgabensatz beträgt 4,0 % des Messbetrags."
+    },
+    "basis": {
+      "text": "Es zählen deine jährlichen Einnahmen ohne Umsatzsteuer.",
+      "quote": "umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen"
+    },
+    "minimum": {
+      "text": "Übersteigt die Abgabe im Einzelfall nicht 5 Euro, wird sie nicht festgesetzt.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von 5,00 Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Du teilst der Gemeinde bis zum 31. Mai jedes Jahres die Angaben zur Berechnung mit, zum Beispiel mit Umsatzsteuererklärung oder dem Erklärungsformblatt der Gemeinde.",
+      "quote": "bis zum 31. Mai eines jeden Jahres die zur Berechnung erforderlichen Angaben durch Vorlage geeigneter Nachweise (z.B. Umsatzsteuervoranmeldungen, Umsatzsteuererklärung, Umsatzsteuerbescheid, Erklärungen des Steuerberaters oder Erklärungsformblatt der Gemeinde) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Anlage nennt zu jeder Betriebsart einen Gewinnsatz und einen Vorteilssatz, beide in Prozent.",
+        "quote": "Bezeichnung der Betriebsart Gewinnsatz Vorteilssatz Nr. (bzw. Berufs- oder Personengruppe) (%) (%)"
+      },
+      {
+        "text": "Du zeigst Beginn und Ende deiner Tätigkeit innerhalb eines Monats an.",
+        "quote": "1. Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen,"
+      },
+      {
+        "text": "Wer Ferienunterkünfte an wechselnde Gäste überlässt, rechnet nur die Einnahmen aus den Objekten in Dagebüll.",
+        "quote": "sowie bei jeder Tätigkeit, die die Überlassung von Ferienunterkünften an wechselnde Gäste zum Gegenstand hat (auch Vermittlung, Verwaltung, Betreuung), zählen nur die aus der vorübergehend im Gemeindegebiet ausgeübten oder objektbezogenen Tätigkeit erzielten Einnahmen zur Bemessungsgrundlage."
+      },
+      {
+        "text": "Maßgeblich sind die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Fängst du zu Beginn eines Kalenderjahres an, zählen im ersten Jahr die Einnahmen dieses Jahres; fängst du im Lauf des Jahres an, zählen im Jahr des Beginns und im Jahr danach jeweils die Einnahmen des Jahres selbst.",
+        "quote": "Wird eine abgabenpflichtige Tätigkeit zu Beginn eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend. Wird eine abgabenpflichtige Tätigkeit im Laufe eines Kalenderjahres aufgenommen, so sind abweichend von Absatz 4 im Jahr der Tätigkeitsaufnahme und im darauffolgenden Jahr die Einnahmen des jeweiligen Erhebungszeitraumes maßgebend."
+      },
+      {
+        "text": "Die Gemeinde kann vierteljährlich Vorauszahlungen von jeweils bis zu einem Viertel der voraussichtlichen Jahresabgabe verlangen.",
+        "quote": "quartalsweise Vorausleistungen auf die Abgabe bis zur Höhe jeweils eines Viertels der voraussichtlichen jährlichen Abgabe erheben."
+      },
+      {
+        "text": "Die Abgabe wird nach Ablauf des Kalenderjahres durch schriftlichen Bescheid festgesetzt.",
+        "quote": "Die Tourismusabgabe wird durch schriftlichen Bescheid festgesetzt."
+      },
+      {
+        "text": "Wer Beginn und Ende der Tätigkeit nicht innerhalb eines Monats anzeigt oder die Angaben bis zum 31. Mai nicht macht, handelt ordnungswidrig, wenn er das vorsätzlich oder leichtfertig tut und dadurch Abgaben verkürzt werden können; die Geldbuße kann bis zu 500 Euro betragen.",
+        "quote": "Ordnungswidrig nach § 18 Absatz 2 Satz 1 Nr. 2 KAG handelt, wer es als Abgabenpflichtige oder Abgabenpflichtiger oder bei der Wahrnehmung der Angelegenheiten einer oder eines Abgabepflichtigen vorsätzlich oder leichtfertig 1. entgegen von § 7 Absatz 1 Nr. 1 unterlässt, Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, oder 2. entgegen von § 7 Absatz 1 Nr. 2 unterlässt, bis zum 31. Mai eines jeden Jahres die zur Berechnung der Abgabe erforderlichen Angaben unter Vorlage geeigneter Nachweise mitzuteilen und es dadurch ermöglicht, Abgaben zu verkürzen oder nicht gerechtfertigte Abgabenvorteile zu erlangen (Abgabengefährdung). (2) Die Ordnungswidrigkeit kann mit einer Geldbuße bis zu 500 Euro geahndet werden."
+      },
+      {
+        "text": "Du musst nicht in Dagebüll wohnen: Wer regelmäßig wiederkehrend Leistungen in touristischen Unterkünften oder sonstigen Immobilien in Dagebüll anbietet, gilt als im Gemeindegebiet tätig.",
+        "quote": "Insbesondere Personen oder Personenvereinigungen, die regelmäßig wiederkehrend Waren oder Leistungen an Marktständen, Verkaufsständen oder Verkaufswagen im Gemeindegebiet anbieten oder die regelmäßig wiederkehrende Leistungen in touristischen Unterkünften oder in sonstigen Immobilien im Erhebungsgebiet oder in Bezug auf touristische Unterkünfte oder sonstige Immobilien im Erhebungsgebiet anbieten oder erbringen, sind im Sinne von Absatz 1 im Gemeindegebiet tätig."
+      },
+      {
+        "text": "Am Badedeich zahlen Besucher ab 18 Jahren in der Zeit vom 15. April bis 30. September ein Entgelt: Tageskarte 2,00 Euro, Wochenkarte 10,00 Euro, Jahreskarte 50,00 Euro.",
+        "source": "badedeich",
+        "quote": "Für die Benutzung des Badedeiches Dagebüll in der Zeit vom 15. April bis 30. September ist von Personen ab Vollendung des 18. Lebensjahres ein Entgelt zu entrichten. Dieses wird wie folgt festgesetzt: Tageskarte 2,00 Euro Wochenkarte 10,00 Euro Jahreskarte 50,00 Euro"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/dagebuell/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz bis 30 T€",
+        "permille": 6.8,
+        "rate": "0,68 % des Jahresumsatzes."
+      },
+      {
+        "label": "Ferienwohnungen, -appartements und -häuser, Umsatz über 30 T€",
+        "permille": 5.2,
+        "rate": "0,52 % des Jahresumsatzes."
+      },
+      {
+        "label": "Gästezimmer",
+        "permille": 9.6,
+        "rate": "0,96 % des Jahresumsatzes."
+      },
+      {
+        "label": "Gästezimmer mit Frühstück",
+        "permille": 7.6,
+        "rate": "0,76 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels garni und Pensionen garni",
+        "permille": 3.6,
+        "rate": "0,36 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotels und Pensionen mit Vollverpflegung",
+        "permille": 2.8,
+        "rate": "0,28 % des Jahresumsatzes."
+      },
+      {
+        "label": "Zeltplätze und Campingplätze",
+        "permille": 4.8,
+        "rate": "0,48 % des Jahresumsatzes."
+      },
+      {
+        "label": "Sonstige Betriebe der Gästebeherbergung",
+        "permille": 4.4,
+        "rate": "0,44 % des Jahresumsatzes."
+      }
+    ]
+  }
+}

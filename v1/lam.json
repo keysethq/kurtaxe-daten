@@ -1,0 +1,297 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lam",
+  "name": "Markt Lam",
+  "short": "Lam",
+  "ags": "09372138",
+  "state": "Bayern",
+  "district": "Cham",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags (Kurbeitragssatzung – KBS) des Marktes Lam vom 01.12.2020 (Scan)",
+      "url": "https://www.markt-lam.de/WD_FileDownload.ashx?wd_systemtypeid=382&wd_pk=WzMzMCxbM11d",
+      "kind": "municipality",
+      "inForce": "2021-01-01",
+      "sha256": "a079f8e298d971e5d717fe7e78b375e8f3f6ff01644d3e043ce838d513ef23f6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Angefangene Tage gelten als volle Tage, wobei die Tage der An- und Abreise als ein Aufenthaltstag berechnet werden."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 6. Lebensjahr sind kurbeitragsbefreit."
+        },
+        {
+          "where": "periods[0].children[1] limit",
+          "page": 1,
+          "reading": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Inhaber eines Schwerbehindertenausweises mit einem Grad der Behinderung von 100"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "deren notwendige Begleitperson sind kurbeitragsbefreit."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Teilnehmer an Tagungen oder Seminaren, wenn mindestens 50% des Tagungsprogramms geschäftlichen oder beruflichen Zwecken dient"
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrags."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an den Markt abzuführen. Der Markt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "verpflichtet, der Gemeinde die Beitragspflichtigen schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "aenderung": {
+      "title": "1. Satzung zur Änderung der Kurbeitragssatzung des Marktes Lam vom 20.12.2021, § 4 Abs. 2 in Kraft seit 01.12.2022 (Scan)",
+      "url": "https://www.markt-lam.de/WD_FileDownload.ashx?wd_systemtypeid=382&wd_pk=WzEyNjAsWzNdXQ%3d%3d",
+      "kind": "municipality",
+      "inForce": "2022-12-01",
+      "sha256": "0d5429c68f3e4ce8338758d67debd84a36401c236c8248625e1d938747e986d3",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "In Buchstabe a) wird der Betrag \"1,50 €\" durch \"2,00 €\" ersetzt."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "In Buchstabe b) wird der Betrag \"0,50 €\" durch \"0,80 €\" ersetzt."
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "In Buchstabe b) wird der Betrag \"0,50 €\" durch \"0,80 €\" ersetzt."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "In Buchstabe c) wird der Betrag \"0,50 €\" durch \"1,50 €\" ersetzt."
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags des Marktes Lam, gültig ab 01.10.2027 (Scan)",
+      "url": "https://www.markt-lam.de/WD_FileDownload.ashx?wd_systemtypeid=382&wd_pk=WzE3NDMsWzNdXQ%3d%3d",
+      "kind": "municipality",
+      "inForce": "2027-10-01",
+      "sha256": "4468363889f615d343989fe9234831a603f0f75e94457fc4cc8082e48f15a1ab",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].adult next",
+          "page": 2,
+          "reading": "für Personen ab dem vollendeten 16. Lebensjahr 2,80 €,"
+        },
+        {
+          "where": "periods[0].children[1] next",
+          "page": 2,
+          "reading": "fr Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr :1,20 €."
+        },
+        {
+          "where": "change",
+          "page": 5,
+          "reading": "Diese Satzung tritt am 01.10.2027 in Kraft."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "geschäftlichen oder beruflichen Zwecken dient 2,30 €"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "innerhalb eines Tages nach deren Anreise elektronisch mittels des durch den Markt zur Verfügung gestellten Verfahrens zu melden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage, wobei die Tage der An- und Abreise als ein Aufenthaltstag berechnet werden."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "source": "aenderung",
+          "quote": "In Buchstabe a) wird der Betrag „1,50 €“ durch „2,00 €“ ersetzt.",
+          "next": {
+            "cents": 280,
+            "quote": "für Personen ab dem vollendeten 16. Lebensjahr 2,80 €,",
+            "source": "satzung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr sind kurbeitragsbefreit."
+          },
+          {
+            "underAge": 16,
+            "cents": 80,
+            "source": "aenderung",
+            "quote": "In Buchstabe b) wird der Betrag „0,50 €“ durch „0,80 €“ ersetzt.",
+            "limit": {
+              "quote": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr",
+              "source": "satzung"
+            },
+            "next": {
+              "cents": 120,
+              "source": "satzung2027",
+              "quote": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1,20 €."
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Schwerbehindertenausweis mit einem Grad der Behinderung von 100",
+        "quote": "Inhaber eines Schwerbehindertenausweises mit einem Grad der Behinderung von 100"
+      },
+      {
+        "text": "die notwendige Begleitperson eines Menschen mit einem Grad der Behinderung von 100",
+        "quote": "deren notwendige Begleitperson sind kurbeitragsbefreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für Teilnehmer an Tagungen oder Seminaren, bei denen mindestens die Hälfte des Programms beruflichen Zwecken dient, gilt ein eigener Satz.",
+        "quote": "Teilnehmer an Tagungen oder Seminaren, wenn mindestens 50% des Tagungsprogramms geschäftlichen oder beruflichen Zwecken dient"
+      },
+      {
+        "text": "Für Teilnehmer an Tagungen oder Seminaren (Buchstabe c) der Satzung) beträgt der Satz seit 1. Dezember 2022 1,50 € je Aufenthaltstag.",
+        "quote": "In Buchstabe c) wird der Betrag „0,50 €“ durch „1,50 €“ ersetzt.",
+        "source": "aenderung"
+      },
+      {
+        "text": "Ab 1. Oktober 2027 zahlen Teilnehmer an Tagungen oder Seminaren, bei denen mindestens die Hälfte des Programms beruflichen Zwecken dient, 2,30 € je Aufenthaltstag.",
+        "source": "satzung2027",
+        "quote": "geschäftlichen oder beruflichen Zwecken dient 2,30 €"
+      },
+      {
+        "text": "Ab 1. Oktober 2027 meldest du deine Gäste innerhalb eines Tages nach der Anreise elektronisch über das Verfahren des Marktes.",
+        "source": "satzung2027",
+        "quote": "innerhalb eines Tages nach deren Anreise elektronisch mittels des durch den Markt zur Verfügung gestellten Verfahrens zu melden"
+      }
+    ],
+    "change": {
+      "from": "2027-10-01",
+      "text": "Dann gilt eine neue Kurbeitragssatzung; die übrigen neuen Sätze stehen unter „Was gilt in Lam sonst noch?“.",
+      "quote": "Diese Satzung tritt am 01.10.2027 in Kraft.",
+      "source": "satzung2027"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber dem Markt dafür, dass er eingeht.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrags."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; der Markt kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an den Markt abzuführen. Der Markt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du schriftlich bei der Gemeinde, soweit sie sich nicht selbst gemeldet haben.",
+      "quote": "verpflichtet, der Gemeinde die Beitragspflichtigen schriftlich zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lam/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          80
+        ],
+        "next": {
+          "adult": 280,
+          "children": [
+            0,
+            120
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-10-01",
+      "label": "ab 1. Oktober 2027"
+    }
+  }
+}

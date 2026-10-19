@@ -1,0 +1,296 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wustrow-fischland",
+  "name": "Ostseebad Wustrow",
+  "short": "Wustrow (Fischland)",
+  "ags": "13073103",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurabgabe in der Gemeinde Ostseebad Wustrow (Kurabgabensatzung) vom 03.11.2025",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/wustrow/kurabgabesatzung/kurabgabesatzung-wustrow-ausfertigung.pdf?cid=djg",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "abfe36ca551f481ab026a77de2d22798888b304a2b55b6a7539f73d4aa7e1b8c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und der Abreisetag werden zusammen als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Reisezeit A vom 01.05. bis 30.09. des Jahres 2,60 Euro,"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "Reisezeit A vom 01.05. bis 30.09. des Jahres 2,60 Euro, ermäßigt 1,30 Euro"
+        },
+        {
+          "where": "periods[0].children[1] limit",
+          "page": 3,
+          "reading": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "Reisezeit A vom 01.05. bis 30.09. des Jahres 2,60 Euro, ermäßigt 1,30 Euro"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "Reisezeit B vom 01.10. bis 30.04. des Jahres 1,30 Euro,"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 2,
+          "reading": "Reisezeit B vom 01.10. bis 30.04. des Jahres 1,30 Euro, ermäßigt 0,60 Euro"
+        },
+        {
+          "where": "periods[1].children[1] limit",
+          "page": 3,
+          "reading": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 2,
+          "reading": "Reisezeit B vom 01.10. bis 30.04. des Jahres 1,30 Euro, ermäßigt 0,60 Euro"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet; darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres und jede 5. und weitere Person einer Familie (ab dem 3. Kind) sind befreit."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Die Pflicht des Ausfüllens eines Meldescheines bleibt davon unberührt."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres, für Schwerbeschädigte mit einer Behinderung von 80% und deren Begleitpersonen, wobei das Merkzeichen \"B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss, und für Studenten bis zum vollendeten 26. Lebensjahr unter Vorlage des Studentenausweises gilt die ermäßigte Gebühr gemäß $ 6 Abs. 2."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Die Kurabgabe für eine Jahreskurkarte wird pro Person in Höhe von 58,60 Euro erhoben."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird die nach Tagen berechnete, zu viel gezahlte Kurabgabe auf Antrag erstattet."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen. Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Zur Erfüllung ihrer Pflichten nach den Abs. 1 und 5 haben die Wohnungsgeber oder deren Beauftragte das von der Kurverwaltung unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und der Abreisetag werden zusammen als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Reisezeit A",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 260,
+          "quote": "Reisezeit A vom 01.05. bis 30.09. des Jahres 2,60 Euro,"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres"
+          },
+          {
+            "underAge": 18,
+            "cents": 130,
+            "quote": "Reisezeit A vom 01.05. bis 30.09. des Jahres 2,60 Euro, ermäßigt 1,30 Euro",
+            "limit": {
+              "quote": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres",
+              "source": "satzung"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Reisezeit B",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 130,
+          "quote": "Reisezeit B vom 01.10. bis 30.04. des Jahres 1,30 Euro,"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres"
+          },
+          {
+            "underAge": 18,
+            "cents": 60,
+            "quote": "Reisezeit B vom 01.10. bis 30.04. des Jahres 1,30 Euro, ermäßigt 0,60 Euro",
+            "limit": {
+              "quote": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres",
+              "source": "satzung"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in Wustrow arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd, auch bei beruflich veranlasster Teilnahme an Tagungen und Seminaren",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet; darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Familienregel: Jede 5. und weitere Person einer Familie ist befreit, das heißt ab dem 3. Kind.",
+        "quote": "Kinder bis zur Vollendung des 6. Lebensjahres und jede 5. und weitere Person einer Familie (ab dem 3. Kind) sind befreit."
+      },
+      {
+        "text": "Die Pflicht, einen Meldeschein auszufüllen, gilt auch für befreite Gäste.",
+        "quote": "Die Pflicht des Ausfüllens eines Meldescheines bleibt davon unberührt."
+      },
+      {
+        "text": "Den ermäßigten Satz zahlen auch Studenten bis zum vollendeten 26. Lebensjahr (mit Studentenausweis) sowie Menschen mit einer Behinderung von 80 % und ihre Begleitpersonen; das Merkzeichen B für ständige Begleitung muss im Ausweis stehen.",
+        "quote": "Für Kinder ab Vollendung des 6. Lebensjahres und Jugendliche bis zur Vollendung des 18. Lebensjahres, für Schwerbeschädigte mit einer Behinderung von 80% und deren Begleitpersonen, wobei das Merkzeichen „B“ für ständige Begleitung im Behindertenausweis dokumentiert sein muss, und für Studenten bis zum vollendeten 26. Lebensjahr unter Vorlage des Studentenausweises gilt die ermäßigte Gebühr gemäß § 6 Abs. 2."
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 58,60 € pro Person, die Zweitwohnungsinhaber zahlen müssen.",
+        "quote": "Die Kurabgabe für eine Jahreskurkarte wird pro Person in Höhe von 58,60 Euro erhoben."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe auf Antrag erstattet, gegen Rückgabe der Kurkarte.",
+        "quote": "Bei vorzeitigem Abbruch des vorgesehenen Aufenthaltes wird die nach Tagen berechnete, zu viel gezahlte Kurabgabe auf Antrag erstattet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den gesamten Aufenthalt ein und führt sie an die Kurverwaltung ab; dafür haftest du.",
+      "quote": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen. Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. eines jeden Monats für den Vormonat.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du im elektronischen Melde- und Abrechnungssystem der Kurverwaltung.",
+      "quote": "Zur Erfüllung ihrer Pflichten nach den Abs. 1 und 5 haben die Wohnungsgeber oder deren Beauftragte das von der Kurverwaltung unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wustrow-fischland/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Reisezeit A",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0,
+          130
+        ]
+      },
+      {
+        "label": "Reisezeit B",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 130,
+        "children": [
+          0,
+          60
+        ]
+      }
+    ]
+  }
+}

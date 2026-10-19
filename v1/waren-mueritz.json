@@ -1,0 +1,177 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "waren-mueritz",
+  "name": "Stadt Waren (Müritz)",
+  "short": "Waren (Müritz)",
+  "ags": "13071156",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Mecklenburgische Seenplatte",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Waren (Müritz), Lesefassung unter Berücksichtigung der 3. Änderungssatzung (in Kraft ab 01.04.2026)",
+      "url": "https://www.waren-mueritz.de/export/sites/waren/de/.galleries/downloads/Amt-2/Lesefassung-Kurabgabensatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-04-01",
+      "sha256": "78eb07ce7bf70c6fb1209ad8e47fab17cd455e168951f5e8fb084891c53b598a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag, berechnet wird der Anreisetag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "1. die eine Aufenthaltsdauer von mehr als einem Tag haben (Übernachtungsgäste): in der Hauptsaison 01.04. bis 31.10. = 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis einschließlich 15 Jahren,"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Nebensaison 01.11. bis 31.03. = 2,00 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis einschließlich 15 Jahren,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn im Schwerbehindertenausweis ein „B“ für ständige Begleitung eingetragen ist, zahlen nichts.",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100 und deren Begleitperson, sofern dies im Schwerbehindertenausweis mit einem „B“ für ständige Begleitung gekennzeichnet ist"
+      },
+      {
+        "text": "Wer in Waren arbeitet oder in Ausbildung ist, gilt nicht als ortsfremd und zahlt deshalb nichts.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten für Gäste mit Übernachtung; Tagesgäste ohne Unterkunft zahlen 1,50 € in der Hauptsaison und 1,00 € in der Nebensaison.",
+        "quote": "2. die im Erhebungsgebiet keine Unterkunft nehmen (Tagesgäste): in der Hauptsaison 01.04. bis 31.10. = 1,50 € in der Nebensaison 01.11. bis 31.03. = 1,00 €"
+      },
+      {
+        "text": "In der Kurabgabe der Übernachtungsgäste steckt ein Entgelt für die Mobilitätsangebote von 0,50 € in der Hauptsaison und 0,20 € in der Nebensaison.",
+        "quote": "Bei den Übernachtungsgästen ist in der Kurabgabe ein Entgelt in Höhe von 0,20 € in der Nebensaison und 0,50 € in der Hauptsaison für die Nutzung der bereitgestellten Mobilitätsangebote enthalten."
+      },
+      {
+        "text": "Gäste können statt der Tagessätze eine Jahreskurabgabe von 60,00 € zahlen.",
+        "quote": "Anstelle der nach Tagen berechneten Kurabgabe kann pro Person eine Jahreskurabgabe in Höhe von 60,00 Euro entrichtet werden."
+      },
+      {
+        "text": "Die Kurabgabe für die ganze geplante Aufenthaltsdauer ist am Anreisetag in einer Summe fällig und wird an dich als Quartiergeber gezahlt.",
+        "quote": "Für Übernachtungsgäste ist die Kurabgabe am Anreisetag für den gesamten beabsichtigten Aufenthaltszeitraum in einer Summe fällig und an den Quartiergeber oder dessen Beauftragten zu zahlen."
+      },
+      {
+        "text": "Bei begründetem vorzeitigem Abbruch zahlst du dem Gast die zu viel gezahlte Kurabgabe zurück; der Anspruch erlischt 14 Tage nach der Abreise.",
+        "quote": "Bei begründetem vorzeitigem Abbruch des Aufenthaltes zahlt der Quartiergeber dem Gast die zu viel gezahlte Kurabgabe zurück."
+      },
+      {
+        "text": "Für das elektronische Meldescheinverfahren behältst du 3,5 % der abgerechneten Kurabgabe als Aufwandsentschädigung, beim Papierverfahren 2,0 %.",
+        "quote": "Für die Nutzung des elektronischen Meldescheinverfahrens erhält der Quartiergeber zur Abgeltung aller durch die Kurabgabe entstandenen Aufwendungen eine Aufwandsentschädigung in Höhe von 3,5 % der jeweils abgerechneten Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein und führt sie an die Stadt ab; das gilt ganzjährig.",
+      "quote": "Jeder Quartiergeber ist ganzjährig verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen und abzuführen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird monatlich bis zum 5. des Folgemonats für den vorangegangenen Monat.",
+      "quote": "Die Abrechnung der Kurabgabe erfolgt bis zum 5. eines jeden Monats für den vorangegangenen Monat an die Stadt Waren (Müritz)."
+    },
+    "reporting": {
+      "text": "Gewerbliche Vermieter ab 8 Betten übermitteln die Daten elektronisch über das Meldefachverfahren der Stadt.",
+      "quote": "Für jeden gewerblich angemeldeten Quartiergeber ab 8 Betten gilt, dass die zur Erhebung der Kurabgaben erforderlichen Daten elektronisch an die Stadt Waren (Müritz) zu übermitteln sind."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/waren-mueritz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

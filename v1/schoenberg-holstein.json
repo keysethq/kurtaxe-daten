@@ -1,0 +1,323 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schoenberg-holstein",
+  "name": "Schönberg (Holstein)",
+  "short": "Schönberg (Holstein)",
+  "ags": "01057073",
+  "state": "Schleswig-Holstein",
+  "district": "Plön",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe und einer Strandbenutzungsgebühr in der Gemeinde Schönberg / Holstein (KurAbgSa) in der Fassung der 8. Änderungssatzung (Stand 24.02.2023), Lesefassung des Amtes Probstei",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Schoenberg/Schoenberg_KurAbgSa_idF-8AEnderung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-03-01",
+      "sha256": "c2b522d46ce80cf9f06f24118a1aa4c47d57e9ecf57a12bff7e4277c1d739cf2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung9": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe und einer Strandbenutzungsgebühr in der Gemeinde Schönberg / Holstein (KurAbgSa), 9. Änderungssatzung, ausgefertigt am 28.02.2025",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Schoenberg/Schoenberg_KurAbgSa_idF-9Nachtrag.pdf",
+      "kind": "statute",
+      "inForce": "2025-03-01",
+      "sha256": "138f968b47d5ce88ff9f2722f121484e6cf2eb97a1b2f403d094292402872454",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "remarks[7]",
+          "page": 1,
+          "reading": "Die Zahlung der Kurabgabe an den Tourist-Service Ostseebad Schönberg hat grundsätzlich bargeldlos zu erfolgen. $Ausnahmen müssen vor der Zahlung beim Tourist-Service Ostseebad Schönberg angefragt und bestätigt werden."
+        },
+        {
+          "where": "remarks[8]",
+          "page": 3,
+          "reading": "Verlorene manuelle OstseeCards werden dem Unterkunftsgeber als pauschale Kurabgabe in Höhe einer Jahreskurabgabe in Rechnung gestellt."
+        },
+        {
+          "where": "hostDuty",
+          "page": 1,
+          "reading": "Die Unterkunftsgeber sind verpflichtet, für jede von ihnen erzeugte OstseeCard die Kurabgabe zu errechnen, die Kurabgabe vom Gast einzuziehen und an den Tourist-Service Ostseebad Schönberg abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 1,
+          "reading": "die Anmeldung der Gäste (mit An- und Abreisetag des Gastes, dessen Heimatanschrift, usw.) mittels elektronischem Meldescheinverfahren vorzunehmen. ?Dafür erhält jeder Unterkunftsgeber vom Tourist-Service Ostseebad Schönberg personalisierte Zugangsdaten für ein System eines Drittanbieters. ®Mittels dieser Zugangsdaten kann der Unterkunftsgeber Erfassung, Erstellung, Verwaltung und Abrechnung der Meldescheine und OstseeCards mit einem internetfähigen PC oder vergleichbarem Gerät durchführen. * Alternativ kann die Anmeldung der Gäste über die vom Tourist-Service Ostseebad Schönberg kostenfrei zur Verfügung gestellten amtlich vorgeschriebenen Meldescheine analog erfolgen. ®Die für den Tourist-Service Ostseebad Schönberg bestimmte Durchschrift/Kopie ist innerhalb von 3 Werktagen bei den Dienststellen des Tourist-Service Ostseebad Schönberg einzureichen."
+        }
+      ]
+    },
+    "ta": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Schönberg / Holstein in der Fassung der 3. Änderungssatzung vom 20.12.2019",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Schoenberg/Schoenberg_TaSa_idF-3Nachtrag.pdf",
+      "kind": "municipality",
+      "inForce": "2020-01-17",
+      "changedOn": "2026-10-15",
+      "sha256": "8a8f5230c459ac5a4e0b234dd06edf1183b1cfc4df46b553b6637037f05ca14e",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Abgabesatz beträgt einschließlich der jeweils geltenden Umsatzsteuer je Übernachtung und Person"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "in der Zeit vom 01.05. bis 30.09. des Jahres (Hauptsaison) 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "04-30"
+          },
+          {
+            "from": "10-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "in der Zeit vom 15.03. bis 30.04. des Jahres (Vorsaison) 1,50 EUR"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 20,
+      "perStay": true,
+      "text": "höchstens 20 Übernachtungen je ununterbrochenem Aufenthalt",
+      "quote": "für höchstens 20 Übernachtungen ununterbrochenen Aufenthaltes bemessen"
+    },
+    "exemptions": [
+      {
+        "text": "Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Einwohnern mit Hauptwohnsitz in Schönberg, wenn sie unentgeltlich bei ihnen wohnen und die Einrichtungen und Veranstaltungen nicht in Anspruch nehmen",
+        "quote": "Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen werden und soweit sie die Einrichtungen und Veranstaltungen gemäß § 1 Abs. 1 nicht in Anspruch nehmen,"
+      },
+      {
+        "text": "Wer dienstlich oder beruflich anwesend ist, zahlt nicht, solange und soweit er die Einrichtungen und Veranstaltungen nicht in Anspruch nimmt oder deren Nutzung zu seinen beruflichen Aufgaben gehört",
+        "quote": "in Ausübung ihres Dienstes oder Berufes Anwesenden, solange und soweit sie die Einrichtungen und Veranstaltungen gemäß § 1 Abs. 1 nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen oder die Teilnahme an den Veranstaltungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört,"
+      },
+      {
+        "text": "Teilnehmer an vorher beim Tourist-Service angemeldeten Tagungen, Kongressen und gleichartigen Veranstaltungen, soweit sie die Einrichtungen und Veranstaltungen nicht in Anspruch nehmen",
+        "quote": "Teilnehmern an Tagungen, Kongressen und gleichartigen Veranstaltungen, sofern die Veranstaltungen vor Ankunft im Gemeindegebiet beim Tourist-Service Ostseebad Schönberg angemeldet werden und soweit die Teilnehmer die Einrichtungen und Veranstaltungen gemäß § 1 Abs. 1 nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Eine Kurkarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Aufenthaltstag.",
+        "quote": "Nachweise über die Entrichtung der Kurabgabe (Kurkarten) aus einem anderen Ferienort innerhalb des Landes Schleswig-Holstein haben für einen Aufenthaltstag im Gebiet der Gemeinde Schönberg Gültigkeit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Nachsaison (1. bis 31. Oktober) kostet dasselbe wie die Vorsaison; Sätze nennt die Satzung nur für die Zeit vom 15. März bis 31. Oktober.",
+        "quote": "in der Zeit vom 01.10. bis 31.10. des Jahres (Nachsaison) 1,50 EUR"
+      },
+      {
+        "text": "Statt der Tagessätze können Erwachsene eine Jahreskurabgabe von 60,00 € zahlen, das 20-Fache des Hauptsaison-Satzes.",
+        "quote": "zu zahlen, die das 20fache des in der Hauptsaison geltenden Kurabgabesatzes (Absatz 2 Nr. 2) beträgt, und zwar je Person nach Vollendung des 18. Lebensjahres 60,00 EUR"
+      },
+      {
+        "text": "Zusätzlich zur Kurabgabe gibt es eine Strandbenutzungsgebühr für Einwohner, Beschäftigte und Tagesgäste, die nur den Strand nutzen.",
+        "quote": "Von Einwohnern, den in der Gemeinde im Arbeits- oder Ausbildungsverhältnis stehenden Personen sowie von Tagesgästen, die in der kurabgabepflichtigen Zeit gemäß Absatz 1 ausschließlich den konzessionierten Badestrand benutzen, wird eine Strandbenutzungsgebühr erhoben."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 und ihre Begleitperson mit Merkzeichen B zahlen die Hälfte (50 % Ermäßigung).",
+        "quote": "Schwerbehinderte Menschen im Sinne des SGB IX mit einem festgestellten Grad der Behinderung von mindestens 50 % erhalten eine Ermäßigung auf die Kurabgabe und die Strandbenutzungsgebühr in Höhe von 50 %. 2 Satz 1 gilt entsprechend für Personen, die den schwerbehinderten Menschen aufgrund der Eintragungen im Schwerbehindertenausweis (Merkzeichen „B“) begleiten müssen."
+      },
+      {
+        "text": "Teilnehmer an Sammelreisen und Betriebsausflügen ab 20 Personen zahlen für bis zu 2 Übernachtungen die Hälfte (50 % Ermäßigung).",
+        "quote": "Teilnehmer an Sammelreisen und Betriebsausflügen (ab 20 Personen) erhalten eine Ermäßigung auf die Kurabgabe in Höhe von 50 %. 2 Die Ermäßigung nach Satz 1 ist auf einen Aufenthalt von bis zu 2 Übernachtungen begrenzt."
+      },
+      {
+        "text": "Die Befreiung für Tagungsteilnehmer gilt nur für die ersten 2 Übernachtungen des Aufenthalts.",
+        "quote": "Das Ruhen bzw. die Befreiung von der Kurabgabepflicht nach Absatz 1 Nr. 3 und Absatz 2 Nr. 3 gilt nur für die ersten 2 Übernachtungen des Aufenthaltes."
+      },
+      {
+        "text": "Unterkunftsgeber haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe.",
+        "quote": "Die Unterkunftsgeber haften im Rahmen der ihnen nach den Absätzen 1 bis 3 obliegenden Pflichten für die Abgabeschuld und damit für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe an den Tourist-Service Ostseebad Schönberg."
+      },
+      {
+        "text": "Die Kurabgabe wird grundsätzlich bargeldlos an den Tourist-Service gezahlt; Ausnahmen müssen vorher angefragt und bestätigt werden.",
+        "quote": "Die Zahlung der Kurabgabe an den Tourist-Service Ostseebad Schönberg hat grundsätzlich bargeldlos zu erfolgen. Ausnahmen müssen vor der Zahlung beim Tourist-Service Ostseebad Schönberg angefragt und bestätigt werden.",
+        "source": "aenderung9"
+      },
+      {
+        "text": "Verlorene manuelle OstseeCards stellt der Tourist-Service dem Unterkunftsgeber als pauschale Kurabgabe in Höhe einer Jahreskurabgabe in Rechnung.",
+        "quote": "Verlorene manuelle OstseeCards werden dem Unterkunftsgeber als pauschale Kurabgabe in Höhe einer Jahreskurabgabe in Rechnung gestellt.",
+        "source": "aenderung9"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, rechnet die Kurabgabe aus, zieht sie beim Gast ein und führt sie an den Tourist-Service ab.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet, für jede von ihnen erzeugte OstseeCard die Kurabgabe zu errechnen, die Kurabgabe vom Gast einzuziehen und an den Tourist-Service Ostseebad Schönberg abzuführen.",
+      "source": "aenderung9"
+    },
+    "deadline": {
+      "text": "Abgeführt wird in der Hauptsaison alle 14 Tage, in der Vor- und Nachsaison monatlich.",
+      "quote": "Die Abführung der Kurabgabe an den Tourist-Service Ostseebad Schönberg hat in der Hauptsaison 14tägig, in der Vor- und Nachsaison monatlich kostenfrei zu erfolgen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du über das elektronische Meldescheinverfahren; alternativ geht es auf den amtlichen Meldescheinen auf Papier, deren Durchschrift binnen 3 Werktagen beim Tourist-Service sein muss.",
+      "quote": "die Anmeldung der Gäste (mit An- und Abreisetag des Gastes, dessen Heimatanschrift, usw.) mittels elektronischem Meldescheinverfahren vorzunehmen. Dafür erhält jeder Unterkunftsgeber vom Tourist-Service Ostseebad Schönberg personalisierte Zugangsdaten für ein System eines Drittanbieters. Mittels dieser Zugangsdaten kann der Unterkunftsgeber Erfassung, Erstellung, Verwaltung und Abrechnung der Meldescheine und OstseeCards mit einem internetfähigen PC oder vergleichbarem Gerät durchführen. Alternativ kann die Anmeldung der Gäste über die vom Tourist-Service Ostseebad Schönberg kostenfrei zur Verfügung gestellten amtlich vorgeschriebenen Meldescheine analog erfolgen. Die für den Tourist-Service Ostseebad Schönberg bestimmte Durchschrift/Kopie ist innerhalb von 3 Werktagen bei den Dienststellen des Tourist-Service Ostseebad Schönberg einzureichen.",
+      "source": "aenderung9"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Schönberg unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "denen durch den Tourismus im Gebiet der Abgabengläubigerin 1. unmittelbare oder 2. mittelbare Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Zimmervermietung (Vorteilsstufe 5), je Schlafgelegenheit",
+        "quote": "1 Beherbergungsbetriebe 1 5 1,00",
+        "units": {
+          "count": 1,
+          "per": "Bett",
+          "value": {
+            "cents": 685,
+            "quote": "Die Tourismusabgabe beträgt je Vorteilseinheit 6,85 EUR."
+          }
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Auf Verlangen der Gemeinde gibst du eine Abgabenerklärung auf dem amtlichen Vordruck ab.",
+      "quote": "ist der Unternehmer verpflichtet, auf Verlangen der Abgabengläubigerin eine Abgabenerklärung auf amtlich vorgeschriebenen Vordruck abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe am 15. August des Jahres.",
+      "quote": "Die Tourismusabgabe ist am 15.08. eines Kalenderjahres fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Wer Zimmer oder Wohnungen kurzfristig an Gäste vermietet, wird nach der Zahl der Schlafgelegenheiten veranlagt, die er gegen Entgelt bereithält.",
+        "quote": "Die Anzahl der Vorteilseinheiten ergibt sich für Beherbergungsbetriebe, Zimmervermietungen (Vermietung von Wohn- und Schlafräumen, die zur kurzfristigen Beherbergung von Fremden bereitgehalten werden) und Zimmervermittlungen aus der Anzahl der Schlafgelegenheiten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Es ist eine Jahresabgabe, die die Gemeinde per Bescheid festsetzt.",
+        "quote": "Die Tourismusabgabe wird als Jahresabgabe durch schriftlichen Abgabenbescheid festgesetzt."
+      },
+      {
+        "text": "Maßgeblich sind die Verhältnisse am 1. Juli des Jahres.",
+        "quote": "Der Festsetzung der Abgabe sind die Verhältnisse am 01.07. des Kalenderjahres zu Grunde zu legen, für welches die Festsetzung vorgenommen wird."
+      },
+      {
+        "text": "Ist der 15. August bei Bekanntgabe des Bescheids schon vorbei, wird die Abgabe einen Monat nach Bekanntgabe fällig.",
+        "quote": "Ist der Fälligkeitstag bei Bekanntgabe des Abgabenbescheides bereits verstrichen, wird die Tourismusabgabe innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+      },
+      {
+        "text": "Ändert sich etwas an deinen Verhältnissen, zeigst du das bis zum 1. August des Jahres an.",
+        "quote": "hat der Abgabenschuldner diese Änderung bis zum 01.08. des Kalenderjahres anzuzeigen, für das die Festsetzung erfolgt"
+      },
+      {
+        "text": "Beginn und Ende deiner Tätigkeit zeigst du innerhalb eines Monats an.",
+        "quote": "Der Beginn und das Ende sowie die Änderung einer abgabenpflichtigen Tätigkeit ist vom Unternehmer innerhalb eines Monats bei der Abgabengläubigerin anzuzeigen."
+      },
+      {
+        "text": "Die Abgabe entsteht mit Beginn des Kalenderjahres, frühestens mit Aufnahme der Tätigkeit.",
+        "quote": "Die Tourismusabgabe entsteht mit Beginn des Kalenderjahres, für das die Abgabe festgesetzt wird, frühestens mit Aufnahme der abgabepflichtigen Tätigkeit."
+      },
+      {
+        "text": "Für die Vermietung von Campingstellplätzen zählen 0,44 Vorteilseinheiten je Stellplatz; was eine Vorteilseinheit kostet, steht in der Zeile oben.",
+        "quote": "2 Campingstellplatzvermietung 1 5 0,44"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/schoenberg-holstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 20,
+    "maxPerStay": true,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "03-15",
+            "04-30"
+          ],
+          [
+            "10-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "zinnowitz",
+  "name": "Ostseebad Zinnowitz",
+  "short": "Zinnowitz",
+  "ags": "13075151",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Tourismusregion Insel Usedom und Stadt Wolgast (Kurabgabesatzung) der Gemeinde Ostseebad Zinnowitz vom 04.12.2025, bekannt gemacht am 04.12.2025 auf www.amtusedomnord.de",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/2025-12-04_KurabgabesatzungZin_veroeff.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "3c7bc8bfe5d1a1908bb738905bf899a9a43ce35e5c054cd105180bd657310c60",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. - 31.12. (Nebensaison): 3,30 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der in Absatz 1 genannten Gemeinden."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fva": {
+      "title": "Satzung der Gemeinde Ostseebad Zinnowitz über die Erhebung einer Fremdenverkehrsabgabe vom 15.10.2002, aktuelle Lesefassung",
+      "url": "https://amtusedomnord.de/wp-content/uploads/2026/01/Lesefassung-Fremdenverkehrsabgabesatzung-neu.pdf",
+      "kind": "municipality",
+      "inForce": "2003-01-01",
+      "sha256": "4e6601ad0c2e4b64ad5108d21b026419fe9d2a905593714f24aeed9cd94c05d8",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "a) in der Zeit vom 01.04. - 31.10. (Hauptsaison): 3,70 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 330,
+          "quote": "b) in der Zeit vom 01.01. - 31.03. sowie vom 01.11. - 31.12. (Nebensaison): 3,30 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Kurabgabe befreit sind Kinder bis zur Vollendung des 6. Lebensjahres (unter 6 Jahren)"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer im Erhebungsgebiet arbeitet oder in Ausbildung steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Satz gilt im gesamten anerkannten Gebiet der Gemeinden der Tourismusregion Insel Usedom und Stadt Wolgast.",
+        "quote": "Erhebungsgebiet für die Kurabgabe ist das gesamte anerkannte Gebiet der in Absatz 1 genannten Gemeinden."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise erstatten die Gemeinden die zu viel gezahlte Kurabgabe, und zwar gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder anders bestätigt hat.",
+        "quote": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt ihnen Kurkarten aus; dafür haftest du.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinden bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das elektronische Meldeverfahren der Gemeinde oder auf Papier, in beiden Fällen innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber soll das von der Gemeinde vorgegebene elektronische Meldeverfahren nutzen. Alternativ kann der Meldeschein/Erfassungsbogen Kurabgabe in Papierform abgegeben werden. In beiden Fällen hat die Meldung innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du als Vermieter von Ferienhäusern, Ferienwohnungen oder Ferienzimmern, wenn du der Gewerbeanmeldungspflicht unterliegst.",
+      "quote": "sonstige Personen, die Kurgäste und Erholungssuchende gegen ein Entgelt beherbergen, einschließlich Vermieter von Ferienhäusern, Ferienwohnungen und Ferienzimmern, die der Gewerbeanmeldungspflicht unterliegen"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbereich bis zu 7 Betten",
+        "quote": "im Beherbergungsbereich bis zu 7 Betten ............................................ 5.00 €/Bett",
+        "flat": {
+          "cents": 500,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Beherbergungsbereich ab 8 Betten",
+        "quote": "im Beherbergungsbereich ab 8 Betten ............................................ 6.00 €/Bett",
+        "flat": {
+          "cents": 600,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 31. Oktober jedes Jahres teilst du der Gemeinde mit, was sie für die Berechnung braucht, spätestens bei Inbetriebnahme; änderst du nichts, gelten deine bisherigen Angaben weiter.",
+      "quote": "Der Abgabenpflichtige hat der Gemeinde die erforderlichen Angaben zur Berechnung der Abgabe bis zum 31. Oktober eines jeden Jahres mitzuteilen oder spätestens bei Inbetriebnahme. Die Heranziehung erfolgt auf der Grundlage der vorhandenen Angaben. Wenn bis zum 31. Oktober keine Änderungen oder Ergänzungen der vormaligen Angaben seitens des Abgabenpflichtigen erfolgt, werden die bisherigen Angaben bei der Heranziehung zugrunde gelegt."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe 30 Tage nach Bekanntgabe des Bescheids, in einer Summe.",
+      "quote": "Die Abgabe ist innerhalb von 30 Tagen nach Bekanntgabe des Heranziehungsbescheides fällig und ist in einer Summe zu entrichten."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenverkehrsbetten, die am 1. Januar eines Jahres vorhanden sind.",
+        "quote": "nach der Anzahl der am 1. Januar eines Jahres vorhandenen Fremdenverkehrsbetten"
+      },
+      {
+        "text": "Die Abgabe fällt unabhängig davon an, ob du ganzjährig vermieten kannst.",
+        "quote": "Die Abgabe entsteht unabhängig von einer ganzjährigen Nutzungsmöglichkeit."
+      },
+      {
+        "text": "Fängst du nach dem 1. August mit der Vermietung an, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabenpflichtigen Tätigkeit nach dem 01. August eines Jahres, so kann die Jahresabgabe auf Antrag um 50 von Hundert ermäßigt werden."
+      },
+      {
+        "text": "Eine nebenberufliche Tätigkeit, die eine Person mit weniger als 5 Wochenstunden ausübt, ist abgabefrei.",
+        "quote": "Handelt es sich bei dem Betrieb um eine nebenberufliche Tätigkeit, die nur von einer Person ausgeführt wird, deren wöchentliche Arbeitszeit unter 5 Stunden liegt, entfällt die Abgabenpflicht."
+      },
+      {
+        "text": "Den Bescheid erlässt der Kurbetrieb.",
+        "quote": "Die Heranziehung erfolgt durch einen schriftlichen Bescheid des Kurbetriebes."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/zinnowitz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

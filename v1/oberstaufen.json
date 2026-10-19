@@ -1,0 +1,222 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberstaufen",
+  "name": "Markt Oberstaufen",
+  "short": "Oberstaufen",
+  "ags": "09780132",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags im Markt Oberstaufen (Kurbeitragssatzung – KBS) vom 14.11.2025",
+      "url": "https://www.oberstaufen.info/fileadmin/Website/Dateien/Finanzwesen/2025-11-14_KBS_Neufassung_mit_Kopfzeile_-_mit_Lageplan_-_final-_gezeichnet_Beckel.pdf",
+      "kind": "statute",
+      "inForce": "2025-12-01",
+      "sha256": "c73345f19a08f1800a2320327f8ab1a1046fbe021ffae41e93b174e8a8eafb52",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk 1",
+        "area": {
+          "text": "Kurbezirk 1 sind der Ort Oberstaufen und die großen Ortsteile wie Steibis, Thalkirchdorf, Weißach, Willis und Zell.",
+          "quote": "Der Kurbezirk 1 umfasst die Ortsteile Oberstaufen, Berg, Buflings, Hinterstaufen, Höfen, Kalzhofen, Knechtenhofen, Konstanzer, Lamprechts, Malas, Osterdorf, Salmas, Saneberg, Schindelberg, Sinswang, Steibis, Stießberg, Thalkirchdorf, Weißach, Wengen, Wiedemannsdorf, Willis und Zell."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "Der Kurbeitrag beträgt für Erwachsene pro Aufenthaltstag und Person im Kurbezirk 1: 3,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Als Jugendliche gelten Personen, die am Abreisetag das 6. Lebensjahr vollendet haben."
+              },
+              {
+                "underAge": 16,
+                "cents": 175,
+                "quote": "Als Erwachsene gelten Personen, die am Abreisetag das 16. Lebensjahr vollendet haben. (3) Der Kurbeitrag beträgt für Jugendliche pro Aufenthaltstag und Person im Kurbezirk 1: 1,75 Euro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk 2",
+        "area": {
+          "text": "Kurbezirk 2 sind unter anderem Aach im Allgäu, Hinterreute, Hütten und Ifen, die Alpgebiete und alle Bereiche ohne Ortsteil, außer dem beitragsfreien Kurbezirk 3.",
+          "quote": "Der Kurbezirk 2 umfasst die Ortsteile Aach im Allgäu, Buchenegg, Döbelisried, Eibele, Gschwend, Hagspiel, Hinterhalden, Hinterreute, Hub, Hütten, Ifen, Krebs, Laufenegg, Steinebach, Tronsberg, Vorderhalden, Vorderreute, die Alpgebiete Oberstaufen, Steibis und Thalkirchdorf sowie diejenigen Bereiche im Gemeindegebiet, die keinem Ortsteil zugehörig sind, mit Ausnahme des kurbeitragsfreien Bereichs des Kurbezirks 3 gemäß Abs. 4."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 240,
+              "quote": "Der Kurbeitrag beträgt für Erwachsene pro Aufenthaltstag und Person im Kurbezirk 1: 3,50 Euro im Kurbezirk 2: 2,40 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Als Jugendliche gelten Personen, die am Abreisetag das 6. Lebensjahr vollendet haben."
+              },
+              {
+                "underAge": 16,
+                "cents": 120,
+                "quote": "Als Erwachsene gelten Personen, die am Abreisetag das 16. Lebensjahr vollendet haben. (3) Der Kurbeitrag beträgt für Jugendliche pro Aufenthaltstag und Person im Kurbezirk 1: 1,75 Euro im Kurbezirk 2: 1,20 Euro"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80, gegen Nachweis; bei einem Grad der Behinderung von 70 ermäßigt sich der Beitrag um 25 %",
+        "quote": "Für Personen mit einem Grad der Behinderung von 70 und entsprechendem Nachweis ermäßigt sich der aus Abs. 2 und Abs. 3 ergebende Kurbeitrag um 25%. Personen mit einem Grad der Behinderung ab 80 und entsprechendem Nachweis sind kurbeitragsfrei."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, deren Schwerbehindertenausweis das Kennzeichen B enthält",
+        "quote": "Begleitpersonen von behinderten Personen, welche in ihrem Schwerbehindertenausweis das Kennzeichen „B“ eingetragen haben, sind kurbeitragsfrei."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurbezirk 3 ist kurbeitragsfrei; seine Grenze steht in der Karte Anlage 1 der Satzung.",
+        "quote": "Der Kurbezirk 3 umfasst den kurbeitragsfreien Bereich."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Korrekturen, etwa bei geändertem Abreisedatum, trägst du unverzüglich im Meldesystem nach.",
+        "quote": "Eventuell erforderliche Korrekturen, z.B. bei Änderung des Abreisedatums, sind mit dem zur Verfügung gestellten elektronischen Meldesystem unverzüglich vorzunehmen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag und haftet dem Markt für den Eingang.",
+      "quote": "Die in § 6 bezeichneten Beherbergungsbetriebe sind verpflichtet, den Kurbeitrag einzuheben und haften dem Markt Oberstaufen gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag spätestens am vierten Tag nach Zustellung des Beitragsbescheids.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens am vierten Tag nach Zustellung des Beitragsbescheides an den Markt Oberstaufen zur Zahlung fällig."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du spätestens am Tag nach der Anreise über das elektronische Meldesystem des Marktes.",
+      "quote": "die Kurbeitragspflichtigen spätestens am Tag nach der Anreise mit dem zur Verfügung gestellten elektronischen Meldesystem an den Markt Oberstaufen zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberstaufen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          175
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk 1",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk 2",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 240,
+            "children": [
+              0,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

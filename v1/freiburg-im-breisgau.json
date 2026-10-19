@@ -1,0 +1,142 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "freiburg-im-breisgau",
+  "name": "Stadt Freiburg im Breisgau",
+  "short": "Freiburg",
+  "ags": "08311000",
+  "state": "Baden-Württemberg",
+  "district": "Freiburg im Breisgau",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungsteuer in der Stadt Freiburg i. Br. (Übernachtungsteuersatzung) vom 31. Januar 2023, Ortsrecht 23.1.5, Stadt Freiburg im Breisgau",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/documents_E1021835560/freiburg/daten/ortsrecht/23%20Kommunalabgaben/OrtsR_23_01_05.pdf",
+      "kind": "municipality",
+      "inForce": "2023-07-01",
+      "sha256": "f0b90b66737bb02f8ed484838bec40d419d29add1bef3495bb17278b458ebf9e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "faq": {
+      "title": "Häufige Fragen zur Übernachtungsteuer, Stand 24.07.2025, Stadtkämmerei Freiburg im Breisgau",
+      "url": "https://www.freiburg.de/servicebw/UebernachtungSt_Haeufige_Fragen.pdf",
+      "kind": "municipality",
+      "inForce": "2025-07-24",
+      "sha256": "58c793be8347ae3f5833b6dcc9cedd123b3780206a46ced234f623460dc5a29e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Übernachtungsteuer beträgt 5 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, ohne Mehrwertsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Gast für die Beherbergung aufgewendete Betrag (ohne Mehrwertsteuer).",
+      "source": "satzung",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst; du gibst sie vierteljährlich an und führst sie ab.",
+      "quote": "Steuerschuldner ist der/die Betreiber/in des Beherbergungsbetriebes.",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Die Steuer ist am dreißigsten Tag nach Ablauf des Quartals fällig und an die Stadt zu zahlen.",
+      "quote": "Die Übernachtungsteuer ist bei erfolgter Steueranmeldung am dreißigsten Tag nach Ablauf des Anmeldezeitraums fällig und an die Stadt Freiburg i. Br. zu entrichten.",
+      "source": "satzung"
+    },
+    "reporting": {
+      "text": "Du gibst für jedes Quartal eine unterschriebene Steueranmeldung bei der Stadtkämmerei ab und berechnest die Steuer darin selbst.",
+      "quote": "Der/die Betreiber_in eines Beherbergungsbetriebes hat für jedes Kalendervierteljahr (Anmeldezeitraum) der Stadt Freiburg i. Br. - Stadtkämmerei, Abteilung Steuern - eine von diesem/dieser oder seinem/seiner Vertreter_in unterschriebene Steueranmeldung abzugeben, in der die Steuer für den Steueranmeldezeitraum selbst zu berechnen ist",
+      "source": "satzung"
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen Minderjähriger sind steuerfrei.",
+        "quote": "Ausgenommen von der Steuer ist die Beherbergung Minderjähriger.",
+        "source": "satzung"
+      },
+      {
+        "text": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "quote": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "source": "satzung"
+      },
+      {
+        "text": "Die Übernachtung einer Begleitperson, auf die ein Mensch mit Behinderung angewiesen ist, ist mit entsprechendem Merkzeichen im Ausweis steuerfrei.",
+        "quote": "Wenn ein Mensch mit Behinderung auf eine Begleitperson angewiesen ist und dies mit dem Ausweis mit entsprechenden Merkzeichen nachweisen kann, so sind die Übernachtungskosten der Begleitperson von der Übernachtungsteuer befreit.",
+        "source": "faq"
+      },
+      {
+        "text": "Wer wegen Renovierung oder Umbau vorübergehend nicht in seiner Wohnung wohnen kann, zahlt für die Ersatzunterkunft keine Übernachtungsteuer.",
+        "quote": "Übernachtungskosten, die dadurch entstehen, dass eine Wohnung wegen Renovierungs- oder Umbauarbeiten unbewohnbar wird, dient der Grundbefriedigung und sind daher nicht übernachtungsteuerpflichtig.",
+        "source": "faq"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig, seit dem 1. Juli 2023.",
+        "quote": "Der Gemeinderat entschied mit Beschluss vom 31.01.2023, dass ab dem 01.07.2023 auch berufliche Übernachtungen besteuert werden.",
+        "source": "faq"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung nicht aufteilen, ziehst du bei Pauschalpreisen 10 € je Gast für das Frühstück sowie je 25 € für Mittag- und Abendessen ab.",
+        "quote": "Sofern im Einzelfall die Aufteilung einer Gesamtrechnung in ein Übernachtungsentgelt und ein gesondertes Entgelt für sonstige Dienstleistungen nicht möglich ist, gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung/Frühstück beziehungsweise Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 10,00 € für Frühstück und je 25,00 € für Mittagessen und Abendessen je Gast und Mahlzeit.",
+        "source": "satzung"
+      },
+      {
+        "text": "Bei regelmäßig weniger als 300 € Steuer im Quartal kannst du auf Antrag halbjährlich anmelden.",
+        "quote": "Hat der Beherbergungsbetrieb regelmäßig Zahlungsverpflichtungen aus der Übernachtungsteuer von unter 300,00 € im Vierteljahr, so kann auf Antrag eine halbjährliche Abgabe der Steueranmeldungen gewährt werden.",
+        "source": "satzung"
+      },
+      {
+        "text": "Namen und Aufenthaltsdauer aller Gäste zeichnest du auf.",
+        "quote": "Der/die Betreiber_in des Beherbergungsbetriebes ist dazu verpflichtet die Namen und die Dauer des Aufenthalts aller Beherbergungsgäste in geeigneter Form aufzuzeichnen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du der Stadtkämmerei vor dem Ereignis an.",
+        "quote": "den Beginn und das Ende der Tätigkeit, den Wechsel des/der Betreibers_in sowie eine Verlegung des Beherbergungsbetriebes, vor Eintritt des anzeigepflichtigen Ereignisses anzuzeigen.",
+        "source": "satzung"
+      }
+    ],
+    "maxMonths": {
+      "months": 2,
+      "text": "Bei einem ununterbrochenen Aufenthalt im selben Betrieb wird die Steuer höchstens für zwei Monate erhoben.",
+      "quote": "Die Übernachtungsteuer wird bei einer ununterbrochenen Belegungsdauer im selben Betrieb längstens für 2 Monate erhoben.",
+      "source": "satzung"
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/freiburg-im-breisgau/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 2
+  }
+}

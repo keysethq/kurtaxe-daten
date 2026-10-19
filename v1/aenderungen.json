@@ -1,0 +1,299 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "changes": [
+    {
+      "slug": "bad-brueckenau",
+      "name": "Stadt Bad Brückenau",
+      "ags": "09672113",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 330,
+        "after": 340
+      },
+      "familyWeekCents": {
+        "before": 4620,
+        "after": 4760
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 3. September 2026, GVBl. S. 593 (neue Anlage 2 ab 1. Januar 2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-brueckenau/"
+    },
+    {
+      "slug": "bad-kissingen",
+      "name": "Bad Kissingen",
+      "ags": "09672114",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 400,
+        "after": 410
+      },
+      "familyWeekCents": {
+        "before": 5600,
+        "after": 5740
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 3. September 2026, GVBl. S. 593 (neue Anlage 2 ab 1. Januar 2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-kissingen/"
+    },
+    {
+      "slug": "bad-reichenhall",
+      "name": "Stadt Bad Reichenhall",
+      "ags": "09172114",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 360,
+        "after": 370
+      },
+      "familyWeekCents": {
+        "before": 5040,
+        "after": 5180
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 03.09.2026, Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2026, S. 593 (in Kraft ab 01.01.2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-reichenhall/"
+    },
+    {
+      "slug": "bad-steben",
+      "name": "Bad Steben",
+      "ags": "09475112",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 340,
+        "after": 350
+      },
+      "familyWeekCents": {
+        "before": 4760,
+        "after": 4900
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 3. September 2026, GVBl. S. 593 (neue Anlage 2 ab 1. Januar 2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-steben/"
+    },
+    {
+      "slug": "erfurt",
+      "name": "Landeshauptstadt Erfurt",
+      "ags": "16051000",
+      "kind": "uebernachtungsteuer",
+      "from": "2027-01-01",
+      "rate": {
+        "before": "5 % vom Preis",
+        "after": "7 % vom Preis"
+      },
+      "text": "Die zweite Änderung der Satzung ändert den Steuersatz (§ 4) und tritt am 1. Januar 2027 in Kraft.",
+      "quote": "§4 geändert c) 01.01.2027",
+      "source": {
+        "title": "Satzung zur Erhebung einer Beherbergungssteuer in der Landeshauptstadt Erfurt (Beherbergungssteuersatzung – BHStSEF), Fassung der 2. Änderungssatzung (Steuersatz ab 01.01.2027), Stadt Erfurt, Stadtrecht 4.120",
+        "url": "https://www.erfurt.de/mam/ef/rathaus/stadtrecht/4/4120a.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/erfurt/"
+    },
+    {
+      "slug": "esens",
+      "name": "Stadt Esens",
+      "ags": "03462003",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 320,
+        "after": 350
+      },
+      "familyWeekCents": {
+        "before": 5880,
+        "after": 7700
+      },
+      "text": "Das regelt die 9. Änderung der Gästebeitragssatzung; die Saisonzeiten bleiben gleich.",
+      "quote": "Artikel 2 Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung zur 9. Änderung der Gästebeitragssatzung der Stadt Esens vom 15.06.2026, Amtsblatt Landkreis Wittmund vom 30. Juni 2026, S. 50 (in Kraft ab 01.01.2027)",
+        "url": "https://www.landkreis-wittmund.de/media/custom/3105_4374_1.PDF?1782810329"
+      },
+      "url": "https://keyset.cloud/kurtaxe/esens/"
+    },
+    {
+      "slug": "hamburg",
+      "name": "Freie und Hansestadt Hamburg",
+      "ags": "02000000",
+      "kind": "uebernachtungsteuer",
+      "from": "2027-01-01",
+      "rate": {
+        "before": "ab 0,60 € je Gast",
+        "after": "ab 0,80 € je Gast"
+      },
+      "text": "Ab dem 1. Januar 2027 gelten neue Stufen: bis 15 € Nettoentgelt 0 €, bis 35 € 0,80 €, bis 50 € 1,50 €, bis 100 € 3 €, bis 150 € 4,50 €, bis 200 € 6 €, darüber je weitere angefangene 50 € 1,50 € mehr.",
+      "quote": "Artikel 1, 2 und 3a treten am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Drittes Gesetz zur Änderung kommunalabgabenrechtlicher Vorschriften vom 4. März 2026, Hamburgisches Gesetz- und Verordnungsblatt Nr. 9 vom 17.03.2026, S. 98",
+        "url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/hamburg/"
+    },
+    {
+      "slug": "sierksdorf",
+      "name": "Sierksdorf",
+      "ags": "01055039",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 310,
+        "after": 360
+      },
+      "familyWeekCents": {
+        "before": 4340,
+        "after": 5040
+      },
+      "text": "Die Sätze steigen mit der 1. Änderungssatzung, die die Gemeinde am 23. September 2026 bekannt gemacht hat.",
+      "quote": "Die 1. Änderungssatzung tritt am 1.1.2027 in Kraft.",
+      "source": {
+        "title": "1. Änderungssatzung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Sierksdorf (Amtliche Bekanntmachung, Gemeinde Sierksdorf, 23. September 2026)",
+        "url": "https://www.amt-ostholstein-mitte.de/fileadmin/Dateien/Gemeinde_Sierksdorf/Unsere_Gemeinde/Politik___Ortsrecht/Ortsrecht/039_1._AEnderungssatzung_Kurabgabe_2027.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/sierksdorf/"
+    },
+    {
+      "slug": "tating",
+      "name": "Tating",
+      "ags": "01054134",
+      "kind": "uebernachtungsteuer",
+      "from": "2027-01-01",
+      "rate": {
+        "before": "keine",
+        "after": "3 % vom Preis"
+      },
+      "text": "Die Steuer wird erst für Übernachtungen ab dem 1. Januar 2027 erhoben.",
+      "quote": "Die Beherbergungsteuer wird für Übernachtungen ab dem 1. Januar 2027 erhoben.",
+      "source": {
+        "title": "Satzung der Gemeinde Tating über die Erhebung einer Beherbergungsteuer (Beherbergungsteuersatzung), ausgefertigt 28.05.2026",
+        "url": "https://www.amt-eiderstedt.de/output/download.php?file=%2Fmedia%2Fcustom%2F2706_22094_1.PDF%3F1780035098&fn=Satzung_der_Gemeinde_Tating_%C3%BCber_die_Erhebung_einer_Beherbergungssteuer"
+      },
+      "url": "https://keyset.cloud/kurtaxe/tating/"
+    },
+    {
+      "slug": "wangels",
+      "name": "Wangels",
+      "ags": "01055043",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 200,
+        "after": 170
+      },
+      "familyWeekCents": {
+        "before": 4200,
+        "after": 3640
+      },
+      "text": "Die Sätze sinken mit der 1. Nachtragssatzung vom 23. April 2026.",
+      "quote": "tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "1. Nachtragssatzung zur Satzung der Gemeinde Wangels über die Erhebung einer Kurabgabe im Gemeindeteil Weißenhäuser Strand vom 23. April 2026",
+        "url": "https://www.amt-oldenburg-land.de/fileadmin/Amt/Dateien/Ortsrecht_Originale/Ortsrecht_Wangels_original/Kurabgabesatzung_Wangels_1._Nachtrag_2027.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/wangels/"
+    },
+    {
+      "slug": "heiligenhafen",
+      "name": "Heiligenhafen",
+      "ags": "01055021",
+      "kind": "kurtaxe",
+      "from": "2027-01-04",
+      "adultCents": {
+        "before": 300,
+        "after": 350
+      },
+      "familyWeekCents": {
+        "before": 4800,
+        "after": 5600
+      },
+      "text": "Das regelt die 3. Änderung der Kurabgabesatzung; die Saisonzeiten bleiben gleich.",
+      "quote": "Heiligenhafen tritt zum 04.01.2027 in Kraft.",
+      "source": {
+        "title": "3. Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Stadt Heiligenhafen vom 29.06.2026",
+        "url": "https://admin.die-netzwerkstatt.de/ortsrecht/dokument/kurabgabe_3.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/heiligenhafen/"
+    },
+    {
+      "slug": "traben-trarbach",
+      "name": "Stadt Traben-Trarbach",
+      "ags": "07231124",
+      "kind": "kurtaxe",
+      "from": "2027-04-01",
+      "adultCents": {
+        "before": 200,
+        "after": 220
+      },
+      "familyWeekCents": {
+        "before": 3920,
+        "after": 3920
+      },
+      "text": "Ab 01.04.2027 gelten neue Sätze: in Saison 1 (April bis Oktober) bleiben es 2,00 € für Erwachsene, in Saison 2 (November bis März) werden es ab 01.11.2027 2,20 €. Kinder und Jugendliche zahlen weiter 0,80 €.",
+      "quote": "Saison 1 (ab 01.04.2027)",
+      "source": {
+        "title": "Verbandsgemeinde Traben-Trarbach, Neue Tarife Gästebeitrag ab 01.04.2027, Saison 1 und Saison 2, Gesamtbeitrag je Gemeinde",
+        "url": "https://www.vgtt.de/rathaus-politik/gaestebeitrag/gaestebeitrag/neue-tarife-gaestebeitrag-ab-01.04.2027.pdf?cid=11v7"
+      },
+      "url": "https://keyset.cloud/kurtaxe/traben-trarbach/"
+    },
+    {
+      "slug": "trier",
+      "name": "Stadt Trier",
+      "ags": "07211000",
+      "kind": "uebernachtungsteuer",
+      "from": "2027-07-01",
+      "rate": {
+        "before": "4 % vom Preis",
+        "after": "4,5 % vom Preis"
+      },
+      "text": "Das hat der Stadtrat der Stadt Trier am 16. April 2026 beschlossen.",
+      "quote": "Mit Beschluss des Stadtrates der Stadt Trier vom 16.04.2026 wurde der Steuersatz zum 01.07.2026 auf 4% und zum 01.07.2027 auf 4,5% erhöht.",
+      "source": {
+        "title": "Beherbergungsteuer, Stadt Trier",
+        "url": "https://www.trier.de/rathaus-politik/verwaltung/finanzen/steuern-und-abgaben/4035.Beherbergungsteuer.html"
+      },
+      "url": "https://keyset.cloud/kurtaxe/trier/"
+    },
+    {
+      "slug": "lam",
+      "name": "Markt Lam",
+      "ags": "09372138",
+      "kind": "kurtaxe",
+      "from": "2027-10-01",
+      "adultCents": {
+        "before": 200,
+        "after": 280
+      },
+      "familyWeekCents": {
+        "before": 3920,
+        "after": 3920
+      },
+      "text": "Dann gilt eine neue Kurbeitragssatzung; die übrigen neuen Sätze stehen unter „Was gilt in Lam sonst noch?“.",
+      "quote": "Diese Satzung tritt am 01.10.2027 in Kraft.",
+      "source": {
+        "title": "Satzung für die Erhebung eines Kurbeitrags des Marktes Lam, gültig ab 01.10.2027 (Scan)",
+        "url": "https://www.markt-lam.de/WD_FileDownload.ashx?wd_systemtypeid=382&wd_pk=WzE3NDMsWzNdXQ%3d%3d"
+      },
+      "url": "https://keyset.cloud/kurtaxe/lam/"
+    }
+  ]
+}

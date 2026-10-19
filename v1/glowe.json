@@ -1,0 +1,292 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "glowe",
+  "name": "Ostseebad Glowe",
+  "short": "Glowe",
+  "ags": "13073030",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe der Gemeinde Glowe vom 10.03.2015 - Nichtamtliche Lesefassung (Basissatzung)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/3/1/Kursatzg._Glowe.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "66aae818c4cb994adc88db3b90d6da7a0fc6e7de937604d41dde9747cb7b4b55",
+      "verifiedOn": "2026-10-18"
+    },
+    "aenderung3": {
+      "title": "Dritte Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Glowe vom 10. März 2015 (Beschluss vom 07.12.2022, § 4 Höhe)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/3/1/Kurabgabes_tze_Glowe_ab_01.01.2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "ea868c42be0ebf19cf6c3a5cbad6f2f03bb06dd4c73ba3fe43bc499b66ef8757",
+      "verifiedOn": "2026-10-18",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Die Höhe der Kurabgabe beträgt pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag) im Erhebungsgebiet"
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 1,
+          "reading": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 1,
+          "reading": "Jahreskurkarten 50,00 € 30,00 €"
+        }
+      ]
+    },
+    "aenderung4": {
+      "title": "Vierte Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Glowe vom 10. März 2015 (Hundesatz entfällt, Pflichten der Quartiergeber)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/3/1/GLO_Kursatzung.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "188238681967a24c6e281400e3aa293cdb20c347d69095ee9ae20052ff5886d6",
+      "verifiedOn": "2026-10-18"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Tourist-Info Glowe",
+      "kind": "answer",
+      "receivedOn": "2026-10-18",
+      "text": "Ja, das mit den Befreiungen und Ermäßigungen ist noch so.",
+      "changedOn": "2026-10-18",
+      "sha256": "b36c17f37b8075889fa9535ddbff69e26d9d568784a388230ba0c8eb8dea3ada",
+      "verifiedOn": "2026-10-18"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-18"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "aenderung3",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Höhe der Kurabgabe beträgt pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag) im Erhebungsgebiet"
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder unter 12 (zwölf) Jahren,",
+            "source": "satzung"
+          },
+          {
+            "underAge": 17,
+            "cents": 150,
+            "quote": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)",
+            "source": "aenderung3",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 13. bis zur Vollendung des 17.Lebensjahres,",
+              "source": "satzung"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder unter 12 (zwölf) Jahren,",
+            "source": "satzung"
+          },
+          {
+            "underAge": 17,
+            "cents": 100,
+            "quote": "Hauptsaison 2,00 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 1,00 € (01.Oktober bis 30.April)",
+            "source": "aenderung3",
+            "limit": {
+              "quote": "Kinder in Begleitung ihrer Eltern vom Beginn des 13. bis zur Vollendung des 17.Lebensjahres,",
+              "source": "satzung"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte und Schwerkriegsbeschädigte mit einer Minderung der Erwerbsfähigkeit von 100 v. H., wenn sie die Kosten des Aufenthalts in voller Höhe selbst tragen",
+        "quote": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v.H. beträgt, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),",
+        "source": "satzung"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten und Schwerkriegsbeschädigten, die laut amtlichem Ausweis auf völlig ständige Begleitung angewiesen sind, auf Antrag",
+        "quote": "Begleitpersonen von Schwerbehinderten und Schwerkriegsbeschädigten, die lt. amtlichem Ausweis auf völlig ständige Begleitung angewiesen sind, auf Antrag.",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer in Glowe in einem Arbeits- oder Ausbildungsverhältnis steht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis steht.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kinder zahlen den ermäßigten Satz nur in Begleitung ihrer Eltern.",
+        "quote": "Die Kurabgabe wird ermäßigt für: 1. Kinder in Begleitung ihrer Eltern vom Beginn des 13. bis zur Vollendung des 17.Lebensjahres,",
+        "source": "satzung"
+      },
+      {
+        "text": "Ermäßigt zahlen auch Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis 27 Jahre mit Nachweis sowie Schwerbehinderte mit mehr als 50 Prozent Behinderung gegen Vorlage des Behindertenausweises.",
+        "quote": "2. Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden, 3. Schwerbehinderte mit mehr als 50% Behinderung, sofern sie den Behindertenausweis vorlegen,",
+        "source": "satzung"
+      },
+      {
+        "text": "Ermäßigt zahlen auch Begleitpersonen körperbehinderter Gäste mit ärztlicher Bescheinigung sowie Rentner und Vorruheständler mit Nachweis.",
+        "quote": "4. Begleitpersonen von körperbehinderten Gästen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird, 5. Rentner und im Vorruhestand befindliche Personen, die ihren Rentennachweis bzw. Vorruhestandsnachweis vorlegen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 50,00 € (ermäßigt 30,00 €).",
+        "quote": "Jahreskurkarten 50,00 € 30,00 €"
+      },
+      {
+        "text": "Der frühere Zuschlag für Hundehalter entfällt seit dem 01.01.2025.",
+        "quote": "In § 4 der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Glowe vom 10.03.2015 entfällt der erhöhte Abgabesatz für Hundehalter.",
+        "source": "aenderung4"
+      },
+      {
+        "text": "Du haftest als Vermieter für die Abgabeschuld.",
+        "quote": "Die Wohnungsgeber haften für die Abgabeschuld.",
+        "source": "satzung"
+      },
+      {
+        "text": "Die Tourist-Info Glowe bestätigt schriftlich, dass die Befreiungen und Ermäßigungen der Lesefassung weiter gelten.",
+        "quote": "Ja, das mit den Befreiungen und Ermäßigungen ist noch so.",
+        "source": "auskunft"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe ein, führt sie an die Gemeinde ab und stellt die Kurkarte aus.",
+      "quote": "ist verpflichtet, die Kurabgabe einzuziehen, an die Gemeinde Glowe abzuführen und ihnen die Kurkarte auszustellen.",
+      "source": "aenderung4"
+    },
+    "deadline": {
+      "text": "Abgeführt wird monatlich.",
+      "quote": "den fälligen Betrag monatlich an die Gemeinde Glowe abzuführen und seine Belege abzurechnen.",
+      "source": "satzung"
+    },
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-18",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/glowe/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ]
+  }
+}

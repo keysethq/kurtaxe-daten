@@ -1,0 +1,244 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "immenstaad-am-bodensee",
+  "name": "Gemeinde Immenstaad am Bodensee",
+  "short": "Immenstaad",
+  "ags": "08435024",
+  "state": "Baden-Württemberg",
+  "district": "Bodenseekreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) vom 22.01.2019, zuletzt geändert am 13.10.2025 (6. Änderung), Fassung der Gemeinde",
+      "url": "https://www.immenstaad.de/fileadmin/Dateien/pdf-Dateien/Satzungen/Kurtaxesatzung/Kurtaxesatzung_vom_22.01.2019_inkl._6._%C3%84nderung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "f921888c2024950cf13149998875bec5e9e312944999f00c59112cfa4db37c09",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Immenstaad am Bodensee über die Erhebung einer Abgabe zur Förderung des Fremdenverkehrs (Fremdenverkehrsabgabesatzung – FVA), zuletzt geändert am 07.10.2002",
+      "url": "https://www.Immenstaad.de/fileadmin/Dateien/pdf-Dateien/Satzungen/Fremdenverkehrssatzung.pdf",
+      "kind": "statute",
+      "inForce": "1994-01-01",
+      "sha256": "0b809f43bab43d7c6a34932d28044d05f0c4cd789e1d16179b22ecd8afef8b62",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 3,50 €"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr,"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "b) in der Vor- und Nachsaison 2,20 €"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Geschäftsreisende",
+        "quote": "Von der Entrichtung der Kurtaxe sind befreit: 1. Geschäftsreisende,"
+      },
+      {
+        "text": "Familienbesuche bei Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen,"
+      },
+      {
+        "text": "Teilnehmer an Schullandheimaufenthalten",
+        "quote": "Teilnehmer an Schullandheimaufenthalten,"
+      },
+      {
+        "text": "Schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 80",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 80 %,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten und Kranken, wenn eine amtliche oder ärztliche Bescheinigung die Notwendigkeit belegt",
+        "quote": "Begleitpersonen von Schwerbehinderten und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen ist,"
+      },
+      {
+        "text": "Ortsfremde, die in der Gemeinde arbeiten oder in Ausbildung stehen",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Abs. 2 S. 1 erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison geht vom 1. April bis 31. Oktober, die Vor- und Nachsaison vom 1. November bis 31. März.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01.04. bis 31.10.; die Vor- und Nachsaison den Zeitraum vom 01.11. bis 31.03.."
+      },
+      {
+        "text": "Anträge auf Befreiung musst du spätestens am Abreisetag bei der Gemeinde einreichen lassen.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Für die Meldung gilt das elektronische Meldescheinverfahren der Gemeinde; auf Antrag kann die Gemeinde bei unbilliger Härte darauf verzichten.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldescheinverfahren zu verwenden."
+      },
+      {
+        "text": "Wenn ein Gast die Kurtaxe nicht zahlen will, meldest du das der Gemeinde unverzüglich.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angabe der erforderlichen Daten"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe ein, führt sie ab und haftet der Gemeinde für den vollständigen und richtigen Einzug.",
+      "quote": "haben, soweit nicht nach § 6 (2) ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Gemeinde fordert die Beträge eines Monats per Bescheid an; du zahlst innerhalb von 14 Tagen nach Zustellung.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe werden durch die Gemeinde mit Abgabebescheid angefordert und sind innerhalb von 14 Tagen nach Bescheidzustellung an die Gemeindekasse zu entrichten."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von zwei Tagen nach Ankunft an und nach Abreise ab, über das elektronische Verfahren der Gemeinde.",
+      "quote": "bei ihm verweilende Personen innerhalb von zwei Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Immenstaad am Bodensee unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen, denen in der Gemeinde Immenstaad am Bodensee aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird eine Abgabe (Fremdenverkehrsabgabe) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "Für die in § 3 Absatz 4 genannten Personen beträgt die Abgabe abweichend von Abs. 1 0,28 € je Übernachtung.",
+        "perNight": {
+          "cents": 28,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von fünf Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Abgabepflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von fünf Tagen nach Ablauf eines jeden Kalendermonats mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe auf die Übernachtungen ist 14 Tage nach Bekanntgabe des Abgabenbescheids fällig.",
+      "quote": "bei der Abrechnung nach § 5 Abs. 3 14 Tage nach der Bekanntgabe des Abgabenbescheides zur Zahlung fällig"
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zum 16. Lebensjahr, die von der Kurtaxe befreit sind, zählen bei der Fremdenverkehrsabgabe nicht mit.",
+        "quote": "Kinder und Jugendliche bis zum 16. Lebensjahr, die nach der jeweils gültigen Kurtaxeordnung von der Kurtaxe befreit sind, werden bei der Erhebung der Fremdenverkehrsabgabe ebenfalls nicht berücksichtigt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Vermietest du als Privatzimmervermieter nur Wohnungen oder Zimmer vorübergehend an Fremde, richtet sich deine Abgabe nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich die Abgabe abweichend von Absatz 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Die Abgabe auf die Übernachtungen wird monatlich erhoben.",
+        "quote": "Die Abgabe nach § 5 Abs. 3 wird abweichend von Abs. 1 monatlich erhoben."
+      },
+      {
+        "text": "Alle anderen Abgabepflichtigen zahlen 6,50 % des Messbetrags; beträgt die Abgabe weniger als 10 €, wird sie nicht erhoben.",
+        "quote": "Die Abgabe nach § 4 Abs. 1 beträgt 6,50 v.H. des Messbetrages. Sie wird nicht erhoben, wenn Sie weniger als 10,00 € beträgt."
+      },
+      {
+        "text": "Hotels, Gasthöfe und andere mit Einnahmen aus Unterkunft und Verpflegung zahlen mindestens den Betrag, der sich aus ihren Übernachtungszahlen mit dem Satz je Übernachtung ergäbe.",
+        "quote": "Bei Personen, die Einnahmen aus Unterkunft und Verpflegung von Gästen haben (z.B. Hotels, Gasthöfe, Kurhäuser, Sanatorien, usw.), beträgt die Abgabe mindestens den Betrag, der sich bei Zugrundelegung der Übernachtungszahlen im Erhebungszeitraum unter Anwendung der Beträge nach Abs. 3 ergeben würde."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/immenstaad-am-bodensee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

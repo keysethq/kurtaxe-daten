@@ -1,0 +1,246 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bernau-im-schwarzwald",
+  "name": "Bernau im Schwarzwald",
+  "short": "Bernau",
+  "ags": "08337013",
+  "state": "Baden-Württemberg",
+  "district": "Waldshut",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Bernau im Schwarzwald vom 17.10.2022, mit den Änderungssatzungen vom 15.12.2025 (in Kraft ab 01.01.2026 und ab 01.03.2026), Sammel-PDF der Gemeinde",
+      "url": "https://bernau.rosi3-hirsch-woelfl.de/fileadmin/Hauptseite/Dateien/B%C3%BCrgerservice/Satzungen/Kurtaxesatzung_mit_%C3%84nderungen_vom_19.12.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2026-03-01",
+      "sha256": "a207e53543f6174ca57ff4a0a3307030c9a5d511d987cfa71f5e266f85058976",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 9,
+          "reading": "für jede Person ab 14 Jahren 3,50 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten fünften Lebensjahr"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 9,
+          "reading": "für jedes Kind von sechs Jahren bis zum vollendeten 13. Lebensjahr 1,30 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 9,
+          "reading": "für jedes Kind von sechs Jahren bis zum vollendeten 13. Lebensjahr 1,30 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde Bernau im Schwarzwald nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt 8 3 Abs. 2 entsprechend"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Teilnehmer von Schullandheimaufenthalten."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 7,
+          "reading": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt:"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 6,
+          "reading": "eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt Für jede Person ab 14 Jahren 79,00 € Für jedes Kind von sechs Jahren bis zum vollendeten 13. Lebensjahr 21,00 €"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "berechtigt zur kostenfreien Nutzung des ÖPNV der teilnehmenden Verkehrsverbünde des Schwarzwalds."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Der Beherberger ist verpflichtet, dem Gast eine KONUS Inklusiv-Gästekarte Bernau im Schwarzwald auszuhändigen"
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "innerhalb von drei Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "für jede Person ab 14 Jahren 3,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten fünften Lebensjahr"
+          },
+          {
+            "underAge": 14,
+            "cents": 130,
+            "quote": "für jedes Kind von sechs Jahren bis zum vollendeten 13. Lebensjahr 1,30 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste, die nicht länger als einen Tag in der Gemeinde bleiben; An- und Abreisetag zählen dabei zusammen als ein Tag",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde Bernau im Schwarzwald nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 2 entsprechend"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen"
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Weil An- und Abreisetag zusammen als ein Tag zählen, kann schon eine einzelne Übernachtung frei sein; frag im Zweifel die Gemeinde. Der Rechner zählt jede Nacht.",
+        "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+      },
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von mindestens 70 Prozent 20 Prozent weniger.",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt:"
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: 79 Euro je Person ab 14 Jahren und 21 Euro je Kind von sechs bis 13 Jahren.",
+        "quote": "eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt Für jede Person ab 14 Jahren 79,00 € Für jedes Kind von sechs Jahren bis zum vollendeten 13. Lebensjahr 21,00 €"
+      },
+      {
+        "text": "In der Kurtaxe steckt die Konus-Abgabe: Mit der Gästekarte fahren die Gäste kostenlos mit Bus und Bahn im Schwarzwald.",
+        "quote": "berechtigt zur kostenfreien Nutzung des ÖPNV der teilnehmenden Verkehrsverbünde des Schwarzwalds."
+      },
+      {
+        "text": "Du händigst jedem kurtaxepflichtigen Gast die KONUS Inklusiv-Gästekarte aus, nachdem der Gast den Meldeschein selbst ausgefüllt hat.",
+        "quote": "Der Beherberger ist verpflichtet, dem Gast eine KONUS Inklusiv-Gästekarte Bernau im Schwarzwald auszuhändigen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Was im Kalendermonat fällig geworden ist, führst du bis zum 10. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von drei Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bernau-im-schwarzwald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          130
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "husum",
+  "name": "Husum",
+  "short": "Husum",
+  "ags": "01054056",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Amtliche Bekanntmachung: Satzung der Stadt Husum über die Erhebung einer Tourismusabgabe vom 20.11.2025, veröffentlicht am 21.11.2025",
+      "url": "https://www.husum.org/media/custom/3214_3244_1.PDF?1763725181",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "a1ba728e32f877455c7f7f7e5a50ec517aefec27c6d3f7f710642e3e6afc6bb2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "ortsrecht": {
+      "title": "Stadt Husum, Ortsrecht",
+      "url": "https://www.husum.org/Verwaltung-Politik/Verwaltung/Ortsrecht-/",
+      "kind": "municipality",
+      "changedOn": "2026-10-15",
+      "sha256": "31ad5b424cd37a92859cf6864670897cff77694fb510e43a7ea3351eb9253ecb",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": null,
+  "noLevy": {
+    "text": "Im Ortsrecht der Stadt Husum steht keine Kurabgabe, nur die Tourismusabgabe.",
+    "source": "ortsrecht",
+    "quote": "Satzung der Stadt Husum über die Erhebung einer Tourismusabgabe",
+    "absent": [
+      "Kurabgabe",
+      "Kurbeitrag",
+      "Kurtaxe",
+      "Gästebeitrag",
+      "Gästeabgabe"
+    ]
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "satzung",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Husum im Rahmen einer selbstständigen Tätigkeit Leistungen anbietest, die zur Deckung des Bedarfs von Touristen geeignet sind.",
+      "quote": "indem sie im Rahmen selbstständiger Tätigkeit Leistungen anbieten, die zur Deckung des Bedarfs von Touristen geeignet sind."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und Gästezimmer ohne hotelmäßige Leistungen",
+        "quote": "Vermietung von Ferienwohnungen und Gästezimmern (private Zimmervermietung ) 903 ohne hotelmäßige Leistungen 30",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe K - 100,0 v. H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen und Gästezimmer mit hotelmäßigen Leistungen",
+        "quote": "Vermietung von Ferienwohnungen und Gästezimmern (private Zimmervermietung ) 903 ohne hotelmäßige Leistungen 30 904 mit hotelmäßigen Leistungen 24",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vorteilsstufe K - 100,0 v. H."
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück, Umsatz bis 200.000 €",
+        "quote": "Hotels garnis und Pensionen mit Frühstück 803 Umsatz bis 200.000 € 30",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe J - 80,0 v. H."
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück, Umsatz über 200.000 €",
+        "quote": "Hotels garnis und Pensionen mit Frühstück 803 Umsatz bis 200.000 € 30 804 Umsatz über 200.000 € 24",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe J - 80,0 v. H."
+          },
+          "profit": {
+            "percent": 24
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- oder Vollverpflegung, Umsatz bis 500.000 €",
+        "quote": "Hotels und Pensionen mit Teil- oder Vollverpflegung 801 Umsatz bis 500.000 € 25",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe J - 80,0 v. H."
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- oder Vollverpflegung, Umsatz über 500.000 €",
+        "quote": "Hotels und Pensionen mit Teil- oder Vollverpflegung 801 Umsatz bis 500.000 € 25 802 Umsatz über 500.000 € 15",
+        "turnover": {
+          "advantage": {
+            "percent": 80,
+            "quote": "Vorteilsstufe J - 80,0 v. H."
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.81,
+      "quote": "Der Abgabesatz wird errechnet, indem der zu deckende Aufwand (§ 1 Abs. 2 bis 4) durch die Summe der Messbeträge aller Abgabepflichtigen nach § 3 Abs. 1 dividiert wird. Der Abgabesatz beträgt 5,81 v.H."
+    },
+    "basis": {
+      "text": "Es zählt der Umsatz des jeweiligen Kalenderjahres: alle Einnahmen ohne Abzug von Kosten, nur die ans Finanzamt abgeführte Umsatzsteuer wird abgezogen.",
+      "quote": "(4) Maßgeblich für die Ermittlung des jährlichen Umsatzes ist der Umsatz des jeweiligen Kalenderjahres. Als Umsatz gilt die Gesamtsumme der Einnahmen ohne Abzug von Kosten oder Steuern mit Ausnahme der an das Finanzamt tatsächlich abgeführten Umsatzsteuer."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 30. Juni jeden Jahres gibst du die Erklärung über deinen Umsatz des Vorjahres ab; fällt der 30. Juni auf ein Wochenende oder einen Feiertag, gilt der nächste Werktag.",
+      "quote": "(2) Die Abgabepflichtigen haben bis zum 30. Juni eines jeden Jahres die Erklärung über den betrieblichen Umsatz des Vorjahres gemäß § 3 Abs. 4 abzugeben. Fällt der 30. Juni auf einen Sonnabend, Sonntag oder einen gesetzlichen Feiertag, verschiebt sich die Abgabefrist auf den nächsten darauf folgenden Werktag."
+    },
+    "deadline": {
+      "text": "Die Abgabenschuld entsteht zum Ende des Kalenderjahres; fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "(3) Die Abgabenschuld entsteht jeweils mit Ende eines jeden Kalenderjahres. (4) Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Abgabenbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du der Steuerabteilung der Stadt innerhalb eines Monats an.",
+        "quote": "insbesondere sind der Beginn und das Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats gegenüber der Steuerabteilung anzuzeigen."
+      },
+      {
+        "text": "Die Pflicht beginnt mit dem Kalenderjahr, frühestens mit dem Start deiner Vermietung.",
+        "quote": "(1) Die Abgabepflicht beginnt am Anfang eines jeden Kalenderjahres, jedoch nicht vor Aufnahme der abgabepflichtigen Tätigkeit."
+      },
+      {
+        "text": "Die Pflicht endet erst mit dem Kalenderjahr, in dem du die Vermietung endgültig einstellst; eine Pause zwischen den Saisons gilt nicht als Ende.",
+        "quote": "(2) Die Abgabepflicht endet mit Ablauf des Kalenderjahres, in dem die abgabepflichtige Tätigkeit endgültig eingestellt wird. Als Beendigung einer abgabepflichtigen Tätigkeit ist es nicht anzusehen, wenn diese nur saisonal ausgeübt wird und am Saisonende vorübergehend eingestellt wird."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/husum/",
+  "calculation": {
+    "kind": "business",
+    "lines": [
+      {
+        "label": "Ferienwohnungen und Gästezimmer ohne hotelmäßige Leistungen",
+        "permille": 17.43,
+        "rate": "1,743 % des Jahresumsatzes."
+      },
+      {
+        "label": "Ferienwohnungen und Gästezimmer mit hotelmäßigen Leistungen",
+        "permille": 13.943999999999999,
+        "rate": "1,394 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück, Umsatz bis 200.000 €",
+        "permille": 13.943999999999999,
+        "rate": "1,394 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotel garni oder Pension mit Frühstück, Umsatz über 200.000 €",
+        "permille": 11.155199999999999,
+        "rate": "1,116 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- oder Vollverpflegung, Umsatz bis 500.000 €",
+        "permille": 11.62,
+        "rate": "1,162 % des Jahresumsatzes."
+      },
+      {
+        "label": "Hotel oder Pension mit Teil- oder Vollverpflegung, Umsatz über 500.000 €",
+        "permille": 6.9719999999999995,
+        "rate": "0,697 % des Jahresumsatzes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "titisee-neustadt",
+  "name": "Titisee-Neustadt",
+  "short": "Titisee-Neustadt",
+  "ags": "08315113",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Titisee-Neustadt über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 19.11.2024",
+      "url": "https://www.titisee-neustadt.de/fileadmin/Dateien/Website/Dateien/Satzungen/Kurtaxesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "76194fed0c9f4bd2433b35080f53b40687d363cf29fe02c7150a54ba15df913e",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist der kurörtliche Bereich von Titisee zwischen dem Titisee und der Bundesstraße 500 samt Spiegelhaldenweg und Kupferhammergebiet, dazu die Gebietsteile der früheren Gemeinde Saig (ohne den Campingplatz Sandbank) und der Stadtteil Neustadt, ohne Kirchsteige und ohne das Rasthaus auf dem Hochfirst.",
+          "quote": "Zum Kurbezirk 1 gehören der kurörtliche Bereich des Stadtteils Titisee, zwischen dem Gewässer Titisee und der Bundesstraße 500, einschließlich des Spiegelhaldenwegs, des Kupferhammergebietes (siehe beigefügter Lageplan) und die eingegliederten Gebietsteile der ehemaligen Gemeinde Saig, mit Ausnahme des Campingplatzes Sandbank, sowie der Stadtteil Neustadt, jedoch ohne Kirchsteige und ohne Rasthaus auf dem Hochfirst,"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren € 3,50 € 3,00"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren € 3,50 € 3,00 für Kinder ab 6 Jahren und Jugendliche € 1,60 € 1,60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Stadtteile Langenordnach, Rudenberg, Schwärzenbach und Waldau, die übrigen Gebietsteile von Titisee und Neustadt sowie der Campingplatz Sandbank.",
+          "quote": "Zum Kurbezirk II gehören die Stadtteile Langenordnach, Rudenberg, Schwärzenbach und Waldau, die nicht unter Kurbezirk 1 fallenden Gebietsteile der Stadtteile Titisee und Neustadt sowie der Campingplatz Sandbank."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren € 3,50 € 3,00"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren € 3,50 € 3,00 für Kinder ab 6 Jahren und Jugendliche € 1,60 € 1,60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von"
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen und Kranken, wenn der Ausweis oder ein ärztliches Attest die Begleitung belegt",
+        "quote": "Begleitpersonen von schwerbehinderten Personen und Kranken im Sinne von Nr. 4 und Nr. 5, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Stadt Titisee-Neustadt arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Stadt Titisee-Neustadt aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Stadt ab und haftest für den vollständigen Eingang.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Stadt Titisee-Neustadt abzuführen. Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Stadt ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Stadt Titisee-Neustadt abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab, über das kostenlose elektronische Meldeverfahren.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/titisee-neustadt/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

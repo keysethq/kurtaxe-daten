@@ -1,0 +1,159 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "eslohe-sauerland",
+  "name": "Gemeinde Eslohe (Sauerland)",
+  "short": "Eslohe",
+  "ags": "05958016",
+  "state": "Nordrhein-Westfalen",
+  "district": "Hochsauerlandkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Eslohe (Sauerland) über die Erhebung von Kurbeiträgen (Kurbeitragssatzung) vom 30.06.2017, zuletzt geändert durch die III. Nachtragssatzung vom 24.11.2023 (Kurbeitrag ab 01.01.2024)",
+      "url": "https://www.eslohe.de/fileadmin/eslohe.de/Rathaus/Ortsrecht/Kurbeitragssatzung_ab_01.01.2024_inkl._Anlagen.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "7f2da7edd092f96e63cf079ee22a4b37d32786c5f44a5c939b203c4e676ed0cd",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur in den anerkannten Kurgebieten der Kurorte Eslohe (einschließlich der Erweiterungsflächen), Wenholthausen und Cobbenrode; die Anlagen der Satzung beschreiben ihre Grenzen.",
+      "quote": "Die Kurgebiete umfassen die vom Minister für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen nach dem Kurortegesetz in den Kurorten Eslohe (incl. der Erweiterungsflächen), Wenholthausen und Cobbenrode als Kurgebiet anerkannten Bereiche."
+    },
+    "netOfVat": {
+      "quote": "zuzüglich der gesetzlichen Mehrwertsteuer."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 234,
+          "quote": "Der Kurbeitrag beträgt ab dem 01.01.2024 je Person und Aufenthaltstag 2,34 € zuzüglich der gesetzlichen Mehrwertsteuer."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 14. Lebensjahr;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden;"
+      },
+      {
+        "text": "Ortsfremde, die zu beruflichen Ausbildungszwecken vor Ort übernachten",
+        "quote": "Ortsfremde Personen, die zu beruflichen Ausbildungszwecken im Erhebungsgebiet Unterkunft nehmen;"
+      },
+      {
+        "text": "Ortsfremde in organisierten Jugendlagern in Schützenhallen und Zeltlagern",
+        "quote": "Ortsfremde Personen, die im Rahmen von organisierten Jugendlagern in Schützenhallen und Zeltlagern Unterkunft nehmen;"
+      },
+      {
+        "text": "Kranke in stationärer Behandlung in einem Krankenhaus der allgemeinen Krankenversorgung",
+        "quote": "Kranke, die sich zur stationären Behandlung in einem Krankenhaus aufhalten, das der allgemeinen Krankenversorgung dient;"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie Kureinrichtungen nicht besuchen können, mit amtlicher oder ärztlicher Bescheinigung",
+        "quote": "Kranke und Schwerbehinderte, solange sie (unabhängig von einem Grad der Behinderung) nicht in der Lage sind, Kureinrichtungen zu besuchen und dies durch amtliche oder ärztliche Bescheinigung nachweisen;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für geschäftsbedingte Übernachtungen halbiert sich der Kurbeitrag auf 1,17 Euro je Person und Aufenthaltstag zuzüglich Mehrwertsteuer.",
+        "quote": "Für geschäftsbedingte Übernachtungen erfolgt die 50%ige Reduzierung des Kurbeitrages und beträgt pro Person und Aufenthaltstag 1,17 € zuzüglich der gesetzlichen Mehrwertsteuer."
+      },
+      {
+        "text": "Schwerbehinderte mit mindestens 80 Prozent Schwerbehinderung zahlen die Hälfte, ebenso ihre Begleitpersonen, wenn eine ständige Begleitung nachgewiesen ist.",
+        "quote": "Schwerbehinderte mit mindestens 80 % Schwerbehinderung;"
+      },
+      {
+        "text": "Du sorgst dafür, dass jeder kurbeitragspflichtige Gast gleich nach der Ankunft eine Gästekarte bekommt.",
+        "quote": "Der Unterkunftsgeber ist daher verpflichtet, dafür Sorge zu tragen, dass von ihm jede kurbeitragspflichtige Person unmittelbar nach seiner Ankunft im Erhebungsgebiet eine nach Abs. 1 ausgestellte Gästekarte erhält."
+      },
+      {
+        "text": "Du haftest für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrags und dessen Abführung.",
+        "quote": "für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung."
+      },
+      {
+        "text": "Du hältst die Kurbeitragssatzung für deine Gäste zur Einsicht bereit.",
+        "quote": "deren Einsichtnahme sie ihren Gästen ermöglichen müssen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn an die Gemeinde ab.",
+      "quote": "Der Kurbeitrag ist durch den Unterkunftsgeber (Aufzeichnungs- und Meldepflichtiger nach Abs. 2) von den kurbeitragspflichtigen Personen einzuziehen und an die Gemeinde Eslohe (Sauerland) abzuführen."
+    },
+    "deadline": {
+      "text": "Die Gemeinde setzt den Kurbeitrag durch Bescheid fest; er ist innerhalb eines Monats nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Kurbeitrag wird von der Gemeinde Eslohe (Sauerland) durch Bescheid festgesetzt und ist innerhalb eines Monats nach Bekanntgabe des Bescheides fällig."
+    },
+    "reporting": {
+      "text": "Du erfasst die Personalien deiner Gäste und übermittelst bis zum 5. Tag des Folgemonats alle Übernachtungen des Vormonats online an die Gemeinde.",
+      "quote": "bis zum 5. Tag des Folgemonats alle Übernachtungen des Vormonats auf dem elektronischen Wege"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/eslohe-sauerland/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 234,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

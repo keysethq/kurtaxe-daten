@@ -1,0 +1,264 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schliersee",
+  "name": "Markt Schliersee",
+  "short": "Schliersee",
+  "ags": "09182131",
+  "state": "Bayern",
+  "district": "Miesbach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages im Markt Schliersee (Kurbeitragssatzung – KBS) vom 30.09.2025 (Scan)",
+      "url": "https://rathaus.schliersee.de/wp-content/uploads/Kurbeitragssatzung-2.pdf",
+      "kind": "statute",
+      "inForce": "2025-12-01",
+      "sha256": "151edbe91dd2612d8b7276d30df55bb76e95916a225b6c74b74344297a71bea4",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) für Personen ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Von der Entrichtung des Kurbeitrages sind Kinder bis zum vollendeten 6. Lebensjahr befreit, erhalten jedoch eine Gästekarte."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,50 €"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,50 €"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die ausschließlich zum Zweck der Berufsausübung im Kurgebiet übernachten (z. B. Bauarbeiter, Monteure, Messebesucher)."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Schwerbeschädigte mit dem Ausweis und Zusatz"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "oder GdB >=80"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "c) für Tagungs- und Seminargäste 1,50 €"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "In den vorstehenden Beträgen ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Der Kurbeitrag wird ganzjährig erhoben."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "wird auf den Namen des Kurbeitragspflichtigen vom Gastgeber ausgestellt und ist nicht übertragbar."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Die Nutzung des elektronischen Meldewesens ist ab dem 01.12.2025 für alle nach"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "spätestens am Tag nach der Anreise, bei der Gemeinde zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a) für Personen ab dem vollendeten 18. Lebensjahr 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Entrichtung des Kurbeitrages sind Kinder bis zum vollendeten 6. Lebensjahr befreit, erhalten jedoch eine Gästekarte."
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "b) für Kinder/Jugendliche vom vollendeten 6. bis zum vollendeten 18. Lebensjahr 1,50 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche bei Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Personen, die ausschließlich zur Berufsausübung im Kurgebiet übernachten, etwa Monteure oder Messebesucher",
+        "quote": "Personen, die ausschließlich zum Zweck der Berufsausübung im Kurgebiet übernachten (z. B. Bauarbeiter, Monteure, Messebesucher)."
+      },
+      {
+        "text": "Schwerbeschädigte mit Ausweis (Zusatz B, aG, Bl oder H), auf Antrag",
+        "quote": "Schwerbeschädigte mit dem Ausweis und Zusatz"
+      },
+      {
+        "text": "Schwerbeschädigte mit einem Grad der Behinderung ab 80, auf Antrag",
+        "quote": "oder GdB >=80"
+      },
+      {
+        "text": "Notwendige Begleitpersonen von Schwerbeschädigten mit Ausweis, auf Antrag",
+        "quote": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagungs- und Seminargäste zahlen 1,50 Euro.",
+        "quote": "c) für Tagungs- und Seminargäste 1,50 €"
+      },
+      {
+        "text": "Die Umsatzsteuer ist in den Beträgen enthalten.",
+        "quote": "In den vorstehenden Beträgen ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Der Kurbeitrag wird das ganze Jahr erhoben.",
+        "quote": "Der Kurbeitrag wird ganzjährig erhoben."
+      },
+      {
+        "text": "Die Gästekarte stellst du als Gastgeber auf den Namen des Gastes aus.",
+        "quote": "wird auf den Namen des Kurbeitragspflichtigen vom Gastgeber ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Seit dem 1. Dezember 2025 ist das elektronische Meldeverfahren der Gemeinde Pflicht; auf Antrag kann die Gemeinde bei unbilliger Härte davon befreien.",
+        "quote": "Die Nutzung des elektronischen Meldewesens ist ab dem 01.12.2025 für alle nach"
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde für den Eingang.",
+      "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du unverzüglich, spätestens am Tag nach der Anreise, bei der Gemeinde, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "spätestens am Tag nach der Anreise, bei der Gemeinde zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schliersee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

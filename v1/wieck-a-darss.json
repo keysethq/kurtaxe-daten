@@ -1,0 +1,339 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wieck-a-darss",
+  "name": "Wieck a. Darß",
+  "short": "Wieck a. Darß",
+  "ags": "13073100",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurabgabe in der Gemeinde Wieck a. Darß (Kurabgabensatzung), Beschluss vom 08.12.2025",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/wieck/kurabgabesatzung/kurabgabesatzung-wieck-ausfertigung.pdf?cid=dt7",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "73cc595349443cd328ad4b4b9d08613b0d1271d717a8634bc582ff6e1247d36f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der An- und der Abreisetag werden als jeweils ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurabgabe beträgt ganzjährig: pro Person und Aufenthaltstag 2,85 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres bei Nachweis des Lebensalters,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 2,
+          "reading": "je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,50 Euro"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 2,
+          "reading": "je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,50 Euro"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerstbehinderte mit einer Behinderung von 80 % und deren Begleitpersonen, wobei das Merkzeichen \"B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet; darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Die Kurabgabe für eine Jahreskurkarte beträgt: - pro Person 80,07 Euro"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "bis zur Vollendung des 16. Lebensjahres 42,14 Euro"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Der Eigentümer oder Besitzer einer Wohnungseinheit im Sinne des $ 2 Abs. 2 Satz 1 sowie deren Familienangehörigen im Sinne des $ 2 Abs. 2 Satz 4 sind verpflichtet, eine Jahreskurabgabe zu entrichten."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Kurabgabepflichtige, die keine Unterkunft im Erhebungsgebiet nehmen (Tagesgäste), haben bei Ankunft im Erhebungsgebiet ihre Tageskurkarte"
+        },
+        {
+          "where": "remarks[5]",
+          "page": 3,
+          "reading": "Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 4,
+          "reading": "haben die Wohnungsgeber oder deren Beauftragte das von der Kur- und Tourist GmbH unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "ist Wohnungsgeber und als solcher verpflichtet die beherbergten Personen am Tag der Ankunft gemäß $ 11 Abs. 3 S. 1 KAG M-V zu melden. Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "bis zum 5. eines jeden Monats für den vorangegangenen Monat beim Kurbetrieb abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "die beherbergten Personen am Tag der Ankunft gemäß $ 11 Abs. 3 S. 1 KAG M-V zu melden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Wieck a. Darß, Nr. 73/23, Beschluss vom 20.12.2023, Lesefassung",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/wieck/fremdenverkehrsabgabesatzung/fremdenverkehrsabgabesatzung-text.pdf?cid=4nm",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "e5e94ca8213e91c4fd1191c211482ab23e8933e5a876afc0e0f43012faae36bd",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvaAnlage": {
+      "title": "Anlage 1 zur Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Wieck a. Darß vom 21.12.2023 (Vorteilsstufen, Verzeichnis der Betriebsarten)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/wieck/fremdenverkehrsabgabesatzung/fremdenverkehrsabgabesatzung-anlage.pdf?cid=4np",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "9d8013169c640aa64c1b1252fe78def1bc20d1ab6e32363445bdbd4a8dfc350c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und der Abreisetag werden als jeweils ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 285,
+          "quote": "Die Kurabgabe beträgt ganzjährig: pro Person und Aufenthaltstag 2,85 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres bei Nachweis des Lebensalters,"
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "je Kind ab Vollendung des 6. Lebensjahres bis zur Vollendung des 16. Lebensjahres je Aufenthaltstag 1,50 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Behinderung von 80 % und ihre Begleitpersonen, wenn im Behindertenausweis das Merkzeichen B steht",
+        "quote": "Schwerstbehinderte mit einer Behinderung von 80 % und deren Begleitpersonen, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss."
+      },
+      {
+        "text": "Wer in Wieck a. Darß arbeitet (auch bei Tagungen und Seminaren), in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet - arbeitet; darunter fällt auch die beruflich veranlasste Teilnahme an Tagungen, Seminaren, Lehrgängen und vergleichbaren Veranstaltungen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe enthält die gesetzliche Mehrwertsteuer.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+      },
+      {
+        "text": "Eine Jahreskurkarte kostet 80,07 € pro Person.",
+        "quote": "Die Kurabgabe für eine Jahreskurkarte beträgt: - pro Person 80,07 Euro"
+      },
+      {
+        "text": "Eine Jahreskurkarte für Kinder bis zur Vollendung des 16. Lebensjahres kostet 42,14 €.",
+        "quote": "bis zur Vollendung des 16. Lebensjahres 42,14 Euro"
+      },
+      {
+        "text": "Wer in Wieck a. Darß eine Zweitwohnung hat, zahlt eine Jahreskurabgabe.",
+        "quote": "Der Eigentümer oder Besitzer einer Wohnungseinheit im Sinne des § 2 Abs. 2 Satz 1 sowie deren Familienangehörigen im Sinne des § 2 Abs. 2 Satz 4 sind verpflichtet, eine Jahreskurabgabe zu entrichten."
+      },
+      {
+        "text": "Auch Tagesgäste ohne Übernachtung zahlen die Kurabgabe, über eine Tageskurkarte.",
+        "quote": "Kurabgabepflichtige, die keine Unterkunft im Erhebungsgebiet nehmen (Tagesgäste), haben bei Ankunft im Erhebungsgebiet ihre Tageskurkarte"
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Wohnungsgeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      },
+      {
+        "text": "Das elektronische Melde- und Abrechnungssystem der Kur- und Tourist GmbH musst du nutzen, außer sie befreit dich auf Antrag.",
+        "quote": "haben die Wohnungsgeber oder deren Beauftragte das von der Kur- und Tourist GmbH unentgeltlich zur Verfügung gestellte elektronische Melde- und Kurabgabenabrechnungssystem zu nutzen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie am Anreisetag und zieht die Kurabgabe für den ganzen Aufenthalt ein.",
+      "quote": "ist Wohnungsgeber und als solcher verpflichtet die beherbergten Personen am Tag der Ankunft gemäß § 11 Abs. 3 S. 1 KAG M-V zu melden. Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. eines jeden Monats für den Vormonat an den Kurbetrieb.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat beim Kurbetrieb abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du am Tag der Ankunft.",
+      "quote": "die beherbergten Personen am Tag der Ankunft gemäß § 11 Abs. 3 S. 1 KAG M-V zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Wieck unmittelbar oder mittelbar wirtschaftliche Vorteile bringt.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie ganz oder teilweise rechtsfähige Personenvereinigungen, denen durch den Tourismus im Erhebungsgebiet der Gemeinde Wieck a. Darß unmittelbare oder mittelbare wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Ferienhäuser und Zimmer (Vorteilsstufe 4)",
+        "quote": "Realgröße Faktor Bett 1,00",
+        "units": {
+          "count": 1,
+          "per": "Bett",
+          "value": {
+            "cents": 4500,
+            "quote": "Der Abgabesatz beträgt 45,00 EUR je Vorteilseinheit."
+          }
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Den Beginn deiner Vermietung teilst du der Kur- und Tourist GmbH Darß unverzüglich mit, Änderungen zeigst du ihr unaufgefordert bis zum 15. Juli jedes Jahres an.",
+      "quote": "haben der Kur- und Tourist GmbH Darß die Aufnahme der abgabepflichtigen Tätigkeiten und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe oder der Vorausleistung unverzüglich mitzuteilen. Änderungen sind unaufgefordert bis zum 15. Juli jedes Jahres bei der Kur- und Tourist GmbH anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb von einem Monat nach Bekanntgabe des Abgabebescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Für Beherbergungsbetriebe, Ferienwohnungen, Ferienhäuser und Zimmervermieter zählt jedes Fremdenbett, das gegen Entgelt zur Beherbergung bereitgehalten wird, als Vorteilseinheit.",
+        "quote": "bei Beherbergungsbetrieben, Kurkliniken, Ferienwohnungen und -häusern sowie Zimmervermietern nach der Zahl der vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Ein Bett zählt mit dem Faktor 1,00 als eine Vorteilseinheit.",
+        "quote": "Realgröße Faktor Bett 1,00"
+      },
+      {
+        "text": "Die Vermietung von Ferienwohnungen steht im Betriebsartenverzeichnis der Anlage unter Vorteilsstufe 4.",
+        "quote": "Vermietung von Ferienwohnungen",
+        "source": "fvaAnlage"
+      },
+      {
+        "text": "Vorteilsstufe 4 zählt mit dem Faktor 100 Prozent, du zahlst also den vollen Satz je Bett.",
+        "quote": "d) Vorteilsstufe 4 mit dem Faktor: 100% (1,00):"
+      },
+      {
+        "text": "Die Merkmale für deine Einstufung gelten nach den Verhältnissen am 1. Juli eines Jahres.",
+        "quote": "Die Merkmale für die Einstufung werden nach den Verhältnissen am 01. Juli eines jeden Jahres ermittelt."
+      },
+      {
+        "text": "Fängst du nach dem 1. Juli mit der Vermietung an oder hörst du vor dem 1. Juli auf, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 1. Juli oder das Ende der abgabepflichtigen Tätigkeit vor dem 1. Juli eines Jahres, so kann die Jahresabgabe auf Antrag um 50 von 100 ermäßigt werden."
+      },
+      {
+        "text": "Eine nebenberufliche Tätigkeit, die eine Person mit weniger als 5 Wochenstunden ausübt, ist abgabefrei.",
+        "quote": "Handelt es sich bei einem Betrieb um eine nebenberufliche Tätigkeit, die nur von einer Person ausgeführt wird, deren Wochenarbeitszeit unter 5 Stunden liegt, entfällt die Abgabepflicht."
+      },
+      {
+        "text": "Die Kur- und Tourist GmbH Darß zieht die Abgabe für die Gemeinde ein.",
+        "quote": "Die Fremdenverkehrsabgabe wird von der Kur- und Tourist GmbH Darß, Bliesenrader Weg 2 in 18375 Wieck a. Darß, für die Gemeinde Wieck a. Darß eingezogen."
+      },
+      {
+        "text": "Die Abgabepflicht endet erst mit dem Kalenderjahr, in dem du die Vermietung endgültig einstellst; eine Pause zwischen den Saisons gilt nicht als Ende.",
+        "quote": "Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt und am Saisonende vorübergehend eingestellt wird."
+      },
+      {
+        "text": "Den Bescheid erlässt das Amt Darß/Fischland für die Gemeinde.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch das Amt Darß / Fischland für die Gemeinde."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wieck-a-darss/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 285,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

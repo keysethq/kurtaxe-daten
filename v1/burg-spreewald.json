@@ -1,0 +1,230 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "burg-spreewald",
+  "name": "Gemeinde Burg (Spreewald)",
+  "short": "Burg (Spreewald)",
+  "ags": "12071032",
+  "state": "Brandenburg",
+  "district": "Spree-Neiße",
+  "sources": {
+    "satzung": {
+      "title": "Satzung des Amtes Burg (Spreewald) über die Erhebung eines Kurbeitrages in der Gemeinde Burg (Spreewald)/Bórkowy (Błota) (Kurbeitragssatzung) vom 17. März 2025 in der Fassung der 2. Änderungssatzung vom 8. Dezember 2025, Lesefassung des Amtes",
+      "url": "https://amt-burg-spreewald.de/visioncontent/mediendatenbank/amt_kurbeitrag_2025_lesefassung_2_aend.pdf",
+      "kind": "municipality",
+      "sha256": "24939db77165a0a665e80d40e0cd1210f21d5344b927c4aa2884cff2a9498608",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Tourismusbeitragssatzung des Amtes Burg (Spreewald), beschlossen am 6. Juli 2026, bekannt gemacht im Amtsblatt vom 5. August 2026; die Satzung gilt rückwirkend ab 1. Januar 2016, die Anlage 2 mit den Vorteilssätzen ab 1. Juli 2026",
+      "url": "https://amt-burg-spreewald.de/visioncontent/mediendatenbank/tourismusbeitragssatzung_2026.pdf",
+      "kind": "statute",
+      "inForce": "2016-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "08bd228e38eff2017ab7c09e69f39c89184fc0cb8d4a36c13edbebdfdea4df09",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "(An-und Abreisetag gelten zusammen als ein ganzer Tag)"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "a) jede Person ab dem vollendeten 18. Lebensjahr 2,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Kalendertage je Jahr",
+      "quote": "Der Kurbeitrag wird nach den Aufenthaltstagen, längstens jedoch für 28 Kalendertage im Jahr berechnet."
+    },
+    "exemptions": [
+      {
+        "text": "Gäste, die von ortsansässigen Verwandten unentgeltlich in die häusliche Gemeinschaft aufgenommen werden, zahlen nichts.",
+        "quote": "Gäste, die von ortsansässigen Verwandten unentgeltlich und ohne Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen nichts.",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von mindestens 80,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn das Merkzeichen B im Ausweis steht.",
+        "quote": "Begleitpersonen, welche Schwerbehinderte begleiten; das Merkzeichen „B“ muss auf dem Schwerbehindertenausweis nachgewiesen werden,"
+      },
+      {
+        "text": "Erkrankte, die ihre Unterkunft nicht verlassen können, zahlen für die Dauer nichts; den Nachweis legen sie dir spätestens am Abreisetag vor.",
+        "quote": "erkrankte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis belegen, für die Dauer ihres Zustandes; der Nachweis ist spätestens am Tage der Abreise dem Meldepflichtigen vorzulegen;"
+      },
+      {
+        "text": "Ortsfremde, die im Ort arbeiten oder ausgebildet werden (Geschäftsreisende), zahlen nichts.",
+        "quote": "Ortsfremde, die sich zur Ausbildung und Berufsausübung in Burg (Spreewald)/Bórkowy (Błota) aufhalten, wenn sie im Erhebungsgebiet arbeiten und ausgebildet werden (Geschäftsreisende);"
+      },
+      {
+        "text": "Kinder- und Schülergruppen ab fünf Personen und ihre Begleitpersonen in Ferienlagern, Landschulheimen und Jugendherbergen zahlen nichts.",
+        "quote": "Kinder-und Schülergruppen ab fünf Personen und deren Begleitpersonen in Ferienlagern, Landschulheimen, Jugendherbergen, Einrichtungen des Behindertenwerkes und vergleichbaren Einrichtungen;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Rehaklinikpatienten zahlen 1,00 € je Tag.",
+        "quote": "b) Rehaklinikpatienten 1,00 Euro"
+      },
+      {
+        "text": "Tagesgäste zahlen 1,00 € je Person, auch ohne Übernachtung; das betrifft dich nur, wenn du Tagesgäste empfängst.",
+        "quote": "Tagesgäste haben einen Kurbeitrag von 1,00 Euro pro Person zu entrichten."
+      },
+      {
+        "text": "Der pauschalierte Jahreskurbeitrag beträgt 56,00 €.",
+        "quote": "c) pauschalierter Jahreskurbeitrag 56,00 Euro"
+      },
+      {
+        "text": "Für Übernachtungsgäste ist der Kurbeitrag am Anreisetag für den ganzen Aufenthalt in einer Summe fällig und wird bei dir entrichtet.",
+        "quote": "Für Übernachtungsgäste ist der Kurbeitrag am Anreisetag für den gesamten beabsichtigten Aufenthaltszeitraum in einer Summe fällig und an den Beherbergungsbetrieb zu entrichten."
+      },
+      {
+        "text": "Du haftest der Gemeinde gegenüber für den vollständigen Einzug des Kurbeitrags.",
+        "quote": "Sie haften der Gemeinde gegenüber für den vollständigen Einzug des Kurbeitrages."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du das dem Amt unverzüglich mit Name und Adresse.",
+        "quote": "Weigert sich eine kurbeitragspflichtige Person, den Kurbeitrag zu entrichten, hat dies der Meldepflichtige dem Amt Burg (Spreewald) unverzüglich unter Angabe von Name und Adresse der kurbeitragspflichtigen Person zu melden."
+      },
+      {
+        "text": "Ändert ein Gast seinen Abreisetag oder unterbricht er den Aufenthalt, fertigst du eine neue GästeCard.",
+        "quote": "Ändert ein Gast seinen ursprünglichen Abreisetag bzw. unterbricht er seinen Aufenthalt, ist eine neue GästeCard zu fertigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn an die Gemeinde ab, vertreten durch das Amt Burg (Spreewald).",
+      "quote": "Die Meldepflichtigen haben den Kurbeitrag von den Kurbeitragspflichtigen einzuziehen und den Betrag an die Gemeinde, vertreten durch das Amt Burg (Spreewald), abzuführen."
+    },
+    "deadline": {
+      "text": "Was im Monat fällig geworden ist, rechnest du bis zum 15. des Folgemonats beim Amt ab.",
+      "quote": "Die Meldepflichtigen haben die im Laufe eines Monats fällig gewordenen Kurbeiträge jeweils zum 15. des folgenden Kalendermonats bei der Gemeinde, vertreten durch das Amt Burg (Spreewald), Hauptstraße 46, 03096 Burg (Spreewald)/Bórkowy (Błota) abzurechnen."
+    },
+    "reporting": {
+      "text": "Die Daten erfasst du elektronisch im System des Amtes.",
+      "quote": "Die Datenerfassung für die Abwicklung des Kurbeitrages und das Erzeugen der GästeCard erfolgt über ein elektronisches Verfahren."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Burg (Spreewald) besondere unmittelbare oder mittelbare wirtschaftliche Vorteile bringt.",
+      "quote": "Der Tourismusbeitrag wird von den Personen und den Unternehmen erhoben, denen durch den Tourismus besondere unmittelbare oder mittelbare wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Einen festen Betrag je Bett oder Wohnung nennt die Satzung nicht: Der Messbetrag ergibt sich, indem die Reineinnahmen mit dem Vorteilssatz deiner Betriebsart multipliziert werden.",
+      "quote": "Dieser ergibt sich, indem die Reineinnahmen (Absatz 6) mit dem Vorteilssatz (Absatz 5) multipliziert werden."
+    },
+    "rate": {
+      "percent": 5,
+      "quote": "5 v. H. des in § 6 Absatz 1 beschriebenen Messbetrages"
+    },
+    "basis": {
+      "text": "Maßgebend ist dein Umsatz des vorletzten Kalenderjahres vor dem Erhebungsjahr, also des Vorvorjahres.",
+      "quote": "Maßgebend ist der Umsatz des vorletzten dem Erhebungsjahr vorausgegangenen Kalenderjahres (Vorvorjahr)."
+    },
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 1. August des Erhebungsjahres teilst du dem Amt die Angaben des vorvergangenen Jahres glaubhaft mit.",
+      "quote": "1. August des Erhebungsjahres dem Amt Burg (Spreewald) glaubhaft mitzuteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag kommt per Bescheid und ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "einen Monat nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Reineinnahmen werden aus deinem Umsatz ermittelt: Angewendet wird der mittlere Reingewinnsatz der Richtsatzsammlung, die beim Erlass des Bescheides gilt.",
+        "quote": "Die Reineinnahmen werden aus dem erzielten Umsatz gemäß § 6 Absatz 1 und 2 ermittelt. Dazu wird der mittlere Reingewinnsatz aus der beim Erlass des Bescheides gültigen Richtsatzsammlung"
+      },
+      {
+        "text": "Den Tourismusbeitrag erhebt das Amt Burg (Spreewald); die Gemeinden haben ihm die Aufgabe Fremdenverkehr und Tourismus übertragen.",
+        "quote": "dem Amt Burg (Spreewald) zum 1. Januar 2001 die Selbstverwaltungsaufgabe Fremdenverkehr/Tourismus übertragen."
+      },
+      {
+        "text": "Der Vorteilssatz für Pensionen, Privatzimmervermietung, Ferienwohnungen und Ferienhäuser beträgt 100 Prozent.",
+        "quote": "Pensionen, Privatzimmervermietung, Ferienwohnung, Ferienhaus 100"
+      },
+      {
+        "text": "Die Vorteilssätze stehen in der Anlage; bis 30. Juni 2026 gilt Anlage 1, ab 1. Juli 2026 Anlage 2.",
+        "quote": "Anlage 1 (gültig für den Veranlagungszeitraum vom 1. Januar 2016 bis 30. Juni 2026) und Anlage 2 (gültig für den Veranlagungszeitraum ab 1. Juli 2026)"
+      },
+      {
+        "text": "Übst du mehrere Tätigkeiten aus, wird der Beitrag für jede gesondert berechnet.",
+        "quote": "Übt ein Beitragspflichtiger mehrere Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/burg-spreewald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

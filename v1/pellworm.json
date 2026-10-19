@@ -1,0 +1,544 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "pellworm",
+  "name": "Pellworm",
+  "short": "Pellworm",
+  "ags": "01054103",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Pellworm über die Erhebung einer Kurabgabe vom 19.09.2017 (mit § 4 Abs. 2 in der Fassung der 1. Änderungssatzung vom 20.09.2018)",
+      "url": "https://www.gemeinde-pellworm.de/app/download/9816040168/Satzung%20Kurabgabe%202018.pdf",
+      "kind": "statute",
+      "inForce": "2018-01-01",
+      "sha256": "49f73366bfa597c52ea69e29f8557672b49e49644c373039379e88d2b5a42626",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung2": {
+      "title": "2. Änderungssatzung zur Satzung der Gemeinde Pellworm über die Erhebung einer Kurabgabe vom 18.07.2019 (Saisons und Abgabesätze, in Kraft seit 01.01.2020)",
+      "url": "https://www.gemeinde-pellworm.de/app/download/10569508368/2.%20%C3%84nderungssatzung%20zur%20Satzung%20der%20Gemeinde%20Pellworm%20%C3%BCber%20die%20Erhebung%20einer%20Kurabgabe.pdf",
+      "kind": "statute",
+      "inForce": "2020-01-01",
+      "sha256": "46852e16762e8c7afeff3a9929f4edf2c51ff16a31380dcae11fddfd2fab6e5a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "a) indem in 84 Abs. 1 Buchst. a) bezeichneten Zeitraum 2,50 €",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 2,
+          "reading": "b) in dem in 8 4 Abs. 1 Buchst. b) bezeichneten Zeiträumen 1,00 €"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "a) Hauptsaison (8 Tage vor Ostersonntag bis 31. Oktober) b) Nebensaison (01. Januar bis 9 Tage vor Ostersonntag sowie 01. November bis 31. Dezember)"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "a) Schwerbehinderte, die eine Behinderung von 50% bis 99% nachweisen, sowie für eine erforderliche Begleitperson."
+        }
+      ]
+    },
+    "ta": {
+      "title": "Satzung der Gemeinde Pellworm über die Erhebung einer Tourismusabgabe vom 22.09.2016",
+      "url": "https://www.gemeinde-pellworm.de/app/download/9806201368/Satzung%20Tourismusabgabe%202017.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "78b1998abbdb4263af5e0b95fcb1c847065bc414b5236c12d0bda8fc5861bff2",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind natürliche und juristische Personen sowie nicht rechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen erbringen."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 2,
+          "reading": "Der Abgabesatz beträgt 5,45 v. H."
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[4].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[5].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[6].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[7].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.letting[8].turnover.advantage",
+          "page": 2,
+          "reading": "in der Vorteilsstufe 4: 100 v. H."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 2,
+          "reading": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen, multipliziert mit dem durchschnittlichen Gewinnanteil"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 3,
+          "reading": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "bis zum 31. Juli jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 3,
+          "reading": "Die festgesetzten Beträge sind zwei Wochen nach Bekanntgabe des Bescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 3,
+          "reading": "Auf die Tourismusabgabe können zu Beginn des Erhebungszeitraumes Vorauszahlungen bis zur Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 3,
+          "reading": "Die Abgabepflicht beginnt am Anfang eines jeden Kalenderjahres, jedoch nicht vor Aufnahme der abgabepflichtigen Tätigkeit."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 3,
+          "reading": "Endet eine abgabepflichtige Tätigkeit, die über den Ablauf des Vorjahres hinaus fortgesetzt wird, im laufenden Kalenderjahr, so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 3,
+          "reading": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+        }
+      ]
+    },
+    "taNachtrag": {
+      "title": "1. Änderungssatzung über die Satzung der Gemeinde Pellworm über die Erhebung einer Tourismusabgabe vom 21.11.2017",
+      "url": "https://www.gemeinde-pellworm.de/app/download/9805520368/Satzung%20Tourismusabgabe%201.%20Nachtrag.pdf",
+      "kind": "statute",
+      "inForce": "2017-11-22",
+      "changedOn": "2026-10-15",
+      "sha256": "55db33574ce80e2821b26ab52dac80ee30a3d498017f7a399ce1dcba22daf52a",
+      "verifiedOn": "2026-10-15"
+    },
+    "taAnlage": {
+      "title": "Anlage zu § 4 Abs. 2 und 3 der Satzung der Gemeinde Pellworm über die Erhebung einer Tourismusabgabe vom 20. November 2017",
+      "url": "https://www.gemeinde-pellworm.de/app/download/9805520468/Satzung%20Tourismusabgabe%20Gewinnanteil%202017%20neu.pdf",
+      "kind": "statute",
+      "inForce": "2017-11-22",
+      "changedOn": "2026-10-15",
+      "sha256": "5055e19be1dd5874ded24e79463707c1a8ea369ef21498e0653cb3c90e229801",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens wird als voller Tag, der Tag der Abreise wird nicht gewertet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "easter-8",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "source": "aenderung2",
+          "quote": "a) in dem in § 4 Abs. 1 Buchst. a) bezeichneten Zeitraum 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "easter-9"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "source": "aenderung2",
+          "quote": "b) in dem in § 4 Abs. 1 Buchst. b) bezeichneten Zeiträumen 1,00 €"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Minderung der Erwerbsfähigkeit von 100 % und eine erforderliche Begleitperson zahlen nichts.",
+        "quote": "Schwerbehinderte, die eine Minderung der Erwerbsfähigkeit von 100 % nachweisen, dasselbe gilt für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Wer dienstlich oder beruflich auf der Insel ist und die Einrichtungen nicht nutzt, zahlt nichts.",
+        "quote": "in Ausübung ihres Dienstes oder Berufs Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Saisons richten sich nach Ostern: Die Hauptsaison beginnt 8 Tage vor Ostersonntag und endet am 31. Oktober, die Nebensaison läuft bis 9 Tage vor Ostersonntag und von 1. November bis 31. Dezember.",
+        "source": "aenderung2",
+        "quote": "a) Hauptsaison (8 Tage vor Ostersonntag bis 31. Oktober) b) Nebensaison (01. Januar bis 9 Tage vor Ostersonntag sowie 01. November bis 31. Dezember)"
+      },
+      {
+        "text": "Menschen mit einer Behinderung von 50 % bis 99 % und eine erforderliche Begleitperson zahlen die Hälfte.",
+        "source": "aenderung2",
+        "quote": "a) Schwerbehinderte, die eine Behinderung von 50% bis 99% nachweisen, sowie für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Eigentümer von Ferienwohnungen oder Häusern, die nicht allein dort wohnen, zahlen unabhängig von der Aufenthaltsdauer für ihre Familie eine Pauschale von 95,00 Euro.",
+        "quote": "zahlen unabhängig von der Aufenthaltsdauer für eine Familie (Ehepartner und Kinder) eine Pauschale in Höhe von € 95,00."
+      },
+      {
+        "text": "Du legst die Satzung für deine Gäste sichtbar aus.",
+        "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe, zieht sie von den Gästen ein und führt sie kostenfrei an die Gemeinde ab.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm auszustellenden Gästekarten die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an die Gemeinde Pellworm – Kurbetrieb - kostenfrei abzuführen."
+    },
+    "deadline": {
+      "text": "Die eingezogenen Beträge zahlst du monatlich bis zum 15. für den Vormonat an den Kurbetrieb.",
+      "quote": "Die eingezogenen Kurabgabebeträge sind monatlich jeweils am 15. des Monats für den vorangegangenen Monat an den Kurbetrieb der Gemeinde Pellworm zu zahlen."
+    },
+    "reporting": {
+      "text": "Du stellst jedem Gast unverzüglich eine Gästekarte aus und lässt An- und Abreisetag und Heimatanschrift auf der Kopie für den Kurbetrieb eintragen.",
+      "quote": "eine Gästekarte auszustellen und auf der für den Kurbetrieb der Gemeinde Pellworm bestimmten Kopie den An- und Abreisetag und die Heimatanschrift durch den Gast eintragen zu lassen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du, wenn du auf Pellworm selbstständig tourismusbezogene Leistungen gegen Entgelt erbringst, auch eine Vermietung.",
+      "quote": "Abgabepflichtig sind natürliche und juristische Personen sowie nicht rechtsfähige Personenvereinigungen, die selbstständig tourismusbezogene entgeltliche Leistungen erbringen."
+    },
+    "letting": [
+      {
+        "label": "Zimmer, Ferienwohnungen und Ferienquartiere ohne hotelmäßige Leistungen und ohne Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "quote": "9 Vermietung von Zimmern, Ferienwohnungen und bei umsatzsteuerbereinigten sonstigen Ferienquartieren ohne hotelmäßige jährlichen Leistungen und ohne Frühstück Einnahmen in Höhe von: bis zu 200.000 € 37",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 37
+          }
+        }
+      },
+      {
+        "label": "Zimmer, Ferienwohnungen und Ferienquartiere ohne hotelmäßige Leistungen und ohne Frühstück, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "quote": "9 Vermietung von Zimmern, Ferienwohnungen und bei umsatzsteuerbereinigten sonstigen Ferienquartieren ohne hotelmäßige jährlichen Leistungen und ohne Frühstück Einnahmen in Höhe von: bis zu 200.000 € 37 über 200.000 € 33",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 33
+          }
+        }
+      },
+      {
+        "label": "Zimmer, Ferienwohnungen und Ferienquartiere mit Frühstück oder mit hotelmäßigen Leistungen, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "quote": "8 Vermietung von Zimmern, Ferienwohnungen und bei umsatzsteuerbereinigten sonstigen Ferienquartieren mit Frühstück jährlichen und/oder mit hotelmäßigen Leistungen Einnahmen in Höhe von: bis zu 200.000 € 28",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 28
+          }
+        }
+      },
+      {
+        "label": "Zimmer, Ferienwohnungen und Ferienquartiere mit Frühstück oder mit hotelmäßigen Leistungen, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "quote": "8 Vermietung von Zimmern, Ferienwohnungen und bei umsatzsteuerbereinigten sonstigen Ferienquartieren mit Frühstück jährlichen und/oder mit hotelmäßigen Leistungen Einnahmen in Höhe von: bis zu 200.000 € 28 über 200.000 € 20",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Frühstück, Umsatz bis 200.000 € (Vorteilsstufe 4)",
+        "quote": "2.1 Hotels, Gasthöfe u. Pensionen mit Frühstück bei umsatzsteuerbereinigten jährlichen Einnahmen in Höhe von: bis zu 200.000 € 28",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 28
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Frühstück, Umsatz über 200.000 € (Vorteilsstufe 4)",
+        "quote": "2.1 Hotels, Gasthöfe u. Pensionen mit Frühstück bei umsatzsteuerbereinigten jährlichen Einnahmen in Höhe von: bis zu 200.000 € 28 über 200.000 € 20",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- und Vollpension, Umsatz bis 500.000 € (Vorteilsstufe 4)",
+        "quote": "2.2 Hotels, Gasthöfe u. Pensionen mit Halb- u. Vollpension bei umsatzsteuerbereinigten jährlichen Einnahmen in Höhe von: bis 500.000 € 21",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 21
+          }
+        }
+      },
+      {
+        "label": "Hotels, Gasthöfe und Pensionen mit Halb- und Vollpension, Umsatz über 500.000 € (Vorteilsstufe 4)",
+        "quote": "2.2 Hotels, Gasthöfe u. Pensionen mit Halb- u. Vollpension bei umsatzsteuerbereinigten jährlichen Einnahmen in Höhe von: bis 500.000 € 21 über 500.000 € 12",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 12
+          }
+        }
+      },
+      {
+        "label": "Camping- und Zeltlagerplätze (Vorteilsstufe 4)",
+        "quote": "3 Camping- u. Zeltlagerplätze 20",
+        "source": "taAnlage",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "in der Vorteilsstufe 4: 100 v. H.",
+            "source": "ta"
+          },
+          "profit": {
+            "percent": 20
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 5.45,
+      "quote": "Der Abgabesatz beträgt 5,45 v. H."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Pflichtigen, multipliziert mit dem durchschnittlichen Gewinnanteil"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Juli jedes Jahres gibst du die Erklärung über deine betrieblichen Einnahmen auf dem Formblatt der Gemeinde ab, oder innerhalb eines Monats, wenn die Gemeinde dich schriftlich auffordert.",
+      "quote": "bis zum 31. Juli jeden Jahres oder - soweit die Gemeinde dazu schriftlich auffordert - innerhalb eines Monats durch Ausfüllung des dafür vorgesehenen Formblattes die Erklärung über die betrieblichen Einnahmen"
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe zwei Wochen nach Bekanntgabe des Bescheids.",
+      "quote": "Die festgesetzten Beträge sind zwei Wochen nach Bekanntgabe des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Zeilen oben stehen in der Vorteilsstufe 4 der Anlage, die mit 100 v. H. gerechnet wird.",
+        "quote": "Vorteilsstufe 4 Personengruppe bzw Betriebsart 1 Ausflugsverkehr: 1.1 Kutschfahrten 20 1.2 Schiffsausflüge, Busfahrten 26 2 Beherbergungsgewerbe:",
+        "source": "taAnlage"
+      },
+      {
+        "text": "Die Anlage mit den Gewinnsätzen hat die Gemeinde 2017 neu gefasst.",
+        "quote": "§ 4 Abgabemaßstab: Die Anlage wird neu gefasst.",
+        "source": "taNachtrag"
+      },
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Die Gemeinde kann zu Beginn des Jahres Vorauszahlungen bis zur Höhe der voraussichtlichen Abgabe erheben.",
+        "quote": "Auf die Tourismusabgabe können zu Beginn des Erhebungszeitraumes Vorauszahlungen bis zur Höhe der voraussichtlich entstehenden Abgabe erhoben werden."
+      },
+      {
+        "text": "Die Abgabepflicht beginnt am Anfang des Kalenderjahres, frühestens mit dem Start deiner Vermietung.",
+        "quote": "Die Abgabepflicht beginnt am Anfang eines jeden Kalenderjahres, jedoch nicht vor Aufnahme der abgabepflichtigen Tätigkeit."
+      },
+      {
+        "text": "Hörst du im Lauf des Jahres auf, wird dir für jeden vollen Monat ohne Vermietung ein Zwölftel der festgesetzten Abgabe erstattet; eine nur saisonale Vermietung zählt nicht als Ende.",
+        "quote": "Endet eine abgabepflichtige Tätigkeit, die über den Ablauf des Vorjahres hinaus fortgesetzt wird, im laufenden Kalenderjahr, so wird für jeden vollen Kalendermonat, für den die Voraussetzungen der Abgabepflicht entfallen sind, ein Zwölftel der für das laufende Kalenderjahr festgesetzten Abgabe erstattet. Als Beendigung einer abgabepflichtigen Tätigkeit ist nicht anzusehen, wenn diese nur saisonal ausgeübt wird."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/pellworm/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "easter-8",
+            "10-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "easter-9"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

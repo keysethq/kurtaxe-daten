@@ -1,0 +1,207 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schonach-im-schwarzwald",
+  "name": "Schonach im Schwarzwald",
+  "short": "Schonach",
+  "ags": "08326055",
+  "state": "Baden-Württemberg",
+  "district": "Schwarzwald-Baar-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Schonach im Schwarzwald vom 06.03.2012 in der Zusammenfassung vom 24.06.2025",
+      "url": "https://www.schonach.de/site/Schonach/get/documents_E1660004502/schonach/Dateien_Schonach/Satzungen_Verordnungen/Kurtaxesatzung%20ab%2001.11.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-11-01",
+      "sha256": "466054b15f35a6a79d2078a14f5ee68f3afadef842ef1eafddd2945580c32f06",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Schonach im Schwarzwald vom 18. Mai 1999 in der Zusammenfassung vom 08. Mai 2001",
+      "url": "https://www.schonach.de/site/Schonach/get/documents_E-1454021511/schonach/Dateien_Schonach/Satzungen_Verordnungen/Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "sha256": "c9cdbd42ff0693c7e8cdb4997080fd410b1e9fd0438cff7e114f3a6ef263dd25",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "für jede Person ab 16 Jahren einschließlich MWSt. ganzjährig 3,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 5. Lebensjahr."
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "und für jedes Kind ab 6 Jahren bis unter 16 Jahren 1,50 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "wenn sie in der Gemeinde arbeiten oder in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtung nutzen",
+        "quote": "Familienbesucher von Gemeindeeinwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtung in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Personen, die sich für die Dauer eines Wettkampfs zur Sportausübung in der Gemeinde aufhalten",
+        "quote": "Personen, die sich zu Sportausübungen von Wettkämpfen in der Gemeinde aufhalten während deren Dauer."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit mindestens 80 Prozent nachgewiesener Erwerbsminderung",
+        "quote": "Schwerbehinderte Personen mit mindestens 80 v. H. nachgewiesener Erwerbsminderung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: 100 Euro für die erste Person, 45 Euro für die zweite und dritte Person des Haushalts.",
+        "quote": "Kurtaxepflichtige nach § 2 Abs. 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthaltes, eine pauschale Jahreskurtaxe zu errichten. Diese beträgt für die 1. Person je Kalenderjahr 100,-- Euro und für die 2. und 3. Person eines Haushaltes je Person und Kalenderjahr 45,-- Euro"
+      },
+      {
+        "text": "Im Auftrag der Gemeinde berechnet die Hochschwarzwald Touristik GmbH die Kurtaxe, versendet die Bescheide und nimmt die Kurtaxe entgegen.",
+        "quote": "Die Gemeinde beauftragt die Hochschwarzwald Touristik GmbH, die Kurtaxe zu berechnen, die Bescheide – ausgenommen die Bescheide an die nach § 2 Abs. 2 (Jahreskurtaxe) kurtaxepflichtigen Einwohner – auszufertigen und zu versenden, die Kurtaxe entgegen zu nehmen und an die Gemeinde abzuführen"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Wer bar kassiert, führt die fällig gewordenen Beträge jeweils bis zum 10. des Folgemonats ab.",
+      "quote": "Die im Laufe eines Kalenderjahres fällig gewordenen Beträge an Kurtaxe sind durch Barzahler jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 24 Stunden nach der Ankunft an und nach der Abreise ab.",
+      "quote": "ist verpflichtet, bei ihm verweilende Personen innerhalb 24 Stunden nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie zahlt nichts, wenn für vier Familienmitglieder Kurtaxe entrichtet wird.",
+      "quote": "Die fünfte und jede weitere Person einer Familie, wenn für vier Familienmitglieder Kurtaxe entrichtet wird."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Schonach im Schwarzwald selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Schonach im Schwarzwald aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter und Beherbergungsbetriebe, die nur Wohnungen und Zimmer vorübergehend an Fremde vermieten (Übernachtungsbeitrag)",
+        "quote": "Der Übernachtungsbeitrag (§ 3 Abs. 4) beträgt -,25 Euro je Person und Aufenthaltstag.",
+        "perNight": {
+          "cents": 25,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 24 Stunden nach der Abreise, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 24 Stunden nach Abreise mitzuteilen."
+    },
+    "deadline": {
+      "text": "Der Beitrag auf die Übernachtungen ist 7 Tage nach Zustellung des Beitragsbescheids fällig.",
+      "quote": "wird 7 Tage nach Zustellung des Beitragsbescheides fällig"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Privatzimmervermieter oder Beherbergungsbetrieb, der nur Wohnungen und Zimmer vorübergehend an Fremde vermietet, richtet sich dein Beitrag nach der Zahl der Übernachtungen und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern und Beherbergungsbetrieben, die nur Wohnungen und Zimmer vorübergehend an Fremde vermieten, bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Ankunfts- und Abreisetag zählen zusammen als ein Aufenthaltstag: der Ankunftstag zählt voll, der Abreisetag nicht.",
+        "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet, wobei der Ankunftstag voll und der Abreisetag nicht gerechnet wird."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 8 % des Messbetrags; für kleine Beträge nennt die Satzung noch eine Grenze in DM, unter der kein Beitrag erhoben wird.",
+        "quote": "Der Beitrag beträgt 8 v. H. des Meßbetrages nach § 4. Er wird nicht erhoben, wenn die Berechnung einen Betrag von weniger als 20,-- DM ergibt (§ 156 AO in Verbindung mit § 33 GemHVO)."
+      },
+      {
+        "text": "Besondere wirtschaftliche Vorteile, die nicht unter die Veranlagung nach Übernachtungen fallen, werden zusätzlich nach den Mehreinnahmen ermittelt; der Übernachtungsbeitrag ist dann nicht dein ganzer Beitrag.",
+        "quote": "Besondere wirtschaftliche Vorteile, die nicht unter Satz 1 fallen, werden zusätzlich nach Abs. 2 ermittelt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schonach-im-schwarzwald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

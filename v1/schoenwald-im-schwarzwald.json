@@ -1,0 +1,209 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schoenwald-im-schwarzwald",
+  "name": "Schönwald im Schwarzwald",
+  "short": "Schönwald",
+  "ags": "08326054",
+  "state": "Baden-Württemberg",
+  "district": "Schwarzwald-Baar-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe in der Gemeinde Schönwald im Schwarzwald (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 08.04.2025",
+      "url": "https://www.schoenwald.net/wp-content/uploads/2025/10/Kurtaxesatzung-Gemeinde-Schoenwald-vom-08.04.2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-12-01",
+      "sha256": "5e6e2ba76cda592c4ae97fea06693fc81affa2c54aa6aec8ce354d7398bbf0a4",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Schönwald im Schwarzwald über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Beschluss vom 02.11.2010",
+      "url": "https://www.schoenwald.net/wp-content/uploads/2020/10/foerderung_fremdenverkehr.pdf",
+      "kind": "statute",
+      "inForce": "2010-12-01",
+      "sha256": "8718d92b0a570c0432a813cd14b6e609caf23273123c2c6b9bea768556c73bc0",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet, wobei der Ankunftstag voll und der Abreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "a. für Personen ab 16 Jahren 3,00 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+          },
+          {
+            "underAge": 16,
+            "cents": 160,
+            "quote": "a. für Personen ab 16 Jahren 3,00 € b. für Kinder ab 6 Jahren und Jugendliche 1,60 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde aufhalten (Tagesbesucher),"
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Personen, die sich zur Sportausübung bei Wettkämpfen in Schönwald aufhalten",
+        "quote": "Personen, die zur Sportausübung im Rahmen von Wettkämpfen in Schönwald verweilen."
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Die Gästekarte mit dem Hinweis KONUS berechtigt die Gäste zur kostenlosen Nutzung von Bus und Bahn in den teilnehmenden Verkehrsverbünden im Schwarzwald.",
+        "quote": "Hinweis „KONUS“, der zur kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe je Wohnung: 240 Euro für eine Einzimmerwohnung, 300 Euro für eine Wohnung mit mehr als einem Zimmer.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt a. für eine Einzimmerwohnung 240,00 € b. für eine Wohnung mit mehr als einem Zimmer 300,00 €"
+      },
+      {
+        "text": "Wenn die Gemeinde die Kurtaxe mit schriftlichem Bescheid anfordert, führst du sie innerhalb von 14 Tagen nach der Anforderung ab.",
+        "quote": "werden von der Gemeinde beim Zahlungspflichtigen mit schriftlichem Bescheid angefordert und sind innerhalb 14 Tagen nach ihrer Anforderung an die Gemeindekasse abzuführen."
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltliche bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für die rechtzeitige Einziehung und vollständige Ablieferung.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen. Als Beherberger gilt auch, wer einen Camping- oder Wohnmobilstellplatz entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Schönwald im Schwarzwald selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Schönwald im Schwarzwald aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe und Privatzimmervermieter mit Einnahmen aus Übernachtung und gegebenenfalls Verpflegung ihrer Übernachtungsgäste (Übernachtungsbeitrag)",
+        "quote": "Der Übernachtungsbeitrag (§ 3 Abs. 3 Satz 1) beträgt 0,40 € je Person und Aufenthaltstag.",
+        "perNight": {
+          "cents": 40,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest die Gäste, die du gegen Entgelt beherbergst, innerhalb von 24 Stunden nach Ankunft oder Abreise bei der Tourist-Information an beziehungsweise ab.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 3 haben die bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 24 Stunden nach der Ankunft bzw. Abreise bei der Tourist-Information an- bzw. abzumelden."
+    },
+    "deadline": {
+      "text": "Der Übernachtungsbeitrag ist monatlich fällig und wird zusammen mit der Kurtaxe gezahlt.",
+      "quote": "Der Übernachtungsbeitrag nach § 3 Abs. 3 Satz 1 ist monatlich zur Zahlung fällig und zusammen mit der Kurtaxe zu entrichten"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Beherbergungsbetrieb oder Privatzimmervermieter wirst du nach der Zahl der Übernachtungen veranlagt und nicht nach deinem Umsatz.",
+        "quote": "Beherbergungsbetriebe und Privatzimmervermieter, die Einnahmen aus Übernachtung und gegebenenfalls Verpflegung ihrer Übernachtungsgäste haben, werden nicht nach Absatz 2, sondern nach der Anzahl der Übernachtungen veranlagt (§ 5 Abs. 2)."
+      },
+      {
+        "text": "Ankunfts- und Abreisetag zählen zusammen als ein Aufenthaltstag: der Ankunftstag zählt voll, der Abreisetag nicht.",
+        "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet, wobei der Ankunftstag voll und der Abreisetag nicht gerechnet wird."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 9 % des Messbetrags.",
+        "quote": "Der Beitrag beträgt 9 v. H. des Messbetrages nach § 4."
+      },
+      {
+        "text": "Besondere wirtschaftliche Vorteile, die nicht unter die Veranlagung nach Übernachtungen fallen, werden zusätzlich nach den Mehreinnahmen ermittelt; der Übernachtungsbeitrag ist dann nicht dein ganzer Beitrag.",
+        "quote": "Besondere wirtschaftliche Vorteile , die nicht unter Satz 1 fallen, werden zusätzlich nach Absatz 2 ermittelt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schoenwald-im-schwarzwald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ]
+  }
+}

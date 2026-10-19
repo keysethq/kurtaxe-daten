@@ -1,0 +1,388 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "baltrum",
+  "name": "Baltrum",
+  "short": "Baltrum",
+  "ags": "03452002",
+  "state": "Niedersachsen",
+  "district": "Aurich",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages für die Gemeinde Baltrum (Kurbeitragssatzung) vom 09.06.2016 mit Anlage, wie von der Gemeinde auf baltrum.de als Gästebeitragssatzung veröffentlicht",
+      "url": "https://www.baltrum.de/wp-content/uploads/2025/11/160609_Kurbeitragssatzung_.pdf",
+      "kind": "municipality",
+      "inForce": "2016-01-01",
+      "sha256": "486ecf4d8e59b2e7e9f4e8398d1651cd8f9037bf2afe39c8f388c4b703052b89",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Der Übernachtungskurbeitrag ($ 2 Abs. 1) bemisst sich nach der Anzahl der Übernachtungen."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 9,
+          "reading": "a) in.der Saison (15.03. bis 31.10.) e pro Erwachsenem 3,50 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": " Kinder bis zur Vollendung des 6. Lebensjahrs,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 9,
+          "reading": "pro Kind (vom Beginn des 7. Bis zur Vollendung des 18. Lebensjahres) 1,50 Euro"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 9,
+          "reading": "pro Kind (vom Beginn des 7. Bis zur Vollendung des 18. Lebensjahres) 1,50 Euro"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 9,
+          "reading": "b) außerhalb der Saison (31.10. bis 15.03.) e pro Erwachsenem 1,75 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 3,
+          "reading": " Kinder bis zur Vollendung des 6. Lebensjahrs,"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 9,
+          "reading": "pro Kind (vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres) 0,75 Euro"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 9,
+          "reading": "pro Kind (vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres) 0,75 Euro"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 4,
+          "reading": "Begleitpersonen von Schwerbehinderten, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind (amtlicher Ausweis mit dem Merkzeichen \"B\" für die Berechtigung zur Mitnahme einer Begleitperson),"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Beitragspflichtig ist nicht, wer sich nur zur Berufsausübung in der Gemeinde aufhält."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 9,
+          "reading": "b) außerhalb der Saison (31.10. bis 15.03.)"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Schwerbehinderte, deren Grad der Behinderung mindestens 80 v.H. beträgt, werden zu 75 v.H. des maßgeblichen Kurbeitrages nach $ 4 herangezogen."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Für mitgebrachte Hunde ist unabhängig von der Aufenthaltszeit ganzjährig eine Aufenthaltsabgabe in Höhe von 1,50 € pro Tag zu entrichten."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 9,
+          "reading": "pro Erwachsenem 105,00 Euro"
+        },
+        {
+          "where": "remarks[4]",
+          "page": 6,
+          "reading": "Die Anmeldung erfolgt über das von der Gemeinde im Internet zur Verfügung gestellte Portal (www.baltrum.de)."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 6,
+          "reading": "Diese Satzung ist in den vermieteten Räumen auszulegen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Jeder Unterkunftgeber ist verpflichtet, für die von ihm ausgestellten oder weitergereichten Kurkarten den Kurbeitrag vom Beitragspflichtigen einzuziehen und an die Gemeinde abzuführen."
+        },
+        {
+          "where": "deadline",
+          "page": 6,
+          "reading": "Die einbehaltenen Kurbeiträge abzüglich der zu erstatteten Beiträge eines Monats sind jeweils spätestens bis zum 15. des darauffolgenden Monats gegenüber der Gemeinde abzuführen. Es zählt das Datum des Eingangs bei der Gemeinde."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Jeder Unterkunftgeber ist verpflichtet, dem Beitragsschuldner innerhalb von 24 Stunden über das Online-Portal der Gemeinde (www.baltrum.de) eine vollständig ausgefüllte Kurkarte auszustellen."
+        }
+      ]
+    },
+    "fvb": {
+      "title": "Satzung der Inselgemeinde Baltrum über die Erhebung eines Fremdenverkehrsbeitrages (Fremdenverkehrsbeitragssatzung) vom 15.12.2011 mit Anlage 1, wie von der Gemeinde auf gemeindebaltrum.de veröffentlicht",
+      "url": "https://gemeindebaltrum.de/fremdenverkehrsbeitragssatzung/",
+      "kind": "municipality",
+      "inForce": "2012-01-01",
+      "hashOf": "text",
+      "changedOn": "2026-10-15",
+      "sha256": "eea1757ef61cc984a0dec7d2ba244fc7dd0afc2ba135bfa3f2dd1fe6250b5b61",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Übernachtungskurbeitrag (§ 2 Abs. 1) bemisst sich nach der Anzahl der Übernachtungen."
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "a) in der Saison (15.03. bis 31.10.) pro Erwachsenem 3,50 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a) Kinder bis zur Vollendung des 6. Lebensjahrs,"
+          },
+          {
+            "underAge": 18,
+            "cents": 150,
+            "quote": "pro Kind (vom Beginn des 7. Bis zur Vollendung des 18. Lebensjahres) 1,50 Euro"
+          }
+        ]
+      },
+      {
+        "label": "Außerhalb der Saison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-14"
+          }
+        ],
+        "adult": {
+          "cents": 175,
+          "quote": "b) außerhalb der Saison (31.10. bis 15.03.) pro Erwachsenem 1,75 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "a) Kinder bis zur Vollendung des 6. Lebensjahrs,"
+          },
+          {
+            "underAge": 18,
+            "cents": 75,
+            "quote": "pro Kind (vom Beginn des 7. bis zur Vollendung des 18. Lebensjahres) 0,75 Euro"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis mit dem Merkzeichen B ständig auf Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind (amtlicher Ausweis mit dem Merkzeichen „B“ für die Berechtigung zur Mitnahme einer Begleitperson),"
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung auf Baltrum aufhält, zahlt nichts.",
+        "quote": "Beitragspflichtig ist nicht, wer sich nur zur Berufsausübung in der Gemeinde aufhält."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Außerhalb der Saison gilt der ermäßigte Satz; die Satzung nennt dafür 31. Oktober bis 15. März und lässt die Grenztage damit offen.",
+        "quote": "b) außerhalb der Saison (31.10. bis 15.03.)"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen 75 Prozent des Beitrags.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung mindestens 80 v.H. beträgt, werden zu 75 v.H. des maßgeblichen Kurbeitrages nach § 4 herangezogen."
+      },
+      {
+        "text": "Für mitgebrachte Hunde fällt ganzjährig eine Aufenthaltsabgabe von 1,50 Euro pro Tag an.",
+        "quote": "Für mitgebrachte Hunde ist unabhängig von der Aufenthaltszeit ganzjährig eine Aufenthaltsabgabe in Höhe von 1,50 € pro Tag zu entrichten."
+      },
+      {
+        "text": "Auf Antrag gibt es einen Jahreskurbeitrag, für Erwachsene 105,00 Euro.",
+        "quote": "pro Erwachsenem 105,00 Euro"
+      },
+      {
+        "text": "Die Gäste meldest du bei der Gemeinde über das Online-Portal auf baltrum.de an.",
+        "quote": "Die Anmeldung erfolgt über das von der Gemeinde im Internet zur Verfügung gestellte Portal (www.baltrum.de)."
+      },
+      {
+        "text": "Du legst die Satzung in den vermieteten Räumen aus.",
+        "quote": "Diese Satzung ist in den vermieteten Räumen auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag bei den Gästen ein und führt ihn an die Gemeinde ab.",
+      "quote": "Jeder Unterkunftgeber ist verpflichtet, für die von ihm ausgestellten oder weitergereichten Kurkarten den Kurbeitrag vom Beitragspflichtigen einzuziehen und an die Gemeinde abzuführen."
+    },
+    "deadline": {
+      "text": "Die eingezogenen Beiträge eines Monats führst du bis zum 15. des Folgemonats ab; maßgeblich ist der Eingang bei der Gemeinde.",
+      "quote": "Die einbehaltenen Kurbeiträge abzüglich der zu erstattenden Beiträge eines Monats sind jeweils spätestens bis zum 15. des darauffolgenden Monats gegenüber der Gemeinde abzuführen. Es zählt das Datum des Eingangs bei der Gemeinde."
+    },
+    "reporting": {
+      "text": "Innerhalb von 24 Stunden stellst du jedem Gast über das Online-Portal der Gemeinde eine vollständig ausgefüllte Kurkarte aus.",
+      "quote": "Jeder Unterkunftgeber ist verpflichtet, dem Beitragsschuldner innerhalb von 24 Stunden über das Online-Portal der Gemeinde (www.baltrum.de) eine vollständig ausgefüllte Kurkarte auszustellen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du auf Baltrum selbständig tätig bist und der Fremdenverkehr dir unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt, was bei der Vermietung an Gäste der Fall ist.",
+      "quote": "Beitragspflichtig sind alle selbständig tätigen Personen und alle Unternehmen, denen durch den Fremdenverkehr im Gemeindegebiet der Inselgemeinde Baltrum unmittelbar oder mittelbar besondere wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Vermieter von Ferienwohnungen und Gästezimmern (private Vermietung)",
+        "quote": "16,90 € 12,80 € 2,90 €",
+        "flat": {
+          "cents": 1280,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Inhaber von Beherbergungsbetrieben (Hotels, Gasthöfe, Pensionen)",
+        "quote": "16,90 € 12,80 €",
+        "flat": {
+          "cents": 1690,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Inhaber von Ferien- und Erholungsheimen",
+        "quote": "16,90 € 12,80 € 2,90 €",
+        "flat": {
+          "cents": 290,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Inhaber von Camping- und Zeltplätzen",
+        "quote": "2,90 € 5,70 €",
+        "flat": {
+          "cents": 570,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Du teilst der Gemeinde den Beginn, die Änderung und das Ende deiner Vermietung mit und machst auf Anforderung die Angaben, die sie für die Berechnung braucht.",
+      "quote": "Die Beitragspflichtigen sowie ihre Vertreter haben der Inselgemeinde Baltrum die Auf-nahme der beitragspflichtigen Tätigkeit und auf Anforderung die erforderlichen Anga-ben zur Berechnung des Beitrages oder der Vorausleistung mitzuteilen."
+    },
+    "deadline": {
+      "text": "Beitrag und Vorausleistung sind einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Der Beitrag bzw. die Vorausleistung ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Der Beitrag je Bett steht in Spalte 3 der Anlage, deren Überschrift „Beitrag je Maßstab in €“ lautet; die Zeile für Vermieter von Ferienwohnungen und Gästezimmern steht an zweiter Stelle der Tabelle.",
+        "quote": "Beitrag je Maßstab in €"
+      },
+      {
+        "text": "Die Anlage ist als Tabelle ohne feste Zeilen veröffentlicht: Als Maßstab stehen für die Zeilen 1 bis 4 Betten, Betten, Betten und Stellplätze, und die Beträge folgen in derselben Reihenfolge.",
+        "quote": "Betten Betten Betten Stellplätze"
+      },
+      {
+        "text": "Als Vermieter von Ferienwohnungen und Gästezimmern führt die Anlage alle, deren Vermietung privaten Charakter hat.",
+        "quote": "2. Vermieter von Ferienwohnungen und Gästezimmern (Vermietung weist priva-ten Charakter auf)"
+      },
+      {
+        "text": "Der Beitrag wird jährlich erhoben: Die Zahl der Betten wird mit dem Beitrag je Bett multipliziert.",
+        "quote": "Der Beitrag wird jährlich erhoben."
+      },
+      {
+        "text": "Für die Zahl deiner Betten zählen die Verhältnisse am 30. Juni des Jahres, für das der Beitrag erhoben wird.",
+        "quote": "Maßgebend für die Bemessung der Beiträge sind die Verhältnisse am 30. Juni des Er-hebungszeitraumes, für das der Beitrag erhoben wird."
+      },
+      {
+        "text": "Der Beitrag wird nur für volle Kalendermonate erhoben.",
+        "quote": "Die Erhebung der Beiträge erfolgt nur für volle Kalendermonate."
+      },
+      {
+        "text": "Auf den Beitrag kann die Gemeinde für das laufende Jahr Vorausleistungen bis zur voraussichtlichen Höhe verlangen.",
+        "quote": "Die Inselgemeinde Baltrum kann für das laufende Kalenderjahr Vorausleistungen bis zur voraussichtlichen Höhe des Fremdenverkehrsbeitrages erheben."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/baltrum/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          150
+        ]
+      },
+      {
+        "label": "Außerhalb der Saison",
+        "ranges": [
+          [
+            "11-01",
+            "03-14"
+          ]
+        ],
+        "adult": 175,
+        "children": [
+          0,
+          75
+        ]
+      }
+    ]
+  }
+}

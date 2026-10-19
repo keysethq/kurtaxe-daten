@@ -1,0 +1,291 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "breitnau",
+  "name": "Breitnau",
+  "short": "Breitnau",
+  "ags": "08315016",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Breitnau über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 20.11.2024 mit Änderungssatzung vom 12.11.2025",
+      "url": "https://www.gemeinde-breitnau.de/fileadmin/Website/Dateien/Satzungen/Kurtaxesatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "86541bb824af2fbbf1425dce2f9a3f234d08c0819ced5503e9b164f00480254a",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Breitnau über die Erhebung eines Fremdenverkehrsbeitrags (Fremdenverkehrsbeitragssatzung – FBS) vom 20. Mai 2026",
+      "url": "https://www.gemeinde-breitnau.de/fileadmin/Website/Dateien/Satzungen/Fremdenverkehrsabgabe_mit_Anlage_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-07-01",
+      "sha256": "8ee39b741e095b9aaf63384a2bb1ffa30b81c12123c1ee7bdb6467006352bd58",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind Breitnau Ort, Bergackerweg, Tiefen, Ödenbach, Oberhöllsteig und Höllsteig.",
+          "quote": "Zum Kurbezirk I gehören Breitnau Ort, Bergackerweg, Tiefen, Ödenbach, Oberhöllsteig, Höllsteig"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € 2,50 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III sind die übrigen Bereiche der Gemarkung Breitnau.",
+          "quote": "Zum Kurbezirk III gehören die übrigen Bereiche der Gemarkung Breitnau"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € 2,50 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren 3,50 € 3,00 € 2,50 € für Kinder ab 6 Jahren und Jugendliche 1,60 € 1,60 € 1,60 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde Breitnau aufhalten (Tagesbesucher),"
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 %"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "die in der Gemeinde Breitnau arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde Breitnau aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurbezirk II hat die Satzung vorgesehen, ihm aber keine Gebiete zugeordnet; für dich zählen Kurbezirk I und III.",
+        "quote": "Zum Kurbezirk II gehören keine Gebiete"
+      },
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Die Gästekarte mit dem Hinweis KONUS berechtigt die Gäste zur kostenlosen Nutzung von Bus und Bahn in den teilnehmenden Verkehrsverbünden im Schwarzwald.",
+        "quote": "den Hinweis „KONUS“, der zur kostenfreien Benutzung des öffentlichen Personennahverkehrs in den teilnehmenden Verkehrsverbünden im Schwarzwald berechtigt."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: in Kurbezirk I 105 Euro, in Kurbezirk III 75 Euro je Person ab 16 Jahren und 48 Euro je Kind ab 6 Jahren und Jugendlichem.",
+        "quote": "für Personen ab 16 Jahren 105,00 € 90,00 € 75,00 € für Kinder ab 6 Jahren und Jugendliche 48,00 € 48,00 € 48,00 €"
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde Breitnau unentgeltliche bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für die rechtzeitige Einziehung und vollständige Ablieferung.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Breitnau abzuführen. Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde Breitnau abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Breitnau selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen Personen, die eine selbständige Tätigkeit ausüben, und von allen juristischen Personen wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben, soweit ihnen in der Gemeinde Breitnau aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe aller Art, außer Vorsorge- und Rehabilitationskliniken mit vielen sozialversicherten Patienten",
+        "quote": "Der Beitrag nach § 4 Abs. 4 beträgt 0,22 € je Übernachtung.",
+        "perNight": {
+          "cents": 22
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von drei Tagen nach der Anreise, wie viele Gäste du gegen Entgelt beherbergst.",
+      "quote": "Beitragspflichtige nach § 4 Abs. 4 haben der Gemeinde die Anzahl der bei ihnen gegen Entgelt beherbergten Personen innerhalb von drei Tagen nach Anreise anzuzeigen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Bei Beherbergungsbetrieben aller Art außer Vorsorge- und Rehabilitationskliniken bemisst sich der Beitrag nach Übernachtungen.",
+        "quote": "Bei Beherbergungsbetrieben aller Art mit Ausnahme solcher Beherbergungsbetriebe, die Vorsorge- oder Rehabilitationskliniken sind"
+      },
+      {
+        "text": "Die Satzung spricht von gewichteten Übernachtungen.",
+        "quote": "bemessen sich die besonderen wirtschaftlichen Vorteile abweichend von Abs. 2 nach der Zahl der gewichteten Übernachtungen im Erhebungszeitraum"
+      },
+      {
+        "text": "Der Beitrag auf die Übernachtungen wird für jeden Kalendermonat erhoben und entsteht zum Monatsende.",
+        "quote": "Die Beiträge nach § 6 Abs. 2 werden für jeden Kalendermonat erhoben (Erhebungszeitraum) und entstehen zum Ende des jeweiligen Kalendermonats."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 5 % des Messbetrags; beträgt der Beitrag weniger als 20 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 2 und 3 beträgt 5 vom Hundert des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 20,00 € beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/breitnau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

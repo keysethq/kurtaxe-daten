@@ -1,0 +1,392 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "hagnau-am-bodensee",
+  "name": "Gemeinde Hagnau am Bodensee",
+  "short": "Hagnau",
+  "ags": "08435018",
+  "state": "Baden-Württemberg",
+  "district": "Bodenseekreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Hagnau am Bodensee über die Erhebung einer Kurtaxe (Kurtaxesatzung) vom 25.11.2025 (Scan)",
+      "url": "https://www.gemeinde-hagnau.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1008",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "8b5b70e46854b33e3b562fcd062ca06ce1e6c867c21e225cd6c996d03860cc0c",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 3,70 EUR"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "c) Kinder vor Vollendung des 15. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "b) in der Vor- und Nachsaison 1,85 EUR"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "c) Kinder vor Vollendung des 15. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Tagesgäste, An- und Abreise am selben Tag)."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "b) Geschäftsreisende"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "e) Teilnehmer von Schullandheimaufenthalten"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z.B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen"
+        },
+        {
+          "where": "exemptions[5]",
+          "page": 1,
+          "reading": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Hauptsaison umfasst den Zeitraum vom 01.04. bis 31.10.; die Vor- und Nachsaison den Zeitraum vom 01.11. bis 31.03."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Bei schwerbehinderten Personen mit mindestens 80% nachgewiesener Erwerbsminderung, sowie deren Begleitperson, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird und ihr Aufenthalt in der Gemeinde ausschließlich auf die Betreuung Dritter beschränkt ist, wird die Kurtaxe auf Antrag um 100% ermäßigt."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise einzureichen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldescheinverfahren zu verwenden."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Weigert sich eine kurtaxepflichtige Person die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich"
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "haben, soweit nicht nach 8 6 Abs. 2 und 3 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils innerhalb von vier Wochen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Hagnau über die Erhebung eines Fremdenverkehrsbeitrags (Fremdenverkehrsbeitragssatzung) vom 09.12.1997, mit der Euro-Anpassungssatzung vom 17.09.2001 und Änderungen bis 12.09.2006",
+      "url": "https://www.gemeinde-hagnau.de/ceasy/serve/usage/main.php?view=publish&item=statute&id=1006",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "sha256": "91f8ada2034267a4f1e873e4b1e09824f1b4bbe1ef1bfa716ac25dc9b72eb3f5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 13,
+          "reading": "Von allen natürlichen und juristischen Personen, denen in der Gemeinde Hagnau aus dem Kurbetrieb und dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag (Fremdenverkehrsbeitrag) erhoben."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 8,
+          "reading": "Er wird in der Zeit vom 15. April bis 15. Oktober jeden Jahres erhoben und beträgt je Übernachtung und Person 30 Cent."
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 8,
+          "reading": "Er wird in der Zeit vom 15. April bis 15. Oktober jeden Jahres erhoben und beträgt je Übernachtung und Person 30 Cent."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 17,
+          "reading": "haben die Übernachtungszahlen der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde mitzuteilen"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 17,
+          "reading": "wird zusammen mit der Kurtaxe gemäß der jeweils gültigen Kurtaxeordnung zur Zahlung fällig"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 15,
+          "reading": "Von den Privatbeherbergern , die nur Wohnungen oder Zimmer (mit nicht mehr als 8 Betten) vorübergehend an Fremde vermieten, wird der Beitrag nach der Übernachtungszahl erhoben."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 13,
+          "reading": "Personen, die als Privatbeherberger an Fremde vorübergehend Ferienhäuser, Wohnungen oder Zimmer vermieten"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 15,
+          "reading": "In besonders gelagerten Fällen kann der Beitrag ganz oder teilweise erlassen werden."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 8,
+          "reading": "Der Beitrag beträgt für ein Rechnungsjahr 5%, des Messbetrages nach $ 3 Abs.2 ( Hebesatz) und ist auf volle EUR abzurunden. Er wird nicht erhoben, wenn er weniger als 5 EUR beträgt.",
+          "digitsUnread": true
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 370,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 3,70 EUR"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "c) Kinder vor Vollendung des 15. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 185,
+          "quote": "b) in der Vor- und Nachsaison 1,85 EUR"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "c) Kinder vor Vollendung des 15. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste, die nicht länger als einen Tag bleiben (An- und Abreise am selben Tag)",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Tagesgäste, An- und Abreise am selben Tag)."
+      },
+      {
+        "text": "Geschäftsreisende",
+        "quote": "b) Geschäftsreisende"
+      },
+      {
+        "text": "Familienbesuche bei Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Teilnehmer an Schullandheimaufenthalten",
+        "quote": "e) Teilnehmer von Schullandheimaufenthalten"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie Einrichtungen oder Veranstaltungen nicht besuchen können und das ärztlich nachweisen",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z.B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen"
+      },
+      {
+        "text": "Ortsfremde, die in der Gemeinde arbeiten oder in Ausbildung stehen",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison geht vom 1. April bis 31. Oktober, die Vor- und Nachsaison vom 1. November bis 31. März.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01.04. bis 31.10.; die Vor- und Nachsaison den Zeitraum vom 01.11. bis 31.03."
+      },
+      {
+        "text": "Schwerbehinderte mit mindestens 80 Prozent Erwerbsminderung zahlen auf Antrag nichts, ebenso eine Begleitperson, wenn der Aufenthalt ausschließlich der Betreuung dient.",
+        "quote": "Bei schwerbehinderten Personen mit mindestens 80% nachgewiesener Erwerbsminderung, sowie deren Begleitperson, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird und ihr Aufenthalt in der Gemeinde ausschließlich auf die Betreuung Dritter beschränkt ist, wird die Kurtaxe auf Antrag um 100% ermäßigt."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung musst du spätestens am Abreisetag einreichen lassen.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise einzureichen."
+      },
+      {
+        "text": "Für die Meldung gilt das elektronische Meldescheinverfahren der Gemeinde; auf Antrag kann die Gemeinde bei unbilliger Härte darauf verzichten.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldescheinverfahren zu verwenden."
+      },
+      {
+        "text": "Wenn ein Gast die Kurtaxe nicht zahlen will, meldest du das der Gemeinde unverzüglich.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe ein, führt sie ab und haftet der Gemeinde für den vollständigen und richtigen Einzug.",
+      "quote": "haben, soweit nicht nach § 6 Abs. 2 und 3 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge führst du jeweils innerhalb von vier Wochen an die Gemeinde ab; ab wann die Frist läuft, nennt die Satzung nicht.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils innerhalb von vier Wochen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb von drei Tagen nach der Ankunft an und nach der Abreise ab, über das elektronische Verfahren der Gemeinde.",
+      "quote": "bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir in Hagnau aus dem Kurbetrieb und dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen.",
+      "quote": "Von allen natürlichen und juristischen Personen, denen in der Gemeinde Hagnau aus dem Kurbetrieb und dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatbeherberger, die nur Wohnungen oder Zimmer (nicht mehr als 8 Betten) vorübergehend an Fremde vermieten, nur vom 15. April bis 15. Oktober",
+        "quote": "Er wird in der Zeit vom 15. April bis 15. Oktober jeden Jahres erhoben und beträgt je Übernachtung und Person 30 Cent.",
+        "perNight": {
+          "cents": 30,
+          "perGuest": true
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde die Übernachtungszahlen der Gäste, die du gegen Entgelt beherbergst.",
+      "quote": "haben die Übernachtungszahlen der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde mitzuteilen"
+    },
+    "deadline": {
+      "text": "Du zahlst den Beitrag auf die Übernachtungen zusammen mit der Kurtaxe.",
+      "quote": "wird zusammen mit der Kurtaxe gemäß der jeweils gültigen Kurtaxeordnung zur Zahlung fällig"
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Privatbeherberger, der nur Wohnungen oder Zimmer mit nicht mehr als 8 Betten vorübergehend an Fremde vermietet, wirst du nach der Zahl der Übernachtungen veranlagt.",
+        "quote": "Von den Privatbeherbergern, die nur Wohnungen oder Zimmer (mit nicht mehr als 8 Betten) vorübergehend an Fremde vermieten, wird der Beitrag nach der Übernachtungszahl erhoben."
+      },
+      {
+        "text": "Ausdrücklich beitragspflichtig sind Personen, die als Privatbeherberger an Fremde vorübergehend Ferienhäuser, Wohnungen oder Zimmer vermieten.",
+        "quote": "Personen, die als Privatbeherberger an Fremde vorübergehend Ferienhäuser, Wohnungen oder Zimmer vermieten"
+      },
+      {
+        "text": "In besonders gelagerten Fällen kann der Beitrag ganz oder teilweise erlassen werden.",
+        "quote": "In besonders gelagerten Fällen kann der Beitrag ganz oder teilweise erlassen werden."
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 5 % des Messbetrags, abgerundet auf volle Euro; beträgt der Beitrag weniger als 5 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag beträgt für ein Rechnungsjahr 5% des Messbetrages nach § 3 Abs.2 ( Hebesatz) und ist auf volle EUR abzurunden. Er wird nicht erhoben, wenn er weniger als 5 EUR beträgt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/hagnau-am-bodensee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 370,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 185,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

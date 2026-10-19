@@ -1,0 +1,311 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "graal-mueritz",
+  "name": "Ostseeheilbad Graal-Müritz",
+  "short": "Graal-Müritz",
+  "ags": "13072036",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseeheilbad Graal-Müritz (Kurabgabesatzung) vom 03.06.2025, im Internet bekannt gemacht am 03.06.2025",
+      "url": "https://www.gemeinde-graalmueritz.de/fileadmin/media/Satzungen/Kurabgabesatzung-2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-06-04",
+      "sha256": "c366397e0e76609671773702fd2e7f8503c348982572f3790397205eadd7d4fd",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseeheilbad Graal-Müritz (Fremdenverkehrsabgabesatzung, Beschluss vom 31.03.2022)",
+      "url": "https://www.gemeinde-graalmueritz.de/fileadmin/media/Satzungen/Fremdenverkehrsabgabesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "d1b9b6fc1bb53b07081d42794634e1c3abfcc7907ec4b524519111fcda6e4fa8",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Abgabepflichtig sind die natürlichen und juristischen Personen sowie Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde Ostseeheilbad Graal-Müritz unmittelbar oder mittelbar Vorteile geboten werden"
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "bis zum 01.08. des laufenden Jahres unaufgefordert die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i.S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Gemeinde Ostseeheilbad Graal-Müritz anzuzeigen."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "wird einen Monat nach Bekanntgabe des Bescheides zur Zahlung fällig."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Für Betriebe oder Tätigkeiten die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+        }
+      ]
+    },
+    "fvbAnlage": {
+      "title": "Anlage zur Fremdenverkehrsabgabesatzung der Gemeinde Ostseeheilbad Graal-Müritz",
+      "url": "https://www.gemeinde-graalmueritz.de/fileadmin/media/Satzungen/Fremdenverkehrsabgabesatzung_Anlage.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "1626154ddb57395259a9235a29e7f20cba89b53c0a34a2abaa313b8059c0cba4",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 1,
+          "reading": "Anzahl der per 01.07. des laufenden 11,00 Euro/Bett"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 1,
+          "reading": "Anzahl der per 01.07. des laufenden 11,00 Euro/Bett"
+        },
+        {
+          "where": "businessLevy.letting[0].floor",
+          "page": 1,
+          "reading": "Mindestabgabe 26,00 Euro"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 1,
+          "reading": "Aufstellen von Campingeinrichtungen (Zelte, Wohnwagen und art ähnlichen Fahrzeugen) Anzahl der Stellplätze 6,00 Euro/Stellplatz"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 1,
+          "reading": "Aufstellen von Campingeinrichtungen (Zelte, Wohnwagen und art ähnlichen Fahrzeugen) Anzahl der Stellplätze 6,00 Euro/Stellplatz"
+        },
+        {
+          "where": "businessLevy.letting[1].floor",
+          "page": 1,
+          "reading": "Mindestabgabe 256,00 Euro"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 1,
+          "reading": "Mindestabgabe 26,00 Euro 2 Aufbettungsmöglichkeiten zählen als ein Bett 2. Vermieter und Verpächter von Plätzen zum Aufstellen von Campingeinrichtungen (Zelte, Wohnwagen und art ähnlichen Fahrzeugen) Anzahl der Stellplätze 6,00 Euro/Stellplatz Mindestabgabe 256,00 Euro"
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Gästebetten zuzüglich Aufbettungsmöglichkeit (Aufbettung definiert die wie folgt: Schlafsessel, Doppelliege, Schlafcouch), Kinderbetten sind frei"
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 1,
+          "reading": "2 Aufbettungsmöglichkeiten zählen als ein Bett"
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise wird als ein Tag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt 2,80 Euro."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "1. Kinder bis zur Vollendung des 16. Lebensjahres"
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "ermäßigt sich um 50 % für: a) Kinder und Jugendliche von Vollendung des 16. Lebensjahres? bis zur Vollendung des 18. Lebensjahres?",
+            "cents": 140
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Verwandte und Verschwägerte von Menschen, die in Graal-Müritz ihre Hauptwohnung haben",
+        "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde ihre Hauptwohnung haben,"
+      },
+      {
+        "text": "Wer sich zu Dienst, Beruf, Gewerbe oder Ausbildung im Ort aufhält",
+        "quote": "in Ausübung ihres Dienstes, Berufs, Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesende Personen,"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Schwerbehinderung, wenn das Merkzeichen B im Ausweis steht",
+        "quote": "Begleitpersonen von Schwerbehinderten, wobei das Merkzeichen \"B\" für ständige Begleitung im Schwerbehindertenausweis dokumentiert sein muss."
+      },
+      {
+        "text": "Schüler, Studenten und Auszubildende ab 18 zahlen 50 % gegen Ausweis",
+        "quote": "b) Schüler, Studenten und Auszubildende, die das 18. Lebensjahr* vollendet haben (gegen Vorlage des Ausweises)"
+      },
+      {
+        "text": "Arbeitslose zahlen 50 % gegen Nachweis",
+        "quote": "c) Arbeitslose (gegen Vorlage eines geeigneten Nachweises)"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen 50 % gegen Ausweis",
+        "quote": "d) Schwerbehinderte mit einem Grad der Behinderung von mind. 50 % (gegen Vorlage eines Ausweises)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 78,40 € zahlen; ihr liegen 28 Aufenthaltstage zugrunde.",
+        "quote": "Die Jahreskurabgabe beträgt pauschal 78,40 Euro. Der Berechnung der Jahreskurabgabe liegen 28 Aufenthaltstage zu Grunde."
+      },
+      {
+        "text": "Vermieter müssen die gültige Kurabgabesatzung für ihre Gäste auslegen.",
+        "quote": "die jeweils aktuell gültige Satzung der Gemeinde Ostseeheilbad Graal-Müritz über die Erhebung einer Kurabgabe an geeigneter Stelle für die Gäste auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen,"
+    },
+    "deadline": {
+      "text": "Bis zum 10. eines Monats leitest du die Meldescheine des Vormonats weiter und führst die Kurabgabe unbar ab.",
+      "quote": "zum 10. eines jeden Monats für den vorangegangenen Monat an die Gemeinde Ostseeheilbad Graal-Müritz, über ihren beauftragten Dritten nach $ 1 Abs. 3 eine Ausführung der Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung elektronisch zu erfolgen die Kurabgabe unbar abzuführen,"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen der Gemeinde oder über das elektronische Meldesystem; ab zehn Betten ist das elektronische Meldesystem Pflicht.",
+      "quote": "zur Verfügung gestellten Meldescheine zu nutzen oder das elektronische Meldesystem zu verwenden. Für Gastgeber ab einer Anzahl von zehn Betten ist das elektronische Meldescheinsystem verpflichtend anzuwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Graal-Müritz unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Abgabepflichtig sind die natürlichen und juristischen Personen sowie Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde Ostseeheilbad Graal-Müritz unmittelbar oder mittelbar Vorteile geboten werden"
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe, Zimmervermieter, Ferienwohnungs- und Ferienhausvermieter",
+        "source": "fvbAnlage",
+        "quote": "Anzahl der per 01.07. des laufenden 11,00 Euro/Bett",
+        "flat": {
+          "cents": 1100,
+          "per": "Bett"
+        },
+        "floor": {
+          "cents": 2600,
+          "quote": "Mindestabgabe 26,00 Euro",
+          "source": "fvbAnlage"
+        }
+      },
+      {
+        "label": "Campingplätze (Zelte, Wohnwagen und ähnliche Fahrzeuge)",
+        "source": "fvbAnlage",
+        "quote": "Aufstellen von Campingeinrichtungen (Zelte, Wohnwagen und art ähnlichen Fahrzeugen) Anzahl der Stellplätze 6,00 Euro/Stellplatz",
+        "flat": {
+          "cents": 600,
+          "per": "Stellplatz"
+        },
+        "floor": {
+          "cents": 25600,
+          "quote": "Mindestabgabe 256,00 Euro",
+          "source": "fvbAnlage"
+        }
+      }
+    ],
+    "minimum": {
+      "text": "Mindestens zahlst du im Jahr 26,00 € für Betten und 256,00 € für Campingplätze.",
+      "quote": "Mindestabgabe 26,00 Euro 2 Aufbettungsmöglichkeiten zählen als ein Bett 2. Vermieter und Verpächter von Plätzen zum Aufstellen von Campingeinrichtungen (Zelte, Wohnwagen und art ähnlichen Fahrzeugen) Anzahl der Stellplätze 6,00 Euro/Stellplatz Mindestabgabe 256,00 Euro",
+      "source": "fvbAnlage"
+    },
+    "reporting": {
+      "text": "Die Angaben zur Berechnung teilst du der Gemeinde bis zum 1. August des laufenden Jahres unaufgefordert mit; eine neue Tätigkeit zeigst du spätestens vier Wochen nach Beginn an.",
+      "quote": "bis zum 01.08. des laufenden Jahres unaufgefordert die erforderlichen Angaben zur Berechnung der Abgabe mitzuteilen. Eine Neuaufnahme einer abgabepflichtigen Tätigkeit i.S. dieser Satzung haben die Abgabepflichtigen sowie ihre Vertreter spätestens 4 Wochen nach Beginn der Tätigkeit der Gemeinde Ostseeheilbad Graal-Müritz anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "wird einen Monat nach Bekanntgabe des Bescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die am 1. Juli vorgehaltenen Gästebetten zuzüglich Aufbettungsmöglichkeiten (Schlafsessel, Doppelliege, Schlafcouch); Kinderbetten sind frei.",
+        "quote": "Gästebetten zuzüglich Aufbettungsmöglichkeit (Aufbettung definiert die wie folgt: Schlafsessel, Doppelliege, Schlafcouch), Kinderbetten sind frei",
+        "source": "fvbAnlage"
+      },
+      {
+        "text": "Zwei Aufbettungsmöglichkeiten zählen als ein Bett.",
+        "quote": "2 Aufbettungsmöglichkeiten zählen als ein Bett",
+        "source": "fvbAnlage"
+      },
+      {
+        "text": "Beginnst du erst nach dem 30. September, entfällt die Abgabe für das laufende Jahr.",
+        "quote": "Für Betriebe oder Tätigkeiten die nach dem 30. September beginnen, entfällt die Abgabe für das laufende Jahr."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/graal-mueritz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0,
+          140
+        ]
+      }
+    ]
+  }
+}

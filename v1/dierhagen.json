@@ -1,0 +1,258 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dierhagen",
+  "name": "Ostseebad Dierhagen",
+  "short": "Dierhagen",
+  "ags": "13073017",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Dierhagen (Kurabgabesatzung), Beschluss der Gemeindevertretung vom 07.12.2022",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/dierhagen/kurabgabesatzung/kurabgabesatzung-text.pdf?cid=3i7",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "1eb97361991482616f47ab1f9443ddc0621c49b2bd6b82cb9d42fb109e966244",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "aenderung1": {
+      "title": "1. Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Ostseebad Dierhagen (Kurabgabesatzung), Beschluss vom 04.09.2024 (Scan)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/dierhagen/kurabgabesatzung/1-aenderung/1.-aenderung-kurabgabe.pdf?cid=59y",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "1f52a8baa3bb3965a2f6e71011ffdbb6dfc35a93697f54658af9bdd970a18460",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "In der Zeit vom 01.05. bis 30.09. 2,75 EUR 2,00 EUR"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "In der Zeit vom 01.10. bis 30.04. 2,20 EUR 1,50 EUR"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 1,
+          "reading": "Jahreskurabgabe in Höhe von 69,58 EUR zahlen"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseebad Dierhagen, Lesefassung der 1. Änderung (Beschluss vom 04.09.2024)",
+      "url": "https://www.darss-fischland.de/de/satzungen-sammlung/dierhagen/fremdenverkehrsabgabesatzung/1-aenderung/2024-08-27-lesefassung-1.-aenderung-zur-satzung-ueber-die-erhebung-der-fremdenverkehrsabgabe-in-der-gemeinde-ostseebad-dierhagen.pdf?cid=4za",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "b051cde4e2aa20a37d229556797306b5a1cb24509407f8b89793444321adbce8",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und Abreisetag wird als jeweils ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 275,
+          "quote": "In der Zeit vom 01.05. bis 30.09. 2,75 EUR 2,00 EUR",
+          "source": "aenderung1"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "In der Zeit vom 01.10. bis 30.04. 2,20 EUR 1,50 EUR",
+          "source": "aenderung1"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitpersonen, wenn das Merkzeichen B im Ausweis steht",
+        "quote": "Schwerstbehinderte (100%), Begleitpersonen von Schwerstbehinderten, wobei das Merkzeichen „B“ für ständige Begleitung im Behindertenausweis dokumentiert sein muss."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze enthalten die gesetzliche Mehrwertsteuer.",
+        "quote": "In der Kurabgabe ist die gesetzliche Mehrwertsteuer enthalten.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Auf Antrag und gegen Nachweis gilt der ermäßigte Satz (2,00 € in der Hauptsaison, 1,50 € in der Nebensaison) für Schüler, Studenten im Direktstudium, Auszubildende und schwerbehinderte Personen.",
+        "quote": "Auf Antrag und Nachweis der Voraussetzungen erhalten folgende Personen eine Ermäßigung: (1) Schüler, Studenten im Direktstudium, Auszubildende und schwerbehinderte Personen;"
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe von 69,58 € zahlen; Eigentümer von Zweitwohnungen müssen sie zahlen.",
+        "quote": "Jahreskurabgabe in Höhe von 69,58 EUR zahlen",
+        "source": "aenderung1"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den gesamten geplanten Aufenthalt ein.",
+      "quote": "Er hat die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 5. eines jeden Monats für den Vormonat.",
+      "quote": "bis zum 5. eines jeden Monats für den vorangegangenen Monat bei der Kurverwaltung abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet und abgerechnet wird über das elektronische Melde- und Kurabgabenabrechnungssystem der Kurverwaltung, dazu führst du ein Gästeverzeichnis; auf Antrag befreit die Kurverwaltung bei unbilliger Härte.",
+      "quote": "Melde- und Kurabgabenabrechnungssystem zu nutzen. Auf Antrag kann die Kurverwaltung zur Vermeidung unbilliger Härten einzelne Wohnungsgeber von dieser Nutzungspflicht befreien."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Fremdenverkehr in Dierhagen unmittelbar oder mittelbar Vorteile bietet.",
+      "quote": "Abgabepflichtig sind Personen und Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde Vorteile (unmittelbar oder mittelbar) geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherbergungsbetriebe, Ferienwohnungen und -häuser sowie Zimmervermieter",
+        "quote": "in den Fällen des § 3 Abs. 1a) 32,37 EUR/ Bett",
+        "flat": {
+          "cents": 3237,
+          "per": "Bett"
+        }
+      },
+      {
+        "label": "Camping- und Wohnmobilplätze",
+        "quote": "j) Camping- und Wohnmobilplätze 24,28 EUR/ Stellplatz",
+        "flat": {
+          "cents": 2428,
+          "per": "Stellplatz"
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Änderungen, etwa bei der Bettenzahl, zeigst du der Kurverwaltung bis zum 15. Juli jedes Jahres an; eine neue Tätigkeit meldest du sofort.",
+      "quote": "Der Abgabepflichtigen sowie ihre Vertreter haben der Kurverwaltung die Aufnahme der abgabepflichtigen Tätigkeiten und auf Anforderung die erforderlichen Angaben zur Berechnung der Abgabe oder der Vorausleistung unverzüglich mitzuteilen. Änderungen sind bis zum 15. Juli jedes Jahres bei der Kurverwaltung anzuzeigen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids des Amtes Darß/Fischland.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides des Amtes Darß/Fischland für die Gemeinde fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Gezählt werden die Fremdenbetten, die du bis zum 1. Juli jedes Jahres gegen Entgelt zur Beherbergung bereithältst.",
+        "quote": "Bei Beherbergungsbetrieben, Kurkliniken, Ferienwohnungen und -häusern sowie Zimmervermietern nach der Zahl der bis 01. Juli jedes Jahres vorhandenen Fremdenbetten, die zur Beherbergung gegen Entgelt zur Verfügung gehalten werden"
+      },
+      {
+        "text": "Beginnt deine Tätigkeit nach dem 1. Juli oder endet sie davor, kann die Jahresabgabe auf Antrag um die Hälfte ermäßigt werden.",
+        "quote": "Liegt der Beginn der abgabepflichtigen Tätigkeit nach dem 01.Juli oder das Ende der abgabepflichtigen Tätigkeit vor dem 1. Juli eines Jahres, so kann die Jahresabgabe auf Antrag um 50 von 100 ermäßigt werden."
+      },
+      {
+        "text": "Den Bescheid erlässt das Amt Darß/Fischland für die Gemeinde über die Kurverwaltung.",
+        "quote": "Die Heranziehung erfolgt durch schriftlichen Bescheid durch das Amt Darß/ Fischland für die Gemeinde über die Kurverwaltung."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/dierhagen/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 275,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

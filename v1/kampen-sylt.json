@@ -1,0 +1,515 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kampen-sylt",
+  "name": "Gemeinde Kampen (Sylt)",
+  "short": "Kampen (Sylt)",
+  "ags": "01054061",
+  "state": "Schleswig-Holstein",
+  "district": "Nordfriesland",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Kampen über die Erhebung einer Kurabgabe (Kurabgabesatzung) vom 25.11.2024",
+      "url": "https://amtlandschaftsylt.de/images/stories/Satzungen_neu/Gemeinde%20Kampen/20241212_Kurabgabesatzung_KAM_01012025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "a557445d57a2342d3954863683560dc493d526f4a5fc2c82cba6c358a5bc76df",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nichtberücksichtigt."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.04.-31.10.: 4,00 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "b) übrige Zeit des Jahres: 2,00 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ehepartner, eingetragene Lebenspartner, Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Geschwister der Eltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwager (1. Grades) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Saisonkräfte, die in der Gemeinde Kampen unselbstständig tätig und in der Gemeinde mit Nebenwohnung gemeldet sind oder ein Arbeitsverhältnis bzw. Ausbildungsverhältnis von mindestens drei zusammenhängenden Monaten nachweisen können, sind von der Kurabgabe im Erhebungsgebiet befreit"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 20%."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Begleitpersonen nach $ 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden 28 Hauptsaisontage berücksichtigt (Jahresgästekarte), wenn der Abgabenschuldner"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Die (digitale) Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 5,
+          "reading": "Auf begründeten Antrag kann die Meldung gegen die Erhebung einer Verwaltungs- bzw. Bearbeitungsgebühr in Höhe von 3% der gemeldeten Beträge über Meldezettel erfolgen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 5,
+          "reading": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+        },
+        {
+          "where": "hostDuty",
+          "page": 5,
+          "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer (digitalen) Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "erhält der Unterkunftsgeber eine ordentliche Rechnung über die Höhe der auf der ermittelten Kurabgabe. Diese ist spätestens 10 ' Tage nach Rechnungsstellung an die Rechnungsstelle abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Die Meldung erfolgt grundsätzlich elektronisch über die hierfür von der Gemeinde zur Verfügung gestellten Schnittstellen, mittels einlesbarer Datei oder über eine webbasierte Anwendung, die von der Gemeinde bzw. deren Dienstleister zur Verfügung gestellt wird. Auf begründeten Antrag kann die Meldung gegen die Erhebung einer Verwaltungs- bzw. Bearbeitungsgebühr in Höhe von 3% der gemeldeten Beträge über Meldezettel erfolgen. Die Meldung muss spätestens zum 10. Tag des Folgemonats erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Kampen über die Erhebung einer Fremdenverkehrsabgabe vom 10. November 2010, mit I. und II. Nachtragssatzung und Betriebsartentabelle",
+      "url": "https://www.amtlandschaftsylt.de/images/Satzungen2013/2015/Fremdenverkehrsabgabe%20einschl.%201%20und%202%20Nachtrag.pdf",
+      "kind": "municipality",
+      "inForce": "2011-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "a028cdf6220905d5589796b0ff974390de102469475c89f52c4600d132d53060",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "(1) Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen der Fremdenverkehr in der Gemeinde Kampen unmittelbar und/oder mittelbar wirtschaftliche Vorteile bietet."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 5,
+          "reading": "3 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 100% 16%"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 5,
+          "reading": "3 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 100% 16%"
+        },
+        {
+          "where": "businessLevy.letting[0].turnover.advantage",
+          "page": 5,
+          "reading": "3 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 100% 16%"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 5,
+          "reading": "2 Hotels garnis, Pensionen, Privatzimmer, jeweils mit Frühstück 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 5,
+          "reading": "2 Hotels garnis, Pensionen, Privatzimmer, jeweils mit Frühstück 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[1].turnover.advantage",
+          "page": 5,
+          "reading": "2 Hotels garnis, Pensionen, Privatzimmer, jeweils mit Frühstück 100% 8%"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 5,
+          "reading": "1 Hotels, Pensionen, jeweils mit Vollverpflegung 100% 5%"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 5,
+          "reading": "1 Hotels, Pensionen, jeweils mit Vollverpflegung 100% 5%"
+        },
+        {
+          "where": "businessLevy.letting[2].turnover.advantage",
+          "page": 5,
+          "reading": "1 Hotels, Pensionen, jeweils mit Vollverpflegung 100% 5%"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 5,
+          "reading": "5 Campingplatz 100% 10%"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 5,
+          "reading": "5 Campingplatz 100% 10%"
+        },
+        {
+          "where": "businessLevy.letting[3].turnover.advantage",
+          "page": 5,
+          "reading": "5 Campingplatz 100% 10%"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Jahreseinnahmen (Abs. 4 u. 5), gegebenenfalls abzüglich Umsatzsteuer,"
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 2,
+          "reading": "Die Beitragsfestsetzung wird ausgesetzt, solange die Beitragsschuld insgesamt (auch für mehrere Betriebe des/der Pflichtigen) den Betrag von 10 € nicht übersteigt."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 3,
+          "reading": "- Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, - bis zum 30. Juni eines jeden Jahres oder innerhalb eines Monats nach Aufforderung auf dem vorgesehenen Erklärungsträger ihre betrieblichen Einnahmen gemäß $ 3 Abs. 4 und 5 zu erklären,"
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "(3) Der Beitrag ist innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "(4) Zeitlich maßgeblich sind die im Vorjahr des Erhebungsjahres erzielten Einnahmen."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 3,
+          "reading": "(1) Die Beitragspflichtigen haben der - im Auftrag der Gemeinde Kampen handelnden - Gemeinde Sylt alle für die Ermittlung der Abgabeschuld erforderlichen Angaben zu machen und angeforderten Belege einzureichen,"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Gemeinde erhebt auf den zu erwartenden Beitrag im Laufe des Erhebungsjahres Vorausleistungen."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 1,
+          "reading": "multipliziert mit dem Vorteilssatz (Abs. 2) und dem Gewinnsatz (Abs. 3)."
+        }
+      ]
+    },
+    "fvbN3": {
+      "title": "III. Nachtragssatzung zur Satzung der Gemeinde Kampen über die Erhebung einer Fremdenverkehrsabgabe (Tourismusabgabe) vom 14.12.2016",
+      "url": "https://www.amtlandschaftsylt.de/images/Satzungen2013/2017/kampen/III_Nachtragssatzung%20Fremdenverkehrsabgabe_Kampen.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "c6e3b4dfd7cf0c3fa14c2bfb80a3a9e3dbeba8be84be33a3158b030bcd58a239",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.rate",
+          "page": 1,
+          "reading": "In 8 4 wird der Beitragssatz von 1,67% auf 2,02% geändert."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 400,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich Mehrwertsteuer in den nachstehenden Zeiträumen: a) Hauptsaison 01.04.-31.10.: 4,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "b) übrige Zeit des Jahres: 2,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Ehepartner, eingetragene Lebenspartner, Großeltern, Eltern, Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Geschwister der Eltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwägerinnen und Schwager (1. Grades) von Personen, die in der Gemeinde ihren gewöhnlichen Aufenthalt haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind"
+      },
+      {
+        "text": "Wer in einer anderen Gemeinde auf Sylt schon Kurabgabe bezahlt hat und es nachweist, ist für diese Zeit als Tagesgast befreit",
+        "quote": "Personen, die Kurabgaben in einer anderen Gemeinde auf der Insel Sylt entrichtet haben, sind für die Zeit, für die die Abgaben entrichtet wurden, als Tagesgäste von der Kurabgabe im Erhebungsgebiet befreit"
+      },
+      {
+        "text": "Saisonkräfte mit Nebenwohnung im Ort oder mit einem Arbeits- oder Ausbildungsverhältnis von mindestens drei zusammenhängenden Monaten",
+        "quote": "Saisonkräfte, die in der Gemeinde Kampen unselbstständig tätig und in der Gemeinde mit Nebenwohnung gemeldet sind oder ein Arbeitsverhältnis bzw. Ausbildungsverhältnis von mindestens drei zusammenhängenden Monaten nachweisen können, sind von der Kurabgabe im Erhebungsgebiet befreit"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 20 % weniger",
+        "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von 80 oder mehr nachweisen können, erhalten eine Ermäßigung der Kurabgabe in Höhe von 20%."
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die im öffentlichen Verkehr regelmäßig auf Hilfe angewiesen sind",
+        "quote": "Begleitpersonen nach § 229 Abs. 2 SGB IX von Personen, die bei der Benutzung von öffentlichen Verkehrsmitteln infolge ihrer Behinderung regelmäßig auf Hilfe angewiesen sind, sind von der Kurabgabe befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer es beantragt (oder Eigentümer einer Wohnung im Ort ist), zahlt statt der Tage 28 Hauptsaisontage, die Jahresgästekarte für 112,00 €.",
+        "quote": "Statt der tatsächlichen Zahl der Tage des Aufenthalts werden 28 Hauptsaisontage berücksichtigt (Jahresgästekarte), wenn der Abgabenschuldner"
+      },
+      {
+        "text": "Die Gästekarte, die dein Gast bei der Zahlung bekommt, ist höchstens 28 Tage gültig.",
+        "quote": "Die (digitale) Gästekarte ist nicht übertragbar und maximal 28 Tage gültig."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet, wenn der Gast die Abreise nachweist.",
+        "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+      },
+      {
+        "text": "Wer auf Antrag auf Papier statt elektronisch meldet, zahlt dafür 3 % der gemeldeten Beträge als Gebühr.",
+        "quote": "Auf begründeten Antrag kann die Meldung gegen die Erhebung einer Verwaltungs- bzw. Bearbeitungsgebühr in Höhe von 3% der gemeldeten Beträge über Meldezettel erfolgen."
+      },
+      {
+        "text": "Als Unterkunftsgeber giltst du auch, wenn du Gäste in deiner eigenen Wohnung unentgeltlich übernachten lässt, selbst Freunde und Angehörige.",
+        "quote": "Dies gilt auch, wenn es bei den übernachtenden Personen um nahe Angehörige oder Freunde handelt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, berechnet und zieht die Kurabgabe ein, händigt die Gästekarte aus und führt den Betrag an die Gemeinde ab; dafür haftest du.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer (digitalen) Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Auf Grundlage deiner Meldung bekommst du eine Rechnung, die du spätestens 10 Tage nach Rechnungsstellung bezahlst.",
+      "quote": "erhält der Unterkunftsgeber eine ordentliche Rechnung über die Höhe der auf der ermittelten Kurabgabe. Diese ist spätestens 10 Tage nach Rechnungsstellung an die Rechnungsstelle abzuführen"
+    },
+    "reporting": {
+      "text": "Gemeldet wird grundsätzlich elektronisch, spätestens zum 10. Tag des Folgemonats.",
+      "quote": "Die Meldung erfolgt grundsätzlich elektronisch über die hierfür von der Gemeinde zur Verfügung gestellten Schnittstellen, mittels einlesbarer Datei oder über eine webbasierte Anwendung, die von der Gemeinde bzw. deren Dienstleister zur Verfügung gestellt wird. Auf begründeten Antrag kann die Meldung gegen die Erhebung einer Verwaltungs- bzw. Bearbeitungsgebühr in Höhe von 3% der gemeldeten Beträge über Meldezettel erfolgen. Die Meldung muss spätestens zum 10. Tag des Folgemonats erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe (früher Fremdenverkehrsabgabe)",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Kampen unmittelbar oder mittelbar wirtschaftliche Vorteile bietet, also auch als Vermieter von Ferienwohnungen.",
+      "quote": "(1) Beitragspflichtig sind die natürlichen und juristischen Personen und die teil- oder nichtrechtsfähigen Personenvereinigungen, denen der Fremdenverkehr in der Gemeinde Kampen unmittelbar und/oder mittelbar wirtschaftliche Vorteile bietet."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen und Ferienhäuser an wechselnde Gäste",
+        "quote": "3 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 100% 16%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "3 Ferienwohnungs-/-haus-Vermietung an wechselnde Gäste 100% 16%"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Hotels garnis, Pensionen und Privatzimmer, jeweils mit Frühstück",
+        "quote": "2 Hotels garnis, Pensionen, Privatzimmer, jeweils mit Frühstück 100% 8%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "2 Hotels garnis, Pensionen, Privatzimmer, jeweils mit Frühstück 100% 8%"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Hotels und Pensionen, jeweils mit Vollverpflegung",
+        "quote": "1 Hotels, Pensionen, jeweils mit Vollverpflegung 100% 5%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "1 Hotels, Pensionen, jeweils mit Vollverpflegung 100% 5%"
+          },
+          "profit": {
+            "percent": 5
+          }
+        }
+      },
+      {
+        "label": "Campingplatz",
+        "quote": "5 Campingplatz 100% 10%",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "5 Campingplatz 100% 10%"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.02,
+      "quote": "In § 4 wird der Beitragssatz von 1,67% auf 2,02% geändert.",
+      "source": "fvbN3"
+    },
+    "basis": {
+      "text": "Es zählen deine Jahreseinnahmen, gegebenenfalls ohne Umsatzsteuer, des Vorjahres.",
+      "quote": "Jahreseinnahmen (Abs. 4 u. 5), gegebenenfalls abzüglich Umsatzsteuer,"
+    },
+    "minimum": {
+      "text": "Beträgt deine Beitragsschuld nicht mehr als 10 Euro, wird sie vorerst nicht festgesetzt.",
+      "quote": "Die Beitragsfestsetzung wird ausgesetzt, solange die Beitragsschuld insgesamt (auch für mehrere Betriebe des/der Pflichtigen) den Betrag von 10 € nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. Juni jeden Jahres erklärst du auf dem vorgesehenen Erklärungsträger deine betrieblichen Einnahmen, oder innerhalb eines Monats nach Aufforderung; Beginn und Ende deiner Tätigkeit zeigst du innerhalb eines Monats an.",
+      "quote": "- Beginn und Ende der abgabepflichtigen Tätigkeit innerhalb eines Monats anzuzeigen, - bis zum 30. Juni eines jeden Jahres oder innerhalb eines Monats nach Aufforderung auf dem vorgesehenen Erklärungsträger ihre betrieblichen Einnahmen gemäß $ 3 Abs. 4 und 5 zu erklären,"
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "(3) Der Beitrag ist innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Maßgeblich sind die im Vorjahr erzielten Einnahmen.",
+        "quote": "(4) Zeitlich maßgeblich sind die im Vorjahr des Erhebungsjahres erzielten Einnahmen."
+      },
+      {
+        "text": "Für die Abgabe ist die Gemeinde Sylt im Auftrag der Gemeinde Kampen zuständig; ihr machst du die Angaben und reichst die Belege ein.",
+        "quote": "(1) Die Beitragspflichtigen haben der - im Auftrag der Gemeinde Kampen handelnden - Gemeinde Sylt alle für die Ermittlung der Abgabeschuld erforderlichen Angaben zu machen und angeforderten Belege einzureichen,"
+      },
+      {
+        "text": "Die Gemeinde erhebt Vorausleistungen auf den erwarteten Beitrag.",
+        "quote": "Die Gemeinde erhebt auf den zu erwartenden Beitrag im Laufe des Erhebungsjahres Vorausleistungen."
+      },
+      {
+        "text": "Vorteilssatz und Gewinnsatz stehen in der Anlage zur Satzung.",
+        "quote": "multipliziert mit dem Vorteilssatz (Abs. 2) und dem Gewinnsatz (Abs. 3)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/kampen-sylt/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 400,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Übrige Zeit",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ueckermuende",
+  "name": "Seebad Ueckermünde",
+  "short": "Ueckermünde",
+  "ags": "13075136",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Seebad Ueckermünde (Kurabgabesatzung) vom 2. Dezember 2021, bekanntgemacht am 3. Dezember 2021",
+      "url": "https://www.ueckermuende.de/downloads/datei/MmY0NjU1ZWIxMThhYjZkMWlpUUNQTnU3UUJYbFRiK2E4V1dESEIzQWdEc2JseWZHY3B3SDF5Z09JdXY3aUs3Uy9LVjNwZGk4Z2tyeThVU0lsRGdaT2ZnTEF2N0R1RysvU2toYXNTWGVsbDljdVNXSE95aEhZdlo4OWtibmpKaVkwd2pHenRXeFZRS1hUUW9YaUJUYkNHV3hBeDBodzgxQjJFNW5QWlZPVDhtc2tDd0IxTk1lb2VLRzBVUnYrOVI3Ny9XV0FNTjBNZExKVnZrVg",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "d69a183e7b143cbc64744f88850cd25fc80ec289d8b8f8a3afe6766f08f00a61",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Bei Übernachtungsgästen ist die Zahl der Übernachtungen maßgeblich."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,00 Euro ohne Ermäßigung"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 18. Lebensjahres."
+        },
+        {
+          "where": "maxNights",
+          "page": 3,
+          "reading": "Die Kurabgabe wird für max. 28 Tage im Jahr erhoben."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "wenn sie ohne Vergütung in deren häuslicher Gemeinschaft aufgenommen werden, soweit der Aufenthalt ausschließlich als Familienbesuch"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Die bei Schwerbehinderten teilweise erforderliche Begleitperson ist von der Zahlung der Kurabgabe befreit."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Kurabgabe wird für einen Aufenthalt in der Zeit vom 1. Mai bis einschließlich 30. September eines jeden Jahres erhoben."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,00 Euro ohne Ermäßigung und 1,00 Euro mit Ermäßigung."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Die Kurabgabe wird auf Antrag um 50 v. H. ermäßigt für: Schüler, Studenten und Auszubildende bis zur Vollendung des 27. Lebensjahres sowie Schwerbehinderte mit mindestens einem Grad der Behinderung von 80 v. H., sofern sie den Behindertenausweis vorlegen."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Die Kurabgabe beinhaltet die gesetzliche Umsatzsteuer."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "Der Abgabepflichtige kann an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe in Höhe von 56,00 Euro ohne Ermäßigung und 28,00 Euro mit Ermäßigung zahlen. Bereits gezahlte und nach Tagen berechnete Kurabgaben werden auf die Jahreskurabgabe angerechnet. Zweitwohnungsinhaber sind verpflichtet, die Jahreskurabgabe zu entrichten."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 5,
+          "reading": "Der Quartiergeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurabgabe am Tag der Ankunft von den Abgabepflichtigen für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und eine personengebundene Kurkarte auszuhändigen"
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "die eingenommene Kurabgabe grundsätzlich bis zum 30. eines jeden Monats für den vorangegangenen Monat an die Stadt Seebad Ueckermünde abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "alle von ihm aufgenommenen Personen am Tage der Ankunft entsprechend den Bestimmungen des Landemeldegesetzes anzumelden und die vorgeschriebenen Meldescheine zu verwenden"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei Übernachtungsgästen ist die Zahl der Übernachtungen maßgeblich."
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,00 Euro ohne Ermäßigung"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tage im Jahr",
+      "quote": "Die Kurabgabe wird für max. 28 Tage im Jahr erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Verwandte von Personen mit Hauptwohnsitz in Ueckermünde, wenn sie unentgeltlich bei ihnen wohnen und nur zu Besuch sind",
+        "quote": "wenn sie ohne Vergütung in deren häuslicher Gemeinschaft aufgenommen werden, soweit der Aufenthalt ausschließlich als Familienbesuch"
+      },
+      {
+        "text": "Die erforderliche Begleitperson eines Schwerbehinderten zahlt nichts.",
+        "quote": "Die bei Schwerbehinderten teilweise erforderliche Begleitperson ist von der Zahlung der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer in Ueckermünde arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe wird nur für Aufenthalte vom 1. Mai bis 30. September erhoben.",
+        "quote": "Die Kurabgabe wird für einen Aufenthalt in der Zeit vom 1. Mai bis einschließlich 30. September eines jeden Jahres erhoben."
+      },
+      {
+        "text": "Der ermäßigte Satz beträgt 1,00 € je Person und Aufenthaltstag.",
+        "quote": "Die Kurabgabe beträgt pro Person und Aufenthaltstag 2,00 Euro ohne Ermäßigung und 1,00 Euro mit Ermäßigung."
+      },
+      {
+        "text": "Auf Antrag zahlen Schüler, Studenten und Auszubildende bis zur Vollendung des 27. Lebensjahres sowie Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 nur die Hälfte, wenn sie den Behindertenausweis vorlegen.",
+        "quote": "Die Kurabgabe wird auf Antrag um 50 v. H. ermäßigt für: Schüler, Studenten und Auszubildende bis zur Vollendung des 27. Lebensjahres sowie Schwerbehinderte mit mindestens einem Grad der Behinderung von 80 v. H., sofern sie den Behindertenausweis vorlegen."
+      },
+      {
+        "text": "Die Kurabgabe enthält die gesetzliche Umsatzsteuer.",
+        "quote": "Die Kurabgabe beinhaltet die gesetzliche Umsatzsteuer."
+      },
+      {
+        "text": "Statt der Tagessätze kann der Abgabepflichtige eine Jahreskurabgabe von 56,00 € (ermäßigt 28,00 €) zahlen; Zweitwohnungsinhaber müssen sie zahlen.",
+        "quote": "Der Abgabepflichtige kann an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe in Höhe von 56,00 Euro ohne Ermäßigung und 28,00 Euro mit Ermäßigung zahlen. Bereits gezahlte und nach Tagen berechnete Kurabgaben werden auf die Jahreskurabgabe angerechnet. Zweitwohnungsinhaber sind verpflichtet, die Jahreskurabgabe zu entrichten."
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Quartiergeber haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe am Anreisetag für den ganzen Aufenthalt ein und händigt eine personengebundene Kurkarte aus.",
+      "quote": "die Kurabgabe am Tag der Ankunft von den Abgabepflichtigen für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und eine personengebundene Kurkarte auszuhändigen"
+    },
+    "deadline": {
+      "text": "Abgeführt wird grundsätzlich bis zum 30. eines jeden Monats für den Vormonat.",
+      "quote": "die eingenommene Kurabgabe grundsätzlich bis zum 30. eines jeden Monats für den vorangegangenen Monat an die Stadt Seebad Ueckermünde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste werden am Anreisetag mit den vorgeschriebenen Meldescheinen angemeldet.",
+      "quote": "alle von ihm aufgenommenen Personen am Tage der Ankunft entsprechend den Bestimmungen des Landemeldegesetzes anzumelden und die vorgeschriebenen Meldescheine zu verwenden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ueckermuende/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

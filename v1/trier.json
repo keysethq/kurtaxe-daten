@@ -1,0 +1,126 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "trier",
+  "name": "Stadt Trier",
+  "short": "Trier",
+  "ags": "07211000",
+  "state": "Rheinland-Pfalz",
+  "district": "Trier",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungsteuer für Übernachtungen in der Stadt Trier vom 17.10.2017 in der Fassung der Änderungssatzung vom 17.04.2026, Stadt Trier",
+      "url": "https://www.trier.de/media/www.trier.de/org/med_3407/8151_beherbergungsteuersatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "9ab9dd1c53a65c03f6e87e44fb4d2c24316aac51616e475e701547525747b5ff",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "seite": {
+      "title": "Beherbergungsteuer, Stadt Trier",
+      "url": "https://www.trier.de/rathaus-politik/verwaltung/finanzen/steuern-und-abgaben/4035.Beherbergungsteuer.html",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "3dfb6e612f5825f67cd0b6d28d300d3951332b350d8b9bcf221495a5e9c5d912",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "hashOf": "text"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 4,
+      "quote": "Die Beherbergungsteuer beträgt 4,0 vom Hundert der Bemessungsgrundlage.",
+      "next": {
+        "percent": 4.5,
+        "quote": "ab dem 01.07.2027 : 4,5% der Bemessungsgrundlage",
+        "source": "seite"
+      }
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Mehrwertsteuer; Verpflegung, Parkplatz und andere Nebenleistungen zählen nicht dazu.",
+      "quote": "Bemessungsgrundlage ist der vom Gast für die Beherbergung aufgewendete Betrag (einschließlich Mehrwertsteuer), nicht hinzuzuziehen sind Nebenleistungen wie z.B. Verpflegung, Parkplatz oder Sonstiges.",
+      "source": "satzung",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerpflichtig ist der Betreiber des Beherbergungsbetriebes, der dem Übernachtungsgast die entgeltliche Übernachtung gewährt.",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe an die Stadtkasse fällig.",
+      "quote": "Die errechnete Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr festgesetzt. Sie wird einen Monat nach Bekanntgabe des Bescheides an den Steuerschuldner fällig und ist von diesem an die Stadtkasse zu entrichten.",
+      "source": "satzung"
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 10. Tag nach Quartalsende eine Erklärung ab, mit der Zahl aller Übernachtungen und der Zahl der steuerpflichtigen Übernachtungen.",
+      "quote": "Der Betreiber eines Beherbergungsbetriebes ist verpflichtet, bis zum 10. Tage nach Ablauf eines Kalendervierteljahres der Stadtverwaltung Trier eine Erklärung nach amtlich vorgeschriebenem Vordruck oder im Onlineverfahren unter Angabe der Gesamtanzahl der Übernachtungen, der Anzahl der steuerpflichtigen Übernachtungen sowie die Anzahl der Übernachtungen, für die keine Übernachtungsteuer (§ 4 Abs. 2) erhoben wurde und der hierauf entfallenden Bemessungsgrundlage, einzureichen.",
+      "source": "satzung"
+    },
+    "exemptions": [
+      {
+        "text": "Beherbergungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "quote": "Beherbergungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf den Grund des Aufenthalts kommt es nicht an, berufliche Übernachtungen sind also steuerpflichtig.",
+        "quote": "ungeachtet des Aufenthaltgrundes",
+        "source": "seite"
+      }
+    ],
+    "maxNights": {
+      "nights": 7,
+      "perStay": true,
+      "text": "höchstens sieben zusammenhängende Übernachtungen im selben Betrieb",
+      "quote": "Sollte ein Übernachtungsgast mehr als 7 zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, sind die weiteren Übernachtungen nicht steuerpflichtig.",
+      "source": "satzung"
+    },
+    "change": {
+      "from": "2027-07-01",
+      "text": "Das hat der Stadtrat der Stadt Trier am 16. April 2026 beschlossen.",
+      "quote": "Mit Beschluss des Stadtrates der Stadt Trier vom 16.04.2026 wurde der Steuersatz zum 01.07.2026 auf 4% und zum 01.07.2027 auf 4,5% erhöht.",
+      "source": "seite"
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/trier/",
+  "calculation": {
+    "kind": "town",
+    "percent": 4,
+    "maxDays": 7,
+    "maxPerStay": true,
+    "change": {
+      "from": "2027-07-01",
+      "label": "ab 1. Juli 2027"
+    },
+    "next": {
+      "percent": 4.5
+    }
+  }
+}

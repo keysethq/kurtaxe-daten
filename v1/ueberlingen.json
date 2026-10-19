@@ -1,0 +1,311 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ueberlingen",
+  "name": "Überlingen",
+  "short": "Überlingen",
+  "ags": "08435059",
+  "state": "Baden-Württemberg",
+  "district": "Bodenseekreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Überlingen über die Erhebung einer Kurtaxe (Kurtaxesatzung), Gemeinderatsbeschluss vom 01.12.2025",
+      "url": "https://cms.ueberlingen.de/mediamanager/2025/12/satzung-ber-die-erhebung-einer-kurtaxe-kurtaxesatzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "c0adef44e9c20632efe8542100a6d3405b1f821bba30dd0df4c64e2af07bff82",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist das Gemeindegebiet südlich der B 31 (alt).",
+          "quote": "Zum Kurgebiet I gehört das südlich der B 31 (alt) gelegene Gemeindegebiet."
+        },
+        "periods": [
+          {
+            "label": "Saisonzeit A",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 320,
+              "quote": "a) In der Saisonzeit A Im Kurbezirk I 3,20 Euro inkl. Umsatzsteuer"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr."
+              }
+            ]
+          },
+          {
+            "label": "Saisonzeit B",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 410,
+              "quote": "b) In der Saisonzeit B Im Kurbezirk I 4,10 Euro inkl. Umsatzsteuer"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II ist das übrige Gemeindegebiet.",
+          "quote": "Das übrige Gemeindegebiet gehört zum Kurbezirk II."
+        },
+        "periods": [
+          {
+            "label": "Saisonzeit A",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 280,
+              "quote": "a) In der Saisonzeit A Im Kurbezirk I 3,20 Euro inkl. Umsatzsteuer 1m Kurbezirk 11 2,80 Euro inkl. Umsatzsteuer"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr."
+              }
+            ]
+          },
+          {
+            "label": "Saisonzeit B",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 340,
+              "quote": "b) In der Saisonzeit B Im Kurbezirk I 4,10 Euro inkl. Umsatzsteuer Im Kurbezirk II 3,40 Euro inkl. Umsatzsteuer"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 80"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, wenn der Ausweis die Begleitung ausweist und sie selbst keine Kurmittel nutzen",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit einer Begleitperson durch Schwerbehindertenausweis nachgewiesen wird und die Begleitperson selbst keine Kurmittel in Anspruch nimmt"
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "die in der Stadt arbeiten oder dort in Ausbildung stehen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Saisonzeit A läuft vom 1. Januar bis 31. März und vom 1. November bis 31. Dezember, Saisonzeit B vom 1. April bis 31. Oktober.",
+        "quote": "Die Saisonzeit A umfasst den Zeitraum vom 1. Januar bis 31. März und vom 1. November bis 31. Dezember. Die Saisonzeit B umfasst den Zeitraum vom 1. April bis 31. Oktober."
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldeverfahren der Stadt.",
+        "quote": "Für die Meldung ist das von der Stadt Überlingen unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Stadt ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt Überlingen abzuführen. Sie haften der Stadt Überlingen gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Stadt fordert die Beträge eines Monats per Abgabenbescheid an; du zahlst zu dem im Bescheid genannten Termin.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sowie die Pauschalkurtaxen nach § 3 Abs. 5 werden durch die Stadt Überlingen mit Abgabenbescheid angefordert und sind nach erfolgter Bescheidzustellung zu dem im Bescheid genannten Zahlungstermin zu entrichten."
+    },
+    "reporting": {
+      "text": "Gäste meldest du spätestens am Tag nach der Anreise an und nach der Abreise ab.",
+      "quote": "die bei ihm verweilenden Personen sowie eventuelle Korrekturen unverzüglich, spätestens am Tag nach der Ankunft bzw. Abreise an- bzw. abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ueberlingen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Saisonzeit A",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 320,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Saisonzeit B",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 410,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Saisonzeit A",
+            "ranges": [
+              [
+                "01-01",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 320,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Saisonzeit B",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 410,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Saisonzeit A",
+            "ranges": [
+              [
+                "01-01",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 280,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Saisonzeit B",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 340,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

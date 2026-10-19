@@ -1,0 +1,346 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-hindelang",
+  "name": "Markt Bad Hindelang",
+  "short": "Bad Hindelang",
+  "ags": "09780123",
+  "state": "Bayern",
+  "district": "Oberallgäu",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages im Markt Bad Hindelang (Kurbeitragssatzung - KBS), Gesamtfassung 2023 mit eingearbeiteter 1. Änderungssatzung vom 19.05.2023",
+      "url": "https://www.marktbadhindelang.de/fileadmin/Gemeinde/Dateien/Buergerservice_Politik/Ortsrecht/2023-Kurbeitragssatzung_Gesamtfassung.pdf",
+      "kind": "municipality",
+      "inForce": "2023-11-01",
+      "sha256": "adb6b5baaace0bbf980d170f1968578130477d2a946b74111ad74e154a36fb76",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages im Markt Bad Hindelang, Gesamtfassung mit der 1. Änderung vom 30.01.2019",
+      "url": "https://www.marktbadhindelang.de/fileadmin/Gemeinde/Dateien/Buergerservice_Politik/Ortsrecht/2019-FVB-Satzung_Gesamtfassung.pdf",
+      "kind": "municipality",
+      "inForce": "2020-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "392df99b9539f375ab796c2e87d9d7a8fda27161904e10fbd77330e52a41b6e7",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Gemeindegebiet ohne Oberjoch (Kurbezirk 1)",
+        "area": {
+          "text": "Kurbezirk 1 ist das ganze Gemeindegebiet, Oberjoch aber nur vom 1. April bis 14. Dezember.",
+          "quote": "Der Kurbezirk 1 umfasst das gesamte Gemeindegebiet inklusive Oberjoch während der Sommersaison vom 01.04. bis 14.12."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 330,
+              "quote": "Der Beitrag beträgt für Erwachsene pro Aufenthaltstag und Person a) im Kurbezirk 1 3,30 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Als Jugendliche gelten Personen, die am Abreisetag das 6. Lebensjahr vollendet haben."
+              },
+              {
+                "underAge": 16,
+                "cents": 200,
+                "quote": "Als Erwachsene gelten Personen, die am Abreisetag das 16. Lebensjahr vollendet haben. (3) Der Beitrag beträgt für Jugendliche pro Aufenthaltstag und Person a) im Kurbezirk 1 2,00 €"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Oberjoch (Kurbezirk 2 im Winter)",
+        "area": {
+          "text": "Oberjoch gehört vom 15. Dezember bis 31. März zum Kurbezirk 2, im Rest des Jahres zum Kurbezirk 1; die genaue Grenze des Kurbezirks 2 zeigt eine Karte der Satzung.",
+          "quote": "Der Kurbezirk 2 umfasst den Ortsteil Oberjoch während der Wintersaison vom 15.12. bis 31.03. Die genaue Abgrenzung dieses Kurbezirks ist aus einer Karte (Maßstab 1:6000 mit Stand vom 19.04.2023) ersichtlich"
+        },
+        "periods": [
+          {
+            "label": "Sommer, Kurbezirk 1",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "12-14"
+              }
+            ],
+            "adult": {
+              "cents": 330,
+              "quote": "Der Beitrag beträgt für Erwachsene pro Aufenthaltstag und Person a) im Kurbezirk 1 3,30 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Als Jugendliche gelten Personen, die am Abreisetag das 6. Lebensjahr vollendet haben."
+              },
+              {
+                "underAge": 16,
+                "cents": 200,
+                "quote": "Als Erwachsene gelten Personen, die am Abreisetag das 16. Lebensjahr vollendet haben. (3) Der Beitrag beträgt für Jugendliche pro Aufenthaltstag und Person a) im Kurbezirk 1 2,00 €"
+              }
+            ]
+          },
+          {
+            "label": "Winter, Kurbezirk 2",
+            "ranges": [
+              {
+                "from": "12-15",
+                "to": "03-31"
+              }
+            ],
+            "adult": {
+              "cents": 380,
+              "quote": "Der Beitrag beträgt für Erwachsene pro Aufenthaltstag und Person a) im Kurbezirk 1 3,30 € b) im Kurbezirk 2 3,80 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Als Jugendliche gelten Personen, die am Abreisetag das 6. Lebensjahr vollendet haben."
+              },
+              {
+                "underAge": 16,
+                "cents": 200,
+                "quote": "Als Erwachsene gelten Personen, die am Abreisetag das 16. Lebensjahr vollendet haben. (3) Der Beitrag beträgt für Jugendliche pro Aufenthaltstag und Person a) im Kurbezirk 1 2,00 € b) im Kurbezirk 2 2,00 €"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80, gegen Nachweis",
+        "quote": "Behinderte Personen mit einem Grad der Behinderung von mindestens 80 % sind beitragsfrei."
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Merkzeichen B im Schwerbehindertenausweis",
+        "quote": "Begleitpersonen von behinderten Personen, welche in ihrem Schwerbehindertenausweis ein „B“ eingetragen haben, sind beitragsfrei."
+      },
+      {
+        "text": "Geschäftsreisende auf Antrag, nach der Definition der Geschäftsreise in Anlage A der Satzung",
+        "quote": "Geschäftsreisende können auf Antrag nach Maßgabe der Regelung in der Anlage A zur KBS und nach der dortigen Definition der Geschäftsreise bzw. des Geschäftsreisenden eine Befreiung von der Kurbeitragspflicht erlangen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Der Kurbeitrag enthält Umsatzsteuer in der jeweils gesetzlich geltenden Höhe."
+      },
+      {
+        "text": "Wer mehr als 100 Übernachtungen im Vorjahr hatte, muss die Gäste über das elektronische System melden; Papiermeldungen sind dann nicht mehr möglich.",
+        "quote": "Soweit im Betrieb des Vermieters im vorausgegangenen Kalenderjahr mehr als 100 Übernachtungen stattgefunden haben, ist die Datenübermittlung gemäß Abs. 4 verpflichtend."
+      },
+      {
+        "text": "Für unvollständig übertragene Meldescheine kann die Gemeinde eine Bearbeitungsgebühr von 5 € je Meldeschein erheben.",
+        "quote": "Für unvollständig übertragene Meldescheine kann eine Bearbeitungsgebühr von 5 € je Meldeschein erhoben werden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag und haftet der Gemeinde gesamtschuldnerisch mit dem Gast für die ordnungsgemäße Erhebung und den Eingang.",
+      "quote": "Die in § 7 KBS bezeichneten Beherbergungsbetriebe sind verpflichtet, den Kurbeitrag zu erheben und haften dem Markt Bad Hindelang gegenüber - bezüglich der Zahlungspflicht des Kurbeitragspflichtigen gesamtschuldnerisch mit diesem - für die ordnungsgemäße Erhebung und den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens am dritten Tag nach Zustellung des Beitragsbescheids, sofern kein Abbuchungsauftrag besteht.",
+      "quote": "Der Kurbetrag ist von dem zur Einhebung Verpflichteten, soweit kein Abbuchungsauftrag besteht, spätestens am dritten Tag nach Zustellung des Beitragsbescheides an den Markt Bad Hindelang abzuführen."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du vollständig und unverzüglich, spätestens am Tag nach der Anreise, an Bad Hindelang Tourismus.",
+      "quote": "vollständig und unverzüglich, spätestens am Tag nach der Anreise, an BHT"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Hindelang Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge veranlagt werden und betragen für jede Übernachtung 0,30 €.",
+        "perNight": {
+          "cents": 30
+        }
+      }
+    ],
+    "rate": {
+      "percent": 7.5,
+      "quote": "Der Beitragssatz beträgt 7,5 %."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Abs. 1) oder des steuerbaren Umsatzes (Abs. 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,23 und 0,82 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 v.H. bis 5 v.H. 0,23% über 5 v.H. bis 10 v.H. 0,38% über 10 v.H. bis 15 v.H. 0,51% über 15 v.H. bis 20 v.H. 0,63% über 20 v.H. 0,82%"
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Nach der Satzung kann die Vorauszahlung je Übernachtung zusammen mit der Abführung der Kurbeiträge veranlagt werden.",
+        "quote": "können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge veranlagt werden"
+      },
+      {
+        "text": "Ist anzunehmen, dass diese Vorauszahlungen die sonst fällige Vorauszahlung nicht erreichen, können darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe veranlagt werden.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Absätze 1 und 2 veranlagt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung nach § 5 Absatz 3 Satz 1, also nicht die weiteren nach Satz 2, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Absatz 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Dies gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Absatz 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-hindelang/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0,
+          200
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Gemeindegebiet ohne Oberjoch (Kurbezirk 1)",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 330,
+            "children": [
+              0,
+              200
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Oberjoch (Kurbezirk 2 im Winter)",
+        "periods": [
+          {
+            "label": "Sommer, Kurbezirk 1",
+            "ranges": [
+              [
+                "04-01",
+                "12-14"
+              ]
+            ],
+            "adult": 330,
+            "children": [
+              0,
+              200
+            ]
+          },
+          {
+            "label": "Winter, Kurbezirk 2",
+            "ranges": [
+              [
+                "12-15",
+                "03-31"
+              ]
+            ],
+            "adult": 380,
+            "children": [
+              0,
+              200
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

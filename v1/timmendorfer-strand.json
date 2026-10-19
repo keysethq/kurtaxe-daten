@@ -1,0 +1,415 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "timmendorfer-strand",
+  "name": "Timmendorfer Strand",
+  "short": "Timmendorfer Strand",
+  "ags": "01055042",
+  "state": "Schleswig-Holstein",
+  "district": "Ostholstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Timmendorfer Strand (Kurabgabesatzung) vom 31. März 2023, Ortsrecht 8.2",
+      "url": "https://www.timmendorfer-strand.org/fileadmin/download/Ortsrecht/Kurbetrieb/8_2.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "99d4367072c03cdcb851e6ae27180b71e26d4e61fa87c248bdb9e3ea176d8eda",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "ta": {
+      "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Timmendorfer Strand vom 25.03.2026",
+      "url": "https://www.timmendorfer-strand.org/fileadmin/download/Ortsrecht/Kurbetrieb/8.3satzungueberdieerhebungeinertourismusabgabe.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "ef7f54b9f526afdbdbbd570739d0d427a7ff81bf01a6148e6de33ab2622e6161",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich der Mehrwertsteuer, vorbehaltlich der Ermäßigungen des § 6 sowie der Regelungen in § 11 (Tageskurkarte), für a) Nebensaison € 2,00 b) Hauptsaison € 3,50"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Der Abgabesatz je Aufenthaltstag beträgt einschließlich der Mehrwertsteuer, vorbehaltlich der Ermäßigungen des § 6 sowie der Regelungen in § 11 (Tageskurkarte), für a) Nebensaison € 2,00 b) Hauptsaison € 3,50"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre im Ausweis eingetragene Begleitperson",
+        "quote": "d) Schwerbehinderte Personen, die einen Grad der Behinderung von 100 % nachweisen, sowie für die ständige Begleitperson, wenn dies durch den Eintrag ‚B‘ auf der Vorderseite des Behindertenausweises vermerkt ist."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 50 %, ihre im Ausweis eingetragene Begleitperson zahlt nichts",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 v. H. und mehr nachweisen, erhalten eine Ermäßigung von 50 v. H.. Nachweislich erforderliche Begleitpersonen, die durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt sind, sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer beruflich vorübergehend im Ort ist und die Einrichtungen nicht nutzt",
+        "quote": "a) in Ausübung ihres Dienstes oder Berufes vorübergehend Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört;"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen",
+        "quote": "b) Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Einrichtungen nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Teilnehmer an Familienfeiern, die die Kur- und Erholungseinrichtungen nicht nutzen",
+        "quote": "c) Teilnehmer an Familienfeiern, wenn sie die Kur- und Erholungseinrichtungen nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Gruppenreisen und Betriebsausflüge ab 20 Personen zahlen auf vorherigen Antrag des Vermieters 1 € weniger",
+        "quote": "Teilnehmer an Sammelreisen und Betriebsausflügen (ab 20 Personen) erhalten auf vorherigen Antrag durch den Vermieter bei dem Kurbetrieb eine Ermäßigung der Kurabgabe in Höhe von 1 €."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag des Gastes werden pauschal 28 Tage der Hauptsaison im Jahr berechnet (Jahrespauschale).",
+        "quote": "Die Zahl der Aufenthaltstage wird auf 28 Tage der Hauptsaisonzeit pauschaliert (Jahrespauschale), wenn der Kurabgabepflichtige a) einen entsprechenden Antrag stellt oder"
+      },
+      {
+        "text": "Die Jahres-OstseeCard kostet 98,00 €.",
+        "quote": "c) Jahres „Ostsee-Card“ € 98,00"
+      },
+      {
+        "text": "Ermäßigungen darfst du als Vermieter nicht selbst gewähren; Anträge stellt der Gast vor der Anreise beim Kurbetrieb.",
+        "quote": "Anträge auf Ermäßigung der Kurabgabe sind mit Begründung schriftlich vor Ankunft in der Gemeinde bei dem Kurbetrieb zu stellen. Der Wohnungsgeber ist nicht berechtigt, Ermäßigungen zu gewähren."
+      },
+      {
+        "text": "Nicht zurückgegebene oder verlorene Meldescheine stellt der Kurbetrieb dir mit 31,50 € je Schein in Rechnung.",
+        "quote": "Nicht zurück gegebene und verlorene Meldescheine werden dem Unterkunftsgeber in Höhe von € 31,50 in Rechnung gestellt"
+      },
+      {
+        "text": "Du musst die Satzung für deine Gäste sichtbar auslegen.",
+        "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, berechnet die Kurabgabe für jede ausgegebene OstseeCard, zieht sie beim Gast ein und führt sie an den Kurbetrieb ab oder erteilt ihm eine Lastschrift-Ermächtigung.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, für die von ihm ausgehändigte „OstseeCard“ die Kurabgabe zu errechnen, diese vom Gast einzuziehen und an den Kurbetrieb kostenfrei abzuführen oder aber dem Kurbetrieb die Ermächtigung zum Lastschriftverfahren zu erteilen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird, auch über einen Dienstleister, in der Hauptsaison mindestens alle zwei Wochen und in der Nebensaison mindestens alle vier Wochen.",
+      "quote": "Die Abrechnung kann über einen dritten Dienstleister erfolgen (in der Hauptsaison mindestens 2- wöchentlich, in der Nebensaison mindestens 4-wöchentlich)."
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen des Kurbetriebs, deren Kopie du innerhalb von drei Werktagen einreichst, oder über das Onlinemeldeverfahren spätestens am Tag nach der Anreise.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, jeder von ihm aufgenommenen Person ab 18 Jahren eine „OstseeCard“ auszuhändigen und unter Verwendung der von dem Kurbetrieb kostenlos zur Verfügung gestellten Meldescheine durch den Gast den An- und Abreisetag und die Heimatanschrift eintragen zu lassen und für den Kurbetrieb bestimmte Kopien innerhalb von 3 Werktagen bei dem Kurbetrieb einzureichen. Der Gast hat die Richtigkeit der Angaben und den Empfang der „OstseeCard“ durch seine Unterschrift zu bestätigen. Bei einer Datenerfassung über das Onlinemeldeverfahren des Kurbetriebes wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Ankunft des Gastes an den Kurbetrieb erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-13",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "ta",
+    "payer": {
+      "text": "Zahlen musst du auch, wenn du Ferienwohnungen oder Ferienhäuser nur privat vermietest.",
+      "quote": "Zu den abgabenpflichtigen Personen gehören auch diejenigen Personen, die tourismusbezogene entgeltliche Leistungen lediglich im Rahmen privater Vermögensverwaltung anbieten, insbesondere durch das Vermieten von Ferienwohnungen oder Ferienhäusern."
+    },
+    "letting": [
+      {
+        "label": "Ferienwohnungen, Appartements und Ferienhäuser, Umsatz bis 50.000 €",
+        "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern 100 25 Umsatz bis 50 TEUR",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern 100 25 Umsatz bis 50 TEUR"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, Appartements und Ferienhäuser, Umsatz über 50.000 € bis 100.000 €",
+        "quote": "106 Vermietung von Ferienwohnungen, -appartements, -häusern 15 Umsatz über 50 TEUR bis 100 TEUR",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern 100 25 Umsatz bis 50 TEUR"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Ferienwohnungen, Appartements und Ferienhäuser, Umsatz über 100.000 €",
+        "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern 10 Umsatz über 100 TEUR",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Vermietung von Ferienwohnungen, -appartements, -häusern 100 25 Umsatz bis 50 TEUR"
+          },
+          "profit": {
+            "percent": 10
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer ohne Frühstück",
+        "quote": "107 Vermietung von Gästezimmern 100 44",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "107 Vermietung von Gästezimmern 100 44"
+          },
+          "profit": {
+            "percent": 44
+          }
+        }
+      },
+      {
+        "label": "Gästezimmer mit Frühstück",
+        "quote": "108 Vermietung von Gästezimmern mit Frühstück 100 30",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "108 Vermietung von Gästezimmern mit Frühstück 100 30"
+          },
+          "profit": {
+            "percent": 30
+          }
+        }
+      },
+      {
+        "label": "Hotels garni",
+        "quote": "52 Hotels garni 100 11",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "52 Hotels garni 100 11"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotels, Umsatz bis 250.000 €",
+        "quote": "Hotels mit einem jährlichen Umsatz bis 250 TEuro 100 16",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels mit einem jährlichen Umsatz bis 250 TEuro 100 16"
+          },
+          "profit": {
+            "percent": 16
+          }
+        }
+      },
+      {
+        "label": "Hotels, Umsatz von 250.000 € bis 400.000 €",
+        "quote": "Hotels mit einem jährlichen Umsatz von 250 bis 400 TEuro 100 11",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels mit einem jährlichen Umsatz von 250 bis 400 TEuro 100 11"
+          },
+          "profit": {
+            "percent": 11
+          }
+        }
+      },
+      {
+        "label": "Hotels, Umsatz über 400.000 €",
+        "quote": "Hotels mit einem jährlichen Umsatz über 400 TEuro 100 8",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Hotels mit einem jährlichen Umsatz über 400 TEuro 100 8"
+          },
+          "profit": {
+            "percent": 8
+          }
+        }
+      },
+      {
+        "label": "Pensionen mit Frühstück oder Teilverpflegung, Umsatz bis 250.000 €",
+        "quote": "Pensionen mit Frühstück oder Teilverpflegung 100 25 Umsatz bis 250 TEUR",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Pensionen mit Frühstück oder Teilverpflegung 100 25 Umsatz bis 250 TEUR"
+          },
+          "profit": {
+            "percent": 25
+          }
+        }
+      },
+      {
+        "label": "Pensionen mit Frühstück oder Teilverpflegung, Umsatz über 250.000 €",
+        "quote": "75 Pensionen mit Frühstück oder Teilverpflegung 15 Umsatz über 250 TEUR",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "Pensionen mit Frühstück oder Teilverpflegung 100 25 Umsatz bis 250 TEUR"
+          },
+          "profit": {
+            "percent": 15
+          }
+        }
+      },
+      {
+        "label": "Kur- und Erholungsheime, Sanatorien",
+        "quote": "64 Kur-, Erholungsheime, Sanatorien 100 3",
+        "turnover": {
+          "advantage": {
+            "percent": 100,
+            "quote": "64 Kur-, Erholungsheime, Sanatorien 100 3"
+          },
+          "profit": {
+            "percent": 3
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 2.6,
+      "quote": "Der Abgabesatz beträgt ab dem 01.01.2026 2,60 %."
+    },
+    "basis": {
+      "text": "Es zählen deine Einnahmen aus der Vermietung ohne Umsatzsteuer.",
+      "quote": "Der Vorteil errechnet sich aus dem tourismusbedingten Teil der umsatzsteuerbereinigten jährlichen Einnahmen des Abgabepflichtigen"
+    },
+    "minimum": {
+      "text": "Beträgt die Abgabe nicht mehr als fünf Euro, wird sie nicht festgesetzt und nicht erhoben.",
+      "quote": "Die Tourismusabgabe wird nicht festgesetzt, erhoben oder nachgefordert, wenn die Forderung im Einzelfall den Betrag von fünf Euro nicht übersteigt."
+    },
+    "reporting": {
+      "text": "Bis zum 30. März jedes Jahres teilst du die Angaben mit, die für die Berechnung nötig sind, mit Nachweisen wie Umsatzsteuererklärung oder Umsatzsteuerbescheid.",
+      "quote": "bis zum 30. März eines jeden Jahres die zur Berechnung erforderlichen Angaben durch Vorlage geeigneter Nachweise (Umsatzsteuervoranmeldungen, Umsatzsteuererklärung, Umsatzsteuerbescheid, Erklärungen des Steuerberaters oder Erklärungsformblatt der Gemeinde) mitzuteilen."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Heranziehungsbescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "In der Anlage stehen für jede Betriebsart der Vorteilssatz und der Gewinnsatz in Prozent.",
+        "quote": "Betriebsart (bzw. Berufs- oder Personengruppe) Vorteilssatz Gewinnsatz"
+      },
+      {
+        "text": "Für die Berechnung zählen die Einnahmen des Vorjahres.",
+        "quote": "Maßgeblich für die Ermittlung der jährlichen Einnahmen sind die Einnahmen des Vorjahres."
+      },
+      {
+        "text": "Die Abgabe entsteht mit Ablauf des Kalenderjahres.",
+        "quote": "Die Abgabenpflicht entsteht mit Ablauf des Kalenderjahres (Erhebungszeitraum)."
+      },
+      {
+        "text": "Die Gemeinde erhebt Vorauszahlungen auf die Abgabe bis zur Höhe der voraussichtlichen Abgabe.",
+        "quote": "Vorausleistungen auf die Abgabe bis zur Höhe der voraussichtlichen Höhe der Abgabe."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du innerhalb eines Monats an.",
+        "quote": "Beginn und Ende der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen"
+      },
+      {
+        "text": "Gibst du die Vermietung im Lauf des Jahres endgültig auf, zahlst du für jeden vollen Kalendermonat bis dahin ein Zwölftel der Jahresabgabe.",
+        "quote": "Wird eine abgabenpflichtige Tätigkeit im Laufe des Erhebungsjahres endgültig aufgegeben, wird für jeden bis dahin verstrichenen vollen Kalendermonat ein Zwölftel der Tourismusabgabe erhoben"
+      },
+      {
+        "text": "Die Satzung gilt rückwirkend ab 1. Januar 2026 und ersetzt die bisherige; für die Vergangenheit darfst du aufgrund der neuen Satzung nicht schlechter gestellt werden als nach der alten, und bestandskräftige Bescheide bleiben unberührt.",
+        "quote": "Diese Satzung tritt rückwirkend zum 01. Januar 2026 in Kraft und ersetzt ab diesem Zeitpunkt die Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Timmendorfer Strand vom 26.09.2014 in der Gestalt der 8. Nachtragssatzung vom 28.03.2025. (2) Die Steuerpflichtigen dürfen aufgrund dieser Satzung für die Vergangenheit nicht ungünstiger gestellt werden als nach den bisherigen Satzungsregelungen. (3) Bestandskräftige Bescheide werden von der Rückwirkung der Satzung nicht erfasst."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/timmendorfer-strand/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

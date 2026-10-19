@@ -1,0 +1,233 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bischofswiesen",
+  "name": "Gemeinde Bischofswiesen",
+  "short": "Bischofswiesen",
+  "ags": "09172117",
+  "state": "Bayern",
+  "district": "Berchtesgadener Land",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages des Zweckverbandes Bergerlebnis Berchtesgaden (Fassung vom 26.10.2015, zuletzt geändert durch Satzung vom 08.12.2025), Stand 01.01.2026",
+      "url": "https://www.berchtesgaden.de/fileadmin/Berchtesgaden/PDFs/Kurbeitragssatzung_ZV_Bergerlebnis_Berchtesgden_2026_01_01.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "ad195d41596dafa71e482e1aacbfd57a489cfcb026c04566e5848c18bec3d357",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "verband": {
+      "title": "Verbandssatzung des Zweckverbandes Tourismusregion Berchtesgaden-Königssee (heute Zweckverband Bergerlebnis Berchtesgaden), Oberbayerisches Amtsblatt Nr. 18/2020, S. 199",
+      "url": "https://www.regierung.oberbayern.bayern.de/mam/dokumente/service/obabl/2020/18_240720.pdf",
+      "kind": "gazette",
+      "inForce": "2020-06-16",
+      "sha256": "07397df6aeadb0fe287d1f7f0c899f14442b4a78a530dc6373e8ec91f44505f6",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Bischofswiesen",
+      "url": "https://gemeinde.bischofswiesen.de/fileadmin/Gemeinde/uploads/user_upload/Fremdenverkehrsbeitrag_2026.pdf",
+      "kind": "statute",
+      "inForce": "2008-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "0007be9b18c4b443a765456b4b9113d1086cec913cbdc79c91521b68fe8f24a1",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunftstag und Abreisetag gelten als ein Unterkunftstag."
+    },
+    "ageBy": {
+      "calendarYear": true,
+      "quote": "Kinder bis zum Ende des Kalenderjahres, in dem sie das 6. Lebensjahr vollenden;"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 310,
+          "quote": "Der Kurbeitrag beträgt pro Person und Aufenthaltstag: 3,10 Euro."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zum Ende des Kalenderjahres, in dem sie das 6. Lebensjahr vollenden;"
+          },
+          {
+            "underAge": 17,
+            "cents": 155,
+            "quote": "vom Beginn des Kalenderjahres, in dem sie das 7. Lebensjahr vollenden, bis zum Ende des Kalenderjahres, in dem sie das 16. Lebensjahr vollenden: 1,55 Euro;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte mit GdB 100;"
+      },
+      {
+        "text": "Begleitpersonen von Menschen, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind;"
+      },
+      {
+        "text": "Kranke, solange sie laut ärztlichem Attest ihre Unterkunft nicht verlassen können",
+        "quote": "Kranke, solange sie laut ärztlichem Attest ihre Unterkunft nicht verlassen können;"
+      },
+      {
+        "text": "Auszubildende und Praktikanten für die Dauer der Ausbildungsmaßnahme im Kurgebiet",
+        "quote": "Auszubildende und Praktikanten für die Dauer der Ausbildungsmaßnahme im Kurgebiet;"
+      },
+      {
+        "text": "Wer sich ausschließlich beruflich im Kurgebiet aufhält",
+        "quote": "Personen, die sich ausschließlich zur Ausübung ihrer beruflichen Tätigkeit im Kurgebiet aufhalten;"
+      },
+      {
+        "text": "Sportler und ihre Betreuer in einem Team bei offiziellem Training oder Wettkampf",
+        "quote": "Sportler und ihre Betreuer innerhalb eines Teams, die sich in einem offiziellen Sportverband und zu offiziellen Trainings- oder Wettkampfzwecken im Kurgebiet aufhalten;"
+      },
+      {
+        "text": "Wer in Berghütten übernachtet, die nicht auf öffentlichen Straßen erreichbar sind",
+        "quote": "Personen, die in Berghütten übernachten, welche nicht auf öffentlichen Straßen erreichbar sind."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird der Kurbeitrag nicht von der Gemeinde, sondern vom Zweckverband Bergerlebnis Berchtesgaden; Mitglieder sind Berchtesgaden, Bischofswiesen, Marktschellenberg, Ramsau und Schönau a. Königssee.",
+        "quote": "Verbandsmitglieder sind der Landkreis Berchtesgadener Land, die Märkte Berchtesgaden und Marktschellenberg sowie die Gemeinden Bischofswiesen, Ramsau b. Berchtesgaden und Schönau a. Königssee.",
+        "source": "verband"
+      },
+      {
+        "text": "Das Alter zählt nach Kalenderjahren: Kinder sind frei bis zum Ende des Jahres, in dem sie 6 werden; der Kinderpreis gilt vom Beginn des Jahres, in dem sie 7 werden, bis zum Ende des Jahres, in dem sie 16 werden.",
+        "quote": "vom Beginn des Kalenderjahres, in dem sie das 7. Lebensjahr vollenden, bis zum Ende des Kalenderjahres, in dem sie das 16. Lebensjahr vollenden: 1,55 Euro;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 zahlen 2,50 €.",
+        "quote": "Schwerbehinderte mit mindestens GdB 80: 2,50 Euro;"
+      },
+      {
+        "text": "Patienten in einer Kurklinik oder Rehaeinrichtung und Schüler im Schüleraustausch oder in einer Jugendherberge oder einem Schullandheim bei einer Schulveranstaltung zahlen 0,80 €.",
+        "quote": "für Patienten, die in einer Kurklinik oder Rehaeinrichtung untergebracht sind 0,80 Euro."
+      },
+      {
+        "text": "Befreiungen gelten nur gegen Nachweis beim Zweckverband.",
+        "quote": "Voraussetzung ist die Vorlage entsprechender Nachweise beim ZV."
+      },
+      {
+        "text": "Die Gästekarte gibst du personenbezogen mit An- und Abreisetag aus.",
+        "quote": "Die Gästekarte sollte vom Gastgeber personenbezogen und mit Angabe von Anreise- und Abreisetag ausgegeben."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet dem Zweckverband für den Eingang.",
+      "quote": "Der Gastgeber ist weiterhin verpflichtet, den Kurbeitrag einzuheben und haftet dem ZV gegenüber für dessen Eingang."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes; der Zweckverband kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Gastgeber hat den Kurbeitrag spätestens einen Tag nach der Abreise der kurbeitragspflichtigen Person an den ZV abzuführen. Der ZV kann zulassen, dass der Kurbeitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du spätestens am zweiten Tag nach der Ankunft an und spätestens am dritten Tag nach der Abreise ab, auf dem Formblatt oder im digitalen Meldesystem des Zweckverbands.",
+      "quote": "dem ZV spätestens am zweiten Tag nach der Ankunft und spätestens am dritten Tag nach der Abreise mittels eines besonderen An- bzw. Abmeldeformblattes des ZV oder des vom ZV zur Verfügung gestellten digitalen Meldesystems die beitragspflichtigen Personen zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätige oder Tätiger, wenn dir der Fremdenverkehr im Gemeindegebiet Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Wie viel du zahlst, hängt vom Vorteilssatz ab, dem Teil deines Gewinns oder Umsatzes, der auf dem Fremdenverkehr beruht; ihn schätzt die Gemeinde für jeden Fall gesondert.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt."
+    },
+    "rate": {
+      "percent": 5,
+      "quote": "Der Beitragssatz beträgt 5 v.H."
+    },
+    "basis": {
+      "text": "Der Beitrag wird vom Gewinn berechnet; ergibt sich vom Umsatz ein höherer Betrag, gilt dieser.",
+      "quote": "Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "minimum": {
+      "text": "Vom steuerbaren Umsatz wird mit dem Vorteilssatz und einem Mindestbeitragssatz gerechnet, den die Satzung nach dem geschätzten Gewinnanteil am Umsatz staffelt.",
+      "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Fällig ist der Beitrag einen Monat nach Zustellung des Bescheids.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "remarks": [
+      {
+        "text": "Am 1. August jedes Jahres ist eine Vorauszahlung zu entrichten.",
+        "quote": "Der Beitragsschuldner hat am 01.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bischofswiesen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      17
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 310,
+        "children": [
+          0,
+          155
+        ]
+      }
+    ]
+  }
+}

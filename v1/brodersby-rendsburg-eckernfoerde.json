@@ -1,0 +1,339 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "brodersby-rendsburg-eckernfoerde",
+  "name": "Brodersby",
+  "short": "Brodersby (Schönhagen)",
+  "ags": "01058032",
+  "state": "Schleswig-Holstein",
+  "district": "Rendsburg-Eckernförde",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurabgaben in der Gemeinde Brodersby für den Ortsteil Schönhagen vom 18.12.2018",
+      "url": "https://www.amt-schlei-ostsee.de/fileadmin/ortsrecht/dokument/kurabgabenbrodersby.pdf",
+      "kind": "statute",
+      "inForce": "2019-01-01",
+      "sha256": "dd9ecb5b9d79bf789faf904bdecca257de57495f4d2794ae8408c9dd86fab102",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Lesefassung: Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Brodersby für den Ortsteil Schönhagen",
+      "url": "https://www.amt-schlei-ostsee.de/fileadmin/ortsrecht/dokument/lesefassungsatzungueberdieerhebungeinertourismusabgabein.pdf",
+      "kind": "municipality",
+      "inForce": "2015-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "1b2a3755e1479b08082dd0eebc4d4c272543ee4a687f2597da8f033956a68b5a",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei der Ermittlung der Aufenthaltsdauer gelten An- und Abreisetag als ein Tag."
+    },
+    "area": {
+      "text": "Die Kurabgabe gilt nur im Erhebungsgebiet des Ortsteils Schönhagen, das in der Liegenschaftskarte zur Satzung festgelegt ist.",
+      "quote": "Das Erhebungsgebiet ergibt sich aus der beigefügten Liegenschaftskarte, die Bestandteil dieser Satzung ist."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          },
+          {
+            "from": "12-15",
+            "to": "01-15"
+          }
+        ],
+        "adult": {
+          "cents": 128,
+          "quote": "(Hauptsaison) a) für Personen vom vollendeten 12. Lebensjahr bis zur Vollendung des 18. Lebensjahres 0,42 € b) für Personen ab Vollendung des 18. Lebensjahres 1,28 €"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 12. Lebensjahres bei Nachweis des Lebensalters."
+          },
+          {
+            "underAge": 18,
+            "cents": 42,
+            "quote": "(Hauptsaison) a) für Personen vom vollendeten 12. Lebensjahr bis zur Vollendung des 18. Lebensjahres 0,42 € b) für Personen ab Vollendung des 18. Lebensjahres 1,28 €"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "11-01",
+            "to": "12-14"
+          },
+          {
+            "from": "01-16",
+            "to": "03-31"
+          }
+        ],
+        "adult": {
+          "cents": 64,
+          "quote": "(Nebensaison) a) für Personen vom vollendeten 12. Lebenssjahr bis zur Vollendung des 18. Lebensjahres 0,23 € b) für Personen ab Vollendung des 18. Lebensjahres 0,64 €"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 12. Lebensjahres bei Nachweis des Lebensalters."
+          },
+          {
+            "underAge": 18,
+            "cents": 23,
+            "quote": "(Nebensaison) a) für Personen vom vollendeten 12. Lebenssjahr bis zur Vollendung des 18. Lebensjahres 0,23 € b) für Personen ab Vollendung des 18. Lebensjahres 0,64 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer dienstlich, beruflich, gewerblich oder zur Ausbildung dort ist und die Einrichtungen nicht in Anspruch nimmt, zahlt keine Kurabgabe.",
+        "quote": "Personen, die in Ausübung ihres Dienstes, Berufes, Gewerbes oder ihrer Ausbildung im Erhebungsgebiet anwesend sind, soweit sie die Einrichtungen nicht in Anspruch nehmen."
+      },
+      {
+        "text": "Eine Kurkarte aus einer anderen Kurabgabe-Gemeinde in Schleswig-Holstein befreit bei Gegenseitigkeit für einen Tag.",
+        "quote": "Personen, die eine Kurkarte aus einer anderen kurabgabenerhebenden Gemeinde Schleswig-Holsteins vorweisen können, sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Kurkarte an einem Tage von der Kurabgabe und der Strandkurabgabe befreit."
+      },
+      {
+        "text": "Kinder, Eltern und deren Partner von Einwohnern, die unentgeltlich bei ihnen wohnen",
+        "quote": "Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ein ununterbrochener Aufenthalt kostet höchstens die Jahreskurabgabe, das 28-Fache des vollen Hauptsaison-Satzes: 35,84 € für Personen ab 18 Jahren und 11,76 € für Personen von 12 bis unter 18 Jahren.",
+        "quote": "Die Kurabgabe wird für die Dauer jedes ununterbrochenen Aufenthaltes in einem Kalenderjahr mit den vorstehend genannten Sätzen, höchstens jedoch in Höhe der Jahreskurabgabe nach Absatz 2 erhoben. (2) Den Abgabepflichtigen steht es frei, anstelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe zu zahlen, die das 28-fache der vollen Kurabgabe der Hauptsaison (Abs. 1) beträgt und zwar a) für Personen vom vollendeten 12. Lebensjahr bis zur Vollendung des 18. Lebensjahres 11,76 € b) für Personen ab Vollendung des 18. Lebensjahres 35,84 €."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80 und ihre erforderliche Begleitperson zahlen die Hälfte (50 % Ermäßigung).",
+        "quote": "Schwerbehinderte, die eine Behinderung von 80 % und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe und der Strandkurabgabe um 50 %; dasselbe gilt für eine erforderliche Begleitperson."
+      },
+      {
+        "text": "Tagesgäste, die nur den Strand nutzen, zahlen eine Strandkurabgabe von 2,00 € (ab 18 Jahren) beziehungsweise 0,50 € (12 bis unter 18 Jahre).",
+        "quote": "zahlen eine Strandkurabgabe. Sie beträgt a) für Personen vom vollendeten 12. Lebensjahr bis zur Vollendung des 18. Lebensjahres 0,50 € b) für Personen ab Vollendung des 18. Lebensjahres 2,00 €."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe beim Gast ein und führt sie über den Dienstleister der Gemeinde ab; dafür haftest du.",
+      "quote": "Wohnungsgeber haben die Kurabgabe von den kurabgabenpflichtigen Personen, die sie beherbergen oder denen sie Wohnraum überlassen, einzuziehen und innerhalb von 14 Tagen an die Gemeinde über den Dienstleister abzuführen. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+    },
+    "deadline": {
+      "text": "Die eingezogene Kurabgabe führst du innerhalb von 14 Tagen ab.",
+      "quote": "innerhalb von 14 Tagen an die Gemeinde über den Dienstleister abzuführen."
+    },
+    "reporting": {
+      "text": "Gemeldet wird über das System des Dienstleisters der Gemeinde, unverzüglich und spätestens am Folgetag nach der Ankunft des Gastes.",
+      "quote": "dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Ankunft des Gastes an den Dienstleister erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Tourismusabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus im Erhebungsgebiet wirtschaftliche Vorteile bietet.",
+      "quote": "(1) Abgabepflichtig sind alle Personen und Personenvereinigungen, denen durch den Tourismus im Erhebungsgebiet wirtschaftliche Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Fremdenbetten, private Vermietung (Vorteilsstufe 4)",
+        "quote": "Vermietung von Fremdenbetten a) private Vermietung 4 Betten",
+        "units": {
+          "count": 4,
+          "per": "Bett",
+          "value": {
+            "cents": 10232,
+            "quote": "d) in der Vorteilsstufe 4 102,32 €."
+          },
+          "roundUp": {
+            "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+          }
+        }
+      },
+      {
+        "label": "Fremdenbetten, gewerbliche Vermietung (Vorteilsstufe 4)",
+        "quote": "b) gewerbliche Vermietung 4 Betten",
+        "units": {
+          "count": 4,
+          "per": "Bett",
+          "value": {
+            "cents": 10232,
+            "quote": "d) in der Vorteilsstufe 4 102,32 €."
+          },
+          "roundUp": {
+            "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+          }
+        }
+      },
+      {
+        "label": "Fremdenbetten, Hotel mit Restaurant (Vorteilsstufe 4)",
+        "quote": "c) Hotel mit Restaurant 2 Betten",
+        "units": {
+          "count": 2,
+          "per": "Bett",
+          "value": {
+            "cents": 10232,
+            "quote": "d) in der Vorteilsstufe 4 102,32 €."
+          },
+          "roundUp": {
+            "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+          }
+        }
+      },
+      {
+        "label": "Hotel garni und Pension (Vorteilsstufe 4)",
+        "quote": "d) Hotel garni, Pension 3 Betten",
+        "units": {
+          "count": 3,
+          "per": "Bett",
+          "value": {
+            "cents": 10232,
+            "quote": "d) in der Vorteilsstufe 4 102,32 €."
+          },
+          "roundUp": {
+            "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+          }
+        }
+      },
+      {
+        "label": "Fremdenbetten, Freizeit- und Erholungseinrichtungen (Vorteilsstufe 4)",
+        "quote": "e) Freizeit- und Erholungseinrichtungen 8 Betten",
+        "units": {
+          "count": 8,
+          "per": "Bett",
+          "value": {
+            "cents": 10232,
+            "quote": "d) in der Vorteilsstufe 4 102,32 €."
+          },
+          "roundUp": {
+            "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+          }
+        }
+      }
+    ],
+    "area": {
+      "text": "Die Satzung betrifft nur den Ortsteil Schönhagen, den die Gemeinde als Seebad anerkannt hat.",
+      "quote": "aufgrund der Anerkennung des Ortsteiles Schönhagen als Kurort mit der Artbezeichnung Seebad"
+    },
+    "reporting": {
+      "text": "Beginn, Ende und Veränderungen im Umfang deiner Vermietung zeigst du der Gemeinde innerhalb eines Monats an.",
+      "quote": "insbesondere sind Beginn, Ende sowie Veränderungen im Umfang der abgabenpflichtigen Tätigkeit innerhalb eines Monats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Abgabe ist innerhalb eines Monats nach Bekanntgabe des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Das Erhebungsgebiet zeigt die Liegenschaftskarte, die zur Satzung gehört.",
+        "quote": "Das Erhebungsgebiet ergibt sich aus der beigefügten Liegenschaftskarte, die Bestandteil dieser Satzung ist."
+      },
+      {
+        "text": "Die Abgabe wird im Folgejahr mit Bescheid für das abgelaufene Jahr festgesetzt.",
+        "quote": "Die Abgabe wird im Folgejahr mit Bescheid für das abgelaufene Jahr festgesetzt."
+      },
+      {
+        "text": "Die Vermietung von Fremdenbetten steht in der Anlage 4, also in Vorteilsstufe 4.",
+        "quote": "Vorteilsstufe 4: Anlage 4 zu § 6 Abs. 2"
+      },
+      {
+        "text": "Eine angefangene Vorteilseinheit zählt als volle Einheit.",
+        "quote": "Angefangene Vorteilseinheiten sind als volle Einheiten zu berücksichtigen."
+      },
+      {
+        "text": "Als Betten zählen alle vermieteten oder gegen Entgelt überlassenen Übernachtungsmöglichkeiten, auch Schlafsofas.",
+        "quote": "Betten im Sinne dieser Satzung sind alle vermieteten bzw. gegen Entgelt überlassenen Übernachtungsmöglichkeiten, also auch Schlafsofas,"
+      },
+      {
+        "text": "Babyreisebetten zählen nicht mit.",
+        "quote": "Babyreisebetten werden nicht berücksichtigt."
+      },
+      {
+        "text": "Fehlen Angaben oder sind sie falsch oder unvollständig, darf die Gemeinde die Berechnungsgrundlagen schätzen.",
+        "quote": "Werden fristgerecht keine, unrichtige oder unvollständige Angaben gemacht, ist die Gemeinde befugt, die Berechnungsgrundlagen zu schätzen."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/brodersby-rendsburg-eckernfoerde/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ],
+          [
+            "12-15",
+            "01-15"
+          ]
+        ],
+        "adult": 128,
+        "children": [
+          0,
+          42
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "11-01",
+            "12-14"
+          ],
+          [
+            "01-16",
+            "03-31"
+          ]
+        ],
+        "adult": 64,
+        "children": [
+          0,
+          23
+        ]
+      }
+    ]
+  }
+}

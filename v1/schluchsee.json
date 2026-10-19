@@ -1,0 +1,279 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schluchsee",
+  "name": "Schluchsee",
+  "short": "Schluchsee",
+  "ags": "08315102",
+  "state": "Baden-Württemberg",
+  "district": "Breisgau-Hochschwarzwald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Schluchsee über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 03.12.2024",
+      "url": "https://gemeinde-schluchsee.de/fileadmin/Dateien/Cross7/Startseite/Rathaus/Satzungen_der_Gemeinde_Schluchsee/Kurtaxesatzung_ab_01.01.2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "0b6dbda3e175290275255f214905b95ab28d1ff892a4fc16ef092a0a4dd4f4d1",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Gemeinde Schluchsee über die Erhebung eines Beitrages zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung – FBS), Beschluss vom 17.11.1998, geändert am 03.04.2001",
+      "url": "https://www.gemeinde-schluchsee.de/fileadmin/Dateien/Cross7/Startseite/Rathaus/Satzungen%20der%20Gemeinde%20Schluchsee/Fremdenverkehrsbeitragssatzung%20aktuell.pdf",
+      "kind": "statute",
+      "inForce": "2002-01-01",
+      "sha256": "d038b49543b22088b3b327dad10e4065802f3f951ef38faa38461c259f97524f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist Schluchsee-Ort.",
+          "quote": "Zum Kurbezirk I gehört Schluchsee - Ort."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren € 3,50 € 3,00"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren € 3,50 € 3,00 für Kinder ab 6 Jahren und Jugendliche € 1,60 € 1,60"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind alle übrigen Bereiche der Gemeinde: die Ortsteile Blasiwald, Faulenfürst, Fischbach und Schönenbach sowie die Weiler Aha, Aeule, Dresselbach, Unterfischbach und Seebrugg.",
+          "quote": "Zum Kurbezirk II gehören alle übrigen Bereiche des Gemeindegebiets, d.h. die Ortsteile Blasiwald, Faulenfürst, Fischbach und Schönenbach, sowie die Weiler Aha, Aeule, Dresselbach, Unterfischbach und Seebrugg."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Kurbezirk I Kurbezirk II für Personen ab 16 Jahren € 3,50 € 3,00"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten sechsten Lebensjahr,"
+              },
+              {
+                "underAge": 16,
+                "cents": 160,
+                "quote": "für Personen ab 16 Jahren € 3,50 € 3,00 für Kinder ab 6 Jahren und Jugendliche € 1,60 € 1,60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Menschen mit einem nachgewiesenen Grad der Behinderung von 100",
+        "quote": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 %"
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen und Kranken, wenn der Ausweis oder ein ärztliches Attest die Begleitung belegt",
+        "quote": "Begleitpersonen von schwerbehinderten Personen und Kranken im Sinne von Nr. 4 und Nr. 5, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist"
+      },
+      {
+        "text": "Wer am Ort arbeitet, in Ausbildung ist oder beruflich an einer Tagung teilnimmt",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
+        "quote": "Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Mit der Gästekarte fahren die Gäste im KONUS-Gebiet kostenlos mit Bus und Bahn; die Kurtaxe enthält diese Leistung.",
+        "quote": "sowie für die den Kur- und Erholungsgästen eingeräumte Möglichkeit der kostenlosen Nutzung des öffentlichen Personennahverkehrs im Geltungsgebiet von KONUS eine Kurtaxe."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen Eingang.",
+      "quote": "die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen. Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt. Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum Ende des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "die vereinnahmten Kurtaxezahlungen eines Kalendermonats zum Ende des darauffolgenden Kalendermonats gesammelt an die Gemeinde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab, über das kostenlose elektronische Meldeverfahren.",
+      "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du in Schluchsee selbstständig tätig bist und dir der Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Schluchsee aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Beitragspflichtige, die nur Einnahmen aus Zimmer- und/oder Wohnungsvermietung erzielen (Übernachtung mit oder ohne Frühstück)",
+        "quote": "Für die in § 3 Abs. 4 genannten Personen beträgt der Beitrag abweichend von Abs. 1 je Übernachtung 0,20 €.",
+        "perNight": {
+          "cents": 20
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Gemeinde innerhalb von 10 Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 und 5 Abs. 2 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 10 Tagen nach Ablauf eines jeden Kalendermonats anzuzeigen."
+    },
+    "deadline": {
+      "text": "Du zahlst den Beitrag auf die Übernachtungen monatlich zusammen mit der Kurtaxe.",
+      "quote": "Die Beitragsschuld gem. § 5 Abs. 3 wird abweichend von Absatz 1 Satz 1 monatlich zusammen mit der Kurtaxe erhoben."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Hast du nur Einnahmen aus Zimmer- oder Wohnungsvermietung mit oder ohne Frühstück, wird dein Beitrag anders bemessen als nach dem Umsatz.",
+        "quote": "Bei Beitragspflichtigen nach § 1, die nur Einnahmen aus Zimmer- und/oder Wohnungsvermietung (Übernachtung mit oder ohne Frühstück) erzielen, bemißt sich der Beitrag"
+      },
+      {
+        "text": "Bemessen wird er nach der Zahl der Übernachtungen im Erhebungszeitraum.",
+        "quote": "nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)"
+      },
+      {
+        "text": "Alle anderen Beitragspflichtigen zahlen 5,8 % des Messbetrags; beträgt der Beitrag weniger als 10 €, wird er nicht erhoben.",
+        "quote": "Der Beitrag nach § 4 Abs. 1 beträgt 5,8. v. H. des Meßbetrages (§ 4 Abs. 1 - 3). Der Beitrag wird nicht erhoben, wenn er weniger als 10,-- € beträgt."
+      },
+      {
+        "text": "Hotels, Gasthöfe und andere mit Einnahmen aus Unterkunft und Verpflegung zahlen mindestens den Betrag, der sich aus ihren Übernachtungszahlen mit dem Satz je Übernachtung ergäbe.",
+        "quote": "Bei Beitragspflichtigen, die Einnahmen aus Unterkunft und Verpflegung von Gästen haben (z. B. Hotels, Gasthöfe, Kurhäuser, Sanatorien), beträgt der Beitrag mindestens den Betrag, der sich bei Zugrundelegung der Übernachtungszahlen im Erhebungszeitraum unter Anwendung der Beträge nach Abs. 3 ergeben würde."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schluchsee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0,
+          160
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

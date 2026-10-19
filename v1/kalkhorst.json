@@ -1,0 +1,220 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kalkhorst",
+  "name": "Gemeinde Kalkhorst",
+  "short": "Kalkhorst",
+  "ags": "13074037",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Kalkhorst - Kurabgabesatzung - (Amtsseite: Kurabgabensatzung vom 09.04.2025)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/5/4/6/8/2/Satzung_ueber_die_Erhebung_einer_Kurabgabe_in_der_Gemeinde_Kalkhorst_unterzeichnet_am_09.04.2025_1.pdf",
+      "kind": "statute",
+      "inForce": "2025-06-01",
+      "sha256": "f2e86765b101d9b654c801ac684fc00711d7766ee5ddb39e74ce7c68e1365945",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "An- und Abreisetag werden insgesamt als ein Tag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "je Person: 1,50 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Schwerbehinderte mit einem Grad der Behinderung von 100% sowie deren Begleitperson (Merkzeichen B im Schwerbehindertenausweis)."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "familiäre Besuche in der häuslichen Gemeinschaft, soweit der Erholungsgrund nicht im Vordergrund steht,"
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Folgende Personen erhalten eine Ermäßigung von der Kurabgabe: a) Menschen mit einem Grad der Behinderung ab 50%."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "je ermäßigte Person: 1,00 €"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Zweitwohnungsinhaber sowie Personen, die sich dauerhaft im Sinne dieser Satzung im Erhebungsgebiet aufhalten zahlen, unabhängig von der tatsächlichen Aufenthaltsdauer eine Jahreskurabgabe. Maßstab für die Berechnung der Jahreskurabgabe und die Ermittlung eines dauerhaften Aufenthalts ist der Abgabesatz für 28 Aufenthaltstage. (4) Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: je Jahreskurkarte: 42,00 € je ermäßigte Jahreskurkarte 28,00 €"
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Für Personen, die im Erhebungsgebiet keine Unterkunft nehmen (Tagesgäste) ist die Kurabgabe an den von der Gemeinde zugelassenen Stellen (insb. Kurkartenautomat, App, Tourismus- Information) zu entrichten."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 3,
+          "reading": "In den Kurabgabesätzen ist die Umsatzsteuer nach dem Umsatzsteuergesetz in der jeweils geltenden Höhe enthalten."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+        },
+        {
+          "where": "deadline",
+          "page": 5,
+          "reading": "hat die Kurabgabe an die Gemeinde bis zum 10. des Folgemonats abzuführen"
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Der Quartiergeber nutzt das von der Gemeinde vorgegebene elektronische Meldeverfahren. Die Meldepflicht umfasst die zur Erhebung der Kurabgabe erforderlichen Daten, insbesondere personenbezogene Daten (Name, Anschrift, Geburtsdatum, An- und Abreisedaten). Die Meldung hat innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag werden insgesamt als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "je Person: 1,50 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson mit Merkzeichen B",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100% sowie deren Begleitperson (Merkzeichen B im Schwerbehindertenausweis)."
+      },
+      {
+        "text": "Familiäre Besuche in der häuslichen Gemeinschaft, solange nicht die Erholung im Vordergrund steht",
+        "quote": "familiäre Besuche in der häuslichen Gemeinschaft, soweit der Erholungsgrund nicht im Vordergrund steht,"
+      },
+      {
+        "text": "Bettlägerige Kranke und Verletzte",
+        "quote": "bettlägerige Kranke und Verletzte, die nicht in der Lage sind, die Kureinrichtungen in Anspruch zu nehmen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 erhalten eine Ermäßigung.",
+        "quote": "Folgende Personen erhalten eine Ermäßigung von der Kurabgabe: a) Menschen mit einem Grad der Behinderung ab 50%."
+      },
+      {
+        "text": "Die ermäßigte Kurabgabe beträgt 1,00 € je Person und Tag.",
+        "quote": "je ermäßigte Person: 1,00 €"
+      },
+      {
+        "text": "Statt der Tagessätze zahlen Zweitwohnungsinhaber und dauerhaft Aufhältige eine Jahreskurabgabe von 42,00 € (ermäßigt 28,00 €).",
+        "quote": "Zweitwohnungsinhaber sowie Personen, die sich dauerhaft im Sinne dieser Satzung im Erhebungsgebiet aufhalten zahlen, unabhängig von der tatsächlichen Aufenthaltsdauer eine Jahreskurabgabe. Maßstab für die Berechnung der Jahreskurabgabe und die Ermittlung eines dauerhaften Aufenthalts ist der Abgabesatz für 28 Aufenthaltstage. (4) Die Jahreskurabgabe beträgt für jedes Kalenderjahr, in dem die Abgabepflicht besteht: je Jahreskurkarte: 42,00 € je ermäßigte Jahreskurkarte 28,00 €"
+      },
+      {
+        "text": "Auch Tagesgäste zahlen die Kurabgabe, über Kurkartenautomat, App oder Tourismus-Information.",
+        "quote": "Für Personen, die im Erhebungsgebiet keine Unterkunft nehmen (Tagesgäste) ist die Kurabgabe an den von der Gemeinde zugelassenen Stellen (insb. Kurkartenautomat, App, Tourismus-Information) zu entrichten."
+      },
+      {
+        "text": "In den Sätzen ist die Umsatzsteuer enthalten.",
+        "quote": "In den Kurabgabesätzen ist die Umsatzsteuer nach dem Umsatzsteuergesetz in der jeweils geltenden Höhe enthalten."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht die Kurabgabe ein, führt sie ab und stellt Kurkarten aus.",
+      "quote": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 10. des Folgemonats.",
+      "quote": "hat die Kurabgabe an die Gemeinde bis zum 10. des Folgemonats abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du über das elektronische Meldeverfahren der Gemeinde, innerhalb eines Werktages nach der Ankunft.",
+      "quote": "Der Quartiergeber nutzt das von der Gemeinde vorgegebene elektronische Meldeverfahren. Die Meldepflicht umfasst die zur Erhebung der Kurabgabe erforderlichen Daten, insbesondere personenbezogene Daten (Name, Anschrift, Geburtsdatum, An- und Abreisedaten). Die Meldung hat innerhalb eines Werktages nach der Ankunft des Gastes zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kalkhorst/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

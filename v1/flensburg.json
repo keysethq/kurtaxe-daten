@@ -1,0 +1,133 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "flensburg",
+  "name": "Stadt Flensburg",
+  "short": "Flensburg",
+  "ags": "01001000",
+  "state": "Schleswig-Holstein",
+  "district": "Flensburg",
+  "sources": {
+    "satzung": {
+      "title": "Lesefassung: Satzung der Stadt Flensburg über die Erhebung einer Beherbergungsabgabe (Beherbergungsabgabesatzung – BAS) einschließlich 1. Nachtragssatzung, gültig ab 01.10.2026, Stadt Flensburg",
+      "url": "https://www.flensburg.de/PDF/Beherbergungsabgabesatzung_ab_01_10_2026.PDF?ObjSvrID=2306&ObjID=18718&ObjLa=1&Ext=PDF&WTR=1&_ts=1764842111",
+      "kind": "municipality",
+      "inForce": "2026-10-01",
+      "sha256": "3fca6bf08eec536080b6d206d21bd14a69e35d6fd7c2a7b7d0ead08f0f144acd",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "nachtrag": {
+      "title": "1. Nachtragssatzung zur Satzung der Stadt Flensburg über die Erhebung einer Beherbergungsabgabe (Beherbergungsabgabesatzung – BAS) vom 31.03.2017, Amtliche Bekanntmachung der Stadt Flensburg",
+      "url": "https://www.flensburg.de/loadDocument.phtml?FID=2306.18793.1&Ext=PDF",
+      "kind": "gazette",
+      "inForce": "2026-10-01",
+      "sha256": "e725f887b4ea68a0ab6c17c0e6534318c5ef05d91b7c060df3a6cf7947f285b4",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "lodgingTax.remarks[0]",
+          "page": 3,
+          "reading": "Diese 1. Nachtragssatzung tritt zum 01.10.2026 in Kraft"
+        }
+      ]
+    },
+    "infoblatt": {
+      "title": "Informationen zur ab 01.10.2026 gültigen Satzung über die Erhebung einer Beherbergungsabgabe, Steuerabteilung der Stadt Flensburg",
+      "url": "https://www.flensburg.de/loadDocument.phtml?ObjSvrID=2306&ObjID=19906&ObjLa=1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2026-10-01",
+      "sha256": "31b835ecdc6c48993844ba0561f83366ebba12f76489bd6061bd4497c8e51492",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsabgabe",
+    "source": "satzung",
+    "rate": {
+      "percent": 6.25,
+      "quote": "Die Beherbergungsabgabe beträgt 6,25 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Abgabe bemisst sich am Betrag, den der Gast oder ein Dritter für die Übernachtung aufwendet, einschließlich Umsatzsteuer.",
+      "quote": "Die Abgabe bemisst sich nach dem für die Übernachtungsleistung vom Beherbergungsgast oder einem Dritten aufzuwendenden Betrag einschließlich der Umsatzsteuer.",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Die Abgabe schuldest du als Vermieter selbst.",
+      "quote": "Abgabeschuldner ist der Betreiber der Beherbergungsstätte."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Abgabe für das Quartal per Bescheid fest; sie ist 14 Tage nach dessen Bekanntgabe fällig.",
+      "quote": "Die Beherbergungsabgabe wird durch schriftlichen Bescheid festgesetzt und ist innerhalb von 14 Kalendertagen nach dessen Bekanntgabe fällig."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Abgabenerklärung auf dem amtlichen Vordruck bei der Steuerabteilung ein.",
+      "quote": "bis zum 15. Tag nach Ablauf eines jeden Kalendervierteljahres eine Abgabenerklärung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen, die das Grundbedürfnis nach Wohnraum decken, etwa bei Wohnungslosigkeit, unterliegen der Abgabe nicht.",
+        "quote": "Nicht der Abgabe unterliegen Aufwendungen für Übernachtungen die der Befriedigung des Grundbedürfnisses nach Wohnraum dienen (z.B. bei Wohnungslosigkeit)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Diese Fassung gilt seit dem 1. Oktober 2026, dem Tag, an dem die 1. Nachtragssatzung in Kraft getreten ist.",
+        "quote": "Diese 1. Nachtragssatzung tritt zum 01.10.2026 in Kraft",
+        "source": "nachtrag"
+      },
+      {
+        "text": "Seit dem 1. Oktober 2026 sind auch berufliche Übernachtungen abgabepflichtig.",
+        "quote": "Ab 01.10.2026 werden auch die beruflich veranlassten Übernachtungen besteuert.",
+        "source": "infoblatt"
+      },
+      {
+        "text": "Endreinigung sowie Bettwäsche und Handtücher zählen zur Bemessungsgrundlage, Frühstück und Halbpension nicht.",
+        "quote": "Aufzuwendende Beträge für Nebenleistungen in Beherbergungsstätten, die nicht unmittelbar der Beherbergung dienen (z. B. Verpflegungsleistungen wie Frühstück oder Halbpension bzw. Getränke aus der Minibar etc.), sind nicht Teil der Bemessungsgrundlage. Hierzu zählen nicht die aufzuwendenden Beträge für die Endreinigung und für die Grundausstattung mit Bettwäsche, Hand- und Badetüchern; diese Beträge sind Bestandteil der Bemessungsgrundlage."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "Sofern die Aufteilung eines aufzuwendenden Gesamtbetrages in einen Betrag für die Übernachtungsleistung und einen Betrag für die Verpflegungsleistungen ausnahmsweise nicht möglich sein sollte, gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich einer jeweiligen Pauschale von 7,00 EUR für Frühstück und je 10,00 EUR für Mittagessen und Abendessen je Beherbergungsgast und Mahlzeit."
+      },
+      {
+        "text": "Provisionen und Gebühren von Buchungsportalen darfst du nicht abziehen; maßgeblich ist, was der Gast für die Übernachtung zahlt.",
+        "quote": "Provisionen, Kommissionsgebühren oder ähnliche Entgelte dürfen daher nicht vom Übernachtungsentgelt abgezogen werden.",
+        "source": "infoblatt"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/flensburg/",
+  "calculation": {
+    "kind": "town",
+    "percent": 6.25,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

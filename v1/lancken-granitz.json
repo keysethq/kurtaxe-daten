@@ -1,0 +1,224 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lancken-granitz",
+  "name": "Lancken-Granitz",
+  "short": "Lancken-Granitz",
+  "ags": "13073048",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Lancken-Granitz (Kurabgabesatzung) vom 11.12.2024",
+      "url": "https://www.amt-moenchgut-granitz.de/de/kacheln/satzungen-ortsrecht/gemeinde-lancken-granitz/kurababgabesatzung.pdf?cid=794",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "f49a16577ce266b530d8917bf321e5e0a380ec23deffadf1b820a038b102912d",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung1": {
+      "title": "1. Änderungssatzung zur Satzung über die Erhebung einer Kurabgabe in der Gemeinde Lancken-Granitz (Beschluss vom 23.04.2025, § 9 Rückzahlung)",
+      "url": "https://www.amt-moenchgut-granitz.de/de/kacheln/satzungen-ortsrecht/gemeinde-lancken-granitz/1.-aenderungssatzung-zur-kurabgabesatzung.pdf?cid=791",
+      "kind": "statute",
+      "changedOn": "2026-10-15",
+      "sha256": "9962c5a14a684cd0ee331d91f606f3f2776d023fb0137fe0f2ca1d035482d477",
+      "verifiedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15"
+    },
+    "fva": {
+      "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Lancken-Granitz (Fremdenverkehrsabgabesatzung), Beschluss vom 11.12.2024",
+      "url": "https://www.amt-moenchgut-granitz.de/de/kacheln/satzungen-ortsrecht/gemeinde-lancken-granitz/fremdenverkehrsabgabesatzung.pdf?cid=76m",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "480c8594df8c3aad21d0097dc28fb6222d54d1761f504448010f940ea23ccd28",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": true,
+      "quote": "Der An- und Abreisetag gelten jeweils als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 207,
+          "quote": "Die Kurabgabe beträgt pro Tag 2,07 €."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres sind von der Kurabgabe befreit."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte ab einem Grad der Behinderung von 80 und ihre Begleitpersonen",
+        "quote": "Schwerbehinderte ab einem Grad der Behinderung von 80 und deren Begleitpersonen sind von der Kurabgabe befreit."
+      },
+      {
+        "text": "Wer in Lancken-Granitz arbeitet, in Ausbildung ist oder einen Kleingarten ohne Wohnnutzung bewirtschaftet, gilt nicht als ortsfremd.",
+        "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurabgabe ist in allen Monaten gleich hoch.",
+        "quote": "Die Kurabgabe wird in der Zeit vom 01. Januar bis einschließlich 31. Dezember eines jeden Jahres als Einheitssatz erhoben."
+      },
+      {
+        "text": "In den Sätzen ist die Umsatzsteuer enthalten.",
+        "quote": "In den Kurabgabesätzen ist die Umsatzsteuer in der jeweils gültigen Höhe enthalten."
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 62,08 €.",
+        "quote": "Die Jahreskurabgabe beträgt 62,08 €."
+      },
+      {
+        "text": "Wer in Lancken-Granitz eine eigene Wohnung oder ein eigenes Ferienhaus überwiegend zur Erholung nutzt, zahlt eine pauschale Jahreskurabgabe.",
+        "quote": "Inhaber eigener Wohnungseinheiten im Sinne des § 3 Abs. 3, deren Ehepartner, Lebenspartner im Sinne des Lebenspartnerschaftsgesetzes sowie deren mit ihnen in häuslicher Gemeinschaft lebende minderjährige Kinder sind verpflichtet, eine pauschalierte Jahreskurabgabe zu entrichten"
+      },
+      {
+        "text": "Auch Tagesgäste ohne Übernachtung zahlen die Kurabgabe, über eine Tageskurkarte.",
+        "quote": "Tagesgäste, die nicht im Gemeindegebiet übernachten, haben eine Tageskurkarte bei der Gemeinde Lancken-Granitz zu lösen."
+      },
+      {
+        "text": "Befreiungen und Vergünstigungen darfst du als Vermieter nicht selbst gewähren.",
+        "quote": "Die Beherberger sind nicht berechtigt, Befreiungen von der Kurabgabe oder Vergünstigungen im Sinne dieser Satzung zu gewähren."
+      },
+      {
+        "text": "Für Kurkarten, die die Tourist-Information erstellt, berechnet sie dir nach Jahresende einen Verwaltungsaufwand von 20 % der einbezahlten Kurabgabe.",
+        "quote": "Für die durch den BgA Tourist-lnformation Lancken-Granitz erstellten Kurkarten wird dem Beherberger nach Ende des Kalenderjahres ein Verwaltungsaufwand in Höhe von 20 v. H. der einbezahlten Kurabgabe"
+      },
+      {
+        "text": "Du haftest als Vermieter für die rechtzeitige und vollständige Einziehung und Abführung.",
+        "quote": "Der Beherberger haftet für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise kann die zu viel gezahlte Kurabgabe auf Antrag in begründeten Fällen erstattet werden.",
+        "quote": "Bei vorzeitiger Abreise des Gastes kann auf Antrag in begründeten Fällen die zu viel gezahlte Kurabgabe erstattet werden.",
+        "source": "aenderung1"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und stellt unverzüglich eine Kurkarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen unverzüglich eine Kurkarte auszustellen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird an die Gemeinde nach Rechnungslegung.",
+      "quote": "die Kurabgabe an die Gemeinde Lancken-Granitz nach Rechnungslegung abzuführen;"
+    },
+    "reporting": {
+      "text": "Gäste werden unverzüglich, spätestens am Tag nach der Anreise, im elektronischen Meldesystem der Tourist-Information angemeldet.",
+      "quote": "Gäste, die er beherbergt, unverzüglich, spätestens am Tag nach der Anreise, bei dem BgA Tourist-lnformation Lancken-Granitz durch das von der Gemeinde Lancken-Granitz zur Verfügung gestellte elektronische Meldesystem anzumelden;"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fva",
+    "payer": {
+      "text": "Zahlen musst du als selbständig Tätiger, dem der Fremdenverkehr in Lancken-Granitz unmittelbar oder mittelbar Vorteile bringt.",
+      "quote": "Abgabepflichtig sind alle selbständig tätigen natürlichen und juristischen Personen sowie Personenvereinigungen, denen durch den Fremdenverkehr in der Gemeinde Lancken-Granitz unmittelbar oder mittelbar Vorteile geboten werden."
+    },
+    "letting": [
+      {
+        "label": "Beherberger (Wohnungen, Zimmer, Wohnwagen und sonstige Schlafgelegenheiten)",
+        "quote": "nach Anzahl der vorhandenen 12,75 € Personen, wie Inhaber von Hotels, Fremdenbetten, die gegen Entgelt zur",
+        "flat": {
+          "cents": 1275,
+          "per": "Bett"
+        }
+      }
+    ],
+    "minimum": null,
+    "reporting": {
+      "text": "Bis zum 15. Juli jedes Jahres teilst du der Gemeinde unaufgefordert mit, was sie für die Berechnung braucht, auch Änderungen gegenüber dem Vorjahr; sind die Angaben unverändert, darf die Gemeinde die des Vorjahres übernehmen.",
+      "quote": "Die Abgabepflichtigen haben der Gemeinde Lancken-Granitz bis zum 15.07. eines jeden Jahres unaufgefordert die zur Berechnung der Abgabe erforderlichen Angaben, auch die Veränderung der Bemessungsgrundlage des Vorjahres gemäß § 6 mitzuteilen. Werden keine Angaben gemacht, werden Berechnungsgrundlagen geschätzt. Beim Vorliegen von unveränderten Berechnungsgrundlagen ist die Gemeinde Lancken-Granitz berechtigt, die vorhandenen Berechnungsgrundlagen des Vorjahres zu übernehmen und auf die Abgabe einer Erklärung zu verzichten."
+    },
+    "deadline": {
+      "text": "Fällig ist die Abgabe einen Monat nach Bekanntgabe des Bescheids, in einer Summe an die Gemeinde.",
+      "quote": "Die Abgabe ist einen Monat nach Bekanntgabe des Heranziehungsbescheides fällig und an die Gemeinde Lancken-Granitz in einer Summe zu zahlen."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Als Beherberger nennt die Satzung ausdrücklich alle, die an Kurgäste oder Erholungssuchende Wohnungen, Zimmer oder Wohnwagen und sonstige Schlafgelegenheiten vermieten.",
+        "quote": "Kurgäste oder Erholungssuchende Wohnungen, Zimmer oder Wohnwagen und sonstige Schlafgelegenheiten an kurabgabepflichtige Personen vermieten bzw. gegen sonstigen Entgeltausgleich überlassen (Beherberger)"
+      },
+      {
+        "text": "Als Fremdenbetten zählen alle vermieteten Schlafgelegenheiten, auch Notbetten, Couchen und Liegen sowie vermietete eigene Betten.",
+        "quote": "Fremdenbetten im Sinne des § 5 Ziffer 1 sind alle an kurabgabepflichtige Personen vermietete Schlafgelegenheiten, also auch Notbetten, Couchen und Liegen, ferner die so genannten eigenen Betten - wenn sie vermietet werden"
+      },
+      {
+        "text": "Die Abgabe wird nach den Verhältnissen am 1. Mai des Jahres festgesetzt, für das sie erhoben wird.",
+        "quote": "Die Fremdenverkehrsabgabe wird nach den Verhältnissen am 01.05. des Jahres, für das die Veranlagung erfolgt, festgesetzt."
+      },
+      {
+        "text": "Machst du keine Angaben, werden die Berechnungsgrundlagen geschätzt.",
+        "quote": "Werden keine Angaben gemacht, werden Berechnungsgrundlagen geschätzt."
+      },
+      {
+        "text": "Das Amt Mönchgut-Granitz berechnet und zieht die Fremdenverkehrsabgabe für die Gemeinde ein.",
+        "quote": "Das Amt Mönchgut-Granitz übernimmt im eigenen Namen die Berechnung und Einziehung bzw. Entgegennahme der Fremdenverkehrsabgabe (fremde Rechte) für die Gemeinde Lancken-Granitz"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lancken-granitz/",
+  "calculation": {
+    "countsDepartureDay": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 207,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

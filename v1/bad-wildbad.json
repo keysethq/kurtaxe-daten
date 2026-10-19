@@ -1,0 +1,274 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-wildbad",
+  "name": "Bad Wildbad",
+  "short": "Bad Wildbad",
+  "ags": "08235079",
+  "state": "Baden-Württemberg",
+  "district": "Calw",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Bad Wildbad über die Erhebung einer Kurtaxe vom 27. November 2018 inkl. 1. Änderung vom 27. November 2018 und 2. Änderung vom 27. Februar 2019 (Fassung der Stadt)",
+      "url": "https://www.bad-wildbad.de/tools/downloads/?archiv=32",
+      "kind": "municipality",
+      "inForce": "2019-04-01",
+      "sha256": "8e0e634f4ac6b8a6c14f982419975ef82e8b16c3ddbc611752970a899a75c08f",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Bad Wildbad über die Erhebung einer Abgabe zur Förderung des Fremdenverkehrs (Fremdenverkehrsabgabesatzung), Fassung von 2011",
+      "url": "https://www.bad-wildbad.de/tools/downloads/?archiv=40",
+      "kind": "statute",
+      "inForce": "2011-01-01",
+      "sha256": "5722ea4c07f796a84146d6799c9d1899ece850ace22d9ed77c8930ef930073df",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als 1 Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist der Stadtteil Wildbad mit Sommerberg, Ziegelhütte und Lautenhof.",
+          "quote": "Kurbezirk I: Stadtteil Wildbad mit Sommerberg, Ziegelhütte, Lautenhof;"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 330,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kurbezirk I: 3,30 €"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Stadtteile Calmbach (mit Kleinenzhof und Campingplatz), Sprollenhaus mit Sprollenmühle, Nonnenmiß mit Kohlhäusle, Christophshof mit Kälbermühle und Campingplatz, Aichelberg mit Rehmühle und Campingplatz sowie Hünerberg und Meistern.",
+          "quote": "Kurbezirk II: Stadtteil Calmbach (mit Kleinenzhof und Campingplatz); Stadtteile Sprollenhaus mit Sprollenmühle, Nonnenmiß mit Kohlhäusle, Christophshof mit Kälbermühle und Campingplatz; Stadtteile Aichelberg mit Rehmühle und Campingplatz, Hünerberg, Meistern;"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) im Kurbezirk I: 3,30 € b) im Kurbezirk II: 2,00 €"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": true,
+      "text": "höchstens 42 Tage je ununterbrochenem Aufenthalt",
+      "quote": "Je ununterbrochenem Aufenthalt wird die Kurtaxe bis zur Dauer von 6 Wochen (42 Tagen) erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kurmittel oder Kureinrichtungen nutzen",
+        "quote": "Familienbesucher von Einwohnern mit dem Schwerpunkt ihrer Lebensbeziehungen in der Stadt Bad Wildbad, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kurmittel oder Kureinrichtungen in Anspruch nehmen oder Veranstaltungen besuchen."
+      },
+      {
+        "text": "Auf Antrag: Teilnehmer an beruflichen Tagungen, Lehrgängen und Kursen in den ersten 4 Tagen des Aufenthalts",
+        "quote": "Teilnehmer an beruflichen Tagungen, Lehrgängen und Kursen im Erhebungsgebiet während der ersten 4 Tage des Aufenthalts."
+      },
+      {
+        "text": "Auf Antrag: Gäste, die im laufenden Kalenderjahr schon für 42 Aufenthaltstage Kurtaxe bezahlt haben",
+        "quote": "Kurtaxepflichtige Personen, die im laufenden Kalenderjahr bereits für 42 Aufenthaltstage Kurtaxe entrichtet haben."
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Geschäftsreisende zahlen ermäßigt 1,50 € im Kurbezirk I und 1,00 € im Kurbezirk II je Übernachtung.",
+        "quote": "Eine Ermäßigung von der Kurtaxe erhalten Geschäftsreisende auf jeweils 1,50 € im Kurbezirk I und 1,00 € im Kurbezirk II pro Übernachtung im Erhebungsgebiet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Stadt ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "haben die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und die nach § 7 fälligen Beträge innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheides an die Stadt Bad Wildbad abzuführen. Sie haften der Erhebungsberechtigten gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die fälligen Beträge führst du innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheids an die Stadt ab.",
+      "quote": "die nach § 7 fälligen Beträge innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheides an die Stadt Bad Wildbad abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du an dem Werktag, der auf die Ankunft folgt, bei der Stadtverwaltung an und am Werktag nach der Abreise ab.",
+      "quote": "bei ihm verweilende Personen an dem der Ankunft bzw. Abreise folgenden Werktag an- bzw. abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsabgabe",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir in Bad Wildbad aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen.",
+      "quote": "Von allen natürlichen und juristischen Personen, denen in der Stadt Bad Wildbad aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird eine Abgabe (Fremdenverkehrsabgabe) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter, die Wohnungen, Appartements oder Zimmer vorübergehend an Fremde vermieten",
+        "quote": "beträgt die Abgabe abweichend von Absatz 1 je Übernachtung in dem nach § 2 Abs. 4 und 5 maßgeblichen Zeitraum 0,35 € (in allen Stadtteilen)",
+        "perNight": {
+          "cents": 35
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Du meldest der Stadtverwaltung innerhalb von zehn Tagen nach Ablauf eines Kalendermonats, wie viele Gäste du gegen Entgelt beherbergt hast.",
+      "quote": "Abgabepflichtige nach § 2 Abs. 4 und 5 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Stadtverwaltung Bad Wildbad innerhalb von zehn Tagen nach Ablauf eines Kalendermonats mitzuteilen."
+    },
+    "deadline": {
+      "text": "Die Abgabe ist einen Monat nach Bekanntgabe des Abgabebescheids fällig.",
+      "quote": "Die Abgabeschuld wird einen Monat nach Bekanntgabe des Abgabebescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Vermietest du als Privatzimmervermieter Wohnungen, Appartements oder Zimmer vorübergehend an Fremde, richtet sich deine Abgabe nach der Zahl der Übernachtungen des Vorjahres und nicht nach deinem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die Wohnungen, Appartements und/oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemißt sich die Abgabe abweichend von Absatz 2 nach der Zahl der Übernachtungen des Jahres, das dem Erhebungszeitraum (§ 5) vorangegangen ist (Übernachtungsgeld)."
+      },
+      {
+        "text": "Ausdrücklich abgabepflichtig sind auch Personen, die als private Beherberger an Fremde vorübergehend Wohnungen oder Zimmer vermieten.",
+        "quote": "Personen, die als private Beherberger an Fremde vorübergehend Wohnungen oder Zimmer vermieten"
+      },
+      {
+        "text": "Am 1. Juli leistest du eine Vorauszahlung auf deine Abgabe für das laufende Jahr.",
+        "quote": "Der Abgabepflichtige hat am 01. Juli eine Vorauszahlung auf seine Abgabeschuld für das laufende Haushaltsjahr zu entrichten."
+      },
+      {
+        "text": "Alle anderen Abgabepflichtigen zahlen 7 % des Messbetrags; beträgt die Abgabe weniger als 5 €, wird sie nicht erhoben.",
+        "quote": "Die Abgabe nach § 3 Abs. 1 beträgt 7 vom Hundert (Hebesatz) des Messbetrags (§ 3 Abs. 1 – 3). Sie wird nicht erhoben, wenn sie weniger als 5,00 € beträgt."
+      },
+      {
+        "text": "Hast du als Privatzimmervermieter neben der Beherbergung weitere besondere wirtschaftliche Vorteile, werden diese zusätzlich nach dem Messbetrag ermittelt.",
+        "quote": "Besondere wirtschaftliche Vorteile, welche Privatzimmervermieter (siehe Abs. 4 und 5) neben den Einnahmen aus der Fremdenbeherbergung haben, werden zusätzlich nach Absatz 2 und 3 ermittelt."
+      },
+      {
+        "text": "Deine festgesetzte Abgabeschuld mindert sich um Beiträge, die du im laufenden Jahr an örtliche förderungswürdige Verkehrsvereine zahlst, bis höchstens 25,56 €; welche Vereine förderungswürdig sind, entscheidet die Stadt.",
+        "quote": "Die nach den Absätzen 1 und 2 festgesetzte Abgabeschuld eines Abgabepflichtigen vermindert sich um die von ihm für das laufende Jahr an örtliche förderungswürdige Verkehrsvereine entrichteten Beiträge bis zum Höchstbetrag von 50,- DM (25,56€). Welche Vereine förderungswürdig sind, entscheidet die Stadt."
+      }
+    ]
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-wildbad/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": true,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 330,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

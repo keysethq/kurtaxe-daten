@@ -1,0 +1,375 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bayerisch-eisenstein",
+  "name": "Gemeinde Bayerisch Eisenstein",
+  "short": "Bayerisch Eisenstein",
+  "ags": "09276115",
+  "state": "Bayern",
+  "district": "Regen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Bayerisch Eisenstein (Kurbeitragssatzung – KBS) vom 23.12.2025 (Scan)",
+      "url": "https://www.bayerisch-eisenstein.de/media/bayerisch-beisenstein_de/Bayerisch_Eisenstein/Satzungen_Verordnungen_Bekanntmachungen/Kurbeitragssatzung_vom_23.12.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "20623fa3aab7b4572878b41acc5ba7945db57e855adcbd9f6ffdb0f1ecb673bf",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "1. für Personen ab dem vollendeten 16. Lebensjahr 2,50 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "3. Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1568 ",
+          "digitsUnread": true
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1568 ",
+          "digitsUnread": true
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "sowie Schwerbehinderte, deren Grad der Behinderung 80 v.H. beträgt, sowie deren notwendige Begleitperson"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Kurgebiet ist das Gemeindegebiet mit Ausnahme des am 01.01.1978 angegliederten Ortsteils Regenhütte."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Wird auf einem Meldeschein kein Abreisedatum angegeben, werden 30 Übernachtungen pro Person berechnet."
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "spätestens am Tag nach ihrer Ankunft elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrages in der Gemeinde Bayerisch Eisenstein (Fremdenverkehrsbeitragssatzung - FBS) vom 23.12.2025",
+      "url": "https://www.bayerisch-eisenstein.de/media/bayerisch-beisenstein_de/Bayerisch_Eisenstein/Satzungen_Verordnungen_Bekanntmachungen/Fremdenverkehrsbeitragssatzung_vom_23.12.2025.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "202adafbe01647a2110b21bf407bea081ce1c2a6e98627a89caa67b1697a43b8",
+      "verifiedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 1,
+          "reading": "Der Beitragssatz beträgt 8 v. H."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 2,
+          "reading": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,35 EUR."
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 2,
+          "reading": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,35 EUR."
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß & 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß & 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 1,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 1,
+          "reading": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5v.H. 0,10 v.H. über 5-10v.H. 0,30 v.H. über 10-15v.H. 0,50 v.H. über 15-20v.H. 0,70 v.H. über 20 v.H. 1,00 v.H."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 1,
+          "reading": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat am 01.Juli jeden Jahres eine Vorauszahlung zu entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 2,
+          "reading": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 2,
+          "reading": "können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden"
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 2,
+          "reading": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Absätze 1 und 2 verlangt werden."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 2,
+          "reading": "Von Beitragsschuldner, die keinen Kurbeitrag abführen müssen, kann der Fremdenverkehrsbeitrag abweichend von den Absätzen 1 und 2 am Tage nach der Abreise der Gäste verlangt werden und beträgt für jede Übernachtung 0,35 EUR."
+        },
+        {
+          "where": "businessLevy.remarks[7]",
+          "page": 2,
+          "reading": "Beitragsschuldner, die nur Vorauszahlungen nach $ 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlung ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach $ 4 Abs., 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt."
+        },
+        {
+          "where": "businessLevy.remarks[8]",
+          "page": 2,
+          "reading": "Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld ($ 4 Abs. 1)."
+        }
+      ]
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 2,50 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zur Vollendung des sechsten Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 16,
+            "cents": 125,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 1.25 €"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von 80 und ihre notwendige Begleitperson zahlen den Satz der Kinder und Jugendlichen",
+        "quote": "sowie Schwerbehinderte, deren Grad der Behinderung 80 v.H. beträgt, sowie deren notwendige Begleitperson"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Im Ortsteil Regenhütte wird kein Kurbeitrag erhoben, denn er gehört nicht zum Kurgebiet.",
+        "quote": "Kurgebiet ist das Gemeindegebiet mit Ausnahme des am 01.01.1978 angegliederten Ortsteils Regenhütte."
+      },
+      {
+        "text": "Steht auf dem Meldeschein kein Abreisedatum, rechnet die Gemeinde 30 Übernachtungen je Person.",
+        "quote": "Wird auf einem Meldeschein kein Abreisedatum angegeben, werden 30 Übernachtungen pro Person berechnet."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Gemeinde kann zulassen, dass erst am Monatsende abgeführt wird.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du spätestens am Tag nach der Ankunft elektronisch über das Verfahren der Gemeinde; das ist für alle Beherbergungsbetriebe Pflicht, Ausnahmen gibt es nur auf Antrag.",
+      "quote": "spätestens am Tag nach ihrer Ankunft elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bayerisch Eisenstein Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Übernachtung",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,35 EUR.",
+        "perNight": {
+          "cents": 35
+        }
+      }
+    ],
+    "rate": {
+      "percent": 8,
+      "quote": "Der Beitragssatz beträgt 8 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftssteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,10 und 1,00 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5v.H. 0,10 v.H. über 5-10v.H. 0,30 v.H. über 10-15v.H. 0,50 v.H. über 15-20v.H. 0,70 v.H. über 20 v.H. 1,00 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 1. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 01.Juli jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Nach der Satzung kann die Vorauszahlung je Übernachtung zusammen mit der Abführung der Kurbeiträge verlangt werden.",
+        "quote": "können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden"
+      },
+      {
+        "text": "Ist anzunehmen, dass diese Vorauszahlungen die sonst fällige Vorauszahlung nicht erreichen, kann die Gemeinde darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Absätze 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Führst du keinen Kurbeitrag ab, kann die Gemeinde den Fremdenverkehrsbeitrag am Tag nach der Abreise der Gäste verlangen; er beträgt 0,35 € für jede Übernachtung.",
+        "quote": "Von Beitragsschuldner, die keinen Kurbeitrag abführen müssen, kann der Fremdenverkehrsbeitrag abweichend von den Absätzen 1 und 2 am Tage nach der Abreise der Gäste verlangt werden und beträgt für jede Übernachtung 0,35 EUR."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung nach § 5 Abs. 3 Satz 1, also nicht die weiteren nach Satz 2, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlung ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs., 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt."
+      },
+      {
+        "text": "Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bayerisch-eisenstein/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          125
+        ]
+      }
+    ]
+  }
+}

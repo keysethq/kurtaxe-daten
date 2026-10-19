@@ -1,0 +1,547 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-fuessing",
+  "name": "Bad Füssing",
+  "short": "Bad Füssing",
+  "ags": "09275116",
+  "state": "Bayern",
+  "district": "Passau",
+  "sources": {
+    "aenderung3": {
+      "title": "3. Änderung der Satzung für die Erhebung eines Kurbeitrags in der Gemeinde Bad Füssing (KBS) vom 30.01.2024, in Kraft seit 01.04.2024",
+      "url": "https://www.gde-badfuessing.de/fileadmin/user_upload/PDF/Ortsrecht/Kurbeitrag_d.pdf",
+      "kind": "municipality",
+      "inForce": "2024-04-01",
+      "sha256": "7e906fe776d681994a0fd0d7d63bd8d8ba2d6a4ca1d641174b1075f25719a1c5",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Bad Füssing (KBS) vom 27.11.2017 (Kurbezirke in § 2)",
+      "url": "https://www.gde-badfuessing.de/fileadmin/user_upload/PDF/Ortsrecht/Kurbeitrag_a.pdf",
+      "kind": "municipality",
+      "inForce": "2018-01-01",
+      "sha256": "f84d10c8882ba1fecc72da390a1a5c68e684aac03d2698aae4b9f8ed001493a2",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-14"
+    },
+    "fvb": {
+      "title": "Satzung zur Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Füssing vom 07.01.1980",
+      "url": "https://www.gde-badfuessing.de/fileadmin/user_upload/PDF/Ortsrecht/Fremdenverkehrsbeitrag_a.pdf",
+      "kind": "statute",
+      "inForce": "1980-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "efd5e48f8d02cfb9341fcf9524af1f2e92c70d1a3550fd7c90bc3105fee7174e",
+      "verifiedOn": "2026-10-15"
+    },
+    "fvbAenderung": {
+      "title": "2. Änderung der Satzung zur Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Füssing vom 29.06.2004",
+      "url": "https://www.gde-badfuessing.de/fileadmin/user_upload/PDF/Ortsrecht/Fremdenverkehrsbeitrag_c.pdf",
+      "kind": "statute",
+      "inForce": "2004-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "f03df4a0f01a984443cc048a1020c8739c9a692e72f715bfc08584d3414a5c39",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "aenderung3",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I sind Bad Füssing (ohne Pichlstraße), Riedenburg, Safferstetten, Johannesbad und Wohnbau Dr. Schwarz.",
+          "quote": "a) Kurbezirk I Er umfasst die Gemeindeteile Bad Füssing (ohne Pichlstraße), Riedenburg, Safferstetten, Johannesbad und Wohnbau Dr. Schwarz.",
+          "source": "satzung"
+        },
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 340,
+              "quote": "a) In der Zeit vom 01.04. - 31.10. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 3,40 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-31"
+              }
+            ],
+            "adult": {
+              "cents": 260,
+              "quote": "b) In der Zeit vom 01.11. - 31.03. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 2,60 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind der Hauptort Würding, Steinreuth, Ainsen, Angering, Zwicklarn, Schöchlöd, Zieglöd, Eitlöd und die Pichlstraße.",
+          "quote": "b) Kurbezirk II Er umfasst den Hauptort Würding, Steinreuth, Ainsen, Angering, Zwicklarn, Schöchlöd, Zieglöd, Eitlöd und Pichlstraße.",
+          "source": "satzung"
+        },
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 270,
+              "quote": "a) In der Zeit vom 01.04. - 31.10. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 3,40 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2,70 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-31"
+              }
+            ],
+            "adult": {
+              "cents": 210,
+              "quote": "b) In der Zeit vom 01.11. - 31.03. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 2,60 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2, 10 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "area": {
+          "text": "Kurbezirk III ist im Wesentlichen das Gebiet der restlichen früheren Gemeinde Würding und der Hauptort Egglfing.",
+          "quote": "c) Kurbezirk III Er umfasst im Wesentlichen das Gebiet der restlichen ehemaligen Gemeinde Würding und den Hauptort Egglfing.",
+          "source": "satzung"
+        },
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 220,
+              "quote": "a) In der Zeit vom 01.04. - 31.10. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 3,40 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2,70 Euro Im Kurbezirk III Für Personen ab dem vollendeten 16. Lebensjahr 2,20 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-31"
+              }
+            ],
+            "adult": {
+              "cents": 160,
+              "quote": "b) In der Zeit vom 01.11. - 31.03. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 2,60 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2, 10 Euro Im Kurbezirk III Für Personen ab dem vollendeten 16. Lebensjahr 1,60 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IV",
+        "area": {
+          "text": "Kurbezirk IV ist im Wesentlichen das Gebiet Irching, der Rest der früheren Gemeinde Egglfing, Voglöd (ohne Flickenöd) und das übrige Kurgebiet; die genaue Grenze aller Kurbezirke zeigt eine Karte der Satzung.",
+          "quote": "d) Kurbezirk IV Er umfasst im Wesentlichen das Gebiet Irching, den Rest der ehemaligne Gemeinde Egglfing, das Gebiet Voglöd (ohne Flickenöd) und das gesamte prädikatisierte Kurgebiet ohne die Kurbezirke I bis III. (3) Die genaue Abgrenzung der Kurbezirke ist aus einer Karte ersichtlich, die Bestandteil dieser Satzung ist",
+          "source": "satzung"
+        },
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 180,
+              "quote": "a) In der Zeit vom 01.04. - 31.10. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 3,40 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2,70 Euro Im Kurbezirk III Für Personen ab dem vollendeten 16. Lebensjahr 2,20 Euro Im Kurbezirk IV Für Personen ab dem vollendeten 16. Lebensjahr 1,80 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              {
+                "from": "11-01",
+                "to": "03-31"
+              }
+            ],
+            "adult": {
+              "cents": 130,
+              "quote": "b) In der Zeit vom 01.11. - 31.03. Im Kurbezirk 1 Für Personen ab dem vollendeten 16. Lebensjahr 2,60 Euro Im Kurbezirk II Für Personen ab dem vollendeten 16. Lebensjahr 2, 10 Euro Im Kurbezirk III Für Personen ab dem vollendeten 16. Lebensjahr 1,60 Euro 1 Im Kurbezirk IV Für Personen ab dem vollendeten 16. Lebensjahr 1,30 Euro"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Personen bis zur Vollendung des 16. Lebensjahres."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Schwerbehindertenausweis mit einem Grad der Behinderung von 100",
+        "quote": "Personen, die im Besitz eines Schwerbehindertenausweises sind, der einen Grad der Behinderung von 100 aufweist;"
+      },
+      {
+        "text": "Menschen mit einem Schwerbehindertenausweis mit dem Merkzeichen aG",
+        "quote": "Personen, die im Besitz eines Schwerbehindertenausweises mit dem Merkzeichen ,,aG\" sind"
+      },
+      {
+        "text": "Kriegsbeschädigte",
+        "quote": "Kriegsbeschädigte;"
+      },
+      {
+        "text": "Begleitpersonen eines Schwerbehinderten mit dem Merkzeichen B im Ausweis",
+        "quote": "Begleitpersonen eines Schwerbehinderten mit dem Merkzeichen „B“ im Schwerbehindertenausweis;"
+      },
+      {
+        "text": "Schüler und Studenten bei Vorlage ihres Ausweises",
+        "quote": "Schüler und Studenten bei Vorlage eines Schüler- oder Studentenausweises;"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 80 bis 95 zahlen die Hälfte",
+        "quote": "Bei Personen, die im Besitz eines Schwerbehindertenausweises sind, der einen Grad der Behinderung von 80 bis 95 aufweist, beträgt der Kurbeitragssatz 50 % des jeweils gültigen Beitragssatzes."
+      }
+    ],
+    "remarks": [],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du zahlst den Kurbeitrag zu dem Fälligkeitstag, der auf der Abrechnung der Gemeinde steht.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens an dem auf der Abrechnung der Gemeinde genannten Fälligkeitstags zu entrichten."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du unverzüglich, spätestens am Tag nach der Anreise, elektronisch über das Verfahren der Gemeinde.",
+      "quote": "unverzüglich, spätestens am Tag nach der Anreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-14",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bad Füssing Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 6,
+      "quote": "Der Beitragssatz beträgt 6 v. H.",
+      "source": "fvbAenderung"
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinnes bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilsatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftssteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,075 und 0,750 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem – durch Schätzung zu ermittelnden – branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0 – 5 v. H. 0,075 v.H. über 5 – 10 v. H. 0,225 v.H. über 10 – 15 v. H. 0,375 v.H. über 15 – 20 v. H. 0,525 v.H. über 20 v. H. 0,750 v.H.",
+      "source": "fvbAenderung"
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilsatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. Juli fällig.",
+        "quote": "Der Beitragsschuldner hat am 15. Juli jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Nach der Satzung kann die Gemeinde von Vermietern eine Vorauszahlung je Übernachtung zusammen mit der Abführung der Kurbeiträge verlangen; die Satzung nennt den Betrag in D-Mark.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldners, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden und betragen für jede Übernachtung 0,20 DM."
+      },
+      {
+        "text": "Ist anzunehmen, dass diese Vorauszahlungen die sonst fällige Vorauszahlung nicht erreichen, kann die Gemeinde darüber hinaus weitere Vorauszahlungen bis zu dieser Höhe verlangen.",
+        "quote": "Ist anzunehmen, dass die hierbei voraussichtlich zu entrichtenden Zahlungen die sonst nach Absatz 2 sich ergebende Höhe der Vorauszahlung nicht erreichen werden, so können darüber hinaus Vorauszahlungen bis zu dieser Höhe in entsprechender Anwendung der Absätze 1 und 2 verlangt werden."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Übernachtung nach § 5 Abs. 3 Satz 1, also nicht die weiteren nach Satz 2, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn die Gemeinde dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst; für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr ab Entstehen der Beitragsschuld.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Dies gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt. Für die Aufforderung und den Antrag gilt eine Ausschlussfrist von einem Jahr, gerechnet ab Entstehen der Beitragsschuld (§ 4 Abs. 1)."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-fuessing/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Sommer",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Winter",
+        "ranges": [
+          [
+            "11-01",
+            "03-31"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 340,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              [
+                "11-01",
+                "03-31"
+              ]
+            ],
+            "adult": 260,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 270,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              [
+                "11-01",
+                "03-31"
+              ]
+            ],
+            "adult": 210,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk III",
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 220,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              [
+                "11-01",
+                "03-31"
+              ]
+            ],
+            "adult": 160,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk IV",
+        "periods": [
+          {
+            "label": "Sommer",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 180,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Winter",
+            "ranges": [
+              [
+                "11-01",
+                "03-31"
+              ]
+            ],
+            "adult": 130,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

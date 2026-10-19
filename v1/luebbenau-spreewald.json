@@ -1,0 +1,230 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "luebbenau-spreewald",
+  "name": "Stadt Lübbenau/Spreewald",
+  "short": "Lübbenau/Spreewald",
+  "ags": "12066196",
+  "state": "Brandenburg",
+  "district": "Oberspreewald-Lausitz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Lübbenau/Spreewald über die Erhebung eines Kurbeitrages (Kurbeitragssatzung) vom 05.12.2024",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/9548dce483809bc22c3ecbc5d1ecd1d542284/Satzung_2025_bo.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "13c9ff3167f22ff7646561303cbb25e4583894e5cc25e7c26744ad1833a8f5ef",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-15",
+      "changedOn": "2026-10-15"
+    },
+    "fvb": {
+      "title": "Satzung der Stadt Lübbenau/Spreewald über die Erhebung eines Tourismusbeitrages (Tourismusbeitragssatzung) vom 04.12.2025",
+      "url": "https://daten2.verwaltungsportal.de/dateien/seitengenerator/9548dce483809bc22c3ecbc5d1ecd1d542284/TB_2026_Satzung_mit_Anlage.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-10-15",
+      "sha256": "bee260b4646efa104293079da925c3b63d326f8f64f898a59ada6438a0c90c3b",
+      "verifiedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Der Kurbeitrag einschließlich Umsatzsteuer beträgt je Person und Aufenthaltstag 2,00 €."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Kalendertage je Jahr",
+      "quote": "Der Kurbeitrag wird nach den Aufenthaltstagen, längstens jedoch für 28 Kalendertage im Jahr berechnet."
+    },
+    "exemptions": [
+      {
+        "text": "Gäste, die von ortsansässigen Verwandten unentgeltlich in die häusliche Gemeinschaft aufgenommen werden, zahlen nichts.",
+        "quote": "Gäste, die von ortsansässigen Verwandten unentgeltlich und ohne Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 80, die laut Ausweis ständig auf Begleitung angewiesen sind, und ihre Begleitperson mit Merkzeichen B zahlen nichts.",
+        "quote": "Schwerstbehinderte mit einem Grad der Behinderung (GdB) ab 80, die laut amtlichem Ausweis ständig auf eine Begleitperson angewiesen sind, und deren Begleitperson, sofern dies im Schwerbehindertenausweis mit einem „B“ für ständige Begleitung gekennzeichnet ist."
+      },
+      {
+        "text": "Erkrankte, die ihre Unterkunft nicht verlassen können, zahlen für die Dauer nichts, wenn sie das ärztlich belegen.",
+        "quote": "Erkrankte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis belegen, unterliegen während der Dauer ihres Zustandes nicht der Kurbeitragspflicht."
+      },
+      {
+        "text": "Ortsfremde, die im Ort arbeiten oder ausgebildet werden, zahlen nichts.",
+        "quote": "Ortsfremde, die sich zur Ausbildung oder Berufsausübung in Lübbenau/Spreewald aufhalten, wenn sie im Erhebungsgebiet arbeiten oder ausgebildet werden."
+      },
+      {
+        "text": "Schülergruppen ab fünf Personen und ihre Begleitpersonen in Ferienlagern, Landschulheimen und Jugendherbergen zahlen nichts.",
+        "quote": "Schülergruppen ab fünf Personen und deren Begleitpersonen in Ferienlagern, Landschulheimen, Jugendherbergen, Einrichtungen des Behindertenwerkes und vergleichbaren Einrichtungen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Nächte kann ein Jahreskurbeitrag von 56,00 € je Person gezahlt werden.",
+        "quote": "Der Jahreskurbeitrag beträgt pro Person 56,00 €."
+      },
+      {
+        "text": "Du meldest jede Vermietung, auch wenn der Gast befreit ist.",
+        "quote": "Es besteht grundsätzlich Meldepflicht für jede Vermietung, unabhängig davon, ob die beherbergte Person kurbeitragspflichtig ist, oder nicht."
+      },
+      {
+        "text": "Bei fristgerechter, elektronischer Abrechnung erstattet die Stadt dir 5 Prozent des Nettobetrags als Kostenerstattung.",
+        "quote": "Die Kostenerstattung beträgt 5 v. H. des Nettobetrages zzgl. der Mehrwertsteuer in gesetzlicher Höhe und für Kleinunternehmer im Sinne des § 19 Umsatzsteuergesetz 5 v. H. des Nettobetrages."
+      },
+      {
+        "text": "Du haftest der Stadt gegenüber für den vollständigen Einzug des Kurbeitrags.",
+        "quote": "Sie haften der Stadt gegenüber für den vollständigen Einzug des Kurbeitrages."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du das der Stadt unverzüglich mit Name und Adresse.",
+        "quote": "Weigert sich eine kurbeitragspflichtige Person, den Kurbeitrag zu entrichten, hat dies der Meldepflichtige (Vermieter) der Stadt Lübbenau/Spreewald unverzüglich unter Angabe von Name und Adresse des Kurbeitragspflichtigen zu melden."
+      },
+      {
+        "text": "Du musst die aktuelle Satzung gut sichtbar auslegen oder aushängen.",
+        "quote": "Die Vermieter sind verpflichtet, die Kurbeitragssatzung in ihrer jeweils aktuellen Fassung an gut sichtbarer Stelle auszulegen bzw. auszuhängen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn an die Stadt ab.",
+      "quote": "Die Meldepflichtigen (Vermieter) haben den Kurbeitrag von den Kurbeitragspflichtigen (Gästen) einzuziehen und den Betrag an die Stadt Lübbenau/Spreewald abzuführen."
+    },
+    "deadline": {
+      "text": "Abgerechnet wird quartalsweise jeweils bis zum 10. des Folgemonats, also bis 10.04., 10.07., 10.10. und 10.01.",
+      "quote": "Die Meldepflichtigen (Vermieter) haben die im Laufe eines Kalendervierteljahres entstandenen Kurbeiträge jeweils zum 10. des folgenden Kalendermonats (bis zum 10.04., 10.07. 10.10. und 10.01.) gegenüber der Stadt Lübbenau/Spreewald, Kirchplatz 1, 03222 Lübbenau/Spreewald abzurechnen."
+    },
+    "reporting": {
+      "text": "Die Daten erfasst und meldest du elektronisch über das System AVS.",
+      "quote": "Die für die Berechnung des Kurbeitrages erforderlichen meldepflichtigen Daten werden auf elektronischem Weg über das EDV-System „AVS“ erfasst und weitergeleitet."
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Tourismusbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn dir der Tourismus in Lübbenau/Spreewald und seinen Orts- und Gemeindeteilen besondere unmittelbare oder mittelbare wirtschaftliche Vorteile bringt.",
+      "quote": "Der Tourismusbeitrag wird von den Personen und Unternehmen erhoben, denen durch den Tourismus besondere unmittelbare oder mittelbare wirtschaftliche Vorteile in Lübbenau/Spreewald und ihren Orts- und Gemeindeteilen geboten werden."
+    },
+    "letting": [],
+    "assessed": {
+      "text": "Einen festen Betrag je Bett oder Wohnung nennt die Satzung nicht: Der Messbetrag ergibt sich, indem die Reineinnahmen mit dem Vorteilssatz deiner Betriebsart aus der Anlage multipliziert werden.",
+      "quote": "Dieser ergibt sich, indem die Reineinnahmen (§ 5 Absatz 2) mit dem Vorteilssatz (§ 5 Absatz 3) multipliziert werden. Die Vorteilssätze der einzelnen Berufsgruppen/Gewerbegruppen ergeben sich aus der Anlage, welche Bestandteil dieser Satzung ist."
+    },
+    "rate": {
+      "percent": 5,
+      "quote": "Der Hebesatz zur Berechnung des Beitrages nach § 5 Absatz 1 bis 3 wird auf 5 v. H. festgesetzt."
+    },
+    "basis": {
+      "text": "Es zählen in der Regel die möglichen Mehreinnahmen des Jahres, das dem Erhebungsjahr zwei Jahre vorausging.",
+      "quote": "Berechnungsgrundlage für den Beitrag nach § 5 Absatz 1 sind in der Regel die möglichen Mehreinnahmen des Haushaltsjahres, welches dem Erhebungszeitraum (§ 7) zwei Jahre vorausging."
+    },
+    "minimum": {
+      "text": "Beträgt der Beitrag weniger als 10 Euro, wird er nicht erhoben.",
+      "quote": "Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 € beträgt."
+    },
+    "reporting": {
+      "text": "Bis zum 31. Juli jedes Jahres teilst du der Stadt deinen Gesamtumsatz des Jahres mit, das dem Erhebungsjahr zwei Jahre vorausging, und belegst ihn zum Beispiel mit der BWA oder der Umsatzsteuererklärung.",
+      "quote": "Beitragspflichtige nach § 2 haben bis zum 31.07 jeden Jahres ihren Gesamtumsatz des Kalenderjahres, welches dem Erhebungszeitraum zwei Jahre vorausging, glaubhaft mitzuteilen. Als Nachweis ist der Betriebswirtschaftliche Abrechnungsbogen (BWA), die Umsatzsteuererklärung oder ein anderer geeigneter Nachweis einzureichen"
+    },
+    "deadline": {
+      "text": "Der Beitrag kommt per Bescheid und ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Beitragsschuld wird einen Monat nach Bekanntgabe des Abgabenbescheides zur Zahlung fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Reineinnahmen ermittelt die Stadt mit dem mittleren Reingewinnsatz aus der Richtsatzsammlung des Bundesministeriums der Finanzen, die beim Erlass des Bescheides gilt.",
+        "quote": "Zu ihrer Ermittlung wird der mittlere Reingewinnsatz aus der beim Erlass des Bescheides gültigen Richtsatzsammlung des Bundesministeriums der Finanzen angewandt."
+      },
+      {
+        "text": "Für Beherbergung (Hotel, Pension, Privatzimmervermieter usw.) nennt die Anlage einen Vorteilssatz von 90 Prozent.",
+        "quote": "2 Beherbergung (Hotel/ Pension/ Privatzimmervermieter usw.) 90"
+      },
+      {
+        "text": "Für Campingplätze und Wohnwagen- und Wohnmobilstellplätze nennt die Anlage ebenfalls einen Vorteilssatz von 90 Prozent.",
+        "quote": "3 Campingplätze/ Wohnwagen- und Wohnmobilstellplätze 90"
+      },
+      {
+        "text": "Zur Berechnung zählen deine Betriebseinnahmen ohne Umsatzsteuer.",
+        "quote": "Die Reineinnahmen werden aus dem in der Stadt erzielten Umsatz (Betriebseinnahmen ohne Umsatzsteuer) ermittelt."
+      },
+      {
+        "text": "Auch ein Jahr ohne Umsatz meldest du und belegst es.",
+        "quote": "Auch Fehlmeldungen für einzelne Jahre (Umsatz = 0,00 €) sind einzureichen und entsprechend zu belegen."
+      },
+      {
+        "text": "Die Pflicht beginnt im Jahr nach dem Start deines Betriebs und endet zum Ende des Monats, in dem du ihn aufgibst.",
+        "quote": "Die Beitragspflicht entsteht mit Beginn des Erhebungszeitraumes (Folgejahr der Betriebsaufnahme) und erlischt zum Ende des Monats der Betriebsaufgabe."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/luebbenau-spreewald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}
