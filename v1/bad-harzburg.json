@@ -1,0 +1,120 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-harzburg",
+  "name": "Stadt Bad Harzburg",
+  "short": "Bad Harzburg",
+  "ags": "03153002",
+  "state": "Niedersachsen",
+  "district": "Goslar",
+  "sources": {
+    "satzung": {
+      "title": "8. Satzung zur Änderung der Satzung der Stadt Bad Harzburg über die Erhebung eines Gästebeitrages (Gästebeitragssatzung - GBS) vom 11.11.2025, Amtsblatt für die Stadt Bad Harzburg Nr. 5/2025 vom 06.12.2025",
+      "url": "https://www.stadt-bad-harzburg.de/media/custom/2324_3704_1.PDF",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "8c95b68a79df53c0a1dd2cb90e2c2830d044ccb4523faaf358f2b8afde6eb3b0",
+      "verifiedOn": "2026-10-19",
+      "changedOn": "2026-10-14"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Stadt Bad Harzburg",
+      "kind": "answer",
+      "receivedOn": "2026-10-19",
+      "text": "Die dort veröffentlichte nichtamtliche Gesamtausgabe enthält die zuletzt am 11.11.2025 beschlossene 8. Änderungssatzung, die zum 01.01.2026 in Kraft getreten ist.",
+      "changedOn": "2026-10-19",
+      "sha256": "a3751a02a4c2ab01b9b34ea85a01a5eb14de3dacd3ef901ecf0c0e1d04222a4a",
+      "verifiedOn": "2026-10-19"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-19",
+      "changedOn": "2026-10-14"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Dauer des Aufenthaltes bemessen und beträgt pro Übernachtung (einschließlich Umsatzsteuer)"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "für Personen ab 18 Jahren: 3,00 Euro."
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "für Personen ab 18 Jahren: 3,00 Euro."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze können Gäste einen Jahresgästebeitrag von 108,00 € zahlen.",
+        "quote": "Der Jahresgästebeitrag beträgt pauschal (einschließlich Umsatzsteuer) für Personen ab 18 Jahren: 108,00 Euro."
+      },
+      {
+        "text": "Die Stadt bestätigt: Die jeweils aktuelle Gesamtausgabe der Satzung enthält die 8. Änderung vom 11.11.2025, in Kraft seit dem 01.01.2026; eine neuere Änderung gibt es nicht.",
+        "quote": "die zuletzt am 11.11.2025 beschlossene 8. Änderungssatzung, die zum 01.01.2026 in Kraft getreten ist",
+        "source": "auskunft"
+      }
+    ],
+    "hostDuty": null,
+    "deadline": null,
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-19",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-harzburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

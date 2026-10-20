@@ -1,0 +1,268 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "boergerende-rethwisch",
+  "name": "Ostseebad Börgerende-Rethwisch",
+  "short": "Börgerende-Rethwisch",
+  "ags": "13072017",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Rostock",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Börgerende-Rethwisch (Kurabgabesatzung), ausgefertigt am 14.12.2022",
+      "url": "https://www.amt-doberan-land.de/wp-content/uploads/2023/07/Kurabgabensatzung-Boergerende-Rethwisch.pdf",
+      "kind": "statute",
+      "inForce": "2023-01-01",
+      "sha256": "e6b5edc09aef32c9ee36a92385c277a6fc240f12e2f0e907231a42c5e23cf2ee",
+      "verifiedOn": "2026-10-20",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 4,
+          "reading": "Der An- und Abreise tag werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "in der Hauptsaison EUR 2,00"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 3,
+          "reading": "in der Nebensaison EUR 1,00"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 3,
+          "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 3,
+          "reading": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 3,
+          "reading": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgeebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 4,
+          "reading": "Bemessungsgrundlage für den Anund Abreisetag ist der Tagessatz des Anreisetages."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 4,
+          "reading": "Kurabgabepflichtige können an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten. Die Jahreskurgabe beträgt 45,00 Euro für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Kurabgabepflichtig sind auch Eigentümer oder Besitzer einer Wohngelegenheit und deren Familienangehörige, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Kurabgabepflichtig sind auch Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sowie deren Familienangehörige, unabhängig davon, wie lange sie sich im Erhebungsgebiet aufhalten, wenn die Wohnwagen oder Wohnmobile länger als 30 Tage ohne Unterbrechung im erhebungsgebiet verbleiben (Dauercamper)."
+        },
+        {
+          "where": "hostDuty",
+          "page": 7,
+          "reading": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+        },
+        {
+          "where": "deadline",
+          "page": 7,
+          "reading": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+        },
+        {
+          "where": "reporting",
+          "page": 6,
+          "reading": "oder das elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-20",
+      "changedOn": "2026-10-15"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft des Amtes Bad Doberan-Land",
+      "kind": "answer",
+      "receivedOn": "2026-10-20",
+      "text": "Diese Satzung ist noch aktuell, doch es wird schon an einer neuen Satzung gearbeitet. Diese soll dann im nächsten Jahr in Kraft treten. Wie weit die neue Fassung ist, kann ich Ihnen leider nicht sagen, da die Kalkulationen noch fehlen.\n\nBitte fragen Sie gern im ersten Quartal des nächsten Jahres noch einmal nach, vielleicht ist dann die neue Satzung schon fertig.",
+      "changedOn": "2026-10-20",
+      "sha256": "16e9d7083f963258b80405177b303b0fa04b4071ffbba002e9364c080afc60b4",
+      "verifiedOn": "2026-10-20"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "in der Hauptsaison EUR 2,00"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "in der Nebensaison EUR 1,00"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+        "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+        "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+        "quote": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+      },
+      {
+        "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe zahlen.",
+        "quote": "Kurabgabepflichtige können an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten"
+      },
+      {
+        "text": "Für bestimmte Kurabgabepflichtige ist die Jahreskurabgabe von 45,00 € je Kalenderjahr unabhängig von der Dauer ihres Aufenthalts zu zahlen.",
+        "quote": "haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten. Die Jahreskurgabe beträgt 45,00 Euro für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+      },
+      {
+        "text": "Eigentümer und Besitzer einer Wohngelegenheit sowie deren Familienangehörige sind kurabgabepflichtig, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen.",
+        "quote": "Kurabgabepflichtig sind auch Eigentümer oder Besitzer einer Wohngelegenheit und deren Familienangehörige, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen."
+      },
+      {
+        "text": "Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sind unabhängig von der Aufenthaltsdauer kurabgabepflichtig, wenn das Fahrzeug länger als 30 Tage ohne Unterbrechung im Erhebungsgebiet bleibt.",
+        "quote": "Kurabgabepflichtig sind auch Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sowie deren Familienangehörige, unabhängig davon, wie lange sie sich im Erhebungsgebiet aufhalten, wenn die Wohnwagen oder Wohnmobile länger als 30 Tage ohne Unterbrechung im Erhebungsgebiet verbleiben (Dauercamper)."
+      },
+      {
+        "text": "Das Amt bestätigt die Satzung als aktuell; eine neue Satzung ist in Arbeit und soll im nächsten Jahr in Kraft treten, der Stand ist offen (Nachfrage im ersten Quartal 2027 empfohlen).",
+        "quote": "Diese Satzung ist noch aktuell, doch es wird schon an einer neuen Satzung gearbeitet.",
+        "source": "auskunft"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+      "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+    },
+    "deadline": {
+      "text": "Bis zum 5. eines Monats leitest du die Meldescheine des Vormonats an die Kurabgabestelle weiter und führst die Kurabgabe unbar ab.",
+      "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+    },
+    "reporting": {
+      "text": "Gemeldet wird mit den Meldescheinen der Kurabgabestelle oder über das elektronische Meldesystem; ab acht Betten ist das elektronische Meldesystem Pflicht.",
+      "quote": "oder das elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-20",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/boergerende-rethwisch/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

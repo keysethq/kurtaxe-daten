@@ -1,0 +1,124 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wendtorf",
+  "name": "Gemeinde Wendtorf",
+  "short": "Wendtorf",
+  "ags": "01057087",
+  "state": "Schleswig-Holstein",
+  "district": "Plön",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Tourismus-Taxe) in der Gemeinde Wendtorf vom 28.05.2019, Amt Probstei",
+      "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Wendtorf/Wendtorf_TouTa.pdf",
+      "kind": "statute",
+      "inForce": "2020-01-01",
+      "sha256": "5e4fd4c2e0c3bd721bd744c7a777eb4b6ede0b6dbf31f449acee1ef2f894a868",
+      "verifiedOn": "2026-10-19",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-19"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft des Amtes Probstei",
+      "kind": "answer",
+      "receivedOn": "2026-10-19",
+      "text": "Die Übernachtungssteuern in den Gemeinden Stein und Wendtorf stellen kommunale Aufwandssteuern nach § 3 Kommunalabgabengesetz Schleswig-Holstein dar, und sind somit von Kurabgaben nach § 10 zu unterscheiden. Da beide Gemeinden weitere kommunale Aufwandssteuern wie z. B. die Stellplatzsteuer erheben, ist es hier notwendig, zu unterscheiden, ob ein Anmietungsfall unter die Übernachtungssteuer oder unter z.B. die Stellplatzsteuer fällt.\n\nUm in dem Beispiel zu bleiben. Es stellt jemand sein Zelt für 40 Tage auf einen Campingplatz auf. Damit bewegen wir uns im Bereich der vorrübergehenden Vermietung. Der Vermieter zieht die 4 % mit dem Vermietungsentgelt ein, meldet dies dem Amt und führt die eingenommen Gelder an das Amt ab. Eine Stellplatzsteuer greift hier nicht. Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer. Der Camper zahlt nicht an den Vermieter. Denn der Vermieter hat diesen Fall dem Amt zu melden, und von unserer Seite würde der Mieter des Platzes direkt zu einer Stellplatzsteuer veranlagt (mit 8 bis 10 % deutlich teurer).\n\nDer Aufwand (in der Regel die Anmietkosten) des Gastes für ein Quartier kann nur einer der kommunalen Steuer als Grundlage der Besteuerung dienen. Mit den 49 Tag ist klar geregelt, welcher. Damit ergibt sich auch, dass mit der Anmietung eines weiteren Quartiers ein neuer Steuergegenstand vorliegt und erneut zu prüfen ist, ob eine Übernachtungssteuer oder eine Stellplatzsteuer/Zweitwohnungssteuer anfällt.\n\nIn Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben, und nicht in einer Staffel mit festen Beträgen (anders als z.B. Hamburg). Hat für Sie für die Programmierung den Vorteil, nicht Personenanzahlen, Übernachtungshöhen und -tage zu beachten, sondern allein auf den Mietpreis zu schauen und eine festen Steuersatz zu hinterlegen.",
+      "changedOn": "2026-10-19",
+      "sha256": "f72cb7959b4497483428b0b8f1f44d4566001640d58cd0ccc22be0afc6f2be90",
+      "verifiedOn": "2026-10-19"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Tourismus-Taxe",
+    "source": "satzung",
+    "rate": {
+      "percent": 4,
+      "quote": "Die Steuer beträgt 4,0 % der Bemessungsgrundlage nach § 4."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt, das der Gast oder ein Dritter für die Beherbergung zahlt, einschließlich Umsatzsteuer und Nebenleistungen.",
+      "quote": "Bemessungsgrundlage ist das vom Übernachtungsgast oder einem Dritten für die Beherbergung zu entrichtende Entgelt einschließlich Umsatzsteuer und Nebenleistungen.",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Gemeindegebiet der Gemeinde Wendtorf gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+    },
+    "deadline": {
+      "text": "Die Steuer ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "reporting": {
+      "text": "Du reichst innerhalb eines Monats nach Ende des Steuerjahres die Erklärung auf dem amtlichen Vordruck ein.",
+      "quote": "innerhalb eines Monats nach dem Ablauf eines Besteuerungszeitraumes der Steuergläubigerin eine Erklärung nach amtlich vorgeschriebenen Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Beruflich bedingte Übernachtungen von Geschäftsreisenden sind nicht abgabepflichtig.",
+        "quote": "beruflich bedingten Übernachtungen von Geschäftsreisenden"
+      },
+      {
+        "text": "Übernachtungen, die zwangsläufig mit einer schulischen oder ausbildenden Tätigkeit verbunden sind, sind nicht abgabepflichtig.",
+        "quote": "Übernachtung, die mit einer schulischen oder zu Ausbildungszwecken dienenden Tätigkeit zwangsläufig verbunden sind."
+      },
+      {
+        "text": "Übernachtungen, die Obdachlosigkeit vermeiden, sind nicht abgabepflichtig.",
+        "quote": "Übernachtungen, die der Vermeidung von Obdachlosigkeit dienen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Das Steuerjahr läuft vom 1. Oktober bis zum 30. September.",
+        "quote": "Im Folgenden beginnt der Besteuerungszeitraum mit dem 01.10. eines Jahres und endet mit dem 30.09. des Folgejahres."
+      },
+      {
+        "text": "Als vorübergehend gilt ein Aufenthalt nur, solange im Kalenderjahr insgesamt höchstens 49 Kalendertage zusammenkommen.",
+        "quote": "Nur vorübergehend ist ein Zeitraum, bei dem im Kalenderjahr die Summe von 49 Kalendertagen nicht überschritten wird."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich eine Pauschale von 7,00 €uro für Frühstücke, und je 10,00 €uro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      },
+      {
+        "text": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen, wie Frühstück oder Halbpension, gehören nicht zur Bemessungsgrundlage.",
+        "quote": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen (wie Frühstück, Halbpension u.ä.), sind nicht Teil der Berechnungsgrundlage."
+      },
+      {
+        "text": "Das Amt erläutert am Beispiel eines Campingplatzes: Bei einem Aufenthalt über 49 Tage greift die Übernachtungssteuer nicht mehr. Der Gast zahlt dann nicht an den Vermieter, der Vermieter meldet den Fall dem Amt, und der Gast wird direkt zu einer anderen Steuer (etwa der Stellplatzsteuer) veranlagt. Jedes weitere Quartier wird neu geprüft.",
+        "quote": "Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer.",
+        "source": "auskunft"
+      },
+      {
+        "text": "In Schleswig-Holstein wird die Übernachtungssteuer als Prozentsatz auf das Übernachtungsentgelt erhoben, nicht in festen Beträgen.",
+        "quote": "In Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben",
+        "source": "auskunft"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-19",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wendtorf/",
+  "calculation": {
+    "kind": "town",
+    "percent": 4,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

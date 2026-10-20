@@ -26186,6 +26186,271 @@
       }
     },
     {
+      "slug": "boergerende-rethwisch",
+      "name": "Ostseebad Börgerende-Rethwisch",
+      "short": "Börgerende-Rethwisch",
+      "ags": "13072017",
+      "state": "Mecklenburg-Vorpommern",
+      "district": "Rostock",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Börgerende-Rethwisch (Kurabgabesatzung), ausgefertigt am 14.12.2022",
+          "url": "https://www.amt-doberan-land.de/wp-content/uploads/2023/07/Kurabgabensatzung-Boergerende-Rethwisch.pdf",
+          "kind": "statute",
+          "inForce": "2023-01-01",
+          "sha256": "e6b5edc09aef32c9ee36a92385c277a6fc240f12e2f0e907231a42c5e23cf2ee",
+          "verifiedOn": "2026-10-20",
+          "changedOn": "2026-10-15",
+          "ocr": [
+            {
+              "where": "counting",
+              "page": 4,
+              "reading": "Der An- und Abreise tag werden als ein Aufenthaltstag berechnet."
+            },
+            {
+              "where": "periods[0].adult",
+              "page": 3,
+              "reading": "in der Hauptsaison EUR 2,00"
+            },
+            {
+              "where": "periods[0].children[0]",
+              "page": 3,
+              "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+            },
+            {
+              "where": "periods[1].adult",
+              "page": 3,
+              "reading": "in der Nebensaison EUR 1,00"
+            },
+            {
+              "where": "periods[1].children[0]",
+              "page": 3,
+              "reading": "Kinder bis zur Vollendung des 16. Lebensjahres"
+            },
+            {
+              "where": "exemptions[0]",
+              "page": 3,
+              "reading": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+            },
+            {
+              "where": "exemptions[1]",
+              "page": 3,
+              "reading": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgeebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+            },
+            {
+              "where": "remarks[0]",
+              "page": 4,
+              "reading": "Bemessungsgrundlage für den Anund Abreisetag ist der Tagessatz des Anreisetages."
+            },
+            {
+              "where": "remarks[1]",
+              "page": 4,
+              "reading": "Kurabgabepflichtige können an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten"
+            },
+            {
+              "where": "remarks[2]",
+              "page": 4,
+              "reading": "haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten. Die Jahreskurgabe beträgt 45,00 Euro für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+            },
+            {
+              "where": "remarks[3]",
+              "page": 2,
+              "reading": "Kurabgabepflichtig sind auch Eigentümer oder Besitzer einer Wohngelegenheit und deren Familienangehörige, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen."
+            },
+            {
+              "where": "remarks[4]",
+              "page": 2,
+              "reading": "Kurabgabepflichtig sind auch Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sowie deren Familienangehörige, unabhängig davon, wie lange sie sich im Erhebungsgebiet aufhalten, wenn die Wohnwagen oder Wohnmobile länger als 30 Tage ohne Unterbrechung im erhebungsgebiet verbleiben (Dauercamper)."
+            },
+            {
+              "where": "hostDuty",
+              "page": 7,
+              "reading": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+            },
+            {
+              "where": "deadline",
+              "page": 7,
+              "reading": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+            },
+            {
+              "where": "reporting",
+              "page": 6,
+              "reading": "oder das elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+            }
+          ]
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-20",
+          "changedOn": "2026-10-15"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft des Amtes Bad Doberan-Land",
+          "kind": "answer",
+          "receivedOn": "2026-10-20",
+          "text": "Diese Satzung ist noch aktuell, doch es wird schon an einer neuen Satzung gearbeitet. Diese soll dann im nächsten Jahr in Kraft treten. Wie weit die neue Fassung ist, kann ich Ihnen leider nicht sagen, da die Kalkulationen noch fehlen.\n\nBitte fragen Sie gern im ersten Quartal des nächsten Jahres noch einmal nach, vielleicht ist dann die neue Satzung schon fertig.",
+          "changedOn": "2026-10-20",
+          "sha256": "16e9d7083f963258b80405177b303b0fa04b4071ffbba002e9364c080afc60b4",
+          "verifiedOn": "2026-10-20"
+        }
+      },
+      "levy": {
+        "name": "Kurabgabe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Der An- und Abreisetag werden als ein Aufenthaltstag berechnet."
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "in der Hauptsaison EUR 2,00"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+              }
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "04-30"
+              }
+            ],
+            "adult": {
+              "cents": 100,
+              "quote": "in der Nebensaison EUR 1,00"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 16. Lebensjahres"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Menschen mit einem Grad der Behinderung von 100 gegen Vorlage des Ausweises sowie eine ärztlich bescheinigte ständige Begleitperson",
+            "quote": "Personen mit einem Grad der Behinderung (GdB) von 100 gegen Vorlage des entsprechenden Ausweises, Begleitpersonen von Schwerbehinderten, die laut ärztlicher Bescheinigung auf ständige Begleitung angewiesen sind,"
+          },
+          {
+            "text": "Nahe Verwandte von Einwohnern, die ohne Vergütung bei ihnen wohnen",
+            "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
+            "quote": "Bemessungsgrundlage für den An- und Abreisetag ist der Tagessatz des Anreisetages."
+          },
+          {
+            "text": "Statt der Tagessätze können Gäste eine Jahreskurabgabe zahlen.",
+            "quote": "Kurabgabepflichtige können an Stelle der nach Tagen berechneten Kurabgabe eine Jahreskurabgabe entrichten"
+          },
+          {
+            "text": "Für bestimmte Kurabgabepflichtige ist die Jahreskurabgabe von 45,00 € je Kalenderjahr unabhängig von der Dauer ihres Aufenthalts zu zahlen.",
+            "quote": "haben unabhängig von der tatsächlichen Dauer ihres Aufenthalts im Erhebungsgebiet eine Jahreskurabgabe zu entrichten. Die Jahreskurgabe beträgt 45,00 Euro für jedes Kalenderjahr, in dem die Kurabgabepflicht besteht."
+          },
+          {
+            "text": "Eigentümer und Besitzer einer Wohngelegenheit sowie deren Familienangehörige sind kurabgabepflichtig, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen.",
+            "quote": "Kurabgabepflichtig sind auch Eigentümer oder Besitzer einer Wohngelegenheit und deren Familienangehörige, wenn und soweit sie die Wohngelegenheit überwiegend zu Erholungszwecken nutzen."
+          },
+          {
+            "text": "Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sind unabhängig von der Aufenthaltsdauer kurabgabepflichtig, wenn das Fahrzeug länger als 30 Tage ohne Unterbrechung im Erhebungsgebiet bleibt.",
+            "quote": "Kurabgabepflichtig sind auch Eigentümer und Besitzer von Wohnwagen und Wohnmobilen sowie deren Familienangehörige, unabhängig davon, wie lange sie sich im Erhebungsgebiet aufhalten, wenn die Wohnwagen oder Wohnmobile länger als 30 Tage ohne Unterbrechung im Erhebungsgebiet verbleiben (Dauercamper)."
+          },
+          {
+            "text": "Das Amt bestätigt die Satzung als aktuell; eine neue Satzung ist in Arbeit und soll im nächsten Jahr in Kraft treten, der Stand ist offen (Nachfrage im ersten Quartal 2027 empfohlen).",
+            "quote": "Diese Satzung ist noch aktuell, doch es wird schon an einer neuen Satzung gearbeitet.",
+            "source": "auskunft"
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Kurkarte oder Gästekarte aus.",
+          "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder die elektronisch ausgefüllten Kurkarten/Gästekarten auszuhändigen;"
+        },
+        "deadline": {
+          "text": "Bis zum 5. eines Monats leitest du die Meldescheine des Vormonats an die Kurabgabestelle weiter und führst die Kurabgabe unbar ab.",
+          "quote": "zum 5. Tag eines jeden Monats für den vorangegangenen Monat an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) eine Ausführung der besonderen Meldescheine weiterzuleiten, im Falle der Verwendung des elektronischen Meldesystems hat die Übermittlung an die Gemeinde Börgerende-Rethwisch (Kurabgabestelle) elektronisch zu erfolgen und die Kurabgabe unbar abzuführen;"
+        },
+        "reporting": {
+          "text": "Gemeldet wird mit den Meldescheinen der Kurabgabestelle oder über das elektronische Meldesystem; ab acht Betten ist das elektronische Meldesystem Pflicht.",
+          "quote": "oder das elektronische Meldesystem zu verwenden; für Quartiergeber ab einer Anzahl von acht Betten ist das elektronisch Meldescheinsystem verpflichtend anzuwenden;"
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-20",
+        "by": "agent"
+      },
+      "ocrCompared": {
+        "on": "2026-10-15",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/boergerende-rethwisch/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          16
+        ],
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "05-01",
+                "09-30"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              [
+                "10-01",
+                "04-30"
+              ]
+            ],
+            "adult": 100,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
       "slug": "born-a-darss",
       "name": "Seebad Born a. Darß",
       "short": "Born a. Darß",
@@ -38815,6 +39080,123 @@
           "free": "persons",
           "from": 4
         }
+      }
+    },
+    {
+      "slug": "bad-harzburg",
+      "name": "Stadt Bad Harzburg",
+      "short": "Bad Harzburg",
+      "ags": "03153002",
+      "state": "Niedersachsen",
+      "district": "Goslar",
+      "sources": {
+        "satzung": {
+          "title": "8. Satzung zur Änderung der Satzung der Stadt Bad Harzburg über die Erhebung eines Gästebeitrages (Gästebeitragssatzung - GBS) vom 11.11.2025, Amtsblatt für die Stadt Bad Harzburg Nr. 5/2025 vom 06.12.2025",
+          "url": "https://www.stadt-bad-harzburg.de/media/custom/2324_3704_1.PDF",
+          "kind": "gazette",
+          "inForce": "2026-01-01",
+          "sha256": "8c95b68a79df53c0a1dd2cb90e2c2830d044ccb4523faaf358f2b8afde6eb3b0",
+          "verifiedOn": "2026-10-19",
+          "changedOn": "2026-10-14"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft der Stadt Bad Harzburg",
+          "kind": "answer",
+          "receivedOn": "2026-10-19",
+          "text": "Die dort veröffentlichte nichtamtliche Gesamtausgabe enthält die zuletzt am 11.11.2025 beschlossene 8. Änderungssatzung, die zum 01.01.2026 in Kraft getreten ist.",
+          "changedOn": "2026-10-19",
+          "sha256": "a3751a02a4c2ab01b9b34ea85a01a5eb14de3dacd3ef901ecf0c0e1d04222a4a",
+          "verifiedOn": "2026-10-19"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-19",
+          "changedOn": "2026-10-14"
+        }
+      },
+      "levy": {
+        "name": "Gästebeitrag",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Der Gästebeitrag wird nach der Dauer des Aufenthaltes bemessen und beträgt pro Übernachtung (einschließlich Umsatzsteuer)"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "für Personen ab 18 Jahren: 3,00 Euro."
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "für Personen ab 18 Jahren: 3,00 Euro."
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [],
+        "remarks": [
+          {
+            "text": "Statt der Tagessätze können Gäste einen Jahresgästebeitrag von 108,00 € zahlen.",
+            "quote": "Der Jahresgästebeitrag beträgt pauschal (einschließlich Umsatzsteuer) für Personen ab 18 Jahren: 108,00 Euro."
+          },
+          {
+            "text": "Die Stadt bestätigt: Die jeweils aktuelle Gesamtausgabe der Satzung enthält die 8. Änderung vom 11.11.2025, in Kraft seit dem 01.01.2026; eine neuere Änderung gibt es nicht.",
+            "quote": "die zuletzt am 11.11.2025 beschlossene 8. Änderungssatzung, die zum 01.01.2026 in Kraft getreten ist",
+            "source": "auskunft"
+          }
+        ],
+        "hostDuty": null,
+        "deadline": null,
+        "reporting": null
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-19",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-harzburg/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          18
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ]
+          }
+        ]
       }
     },
     {
@@ -71870,6 +72252,127 @@
       }
     },
     {
+      "slug": "stein-ploen",
+      "name": "Gemeinde Stein",
+      "short": "Stein",
+      "ags": "01057079",
+      "state": "Schleswig-Holstein",
+      "district": "Plön",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungsabgabe) in der Gemeinde Stein vom 20.06.2019, Amt Probstei",
+          "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Stein/Stein_UEberNachAbSa.pdf",
+          "kind": "statute",
+          "inForce": "2020-01-01",
+          "sha256": "31d15b0485b2847ab038df73a98fccd549362c547f6bc6137cc1578566a6d0f4",
+          "verifiedOn": "2026-10-19",
+          "changedOn": "2026-10-15"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-10-15",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-19"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft des Amtes Probstei",
+          "kind": "answer",
+          "receivedOn": "2026-10-19",
+          "text": "Die Übernachtungssteuern in den Gemeinden Stein und Wendtorf stellen kommunale Aufwandssteuern nach § 3 Kommunalabgabengesetz Schleswig-Holstein dar, und sind somit von Kurabgaben nach § 10 zu unterscheiden. Da beide Gemeinden weitere kommunale Aufwandssteuern wie z. B. die Stellplatzsteuer erheben, ist es hier notwendig, zu unterscheiden, ob ein Anmietungsfall unter die Übernachtungssteuer oder unter z.B. die Stellplatzsteuer fällt.\n\nUm in dem Beispiel zu bleiben. Es stellt jemand sein Zelt für 40 Tage auf einen Campingplatz auf. Damit bewegen wir uns im Bereich der vorrübergehenden Vermietung. Der Vermieter zieht die 4 % mit dem Vermietungsentgelt ein, meldet dies dem Amt und führt die eingenommen Gelder an das Amt ab. Eine Stellplatzsteuer greift hier nicht. Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer. Der Camper zahlt nicht an den Vermieter. Denn der Vermieter hat diesen Fall dem Amt zu melden, und von unserer Seite würde der Mieter des Platzes direkt zu einer Stellplatzsteuer veranlagt (mit 8 bis 10 % deutlich teurer).\n\nDer Aufwand (in der Regel die Anmietkosten) des Gastes für ein Quartier kann nur einer der kommunalen Steuer als Grundlage der Besteuerung dienen. Mit den 49 Tag ist klar geregelt, welcher. Damit ergibt sich auch, dass mit der Anmietung eines weiteren Quartiers ein neuer Steuergegenstand vorliegt und erneut zu prüfen ist, ob eine Übernachtungssteuer oder eine Stellplatzsteuer/Zweitwohnungssteuer anfällt.\n\nIn Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben, und nicht in einer Staffel mit festen Beträgen (anders als z.B. Hamburg). Hat für Sie für die Programmierung den Vorteil, nicht Personenanzahlen, Übernachtungshöhen und -tage zu beachten, sondern allein auf den Mietpreis zu schauen und eine festen Steuersatz zu hinterlegen.",
+          "changedOn": "2026-10-19",
+          "sha256": "f72cb7959b4497483428b0b8f1f44d4566001640d58cd0ccc22be0afc6f2be90",
+          "verifiedOn": "2026-10-19"
+        }
+      },
+      "levy": null,
+      "lodgingTax": {
+        "name": "Übernachtungsabgabe",
+        "source": "satzung",
+        "rate": {
+          "percent": 4,
+          "quote": "Die Steuer beträgt 4,0 % der Bemessungsgrundlage nach § 4."
+        },
+        "basis": {
+          "text": "Die Steuer bemisst sich am Entgelt, das der Gast oder ein Dritter für die Beherbergung zahlt, einschließlich Umsatzsteuer und Nebenleistungen.",
+          "quote": "Bemessungsgrundlage ist das vom Übernachtungsgast oder einem Dritten für die Beherbergung zu entrichtende Entgelt einschließlich Umsatzsteuer und Nebenleistungen.",
+          "vatIncluded": true
+        },
+        "hostDuty": {
+          "text": "Die Steuer schuldest du als Vermieter selbst.",
+          "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Gemeindegebiet der Gemeinde Stein gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+        },
+        "deadline": {
+          "text": "Die Steuer ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+          "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides fällig."
+        },
+        "reporting": {
+          "text": "Du reichst innerhalb eines Monats nach Ende des Steuerjahres die Erklärung auf dem amtlichen Vordruck ein.",
+          "quote": "innerhalb eines Monats nach dem Ablauf eines Besteuerungszeitraumes der Steuergläubigerin eine Erklärung nach amtlich vorgeschriebenen Vordruck einzureichen."
+        },
+        "exemptions": [
+          {
+            "text": "Beruflich bedingte Übernachtungen von Geschäftsreisenden sind nicht abgabepflichtig.",
+            "quote": "beruflich bedingten Übernachtungen von Geschäftsreisenden"
+          },
+          {
+            "text": "Übernachtungen, die zwangsläufig mit einer schulischen oder ausbildenden Tätigkeit verbunden sind, sind nicht abgabepflichtig.",
+            "quote": "Übernachtung, die mit einer schulischen oder zu Ausbildungszwecken dienenden Tätigkeit zwangsläufig verbunden sind."
+          },
+          {
+            "text": "Übernachtungen, die Obdachlosigkeit vermeiden, sind nicht abgabepflichtig.",
+            "quote": "Übernachtungen, die der Vermeidung von Obdachlosigkeit dienen."
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Das Steuerjahr läuft vom 1. Oktober bis zum 30. September.",
+            "quote": "Im Folgenden beginnt der Besteuerungszeitraum mit dem 01.10. eines Jahres und endet mit dem 30.09. des Folgejahres."
+          },
+          {
+            "text": "Als vorübergehend gilt nach der Satzung nur ein Zeitraum von höchstens 49 Kalendertagen im Kalenderjahr; was für längere Aufenthalte gilt, sagt sie nicht ausdrücklich.",
+            "quote": "Nur vorübergehend ist ein Zeitraum, bei dem im Kalenderjahr die Summe von 49 Kalendertagen nicht überschritten wird."
+          },
+          {
+            "text": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen, wie Frühstück oder Halbpension, gehören nicht zur Bemessungsgrundlage.",
+            "quote": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen (wie Frühstück, Halbpension u.ä.), sind nicht Teil der Berechnungsgrundlage."
+          },
+          {
+            "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+            "quote": "gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich eine Pauschale von 7,00 €uro für Frühstücke, und je 10,00 €uro für Mittagessen und Abendessen je Gast und Mahlzeit."
+          },
+          {
+            "text": "Das Amt erläutert am Beispiel eines Campingplatzes: Bei einem Aufenthalt über 49 Tage greift die Übernachtungssteuer nicht mehr. Der Gast zahlt dann nicht an den Vermieter, der Vermieter meldet den Fall dem Amt, und der Gast wird direkt zu einer anderen Steuer (etwa der Stellplatzsteuer) veranlagt. Jedes weitere Quartier wird neu geprüft.",
+            "quote": "Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer.",
+            "source": "auskunft"
+          },
+          {
+            "text": "In Schleswig-Holstein wird die Übernachtungssteuer als Prozentsatz auf das Übernachtungsentgelt erhoben, nicht in festen Beträgen.",
+            "quote": "In Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben",
+            "source": "auskunft"
+          }
+        ]
+      },
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-19",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/stein-ploen/",
+      "calculation": {
+        "kind": "town",
+        "percent": 4,
+        "maxDays": null,
+        "maxPerStay": null
+      }
+    },
+    {
       "slug": "steinberg",
       "name": "Steinberg",
       "short": "Steinberg",
@@ -75754,6 +76257,127 @@
             "rate": "6,72 € je Bett im Jahr."
           }
         ]
+      }
+    },
+    {
+      "slug": "wendtorf",
+      "name": "Gemeinde Wendtorf",
+      "short": "Wendtorf",
+      "ags": "01057087",
+      "state": "Schleswig-Holstein",
+      "district": "Plön",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Tourismus-Taxe) in der Gemeinde Wendtorf vom 28.05.2019, Amt Probstei",
+          "url": "https://www.amt-probstei.de/fileadmin/Dateien/Buergerservice___Politik/Buergerservice/Satzungen/Wendtorf/Wendtorf_TouTa.pdf",
+          "kind": "statute",
+          "inForce": "2020-01-01",
+          "sha256": "5e4fd4c2e0c3bd721bd744c7a777eb4b6ede0b6dbf31f449acee1ef2f894a868",
+          "verifiedOn": "2026-10-19",
+          "changedOn": "2026-10-15"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-10-15",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-19"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft des Amtes Probstei",
+          "kind": "answer",
+          "receivedOn": "2026-10-19",
+          "text": "Die Übernachtungssteuern in den Gemeinden Stein und Wendtorf stellen kommunale Aufwandssteuern nach § 3 Kommunalabgabengesetz Schleswig-Holstein dar, und sind somit von Kurabgaben nach § 10 zu unterscheiden. Da beide Gemeinden weitere kommunale Aufwandssteuern wie z. B. die Stellplatzsteuer erheben, ist es hier notwendig, zu unterscheiden, ob ein Anmietungsfall unter die Übernachtungssteuer oder unter z.B. die Stellplatzsteuer fällt.\n\nUm in dem Beispiel zu bleiben. Es stellt jemand sein Zelt für 40 Tage auf einen Campingplatz auf. Damit bewegen wir uns im Bereich der vorrübergehenden Vermietung. Der Vermieter zieht die 4 % mit dem Vermietungsentgelt ein, meldet dies dem Amt und führt die eingenommen Gelder an das Amt ab. Eine Stellplatzsteuer greift hier nicht. Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer. Der Camper zahlt nicht an den Vermieter. Denn der Vermieter hat diesen Fall dem Amt zu melden, und von unserer Seite würde der Mieter des Platzes direkt zu einer Stellplatzsteuer veranlagt (mit 8 bis 10 % deutlich teurer).\n\nDer Aufwand (in der Regel die Anmietkosten) des Gastes für ein Quartier kann nur einer der kommunalen Steuer als Grundlage der Besteuerung dienen. Mit den 49 Tag ist klar geregelt, welcher. Damit ergibt sich auch, dass mit der Anmietung eines weiteren Quartiers ein neuer Steuergegenstand vorliegt und erneut zu prüfen ist, ob eine Übernachtungssteuer oder eine Stellplatzsteuer/Zweitwohnungssteuer anfällt.\n\nIn Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben, und nicht in einer Staffel mit festen Beträgen (anders als z.B. Hamburg). Hat für Sie für die Programmierung den Vorteil, nicht Personenanzahlen, Übernachtungshöhen und -tage zu beachten, sondern allein auf den Mietpreis zu schauen und eine festen Steuersatz zu hinterlegen.",
+          "changedOn": "2026-10-19",
+          "sha256": "f72cb7959b4497483428b0b8f1f44d4566001640d58cd0ccc22be0afc6f2be90",
+          "verifiedOn": "2026-10-19"
+        }
+      },
+      "levy": null,
+      "lodgingTax": {
+        "name": "Tourismus-Taxe",
+        "source": "satzung",
+        "rate": {
+          "percent": 4,
+          "quote": "Die Steuer beträgt 4,0 % der Bemessungsgrundlage nach § 4."
+        },
+        "basis": {
+          "text": "Die Steuer bemisst sich am Entgelt, das der Gast oder ein Dritter für die Beherbergung zahlt, einschließlich Umsatzsteuer und Nebenleistungen.",
+          "quote": "Bemessungsgrundlage ist das vom Übernachtungsgast oder einem Dritten für die Beherbergung zu entrichtende Entgelt einschließlich Umsatzsteuer und Nebenleistungen.",
+          "vatIncluded": true
+        },
+        "hostDuty": {
+          "text": "Die Steuer schuldest du als Vermieter selbst.",
+          "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Gemeindegebiet der Gemeinde Wendtorf gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+        },
+        "deadline": {
+          "text": "Die Steuer ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+          "quote": "Die Steuer wird einen Monat nach Bekanntgabe des Bescheides fällig."
+        },
+        "reporting": {
+          "text": "Du reichst innerhalb eines Monats nach Ende des Steuerjahres die Erklärung auf dem amtlichen Vordruck ein.",
+          "quote": "innerhalb eines Monats nach dem Ablauf eines Besteuerungszeitraumes der Steuergläubigerin eine Erklärung nach amtlich vorgeschriebenen Vordruck einzureichen."
+        },
+        "exemptions": [
+          {
+            "text": "Beruflich bedingte Übernachtungen von Geschäftsreisenden sind nicht abgabepflichtig.",
+            "quote": "beruflich bedingten Übernachtungen von Geschäftsreisenden"
+          },
+          {
+            "text": "Übernachtungen, die zwangsläufig mit einer schulischen oder ausbildenden Tätigkeit verbunden sind, sind nicht abgabepflichtig.",
+            "quote": "Übernachtung, die mit einer schulischen oder zu Ausbildungszwecken dienenden Tätigkeit zwangsläufig verbunden sind."
+          },
+          {
+            "text": "Übernachtungen, die Obdachlosigkeit vermeiden, sind nicht abgabepflichtig.",
+            "quote": "Übernachtungen, die der Vermeidung von Obdachlosigkeit dienen."
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Das Steuerjahr läuft vom 1. Oktober bis zum 30. September.",
+            "quote": "Im Folgenden beginnt der Besteuerungszeitraum mit dem 01.10. eines Jahres und endet mit dem 30.09. des Folgejahres."
+          },
+          {
+            "text": "Als vorübergehend gilt ein Aufenthalt nur, solange im Kalenderjahr insgesamt höchstens 49 Kalendertage zusammenkommen.",
+            "quote": "Nur vorübergehend ist ein Zeitraum, bei dem im Kalenderjahr die Summe von 49 Kalendertagen nicht überschritten wird."
+          },
+          {
+            "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück sowie je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+            "quote": "gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich eine Pauschale von 7,00 €uro für Frühstücke, und je 10,00 €uro für Mittagessen und Abendessen je Gast und Mahlzeit."
+          },
+          {
+            "text": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen, wie Frühstück oder Halbpension, gehören nicht zur Bemessungsgrundlage.",
+            "quote": "Entgelte für Nebenleistungen, die nicht direkt der Beherbergung dienen (wie Frühstück, Halbpension u.ä.), sind nicht Teil der Berechnungsgrundlage."
+          },
+          {
+            "text": "Das Amt erläutert am Beispiel eines Campingplatzes: Bei einem Aufenthalt über 49 Tage greift die Übernachtungssteuer nicht mehr. Der Gast zahlt dann nicht an den Vermieter, der Vermieter meldet den Fall dem Amt, und der Gast wird direkt zu einer anderen Steuer (etwa der Stellplatzsteuer) veranlagt. Jedes weitere Quartier wird neu geprüft.",
+            "quote": "Wird das Zelt für 60 Tag auf dem Campingplatz aufgestellt, greift hier nicht mehr die Übernachtungssteuer.",
+            "source": "auskunft"
+          },
+          {
+            "text": "In Schleswig-Holstein wird die Übernachtungssteuer als Prozentsatz auf das Übernachtungsentgelt erhoben, nicht in festen Beträgen.",
+            "quote": "In Schleswig-Holstein werden die Übernachtungssteuer gem . der Rechtsprechung als Prozentsätze auf den Übernachtungsentgelt erhoben",
+            "source": "auskunft"
+          }
+        ]
+      },
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-19",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/wendtorf/",
+      "calculation": {
+        "kind": "town",
+        "percent": 4,
+        "maxDays": null,
+        "maxPerStay": null
       }
     },
     {
