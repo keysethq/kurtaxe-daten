@@ -5,6 +5,9 @@
   "slug": "scharbeutz",
   "name": "Scharbeutz",
   "short": "Scharbeutz",
+  "districts": [
+    "Haffkrug"
+  ],
   "ags": "01055044",
   "state": "Schleswig-Holstein",
   "district": "Ostholstein",

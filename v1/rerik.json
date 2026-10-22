@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2013-01-01",
       "sha256": "569fe01bbaf216bf80962379dbe267aea3dbf5323dc414e3dfdd249fd16cf729",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -87,6 +87,20 @@
         "quote": "bettlägerig Kranke oder andere Personen, die nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen."
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte, Schüler, Auszubildende und Studenten unter 27",
+        "quote": "Die Kurabgabe ermäßigt sich in der Hauptsaison um 0,70 Euro, in der Nebensaison um 0,25 Euro bei: a) Schwerbehinderten gegen Vorlage des Schwerbehindertenausweises, b) Personen, die sich in der Schul- oder Berufsausbildung befinden, Wehrpflichtigen, Zivildienstleistenden und Studenten, die das 27. Lebensjahr noch nicht vollendet haben.",
+        "rates": [
+          {
+            "less": 70
+          },
+          {
+            "less": 25
+          }
+        ]
+      }
+    ],
     "remarks": [
       {
         "text": "Auf Nachweis zahlst du weniger: Schwerbehinderte sowie Schüler, Auszubildende und Studenten unter 27 Jahren zahlen in der Hauptsaison 0,70 € und in der Nebensaison 0,25 € weniger.",
@@ -141,6 +155,9 @@
         "adult": 200,
         "children": [
           0
+        ],
+        "reduced": [
+          130
         ]
       },
       {
@@ -154,7 +171,16 @@
         "adult": 75,
         "children": [
           0
+        ],
+        "reduced": [
+          50
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte, Schüler, Auszubildende und Studenten unter 27",
+        "onApplication": false
       }
     ]
   }

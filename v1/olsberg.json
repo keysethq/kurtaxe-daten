@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2019-01-01",
       "sha256": "c66fe79dd519ff9393422f7d5fc657f85e572cfe69471b18323c4e25fe10085a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -81,6 +81,13 @@
       {
         "text": "Inhaber von Zweitwohnungen",
         "quote": "Inhaber von Zweitwohnungen"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Blinde und Schwerbehinderte ab 80 %",
+        "quote": "Der Kurbeitrag wird auf 50 % ermäßigt für: a) Blinde und Schwerbehinderte mit einem Grad von mindestens 80 % Behinderung;",
+        "percent": 50
       }
     ],
     "remarks": [
@@ -145,7 +152,16 @@
         "adult": 150,
         "children": [
           0
+        ],
+        "reduced": [
+          75
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Blinde und Schwerbehinderte ab 80 %",
+        "onApplication": false
       }
     ]
   }

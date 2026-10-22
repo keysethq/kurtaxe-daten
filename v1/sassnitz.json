@@ -1,0 +1,163 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sassnitz",
+  "name": "Stadt Sassnitz",
+  "short": "Sassnitz",
+  "ags": "13073080",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Rügen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Sassnitz (Kurabgabesatzung) vom 25.02.2026",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/2/4/9/8/6/Kurabgabesatzung_Stadt_Sassnitz_01._April_2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-04-01",
+      "sha256": "fd6c7be2814fbccaf23713b2582d905d110e6422270fc13cf85c2c1d17271e00",
+      "verifiedOn": "2026-10-21",
+      "changedOn": "2026-10-14"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-21",
+      "changedOn": "2026-10-14"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Stadt Sassnitz",
+      "kind": "answer",
+      "receivedOn": "2026-10-21",
+      "text": "eigentlich wollten wir uns damit klar ausdrücken, aber es ist wahrscheinlich immer schwierig mit Altersangaben.\n\nZum Reisezeitpunkt betrachtet also ist das Kind 6 Jahre alt, zahlt es 0 € (selbst wenn es in diesem Jahr noch 7 würde), es zählt nicht das Geburtsjahr, sondern das derzeitige Alter.\nEbenso bei der nächsten Abstufung. Bin ich physisch 14 Jahre alt, zahle ich den ermäßigten Satz. Bin ich aber schon 15, dann den Erwachsenentarif.",
+      "changedOn": "2026-10-21",
+      "sha256": "6b70cd613115d2583afbeff4686683ced4ddbfc3c0d539fc6946ed7f6bd1b450",
+      "verifiedOn": "2026-10-21"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag gelten zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Erwachsener (ab 15 Jahren) 3,00 € pro Tag"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Zum Reisezeitpunkt betrachtet also ist das Kind 6 Jahre alt, zahlt es 0 €",
+            "source": "auskunft"
+          },
+          {
+            "underAge": 15,
+            "cents": 150,
+            "quote": "Kind (7-14 Jahre) 1,50 € pro Tag"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 gegen Vorlage des Ausweises",
+        "quote": "Schwerbehinderte (Behinderungsgrad ab 50 %), gegen Vorlage amtlicher Unterlagen bzw. eines entsprechenden Ausweises."
+      },
+      {
+        "text": "Einwohner mit Hauptwohnsitz in Sassnitz und ihre Verwandten ersten Grades, wenn sie unentgeltlich bei ihnen wohnen",
+        "quote": "Einwohner mit Hauptwohnsitz im Erhebungsgebiet sowie deren Verwandte 1. Grades, wenn sie ohne Vergütung in deren Hausgemeinschaft aufgenommen werden."
+      },
+      {
+        "text": "Teilnehmer an von der Stadt anerkannten Tagungen, Kongressen und Lehrgängen",
+        "quote": "Teilnehmer an den von der Stadt Sassnitz anerkannten Tagungen, Kongressen und Lehrgängen."
+      },
+      {
+        "text": "Wer in Sassnitz arbeitet, in Ausbildung ist oder einem genehmigten Gewerbe nachgeht, gilt nicht als ortsfremd",
+        "quote": "Als ortsfremd gilt nicht, wer in der Stadt Sassnitz in einem Ausbildungs- , Arbeits- oder Dienstverhältnis steht oder einem vom Gewerbeamt genehmigten Gewerbe nachgeht"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für Erwachsene für 90,00 €.",
+        "quote": "Jahreskurkarte Erwachsener (ab 15 Jahren) 90,00 € pro Jahr"
+      },
+      {
+        "text": "Du haftest als Vermieter für die Kurabgabe deiner Gäste.",
+        "quote": "Der Beherberger haftet für die Abgabeschuld seiner Kurgäste."
+      },
+      {
+        "text": "Bei vorzeitiger Abreise werden auf Antrag in begründeten Fällen 50 % der zu viel gezahlten Kurabgabe erstattet.",
+        "quote": "Bei vorzeitiger Abreise des Gastes kann auf Antrag in begründeten Fällen, 50 % der zu viel gezahlten Kurabgabe erstattet werden."
+      },
+      {
+        "text": "Die Satzung gilt seit dem 1. April 2026; sie löste die Satzung vom 1. Januar 2025 ab.",
+        "quote": "Die Satzung tritt am 01. April 2026 in Kraft."
+      },
+      {
+        "text": "Es zählt das Alter am Reisetag, nicht das Geburtsjahr: Wer 14 ist, zahlt den ermäßigten Satz, wer 15 ist, den Erwachsenensatz; sechsjährige Kinder zahlen nichts.",
+        "quote": "Bin ich physisch 14 Jahre alt, zahle ich den ermäßigten Satz. Bin ich aber schon 15, dann den Erwachsenentarif.",
+        "source": "auskunft"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, kassiert die Kurabgabe im Voraus vom Gast und führt sie an die Stadt ab.",
+      "quote": "Jeder Beherberger, wie auch dessen Bevollmächtigter, ist verpflichtet, die Kurabgabe im Auftrag der Stadt Sassnitz im Voraus vom Gast zu kassieren und an die Stadt Sassnitz abzuführen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Gäste werden am Werktag nach der Ankunft beziehungsweise Abreise im elektronischen Meldesystem an- und abgemeldet; mit der Anmeldung wird die Kurkarte ausgestellt.",
+      "quote": "bei ihm verweilende Personen an dem der Ankunft bzw. Abreise folgenden Werktag mit dem elektronischen Meldesystem an- bzw. abzumelden. Mit der Anmeldung hat die Ausstellung der Kurkarte zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-21",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sassnitz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}

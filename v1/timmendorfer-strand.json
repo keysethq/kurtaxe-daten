@@ -5,6 +5,9 @@
   "slug": "timmendorfer-strand",
   "name": "Timmendorfer Strand",
   "short": "Timmendorfer Strand",
+  "districts": [
+    "Niendorf"
+  ],
   "ags": "01055042",
   "state": "Schleswig-Holstein",
   "district": "Ostholstein",
@@ -15,7 +18,7 @@
       "kind": "statute",
       "inForce": "2024-01-01",
       "sha256": "99d4367072c03cdcb851e6ae27180b71e26d4e61fa87c248bdb9e3ea176d8eda",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "ta": {
@@ -25,15 +28,24 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "ef7f54b9f526afdbdbbd570739d0d427a7ff81bf01a6148e6de33ab2622e6161",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
+    },
+    "hauptsatzung": {
+      "title": "Hauptsatzung der Gemeinde Timmendorfer Strand vom 07.11.2024 (§ 12 Dorfschaften)",
+      "url": "https://www.timmendorfer-strand.org/fileadmin/download/Ortsrecht/Allgemeine_Verwaltung__Kultur_und_Hafen/neufassunghauptsatzung2024ortsrecht.pdf",
+      "kind": "statute",
+      "inForce": "2023-12-30",
+      "sha256": "cb76f1c2fa1fe9f9a7b63ba40868eb0777aba00104663ee8aaa6c919445480d2",
+      "verifiedOn": "2026-10-22",
+      "changedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -132,6 +144,15 @@
       {
         "text": "Du musst die Satzung für deine Gäste sichtbar auslegen.",
         "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+      },
+      {
+        "text": "Die Kurabgabe wird im ganzen Gemeindegebiet erhoben.",
+        "quote": "Erhebungsgebiet für die Kurabgabe ist das gesamte Gemeindegebiet der Gemeinde Timmendorfer Strand."
+      },
+      {
+        "text": "Niendorf/Ostsee ist eine Dorfschaft der Gemeinde Timmendorfer Strand.",
+        "quote": "Es bestehen folgende Dorfschaften: 1. Groß Timmendorf mit den Wohnplätzen Groß Timmendorf und Oeverdiek 2. Hemmelsdorf mit den Wohnplätzen Hemmelsdorf, Hainholz und Nothweg 3. Klein Timmendorf mit dem Bereich westlich der Lübecker Straße/Wohldstraße bis zu den Bahngleisen und südlich des Friedhofes bis Hauptstraße/Am Kardohr/Vogelsang 4. Niendorf/Ostsee",
+        "source": "hauptsatzung"
       }
     ],
     "hostDuty": {

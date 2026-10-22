@@ -5,6 +5,9 @@
   "slug": "rostock",
   "name": "Hanse- und Universitätsstadt Rostock",
   "short": "Rostock",
+  "districts": [
+    "Warnemünde"
+  ],
   "ags": "13003000",
   "state": "Mecklenburg-Vorpommern",
   "district": "Rostock (kreisfreie Stadt)",
@@ -15,7 +18,7 @@
       "kind": "statute",
       "inForce": "2025-04-13",
       "sha256": "358b6d9de8f24b8dfa899a500a271ed3bbc6b3b0a7bd51c22f1b1d427535161a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "kategorien": {
@@ -24,7 +27,7 @@
       "kind": "municipality",
       "inForce": "2025-04-13",
       "sha256": "6d3b98e3ab2ef306308b8f680c11b382ff1583e1cafc0af91b6c658998382849",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "faq": {
@@ -34,7 +37,7 @@
       "inForce": null,
       "hashOf": "quotes",
       "sha256": "e402bf8804d694f05b4ac53693c6233958615aa3ae64f7ab040f5834295159d7",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -42,7 +45,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -101,6 +104,18 @@
         "text": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet sind Gäste nach der GästeCard-Seite der Stadt befreit, auch wenn das nur am Anreise- oder am Abreisetag so ist.",
         "quote": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet bist du von der Kurabgabe befreit und erhältst keine GästeCard. Dies gilt auch, wenn dies nur am Anreise- oder Abreisetag der Fall ist.",
         "source": "faq"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB ab 50",
+        "quote": "Menschen mit einem GdB von mindestens 50 *1,45 € pro Person/Tag",
+        "source": "kategorien",
+        "rates": [
+          {
+            "cents": 145
+          }
+        ]
       }
     ],
     "remarks": [
@@ -172,7 +187,16 @@
         "children": [
           0,
           145
+        ],
+        "reduced": [
+          145
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB ab 50",
+        "onApplication": false
       }
     ]
   }

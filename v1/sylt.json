@@ -5,6 +5,10 @@
   "slug": "sylt",
   "name": "Sylt",
   "short": "Sylt",
+  "districts": [
+    "Westerland"
+  ],
+  "locative": "auf Sylt",
   "ags": "01054168",
   "state": "Schleswig-Holstein",
   "district": "Nordfriesland",
@@ -15,8 +19,8 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "fecc561d03acf62110c882b930828a21de8cf7cf28ccf4f4e6cd63e7f36639c8",
-      "verifiedOn": "2026-10-19",
-      "changedOn": "2026-10-14",
+      "verifiedOn": "2026-10-22",
+      "changedOn": "2026-10-22",
       "ocr": [
         {
           "where": "counting",
@@ -84,6 +88,11 @@
           "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
         },
         {
+          "where": "remarks[3]",
+          "page": 1,
+          "reading": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
+        },
+        {
           "where": "hostDuty",
           "page": 5,
           "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
@@ -106,7 +115,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "79fe65a30861e724b08420afe67cc0b81f185f2ab631c65906c6af0340328a0f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "ta": {
@@ -116,7 +125,7 @@
       "inForce": "2024-01-01",
       "changedOn": "2026-10-15",
       "sha256": "6a0d2bb17bc5b1549848581c60cde66a46b7f67fe57b3831c0480e17d9b3b668",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -310,7 +319,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -398,6 +407,10 @@
       {
         "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet.",
         "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+      },
+      {
+        "text": "Die Kurabgabe gilt in der ganzen Gemeinde, auch im Ortsteil Westerland.",
+        "quote": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
       }
     ],
     "hostDuty": {
@@ -425,7 +438,7 @@
     "by": "agent"
   },
   "ocrCompared": {
-    "on": "2026-10-15",
+    "on": "2026-10-22",
     "by": "agent"
   },
   "businessLevy": {

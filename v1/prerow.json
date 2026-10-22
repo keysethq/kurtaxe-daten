@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "e387bfc98ba4e657a4c11eddc332593cf590c3b60f6d1b4fd5202b44ce5ee137",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "fva": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2024-01-01",
       "sha256": "0c00b150e8315f5cee4481b12eb5a3c8bba27ea9c9b67c8b157d46b7b535ca5d",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -70,6 +70,14 @@
       {
         "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitpersonen, wenn das Merkzeichen B im Ausweis steht",
         "quote": "Schwerstbehinderte mit einer Behinderung von 100 % und Begleitpersonen, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten, Azubis, Freiwilligendienst, Schwerbehinderte ab GdB 70",
+        "quote": "Auf Antrag und Nachweis der Voraussetzungen erhalten: (1) Schüler, Studenten im Direktstudium, Auszubildende, freiwillig Wehr- und Bundes- freiwilligendienstleistende eine Ermäßigung um 50%, (2) Schwerbehinderte Personen mit mindestens 70% Grad der Behinderung eine Ermäßigung um 50 % (Erwachsene und Kinder).",
+        "onApplication": true,
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -188,7 +196,16 @@
         "adult": 250,
         "children": [
           0
+        ],
+        "reduced": [
+          125
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten, Azubis, Freiwilligendienst, Schwerbehinderte ab GdB 70",
+        "onApplication": true
       }
     ]
   }

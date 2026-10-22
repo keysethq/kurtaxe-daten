@@ -5,6 +5,9 @@
   "slug": "norden",
   "name": "Stadt Norden",
   "short": "Norden",
+  "districts": [
+    "Norddeich"
+  ],
   "ags": "03452019",
   "state": "Niedersachsen",
   "district": "Aurich",

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2021-01-01",
       "sha256": "4c8fad47edd58fde7d9165552e8ada7b4caa12a28325d029ef43b98e1dd011e0",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -86,7 +86,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "a3f68704b072e38db12d398b6ed5aedc01e6e4dc0660367832afa33cf486a509",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -142,7 +142,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "82db688596bf03ede72790f28db6436321493fa1e2cb9bd1844ce389b6f16936",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -150,7 +150,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "tbs": {
@@ -159,7 +159,7 @@
       "kind": "statute",
       "inForce": "2017-07-01",
       "sha256": "70f2f018c16e152c34114a241b0c19880353f4c81f360abfd69dd86b452a0586",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -308,6 +308,14 @@
         "quote": "Bettlägerig Kranke und andere Personen, die nicht in der Lage sind, die touristischen Einrichtungen zu benutzen;"
       }
     ],
+    "reduced": [
+      {
+        "label": "Zur Kur entsandte Personen",
+        "quote": "Der Gästebeitrag wird um 20 % ermäßigt für Personen, die zu einer Kurbehandlung entsandt wurden auf Kosten",
+        "source": "aenderung2026",
+        "percentOff": 20
+      }
+    ],
     "remarks": [
       {
         "text": "Die Hauptsaison geht vom 1. März bis 31. Oktober, die Nebensaison vom 1. November bis 29. Februar.",
@@ -454,6 +462,9 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          240
         ]
       },
       {
@@ -468,7 +479,16 @@
         "children": [
           0,
           125
+        ],
+        "reduced": [
+          200
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Zur Kur entsandte Personen",
+        "onApplication": false
       }
     ]
   }

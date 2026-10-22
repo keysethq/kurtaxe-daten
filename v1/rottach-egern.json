@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "11054479e32728da22531fe4330b5f5197af896f5aa9dae525a450c488da886d",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -71,6 +71,13 @@
       {
         "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
         "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %",
+        "percent": 50
       }
     ],
     "remarks": [
@@ -141,7 +148,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
       }
     ]
   }

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "4a3fd055f273df7057f3fca47cd2e221c497b8af522b4a665c08a926e3abe061",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "nachtrag1": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2027-01-01",
       "sha256": "8ee0d0ea5059fa8d87fcfd31d728d4e328be14e31cfa6aa11ecba5cc68d63ffb",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bgb": {
       "title": "Bürgerliches Gesetzbuch, § 2 Eintritt der Volljährigkeit",
@@ -41,7 +41,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "73aca90eb3f35af63ebacd6942b0185096dcff0dfc420f143eb52f680ed24da7",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -145,6 +145,13 @@
         "quote": "sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tage von der Kurabgabe befreit."
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80 und ihre Begleitperson",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung des Kurabgabebeitrages in Höhe von 50 %. Dieses gilt auch für eine erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist.",
+        "percentOff": 50
+      }
+    ],
     "remarks": [
       {
         "text": "Menschen mit einem Grad der Behinderung ab 80 und eine erforderliche Begleitperson mit Eintrag „B“ im Ausweis zahlen nur die Hälfte.",
@@ -212,11 +219,17 @@
           0,
           100
         ],
+        "reduced": [
+          100
+        ],
         "next": {
           "adult": 170,
           "children": [
             0,
             90
+          ],
+          "reduced": [
+            85
           ]
         }
       },
@@ -237,13 +250,25 @@
           0,
           50
         ],
+        "reduced": [
+          50
+        ],
         "next": {
           "adult": 90,
           "children": [
             0,
             50
+          ],
+          "reduced": [
+            45
           ]
         }
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80 und ihre Begleitperson",
+        "onApplication": false
       }
     ],
     "change": {

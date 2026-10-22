@@ -16,7 +16,7 @@
       "inForce": "2025-01-18",
       "changedOn": "2026-10-15",
       "sha256": "ac52fae4f01dc7d90672601cee0bb2ab02f2ffebabfb053fc40e8ddf4b597ab0",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -115,6 +115,22 @@
         "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
       }
     ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB 50 und ihre ständige Begleitung",
+        "quote": "Menschen mit einem Grad der Behinderung von 50, sowie deren Begleitung, soweit der Mensch mit Behinderung auf eine ständige Begleitung angewiesen ist.",
+        "rates": [
+          {
+            "cents": 100,
+            "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+          },
+          {
+            "cents": 50,
+            "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+          }
+        ]
+      }
+    ],
     "remarks": [
       {
         "text": "Ermäßigt zahlen auch Menschen mit einem Grad der Behinderung von 50 und ihre Begleitung.",
@@ -187,6 +203,9 @@
         "children": [
           0,
           100
+        ],
+        "reduced": [
+          100
         ]
       },
       {
@@ -205,7 +224,16 @@
         "children": [
           0,
           50
+        ],
+        "reduced": [
+          50
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB 50 und ihre ständige Begleitung",
+        "onApplication": false
       }
     ]
   }

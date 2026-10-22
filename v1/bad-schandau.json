@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "a17cfa422d695a8dc4c3adecb78a90a023763b66f81fc90d4a29c1cccce5af50",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "2019-01-01",
       "changedOn": "2026-10-15",
       "sha256": "edba1d431e86b83299feb95af368921f3eb52119486c6e99ec2389e97b79495d",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -92,6 +92,14 @@
       {
         "text": "Familienbesuch ohne Entgelt, wenn das sozialadäquat ist",
         "quote": "Nicht gästetaxepflichtig sind Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgeltes Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50, Schüler, Studenten und Auszubildende von 16 bis 24",
+        "quote": "Die Gästetaxe wird auf Antrag um 50 v. H. ermäßigt für: 1. Kinder und Jugendliche im Alter von 7 bis 15 Jahren, 2. Schwerbehinderte, mit einem Grad der Behinderung von wenigstens 50 v. H., 3. Schüler, Studenten und Auszubildende im Alter 16 bis 24 Jahren.",
+        "onApplication": true,
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -253,7 +261,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50, Schüler, Studenten und Auszubildende von 16 bis 24",
+        "onApplication": true
       }
     ]
   }

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "eb2b8646c373bb1b683720a40623e4ace750ddaa1ca93557b74d2a77434a280b",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -85,6 +85,19 @@
       {
         "text": "Bettlägerige Kranke und andere Personen, die die touristischen Einrichtungen aus gesundheitlichen Gründen nicht nutzen können",
         "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die touristischen Einrichtungen in Anspruch zu nehmen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Für folgende Zahlungspflichtige wird die Kurtaxe gemäß § 3 um 50 % ermäßigt: 1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt.",
+        "percentOff": 50
+      },
+      {
+        "label": "Teilnehmer an anerkannten Kongressen und Tagungen",
+        "quote": "Für folgende Zahlungspflichtige wird die Kurtaxe gemäß § 3 um 50 % ermäßigt: 1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt. 2. Kinder nach Vollendung des 6. und bis zur Vollendung des 18. Lebensjahres. 3. Teilnehmer an von der Wernigerode Tourismus GmbH anerkannten Kongressen, Tagungen und vergleichbaren Veranstaltungen. Der Antrag ist schriftlich bei der Wernigerode Tourismus GmbH spätestens 14 Tage vor Reiseantritt zu stellen.",
+        "onApplication": true,
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -155,7 +168,21 @@
         "children": [
           0,
           175
+        ],
+        "reduced": [
+          175,
+          175
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      },
+      {
+        "label": "Teilnehmer an anerkannten Kongressen und Tagungen",
+        "onApplication": true
       }
     ],
     "family": {

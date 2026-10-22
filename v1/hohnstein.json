@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "81abaa521e0ff8830df7840742c38a9e2210e8d17cbbbc007f1bf2e805d8db4a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -79,6 +79,17 @@
       {
         "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
         "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten und Auszubildende unter 27",
+        "quote": "Die Gästetaxe wird um 1,00 EUR ermäßigt für: 1. Kinder vom 8. Lebensjahr bis zum vollendeten 18. Lebensjahr, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 27. Lebensjahr.",
+        "rates": [
+          {
+            "less": 100
+          }
+        ]
       }
     ],
     "remarks": [
@@ -161,7 +172,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten und Auszubildende unter 27",
+        "onApplication": false
       }
     ]
   }

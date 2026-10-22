@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "4aecd621f875ab7eaf6fdba4ab6afa14902e937d6aae880eeb06d687565d161c",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -84,6 +84,13 @@
       {
         "text": "Personen, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen",
         "quote": "Ortsfremde Personen, besonders Schüler, Studenten und Rentner, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 80 %, ihre Begleitpersonen, beruflich Reisende",
+        "quote": "Der Kurbeitrag wird unter Nachweis des Vorliegens der Voraussetzungen in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung; b) Begleitpersonen von Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird; c) Personen, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten, wenn ein Nachweis über den berufsbedingten Aufenthalt beigebracht wird.",
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -152,7 +159,16 @@
         "adult": 234,
         "children": [
           0
+        ],
+        "reduced": [
+          117
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 80 %, ihre Begleitpersonen, beruflich Reisende",
+        "onApplication": false
       }
     ]
   }

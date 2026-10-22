@@ -16,7 +16,7 @@
       "inForce": "2022-01-01",
       "changedOn": "2026-10-15",
       "sha256": "d59e19eafc57d2fde6d1aaaed1b358ce9c966ab6193b1bce876d45e1272517f6",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Breege – staatlich anerkanntes Seebad (nichtamtliche Lesefassung der Satzung vom 26.03.2007, Ortsrecht des Amtes Nord-Rügen)",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "d1b75a8387eee31d88dd5101bb2f02821e7f46ee491b22fb986f9f7923a46072",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -113,6 +113,22 @@
       {
         "text": "Wer in Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis steht oder sich überwiegend aus beruflichen Gründen dort aufhält (zum Beispiel auf einer Dienstreise), gilt nicht als ortsfremd",
         "quote": "Personen, die in der Gemeinde Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen oder einen vom Gewerbeamt genehmigten Gewerbe nachgehen, sowie Personen, die sich vorübergehend in der Gemeinde Breege in Ausübung ihres Berufes im Erhebungsgebiet aufhalten (zum Beispiel Dienstreisen), soweit der Aufenthalt ganz oder zumindest weit überwiegend aus beruflichen Gründen erfolgt."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Azubis, Studenten, Wehr-/Zivildienst bis 26, Schwerbehinderte ab 50 %",
+        "quote": "(2) Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden. (3) Schwerbehinderte ab 50% Behinderung, sofern sie den Behindertenausweis vorlegen.",
+        "rates": [
+          {
+            "cents": 150,
+            "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+          },
+          {
+            "cents": 80,
+            "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+          }
+        ]
       }
     ],
     "remarks": [
@@ -242,6 +258,9 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
       },
       {
@@ -256,7 +275,16 @@
         "children": [
           0,
           80
+        ],
+        "reduced": [
+          80
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Azubis, Studenten, Wehr-/Zivildienst bis 26, Schwerbehinderte ab 50 %",
+        "onApplication": false
       }
     ]
   }

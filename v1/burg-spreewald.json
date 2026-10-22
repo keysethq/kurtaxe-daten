@@ -14,7 +14,7 @@
       "url": "https://amt-burg-spreewald.de/visioncontent/mediendatenbank/amt_kurbeitrag_2025_lesefassung_2_aend.pdf",
       "kind": "municipality",
       "sha256": "24939db77165a0a665e80d40e0cd1210f21d5344b927c4aa2884cff2a9498608",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -22,7 +22,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -32,7 +32,7 @@
       "inForce": "2016-01-01",
       "changedOn": "2026-10-15",
       "sha256": "08bd228e38eff2017ab7c09e69f39c89184fc0cb8d4a36c13edbebdfdea4df09",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -94,6 +94,17 @@
       {
         "text": "Kinder- und Schülergruppen ab fünf Personen und ihre Begleitpersonen in Ferienlagern, Landschulheimen und Jugendherbergen zahlen nichts.",
         "quote": "Kinder-und Schülergruppen ab fünf Personen und deren Begleitpersonen in Ferienlagern, Landschulheimen, Jugendherbergen, Einrichtungen des Behindertenwerkes und vergleichbaren Einrichtungen;"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Rehaklinikpatienten",
+        "quote": "b) Rehaklinikpatienten 1,00 Euro",
+        "rates": [
+          {
+            "cents": 100
+          }
+        ]
       }
     ],
     "remarks": [
@@ -223,7 +234,16 @@
         "adult": 200,
         "children": [
           0
+        ],
+        "reduced": [
+          100
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Rehaklinikpatienten",
+        "onApplication": false
       }
     ]
   }

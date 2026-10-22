@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2016-01-01",
       "sha256": "d48325a6eec894763ed0ce2681bfdb60d618e0d6f56744ddb1375300eb195747",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "aenderung": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "2a2bb007aa2201e3059fd9c209517689dfd115b97891af18ee5aaa3d854d3622",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-18",
       "ocr": [
         {
@@ -46,14 +46,14 @@
       "text": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe) Alles andere ist Kernort.",
       "changedOn": "2026-10-18",
       "sha256": "5fc65d9a1effe3f2ed1c1a5e0da6f6498cd0e81a29da16f6f02048b69d9f140c",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -153,6 +153,14 @@
         "quote": "die in der Stadt arbeiten, in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen oder zur sonstigen Berufsausübung (auch z.B. Tagungen, Montage) aufhalten"
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbehinderte Personen ab 50 v.H. Grad der Behinderung um 20 v.H.",
+        "onApplication": true,
+        "percentOff": 20
+      }
+    ],
     "remarks": [
       {
         "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung ab 50 20 % weniger.",
@@ -219,6 +227,9 @@
         "adult": 320,
         "children": [
           0
+        ],
+        "reduced": [
+          256
         ]
       }
     ],
@@ -237,6 +248,9 @@
             "adult": 320,
             "children": [
               0
+            ],
+            "reduced": [
+              256
             ]
           }
         ]
@@ -255,9 +269,18 @@
             "adult": 290,
             "children": [
               0
+            ],
+            "reduced": [
+              232
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": true
       }
     ]
   }

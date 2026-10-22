@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2023-03-01",
       "sha256": "c2b522d46ce80cf9f06f24118a1aa4c47d57e9ecf57a12bff7e4277c1d739cf2",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "aenderung9": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2025-03-01",
       "sha256": "138f968b47d5ce88ff9f2722f121484e6cf2eb97a1b2f403d094292402872454",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -56,7 +56,7 @@
       "inForce": "2020-01-17",
       "changedOn": "2026-10-15",
       "sha256": "8a8f5230c459ac5a4e0b234dd06edf1183b1cfc4df46b553b6637037f05ca14e",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -64,7 +64,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -142,6 +142,13 @@
       {
         "text": "Eine Kurkarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Aufenthaltstag.",
         "quote": "Nachweise über die Entrichtung der Kurabgabe (Kurkarten) aus einem anderen Ferienort innerhalb des Landes Schleswig-Holstein haben für einen Aufenthaltstag im Gebiet der Gemeinde Schönberg Gültigkeit."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und ihre Begleitperson",
+        "quote": "Schwerbehinderte Menschen im Sinne des SGB IX mit einem festgestellten Grad der Behinderung von mindestens 50 % erhalten eine Ermäßigung auf die Kurabgabe und die Strandbenutzungsgebühr in Höhe von 50 %. 2 Satz 1 gilt entsprechend für Personen, die den schwerbehinderten Menschen aufgrund der Eintragungen im Schwerbehindertenausweis (Merkzeichen „B“) begleiten müssen.",
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -299,6 +306,9 @@
         "adult": 300,
         "children": [
           0
+        ],
+        "reduced": [
+          150
         ]
       },
       {
@@ -316,7 +326,16 @@
         "adult": 150,
         "children": [
           0
+        ],
+        "reduced": [
+          75
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und ihre Begleitperson",
+        "onApplication": false
       }
     ]
   }

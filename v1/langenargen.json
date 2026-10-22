@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-04-01",
       "sha256": "7dc839b9c81597af2266b81a07918400930c484812bb785e1f12bad70d37f383",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2002-01-01",
       "sha256": "dba8e4fa9373548d466902bc455615705ab2fb74fd8912d74e4cab9b5f92ede6",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -170,6 +170,14 @@
         "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 50
+      }
+    ],
     "remarks": [
       {
         "text": "Die Hauptsaison geht vom 1. April bis 31. Oktober, die Nebensaison vom 1. November bis 31. März.",
@@ -272,6 +280,9 @@
         "adult": 350,
         "children": [
           0
+        ],
+        "reduced": [
+          175
         ]
       },
       {
@@ -285,6 +296,9 @@
         "adult": 140,
         "children": [
           0
+        ],
+        "reduced": [
+          70
         ]
       }
     ],
@@ -303,6 +317,9 @@
             "adult": 350,
             "children": [
               0
+            ],
+            "reduced": [
+              175
             ]
           },
           {
@@ -316,6 +333,9 @@
             "adult": 140,
             "children": [
               0
+            ],
+            "reduced": [
+              70
             ]
           }
         ]
@@ -334,6 +354,9 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              150
             ]
           },
           {
@@ -347,9 +370,18 @@
             "adult": 140,
             "children": [
               0
+            ],
+            "reduced": [
+              70
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "onApplication": true
       }
     ]
   }

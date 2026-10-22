@@ -1,0 +1,199 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "quedlinburg",
+  "name": "Welterbestadt Quedlinburg",
+  "short": "Quedlinburg",
+  "ags": "15085235",
+  "state": "Sachsen-Anhalt",
+  "district": "Harz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Kurtaxe in der Welterbestadt Quedlinburg (Kurtaxsatzung) vom 06.05.2021 in der Fassung der 1. Änderung vom 08.11.2023 (Amtsblatt 29.11.2023), Fassung der Stadt Quedlinburg",
+      "url": "https://www.quedlinburg.de/PDF/Kurtaxsatzung.PDF?ObjSvrID=3771&ObjID=1777&ObjLa=1&Ext=PDF&WTR=1&_ts=1745489433",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "fe2ed2682fa9c199495efff3fa3aff8daf8c02de99d4d3874d2d6d00c4084d9a",
+      "verifiedOn": "2026-10-22",
+      "changedOn": "2026-10-22"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-22",
+      "changedOn": "2026-10-22"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreise rechnen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Die Kurtaxe beträgt täglich pro Person 3,00 EUR inkl. der gesetzlichen Mehrwertsteuer."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres."
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "Kinder nach Vollendung des 6. und vor Vollendung des 18. Lebensjahres zahlen täglich 1,00 EUR inkl. der gesetzlichen Mehrwertsteuer."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Personen, die Einwohner mit Hauptwohnsitz im Ort aus familiären Gründen besuchen und in deren häuslicher Gemeinschaft übernachten",
+        "quote": "Personen, die eine im Erhebungsgebiet mit Hauptwohnsitz gemeldete Person aus familiären und vergleichbaren Gründen besuchen und in der häuslichen Gemeinschaft aufgenommen werden und dort auch übernachten."
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Ort aufhalten",
+        "quote": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 100 beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+      },
+      {
+        "text": "Bettlägerige Kranke, die ihre Unterkunft nicht verlassen, gegen ärztliches Zeugnis",
+        "quote": "Bettlägerige Kranke, die ihre Unterkunft nicht verlassen und somit die Tourismuseinrichtungen nicht nutzen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+      },
+      {
+        "text": "Teilnehmer an Freiwilligendiensten für die Dauer ihres Aufenthalts im Ort",
+        "quote": "Teilnehmer/Teilnehmerinnen an Freiwilligendiensten für die Dauer ihres Aufenthaltes im Erhebungsgebiet."
+      },
+      {
+        "text": "Jugendliche in Jugendherbergen, Jugend- und Schullandheimen, Jugendzeltlagern und Waldhütten sowie ihre Aufsichtspersonen bei organisierten Klassenfahrten",
+        "quote": "Jugendliche in Jugendherbergen, Jugend- und Schullandheimen, Jugendzeltlagern und Waldhütten sowie deren Aufsichtspersonen als Teilnehmer von organisierten Klassenfahrten."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und ihre ständige Begleitperson",
+        "quote": "Für folgende Personen wird die Kurtaxe aus § 4 und § 5 Abs. 1 um 50 v.H. ermäßigt: 1. Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nicht nur vorübergehend wenigstens 50 v.H. beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist.",
+        "percentOff": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit von wenigstens 50 Prozent zahlen gegen Nachweis die Hälfte, ebenso ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht.",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nicht nur vorübergehend wenigstens 50 v.H. beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Kindern unter 6 Jahren zahlen die Hälfte.",
+        "quote": "Begleitpersonen von schwerbehinderten Kindern, die das 6. Lebensjahr noch nicht vollendet haben."
+      },
+      {
+        "text": "Die Kurtaxe gilt in der Welterbestadt Quedlinburg und in den Ortsteilen Gernrode und Bad Suderode, die zusammen ein Erhebungsgebiet bilden.",
+        "quote": "Die Stadt und die beiden Ortsteile bilden ein Erhebungsgebiet."
+      },
+      {
+        "text": "Auf öffentlich zugänglichen Wohnmobilstellplätzen zahlt ein Wohnmobil pauschal den doppelten Satz der gültigen Kurtaxe.",
+        "quote": "Für Wohnmobile auf öffentlich zugänglichen Wohnmobilstellplätzen wird die Kurtaxe pauschal pro Wohnmobil in doppelter Höhe der jeweils gültigen Kurtaxe erhoben."
+      },
+      {
+        "text": "Gäste können statt der Tagessätze eine Jahreskurtaxe von 60,00 Euro zahlen; sie setzt mindestens 30 Aufenthaltstage im Erhebungsgebiet voraus.",
+        "quote": "Die Nutzung der Jahreskurkarte setzt als Bedingung mindestens 30 Aufenthaltstage im Erhebungsgebiet voraus. Die Jahreskurtaxe beträgt 60,00 Euro inkl. der gesetzlichen Mehrwertsteuer."
+      },
+      {
+        "text": "Wer in Quedlinburg eine Zweitwohnung hat, zahlt mit seinen Familienangehörigen die Jahreskurtaxe.",
+        "quote": "Zweitwohnungsinhaber und ihre Familienangehörigen sind verpflichtet, die Jahreskurtaxe zu entrichten."
+      },
+      {
+        "text": "Wer die Kurtaxe zahlt, hat für diese Tage Anspruch auf das Harzer Urlaubsticket (HATIX) für alle öffentlichen Bus- und Straßenbahnlinien im Landkreis Harz und ausgewählte Linien darüber hinaus.",
+        "quote": "besteht Anspruch auf das Harzer Urlaubsticket (HATIX), welches zur kostenfreien Fahrt auf allen öffentlichen Bus- und Straßenbahnlinien im gesamten Landkreis Harz"
+      },
+      {
+        "text": "Inhaber der Jahreskurkarte haben keinen Anspruch auf das Harzer Urlaubsticket.",
+        "quote": "Inhaber der Jahreskurkarte haben keinen Anspruch auf die Nutzung des Harzer-Urlaubs- Tickets."
+      },
+      {
+        "text": "Auf Verlangen gibst du der Quedlinburg-Tourismus-Marketing GmbH jederzeit Auskunft über Gäste, Aufenthaltsdauer und Zahlungspflicht und lässt Einsicht in deine Beherbergungsunterlagen zu.",
+        "quote": "Die Wohnungsgeber haben auf Verlangen der Quedlinburg-Tourismus-Marketing GmbH jederzeit über die Anzahl der Gäste, deren Verweildauer und deren Zahlungspflicht Auskunft zu erteilen."
+      },
+      {
+        "text": "Die Kurtaxsatzung musst du deinen Gästen zugänglich machen, etwa durch Aushang oder Auslegung.",
+        "quote": "Diese Satzung über die Erhebung einer Kurtaxe ist den Zahlungspflichtigen hinreichend zugänglich zu machen (Aushang, Auslegung)."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, meldet sie der Stadt am ersten Werktag nach der Ankunft und zieht die Kurtaxe von ihnen ein.",
+      "quote": "diese abgabepflichtigen Personen der Welterbestadt Quedlinburg am ersten Werktag nach deren Ankunft zu melden und die fällige Kurtaxe von den Abgabepflichtigen einzuziehen."
+    },
+    "deadline": {
+      "text": "Rehakliniken, Sanatorien, Hotels, Pensionen, Campingplätze und gewerbliche Vermieter ab 10 Betten führen die Kurtaxe bis zum 15. des Folgemonats ab, nicht gewerbliche Vermieter bis zum 15. Tag nach Quartalsende; gewerbliche Vermieter unter 10 Betten nennt die Satzung nicht.",
+      "quote": "Die eingenommene Kurtaxe ist in regelmäßigen Abständen von Rehakliniken und Sanatorien, Hotels/Pensionen sowie Campingplatz- oder Wochenendplatzbetreibern und gewerblichen Wohnungsgebern (ab 10 Betten) spätestens zum 15. des Folgemonats, nicht gewerbliche Wohnungsgeber spätestens am 15. Kalendertag nach Quartalsende"
+    },
+    "reporting": {
+      "text": "Gemeldet werden kann digital über das Kurbeitragsabrechnungssystem der Quedlinburg-Tourismus-Marketing GmbH; neu erfasste Betriebe melden ausschließlich digital.",
+      "quote": "Neu erfasste Betriebe melden Daten ausschließlich digital."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/quedlinburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          100
+        ],
+        "reduced": [
+          150
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und ihre ständige Begleitperson",
+        "onApplication": false
+      }
+    ]
+  }
+}

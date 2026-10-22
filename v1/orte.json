@@ -17,7 +17,7 @@
           "kind": "municipality",
           "inForce": "2016-01-01",
           "sha256": "d48325a6eec894763ed0ce2681bfdb60d618e0d6f56744ddb1375300eb195747",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung": {
@@ -26,7 +26,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "2a2bb007aa2201e3059fd9c209517689dfd115b97891af18ee5aaa3d854d3622",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-18",
           "ocr": [
             {
@@ -48,14 +48,14 @@
           "text": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe) Alles andere ist Kernort.",
           "changedOn": "2026-10-18",
           "sha256": "5fc65d9a1effe3f2ed1c1a5e0da6f6498cd0e81a29da16f6f02048b69d9f140c",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -155,6 +155,14 @@
             "quote": "die in der Stadt arbeiten, in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen oder zur sonstigen Berufsausübung (auch z.B. Tagungen, Montage) aufhalten"
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbehinderte Personen ab 50 v.H. Grad der Behinderung um 20 v.H.",
+            "onApplication": true,
+            "percentOff": 20
+          }
+        ],
         "remarks": [
           {
             "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung ab 50 20 % weniger.",
@@ -221,6 +229,9 @@
             "adult": 320,
             "children": [
               0
+            ],
+            "reduced": [
+              256
             ]
           }
         ],
@@ -239,6 +250,9 @@
                 "adult": 320,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  256
                 ]
               }
             ]
@@ -257,9 +271,18 @@
                 "adult": 290,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  232
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": true
           }
         ]
       }
@@ -4452,7 +4475,7 @@
           "kind": "municipality",
           "inForce": "2026-04-01",
           "sha256": "7dc839b9c81597af2266b81a07918400930c484812bb785e1f12bad70d37f383",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -4460,7 +4483,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -4469,7 +4492,7 @@
           "kind": "statute",
           "inForce": "2002-01-01",
           "sha256": "dba8e4fa9373548d466902bc455615705ab2fb74fd8912d74e4cab9b5f92ede6",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -4607,6 +4630,14 @@
             "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt.",
+            "onApplication": true,
+            "percentOff": 50
+          }
+        ],
         "remarks": [
           {
             "text": "Die Hauptsaison geht vom 1. April bis 31. Oktober, die Nebensaison vom 1. November bis 31. März.",
@@ -4709,6 +4740,9 @@
             "adult": 350,
             "children": [
               0
+            ],
+            "reduced": [
+              175
             ]
           },
           {
@@ -4722,6 +4756,9 @@
             "adult": 140,
             "children": [
               0
+            ],
+            "reduced": [
+              70
             ]
           }
         ],
@@ -4740,6 +4777,9 @@
                 "adult": 350,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  175
                 ]
               },
               {
@@ -4753,6 +4793,9 @@
                 "adult": 140,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  70
                 ]
               }
             ]
@@ -4771,6 +4814,9 @@
                 "adult": 300,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  150
                 ]
               },
               {
@@ -4784,9 +4830,18 @@
                 "adult": 140,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  70
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "onApplication": true
           }
         ]
       }
@@ -6032,7 +6087,7 @@
           "kind": "municipality",
           "inForce": "2025-01-01",
           "sha256": "34e93e35e1037d37d00558b8e2c5ad816be2711cd2b12512b88916c11f81ec68",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -6040,7 +6095,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -6049,7 +6104,7 @@
           "kind": "statute",
           "inForce": "2024-05-01",
           "sha256": "58f22bea4f12db13febfe47d3c35a9c0c14ed18948b4e6582d170d00544ef6bb",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -6187,6 +6242,14 @@
             "quote": "Personen, die sich aus beruflichen Gründen bzw. zur Teilnahme an beruflich bedingten Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die Dauer des beruflich bedingten Aufenthalts."
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 70",
+            "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit einem nachgewiesenen Grad der Behinderung von mindestens 70 % gegen Vorlage des amtlichen Ausweises.",
+            "onApplication": true,
+            "percentOff": 20
+          }
+        ],
         "remarks": [
           {
             "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von mindestens 70 % 20 % weniger.",
@@ -6292,6 +6355,9 @@
             "children": [
               0,
               210
+            ],
+            "reduced": [
+              312
             ]
           }
         ],
@@ -6311,6 +6377,9 @@
                 "children": [
                   0,
                   210
+                ],
+                "reduced": [
+                  312
                 ]
               }
             ]
@@ -6330,6 +6399,9 @@
                 "children": [
                   0,
                   160
+                ],
+                "reduced": [
+                  192
                 ]
               }
             ]
@@ -6349,9 +6421,18 @@
                 "children": [
                   0,
                   210
+                ],
+                "reduced": [
+                  312
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 70",
+            "onApplication": true
           }
         ]
       }
@@ -8016,7 +8097,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "23271c9ac6a58d71df8161835eb229d4984d4903bd15e3fc84e2cc965a0c341c",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -8024,7 +8105,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -8034,7 +8115,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "16717b6171fb1c4fb585d25a883c8275503fb66a8228898a9d4038ccab6411e4",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -8084,6 +8165,17 @@
           {
             "text": "Personen, die sich ausschließlich wegen ihrer Berufsausübung im Kurgebiet aufhalten; das weisen sie dir oder der Stadt nach",
             "quote": "Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurgebiet aufhalten."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "quote": "Schwerbehinderte ab GdB 80% (§ 5 Abs. 2 (a)) 1,75 EUR",
+            "rates": [
+              {
+                "cents": 175
+              }
+            ]
           }
         ],
         "remarks": [
@@ -8200,7 +8292,16 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              175
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "onApplication": false
           }
         ],
         "oneNight": 175
@@ -11851,7 +11952,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "b9b2682e5cc5e0db4e58a33660721000da7099c4bed0b5049e5c0e36140a2ae0",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -11859,7 +11960,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -11869,7 +11970,7 @@
           "inForce": "2008-01-01",
           "changedOn": "2026-10-15",
           "sha256": "31fcbb5ffbc0bed52a29419c4ee0bdbb7d31798d92909827f5098b7a206a8a47",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -11973,6 +12074,13 @@
           {
             "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
             "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen einen nach § 4 Abs. 2 ermäßigten Kurbeitragssatz von 50 v. H. pro Aufenthaltstag.",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -12103,7 +12211,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
           }
         ]
       }
@@ -13203,7 +13320,7 @@
           "kind": "statute",
           "inForce": "2025-12-01",
           "sha256": "3bc8b2cf7d286d50f0fabbe0fc1d04f1c21607a085851a869fa77a5142d01c94",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -13211,7 +13328,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -13221,7 +13338,7 @@
           "inForce": "1979-01-01",
           "changedOn": "2026-10-15",
           "sha256": "c3cb0639647bdcba19bc267e103aa0898b3299bed7a641ae58a0a992569be32c",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -13275,6 +13392,17 @@
           {
             "text": "Notwendige Begleitpersonen von Schwerbeschädigten mit Ausweis, auf Antrag",
             "quote": "notwendige Begleitpersonen für Schwerbeschädigte mit Ausweis."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Tagungs- und Seminargäste",
+            "quote": "c) für Tagungs- und Seminargäste 1,50 €",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
           }
         ],
         "remarks": [
@@ -13401,7 +13529,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Tagungs- und Seminargäste",
+            "onApplication": false
           }
         ]
       }
@@ -15708,7 +15845,7 @@
           "kind": "municipality",
           "inForce": "2023-04-01",
           "sha256": "aa9b9ed9d4a2bbc213ac4f4f420503da0442c79f0b55162648c81eb4e6250a60",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -15716,7 +15853,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -15726,7 +15863,7 @@
           "inForce": "2022-01-01",
           "changedOn": "2026-10-15",
           "sha256": "bed30d8d06d7fd1f53bb5d2465d58c9ad285f2f4f5ef4c2c5be1962c938dcea9",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -15776,6 +15913,17 @@
           {
             "text": "Angehörige von Patienten unter 18, die in einer örtlichen Klinik behandelt werden, wenn es für das Wohlergehen des Patienten erforderlich ist",
             "quote": "4. Angehörige von Patienten, sofern es für das Wohlergehen des Patienten erforderlich ist, wenn der Patient in einer lokalen Klinik behandelt wird und er das 18. Lebensjahr noch nicht vollendet hat."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "quote": "3. Schwerbehinderte mit einem Behinderungsgrad von 1,00 EUR mindestens 80 %,",
+            "rates": [
+              {
+                "cents": 100
+              }
+            ]
           }
         ],
         "remarks": [
@@ -15913,7 +16061,16 @@
             "children": [
               0,
               100
+            ],
+            "reduced": [
+              100
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "onApplication": false
           }
         ]
       }
@@ -16366,7 +16523,7 @@
           "kind": "municipality",
           "inForce": "2013-06-01",
           "sha256": "f042c80b9cb17577f00026dc30c3dc741d4926f8c0ad8a21986d67e758cc7c7d",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -16374,7 +16531,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "fvb": {
@@ -16384,7 +16541,7 @@
           "inForce": "1979-01-01",
           "changedOn": "2026-10-15",
           "sha256": "3e1769fda1c5283aec35176f57736570d1a59602c475fba230a30b4925183c62",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -16430,6 +16587,17 @@
           {
             "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis auf ständige Begleitung angewiesen sind",
             "quote": "c. Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "quote": "c. Schwerbehinderte mit einem Behinderungsgrad von mind. 80 % 1,50€",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
           }
         ],
         "remarks": [
@@ -16551,7 +16719,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "onApplication": false
           }
         ]
       }
@@ -17224,7 +17401,7 @@
           "kind": "municipality",
           "inForce": "2021-04-01",
           "sha256": "3fc801b8f5e2df3e6892c51fa4c7e4b8e7a2c3d05d23124957371cf47f97d388",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -17232,7 +17409,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -17242,7 +17419,7 @@
           "inForce": "2020-01-01",
           "changedOn": "2026-10-15",
           "sha256": "0c5abd02688bb2343c9d1ead1dc4a88eed6a3c03b6ef9a4479909f39775cdcad",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -17313,6 +17490,13 @@
           {
             "text": "Menschen, die sich ausschließlich zur beruflichen Ausbildung in Lindau aufhalten",
             "quote": "Personen, die sich ausschließlich zu Zwecken der beruflichen Ausbildung in der Stadt Lindau (B) aufhalten, sind kurbeitragsfrei."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Inhaber eines Schwerbehindertenausweises ab einem Grad der Behinderung von mindestens 50 erhalten bei Vorlage des Schwerbehindertenausweises eine Ermäßigung in Höhe von 50%.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -17422,6 +17606,9 @@
             "children": [
               0,
               200
+            ],
+            "reduced": [
+              165
             ]
           },
           {
@@ -17436,7 +17623,16 @@
             "children": [
               0,
               120
+            ],
+            "reduced": [
+              110
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
           }
         ]
       }
@@ -18360,7 +18556,7 @@
           "kind": "municipality",
           "inForce": "2017-12-01",
           "sha256": "be5b15094fdf20af7fc046a247d85a7df0a26f66d94c1a0fc33905a3e145bfa7",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -18368,7 +18564,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "fvb": {
@@ -18378,7 +18574,7 @@
           "inForce": "2002-01-01",
           "changedOn": "2026-10-15",
           "sha256": "0cc54306d128efcb49746997a479dafe8f5fcfde186e991f88e4b06236097fbe",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvbAe": {
           "title": "Erste Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrags des Marktes Nesselwang vom 11.09.2024",
@@ -18387,7 +18583,7 @@
           "inForce": "2025-01-01",
           "changedOn": "2026-10-15",
           "sha256": "44441c7c16aa476fb37f02b58b439c3a4030231aaa2a5295755059f1ca28b29d",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -18472,6 +18668,14 @@
           {
             "text": "Begleitpersonen von Menschen mit Behinderung, wenn der Ausweis eine Begleitperson vorsieht (auf Antrag)",
             "quote": "Ist entsprechend dem Behindertenausweis für den Behinderten eine Begleitperson erforderlich, wird diese auf Antrag vom Kurbeitrag befreit."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit Behinderung ab 60",
+            "quote": "(4) Für Personen, die eine Behinderung von 60 v. H. und mehr durch Behindertenausweis nachweisen können, wird der Kurbeitrag auf Antrag um 50 v. H. ermäßigt.",
+            "onApplication": true,
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -18595,6 +18799,9 @@
             "children": [
               0,
               100
+            ],
+            "reduced": [
+              105
             ]
           }
         ],
@@ -18614,6 +18821,9 @@
                 "children": [
                   0,
                   100
+                ],
+                "reduced": [
+                  105
                 ]
               }
             ]
@@ -18633,9 +18843,18 @@
                 "children": [
                   0,
                   90
+                ],
+                "reduced": [
+                  95
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit Behinderung ab 60",
+            "onApplication": true
           }
         ]
       }
@@ -20811,7 +21030,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "11054479e32728da22531fe4330b5f5197af896f5aa9dae525a450c488da886d",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -20819,7 +21038,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -20867,6 +21086,13 @@
           {
             "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
             "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen den ermäßigten Kurbeitrag von 50 %",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -20937,7 +21163,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
           }
         ]
       }
@@ -22765,7 +23000,7 @@
           "kind": "statute",
           "inForce": "2024-01-01",
           "sha256": "d79db6efff9a0c2b779d77997c9247e5db882b00d185e7faa60e6cc0531ae17f",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -22773,7 +23008,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -22829,6 +23064,17 @@
           {
             "text": "Kinder- und Schülergruppen ab 12 Personen und ihre Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen zahlen nichts.",
             "quote": "Kinder- und Schülergruppen ab 12 Personen und deren Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "quote": "c) Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 (bei Vorlage eines Ausweises nach § 152 Abs. 5 S. 1 SGB IX) 1,50 €",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
           }
         ],
         "remarks": [
@@ -22895,7 +23141,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80",
+            "onApplication": false
           }
         ]
       }
@@ -22913,7 +23168,7 @@
           "url": "https://amt-burg-spreewald.de/visioncontent/mediendatenbank/amt_kurbeitrag_2025_lesefassung_2_aend.pdf",
           "kind": "municipality",
           "sha256": "24939db77165a0a665e80d40e0cd1210f21d5344b927c4aa2884cff2a9498608",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -22921,7 +23176,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "fvb": {
@@ -22931,7 +23186,7 @@
           "inForce": "2016-01-01",
           "changedOn": "2026-10-15",
           "sha256": "08bd228e38eff2017ab7c09e69f39c89184fc0cb8d4a36c13edbebdfdea4df09",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -22993,6 +23248,17 @@
           {
             "text": "Kinder- und Schülergruppen ab fünf Personen und ihre Begleitpersonen in Ferienlagern, Landschulheimen und Jugendherbergen zahlen nichts.",
             "quote": "Kinder-und Schülergruppen ab fünf Personen und deren Begleitpersonen in Ferienlagern, Landschulheimen, Jugendherbergen, Einrichtungen des Behindertenwerkes und vergleichbaren Einrichtungen;"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Rehaklinikpatienten",
+            "quote": "b) Rehaklinikpatienten 1,00 Euro",
+            "rates": [
+              {
+                "cents": 100
+              }
+            ]
           }
         ],
         "remarks": [
@@ -23122,7 +23388,16 @@
             "adult": 200,
             "children": [
               0
+            ],
+            "reduced": [
+              100
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Rehaklinikpatienten",
+            "onApplication": false
           }
         ]
       }
@@ -24568,7 +24843,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "de1750a19f4efab5b1a91efe1257ab28862aee99ebdc05532e78a6218fca5670",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung3": {
@@ -24577,7 +24852,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "70005abefef83c6b3e14d3ea764f431836e548339211da6c6eeb2eb43933397a",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14",
           "ocr": [
             {
@@ -24597,7 +24872,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -24607,7 +24882,7 @@
           "inForce": "2023-01-01",
           "changedOn": "2026-10-15",
           "sha256": "b66e09aaa939d135c86112fd0cae4162d71e126293404a2ee801a631cf7ccb3e",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvbAnlage": {
           "title": "Anlage 1 zur 1. Änderungssatzung der Fremdenverkehrsabgabesatzung Ahrenshoop vom 18.08.2023 (Vorteilsstufen und Betriebsarten)",
@@ -24616,7 +24891,7 @@
           "inForce": "2023-01-01",
           "changedOn": "2026-10-15",
           "sha256": "5489f44e5e5dd281077b2e40a9b64fac84956146b3df817fc274eee13bc40055",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -24673,6 +24948,23 @@
           {
             "text": "Menschen mit einem Grad der Behinderung von 100 und Begleitpersonen von Menschen mit Behinderung, wenn das Merkzeichen B im Ausweis steht; der Nachweis liegt dem Meldeschein bei",
             "quote": "Schwerstbehinderte (100%) und Begleitpersonen von Behinderten, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss. Der Nachweis ist dem Meldeschein beizufügen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Auszubildende, Bundesfreiwillige, Schwerbehinderte",
+            "quote": "Auf Antrag erhalten: (1) Schüler, Studenten im Direktstudium, Auszubildende, Bundesfreiwilligendienstleistende und schwerbehinderte Personen",
+            "onApplication": true,
+            "rates": [
+              {
+                "cents": 145,
+                "quote": "Reisezeit A vom 01.04. bis 31.10. des Jahres 2,90 Euro, ermäßigt 1,45 Euro"
+              },
+              {
+                "cents": 110,
+                "quote": "Reisezeit B vom 01.11. bis 31.03. des Jahres 2,20 Euro, ermäßigt 1,10 Euro"
+              }
+            ]
           }
         ],
         "remarks": [
@@ -24797,6 +25089,9 @@
             "adult": 290,
             "children": [
               0
+            ],
+            "reduced": [
+              145
             ]
           },
           {
@@ -24810,7 +25105,16 @@
             "adult": 220,
             "children": [
               0
+            ],
+            "reduced": [
+              110
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Auszubildende, Bundesfreiwillige, Schwerbehinderte",
+            "onApplication": true
           }
         ]
       }
@@ -24925,7 +25229,7 @@
           "inForce": "2025-01-18",
           "changedOn": "2026-10-15",
           "sha256": "ac52fae4f01dc7d90672601cee0bb2ab02f2ffebabfb053fc40e8ddf4b597ab0",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -24933,7 +25237,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -25024,6 +25328,22 @@
             "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet, in einem Ausbildungsverhältnis steht oder einen Kleingarten im Sinne des Bundeskleingartengesetzes bewirtschaftet, der keine Wohnnutzung ermöglicht."
           }
         ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB 50 und ihre ständige Begleitung",
+            "quote": "Menschen mit einem Grad der Behinderung von 50, sowie deren Begleitung, soweit der Mensch mit Behinderung auf eine ständige Begleitung angewiesen ist.",
+            "rates": [
+              {
+                "cents": 100,
+                "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+              },
+              {
+                "cents": 50,
+                "quote": "Vollzahler Ermäßigt Hauptsaison 1,50€ 1,00€ Nebensaison 1,00€ 0,50 €"
+              }
+            ]
+          }
+        ],
         "remarks": [
           {
             "text": "Ermäßigt zahlen auch Menschen mit einem Grad der Behinderung von 50 und ihre Begleitung.",
@@ -25096,6 +25416,9 @@
             "children": [
               0,
               100
+            ],
+            "reduced": [
+              100
             ]
           },
           {
@@ -25114,7 +25437,16 @@
             "children": [
               0,
               50
+            ],
+            "reduced": [
+              50
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB 50 und ihre ständige Begleitung",
+            "onApplication": false
           }
         ]
       }
@@ -25725,6 +26057,9 @@
       "slug": "binz",
       "name": "Ostseebad Binz",
       "short": "Binz",
+      "districts": [
+        "Prora"
+      ],
       "ags": "13073011",
       "state": "Mecklenburg-Vorpommern",
       "district": "Vorpommern-Rügen",
@@ -25735,7 +26070,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "11239d95390489b006b8445cacf7683f3cbc35179456fde54d91e97884a040d0",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung3": {
@@ -25744,7 +26079,7 @@
           "kind": "gazette",
           "inForce": "2024-01-01",
           "sha256": "2e7a3b43c7b066c3a2ec2f9b01d7d183534968f755f0c00e91f6cdcd1fdcdc07",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung4": {
@@ -25753,7 +26088,7 @@
           "kind": "gazette",
           "inForce": "2025-01-01",
           "sha256": "6bb511472691f502828ed16ee0852be84bec78f930f2db2e52e9f214b9377e43",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -25761,7 +26096,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -25770,7 +26105,15 @@
           "kind": "municipality",
           "changedOn": "2026-10-15",
           "sha256": "5dfad09fb8216e5d315c83dc89465277f3dd0fbfa7b40bb77dfbf24576b9da0b",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
+        },
+        "hauptsatzung": {
+          "title": "Hauptsatzung der Gemeinde Ostseebad Binz, 1. Änderungssatzung vom 22.12.2025 (§ 13 Ortsteile)",
+          "url": "https://gemeinde-binz.de/wp-content/uploads/2025/05/2025-12_Hauptsatzung_1.-Aenderungssatzung.pdf",
+          "kind": "statute",
+          "sha256": "62a1438b4dae919f22515201343cd85539d857b78ef71fde38c4fcfd55a4f159",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -25811,7 +26154,17 @@
             "quote": "Personen mit einem Behinderungsgrad von 100 gegen Vorlage des Ausweises."
           }
         ],
-        "remarks": [],
+        "remarks": [
+          {
+            "text": "Die Kurabgabe wird im ganzen Gebiet der Gemeinde Ostseebad Binz erhoben.",
+            "quote": "Die Kurabgabe wird im Gebiet der Gemeinde Ostseebad Binz erhoben."
+          },
+          {
+            "text": "Prora ist ein Ortsteil der Gemeinde Ostseebad Binz.",
+            "quote": "Das Gemeindegebiet besteht neben der Gemeinde Binz aus dem Ortsteil Prora.",
+            "source": "hauptsatzung"
+          }
+        ],
         "hostDuty": {
           "text": "Wer Gäste beherbergt, zieht die Kurabgabe für den ganzen Aufenthalt am Anreisetag ein und händigt die Gästekarte aus.",
           "quote": "die Kurabgabe für den gesamten beabsichtigten Aufenthaltszeitraum am Tag der Ankunft von den Gästen einzuziehen und ihnen die manuell oder elektronisch ausgefüllten Gästekarten auszuhändigen;"
@@ -26798,7 +27151,7 @@
           "inForce": "2022-01-01",
           "changedOn": "2026-10-15",
           "sha256": "d59e19eafc57d2fde6d1aaaed1b358ce9c966ab6193b1bce876d45e1272517f6",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -26806,7 +27159,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvb": {
           "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Breege – staatlich anerkanntes Seebad (nichtamtliche Lesefassung der Satzung vom 26.03.2007, Ortsrecht des Amtes Nord-Rügen)",
@@ -26814,7 +27167,7 @@
           "kind": "municipality",
           "changedOn": "2026-10-15",
           "sha256": "d1b75a8387eee31d88dd5101bb2f02821e7f46ee491b22fb986f9f7923a46072",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -26895,6 +27248,22 @@
           {
             "text": "Wer in Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis steht oder sich überwiegend aus beruflichen Gründen dort aufhält (zum Beispiel auf einer Dienstreise), gilt nicht als ortsfremd",
             "quote": "Personen, die in der Gemeinde Breege in einem Ausbildungs-, Arbeits- oder Dienstverhältnis stehen oder einen vom Gewerbeamt genehmigten Gewerbe nachgehen, sowie Personen, die sich vorübergehend in der Gemeinde Breege in Ausübung ihres Berufes im Erhebungsgebiet aufhalten (zum Beispiel Dienstreisen), soweit der Aufenthalt ganz oder zumindest weit überwiegend aus beruflichen Gründen erfolgt."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Azubis, Studenten, Wehr-/Zivildienst bis 26, Schwerbehinderte ab 50 %",
+            "quote": "(2) Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27.Lebensjahr, wenn die entsprechenden Nachweise vorgelegt werden. (3) Schwerbehinderte ab 50% Behinderung, sofern sie den Behindertenausweis vorlegen.",
+            "rates": [
+              {
+                "cents": 150,
+                "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+              },
+              {
+                "cents": 80,
+                "quote": "voll ermäßigt Hauptsaison 1,80 € 1,50 € (01.Mai bis 30.September) Nebensaison 1,50 € 0,80 € (01.Oktober bis 30.April)"
+              }
+            ]
           }
         ],
         "remarks": [
@@ -27024,6 +27393,9 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
           },
           {
@@ -27038,7 +27410,16 @@
             "children": [
               0,
               80
+            ],
+            "reduced": [
+              80
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Azubis, Studenten, Wehr-/Zivildienst bis 26, Schwerbehinderte ab 50 %",
+            "onApplication": false
           }
         ]
       }
@@ -28793,6 +29174,10 @@
       "slug": "heringsdorf",
       "name": "Ostseebad Heringsdorf",
       "short": "Heringsdorf",
+      "districts": [
+        "Ahlbeck",
+        "Bansin"
+      ],
       "ags": "13075049",
       "state": "Mecklenburg-Vorpommern",
       "district": "Vorpommern-Greifswald",
@@ -28803,8 +29188,8 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "2acb4ae43479650e5d6a0e226e94bba7c3200c153bdeb6d56d8bff172ea14d40",
-          "verifiedOn": "2026-10-19",
-          "changedOn": "2026-10-14",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22",
           "ocr": [
             {
               "where": "counting",
@@ -28857,6 +29242,11 @@
               "reading": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
             },
             {
+              "where": "remarks[2]",
+              "page": 1,
+              "reading": "Die Gemeinde Heringsdorf ist mit den Ortsteilen Ahlbeck, Bansin, Bansin Dorf, Gothen, Sellin, Alt Sallenthin und Neu Sallenthin als Seeheilbad und Heilbad"
+            },
+            {
               "where": "hostDuty",
               "page": 4,
               "reading": "Wer abgabepflichtige Personen beherbergt oder ihnen Wohnraum zu Erholungszwecken überlässt (Quartiergeber), ist verpflichtet, die beherbergten Personen zu melden, die Kurabgabe einzuziehen, an die jeweilige Gemeinde abzuführen und ihnen Kurkarten auszustellen."
@@ -28878,7 +29268,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -28888,7 +29278,7 @@
           "inForce": "2020-01-01",
           "changedOn": "2026-10-15",
           "sha256": "0a0b79293fb0ce4a5cbd60951c9eb77380d870467985fe7ffada568b05da2ff9",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -29012,6 +29402,10 @@
           {
             "text": "Bei vorzeitiger Abreise erstatten die Gemeinden die zu viel gezahlte Kurabgabe, und zwar gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder anders bestätigt hat.",
             "quote": "Bei vorzeitiger Abreise wird die zu viel gezahlte Kurabgabe durch die Gemeinden erstattet. Die Erstattung erfolgt nur an den Kurkarteninhaber gegen Rückgabe der Kurkarte, auf deren Rückseite der Quartiergeber die Abreise bescheinigt oder dies auf andere Weise bestätigt hat."
+          },
+          {
+            "text": "Die Kurabgabe gilt im ganzen anerkannten Gebiet der Gemeinde, auch in den Ortsteilen Ahlbeck und Bansin.",
+            "quote": "Die Gemeinde Heringsdorf ist mit den Ortsteilen Ahlbeck, Bansin, Bansin Dorf, Gothen, Sellin, Alt Sallenthin und Neu Sallenthin als Seeheilbad und Heilbad"
           }
         ],
         "hostDuty": {
@@ -29039,7 +29433,7 @@
         "by": "agent"
       },
       "ocrCompared": {
-        "on": "2026-10-15",
+        "on": "2026-10-22",
         "by": "agent"
       },
       "businessLevy": {
@@ -29186,6 +29580,7 @@
       "slug": "hiddensee",
       "name": "Seebad Insel Hiddensee",
       "short": "Hiddensee",
+      "locative": "auf Hiddensee",
       "ags": "13073040",
       "state": "Mecklenburg-Vorpommern",
       "district": "Vorpommern-Rügen",
@@ -29774,6 +30169,7 @@
       "slug": "insel-poel",
       "name": "Ostseebad Insel Poel",
       "short": "Insel Poel",
+      "locative": "auf der Insel Poel",
       "ags": "13074035",
       "state": "Mecklenburg-Vorpommern",
       "district": "Nordwestmecklenburg",
@@ -33022,7 +33418,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "e387bfc98ba4e657a4c11eddc332593cf590c3b60f6d1b4fd5202b44ce5ee137",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -33030,7 +33426,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fva": {
@@ -33039,7 +33435,7 @@
           "kind": "statute",
           "inForce": "2024-01-01",
           "sha256": "0c00b150e8315f5cee4481b12eb5a3c8bba27ea9c9b67c8b157d46b7b535ca5d",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -33077,6 +33473,14 @@
           {
             "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitpersonen, wenn das Merkzeichen B im Ausweis steht",
             "quote": "Schwerstbehinderte mit einer Behinderung von 100 % und Begleitpersonen, wobei das Merkzeichen „B\" für ständige Begleitung im Behindertenausweis dokumentiert sein muss"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Azubis, Freiwilligendienst, Schwerbehinderte ab GdB 70",
+            "quote": "Auf Antrag und Nachweis der Voraussetzungen erhalten: (1) Schüler, Studenten im Direktstudium, Auszubildende, freiwillig Wehr- und Bundes- freiwilligendienstleistende eine Ermäßigung um 50%, (2) Schwerbehinderte Personen mit mindestens 70% Grad der Behinderung eine Ermäßigung um 50 % (Erwachsene und Kinder).",
+            "onApplication": true,
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -33195,7 +33599,16 @@
             "adult": 250,
             "children": [
               0
+            ],
+            "reduced": [
+              125
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Azubis, Freiwilligendienst, Schwerbehinderte ab GdB 70",
+            "onApplication": true
           }
         ]
       }
@@ -34192,7 +34605,7 @@
           "kind": "municipality",
           "inForce": "2013-01-01",
           "sha256": "569fe01bbaf216bf80962379dbe267aea3dbf5323dc414e3dfdd249fd16cf729",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -34200,7 +34613,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -34264,6 +34677,20 @@
             "quote": "bettlägerig Kranke oder andere Personen, die nicht in der Lage sind, die Fremdenverkehrseinrichtungen zu benutzen."
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte, Schüler, Auszubildende und Studenten unter 27",
+            "quote": "Die Kurabgabe ermäßigt sich in der Hauptsaison um 0,70 Euro, in der Nebensaison um 0,25 Euro bei: a) Schwerbehinderten gegen Vorlage des Schwerbehindertenausweises, b) Personen, die sich in der Schul- oder Berufsausbildung befinden, Wehrpflichtigen, Zivildienstleistenden und Studenten, die das 27. Lebensjahr noch nicht vollendet haben.",
+            "rates": [
+              {
+                "less": 70
+              },
+              {
+                "less": 25
+              }
+            ]
+          }
+        ],
         "remarks": [
           {
             "text": "Auf Nachweis zahlst du weniger: Schwerbehinderte sowie Schüler, Auszubildende und Studenten unter 27 Jahren zahlen in der Hauptsaison 0,70 € und in der Nebensaison 0,25 € weniger.",
@@ -34318,6 +34745,9 @@
             "adult": 200,
             "children": [
               0
+            ],
+            "reduced": [
+              130
             ]
           },
           {
@@ -34331,7 +34761,16 @@
             "adult": 75,
             "children": [
               0
+            ],
+            "reduced": [
+              50
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte, Schüler, Auszubildende und Studenten unter 27",
+            "onApplication": false
           }
         ]
       }
@@ -34548,6 +34987,9 @@
       "slug": "rostock",
       "name": "Hanse- und Universitätsstadt Rostock",
       "short": "Rostock",
+      "districts": [
+        "Warnemünde"
+      ],
       "ags": "13003000",
       "state": "Mecklenburg-Vorpommern",
       "district": "Rostock (kreisfreie Stadt)",
@@ -34558,7 +35000,7 @@
           "kind": "statute",
           "inForce": "2025-04-13",
           "sha256": "358b6d9de8f24b8dfa899a500a271ed3bbc6b3b0a7bd51c22f1b1d427535161a",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "kategorien": {
@@ -34567,7 +35009,7 @@
           "kind": "municipality",
           "inForce": "2025-04-13",
           "sha256": "6d3b98e3ab2ef306308b8f680c11b382ff1583e1cafc0af91b6c658998382849",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "faq": {
@@ -34577,7 +35019,7 @@
           "inForce": null,
           "hashOf": "quotes",
           "sha256": "e402bf8804d694f05b4ac53693c6233958615aa3ae64f7ab040f5834295159d7",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -34585,7 +35027,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -34644,6 +35086,18 @@
             "text": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet sind Gäste nach der GästeCard-Seite der Stadt befreit, auch wenn das nur am Anreise- oder am Abreisetag so ist.",
             "quote": "Bei Ankunft nach 20 Uhr und Abreise vor 8 Uhr im Erhebungsgebiet bist du von der Kurabgabe befreit und erhältst keine GästeCard. Dies gilt auch, wenn dies nur am Anreise- oder Abreisetag der Fall ist.",
             "source": "faq"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50",
+            "quote": "Menschen mit einem GdB von mindestens 50 *1,45 € pro Person/Tag",
+            "source": "kategorien",
+            "rates": [
+              {
+                "cents": 145
+              }
+            ]
           }
         ],
         "remarks": [
@@ -34715,7 +35169,16 @@
             "children": [
               0,
               145
+            ],
+            "reduced": [
+              145
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50",
+            "onApplication": false
           }
         ]
       }
@@ -34960,6 +35423,166 @@
             "adult": 200,
             "children": [
               0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sassnitz",
+      "name": "Stadt Sassnitz",
+      "short": "Sassnitz",
+      "ags": "13073080",
+      "state": "Mecklenburg-Vorpommern",
+      "district": "Vorpommern-Rügen",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Kurabgabe in der Stadt Sassnitz (Kurabgabesatzung) vom 25.02.2026",
+          "url": "https://daten.verwaltungsportal.de/dateien/legalframework/2/4/9/8/6/Kurabgabesatzung_Stadt_Sassnitz_01._April_2026.pdf",
+          "kind": "statute",
+          "inForce": "2026-04-01",
+          "sha256": "fd6c7be2814fbccaf23713b2582d905d110e6422270fc13cf85c2c1d17271e00",
+          "verifiedOn": "2026-10-21",
+          "changedOn": "2026-10-14"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-21",
+          "changedOn": "2026-10-14"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft der Stadt Sassnitz",
+          "kind": "answer",
+          "receivedOn": "2026-10-21",
+          "text": "eigentlich wollten wir uns damit klar ausdrücken, aber es ist wahrscheinlich immer schwierig mit Altersangaben.\n\nZum Reisezeitpunkt betrachtet also ist das Kind 6 Jahre alt, zahlt es 0 € (selbst wenn es in diesem Jahr noch 7 würde), es zählt nicht das Geburtsjahr, sondern das derzeitige Alter.\nEbenso bei der nächsten Abstufung. Bin ich physisch 14 Jahre alt, zahle ich den ermäßigten Satz. Bin ich aber schon 15, dann den Erwachsenentarif.",
+          "changedOn": "2026-10-21",
+          "sha256": "6b70cd613115d2583afbeff4686683ced4ddbfc3c0d539fc6946ed7f6bd1b450",
+          "verifiedOn": "2026-10-21"
+        }
+      },
+      "levy": {
+        "name": "Kurabgabe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "An- und Abreisetag gelten zusammen als ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Erwachsener (ab 15 Jahren) 3,00 € pro Tag"
+            },
+            "children": [
+              {
+                "underAge": 7,
+                "cents": 0,
+                "quote": "Zum Reisezeitpunkt betrachtet also ist das Kind 6 Jahre alt, zahlt es 0 €",
+                "source": "auskunft"
+              },
+              {
+                "underAge": 15,
+                "cents": 150,
+                "quote": "Kind (7-14 Jahre) 1,50 € pro Tag"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Menschen mit einem Grad der Behinderung ab 50 gegen Vorlage des Ausweises",
+            "quote": "Schwerbehinderte (Behinderungsgrad ab 50 %), gegen Vorlage amtlicher Unterlagen bzw. eines entsprechenden Ausweises."
+          },
+          {
+            "text": "Einwohner mit Hauptwohnsitz in Sassnitz und ihre Verwandten ersten Grades, wenn sie unentgeltlich bei ihnen wohnen",
+            "quote": "Einwohner mit Hauptwohnsitz im Erhebungsgebiet sowie deren Verwandte 1. Grades, wenn sie ohne Vergütung in deren Hausgemeinschaft aufgenommen werden."
+          },
+          {
+            "text": "Teilnehmer an von der Stadt anerkannten Tagungen, Kongressen und Lehrgängen",
+            "quote": "Teilnehmer an den von der Stadt Sassnitz anerkannten Tagungen, Kongressen und Lehrgängen."
+          },
+          {
+            "text": "Wer in Sassnitz arbeitet, in Ausbildung ist oder einem genehmigten Gewerbe nachgeht, gilt nicht als ortsfremd",
+            "quote": "Als ortsfremd gilt nicht, wer in der Stadt Sassnitz in einem Ausbildungs- , Arbeits- oder Dienstverhältnis steht oder einem vom Gewerbeamt genehmigten Gewerbe nachgeht"
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für Erwachsene für 90,00 €.",
+            "quote": "Jahreskurkarte Erwachsener (ab 15 Jahren) 90,00 € pro Jahr"
+          },
+          {
+            "text": "Du haftest als Vermieter für die Kurabgabe deiner Gäste.",
+            "quote": "Der Beherberger haftet für die Abgabeschuld seiner Kurgäste."
+          },
+          {
+            "text": "Bei vorzeitiger Abreise werden auf Antrag in begründeten Fällen 50 % der zu viel gezahlten Kurabgabe erstattet.",
+            "quote": "Bei vorzeitiger Abreise des Gastes kann auf Antrag in begründeten Fällen, 50 % der zu viel gezahlten Kurabgabe erstattet werden."
+          },
+          {
+            "text": "Die Satzung gilt seit dem 1. April 2026; sie löste die Satzung vom 1. Januar 2025 ab.",
+            "quote": "Die Satzung tritt am 01. April 2026 in Kraft."
+          },
+          {
+            "text": "Es zählt das Alter am Reisetag, nicht das Geburtsjahr: Wer 14 ist, zahlt den ermäßigten Satz, wer 15 ist, den Erwachsenensatz; sechsjährige Kinder zahlen nichts.",
+            "quote": "Bin ich physisch 14 Jahre alt, zahle ich den ermäßigten Satz. Bin ich aber schon 15, dann den Erwachsenentarif.",
+            "source": "auskunft"
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, kassiert die Kurabgabe im Voraus vom Gast und führt sie an die Stadt ab.",
+          "quote": "Jeder Beherberger, wie auch dessen Bevollmächtigter, ist verpflichtet, die Kurabgabe im Auftrag der Stadt Sassnitz im Voraus vom Gast zu kassieren und an die Stadt Sassnitz abzuführen."
+        },
+        "deadline": null,
+        "reporting": {
+          "text": "Gäste werden am Werktag nach der Ankunft beziehungsweise Abreise im elektronischen Meldesystem an- und abgemeldet; mit der Anmeldung wird die Kurkarte ausgestellt.",
+          "quote": "bei ihm verweilende Personen an dem der Ankunft bzw. Abreise folgenden Werktag mit dem elektronischen Meldesystem an- bzw. abzumelden. Mit der Anmeldung hat die Ausstellung der Kurkarte zu erfolgen."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-21",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/sassnitz/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          7,
+          15
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
             ]
           }
         ]
@@ -38644,7 +39267,7 @@
           "kind": "municipality",
           "inForce": "2025-01-01",
           "sha256": "9c3cc739f64fb7a5fe8ffcd4b13d9263d341fdbe1c76c2e1910d4800a6139ee1",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -38652,7 +39275,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "tbs": {
@@ -38661,7 +39284,7 @@
           "kind": "municipality",
           "inForce": "2025-01-01",
           "sha256": "cfc9978f65d9770030b65fe1571d1e2836aba8150b03ffc4e0ff3787486b8125",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -38716,6 +39339,13 @@
           {
             "text": "Teilnehmer an anerkannten Kongressen, Tagungen und Lehrgängen zahlen nichts, wenn sie die Einrichtungen sonst nicht nutzen können.",
             "quote": "Teilnehmer an von der Bad Bevensen Marketing GmbH anerkannten Kongressen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen, wenn außerhalb des Veranstaltungsprogramms eine Inanspruchnahmemöglichkeit der Tourismuseinrichtungen nicht besteht."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 70 und ihre ständige Begleitperson",
+            "quote": "Menschen mit Behinderungen, deren Grad der Behinderung (GdB) mindestens 70 beträgt, sowie, wenn sie laut amtlichem Ausweis auf ständige Begleitung angewiesen sind, eine Begleitperson, zahlen (je) die Hälfte (50%) des Tagessatzes gemäß § 4 Absatz 1.",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -38894,7 +39524,16 @@
             "adult": 350,
             "children": [
               0
+            ],
+            "reduced": [
+              175
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 70 und ihre ständige Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -38913,7 +39552,7 @@
           "kind": "municipality",
           "inForce": "2022-01-01",
           "sha256": "061b4ef200257297ef13be20c530ba0867b7f4b91d6dd3686074a161cbc7177f",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -38921,7 +39560,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -38991,6 +39630,13 @@
           {
             "text": "Teilnehmer an von der Gemeinde anerkannten Kongressen, Tagungen und Lehrgängen, wenn sie die Einrichtungen des Ortes nicht nutzen können",
             "quote": "Teilnehmer an von der Gemeinde Bad Grund (Harz) anerkannten Kongressen, Messen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen sind beitragsfrei, wenn außerhalb des Veranstaltungsprogramms eine Inanspruchnahmemöglichkeit der Fremdenverkehrseinrichtungen nicht besteht und Fremdenverkehrsveranstaltungen nicht besucht werden können."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte mit 70 bis unter 100 %",
+            "quote": "Schwerbehinderte, deren Minderung der Erwerbstätigkeit weniger als 100 v.H. aber mindestens 70 v.H. beträgt, werden nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 1 Nr. 1 bzw. nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 2 Nr. 1 herangezogen.",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -39073,7 +39719,16 @@
             "children": [
               0,
               105
+            ],
+            "reduced": [
+              105
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte mit 70 bis unter 100 %",
+            "onApplication": false
           }
         ],
         "family": {
@@ -39650,7 +40305,7 @@
           "kind": "statute",
           "inForce": "2020-01-01",
           "sha256": "1d4dfb2d067a6916359758166405ee2fc5afb350194485ced16440590c453590",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -39658,7 +40313,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -39717,6 +40372,18 @@
           {
             "text": "Wer einen schwerbehinderten Menschen begleitet, der ständige Begleitung braucht, zahlt nichts.",
             "quote": "wer einen schwerbehinderten Menschen begleitet, der einer ständigen Begleitung bedarf."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50",
+            "quote": "Personen mit einem Grad der Behinderung von mindestens 50",
+            "rates": [
+              {
+                "cents": 300,
+                "quote": "vom 1. bis 42. Tag 2) des Aufenthalts 1.1.1. je Tag 2) 3,40 3,00"
+              }
+            ]
           }
         ],
         "remarks": [
@@ -39798,7 +40465,16 @@
             "adult": 340,
             "children": [
               0
+            ],
+            "reduced": [
+              300
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50",
+            "onApplication": false
           }
         ],
         "companion": 250
@@ -40250,6 +40926,7 @@
       "slug": "baltrum",
       "name": "Baltrum",
       "short": "Baltrum",
+      "locative": "auf Baltrum",
       "ags": "03452002",
       "state": "Niedersachsen",
       "district": "Aurich",
@@ -40635,6 +41312,7 @@
       "slug": "borkum",
       "name": "Borkum",
       "short": "Borkum",
+      "locative": "auf Borkum",
       "ags": "03457002",
       "state": "Niedersachsen",
       "district": "Leer",
@@ -41127,7 +41805,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "369e130d02f750910fab85f4fc07a9afcc8ed7905f81a93765c19425ef9be75d",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -41135,7 +41813,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "tbs": {
@@ -41144,7 +41822,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "987541502295859d37fd9ca8fb49c8a9c84fd7a87da7262d83c1cf0472bb3875",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "anlage": {
@@ -41153,7 +41831,7 @@
           "kind": "municipality",
           "inForce": null,
           "sha256": "196545b9774dd4d00a515b93679eaeee9d86e4b5828930b4fdccb5a1f44074d0",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -41243,6 +41921,13 @@
           {
             "text": "Wer nur für eine Übernachtung zu einer besonderen Familienfeier kommt (etwa Hochzeit oder Beerdigung), zahlt nichts.",
             "quote": "6. Personen, die sich anlässlich besonderer Familienfeiern (z.B. Hochzeitsfeiern, Beerdigungen) für nur eine Übernachtung in Butjadingen aufhalten."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen",
+            "quote": "Teilnehmer an den vorher von der Gemeinde anerkannten Tagungen, Kongressen und Lehrgängen erhalten eine Ermäßigung von 50 v.H.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -41486,6 +42171,9 @@
             "children": [
               0,
               210
+            ],
+            "reduced": [
+              175
             ]
           },
           {
@@ -41504,7 +42192,16 @@
             "children": [
               0,
               100
+            ],
+            "reduced": [
+              80
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen",
+            "onApplication": false
           }
         ],
         "family": {
@@ -41687,6 +42384,11 @@
       "slug": "cuxhaven",
       "name": "Stadt Cuxhaven",
       "short": "Cuxhaven",
+      "districts": [
+        "Duhnen",
+        "Döse",
+        "Sahlenburg"
+      ],
       "ags": "03352011",
       "state": "Niedersachsen",
       "district": "Cuxhaven",
@@ -42712,6 +43414,7 @@
       "slug": "juist",
       "name": "Juist",
       "short": "Juist",
+      "locative": "auf Juist",
       "ags": "03452013",
       "state": "Niedersachsen",
       "district": "Aurich",
@@ -43725,6 +44428,7 @@
       "slug": "langeoog",
       "name": "Langeoog",
       "short": "Langeoog",
+      "locative": "auf Langeoog",
       "ags": "03462007",
       "state": "Niedersachsen",
       "district": "Wittmund",
@@ -44546,6 +45250,9 @@
       "slug": "norden",
       "name": "Stadt Norden",
       "short": "Norden",
+      "districts": [
+        "Norddeich"
+      ],
       "ags": "03452019",
       "state": "Niedersachsen",
       "district": "Aurich",
@@ -44873,6 +45580,7 @@
       "slug": "norderney",
       "name": "Norderney",
       "short": "Norderney",
+      "locative": "auf Norderney",
       "ags": "03452020",
       "state": "Niedersachsen",
       "district": "Aurich",
@@ -45085,9 +45793,231 @@
       }
     },
     {
+      "slug": "otterndorf",
+      "name": "Stadt Otterndorf",
+      "short": "Otterndorf",
+      "ags": "03352046",
+      "state": "Niedersachsen",
+      "district": "Cuxhaven",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Otterndorf (Gästebeitragssatzung), Ratsbeschluss vom 2. November 2023, Beitragssätze für die Jahre 2024 bis 2026",
+          "url": "https://www.otterndorf.de/fileadmin/forms_otterndorf/PDF/Gaestebeitragssatzung_der_Stadt_Otterndorf_2024_-_2026.pdf",
+          "kind": "municipality",
+          "inForce": "2024-01-01",
+          "sha256": "af88f7771aa9ddadb74f55b03aa24531c8e685d32a55b43cfa07c75abedfc309",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
+        }
+      },
+      "levy": {
+        "name": "Gästebeitrag",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Die Dauer des Aufenthaltes wird, Aufenthalte ohne Unterkunftnahme ausgenommen, nach der Anzahl der Übernachtungen berechnet."
+        },
+        "periods": [
+          {
+            "label": "Saison A (Hauptsaison)",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-15"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "für jede Person nach Vollendung des 18. Lebensjahres: 1. während der Saison A 3,00 €"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Der Gästebeitrag ermäßigt sich um 100 % für: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          },
+          {
+            "label": "Saison B (Nebensaison)",
+            "ranges": [
+              {
+                "from": "09-16",
+                "to": "12-31"
+              },
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "2. während der Saison B 2,50 €"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Der Gästebeitrag ermäßigt sich um 100 % für: 1. Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Wer seine Hauptwohnung in einer Mitgliedsgemeinde der Samtgemeinde Land Hadeln hat, zahlt nichts.",
+            "quote": "Personen, die in einer Mitgliedsgemeinde der Samtgemeinde Land Hadeln eine Hauptwohnung haben"
+          },
+          {
+            "text": "Menschen mit einem Grad der Behinderung von 100, die ihren Aufenthalt selbst bezahlen, zahlen nichts.",
+            "quote": "schwerbehinderte Menschen, deren Grad der Behinderung 100 Prozent beträgt, soweit sie selbst die Kosten des Aufenthaltes und der Kur in voller Höhe tragen (Selbstzahler)"
+          },
+          {
+            "text": "Nahe Verwandte von Einwohnern oder von Menschen, die in Otterndorf arbeiten oder ausgebildet werden, zahlen nichts, wenn sie unentgeltlich bei ihnen wohnen.",
+            "quote": "ihre alleinige Wohnung oder Hauptwohnung im Sinne des Bundesmeldegesetzes (BMG) in der zur Zeit gültigen Fassung haben oder in einem Arbeits- oder Ausbildungsverhältnis stehen, wenn sie ohne Entgelt oder Kosten- erstattung in die häusliche Gemeinschaft aufgenommen werden"
+          },
+          {
+            "text": "Wer nur beruflich in Otterndorf ist, zahlt nichts.",
+            "quote": "Personen, die sich nur zur Berufsausübung im Gebiet der Stadt Otterndorf aufhalten"
+          },
+          {
+            "text": "Wer nur zur Schule, Berufsausbildung oder Fortbildung in Otterndorf ist, zahlt nichts.",
+            "quote": "Personen, die sich nur zum Schulbesuch oder zur Berufsaus- oder -fortbildung im Erhebungsgebiet aufhalten."
+          },
+          {
+            "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis völlig auf ständige Begleitung angewiesen sind, zahlen nichts, solange sie die Tourismuseinrichtungen nicht selbst nutzen.",
+            "quote": "Begleitpersonen von schwerbehinderten Menschen, die laut amtlichem Ausweis völlig auf ständige Begleitung angewiesen sind, sofern sie nicht selbst die Tourismuseinrichtungen in Anspruch nehmen"
+          },
+          {
+            "text": "Bettlägerig Kranke, die die Tourismuseinrichtungen nicht nutzen können, zahlen nichts.",
+            "quote": "bettlägerig Kranke, die nicht in der Lage sind, die Tourismuseinrichtungen zu benutzen"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50 mit Begleitperson, anerkannte Tagungsgäste",
+            "quote": "Der Gästebeitrag ermäßigt sich um 50 % für: 1. Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 50 % sowie eine Begleitperson, wenn die Berechtigung zur Mitnahme einer Begleitperson durch Eintragung im Ausweis des schwerbehinderten Menschen nachgewiesen ist, § 4 Absatz 2 gilt entsprechend, 2. Teilnehmer an von der Stadt Otterndorf anerkannten Kongressen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen.",
+            "percentOff": 50
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Saison A ist vom 1. Mai bis 15. September, die übrige Zeit ist Saison B.",
+            "quote": "Als Saison A (Hauptsaison) gilt die Zeit vom 01. Mai bis 15. September eines jeden Jahres. Als Saison B (Nebensaison) gilt die übrige Zeit eines jeden Jahres."
+          },
+          {
+            "text": "Die Nacht des Saisonwechsels zählt zur endenden Saison.",
+            "quote": "Die Übernachtung des Saisonwechsels ist jeweils der endenden Saison zuzurechnen."
+          },
+          {
+            "text": "Die Sätze stehen in der Satzung für die Jahre 2024 bis 2026 und enthalten die gesetzliche Umsatzsteuer.",
+            "quote": "Der Gästebeitrag beträgt für die Jahre 2024 bis 2026 je Übernachtung und Person (inkl. der gesetzlichen Umsatzsteuer)"
+          },
+          {
+            "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen die Hälfte, ebenso eine Begleitperson, wenn der Ausweis sie vorsieht.",
+            "quote": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 50 % sowie eine Begleitperson, wenn die Berechtigung zur Mitnahme einer Begleitperson durch Eintragung im Ausweis des schwerbehinderten Menschen nachgewiesen ist"
+          },
+          {
+            "text": "Teilnehmer an Kongressen, Tagungen und Lehrgängen, die die Stadt anerkannt hat, zahlen die Hälfte.",
+            "quote": "Teilnehmer an von der Stadt Otterndorf anerkannten Kongressen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen."
+          },
+          {
+            "text": "Weigert sich ein Gast zu zahlen, meldest du das der Stadt unverzüglich.",
+            "quote": "Zahlungsverweigerer unverzüglich der Stadt Otterndorf zu melden"
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht den Gästebeitrag ein und stellt die Gästekarte aus.",
+          "quote": "den Gästebeitrag einzuziehen und die Gästekarte auszustellen"
+        },
+        "deadline": {
+          "text": "Den eingezogenen Gästebeitrag lieferst du innerhalb von zwei Monaten an die Stadt ab.",
+          "quote": "den eingezogenen Gästebeitrag innerhalb von zwei Monaten an die Stadt Otterndorf abzuliefern"
+        },
+        "reporting": {
+          "text": "Die Gäste erfasst du im elektronischen Gästebeitragsabrechnungssystem der Stadt.",
+          "quote": "in den elektronischen Meldeschein des elektronischen Gästebeitragsabrechnungssystems der Stadt Otterndorf aufzunehmen"
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-22",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/otterndorf/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          18
+        ],
+        "periods": [
+          {
+            "label": "Saison A (Hauptsaison)",
+            "ranges": [
+              [
+                "05-01",
+                "09-15"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0
+            ],
+            "reduced": [
+              150
+            ]
+          },
+          {
+            "label": "Saison B (Nebensaison)",
+            "ranges": [
+              [
+                "09-16",
+                "12-31"
+              ],
+              [
+                "01-01",
+                "04-30"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ],
+            "reduced": [
+              125
+            ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50 mit Begleitperson, anerkannte Tagungsgäste",
+            "onApplication": false
+          }
+        ]
+      }
+    },
+    {
       "slug": "spiekeroog",
       "name": "Spiekeroog",
       "short": "Spiekeroog",
+      "locative": "auf Spiekeroog",
       "ags": "03462014",
       "state": "Niedersachsen",
       "district": "Wittmund",
@@ -45299,7 +46229,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "fd34ddca2e05db6f7234f53d6353b4c8a4c3776c7d3e846942160c57ad9ace3f",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -45307,7 +46237,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "auskunft": {
@@ -45317,7 +46247,7 @@
           "text": "der Gästebeitrag wird je Übernachtung gerechnet.",
           "changedOn": "2026-10-15",
           "sha256": "105c49ae4711a78a9ea7dc4af9df6a93f1a5189a11281e30b55beb1388f7dbb4",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "tbs": {
           "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Stadt Varel (Tourismusbeitragssatzung) vom 13.12.2017, Lesefassung der Stadt Varel (Ortsrecht 9/04); die Lesefassung nennt weder einen Stand noch spätere Änderungen",
@@ -45325,7 +46255,7 @@
           "kind": "municipality",
           "inForce": "2018-01-01",
           "sha256": "2fa7246c63e66c9b37f7ccda3a04ff81f73b0b4724c2da8ce3958d1fc6fbf9f0",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -45480,6 +46410,13 @@
           {
             "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis völlig auf ständige Begleitung angewiesen sind, zahlen nichts.",
             "quote": "4. Begleitpersonen von Schwerbehinderten, die lt. amtlichen Ausweis völlig auf ständige Begleitung angewiesen sind,"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 70 %",
+            "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit mindestens 70 v. H. beträgt, werden nur zu 50 v. H. des maßgeblichen Gästebeitrages nach § 5 herangezogen",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -45725,6 +46662,9 @@
             "children": [
               0,
               200
+            ],
+            "reduced": [
+              200
             ]
           },
           {
@@ -45742,6 +46682,9 @@
             "adult": 200,
             "children": [
               0,
+              100
+            ],
+            "reduced": [
               100
             ]
           }
@@ -45762,6 +46705,9 @@
                 "children": [
                   0,
                   200
+                ],
+                "reduced": [
+                  200
                 ]
               },
               {
@@ -45779,6 +46725,9 @@
                 "adult": 200,
                 "children": [
                   0,
+                  100
+                ],
+                "reduced": [
                   100
                 ]
               }
@@ -45799,6 +46748,9 @@
                 "children": [
                   0,
                   180
+                ],
+                "reduced": [
+                  175
                 ]
               },
               {
@@ -45817,9 +46769,18 @@
                 "children": [
                   0,
                   90
+                ],
+                "reduced": [
+                  90
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 70 %",
+            "onApplication": false
           }
         ],
         "family": {
@@ -45832,6 +46793,9 @@
       "slug": "wittmund",
       "name": "Stadt Wittmund",
       "short": "Wittmund",
+      "districts": [
+        "Carolinensiel"
+      ],
       "ags": "03462019",
       "state": "Niedersachsen",
       "district": "Wittmund",
@@ -46490,7 +47454,7 @@
           "kind": "statute",
           "inForce": "2013-08-01",
           "sha256": "d50ab9694c92b0c5dff102e4a7549f0986f4aaffcc95749b4bef6735073f5fec",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -46498,7 +47462,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -46552,6 +47516,13 @@
           {
             "text": "Auf Antrag Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
             "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "quote": "Der Kurbeitrag wird um 50% ermäßigt für: a. Blinde und Schwerbehinderte mit mindestens 80 % Erwerbsminderung;",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -46626,7 +47597,16 @@
             "adult": 170,
             "children": [
               0
+            ],
+            "reduced": [
+              85
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "onApplication": false
           }
         ],
         "family": {
@@ -46649,7 +47629,7 @@
           "kind": "municipality",
           "inForce": "2025-04-01",
           "sha256": "5387999f220017198a25796655a5d6fe0551c13da94be381d0e1973f3d656496",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -46657,7 +47637,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -46742,6 +47722,34 @@
             "quote": "als Hausbesucher bei einem im Erhebungsgebiet wohnhaften Wohnungsgeber unentgeltlich Aufnahme finden."
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "b) für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v.H. bei Vorlage eines gültigen amtlichen Ausweises. Die Voraussetzung für die Ermäßigung ist spätestens bei Aufenthaltsbeginn nachzuweisen. Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro",
+            "rates": [
+              {
+                "cents": 360
+              },
+              {
+                "cents": 330
+              }
+            ]
+          },
+          {
+            "label": "Personen mit geringem Einkommen",
+            "quote": "c) für Personen mit geringem Einkommen bei Vorlage einer amtlichen Bescheinigung.",
+            "rates": [
+              {
+                "cents": 360,
+                "quote": "Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro"
+              },
+              {
+                "cents": 330,
+                "quote": "Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro"
+              }
+            ]
+          }
+        ],
         "remarks": [
           {
             "text": "Menschen mit einem Grad der Behinderung von mindestens 50 und Personen mit geringem Einkommen zahlen 3,60 € in der Hauptsaison und 3,30 € in der Nebensaison, wenn sie das bei Aufenthaltsbeginn nachweisen.",
@@ -46812,6 +47820,10 @@
             "adult": 400,
             "children": [
               0
+            ],
+            "reduced": [
+              360,
+              360
             ]
           },
           {
@@ -46825,7 +47837,21 @@
             "adult": 370,
             "children": [
               0
+            ],
+            "reduced": [
+              330,
+              330
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
+          },
+          {
+            "label": "Personen mit geringem Einkommen",
+            "onApplication": false
           }
         ]
       }
@@ -46844,7 +47870,7 @@
           "kind": "statute",
           "inForce": "2019-01-01",
           "sha256": "1fde06195ceaf1e40bdecd0689b764c7cb1255214ae48e423b5acb5b98339625",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -46852,7 +47878,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -46914,6 +47940,13 @@
           {
             "text": "Besucher der Jugendherberge Brilon",
             "quote": "Besucher der Jugendherberge Brilon"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "quote": "Der Kurbeitrag wird auf 50 % ermäßigt für: a) Blinde und Schwerbehinderte mit einem Grad von mindestens 80 % Behinderung;",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -46978,7 +48011,16 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "onApplication": false
           }
         ]
       }
@@ -47082,7 +48124,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "7f2da7edd092f96e63cf079ee22a4b37d32786c5f44a5c939b203c4e676ed0cd",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -47090,7 +48132,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -47151,6 +48193,13 @@
           {
             "text": "Kranke und Schwerbehinderte, solange sie Kureinrichtungen nicht besuchen können, mit amtlicher oder ärztlicher Bescheinigung",
             "quote": "Kranke und Schwerbehinderte, solange sie (unabhängig von einem Grad der Behinderung) nicht in der Lage sind, Kureinrichtungen zu besuchen und dies durch amtliche oder ärztliche Bescheinigung nachweisen;"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre ständige Begleitperson",
+            "quote": "Der Kurbeitrag wird unter Nachweis des Vorliegens der Voraussetzungen in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung;",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -47219,7 +48268,16 @@
             "adult": 234,
             "children": [
               0
+            ],
+            "reduced": [
+              117
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre ständige Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -47346,7 +48404,7 @@
           "kind": "statute",
           "inForce": "2019-01-01",
           "sha256": "c66fe79dd519ff9393422f7d5fc657f85e572cfe69471b18323c4e25fe10085a",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -47354,7 +48412,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -47412,6 +48470,13 @@
           {
             "text": "Inhaber von Zweitwohnungen",
             "quote": "Inhaber von Zweitwohnungen"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "quote": "Der Kurbeitrag wird auf 50 % ermäßigt für: a) Blinde und Schwerbehinderte mit einem Grad von mindestens 80 % Behinderung;",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -47476,7 +48541,16 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Blinde und Schwerbehinderte ab 80 %",
+            "onApplication": false
           }
         ]
       }
@@ -47495,7 +48569,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "4aecd621f875ab7eaf6fdba4ab6afa14902e937d6aae880eeb06d687565d161c",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -47503,7 +48577,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -47564,6 +48638,13 @@
           {
             "text": "Personen, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen",
             "quote": "Ortsfremde Personen, besonders Schüler, Studenten und Rentner, die aus ehrenamtlichen Gründen an Weiterbildungsseminaren teilnehmen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 %, ihre Begleitpersonen, beruflich Reisende",
+            "quote": "Der Kurbeitrag wird unter Nachweis des Vorliegens der Voraussetzungen in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung; b) Begleitpersonen von Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird; c) Personen, die sich aus beruflichen Gründen im Erhebungsgebiet aufhalten, wenn ein Nachweis über den berufsbedingten Aufenthalt beigebracht wird.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -47632,7 +48713,16 @@
             "adult": 234,
             "children": [
               0
+            ],
+            "reduced": [
+              117
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 %, ihre Begleitpersonen, beruflich Reisende",
+            "onApplication": false
           }
         ]
       }
@@ -47651,7 +48741,7 @@
           "kind": "municipality",
           "inForce": "2026-07-01",
           "sha256": "4f43f722e62bd50939a47f0d5d9aacf891cb9e4fbcc0821201858eb689bc0cde",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -47659,7 +48749,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -47668,7 +48758,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "85f305454624392b8bbfb6c898d808ba880056b991fdd9f5feaeb86d66e00679",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -47942,6 +49032,14 @@
             "quote": "Physisch und psychisch Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch amtliche"
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 %",
+            "quote": "Der Kurbeitrag wird auf Antrag in Höhe von 50 % ermäßigt für: a) Schwerbehinderte mit mindestens 80 % Schwerbehinderung,",
+            "onApplication": true,
+            "percentOff": 50
+          }
+        ],
         "remarks": [
           {
             "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen auf Antrag die Hälfte.",
@@ -48186,6 +49284,9 @@
             "adult": 350,
             "children": [
               0
+            ],
+            "reduced": [
+              175
             ]
           }
         ],
@@ -48204,6 +49305,9 @@
                 "adult": 350,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  175
                 ]
               }
             ]
@@ -48222,6 +49326,9 @@
                 "adult": 300,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  150
                 ]
               }
             ]
@@ -48240,6 +49347,9 @@
                 "adult": 270,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  135
                 ]
               }
             ]
@@ -48258,6 +49368,9 @@
                 "adult": 270,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  135
                 ]
               }
             ]
@@ -48276,6 +49389,9 @@
                 "adult": 300,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  150
                 ]
               }
             ]
@@ -48294,6 +49410,9 @@
                 "adult": 270,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  135
                 ]
               }
             ]
@@ -48312,6 +49431,9 @@
                 "adult": 300,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  150
                 ]
               }
             ]
@@ -48330,9 +49452,18 @@
                 "adult": 220,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  110
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 %",
+            "onApplication": true
           }
         ],
         "family": {
@@ -48355,7 +49486,7 @@
           "kind": "statute",
           "inForce": "2021-01-01",
           "sha256": "4c8fad47edd58fde7d9165552e8ada7b4caa12a28325d029ef43b98e1dd011e0",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15",
           "ocr": [
             {
@@ -48426,7 +49557,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "a3f68704b072e38db12d398b6ed5aedc01e6e4dc0660367832afa33cf486a509",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15",
           "ocr": [
             {
@@ -48482,7 +49613,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "82db688596bf03ede72790f28db6436321493fa1e2cb9bd1844ce389b6f16936",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -48490,7 +49621,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "tbs": {
@@ -48499,7 +49630,7 @@
           "kind": "statute",
           "inForce": "2017-07-01",
           "sha256": "70f2f018c16e152c34114a241b0c19880353f4c81f360abfd69dd86b452a0586",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15",
           "ocr": [
             {
@@ -48648,6 +49779,14 @@
             "quote": "Bettlägerig Kranke und andere Personen, die nicht in der Lage sind, die touristischen Einrichtungen zu benutzen;"
           }
         ],
+        "reduced": [
+          {
+            "label": "Zur Kur entsandte Personen",
+            "quote": "Der Gästebeitrag wird um 20 % ermäßigt für Personen, die zu einer Kurbehandlung entsandt wurden auf Kosten",
+            "source": "aenderung2026",
+            "percentOff": 20
+          }
+        ],
         "remarks": [
           {
             "text": "Die Hauptsaison geht vom 1. März bis 31. Oktober, die Nebensaison vom 1. November bis 29. Februar.",
@@ -48794,6 +49933,9 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              240
             ]
           },
           {
@@ -48808,7 +49950,16 @@
             "children": [
               0,
               125
+            ],
+            "reduced": [
+              200
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Zur Kur entsandte Personen",
+            "onApplication": false
           }
         ]
       }
@@ -49618,7 +50769,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "a17cfa422d695a8dc4c3adecb78a90a023763b66f81fc90d4a29c1cccce5af50",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -49626,7 +50777,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "fvb": {
@@ -49636,7 +50787,7 @@
           "inForce": "2019-01-01",
           "changedOn": "2026-10-15",
           "sha256": "edba1d431e86b83299feb95af368921f3eb52119486c6e99ec2389e97b79495d",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -49695,6 +50846,14 @@
           {
             "text": "Familienbesuch ohne Entgelt, wenn das sozialadäquat ist",
             "quote": "Nicht gästetaxepflichtig sind Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgeltes Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50, Schüler, Studenten und Auszubildende von 16 bis 24",
+            "quote": "Die Gästetaxe wird auf Antrag um 50 v. H. ermäßigt für: 1. Kinder und Jugendliche im Alter von 7 bis 15 Jahren, 2. Schwerbehinderte, mit einem Grad der Behinderung von wenigstens 50 v. H., 3. Schüler, Studenten und Auszubildende im Alter 16 bis 24 Jahren.",
+            "onApplication": true,
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -49856,7 +51015,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50, Schüler, Studenten und Auszubildende von 16 bis 24",
+            "onApplication": true
           }
         ]
       }
@@ -50384,7 +51552,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "81abaa521e0ff8830df7840742c38a9e2210e8d17cbbbc007f1bf2e805d8db4a",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -50392,7 +51560,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -50448,6 +51616,17 @@
           {
             "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
             "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten und Auszubildende unter 27",
+            "quote": "Die Gästetaxe wird um 1,00 EUR ermäßigt für: 1. Kinder vom 8. Lebensjahr bis zum vollendeten 18. Lebensjahr, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 27. Lebensjahr.",
+            "rates": [
+              {
+                "less": 100
+              }
+            ]
           }
         ],
         "remarks": [
@@ -50530,7 +51709,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten und Auszubildende unter 27",
+            "onApplication": false
           }
         ]
       }
@@ -51071,7 +52259,7 @@
           "kind": "statute",
           "inForce": "2023-04-01",
           "sha256": "9c6350c224cd097502181cac5cc5c75b1e35e08629274d8e7438fbf923856942",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -51079,7 +52267,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -51174,6 +52362,14 @@
             "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
           }
         ],
+        "reduced": [
+          {
+            "label": "Kinder bis 15, Schüler, Studenten, Auszubildende, GdB ab 50, Tagungsgäste",
+            "quote": "Die Gästetaxe wird auf Antrag um 60 v. H. ermäßigt für: 1. Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende 3. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch einen Schwerbehindertenausweis nachgewiesen wird, 4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren.",
+            "onApplication": true,
+            "percentOff": 60
+          }
+        ],
         "remarks": [
           {
             "text": "Auf Antrag zahlen Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, Schüler, Studenten und Auszubildende, Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 und Tagungsteilnehmer 60 Prozent weniger.",
@@ -51244,6 +52440,9 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              120
             ]
           }
         ],
@@ -51262,6 +52461,9 @@
                 "adult": 300,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  120
                 ]
               }
             ]
@@ -51280,9 +52482,18 @@
                 "adult": 170,
                 "children": [
                   0
+                ],
+                "reduced": [
+                  68
                 ]
               }
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Kinder bis 15, Schüler, Studenten, Auszubildende, GdB ab 50, Tagungsgäste",
+            "onApplication": true
           }
         ]
       }
@@ -51301,7 +52512,7 @@
           "kind": "municipality",
           "inForce": "2025-12-06",
           "sha256": "324ab4787ca73b57c139b3cfe90ca7041574249bcfa2b4c90105706f0326f287",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung": {
@@ -51310,7 +52521,7 @@
           "kind": "statute",
           "inForce": "2025-12-06",
           "sha256": "2b610233238e94162463d43b12c2cefb7ee6c19f1a3d815703602f563b920f55",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -51318,7 +52529,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -51376,6 +52587,13 @@
           {
             "text": "Besucher von Einwohnern mit Hauptwohnung, die zu anderen als touristischen Zwecken kommen und unentgeltlich aufgenommen werden",
             "quote": "wer eine im Erhebungsgebiet mit Hauptwohnung wohnende Person zu anderen als touristischen Zwecken besucht und unentgeltlich Aufnahme findet."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Auszubildende von 16 bis 24, Schwerbehinderte",
+            "quote": "Der Gästebeitrag wird um 50 v. H. ermäßigt für: 1. Schüler, Studenten und Auszubildende vom vollendeten 16. Lebensjahr bis zur Vollendung des 25. Lebensjahres sowie 2. Schwerbehinderte, bis zum Grad der Behinderung von 100 v. H.,",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -51461,7 +52679,16 @@
             "adult": 250,
             "children": [
               0
+            ],
+            "reduced": [
+              125
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten, Auszubildende von 16 bis 24, Schwerbehinderte",
+            "onApplication": false
           }
         ]
       }
@@ -51688,6 +52915,202 @@
             "children": [
               0
             ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "quedlinburg",
+      "name": "Welterbestadt Quedlinburg",
+      "short": "Quedlinburg",
+      "ags": "15085235",
+      "state": "Sachsen-Anhalt",
+      "district": "Harz",
+      "sources": {
+        "satzung": {
+          "title": "Satzung zur Erhebung einer Kurtaxe in der Welterbestadt Quedlinburg (Kurtaxsatzung) vom 06.05.2021 in der Fassung der 1. Änderung vom 08.11.2023 (Amtsblatt 29.11.2023), Fassung der Stadt Quedlinburg",
+          "url": "https://www.quedlinburg.de/PDF/Kurtaxsatzung.PDF?ObjSvrID=3771&ObjID=1777&ObjLa=1&Ext=PDF&WTR=1&_ts=1745489433",
+          "kind": "municipality",
+          "inForce": "2024-01-01",
+          "sha256": "fe2ed2682fa9c199495efff3fa3aff8daf8c02de99d4d3874d2d6d00c4084d9a",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
+        }
+      },
+      "levy": {
+        "name": "Kurtaxe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "An- und Abreise rechnen als ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Die Kurtaxe beträgt täglich pro Person 3,00 EUR inkl. der gesetzlichen Mehrwertsteuer."
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres."
+              },
+              {
+                "underAge": 18,
+                "cents": 100,
+                "quote": "Kinder nach Vollendung des 6. und vor Vollendung des 18. Lebensjahres zahlen täglich 1,00 EUR inkl. der gesetzlichen Mehrwertsteuer."
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Personen, die Einwohner mit Hauptwohnsitz im Ort aus familiären Gründen besuchen und in deren häuslicher Gemeinschaft übernachten",
+            "quote": "Personen, die eine im Erhebungsgebiet mit Hauptwohnsitz gemeldete Person aus familiären und vergleichbaren Gründen besuchen und in der häuslichen Gemeinschaft aufgenommen werden und dort auch übernachten."
+          },
+          {
+            "text": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Ort aufhalten",
+            "quote": "Personen, die sich nur zur Berufsausübung oder Ausbildung im Erhebungsgebiet aufhalten."
+          },
+          {
+            "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht",
+            "quote": "Schwerbehinderte, deren Grad der Behinderung 100 beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+          },
+          {
+            "text": "Bettlägerige Kranke, die ihre Unterkunft nicht verlassen, gegen ärztliches Zeugnis",
+            "quote": "Bettlägerige Kranke, die ihre Unterkunft nicht verlassen und somit die Tourismuseinrichtungen nicht nutzen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+          },
+          {
+            "text": "Teilnehmer an Freiwilligendiensten für die Dauer ihres Aufenthalts im Ort",
+            "quote": "Teilnehmer/Teilnehmerinnen an Freiwilligendiensten für die Dauer ihres Aufenthaltes im Erhebungsgebiet."
+          },
+          {
+            "text": "Jugendliche in Jugendherbergen, Jugend- und Schullandheimen, Jugendzeltlagern und Waldhütten sowie ihre Aufsichtspersonen bei organisierten Klassenfahrten",
+            "quote": "Jugendliche in Jugendherbergen, Jugend- und Schullandheimen, Jugendzeltlagern und Waldhütten sowie deren Aufsichtspersonen als Teilnehmer von organisierten Klassenfahrten."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und ihre ständige Begleitperson",
+            "quote": "Für folgende Personen wird die Kurtaxe aus § 4 und § 5 Abs. 1 um 50 v.H. ermäßigt: 1. Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nicht nur vorübergehend wenigstens 50 v.H. beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist.",
+            "percentOff": 50
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit von wenigstens 50 Prozent zahlen gegen Nachweis die Hälfte, ebenso ihre Begleitperson, wenn der Ausweis ständige Begleitung vorsieht.",
+            "quote": "Schwerbehinderte, deren Minderung der Erwerbsfähigkeit nicht nur vorübergehend wenigstens 50 v.H. beträgt und deren Begleitperson, soweit die oder der Behinderte auf die Begleitung laut amtlichem Ausweis ständig angewiesen ist."
+          },
+          {
+            "text": "Begleitpersonen von schwerbehinderten Kindern unter 6 Jahren zahlen die Hälfte.",
+            "quote": "Begleitpersonen von schwerbehinderten Kindern, die das 6. Lebensjahr noch nicht vollendet haben."
+          },
+          {
+            "text": "Die Kurtaxe gilt in der Welterbestadt Quedlinburg und in den Ortsteilen Gernrode und Bad Suderode, die zusammen ein Erhebungsgebiet bilden.",
+            "quote": "Die Stadt und die beiden Ortsteile bilden ein Erhebungsgebiet."
+          },
+          {
+            "text": "Auf öffentlich zugänglichen Wohnmobilstellplätzen zahlt ein Wohnmobil pauschal den doppelten Satz der gültigen Kurtaxe.",
+            "quote": "Für Wohnmobile auf öffentlich zugänglichen Wohnmobilstellplätzen wird die Kurtaxe pauschal pro Wohnmobil in doppelter Höhe der jeweils gültigen Kurtaxe erhoben."
+          },
+          {
+            "text": "Gäste können statt der Tagessätze eine Jahreskurtaxe von 60,00 Euro zahlen; sie setzt mindestens 30 Aufenthaltstage im Erhebungsgebiet voraus.",
+            "quote": "Die Nutzung der Jahreskurkarte setzt als Bedingung mindestens 30 Aufenthaltstage im Erhebungsgebiet voraus. Die Jahreskurtaxe beträgt 60,00 Euro inkl. der gesetzlichen Mehrwertsteuer."
+          },
+          {
+            "text": "Wer in Quedlinburg eine Zweitwohnung hat, zahlt mit seinen Familienangehörigen die Jahreskurtaxe.",
+            "quote": "Zweitwohnungsinhaber und ihre Familienangehörigen sind verpflichtet, die Jahreskurtaxe zu entrichten."
+          },
+          {
+            "text": "Wer die Kurtaxe zahlt, hat für diese Tage Anspruch auf das Harzer Urlaubsticket (HATIX) für alle öffentlichen Bus- und Straßenbahnlinien im Landkreis Harz und ausgewählte Linien darüber hinaus.",
+            "quote": "besteht Anspruch auf das Harzer Urlaubsticket (HATIX), welches zur kostenfreien Fahrt auf allen öffentlichen Bus- und Straßenbahnlinien im gesamten Landkreis Harz"
+          },
+          {
+            "text": "Inhaber der Jahreskurkarte haben keinen Anspruch auf das Harzer Urlaubsticket.",
+            "quote": "Inhaber der Jahreskurkarte haben keinen Anspruch auf die Nutzung des Harzer-Urlaubs- Tickets."
+          },
+          {
+            "text": "Auf Verlangen gibst du der Quedlinburg-Tourismus-Marketing GmbH jederzeit Auskunft über Gäste, Aufenthaltsdauer und Zahlungspflicht und lässt Einsicht in deine Beherbergungsunterlagen zu.",
+            "quote": "Die Wohnungsgeber haben auf Verlangen der Quedlinburg-Tourismus-Marketing GmbH jederzeit über die Anzahl der Gäste, deren Verweildauer und deren Zahlungspflicht Auskunft zu erteilen."
+          },
+          {
+            "text": "Die Kurtaxsatzung musst du deinen Gästen zugänglich machen, etwa durch Aushang oder Auslegung.",
+            "quote": "Diese Satzung über die Erhebung einer Kurtaxe ist den Zahlungspflichtigen hinreichend zugänglich zu machen (Aushang, Auslegung)."
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste gegen Entgelt beherbergt, meldet sie der Stadt am ersten Werktag nach der Ankunft und zieht die Kurtaxe von ihnen ein.",
+          "quote": "diese abgabepflichtigen Personen der Welterbestadt Quedlinburg am ersten Werktag nach deren Ankunft zu melden und die fällige Kurtaxe von den Abgabepflichtigen einzuziehen."
+        },
+        "deadline": {
+          "text": "Rehakliniken, Sanatorien, Hotels, Pensionen, Campingplätze und gewerbliche Vermieter ab 10 Betten führen die Kurtaxe bis zum 15. des Folgemonats ab, nicht gewerbliche Vermieter bis zum 15. Tag nach Quartalsende; gewerbliche Vermieter unter 10 Betten nennt die Satzung nicht.",
+          "quote": "Die eingenommene Kurtaxe ist in regelmäßigen Abständen von Rehakliniken und Sanatorien, Hotels/Pensionen sowie Campingplatz- oder Wochenendplatzbetreibern und gewerblichen Wohnungsgebern (ab 10 Betten) spätestens zum 15. des Folgemonats, nicht gewerbliche Wohnungsgeber spätestens am 15. Kalendertag nach Quartalsende"
+        },
+        "reporting": {
+          "text": "Gemeldet werden kann digital über das Kurbeitragsabrechnungssystem der Quedlinburg-Tourismus-Marketing GmbH; neu erfasste Betriebe melden ausschließlich digital.",
+          "quote": "Neu erfasste Betriebe melden Daten ausschließlich digital."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-01",
+        "quote": "Stand: 01.10.2026"
+      },
+      "checked": {
+        "on": "2026-10-22",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/quedlinburg/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          6,
+          18
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              100
+            ],
+            "reduced": [
+              150
+            ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und ihre ständige Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -51941,7 +53364,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "eb2b8646c373bb1b683720a40623e4ace750ddaa1ca93557b74d2a77434a280b",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -51949,7 +53372,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -52011,6 +53434,19 @@
           {
             "text": "Bettlägerige Kranke und andere Personen, die die touristischen Einrichtungen aus gesundheitlichen Gründen nicht nutzen können",
             "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die touristischen Einrichtungen in Anspruch zu nehmen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Für folgende Zahlungspflichtige wird die Kurtaxe gemäß § 3 um 50 % ermäßigt: 1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt.",
+            "percentOff": 50
+          },
+          {
+            "label": "Teilnehmer an anerkannten Kongressen und Tagungen",
+            "quote": "Für folgende Zahlungspflichtige wird die Kurtaxe gemäß § 3 um 50 % ermäßigt: 1. Schwerbehinderte, deren Grad der Behinderung mindestens 50 beträgt. 2. Kinder nach Vollendung des 6. und bis zur Vollendung des 18. Lebensjahres. 3. Teilnehmer an von der Wernigerode Tourismus GmbH anerkannten Kongressen, Tagungen und vergleichbaren Veranstaltungen. Der Antrag ist schriftlich bei der Wernigerode Tourismus GmbH spätestens 14 Tage vor Reiseantritt zu stellen.",
+            "onApplication": true,
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -52081,7 +53517,21 @@
             "children": [
               0,
               175
+            ],
+            "reduced": [
+              175,
+              175
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
+          },
+          {
+            "label": "Teilnehmer an anerkannten Kongressen und Tagungen",
+            "onApplication": true
           }
         ],
         "family": {
@@ -53364,7 +54814,7 @@
           "kind": "statute",
           "inForce": "2019-01-01",
           "sha256": "dd9ecb5b9d79bf789faf904bdecca257de57495f4d2794ae8408c9dd86fab102",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -53373,7 +54823,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvb": {
           "title": "Lesefassung: Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Brodersby für den Ortsteil Schönhagen",
@@ -53382,7 +54832,7 @@
           "inForce": "2015-01-01",
           "changedOn": "2026-10-15",
           "sha256": "1b2a3755e1479b08082dd0eebc4d4c272543ee4a687f2597da8f033956a68b5a",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -53469,6 +54919,13 @@
           {
             "text": "Kinder, Eltern und deren Partner von Einwohnern, die unentgeltlich bei ihnen wohnen",
             "quote": "Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind;"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre Begleitperson",
+            "quote": "Schwerbehinderte, die eine Behinderung von 80 % und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe und der Strandkurabgabe um 50 %; dasselbe gilt für eine erforderliche Begleitperson.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -53663,6 +55120,9 @@
             "children": [
               0,
               42
+            ],
+            "reduced": [
+              64
             ]
           },
           {
@@ -53681,7 +55141,16 @@
             "children": [
               0,
               23
+            ],
+            "reduced": [
+              32
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -56217,6 +57686,7 @@
       "slug": "fehmarn",
       "name": "Stadt Fehmarn",
       "short": "Fehmarn",
+      "locative": "auf Fehmarn",
       "ags": "01055046",
       "state": "Schleswig-Holstein",
       "district": "Ostholstein",
@@ -58390,7 +59860,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "31b0178949eb46b34c3157608a03a7c0e4bc2d1bcba7aa87a3c3080cdc900344",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -58398,7 +59868,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "fvb": {
@@ -58408,7 +59878,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "ea432952183172b2d8dc51caa54489f62af5f658a55cece1473c1d297a437f5b",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvbAnlage": {
           "title": "Anlage zur Satzung der Gemeinde Großenbrode über die Erhebung einer Tourismusabgabe 2026",
@@ -58417,7 +59887,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "71516861e97cf37bbaf619c0a504a8fa1b68951ff634955c06291e20155bed07",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -58502,6 +59972,13 @@
           {
             "text": "Durchreisende, die nach 18:00 Uhr anreisen und bis 10:00 Uhr des Folgetages abreisen",
             "quote": "Durchreisende, die nach 18:00 Uhr anreisen und bis 10:00 Uhr des Folgetages abreisen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80 mit Begleitperson, Schüler, Studenten, Azubis bis 25",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe in Höhe von 50 %. Dieses gilt auch für eine erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist. (3) Nach Vorlage von Ausweisen und Ausbildungsverträgen erhalten Schüler, Studenten und Auszubildende bis zur Vollendung des 26. Lebensjahres eine Ermäßigung von 50 % auf die Kurabgabe. (4) Kommen mehrere Ermäßigungen in Betracht, wird die Ermäßigung auf höchstens 50 % begrenzt.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -58648,6 +60125,9 @@
             "adult": 370,
             "children": [
               0
+            ],
+            "reduced": [
+              185
             ]
           },
           {
@@ -58665,7 +60145,16 @@
             "adult": 210,
             "children": [
               0
+            ],
+            "reduced": [
+              105
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80 mit Begleitperson, Schüler, Studenten, Azubis bis 25",
+            "onApplication": false
           }
         ]
       }
@@ -58999,6 +60488,7 @@
       "slug": "hallig-hooge",
       "name": "Gemeinde Hallig Hooge",
       "short": "Hallig Hooge",
+      "locative": "auf Hallig Hooge",
       "ags": "01054050",
       "state": "Schleswig-Holstein",
       "district": "Nordfriesland",
@@ -59009,7 +60499,7 @@
           "kind": "statute",
           "inForce": "2025-06-01",
           "sha256": "1f665c70b97c16daba088fd747d3ec6cf3a5d1fcfab5add4c817a8fa9c81effc",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -59017,7 +60507,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         }
       },
@@ -59063,6 +60553,13 @@
           {
             "text": "Wer dienstlich oder beruflich auf der Hallig ist (auch Auszubildende) und die Einrichtungen nicht nutzt, zahlt nichts.",
             "quote": "in Ausübung ihres Dienstes oder Berufes Anwesende sowie Auszubildende, soweit sie die Einrichtungen nicht in Anspruch nehmen"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und eine Begleitperson",
+            "quote": "Die Kurabgabe gemäß § 5 ermäßigt sich auf 50 % für schwerbehinderte Menschen, die einen Grad der Behinderung von 50 % und mehr nachweisen, sowie für eine erforderliche Begleitperson.",
+            "percent": 50
           }
         ],
         "remarks": [
@@ -59135,7 +60632,16 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und eine Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -59292,7 +60798,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "cdd6718d6ee24f84122faca71f2eabeb3ca6d066399e4f7f7f3bcddd67ccaf94",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -59301,7 +60807,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvb": {
           "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Heikendorf (Tourismusabgabesatzung, Neufassung) vom 10.12.2025",
@@ -59310,7 +60816,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "00e6b570474d1d6a3d9c9c0c64eae686ef59c34997a2969ee790b1d89b432687",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -59371,6 +60877,22 @@
           {
             "text": "Kinder, Eltern, Geschwister und weitere nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
             "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwager und Schwägerinnen von Personen, die in der Gemeinde Heikendorf ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind, die Kureinrichtungen nicht in Anspruch und an Veranstaltungen nicht teilnehmen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50 und ihre ständige Begleitperson",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 50 und mehr nachweisen, zahlen den ermäßigten Kurabgabesatz nach § 6 Abs. 1 bzw. Abs. 3. Dies gilt auch für die ständige Begleitperson, sofern eine ständige Begleitung notwendig ist und dies im Ausweis des Schwerbehinderten eingetragen ist.",
+            "rates": [
+              {
+                "cents": 150,
+                "quote": "Die ermäßigte Kurabgabe nach § 4 Abs. 3 beträgt in der a. Nebensaison 0,75 € b. Hauptsaison 1,50 €"
+              },
+              {
+                "cents": 75,
+                "quote": "Die ermäßigte Kurabgabe nach § 4 Abs. 3 beträgt in der a. Nebensaison 0,75 € b. Hauptsaison 1,50 €"
+              }
+            ]
           }
         ],
         "remarks": [
@@ -59573,6 +61095,9 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              150
             ]
           },
           {
@@ -59590,7 +61115,16 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50 und ihre ständige Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -59984,6 +61518,7 @@
       "slug": "helgoland",
       "name": "Helgoland",
       "short": "Helgoland",
+      "locative": "auf Helgoland",
       "ags": "01056025",
       "state": "Schleswig-Holstein",
       "district": "Pinneberg",
@@ -60531,7 +62066,7 @@
           "kind": "statute",
           "inForce": "2024-01-01",
           "sha256": "41eed6d0c16453a49f82f0d69f83d4a9b794d33b0e511a788c617b3d66c5f7db",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -60540,7 +62075,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -60613,6 +62148,18 @@
           {
             "text": "Inhaber einer OstseeCard aus anderen Gemeinden sind befreit.",
             "quote": "f) OstseeCard-Inhaber aus Fremdgemeinden."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre Begleitpersonen",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 80 v. H. und mehr nachweisen, erhalten eine Ermäßigung von 50 v. H.. Nachweislich erforderliche Begleitpersonen, die durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt sind, erhalten eine Ermäßigung von 50 v. H..",
+            "percentOff": 50
+          },
+          {
+            "label": "Schüler, Studenten und Auszubildende",
+            "quote": "Schüler, Studenten und Auszubildende erhalten bei Vorlage eines entsprechenden Nachweises eine Ermäßigung der Kurabgabe in Höhe von 30 v.H.",
+            "percentOff": 30
           }
         ],
         "remarks": [
@@ -60690,6 +62237,10 @@
             "adult": 250,
             "children": [
               0
+            ],
+            "reduced": [
+              125,
+              175
             ]
           },
           {
@@ -60707,7 +62258,21 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75,
+              105
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 80 % und ihre Begleitpersonen",
+            "onApplication": false
+          },
+          {
+            "label": "Schüler, Studenten und Auszubildende",
+            "onApplication": false
           }
         ]
       }
@@ -67064,6 +68629,7 @@
       "slug": "nordstrand",
       "name": "Gemeinde Nordstrand",
       "short": "Nordstrand",
+      "locative": "auf Nordstrand",
       "ags": "01054091",
       "state": "Schleswig-Holstein",
       "district": "Nordfriesland",
@@ -68760,6 +70326,7 @@
       "slug": "pellworm",
       "name": "Pellworm",
       "short": "Pellworm",
+      "locative": "auf Pellworm",
       "ags": "01054103",
       "state": "Schleswig-Holstein",
       "district": "Nordfriesland",
@@ -69599,6 +71166,9 @@
       "slug": "scharbeutz",
       "name": "Scharbeutz",
       "short": "Scharbeutz",
+      "districts": [
+        "Haffkrug"
+      ],
       "ags": "01055044",
       "state": "Schleswig-Holstein",
       "district": "Ostholstein",
@@ -70253,7 +71823,7 @@
           "kind": "municipality",
           "inForce": "2023-03-01",
           "sha256": "c2b522d46ce80cf9f06f24118a1aa4c47d57e9ecf57a12bff7e4277c1d739cf2",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "aenderung9": {
@@ -70262,7 +71832,7 @@
           "kind": "statute",
           "inForce": "2025-03-01",
           "sha256": "138f968b47d5ce88ff9f2722f121484e6cf2eb97a1b2f403d094292402872454",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15",
           "ocr": [
             {
@@ -70294,7 +71864,7 @@
           "inForce": "2020-01-17",
           "changedOn": "2026-10-15",
           "sha256": "8a8f5230c459ac5a4e0b234dd06edf1183b1cfc4df46b553b6637037f05ca14e",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -70302,7 +71872,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -70380,6 +71950,13 @@
           {
             "text": "Eine Kurkarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Aufenthaltstag.",
             "quote": "Nachweise über die Entrichtung der Kurabgabe (Kurkarten) aus einem anderen Ferienort innerhalb des Landes Schleswig-Holstein haben für einen Aufenthaltstag im Gebiet der Gemeinde Schönberg Gültigkeit."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und ihre Begleitperson",
+            "quote": "Schwerbehinderte Menschen im Sinne des SGB IX mit einem festgestellten Grad der Behinderung von mindestens 50 % erhalten eine Ermäßigung auf die Kurabgabe und die Strandbenutzungsgebühr in Höhe von 50 %. 2 Satz 1 gilt entsprechend für Personen, die den schwerbehinderten Menschen aufgrund der Eintragungen im Schwerbehindertenausweis (Merkzeichen „B“) begleiten müssen.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -70537,6 +72114,9 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              150
             ]
           },
           {
@@ -70554,7 +72134,16 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 % und ihre Begleitperson",
+            "onApplication": false
           }
         ]
       }
@@ -70573,7 +72162,7 @@
           "kind": "municipality",
           "changedOn": "2026-10-15",
           "sha256": "33458ebf4ee26e944a9f9586785ba8be91e5e1a4813c28e1d6951aed6d13bf7a",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -70581,7 +72170,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -70622,6 +72211,14 @@
           {
             "text": "Auf Antrag befreit werden beruflich in Schwedeneck Tätige mit Bescheinigung, Reisegewerbetreibende mit Reisegewerbekarte und nahe Angehörige von Einwohnern, die ohne Vergütung bei ihnen wohnen, jeweils nur, wenn sie weder den Badestrand noch die Einrichtungen und Veranstaltungen nutzen",
             "quote": "Von der Kurabgabe gemäß § 3 Abs. 1 werden auf Antrag befreit a) Personen, die in der Gemeinde Schwedeneck beruflich tätig sind und dies durch eine Bescheinigung des Arbeitgebers oder der Ordnungsbehörde nachweisen, b) Reisende, die nach § 55 der Gewerbeordnung tätig sind und die von der zuständigen Behörde des Wohnortes ausgestellte Reisegewerbekarte bei dem Eigenbetrieb Schwedeneck Touristik vorlegen, c) Kinder, Enkelkinder, Geschwister und deren Kinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Schwedeneck ihren Wohnsitz oder gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in deren häusliche Gemeinschaft aufgenommen sind, wenn sie weder den Badestrand noch sonstige der in § 2 Abs. 1 genannten Einrichtungen und Veranstaltungen benutzen bzw. in Anspruch nehmen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 %",
+            "quote": "Schwerbehinderte Menschen, die einen Grad der Behinderung von mindestens 50 v.H. haben, erhalten auf Antrag eine Kurabgabenermäßigung von 50 v. H..",
+            "onApplication": true,
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -70706,7 +72303,16 @@
             "adult": 250,
             "children": [
               0
+            ],
+            "reduced": [
+              125
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab 50 %",
+            "onApplication": true
           }
         ]
       }
@@ -72528,7 +74134,7 @@
           "kind": "municipality",
           "inForce": "2025-01-01",
           "sha256": "7ca9a353f0257cad556e953b7c5b2a17505f784d8558bf613a2f304d051bcf9d",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "aenderung": {
@@ -72536,7 +74142,7 @@
           "url": "https://www.amt-daenischenhagen.de/amt_daenischenhagen/Verwaltung/Aktuelles%20und%20Bekanntmachungen/1.%20%C3%84nderung%20der%20Kurabgabensatzung%20der%20Gemeinde%20Strande/",
           "kind": "statute",
           "sha256": "cebbde1ada303f59f83373f9674f22db4b93c2dbae0f91ac3e9afd3fc3b72a87",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -72545,7 +74151,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "ostseecard": {
           "title": "Ostseecard-Broschüre Ostseebad Strande 2025/2026, Gemeinde Strande",
@@ -72554,7 +74160,7 @@
           "inForce": "2025-01-01",
           "changedOn": "2026-10-15",
           "sha256": "66c60f3cb7053ba822726f5a67e3c7ceb3187dbfa7ef5c66432a1376d4c45211",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -72619,6 +74225,13 @@
           {
             "text": "Eine Gästekarte aus einem anderen Ferienort in Schleswig-Holstein gilt für einen Tag.",
             "quote": "Gästekarten von anderen Ferienorten in Schleswig-Holstein haben für einen Tag Gültigkeit."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 50 und mehr nachweisen, erhalten eine Kurabgabenermäßigung von 50%.",
+            "percentOff": 50
           }
         ],
         "remarks": [
@@ -72699,6 +74312,9 @@
             "adult": 150,
             "children": [
               0
+            ],
+            "reduced": [
+              75
             ]
           },
           {
@@ -72712,7 +74328,16 @@
             "adult": 100,
             "children": [
               0
+            ],
+            "reduced": [
+              50
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 50",
+            "onApplication": false
           }
         ]
       }
@@ -73418,6 +75043,10 @@
       "slug": "sylt",
       "name": "Sylt",
       "short": "Sylt",
+      "districts": [
+        "Westerland"
+      ],
+      "locative": "auf Sylt",
       "ags": "01054168",
       "state": "Schleswig-Holstein",
       "district": "Nordfriesland",
@@ -73428,8 +75057,8 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "fecc561d03acf62110c882b930828a21de8cf7cf28ccf4f4e6cd63e7f36639c8",
-          "verifiedOn": "2026-10-19",
-          "changedOn": "2026-10-14",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22",
           "ocr": [
             {
               "where": "counting",
@@ -73497,6 +75126,11 @@
               "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
             },
             {
+              "where": "remarks[3]",
+              "page": 1,
+              "reading": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
+            },
+            {
               "where": "hostDuty",
               "page": 5,
               "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
@@ -73519,7 +75153,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "79fe65a30861e724b08420afe67cc0b81f185f2ab631c65906c6af0340328a0f",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "ta": {
@@ -73529,7 +75163,7 @@
           "inForce": "2024-01-01",
           "changedOn": "2026-10-15",
           "sha256": "6a0d2bb17bc5b1549848581c60cde66a46b7f67fe57b3831c0480e17d9b3b668",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -73723,7 +75357,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         }
       },
@@ -73811,6 +75445,10 @@
           {
             "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet.",
             "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
+          },
+          {
+            "text": "Die Kurabgabe gilt in der ganzen Gemeinde, auch im Ortsteil Westerland.",
+            "quote": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
           }
         ],
         "hostDuty": {
@@ -73838,7 +75476,7 @@
         "by": "agent"
       },
       "ocrCompared": {
-        "on": "2026-10-15",
+        "on": "2026-10-22",
         "by": "agent"
       },
       "businessLevy": {
@@ -74163,6 +75801,9 @@
       "slug": "timmendorfer-strand",
       "name": "Timmendorfer Strand",
       "short": "Timmendorfer Strand",
+      "districts": [
+        "Niendorf"
+      ],
       "ags": "01055042",
       "state": "Schleswig-Holstein",
       "district": "Ostholstein",
@@ -74173,7 +75814,7 @@
           "kind": "statute",
           "inForce": "2024-01-01",
           "sha256": "99d4367072c03cdcb851e6ae27180b71e26d4e61fa87c248bdb9e3ea176d8eda",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "ta": {
@@ -74183,15 +75824,24 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "ef7f54b9f526afdbdbbd570739d0d427a7ff81bf01a6148e6de33ab2622e6161",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
+        },
+        "hauptsatzung": {
+          "title": "Hauptsatzung der Gemeinde Timmendorfer Strand vom 07.11.2024 (§ 12 Dorfschaften)",
+          "url": "https://www.timmendorfer-strand.org/fileadmin/download/Ortsrecht/Allgemeine_Verwaltung__Kultur_und_Hafen/neufassunghauptsatzung2024ortsrecht.pdf",
+          "kind": "statute",
+          "inForce": "2023-12-30",
+          "sha256": "cb76f1c2fa1fe9f9a7b63ba40868eb0777aba00104663ee8aaa6c919445480d2",
+          "verifiedOn": "2026-10-22",
+          "changedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -74290,6 +75940,15 @@
           {
             "text": "Du musst die Satzung für deine Gäste sichtbar auslegen.",
             "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen."
+          },
+          {
+            "text": "Die Kurabgabe wird im ganzen Gemeindegebiet erhoben.",
+            "quote": "Erhebungsgebiet für die Kurabgabe ist das gesamte Gemeindegebiet der Gemeinde Timmendorfer Strand."
+          },
+          {
+            "text": "Niendorf/Ostsee ist eine Dorfschaft der Gemeinde Timmendorfer Strand.",
+            "quote": "Es bestehen folgende Dorfschaften: 1. Groß Timmendorf mit den Wohnplätzen Groß Timmendorf und Oeverdiek 2. Hemmelsdorf mit den Wohnplätzen Hemmelsdorf, Hainholz und Nothweg 3. Klein Timmendorf mit dem Bereich westlich der Lübecker Straße/Wohldstraße bis zu den Bahngleisen und südlich des Friedhofes bis Hauptstraße/Am Kardohr/Vogelsang 4. Niendorf/Ostsee",
+            "source": "hauptsatzung"
           }
         ],
         "hostDuty": {
@@ -75862,7 +77521,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "4a3fd055f273df7057f3fca47cd2e221c497b8af522b4a665c08a926e3abe061",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "nachtrag1": {
@@ -75871,7 +77530,7 @@
           "kind": "statute",
           "inForce": "2027-01-01",
           "sha256": "8ee0d0ea5059fa8d87fcfd31d728d4e328be14e31cfa6aa11ecba5cc68d63ffb",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -75880,7 +77539,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "bgb": {
           "title": "Bürgerliches Gesetzbuch, § 2 Eintritt der Volljährigkeit",
@@ -75888,7 +77547,7 @@
           "kind": "federal",
           "changedOn": "2026-10-15",
           "sha256": "73aca90eb3f35af63ebacd6942b0185096dcff0dfc420f143eb52f680ed24da7",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -75992,6 +77651,13 @@
             "quote": "sind bei Gewährleistung der Gegenseitigkeit während der Geltungsdauer dieser Gästekarte an einem Tage von der Kurabgabe befreit."
           }
         ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80 und ihre Begleitperson",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 80 und mehr nachweisen, erhalten eine Ermäßigung des Kurabgabebeitrages in Höhe von 50 %. Dieses gilt auch für eine erforderliche Begleitperson, wenn sie durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt ist.",
+            "percentOff": 50
+          }
+        ],
         "remarks": [
           {
             "text": "Menschen mit einem Grad der Behinderung ab 80 und eine erforderliche Begleitperson mit Eintrag „B“ im Ausweis zahlen nur die Hälfte.",
@@ -76059,11 +77725,17 @@
               0,
               100
             ],
+            "reduced": [
+              100
+            ],
             "next": {
               "adult": 170,
               "children": [
                 0,
                 90
+              ],
+              "reduced": [
+                85
               ]
             }
           },
@@ -76084,13 +77756,25 @@
               0,
               50
             ],
+            "reduced": [
+              50
+            ],
             "next": {
               "adult": 90,
               "children": [
                 0,
                 50
+              ],
+              "reduced": [
+                45
               ]
             }
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab GdB 80 und ihre Begleitperson",
+            "onApplication": false
           }
         ],
         "change": {
@@ -80481,7 +82165,7 @@
           "kind": "statute",
           "inForce": "2011-11-01",
           "sha256": "7206cb72cd12fdaa259c95cea84d038f46ae1fc6a3308e3d96f1f9990ce2089f",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung1": {
@@ -80491,7 +82175,7 @@
           "inForce": null,
           "changedOn": "2026-10-15",
           "sha256": "8f0766500af3bf0f50f334750b22ac6628d623f96eb90f22de86c129d89a45a5",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "aenderung2": {
           "title": "2. Änderungssatzung zur Kurbeitragssatzung der Stadt Oberhof vom 19.12.2024 (veröffentlicht am 20.12.2024)",
@@ -80499,7 +82183,7 @@
           "kind": "statute",
           "inForce": null,
           "sha256": "e839c9f61e4c9b5182d3ab2065b20135043ec9a65b9d13547b4ec009b7dd4c41",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "aenderung3": {
@@ -80508,7 +82192,7 @@
           "kind": "statute",
           "inForce": "2026-07-01",
           "sha256": "dcbf122f389f8dc34f50c51b3437218e9dbcf4f8b28e3aa19728a99882b8b502",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -80516,7 +82200,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-          "verifiedOn": "2026-10-19",
+          "verifiedOn": "2026-10-22",
           "changedOn": "2026-10-14"
         },
         "auskunft": {
@@ -80526,7 +82210,7 @@
           "text": "Kinder mit 6 Jahren sind gemäß unserer Satzung frei, ab dem 7. Geburtstag dann ermäßigt.",
           "changedOn": "2026-10-15",
           "sha256": "641a1afbf44cd4f44292073da3496863f3e2c3937aafe0ca2681a44f38bdda15",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvb": {
           "title": "Satzung über die Erhebung eines Tourismusbeitrages der Stadt Oberhof (Tourismusbeitragssatzung) vom 24.02.2025",
@@ -80535,7 +82219,7 @@
           "inForce": "2025-01-01",
           "changedOn": "2026-10-15",
           "sha256": "9ca83c69f564b2ed702464935d4cae6ce1fe677f49a7c5f264679d19dc332cd0",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         },
         "fvbAenderung": {
           "title": "1. Änderungssatzung zur Tourismusbeitragssatzung der Stadt Oberhof, ausgefertigt am 03.03.2026",
@@ -80544,7 +82228,7 @@
           "inForce": null,
           "changedOn": "2026-10-15",
           "sha256": "842b2a9365c4ddb9126e7d151c2acaf16317d340bd1eb1501f8a299f3df37bbf",
-          "verifiedOn": "2026-10-19"
+          "verifiedOn": "2026-10-22"
         }
       },
       "levy": {
@@ -80604,6 +82288,18 @@
           {
             "text": "Kaderathleten und ihre Betreuer bei registrierten Wettkämpfen im Thüringer Wintersportzentrum",
             "quote": "Leistungssportler und deren Betreuer, die in einem Kader organisiert sind und sich zu einem offiziellen Wettkampf, der im Thüringer Wintersportzentrum Oberhof (TWZ) registriert ist, im Erhebungsgebiet aufhalten."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50 und ihre Begleitperson",
+            "quote": "c) für Behinderte ab GB50 und eingetragene Begleitpersonen mit dem Merkzeichen B 1,50 Euro",
+            "source": "aenderung3",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
           }
         ],
         "remarks": [
@@ -80752,7 +82448,16 @@
             "children": [
               0,
               150
+            ],
+            "reduced": [
+              150
             ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Menschen mit GdB ab 50 und ihre Begleitperson",
+            "onApplication": false
           }
         ]
       }

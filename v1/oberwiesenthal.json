@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-04-01",
       "sha256": "9c6350c224cd097502181cac5cc5c75b1e35e08629274d8e7438fbf923856942",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -118,6 +118,14 @@
         "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Stadt zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
       }
     ],
+    "reduced": [
+      {
+        "label": "Kinder bis 15, Schüler, Studenten, Auszubildende, GdB ab 50, Tagungsgäste",
+        "quote": "Die Gästetaxe wird auf Antrag um 60 v. H. ermäßigt für: 1. Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende 3. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch einen Schwerbehindertenausweis nachgewiesen wird, 4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren.",
+        "onApplication": true,
+        "percentOff": 60
+      }
+    ],
     "remarks": [
       {
         "text": "Auf Antrag zahlen Kinder und Jugendliche vom 7. bis zur Vollendung des 16. Lebensjahres, Schüler, Studenten und Auszubildende, Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 und Tagungsteilnehmer 60 Prozent weniger.",
@@ -188,6 +196,9 @@
         "adult": 300,
         "children": [
           0
+        ],
+        "reduced": [
+          120
         ]
       }
     ],
@@ -206,6 +217,9 @@
             "adult": 300,
             "children": [
               0
+            ],
+            "reduced": [
+              120
             ]
           }
         ]
@@ -224,9 +238,18 @@
             "adult": 170,
             "children": [
               0
+            ],
+            "reduced": [
+              68
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Kinder bis 15, Schüler, Studenten, Auszubildende, GdB ab 50, Tagungsgäste",
+        "onApplication": true
       }
     ]
   }

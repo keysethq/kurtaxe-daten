@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2017-12-01",
       "sha256": "be5b15094fdf20af7fc046a247d85a7df0a26f66d94c1a0fc33905a3e145bfa7",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "2002-01-01",
       "changedOn": "2026-10-15",
       "sha256": "0cc54306d128efcb49746997a479dafe8f5fcfde186e991f88e4b06236097fbe",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvbAe": {
       "title": "Erste Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrags des Marktes Nesselwang vom 11.09.2024",
@@ -42,7 +42,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "44441c7c16aa476fb37f02b58b439c3a4030231aaa2a5295755059f1ca28b29d",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -127,6 +127,14 @@
       {
         "text": "Begleitpersonen von Menschen mit Behinderung, wenn der Ausweis eine Begleitperson vorsieht (auf Antrag)",
         "quote": "Ist entsprechend dem Behindertenausweis für den Behinderten eine Begleitperson erforderlich, wird diese auf Antrag vom Kurbeitrag befreit."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit Behinderung ab 60",
+        "quote": "(4) Für Personen, die eine Behinderung von 60 v. H. und mehr durch Behindertenausweis nachweisen können, wird der Kurbeitrag auf Antrag um 50 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -250,6 +258,9 @@
         "children": [
           0,
           100
+        ],
+        "reduced": [
+          105
         ]
       }
     ],
@@ -269,6 +280,9 @@
             "children": [
               0,
               100
+            ],
+            "reduced": [
+              105
             ]
           }
         ]
@@ -288,9 +302,18 @@
             "children": [
               0,
               90
+            ],
+            "reduced": [
+              95
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit Behinderung ab 60",
+        "onApplication": true
       }
     ]
   }

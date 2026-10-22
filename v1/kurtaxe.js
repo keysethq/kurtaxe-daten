@@ -21,7 +21,11 @@
 //                       next: { adult, children }, die Sätze für Tage ab from
 //   zones               nur wo die Sätze nach Kurbezirk verschieden sind: [{ label, periods }], periods wie oben;
 //                       das Feld periods ist dann das des ersten Bezirks
-// stay: { arrival: 'YYYY-MM-DD', nights, adults, children: [Anzahl je Kinderstufe], zone: Index des Bezirks (0) }
+//   reduced             nur wo die Satzung ermäßigte Sätze nennt: [{ label, onApplication }], wer ermäßigt zahlt; jede
+//                       Periode trägt dann reduced: [Cent je Gruppe], den Satz, den diese Erwachsenen statt adult zahlen
+//                       (bei change auch in next)
+// stay: { arrival: 'YYYY-MM-DD', nights, adults, children: [Anzahl je Kinderstufe], zone: Index des Bezirks (0),
+//         reduced: [Anzahl je ermäßigter Gruppe], fehlt es, zahlt niemand ermäßigt }
 
 /** @param {number} cents @returns {string} 3,40 € */
 export function formatEuro(cents) {
@@ -61,7 +65,8 @@ function inRange(monthDay, [start, end], year) {
 }
 
 /**
- * @param {any} rules @param {{ arrival: string, nights: number, adults: number, children: number[], zone?: number }} stay
+ * @param {any} rules
+ * @param {{ arrival: string, nights: number, adults: number, children: number[], zone?: number, reduced?: number[] }} stay
  * @returns {{ total: number, days: number, counted: number, lines: { label: string, days: number, perDay: number, amount: number }[] }}
  */
 export function kurtaxe(rules, stay) {
@@ -69,11 +74,14 @@ export function kurtaxe(rules, stay) {
   const counted = rules.maxDays === null ? days : Math.min(days, rules.maxDays)
   const start = Date.parse(`${stay.arrival}T00:00:00Z`)
   const periods = rules.zones?.[stay.zone ?? 0]?.periods ?? rules.periods
-  // Everyone in the stay, oldest first: adults, then the child bands from the oldest down. A family rule frees the
-  // youngest, so whoever comes later in this list is freed first.
-  /** @type {(number | null)[]} null for an adult, the band index for a child */
+  // Everyone in the stay, oldest first: adults, then adults at a reduced rate, then the child bands from the oldest
+  // down. A family rule frees the youngest, so whoever comes later in this list is freed first.
+  /** @type {(number | string | null)[]} null for an adult, `r<index>` for an adult at a reduced rate, the band for a child */
   const people = [
     ...Array.from({ length: stay.adults }, () => null),
+    ...(rules.reduced ?? []).flatMap((/** @type {any} */ _, /** @type {number} */ group) =>
+      Array.from({ length: stay.reduced?.[group] ?? 0 }, () => `r${group}`),
+    ),
     ...stay.children.flatMap((count, band) => Array.from({ length: count ?? 0 }, () => band)).reverse(),
   ]
   const owed = people.map(() => 0)
@@ -89,22 +97,24 @@ export function kurtaxe(rules, stay) {
     )
     if (!period) continue
     const changed = rules.change != null && date.toISOString().slice(0, 10) >= rules.change.from
-    const { adult, children } = changed ? period.next : period
+    const { adult, children, reduced = [] } = changed ? period.next : period
     const adultRate = rules.oneNight != null && stay.nights === 1 ? rules.oneNight : adult
     // Where the statute charges the adults travelling with one who pays in full less, every adult after the first
-    // pays that rate (never more than the adult rate).
+    // pays that rate (never more than the adult rate). An adult at a reduced rate pays it, never more than an adult.
     const rates = people.map((band, index) =>
       band === null
         ? index > 0 && rules.companion != null
           ? Math.min(rules.companion, adultRate)
           : adultRate
-        : (children[band] ?? 0),
+        : typeof band === 'string'
+          ? Math.min(reduced[Number(band.slice(1))] ?? adultRate, adultRate)
+          : (children[band] ?? 0),
     )
     if (rules.family) {
       // Only those who would pay count towards the family's n-th child or person.
       let counting = 0
       for (const [index, band] of people.entries()) {
-        if (rules.family.free === 'children' && band === null) continue
+        if (rules.family.free === 'children' && (band === null || typeof band === 'string')) continue
         if (rules.family.free === 'children' && rates[index] === 0) continue
         counting += 1
         if (counting >= rules.family.from) rates[index] = 0
@@ -300,6 +310,9 @@ function wire(form) {
       adults: count('erwachsene'),
       children: rules.childLimits.map((/** @type {number} */ _, /** @type {number} */ band) => count(`stufe${band}`)),
       zone: count('bezirk'),
+      reduced: (rules.reduced ?? []).map((/** @type {any} */ _, /** @type {number} */ group) =>
+        count(`ermaessigt${group}`),
+      ),
     })
     const total = card.querySelector('[data-out="total"]')
     if (total) total.textContent = formatEuro(result.total)

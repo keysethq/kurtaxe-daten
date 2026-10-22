@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "cdd6718d6ee24f84122faca71f2eabeb3ca6d066399e4f7f7f3bcddd67ccaf94",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Heikendorf (Tourismusabgabesatzung, Neufassung) vom 10.12.2025",
@@ -33,7 +33,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "00e6b570474d1d6a3d9c9c0c64eae686ef59c34997a2969ee790b1d89b432687",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -94,6 +94,22 @@
       {
         "text": "Kinder, Eltern, Geschwister und weitere nahe Angehörige von Einwohnern, die unentgeltlich bei ihnen wohnen und die Kureinrichtungen nicht nutzen",
         "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und –söhne, Schwager und Schwägerinnen von Personen, die in der Gemeinde Heikendorf ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind, die Kureinrichtungen nicht in Anspruch und an Veranstaltungen nicht teilnehmen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50 und ihre ständige Begleitperson",
+        "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von 50 und mehr nachweisen, zahlen den ermäßigten Kurabgabesatz nach § 6 Abs. 1 bzw. Abs. 3. Dies gilt auch für die ständige Begleitperson, sofern eine ständige Begleitung notwendig ist und dies im Ausweis des Schwerbehinderten eingetragen ist.",
+        "rates": [
+          {
+            "cents": 150,
+            "quote": "Die ermäßigte Kurabgabe nach § 4 Abs. 3 beträgt in der a. Nebensaison 0,75 € b. Hauptsaison 1,50 €"
+          },
+          {
+            "cents": 75,
+            "quote": "Die ermäßigte Kurabgabe nach § 4 Abs. 3 beträgt in der a. Nebensaison 0,75 € b. Hauptsaison 1,50 €"
+          }
+        ]
       }
     ],
     "remarks": [
@@ -296,6 +312,9 @@
         "adult": 300,
         "children": [
           0
+        ],
+        "reduced": [
+          150
         ]
       },
       {
@@ -313,7 +332,16 @@
         "adult": 150,
         "children": [
           0
+        ],
+        "reduced": [
+          75
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50 und ihre ständige Begleitperson",
+        "onApplication": false
       }
     ]
   }

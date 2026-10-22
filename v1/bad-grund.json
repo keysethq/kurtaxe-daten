@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2022-01-01",
       "sha256": "061b4ef200257297ef13be20c530ba0867b7f4b91d6dd3686074a161cbc7177f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -93,6 +93,13 @@
       {
         "text": "Teilnehmer an von der Gemeinde anerkannten Kongressen, Tagungen und Lehrgängen, wenn sie die Einrichtungen des Ortes nicht nutzen können",
         "quote": "Teilnehmer an von der Gemeinde Bad Grund (Harz) anerkannten Kongressen, Messen, Tagungen, Lehrgängen und vergleichbaren Veranstaltungen sind beitragsfrei, wenn außerhalb des Veranstaltungsprogramms eine Inanspruchnahmemöglichkeit der Fremdenverkehrseinrichtungen nicht besteht und Fremdenverkehrsveranstaltungen nicht besucht werden können."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit 70 bis unter 100 %",
+        "quote": "Schwerbehinderte, deren Minderung der Erwerbstätigkeit weniger als 100 v.H. aber mindestens 70 v.H. beträgt, werden nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 1 Nr. 1 bzw. nur zu 50 v.H. des maßgeblichen Gästebeitrages nach § 7 Abs. 2 Nr. 1 herangezogen.",
+        "percent": 50
       }
     ],
     "remarks": [
@@ -175,7 +182,16 @@
         "children": [
           0,
           105
+        ],
+        "reduced": [
+          105
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit 70 bis unter 100 %",
+        "onApplication": false
       }
     ],
     "family": {

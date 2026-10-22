@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2013-08-01",
       "sha256": "d50ab9694c92b0c5dff102e4a7549f0986f4aaffcc95749b4bef6735073f5fec",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -77,6 +77,13 @@
       {
         "text": "Auf Antrag Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
         "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Blinde und Schwerbehinderte ab 80 %",
+        "quote": "Der Kurbeitrag wird um 50% ermäßigt für: a. Blinde und Schwerbehinderte mit mindestens 80 % Erwerbsminderung;",
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -151,7 +158,16 @@
         "adult": 170,
         "children": [
           0
+        ],
+        "reduced": [
+          85
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Blinde und Schwerbehinderte ab 80 %",
+        "onApplication": false
       }
     ],
     "family": {

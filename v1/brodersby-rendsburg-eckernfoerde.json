@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2019-01-01",
       "sha256": "dd9ecb5b9d79bf789faf904bdecca257de57495f4d2794ae8408c9dd86fab102",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvb": {
       "title": "Lesefassung: Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Brodersby für den Ortsteil Schönhagen",
@@ -33,7 +33,7 @@
       "inForce": "2015-01-01",
       "changedOn": "2026-10-15",
       "sha256": "1b2a3755e1479b08082dd0eebc4d4c272543ee4a687f2597da8f033956a68b5a",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -120,6 +120,13 @@
       {
         "text": "Kinder, Eltern und deren Partner von Einwohnern, die unentgeltlich bei ihnen wohnen",
         "quote": "Kinder, Eltern und deren Ehepartner oder Partner in einer eingetragenen Lebenspartnerschaft von Personen, die im Erhebungsgebiet ihre Hauptwohnung haben, wenn sie unentgeltlich in die häusliche Gemeinschaft dieser Personen aufgenommen sind;"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 80 % und ihre Begleitperson",
+        "quote": "Schwerbehinderte, die eine Behinderung von 80 % und mehr nachweisen, erhalten eine Ermäßigung der Kurabgabe und der Strandkurabgabe um 50 %; dasselbe gilt für eine erforderliche Begleitperson.",
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -314,6 +321,9 @@
         "children": [
           0,
           42
+        ],
+        "reduced": [
+          64
         ]
       },
       {
@@ -332,7 +342,16 @@
         "children": [
           0,
           23
+        ],
+        "reduced": [
+          32
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 80 % und ihre Begleitperson",
+        "onApplication": false
       }
     ]
   }

@@ -5,6 +5,9 @@
   "slug": "wittmund",
   "name": "Stadt Wittmund",
   "short": "Wittmund",
+  "districts": [
+    "Carolinensiel"
+  ],
   "ags": "03462019",
   "state": "Niedersachsen",
   "district": "Wittmund",

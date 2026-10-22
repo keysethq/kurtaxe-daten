@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "b9b2682e5cc5e0db4e58a33660721000da7099c4bed0b5049e5c0e36140a2ae0",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "2008-01-01",
       "changedOn": "2026-10-15",
       "sha256": "31fcbb5ffbc0bed52a29419c4ee0bdbb7d31798d92909827f5098b7a206a8a47",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -137,6 +137,13 @@
       {
         "text": "Schwerbehinderte mit dem Merkzeichen H (hilflos)",
         "quote": "Schwerbehinderte mit dem Merkzeichen H (hilflos)"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Schwerbehinderte ab einem Grad der Behinderung (GdB) von 50 zahlen einen nach § 4 Abs. 2 ermäßigten Kurbeitragssatz von 50 v. H. pro Aufenthaltstag.",
+        "percent": 50
       }
     ],
     "remarks": [
@@ -267,7 +274,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
       }
     ]
   }

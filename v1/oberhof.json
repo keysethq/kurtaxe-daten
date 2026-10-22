@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2011-11-01",
       "sha256": "7206cb72cd12fdaa259c95cea84d038f46ae1fc6a3308e3d96f1f9990ce2089f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "aenderung1": {
@@ -25,7 +25,7 @@
       "inForce": null,
       "changedOn": "2026-10-15",
       "sha256": "8f0766500af3bf0f50f334750b22ac6628d623f96eb90f22de86c129d89a45a5",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "aenderung2": {
       "title": "2. Änderungssatzung zur Kurbeitragssatzung der Stadt Oberhof vom 19.12.2024 (veröffentlicht am 20.12.2024)",
@@ -33,7 +33,7 @@
       "kind": "statute",
       "inForce": null,
       "sha256": "e839c9f61e4c9b5182d3ab2065b20135043ec9a65b9d13547b4ec009b7dd4c41",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "aenderung3": {
@@ -42,7 +42,7 @@
       "kind": "statute",
       "inForce": "2026-07-01",
       "sha256": "dcbf122f389f8dc34f50c51b3437218e9dbcf4f8b28e3aa19728a99882b8b502",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -50,7 +50,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "auskunft": {
@@ -60,7 +60,7 @@
       "text": "Kinder mit 6 Jahren sind gemäß unserer Satzung frei, ab dem 7. Geburtstag dann ermäßigt.",
       "changedOn": "2026-10-15",
       "sha256": "641a1afbf44cd4f44292073da3496863f3e2c3937aafe0ca2681a44f38bdda15",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvb": {
       "title": "Satzung über die Erhebung eines Tourismusbeitrages der Stadt Oberhof (Tourismusbeitragssatzung) vom 24.02.2025",
@@ -69,7 +69,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "9ca83c69f564b2ed702464935d4cae6ce1fe677f49a7c5f264679d19dc332cd0",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     },
     "fvbAenderung": {
       "title": "1. Änderungssatzung zur Tourismusbeitragssatzung der Stadt Oberhof, ausgefertigt am 03.03.2026",
@@ -78,7 +78,7 @@
       "inForce": null,
       "changedOn": "2026-10-15",
       "sha256": "842b2a9365c4ddb9126e7d151c2acaf16317d340bd1eb1501f8a299f3df37bbf",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-22"
     }
   },
   "levy": {
@@ -138,6 +138,18 @@
       {
         "text": "Kaderathleten und ihre Betreuer bei registrierten Wettkämpfen im Thüringer Wintersportzentrum",
         "quote": "Leistungssportler und deren Betreuer, die in einem Kader organisiert sind und sich zu einem offiziellen Wettkampf, der im Thüringer Wintersportzentrum Oberhof (TWZ) registriert ist, im Erhebungsgebiet aufhalten."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB ab 50 und ihre Begleitperson",
+        "quote": "c) für Behinderte ab GB50 und eingetragene Begleitpersonen mit dem Merkzeichen B 1,50 Euro",
+        "source": "aenderung3",
+        "rates": [
+          {
+            "cents": 150
+          }
+        ]
       }
     ],
     "remarks": [
@@ -286,7 +298,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit GdB ab 50 und ihre Begleitperson",
+        "onApplication": false
       }
     ]
   }

@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "34e93e35e1037d37d00558b8e2c5ad816be2711cd2b12512b88916c11f81ec68",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2024-05-01",
       "sha256": "58f22bea4f12db13febfe47d3c35a9c0c14ed18948b4e6582d170d00544ef6bb",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -170,6 +170,14 @@
         "quote": "Personen, die sich aus beruflichen Gründen bzw. zur Teilnahme an beruflich bedingten Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die Dauer des beruflich bedingten Aufenthalts."
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 70",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit einem nachgewiesenen Grad der Behinderung von mindestens 70 % gegen Vorlage des amtlichen Ausweises.",
+        "onApplication": true,
+        "percentOff": 20
+      }
+    ],
     "remarks": [
       {
         "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung von mindestens 70 % 20 % weniger.",
@@ -275,6 +283,9 @@
         "children": [
           0,
           210
+        ],
+        "reduced": [
+          312
         ]
       }
     ],
@@ -294,6 +305,9 @@
             "children": [
               0,
               210
+            ],
+            "reduced": [
+              312
             ]
           }
         ]
@@ -313,6 +327,9 @@
             "children": [
               0,
               160
+            ],
+            "reduced": [
+              192
             ]
           }
         ]
@@ -332,9 +349,18 @@
             "children": [
               0,
               210
+            ],
+            "reduced": [
+              312
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 70",
+        "onApplication": true
       }
     ]
   }

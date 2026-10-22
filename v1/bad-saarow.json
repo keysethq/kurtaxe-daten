@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2024-01-01",
       "sha256": "d79db6efff9a0c2b779d77997c9247e5db882b00d185e7faa60e6cc0531ae17f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     }
   },
@@ -79,6 +79,17 @@
       {
         "text": "Kinder- und Schülergruppen ab 12 Personen und ihre Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen zahlen nichts.",
         "quote": "Kinder- und Schülergruppen ab 12 Personen und deren Begleitpersonen in Ferienlagern, Jugendherbergen und Schullandheimen"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "quote": "c) Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 (bei Vorlage eines Ausweises nach § 152 Abs. 5 S. 1 SGB IX) 1,50 €",
+        "rates": [
+          {
+            "cents": 150
+          }
+        ]
       }
     ],
     "remarks": [
@@ -145,7 +156,16 @@
         "children": [
           0,
           150
+        ],
+        "reduced": [
+          150
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "onApplication": false
       }
     ]
   }

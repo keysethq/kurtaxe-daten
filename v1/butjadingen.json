@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "369e130d02f750910fab85f4fc07a9afcc8ed7905f81a93765c19425ef9be75d",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-14"
     },
     "tbs": {
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "987541502295859d37fd9ca8fb49c8a9c84fd7a87da7262d83c1cf0472bb3875",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "anlage": {
@@ -41,7 +41,7 @@
       "kind": "municipality",
       "inForce": null,
       "sha256": "196545b9774dd4d00a515b93679eaeee9d86e4b5828930b4fdccb5a1f44074d0",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -131,6 +131,13 @@
       {
         "text": "Wer nur für eine Übernachtung zu einer besonderen Familienfeier kommt (etwa Hochzeit oder Beerdigung), zahlt nichts.",
         "quote": "6. Personen, die sich anlässlich besonderer Familienfeiern (z.B. Hochzeitsfeiern, Beerdigungen) für nur eine Übernachtung in Butjadingen aufhalten."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen",
+        "quote": "Teilnehmer an den vorher von der Gemeinde anerkannten Tagungen, Kongressen und Lehrgängen erhalten eine Ermäßigung von 50 v.H.",
+        "percentOff": 50
       }
     ],
     "remarks": [
@@ -374,6 +381,9 @@
         "children": [
           0,
           210
+        ],
+        "reduced": [
+          175
         ]
       },
       {
@@ -392,7 +402,16 @@
         "children": [
           0,
           100
+        ],
+        "reduced": [
+          80
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Teilnehmer an anerkannten Tagungen, Kongressen und Lehrgängen",
+        "onApplication": false
       }
     ],
     "family": {

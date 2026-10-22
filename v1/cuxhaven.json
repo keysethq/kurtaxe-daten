@@ -5,6 +5,11 @@
   "slug": "cuxhaven",
   "name": "Stadt Cuxhaven",
   "short": "Cuxhaven",
+  "districts": [
+    "Duhnen",
+    "Döse",
+    "Sahlenburg"
+  ],
   "ags": "03352011",
   "state": "Niedersachsen",
   "district": "Cuxhaven",

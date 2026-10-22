@@ -5,6 +5,7 @@
   "slug": "hallig-hooge",
   "name": "Gemeinde Hallig Hooge",
   "short": "Hallig Hooge",
+  "locative": "auf Hallig Hooge",
   "ags": "01054050",
   "state": "Schleswig-Holstein",
   "district": "Nordfriesland",
@@ -15,7 +16,7 @@
       "kind": "statute",
       "inForce": "2025-06-01",
       "sha256": "1f665c70b97c16daba088fd747d3ec6cf3a5d1fcfab5add4c817a8fa9c81effc",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +24,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -69,6 +70,13 @@
       {
         "text": "Wer dienstlich oder beruflich auf der Hallig ist (auch Auszubildende) und die Einrichtungen nicht nutzt, zahlt nichts.",
         "quote": "in Ausübung ihres Dienstes oder Berufes Anwesende sowie Auszubildende, soweit sie die Einrichtungen nicht in Anspruch nehmen"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und eine Begleitperson",
+        "quote": "Die Kurabgabe gemäß § 5 ermäßigt sich auf 50 % für schwerbehinderte Menschen, die einen Grad der Behinderung von 50 % und mehr nachweisen, sowie für eine erforderliche Begleitperson.",
+        "percent": 50
       }
     ],
     "remarks": [
@@ -141,7 +149,16 @@
         "adult": 150,
         "children": [
           0
+        ],
+        "reduced": [
+          75
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab 50 % und eine Begleitperson",
+        "onApplication": false
       }
     ]
   }

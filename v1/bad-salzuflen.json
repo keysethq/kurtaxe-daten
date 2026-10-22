@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-04-01",
       "sha256": "5387999f220017198a25796655a5d6fe0551c13da94be381d0e1973f3d656496",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-22",
       "changedOn": "2026-10-15"
     }
   },
@@ -108,6 +108,34 @@
         "quote": "als Hausbesucher bei einem im Erhebungsgebiet wohnhaften Wohnungsgeber unentgeltlich Aufnahme finden."
       }
     ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "b) für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v.H. bei Vorlage eines gültigen amtlichen Ausweises. Die Voraussetzung für die Ermäßigung ist spätestens bei Aufenthaltsbeginn nachzuweisen. Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro",
+        "rates": [
+          {
+            "cents": 360
+          },
+          {
+            "cents": 330
+          }
+        ]
+      },
+      {
+        "label": "Personen mit geringem Einkommen",
+        "quote": "c) für Personen mit geringem Einkommen bei Vorlage einer amtlichen Bescheinigung.",
+        "rates": [
+          {
+            "cents": 360,
+            "quote": "Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro"
+          },
+          {
+            "cents": 330,
+            "quote": "Hauptsaison (1.4. – 31.10.) 3,60 Euro Nebensaison (1.11. – 31.3.) 3,30 Euro"
+          }
+        ]
+      }
+    ],
     "remarks": [
       {
         "text": "Menschen mit einem Grad der Behinderung von mindestens 50 und Personen mit geringem Einkommen zahlen 3,60 € in der Hauptsaison und 3,30 € in der Nebensaison, wenn sie das bei Aufenthaltsbeginn nachweisen.",
@@ -178,6 +206,10 @@
         "adult": 400,
         "children": [
           0
+        ],
+        "reduced": [
+          360,
+          360
         ]
       },
       {
@@ -191,7 +223,21 @@
         "adult": 370,
         "children": [
           0
+        ],
+        "reduced": [
+          330,
+          330
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      },
+      {
+        "label": "Personen mit geringem Einkommen",
+        "onApplication": false
       }
     ]
   }
