@@ -1,0 +1,342 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "reichenau",
+  "name": "Reichenau",
+  "short": "Reichenau",
+  "ags": "08335066",
+  "locative": "auf der Reichenau",
+  "state": "Baden-Württemberg",
+  "district": "Konstanz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Reichenau, Gemeinderatsbeschluss vom 09.12.2024, in Kraft seit 01.01.2025",
+      "url": "https://www.reichenau.de/ceasy/resource/?id=3361",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2025-01-01",
+      "sha256": "6c439265ba77c97a1123a99a752168e7a79384deeea80208c710a0dafa93008f",
+      "verifiedOn": "2026-10-23"
+    },
+    "aenderung1": {
+      "title": "1. Änderungssatzung zur Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Reichenau, Gemeinderatsbeschluss vom 20.10.2025, in Kraft seit 01.01.2026",
+      "url": "https://www.reichenau.de/ceasy/resource/?id=3617",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "changedOn": "2026-01-01",
+      "sha256": "8bcc9c732a6e3ab74e7f9effab78bc5cc80ea05fbefc51b77a53ec9bde19b1a5",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "aenderung1",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Übriges Gemeindegebiet",
+        "area": {
+          "text": "Der Hauptsaisonsatz für das übrige Gemeindegebiet gilt überall außer im Gewann Schlafbach (Willam).",
+          "quote": "a) in der Hauptsaison 3,30 Euro b) in der Hauptsaison im Gewann Schlafbach (Willam) 2,00 Euro"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 330,
+              "quote": "a) in der Hauptsaison 3,30 Euro"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr.",
+                "source": "satzung"
+              }
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "c) in der Vor- und Nachsaison 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr.",
+                "source": "satzung"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gewann Schlafbach (Willam)",
+        "area": {
+          "text": "Für das Gewann Schlafbach (Willam) gilt in der Hauptsaison ein eigener, niedrigerer Satz.",
+          "quote": "b) in der Hauptsaison im Gewann Schlafbach (Willam) 2,00 Euro"
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "04-01",
+                "to": "10-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "b) in der Hauptsaison im Gewann Schlafbach (Willam) 2,00 Euro"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr.",
+                "source": "satzung"
+              }
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "03-31"
+              },
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "c) in der Vor- und Nachsaison 1,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 15,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 15. Lebensjahr.",
+                "source": "satzung"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "source": "satzung",
+        "quote": "Familienbesucher von Gemeindeeinwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "source": "satzung",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie wegen ihres Zustands (zum Beispiel Bettlägerigkeit) keine Kureinrichtungen oder Veranstaltungen besuchen können, mit ärztlichem Zeugnis",
+        "source": "satzung",
+        "quote": "Kranke und schwerbehinderte Personen, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 sowie Begleitpersonen, die auf ständige Begleitung angewiesen sind; die Notwendigkeit einer ständigen Begleitung muss durch das Kennzeichen B nachgewiesen werden.",
+        "source": "satzung",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 80, die diesen durch amtliche Bescheinigung nachweisen sowie Begleitpersonen von schwerbehinderten Personen, die auf ständige Begleitung angewiesen sind. Die Notwendigkeit einer ständigen Begleitung muss durch das Kennzeichen B nachgewiesen werden."
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "source": "satzung",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison läuft vom 1. April bis 31. Oktober, die Vor- und Nachsaison vom 1. November bis 31. März.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01. April bis 31. Oktober, die Vor- und Nachsaison den Zeitraum vom 01. November bis 31. März."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben, zahlen stattdessen eine pauschale Jahreskurtaxe je Wohnung oder Wohnwagen: 110 Euro für eine Einzimmerwohnung, 165 Euro für eine Mehrzimmerwohnung, 110 Euro je Wohnwagenstellplatz für die Hauptsaison.",
+        "quote": "je Einzimmerwohnung 110,00 Euro je Mehrzimmerwohnung 165,00 Euro je Wohnwagenstellplatz für die Hauptsaison 110,00 Euro"
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldeverfahren der Gemeinde.",
+        "source": "satzung",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen und richtigen Einzug.",
+      "source": "satzung",
+      "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die fälligen Beträge erhebt die Gemeinde per Bescheid; du führst sie einen Monat nach Bekanntgabe des Bescheids ab.",
+      "source": "satzung",
+      "quote": "Die fällig gewordenen Beträge an Kurtaxe werden durch besonderen Bescheid erhoben und sind einen Monat nach Bekanntgabe des Bescheides an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach Ankunft an und nach Abreise ab.",
+      "source": "satzung",
+      "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz oder eine Hafenanlage mit Schiffsliegeplätzen betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/reichenau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 330,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Übriges Gemeindegebiet",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 330,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              [
+                "01-01",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gewann Schlafbach (Willam)",
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "04-01",
+                "10-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ]
+          },
+          {
+            "label": "Vor- und Nachsaison",
+            "ranges": [
+              [
+                "01-01",
+                "03-31"
+              ],
+              [
+                "11-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

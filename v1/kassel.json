@@ -1,0 +1,136 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kassel",
+  "name": "Stadt Kassel",
+  "short": "Kassel",
+  "ags": "06611000",
+  "state": "Hessen",
+  "district": "Kassel",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungssteuer im Gebiet der Stadt Kassel (Übernachtungssteuersatzung) vom 5. Mai 2025, Ortsrecht Nr. 8.02, Stadt Kassel",
+      "url": "https://www.kassel.de/satzungen/satzung-ueber-die-erhebung-einer-uebernachtungssteuer-im-gebiet-der-stadt-kassel-uebernachtungssteuersatzung.php",
+      "kind": "municipality",
+      "inForce": "2025-07-01",
+      "sha256": "fd0ee1cf5b19bbe4a16768e3e0242549c555f8da4f844b5c76b70dad8605be6c",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2025-07-01"
+    },
+    "faq": {
+      "title": "Übernachtungssteuer in Kassel (FAQ), Stadt Kassel",
+      "url": "https://www.kassel.de/buerger/rathaus_und_politik/haushalt-und-finanzen/uebernachtungssteuer.php",
+      "kind": "municipality",
+      "inForce": "2025-07-01",
+      "sha256": "251d3fa634f7b2c5e820ccc9d89f18f68f949626980fce41d353d05fb3b673a8",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2025-07-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Steuer beträgt 5 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt für die Übernachtung ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtung geschuldeten Entgelt ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen (Nettoentgelte).",
+      "vatIncluded": false
+    },
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tage je Kalenderjahr",
+      "quote": "Übernachtungen von ortsfremden Personen, die eine Gesamtdauer von 28 Tagen je Kalenderjahr im Stadtgebiet Kassel übersteigen."
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft selbst.",
+      "quote": "Steuerschuldnerin oder Steuerschuldner ist jede natürliche oder juristische Person, die einer Person entgeltliche Übernachtungen gewährt (Betreiberin/Betreiber eines Beherbergungsbetriebes)."
+    },
+    "deadline": {
+      "text": "Die Steuer setzt die Stadt per Bescheid je Quartal fest; sie ist 14 Tage nach Bekanntgabe des Bescheides fällig.",
+      "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr oder, wenn die Steuerpflicht erst während des Kalendervierteljahres beginnt, für den Rest des Kalendervierteljahres festgesetzt. Sie wird 14 Tage nach Bekanntgabe des Bescheides an die Steuerschuldnerin oder den Steuerschuldner fällig und ist von dieser oder diesem an die Stadtkasse der Stadt Kassel zu entrichten."
+    },
+    "reporting": {
+      "text": "Du gibst jedes Quartal bis zum 15. Tag nach dessen Ende eine Erklärung mit der Zahl der Übernachtungen und den Nettoentgelten ab, elektronisch oder auf dem amtlichen Vordruck.",
+      "quote": "Die Betreiberin/Der Betreiber eines Beherbergungsbetriebes ist verpflichtet, eine Erklärung über die Anzahl der Übernachtungen und der jeweils hierauf entfallenen Bemessungsgrundlage (Nettoentgelte) beim Magistrat der Stadt Kassel einzureichen. Die Erklärung muss dem Magistrat der Stadt Kassel bis zum 15. Tag nach Ablauf eines Kalendervierteljahres vorliegen"
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen in Jugendherbergen und anderen Betrieben, die das Finanzamt als gemeinnützig anerkannt hat, sind steuerfrei.",
+        "quote": "Übernachtungen in Jugendherbergen und sonstigen Beherbergungsbetrieben, deren Gemeinnützigkeit nach der Abgabenordnung vom zuständigen Finanzamt anerkannt ist;"
+      },
+      {
+        "text": "Klassenfahrten von Kindern und Jugendlichen bis 18 Jahre sind steuerfrei, ebenso die begleitenden Lehrkräfte.",
+        "quote": "Übernachtungen im Rahmen von Klassenfahrten von Kindern und Jugendlichen bis zum Alter von 18 Jahren. Gleiches gilt für die Übernachtungen von Lehrkräften, die die Klassenfahrt begleiten;"
+      },
+      {
+        "text": "Gruppenreisen von Kindern und Jugendlichen bis 18 Jahre sind steuerfrei, ebenso die begleitenden Gruppenleitungen.",
+        "quote": "Übernachtungen im Rahmen von Gruppenreisen von Kindern und Jugendlichen bis zum Alter von 18 Jahren. Gleiches gilt für die Übernachtungen der Gruppenleitungen, die die Gruppenreise begleiten;"
+      },
+      {
+        "text": "Wer in Kassel einen gemeldeten Haupt- oder Nebenwohnsitz hat, gilt nicht als ortsfremd und zahlt keine Übernachtungssteuer.",
+        "quote": "Als ortsfremde Person gilt, wer im Stadtgebiet Kassel keinen melderechtlich erfassten Haupt- oder Nebenwohnsitz unterhält."
+      },
+      {
+        "text": "Das Unterkommen in Krankenhäusern, Rehakliniken, Pflegeheimen, Hospizen, Frauenhäusern und Obdachlosenunterkünften gilt nicht als Übernachtung.",
+        "quote": "Nicht als Übernachtung im Sinne dieser Satzung gilt das Unterkommen in Krankenhäusern, Rehabilitationskliniken, Alten- und Pflegeheimen, Hospizen, Pflegehotels, Frauenhäusern, Obdachlosenunterkünften und vergleichbaren Einrichtungen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche und dienstliche Übernachtungen sind steuerpflichtig.",
+        "quote": "Ja, bei der Übernachtungssteuer wird kein Unterschied zwischen dienstlichen oder touristischen Übernachtungen gemacht.",
+        "source": "faq"
+      },
+      {
+        "text": "Die 28 Tage zählen je Person über alle Unterkünfte im Stadtgebiet, zusammenhängend oder nicht; die Befreiung beginnt am 29. Tag.",
+        "quote": "Entscheidend ist die kumulierte Anzahl der Übernachtungstage einer Person im Stadtgebiet Kassel innerhalb eines Kalenderjahres. Die Steuerbefreiung tritt ab dem 29. Tag ein, d.h. die vorherigen 28 Tage sind steuerpflichtig.",
+        "source": "faq"
+      },
+      {
+        "text": "Wenn du eine Unterkunft neu eröffnest, meldest du sie der Stadt unverzüglich, spätestens innerhalb von 14 Tagen an.",
+        "quote": "Wer einen Beherbergungsbetrieb im Sinne des § 1 Absatz 2 dieser Satzung eröffnet und in Betrieb nimmt, hat dies unverzüglich, spätestens jedoch innerhalb von 14 Tagen gegenüber dem Magistrat der Stadt Kassel auf amtlichem Vordruck durch Anmeldung anzuzeigen."
+      },
+      {
+        "text": "Das Ende deiner Tätigkeit, einen Betreiberwechsel und eine Verlegung zeigst du der Stadt vor dem Ereignis an.",
+        "quote": "Die Anzeige ist vor Eintritt des anzeigepflichtigen Ereignisses zu erstatten."
+      },
+      {
+        "text": "Für jede Unterkunft gibst du eine eigene Erklärung ab, wenn du mehrere betreibst.",
+        "quote": "ist je Beherbergungsbetrieb die Erklärung nach Absatz 3 Satz 1 gesondert abzugeben."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kassel/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": 28,
+    "maxPerStay": false
+  }
+}

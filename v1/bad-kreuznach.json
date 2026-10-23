@@ -1,0 +1,196 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-kreuznach",
+  "name": "Stadt Bad Kreuznach",
+  "short": "Bad Kreuznach",
+  "ags": "07133006",
+  "state": "Rheinland-Pfalz",
+  "district": "Bad Kreuznach",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Bad Kreuznach über die Erhebung eines Gästebeitrags in der Stadt Bad Kreuznach vom 19.12.2016, 1. geändert durch Satzung vom 11.12.2023, Lesefassung der Stadt im Ortsrecht (7/27)",
+      "url": "https://www.bad-kreuznach.de/buergerservice/politik-und-verwaltung/stadtverwaltung/ortsrecht/7-27-gaestebeitragssatzung-aktuell.pdf?cid=25xg",
+      "kind": "municipality",
+      "sha256": "968593bd5e1da98ff49f7a8672624b5975474f2c24b2e77e615738eab79fabc5",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2023-12-11"
+    },
+    "beschluss": {
+      "title": "Öffentliche Bekanntmachung der Stadt Bad Kreuznach über Festsetzung Gästebeitrag (Beschluss des Stadtrats vom 30.11.2023, ausgefertigt am 11.12.2023)",
+      "url": "https://www.bad-kreuznach.de/buergerservice/politik-und-verwaltung/stadtverwaltung/ortsrecht/07-27-beschluss-hoehe-gaestebeitrag.pdf?cid=1k4a",
+      "kind": "gazette",
+      "sha256": "6ec7ce50d196976058b9232fa1de434ea6182e49340444bb115b79763764b703",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2023-12-11"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird nach der Anzahl der Übernachtungen bemessen."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 350,
+          "quote": "Der Gästebeitrag beträgt einschließlich Umsatzsteuer pro beitragspflichtiger Person und Übernachtung 3,50 €.",
+          "source": "beschluss"
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "a) Kinder bis zur Vollendung des 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 40,
+      "perStay": false,
+      "text": "höchstens 40 Tage im Jahr",
+      "quote": "Der Gästebeitrag für alle Personen, die sich länger als 40 Tage im Jahr in Bad Kreuznach aufhalten, beträgt 140,00 € (einschließlich Umsatzsteuer) pro Person und Jahr.",
+      "source": "beschluss"
+    },
+    "exemptions": [
+      {
+        "text": "Kinder bis zum vollendeten 18. Lebensjahr zahlen nichts.",
+        "quote": "a) Kinder bis zur Vollendung des 18. Lebensjahres,"
+      },
+      {
+        "text": "Wer sich zu Unterrichts- oder Ausbildungszwecken in der Stadt aufhält, ist nicht beitragspflichtig.",
+        "quote": "a) die sich im Stadtgebiet zu Unterrichts- oder Ausbildungszwecken aufhalten und"
+      },
+      {
+        "text": "Wer Verwandte nur kurz und ohne Entgelt besucht, ist nicht beitragspflichtig.",
+        "quote": "b) die sich im Stadtgebiet zum vorübergehenden Besuch bei Verwandten ohne Zahlung eines Entgelts aufhalten."
+      },
+      {
+        "text": "Teilnehmer an Jugendsport- und Jugendfreizeitveranstaltungen ortsansässiger Vereine samt Betreuern zahlen für die Dauer der Veranstaltung nichts.",
+        "quote": "b) Teilnehmer an Jugendsport- und Jugend Freizeitveranstaltungen einschließlich deren Betreuer, die ortsansässige Vereine veranstalten, für die Dauer dieser Veranstaltung,"
+      },
+      {
+        "text": "Bettlägerig Kranke und andere Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts.",
+        "quote": "c) bettlägerig Kranke oder sonstige Kranke, die ihre Unterkunft nicht verlassen können,"
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 % zahlen nichts, wenn sie den Grad nachweisen.",
+        "quote": "d) Schwerbehinderte, deren Grad der Behinderung mindestens 80 % beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung von mindestens 80 % zahlen nichts, wenn die Notwendigkeit der Begleitung nachgewiesen ist.",
+        "quote": "e) Begleitpersonen von Schwerbehinderten, deren Grad mindestens 80 % beträgt, wenn die Notwendigkeit der Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt im gesamten Stadtgebiet.",
+        "quote": "Erhebungsgebiet ist das gesamte Stadtgebiet."
+      },
+      {
+        "text": "Die Höhe des Gästebeitrags steht nicht in der Satzung, sondern setzt der Stadtrat durch einen eigenen Beschluss fest.",
+        "quote": "Die Höhe des Gästebeitrags wird durch Beschluss des Stadtrates festgesetzt."
+      },
+      {
+        "text": "Wer sich länger als 40 Tage im Jahr in Bad Kreuznach aufhält, zahlt statt des Betrags je Übernachtung 140,00 € pro Person und Jahr.",
+        "quote": "Der Gästebeitrag für alle Personen, die sich länger als 40 Tage im Jahr in Bad Kreuznach aufhalten, beträgt 140,00 € (einschließlich Umsatzsteuer) pro Person und Jahr.",
+        "source": "beschluss"
+      },
+      {
+        "text": "Wer eine zweite oder weitere Wohnung im Stadtgebiet hat, zahlt unabhängig von der Aufenthaltsdauer 140,00 € pro Jahr.",
+        "quote": "Der pauschale Gästebeitrag für Personen, die ihre zweite oder eine weitere Wohnung im Stadtgebiet innehaben, beträgt unabhängig von der Aufenthaltsdauer 140,00 € pro Jahr.",
+        "source": "beschluss"
+      },
+      {
+        "text": "Deine Gäste zahlen den Gästebeitrag spätestens am Tag der Abreise an dich.",
+        "quote": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu entrichten."
+      },
+      {
+        "text": "Gäste, die eine der Befreiungen oder die Beitragsfreiheit für Unterricht und Ausbildung beanspruchen, weisen das am Anreisetag mit geeigneten Unterlagen und dem Formular „Erklärung Befreiung Gästebeitrag“ nach.",
+        "quote": "Die Voraussetzungen einer Beitragsbefreiung nach Abs. 2 sowie einer Beitragsfreiheit nach Abs. 1 Buchst. a sind von den Berechtigten am Tag ihrer Ankunft durch entsprechende Ausweise oder sonstige geeignete Unterlagen nachzuweisen. Der Nachweis hat mittels von der Stadt Bad Kreuznach bereitgestellten Formular „Erklärung Befreiung Gästebeitrag“ zu erfolgen und ist von dem Berechtigten mit seiner Unterschrift zu bestätigen."
+      },
+      {
+        "text": "Jeder beitragspflichtige Gast füllt am Anreisetag den Meldeschein aus.",
+        "quote": "Wer als beitragspflichtige Person bei einem Beherbergungsbetrieb im Stadtgebiet übernachtet, hat am Tag seiner Ankunft den von der Stadt Bad Kreuznach vorgeschriebenen Meldeschein auszufüllen und zu unterschreiben."
+      },
+      {
+        "text": "Du bewahrst die Meldescheine ein Jahr ab dem Anreisetag auf.",
+        "quote": "Der Inhaber des Beherbergungsbetriebes ist verpflichtet, die Meldescheine zu sammeln und vom Tag der Ankunft an ein Jahr aufzubewahren."
+      },
+      {
+        "text": "Verweigert ein Gast die Zahlung, zeigst du das der Stadt innerhalb von 3 Tagen an.",
+        "quote": "Verweigert eine gästebeitragspflichtige Person die Zahlung des Gästebeitrags, ist dies durch den Inhaber des Beherbergungsbetriebes innerhalb von 3 Tagen der Stadt Bad Kreuznach anzuzeigen."
+      },
+      {
+        "text": "Du haftest für das ordnungsgemäße und rechtzeitige Einziehen und Abführen des Gästebeitrags.",
+        "quote": "Der Beherbergungsbetrieb haftet für die ordnungsgemäße und rechtzeitige Einziehung und Abführung des Gästebeitrages der bei ihm verweilenden Gästebeitragspflichtigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Gästebeitrag bei deinen Gästen ein und führst ihn an die Stadt ab.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes hat den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und an jedem 15. des Folgemonats an die Stadt Bad Kreuznach abzuführen."
+    },
+    "deadline": {
+      "text": "Du führst den Gästebeitrag jeweils am 15. des Folgemonats an die Stadt ab.",
+      "quote": "an jedem 15. des Folgemonats an die Stadt Bad Kreuznach abzuführen."
+    },
+    "reporting": {
+      "text": "Du rechnest jeden Monat bis zum 10. des Folgemonats die Übernachtungen und die eingezogenen Beiträge ab, auch wenn du keine Gäste hattest.",
+      "quote": "Der Inhaber des Beherbergungsbetriebes hat für jeden Kalendermonat bis zum 10. des folgenden Monats eine Abrechnung der gewährten Gästeübernachtungen sowie der eingezogenen und abzuliefernden Gästebeiträge nach dem von der Stadt Bad Kreuznach vorgeschriebenen Muster abzugeben; dies gilt auch, sofern der Beherbergungsbetrieb in einem Monat keine Personen beherbergt hat."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-kreuznach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 40,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

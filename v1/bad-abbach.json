@@ -1,0 +1,173 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-abbach",
+  "name": "Markt Bad Abbach",
+  "short": "Bad Abbach",
+  "ags": "09273116",
+  "state": "Bayern",
+  "district": "Kelheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages im Markt Bad Abbach (Kurbeitragssatzung – KBS), Rechtsstand 01.03.2026",
+      "url": "https://www.bad-abbach.de/pdf/ortrecht--satzungen/kurbeitragssatzung-markt-bad-abbach.pdf",
+      "kind": "statute",
+      "inForce": "2026-03-01",
+      "sha256": "e098b6c95cf29118bf9cd37113a4cbb32728d5ee0e870a8046d397b258e0c4c6",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-03-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "für Personen ab dem vollendeten 16. Lebensjahr: 1,80 €,"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres sind kurbeitragsfrei."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer nur zur Berufsausübung in Bad Abbach ist und keine Kur- und Fremdenverkehrseinrichtungen nutzt",
+        "quote": "Personen, die sich nur zur Ausübung ihres Berufes in Bad Abbach aufhalten sind, sofern sie keine Kur- und Fremdenverkehrseinrichtungen in Anspruch nehmen"
+      },
+      {
+        "text": "Wer sich ausschließlich zur schulischen oder betrieblichen Ausbildung im Kurgebiet aufhält",
+        "quote": "Personen, die sich ausschließlich zur schulischen oder betrieblichen Ausbildung im Kurgebiet aufhalten"
+      },
+      {
+        "text": "Wer nachweislich bettlägerig ist und die Kureinrichtungen deshalb nicht nutzen kann, für die Dauer dieser Verhinderung",
+        "quote": "Personen, die aufgrund ärztlich nachgewiesener Bettlägerigkeit die Kureinrichtungen nicht nutzen können, für die Dauer der nachgewiesenen Verhinderung."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von 100, wenn der Ausweis ihn ausweist",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung von 100, sofern im Schwerbehindertenausweis ein entsprechender Grad der Behinderung ausgewiesen ist."
+      },
+      {
+        "text": "Begleitpersonen schwerbehinderter Menschen, wenn im Ausweis das Merkzeichen B eingetragen ist",
+        "quote": "Begleitpersonen schwerbehinderter Menschen sind von der Kurbeitragspflicht befreit, wenn im Schwerbehindertenausweis das Merkzeichen „B“ (Berechtigung zur Mitnahme einer Begleitperson) eingetragen ist."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50 bis unter 100",
+        "quote": "Schwerbehinderte Personen mit dem Grad der Behinderung von mindestens 50, aber weniger als 100, erhalten eine Ermäßigung des Kurbeitrags um 50 %.",
+        "percentOff": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50, aber weniger als 100, zahlen 50 % weniger.",
+        "quote": "Schwerbehinderte Personen mit dem Grad der Behinderung von mindestens 50, aber weniger als 100, erhalten eine Ermäßigung des Kurbeitrags um 50 %."
+      },
+      {
+        "text": "Der Kurbeitrag gilt im ganzen Gemeindegebiet von Bad Abbach.",
+        "quote": "Kurgebiet im Sinne dieser Satzung ist das gesamte Gebiet des Marktes Bad Abbach."
+      },
+      {
+        "text": "Der Kurbeitrag unterliegt nicht der Umsatzsteuer.",
+        "quote": "Der Kurbeitrag unterliegt nicht der Umsatzsteuer."
+      },
+      {
+        "text": "Wer eine Dauercampingunterkunft (Mobilheim, Wohnmobil, Wohn- oder Campingwagen, der länger als drei Monate im Kalenderjahr nicht oder nur unerheblich fortbewegt wird) innehat und kurbeitragspflichtig ist, zahlt einen jährlichen Pauschalbetrag: Anzahl der Stellplätze mal 28 Aufenthaltstage mal 1,80 Euro mal Anzahl der beitragspflichtigen Personen je Stellplatz.",
+        "quote": "Als Dauercampingunterkünfte gelten Mobilheime, Wohnmobile, Wohn- und Campingwagen die länger als drei Monate im Kalenderjahr nicht oder nur unerheblich fortbewegt werden. (2) Personen, die eine solche Unterkunft innehaben und nach § 2 kurbeitragspflichtig sind, haben einen jährlichen pauschalen Kurbeitrag zu entrichten. (3) Für die Bemessung des pauschalen Kurbeitrags wird unabhängig von der tatsächlichen Aufenthaltsdauer eine Aufenthaltsdauer von 28 Tagen je Kalenderjahr zugrunde gelegt. (4) Der pauschale Kurbeitrag berechnet sich wie folgt: Kurbeitrag pro Kalenderjahr = Anzahl der Stellplätze × 28 Aufenthaltstage × 1,80 € × Anzahl der beitragspflichtigen Personen je Stellplatz."
+      },
+      {
+        "text": "Jeder Gast erhält als Nachweis, dass er den Kurbeitrag entrichtet hat, eine elektronische Gästekarte; sie wird vom Beherbergungsbetrieb oder vom Markt Bad Abbach ausgestellt.",
+        "quote": "Zum Nachweis der Entrichtung des Kurbeitrags erhält der Kurbeitragspflichtige eine elektronische Gästekarte. (2) Die Gästekarte wird vom Beherbergungsbetrieb oder von dem Markt Bad Abbach: Tourismus, Marketing, Kurwesen | Bad Abbach-Info ausgestellt."
+      },
+      {
+        "text": "Alle, die Kurbeitrag einziehen müssen, haften dem Markt für die vollständige und fristgerechte Abführung des Kurbeitrags.",
+        "quote": "Die Verpflichteten haften für die vollständige und fristgerechte Abführung des Kurbeitrags."
+      },
+      {
+        "text": "Erfasst ein Beherbergungsbetrieb alle meldepflichtigen Angaben, genügt die Unterschrift des Gastes auf dem ausgedruckten amtlichen Meldeschein.",
+        "quote": "Werden alle meldepflichtigen Angaben durch einen Beherbergungsbetrieb erfasst, genügt die Unterschrift des Kurbeitragspflichtigen auf dem ausgedruckten amtlichen Meldeschein."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt oder Wohn- oder Stellplätze überlässt, meldet die Gäste, zieht den Kurbeitrag ein und führt ihn an den Markt ab.",
+      "quote": "Natürliche und juristische Personen, die Kurbeitragspflichtige gegen Entgelt beherbergen oder ihnen Wohn- oder Stellplätze überlassen, sind verpflichtet, - die Kurbeitragspflichtigen zu melden, - den Kurbeitrag einzuziehen und - diesen an den Markt Bad Abbach abzuführen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Deine Gäste müssen spätestens am Tag nach ihrer Ankunft ihre Angaben im elektronischen Melde-System des Marktes machen.",
+      "quote": "Kurbeitragspflichtige haben spätestens am Tag nach ihrer Ankunft die zur Feststellung der Beitragspflicht erforderlichen Angaben mittels eines vom Markt Bad Abbach zur Verfügung gestellten elektronischen Melde-Systems zu machen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-abbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ],
+        "reduced": [
+          90
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50 bis unter 100",
+        "onApplication": false
+      }
+    ]
+  }
+}

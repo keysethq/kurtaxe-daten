@@ -1,0 +1,247 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "neustadt-an-der-donau",
+  "name": "Stadt Neustadt a.d.Donau",
+  "short": "Neustadt a.d.Donau",
+  "districts": [
+    "Bad Gögging"
+  ],
+  "ags": "09273152",
+  "state": "Bayern",
+  "district": "Kelheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrags der Stadt Neustadt a.d.Donau, in Kraft ab 01.01.2024",
+      "url": "https://www.neustadt-donau.de/fileadmin/Dateien/Webseite/Dateien/Satzungen__Verordnungen__Richtlinien/Satzung_f%C3%BCr_die_Erhebung_eines_Kurbeitrags_ab_01.01.2024.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "d2998a145ff82d8e3e80fecbeca77dd08e80f8853db9381f04a59de03095cf84",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der An- und Abreisetag gilt als 1 Tag."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist der Gemeindeteil Bad Gögging.",
+          "quote": "Der Kurbezirk I umfasst das Gebiet des Gemeindeteils Bad Gögging."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 210,
+              "quote": "im Kurbezirk I für Einzelpersonen 2,10 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei"
+              },
+              {
+                "underAge": 16,
+                "cents": 140,
+                "quote": "für die dritte und jede weitere Person 1,40 €",
+                "limit": {
+                  "quote": "vom siebten bis zum vollendeten 16. Lebensjahr zahlen sie die Sätze der dritten Person einer Familie"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Gemeindeteile Deisenhofen, Heiligenstadt und Sittling sowie das Gebiet Felbermühle.",
+          "quote": "Der Kurbezirk II umfasst das Gebiet der Gemeindeteile Deisenhofen, Heiligenstadt, Sittling und das Gebiet Felbermühle."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 140,
+              "quote": "im Kurbezirk II für Einzelpersonen 1,40 €"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei"
+              },
+              {
+                "underAge": 16,
+                "cents": 100,
+                "quote": "für die dritte und jede weitere Person 1,00 €",
+                "limit": {
+                  "quote": "vom siebten bis zum vollendeten 16. Lebensjahr zahlen sie die Sätze der dritten Person einer Familie"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von 100",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von 100% sind kurbeitragsfrei."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung von 100, wenn der Ausweis das Merkzeichen B hat",
+        "quote": "Dasselbe gilt für eine Begleitperson, wenn zusätzlich das Merkzeichen B vergeben ist."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag gilt nur im Kurgebiet, das sind die Kurbezirke I und II.",
+        "quote": "Kurgebiet ist das Gebiet der Kurbezirke I und II."
+      },
+      {
+        "text": "Familien zahlen in Kurbezirk I für die erste und zweite Person je 2,10 Euro und für die dritte und jede weitere Person 1,40 Euro.",
+        "quote": "Im Familienverband: für die erste Person 2,10 € für die zweite Person 2,10 € für die dritte und jede weitere Person 1,40 €"
+      },
+      {
+        "text": "Familien zahlen in Kurbezirk II für die erste und zweite Person je 1,40 Euro und für die dritte und jede weitere Person 1,00 Euro.",
+        "quote": "Im Familienverband: für die erste Person 1,40 € für die zweite Person 1,40 € für die dritte und jede weitere Person 1,00 €"
+      },
+      {
+        "text": "Zur Familie zählen nur Ehegatten und die von ihnen wirtschaftlich abhängigen Kinder.",
+        "quote": "Zu einer Familie gehören nur die Ehegatten und die wirtschaftlich von ihnen abhängigen Kinder."
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von 80 bis 90 Prozent zahlen in beiden Kurbezirken 1,05 Euro.",
+        "quote": "Schwerbehinderte 80-90% GdB 1,05 €"
+      },
+      {
+        "text": "Für Dauercamper nennt die Satzung einen Betrag von 45,00 Euro, ohne einen Zeitraum dazu zu nennen.",
+        "quote": "Dauercamper: 45,00 €"
+      },
+      {
+        "text": "Du händigst jedem Gast die ausgestellte Kurkarte am Tag der Ankunft aus.",
+        "quote": "Sie sind darüber hinaus verpflichtet, den Kurbeitrags- pflichtigen die ausgestellte Kurkarte am Tag der Ankunft auszuhändigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, meldet sie, zieht den Kurbeitrag ein und haftet der Stadt für den Eingang.",
+      "quote": "Natürliche und juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen sowie Inhaber von Campingplätzen sind verpflichtet, der Stadt die Beitragspflichtigen schriftlich oder per elektronischer Datenübermittlung zu melden, sofern diese sich nicht selbst gemeldet haben. Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Stadt gegenüber für den Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes an die Stadt ab; die Stadt kann zulassen, dass es erst am Monatsende geschieht.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen an die Stadt abzuführen. Die Stadt kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste der Stadt schriftlich oder elektronisch, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "der Stadt die Beitragspflichtigen schriftlich oder per elektronischer Datenübermittlung zu melden, sofern diese sich nicht selbst gemeldet haben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/neustadt-an-der-donau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 210,
+        "children": [
+          0,
+          140
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 210,
+            "children": [
+              0,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 140,
+            "children": [
+              0,
+              100
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

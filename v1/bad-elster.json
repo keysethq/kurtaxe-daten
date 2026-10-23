@@ -1,0 +1,281 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-elster",
+  "name": "Stadt Bad Elster",
+  "short": "Bad Elster",
+  "ags": "14523040",
+  "state": "Sachsen",
+  "district": "Vogtlandkreis",
+  "sources": {
+    "satzung": {
+      "title": "Kurtaxordnung: Verordnung des Sächsischen Staatsministeriums der Finanzen über die Erhebung der Kurtaxe in den sächsischen Staatsbädern, Neufassung vom 18. September 2003, zuletzt geändert durch Gesetz vom 5. April 2019, Fassung vom 27.04.2019 in REVOSax (Recht und Vorschriftenverwaltung Sachsen)",
+      "url": "https://www.revosax.sachsen.de/vorschrift_gesamt/1568/38455.pdf",
+      "kind": "statute",
+      "inForce": "2019-04-27",
+      "sha256": "6d031d974a9f29e3a251324fd0793e3a260ce1ec91625c27160db6d714c0347c",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2019-04-27"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens in einem Kurbezirk und der Abreisetag gelten für die Berechnung der Kurtaxe als ein Tag."
+    },
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "area": {
+          "text": "Zur Kurzone I gehört das Gebiet der Stadt Bad Elster ohne die Ortsteile der Kurzone II.",
+          "quote": "Die Kurzone I umfasst das Gebiet der Stadt Bad Elster, ausgenommen die in Satz 3 aufgeführten Ortsteile."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 220,
+              "quote": "Kurtaxe EUR Kurzone I 2,20 Kurzone II 1,10"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 14. Lebensjahres."
+              },
+              {
+                "underAge": 18,
+                "cents": 200,
+                "quote": "Ermäßigte Kurtaxe Kurzone I 2,00 Kurzone II 0,90",
+                "limit": {
+                  "quote": "Jugendliche vom 14. bis zum vollendeten 18. Lebensjahr"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "area": {
+          "text": "Zur Kurzone II gehören die Ortsteile Mühlhausen und Sohl.",
+          "quote": "Die Kurzone II umfasst die Ortsteile Mühlhausen und Sohl."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 110,
+              "quote": "Kurtaxe EUR Kurzone I 2,20 Kurzone II 1,10"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 14. Lebensjahres."
+              },
+              {
+                "underAge": 18,
+                "cents": 90,
+                "quote": "Ermäßigte Kurtaxe Kurzone I 2,00 Kurzone II 0,90",
+                "limit": {
+                  "quote": "Jugendliche vom 14. bis zum vollendeten 18. Lebensjahr"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Die Kurtaxe wird nach der Anzahl der Aufenthaltstage, längstens jedoch für 42 Tage pro Kalenderjahr, berechnet."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder bis zur Vollendung des 14. Lebensjahres zahlen nichts.",
+        "quote": "Kinder bis zur Vollendung des 14. Lebensjahres."
+      },
+      {
+        "text": "Wer sich ausschließlich zu anderen als Kur- oder Erholungszwecken im Kurbezirk aufhält, etwa zur Ausübung des Berufs, zum Besuch einer Unterrichtseinrichtung oder zur Ausbildung für einen Beruf, zahlt nichts.",
+        "quote": "Personen, die sich ausschließlich zu anderen als zu Kur- oder Erholungszwecken in den Kurbezirken aufhalten, insbesondere vorübergehend zur Ausübung ihres Berufs, zum Besuch einer Unterrichtseinrichtung, zur Ausbildung für einen Beruf,"
+      },
+      {
+        "text": "Wer nur im Rahmen eines Tagesausfluges, aber nicht zu Kurzwecken, einzelne Kur- oder Erholungseinrichtungen nutzt, zahlt nichts.",
+        "quote": "Personen, die ausschließlich im Rahmen eines Tagesausfluges jedoch nicht zu Kurzwecken einzelne Kur- oder Erholungseinrichtungen nutzen;"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen mit ärztlichem Zeugnis für die Dauer der Verhinderung nichts.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, bei Vorlage eines ärztlichen Zeugnisses für die Dauer der Verhinderung;"
+      },
+      {
+        "text": "Begleitpersonen von Behinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind, zahlen nichts.",
+        "quote": "Begleitpersonen von Behinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind;"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxe gilt im Kurbezirk Bad Elster, der das Gebiet der Stadt Bad Elster umfasst und in zwei Kurzonen eingeteilt ist.",
+        "quote": "Der Kurbezirk Bad Elster umfasst das Gebiet der Stadt Bad Elster und ist in zwei Kurzonen eingeteilt."
+      },
+      {
+        "text": "Die 42 Tage zählen auch dann, wenn ein Gast mehrmals im Kalenderjahr kommt.",
+        "quote": "Dies gilt auch bei mehreren Aufenthalten im Kalenderjahr."
+      },
+      {
+        "text": "Fallen Aufenthalte in verschiedene Kurzonen, wird die Kurtaxe anteilig berechnet.",
+        "quote": "Fallen ein oder mehrere Aufenthalte in verschiedene Kurzonen, ist die Kurtaxe anteilig zu berechnen."
+      },
+      {
+        "text": "Ermäßigt zahlen Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 Prozent, Jugendliche von 14 bis 18 sowie Schüler und Studenten von 18 bis 27 Jahren.",
+        "quote": "Die Kurtaxe nach § 5 Abs. 1 ist ermäßigt für: 1. Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 Prozent; 2. Jugendliche vom 14. bis zum vollendeten 18. Lebensjahr; 3. Schüler und Studenten vom 18. bis zum vollendeten 27. Lebensjahr;"
+      },
+      {
+        "text": "Ermäßigt zahlen auch Begleitpersonen von Behinderten, die nicht befreit sind, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird.",
+        "quote": "Begleitpersonen von Behinderten, die die Voraussetzungen des § 6 Satz 1 Nr. 3 4 nicht erfüllen, wenn die Notwendigkeit der Begleitung durch ärztliche Bescheinigung nachgewiesen wird."
+      },
+      {
+        "text": "Wer ermäßigt zahlen will, muss die Voraussetzungen nachweisen.",
+        "quote": "Das Vorliegen der Voraussetzungen für die Berücksichtigung einer Ermäßigung gemäß den Absätzen 1 und 2 ist durch den Kurtaxpflichtigen nachzuweisen."
+      },
+      {
+        "text": "Die ermäßigte Kurtaxe beträgt 2,00 € je Tag in der Kurzone I und 0,90 € in der Kurzone II.",
+        "quote": "Ermäßigte Kurtaxe Kurzone I 2,00 Kurzone II 0,90"
+      },
+      {
+        "text": "Auf Antrag kann ein Gast die Kurtaxe für ein Jahr pauschal zahlen (Jahreskurtaxe), unabhängig davon, wie lange er tatsächlich bleibt.",
+        "quote": "kann auf Antrag des Kurtaxpflichtigen unabhängig vom tatsächlichen Aufenthalt in einem Kurbezirk die Kurtaxe für ein Jahr pauschal erhoben werden (Jahreskurtaxe)."
+      },
+      {
+        "text": "Die Jahreskurtaxe beträgt in Bad Elster 80,00 €.",
+        "quote": "Kurzone II 0,90 Jahreskurtaxe 80,00"
+      },
+      {
+        "text": "Wer die Kurtaxe einzieht, erhält die Kurkarten; dafür kann ein Abschlag von 5 € je Kurkarte erhoben werden, der später angerechnet wird.",
+        "quote": "Die zum Einzug der Kurtaxe Verpflichteten erhalten Kurkarten. 2 Hierfür kann ein Abschlag von 5 EUR pro Kurkarte erhoben werden. 3 Die innerhalb eines Kalendermonats eingezogene Kurtaxe ist jeweils bis zum zehnten des folgenden Monats an die Sächsische Staatsbäder GmbH abzuführen, soweit in einer Vereinbarung nach § 25 Absatz 6 des Sächsischen Verwaltungskostengesetzes nichts anderes bestimmt wird. 4 Die aufgrund von Satz 2 geleisteten Abschlagszahlungen werden angerechnet."
+      },
+      {
+        "text": "Du haftest der Sächsischen Staatsbäder GmbH für den vollständigen und richtigen Einzug der Kurtaxe.",
+        "quote": "Die zum Einzug der Kurtaxe Verpflichteten haften gegenüber der Sächsischen Staatsbäder GmbH für den vollständigen und richtigen Einzug der Kurtaxe."
+      },
+      {
+        "text": "Die Meldung muss spätestens am ersten Werktag nach der Ankunft erfolgen.",
+        "quote": "zu enthalten und spätestens am ersten Werktag nach der Ankunft zu erfolgen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, zieht die Kurtaxe für die Sächsische Staatsbäder GmbH ein.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, zu Heil- und Kurzwecken betreut oder einen Campingplatz betreibt, ist verpflichtet, die Kurtaxe für die Sächsische Staatsbäder GmbH einzuziehen."
+    },
+    "deadline": {
+      "text": "Die in einem Kalendermonat eingezogene Kurtaxe führst du bis zum 10. des Folgemonats an die Sächsische Staatsbäder GmbH ab, wenn keine Vereinbarung etwas anderes bestimmt.",
+      "quote": "Die innerhalb eines Kalendermonats eingezogene Kurtaxe ist jeweils bis zum zehnten des folgenden Monats an die Sächsische Staatsbäder GmbH abzuführen, soweit in einer Vereinbarung nach § 25 Absatz 6 des Sächsischen Verwaltungskostengesetzes nichts anderes bestimmt wird."
+    },
+    "reporting": {
+      "text": "Die kurtaxpflichtigen Gäste meldest du der Sächsischen Staatsbäder GmbH schriftlich.",
+      "quote": "Die zum Einzug der Kurtaxe Verpflichteten haben die kurtaxpflichtigen Personen der Sächsischen Staatsbäder GmbH schriftlich zu melden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-elster/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0,
+          200
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 220,
+            "children": [
+              0,
+              200
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 110,
+            "children": [
+              0,
+              90
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

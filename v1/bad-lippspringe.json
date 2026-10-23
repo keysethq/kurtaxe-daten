@@ -1,0 +1,152 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-lippspringe",
+  "name": "Stadt Bad Lippspringe",
+  "short": "Bad Lippspringe",
+  "ags": "05774008",
+  "state": "Nordrhein-Westfalen",
+  "district": "Paderborn",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Bad Lippspringe vom 11.07.2025, im Ortsrecht der Stadt (ab 01.01.2026)",
+      "url": "https://www.bad-lippspringe.de/bali-wAssets/docs/rathaus/ortsrecht-und-satzungen/kurbeitraege/2025-06-03-Kurbeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-01",
+      "sha256": "b5521e70ecf8d74dbb4c716bbaeff86e86c2da19fd3e91f2fd204d2f3b5bd9cd",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "mit dem Tag der Anreise und endet mit dem Tag der Abreise. Die Bemessungsgrundlage ist die Übernachtung."
+    },
+    "area": {
+      "text": "Der Kurbeitrag wird im als Kurgebiet anerkannten Gebiet erhoben, dessen Grenzen die Anlage 1 der Satzung zeigt; zahlen muss auch, wer außerhalb des Kurgebiets in Bad Lippspringe zu Kur- oder Erholungszwecken untergebracht ist und Kureinrichtungen in Bad Lippspringe nutzt.",
+      "quote": "Der Kurbeitrag wird in dem als Kurgebiet anerkannten Gebiet erhoben. Die Grenzen des Kurgebiets sind in Anlage 1 definiert, die Bestandteil dieser Satzung ist. (2) Die Höhe des Kurbeitrages beträgt 2,80 Euro pro Übernachtung und Person. (3) Weitere Eintrittsverpflichtungen innerhalb des Kurgebietes bleiben von dieser Satzung unberührt. §4 Kurbeitragspflicht, Haftung Kurbeitragspflichtig ist, wer 1) im Kurgebiet Unterkunft nimmt oder wem eine Unterkunft zugewiesen worden ist, ohne in ihr seine Hauptwohnung im Sinne des § 22 des Bundesmeldegesetzs in der bei Erlass dieser Satzung geltenden Fassung zu haben. 2) in eigenen Wohngelegenheiten, wie Fahrzeuge oder Zelte, im Kurgebiet übernachtet. 3) außerhalb des Kurgebietes in Bad Lippspringe zu Kur- oder Erholungszwecken eine vorübergehende Unterkunft hat und Kureinrichtungen in Bad Lippspringe in Anspruch nimmt."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "Die Höhe des Kurbeitrages beträgt 2,80 Euro pro Übernachtung und Person."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Der Beitragspflicht unterliegen Personen nicht, soweit und solange sie a) das 14. Lebensjahr nicht vollendet haben"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder unter 14 zahlen nichts.",
+        "quote": "Der Beitragspflicht unterliegen Personen nicht, soweit und solange sie a) das 14. Lebensjahr nicht vollendet haben"
+      },
+      {
+        "text": "Wer nachweislich wegen einer Tagung, eines Kongresses oder aus beruflichen Gründen im Kurgebiet übernachtet, zahlt nichts; den Nachweis erbringt der Gast.",
+        "quote": "nachweislich aus Anlass von Tagungen oder Kongressen bzw. beruflichen Gründen im Kurgebiet Unterkunft nehmen. Der Nachweis des beruflichen Aufenthaltes ist von der kurbeitragspflichtigen Person zu erbringen."
+      },
+      {
+        "text": "Schwerbeschädigte und Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit ab 70 Prozent zahlen nichts, wenn sie die Behinderung nachweisen.",
+        "quote": "Schwerbeschädigte und Schwerbehinderte mit einer Minderung der Erwerbsfähigkeit ab 70 %. Der Nachweis zur Behinderung ist von der kurbeitragspflichtigen Person zu erbringen."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbeschädigten oder Schwerbehinderten zahlen nichts, wenn die Notwendigkeit der Begleitung nachgewiesen ist.",
+        "quote": "Begleitpersonen von Schwerbeschädigten oder Schwerbehinderten, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung, Schwerbeschädigtenausweis bzw. Schwerbehinderten-ausweis oder Rentenbescheid nachgewiesen wird."
+      },
+      {
+        "text": "Wer am Ort eine Schule besucht, ausgebildet oder weitergebildet wird, zahlt nichts; die Aus- oder Weiterbildung ist nachzuweisen.",
+        "quote": "am Ort eine Schule besuchen, für einen Beruf ausgebildet oder weitergebildet werden. Der Nachweis der Aus- bzw. Weiterbildung ist zu erbringen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurbeitragspflichtig ist auch, wer außerhalb des Kurgebiets in Bad Lippspringe zu Kur- oder Erholungszwecken untergebracht ist und Kureinrichtungen in Bad Lippspringe nutzt.",
+        "quote": "außerhalb des Kurgebietes in Bad Lippspringe zu Kur- oder Erholungszwecken eine vorübergehende Unterkunft hat und Kureinrichtungen in Bad Lippspringe in Anspruch nimmt."
+      },
+      {
+        "text": "Du darfst in den Fällen der Befreiung auf Antrag eine Befreiung aussprechen und hinterlegst den Nachweis dafür prüffähig.",
+        "quote": "Er ist berechtigt, auf Antrag in den Fällen des § 6 dieser Satzung eine Befreiung auszusprechen. Der Nachweis, der die Befreiung rechtfertigt, muss prüffähig hinterlegt werden."
+      },
+      {
+        "text": "Du stellst die Gästekarte auf den Namen des Gastes aus.",
+        "quote": "Die Gästekarte wird von dem Beherbergungsbetrieb, bzw. dem Klinikbetrieb auf den Namen des Inhabers ausgestellt."
+      },
+      {
+        "text": "Fehlt der Nachweis für eine Befreiung oder ist er offensichtlich falsch, haftest du bis zur Höhe des vollen Kurbeitrags.",
+        "quote": "Bei fehlendem oder offensichtlich falschem Nachweis haftet der Beherbergungsbetrieb bis zur Höhe des vollen Kurbeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag ein und führt ihn an die Stadt ab.",
+      "quote": "Der Beherbergungsbetrieb, bzw. Klinikbetrieb, hat den Kurbeitrag einzuziehen und an die Stadt Bad Lippspringe abzuführen."
+    },
+    "deadline": {
+      "text": "Der Kurbeitrag wird mit Ausstellung der Gästekarte fällig und nach der Rechnung der Stadt abgeführt; einen festen Termin nennt die Satzung nicht.",
+      "quote": "Der Kurbeitrag ist mit Ausstellung der Gästekarte fällig und nach Rechnungsstellung an die Stadt Bad Lippspringe abzuführen."
+    },
+    "reporting": {
+      "text": "Du trägst jeden Gast vom Tag der Anreise an in die Datenbank der Stadt ein, vorzugsweise digital.",
+      "quote": "Wer Personen gegen Entgelt beherbergt oder ihnen als Grundeigentümer Unterkunftsmöglichkeiten gewährt, ist verpflichtet, sie vom Tage der Anreise an in eine von der Stadt Bad Lippspringe bereitgestellte Datenbank einzutragen, vorzugsweise in digitaler Form."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-lippspringe/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

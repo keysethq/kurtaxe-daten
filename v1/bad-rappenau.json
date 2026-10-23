@@ -1,0 +1,267 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-rappenau",
+  "name": "Bad Rappenau",
+  "short": "Bad Rappenau",
+  "ags": "08125006",
+  "state": "Baden-Württemberg",
+  "district": "Heilbronn",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Rappenau vom 23.11.2023",
+      "url": "https://www.badrappenau.de/images/satzungen/2024-Aenderungen/10-02-KurtaxeSatzung.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "8754d85d3c50348f1dbc149c3911f708275ca6ec03f740f905473910b4530062",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "aenderung1": {
+      "title": "1. Änderungssatzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Rappenau, Gemeinderatsbeschluss vom 01.02.2024 (§ 3 und § 6 neu gefasst)",
+      "url": "https://www.badrappenau.de/images/satzungen/2024-Aenderungen/10-02a-2024-Kurtaxe-1._Aenderungssatzung.pdf",
+      "kind": "statute",
+      "sha256": "a00319325a102a3831bfb3b30232f85e2db116283bfa239f5fd0a143dcb0f99e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-02-05"
+    },
+    "aenderung2": {
+      "title": "2. Änderungssatzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Rappenau, Gemeinderatsbeschluss vom 12.12.2024 (§ 9 neu gefasst)",
+      "url": "https://www.badrappenau.de/images/satzungen/Barrierefreie-Satzungen/10-02-b-2.Aenderung-Kurtaxesatzung-barrierefrei.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "cc95a1fd2487fc74eadfb7ccbfe1d640a224adf457b5aa2681eacd1331d1b99e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist die Kernstadt ohne den Wohnbezirk Zimmerhof.",
+          "quote": "Der Kurbezirk I umfasst die Kernstadt ohne den Wohnbezirk Zimmerhof."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 290,
+              "quote": "Die Kurtaxe für Kurtaxepflichtige nach § 3 Abs. 1, beträgt für jede Person und jeden Tag inklusive der gesetzlichen Umsatzsteuer in Kurbezirk I € 2,90 Kurbezirk II € 1,45"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr;",
+                "source": "aenderung1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II ist das übrige Gemarkungsgebiet einschließlich des Wohnbezirks Zimmerhof.",
+          "quote": "Der Kurbezirk 2 umfasst das gesamte Gemarkungsgebiet einschließlich des Wohnbezirks Zimmerhof mit Ausnahme der übrigen Kernstadt."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 145,
+              "quote": "Die Kurtaxe für Kurtaxepflichtige nach § 3 Abs. 1, beträgt für jede Person und jeden Tag inklusive der gesetzlichen Umsatzsteuer in Kurbezirk I € 2,90 Kurbezirk II € 1,45"
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr;",
+                "source": "aenderung1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Kurtaxe wird auch nicht von ortsfremden Personen erhoben, die sich ohne Übernachtung in der Stadt aufhalten (Tagesbesucher).",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Wer in der Stadt arbeitet, in Ausbildung ist oder sich beruflich zu einer Tagung, Veranstaltung oder sonstigen Berufsausübung (etwa Montage) dort aufhält",
+        "quote": "die in der Stadt arbeiten oder in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden oder zur sonstigen Berufsausübung (z.B. Montage), aufhalten",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten;",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden",
+        "quote": "Besucher von Einwohnern, soweit sie in deren Haushalt unentgeltlich Aufnahme finden.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Einrichtungen oder Veranstaltungen zu besuchen, gegen ärztliches Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind, Einrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen, während der Dauer dieses Zustands",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn der Ausweis oder eine ärztliche Bescheinigung die Begleitung belegt",
+        "quote": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist.",
+        "source": "aenderung1"
+      },
+      {
+        "text": "Personen, die im Umfeld von Bad Rappenau arbeiten und dafür in Bad Rappenau übernachten",
+        "quote": "Personen, die im Umfeld von Bad Rappenau arbeiten und im Rahmen dieser Tätigkeit in Bad Rappenau übernachten.",
+        "source": "aenderung1"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die pauschale Jahreskurtaxe beträgt 40 Euro im Kurbezirk I und 20 Euro im Kurbezirk II, jeweils inklusive der gesetzlichen Umsatzsteuer.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt inklusive der gesetzlichen Umsatzsteuer in Kurbezirk I € 40,00 € Kurbezirk Il € 20,00 €"
+      },
+      {
+        "text": "Du haftest für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe und darfst sie dem Gast in Rechnung stellen.",
+        "quote": "Wohnungsgeber nach Satz 1 haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe. Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen.",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Die Meldung läuft über das kostenlose elektronische Meldeverfahren der Stadt.",
+        "quote": "Für die Meldung ist ab dessen Inbetriebnahme das von der Stadt unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden.",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Die Sätze von 2,90 Euro und 1,45 Euro enthalten die gesetzliche Umsatzsteuer.",
+        "quote": "Die Kurtaxe für Kurtaxepflichtige nach § 3 Abs. 1, beträgt für jede Person und jeden Tag inklusive der gesetzlichen Umsatzsteuer"
+      },
+      {
+        "text": "Der Gast muss den Grund für eine Befreiung glaubhaft machen; bei einem verspäteten Antrag gilt die Vergünstigung erst ab dem Eingang des Antrags.",
+        "quote": "Der Gast muss den betreffenden Vergünstigungsgrund glaubhaft machen. Der Antrag erfolgt in dem von der Stadt vorgegebenen Meldeverfahren. Bei verspäteten Anträgen wird die Vergünstigung erst vom Zeitpunkt des Antragseingangs gewährt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du meldest jeden Gast bei der Stadt an, ziehst die Kurtaxe ein und führst die gesammelten Beträge an die Stadt ab.",
+      "quote": "Wohnungsgeber, die Personen gegen Entgelt beherbergen, sowie Betreiber von Campingplätzen sind unbeschadet der ihnen nach dem Bundesmeldegesetz obliegenden polizeilichen Meldepflicht verpflichtet, jeden Ortsfremden unbeschadet möglicher Befreiungen nach Paragraf 6 zur Entrichtung der Kurtaxe bei der Stadt anzumelden, die Kurtaxe einzuziehen und die vereinnahmten Kurtaxezahlungen gesammelt an die Stadt abzuführen.",
+      "source": "aenderung2"
+    },
+    "deadline": {
+      "text": "Die Kurtaxe eines Kalendermonats führst du innerhalb eines Monats nach Aufforderung durch die Stadt ab.",
+      "quote": "Die vereinnahmten Kurtaxezahlungen sind für die Beherbergungen eines jeden abgelaufenen Kalendermonats innerhalb eines Monats nach Aufforderung durch die Stadt abzuführen.",
+      "source": "aenderung2"
+    },
+    "reporting": {
+      "text": "Die Gäste eines Kalendermonats meldest du bis zum 10. des Folgemonats bei der Stadt an.",
+      "quote": "Die Anmeldung muss für die Beherbergungen eines jeden abgelaufenen Kalendermonats bis zum 10. Kalendertag des Folgemonats erfolgen.",
+      "source": "aenderung2"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-rappenau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 290,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 290,
+            "children": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 145,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

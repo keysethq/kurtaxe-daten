@@ -1,0 +1,219 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-oeynhausen",
+  "name": "Stadt Bad Oeynhausen",
+  "short": "Bad Oeynhausen",
+  "ags": "05770004",
+  "state": "Nordrhein-Westfalen",
+  "district": "Minden-Lübbecke",
+  "sources": {
+    "satzung": {
+      "title": "Kurbeitragssatzung der Stadt Bad Oeynhausen vom 17.12.2009 in der Fassung der 2. Änderungssatzung vom 18.12.2025, Lesefassung der Stadt (Stand Januar 2026)",
+      "url": "https://www.badoeynhausen.de/fileadmin/user_upload/Stadt/Sonstiges/Satzungen/Wirtschaftliche_Unternehmen/86_kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "73e8db3fcdd2fd8b6605d8edda76b30d031dc270c1d0cf8097d1a1c04bd60e78",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Beide Tage gelten für die Festsetzung des Kurbeitrages als ein Tag."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im Erhebungsgebiet, das die Anlagen 1 und 2 der Satzung beschreiben und zeigen, nicht in der ganzen Stadt.",
+      "quote": "Das Erhebungsgebiet umfasst die Teile der Stadt Bad Oeynhausen, die von den in der Anlage 1 beschriebenen und in der Anlage 2 dargestellten Grenzen umschlossen werden."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "Kurbeitragspflichtige Personen ohne Ermäßigung: Gästekarte 2,80 €"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr in Begleitung von erziehungsberechtigten Personen"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 11000,
+      "text": "Pro ununterbrochenem Aufenthalt zahlt ein Gast höchstens die Jahresgästekarte von 110,00 €.",
+      "quote": "Jahresgästekarte: 110,00 € Einwohnergästekarte (§ 10): 100,00 € (2) Der Kurbeitrag wird für die Dauer jedes ununterbrochenen Aufenthalts in einem Kalenderjahr mit den in § 8 Abs. 1 genannten Sätzen, höchstens jedoch in Höhe der Jahresgästekarte erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr zahlen nichts, aber nur in Begleitung von erziehungsberechtigten Personen.",
+        "quote": "Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr in Begleitung von erziehungsberechtigten Personen"
+      },
+      {
+        "text": "Wer am Ort eine Schule besucht, ausgebildet oder weitergebildet wird, seinen Beruf ausübt oder Wehr- oder Ersatzdienst leistet, zahlt nichts.",
+        "quote": "Personen, die am Ort eine Schule besuchen, für einen Beruf ausgebildet oder weitergebildet werden, ihren Beruf ausüben oder Wehr- bzw. Ersatzdienst am Ort leisten"
+      },
+      {
+        "text": "Wer als Hausbesuch bei einem im Erhebungsgebiet wohnhaften Wohnungsgeber unentgeltlich aufgenommen wird, zahlt nichts.",
+        "quote": "Personen, die als Hausbesuch bei einem im Erhebungsgebiet wohnhaften Wohnungsgeber unentgeltlich Aufnahme finden"
+      },
+      {
+        "text": "Wer in einem Krankenhaus liegt, das keine Kurklinik ist, zahlt nichts.",
+        "quote": "Personen, die sich in Krankenhäusern aufhalten, die nicht Kurkrankenhäuser (Kurkliniken) sind"
+      },
+      {
+        "text": "Wer im Ronald McDonald Haus Bad Oeynhausen wohnt, zahlt nichts.",
+        "quote": "Personen, die im Ronald McDonald Haus Bad Oeynhausen Unterkunft nehmen"
+      },
+      {
+        "text": "Wer wegen einer Krankheit seine Unterkunft nicht verlassen kann und das ärztlich nachweist, zahlt nichts.",
+        "quote": "Personen, die aufgrund psychischer oder physischer Krankheit ihre Unterkunft nicht verlassen können und dies durch ärztliche Bescheinigung nachweisen"
+      },
+      {
+        "text": "Begleitpersonen von Menschen mit Schwerbehinderung können befreit sein; Voraussetzung ist unter anderem, dass die Notwendigkeit der ständigen Begleitung bei Aufenthaltsbeginn mit einem gültigen amtlichen Ausweis nachgewiesen wird.",
+        "quote": "Begleitpersonen von Menschen mit Schwerbehinderung, wenn die Notwendigkeit der ständigen Begleitung durch Vorlage eines gültigen amtlichen Ausweises bei Aufenthaltsbeginn nachgewiesen"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Der Kurbeitrag wird ermäßigt für Menschen mit Schwerbehinderung mit einem Grad der Behinderung von mindestens fünfzig von Hundert, nachgewiesen durch gültigen amtlichen Ausweis.",
+        "rates": [
+          {
+            "cents": 255,
+            "quote": "Kurbeitragspflichtige Personen mit Ermäßigung: Gästekarte ermäßigt 2,55 €"
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Begleitpersonen von Menschen mit Schwerbehinderung sind nur befreit, wenn sie die Kosten des Aufenthalts selbst in voller Höhe tragen und selbst keine Gesundheitsmaßnahme durchführen.",
+        "quote": "wird, sie die Kosten des Aufenthalts selbst in voller Höhe tragen und selbst keine Gesundheitsmaßnahme durchführen."
+      },
+      {
+        "text": "Der Kurbeitrag wird für Menschen mit Schwerbehinderung mit einem Grad der Behinderung von mindestens 50 ermäßigt, wenn sie einen gültigen amtlichen Ausweis vorlegen.",
+        "quote": "Der Kurbeitrag wird ermäßigt für Menschen mit Schwerbehinderung mit einem Grad der Behinderung von mindestens fünfzig von Hundert, nachgewiesen durch gültigen amtlichen Ausweis."
+      },
+      {
+        "text": "Die ermäßigte Gästekarte kostet 2,55 € je Tag.",
+        "quote": "Kurbeitragspflichtige Personen mit Ermäßigung: Gästekarte ermäßigt 2,55 €"
+      },
+      {
+        "text": "Bei mehreren Aufenthalten im Kalenderjahr wird höchstens der Preis der Jahresgästekarte erhoben; zu viel gezahlter Kurbeitrag wird auf Antrag vom Staatsbad erstattet, die Belege sind vorzulegen und der Anspruch erlischt am 31.01. für das Vorjahr.",
+        "quote": "Bei mehreren Aufenthalten im Kalenderjahr wird der Kurbeitrag nur bis zur Höhe der Jahresgästekarte erhoben, ggf. überzahlter Kurbeitrag wird auf Antrag vom Staatsbad erstattet. Entsprechende Belege sind vorzulegen. Der Anspruch erlischt jeweils am 31.01. für das Vorjahr."
+      },
+      {
+        "text": "Ortsfremde, die Eigentümer oder Besitzer einer Zweitwohnung im Erhebungsgebiet sind, zahlen unabhängig von Dauer und Häufigkeit der Aufenthalte einmal im Kalenderjahr den Kurbeitrag in Höhe der Jahresgästekarte.",
+        "quote": "Ortsfremde, die Eigentümer oder Besitzer einer Zweitwohnung im Erhebungsgebiet sind, haben direkt an das Staatsbad pro Kalenderjahr einen Kurbeitrag in Höhe der Jahresgästekarte zu leisten, unabhängig von der Dauer und der Häufigkeit der Aufenthalte während eines Kalenderjahres."
+      },
+      {
+        "text": "Für dauervermieteten Wohnraum gilt die Jahreskurbeitragspflicht der Zweitwohnungsinhaber nicht.",
+        "quote": "Dies gilt nicht für dauervermieteten Wohnraum."
+      },
+      {
+        "text": "Gemeldet wird elektronisch; das Staatsbad stellt dir Zugangsdaten und Druckvorlagen für die Gästekarten zur Verfügung.",
+        "quote": "Die Meldungen nach § 11 Absatz 1 Buchstabe a. dieser Satzung haben mittels eines elektronischen Meldeverfahrens zu erfolgen. Das Staatsbad stellt hierfür den Unterkunftsgebern die personalisierten Zugangsdaten und die Druckvorlagen für die Gästekarten zur Verfügung."
+      },
+      {
+        "text": "Auf schriftlichen Antrag kann das Staatsbad einen Unterkunftsgeber vom elektronischen Meldeverfahren befreien; dann meldest du mit analogen Formularen bis zum 15. des Folgemonats nach dem Abreisedatum.",
+        "quote": "Auf schriftlichen Antrag kann das Staatsbad zur Vermeidung unbilliger Härten einzelne Unterkunftsgeber von der Nutzungspflicht nach § 11 Absatz 3 befreien. In diesen Fällen sind für die Meldungen analoge Datenerfassungsformulare zu nutzen, die vom Staatsbad zur Verfügung gestellt werden und zwecks Abrechnung des Kurbeitrages bis zum 15. des Folgemonats nach Abreisedatum dem Staatsbad zu übermitteln sind."
+      },
+      {
+        "text": "Du stellst jedem Gast, der den Kurbeitrag zahlt, unmittelbar nach der Ankunft eine Gästekarte aus.",
+        "quote": "jeder kurbeitragspflichtigen Person unmittelbar nach Ankunft im Erhebungsgebiet eine Gästekarte auszustellen;"
+      },
+      {
+        "text": "Du weist den Kurbeitrag in der Beherbergungsrechnung besonders aus.",
+        "quote": "Der Kurbeitrag ist in der Beherbergungsrechnung besonders auszuweisen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, informierst du das Staatsbad sofort.",
+        "quote": "Weigert sich der Kurbeitragspflichtige den Kurbeitrag zu zahlen, ist das Staatsbad sofort zu unterrichten."
+      },
+      {
+        "text": "Du haftest für die vollständige, richtige und rechtzeitige Einziehung und Ablieferung des Kurbeitrags.",
+        "quote": "Die nach § 11 Meldepflichtigen haften für die vollständige und richtige sowie rechtzeitige Einziehung und Ablieferung des Kurbeitrages"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag ein und führt ihn nach der Rechnung des Staatsbads ab.",
+      "quote": "den Kurbeitrag einzuziehen und nach Rechnungsstellung (Bescheiderteilung) an das Staatsbad abzuführen."
+    },
+    "deadline": {
+      "text": "Setzt das Staatsbad den Kurbeitrag durch Beitragsbescheid fest, wird er einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Soweit der Kurbeitrag durch das Staatsbad durch Beitragsbescheid festgesetzt wird, wird der Kurbeitrag einen Monat nach Bekanntgabe des Beitragsbescheides fällig."
+    },
+    "reporting": {
+      "text": "Du nimmst von allen Gästen, auch von nicht beitragspflichtigen, bei der Anreise die Daten in den elektronischen Gasterhebungsbogen auf und übermittelst sie dem Staatsbad.",
+      "quote": "von den bei Ihnen gegen Entgelt oder Kostenerstattung verweilenden Personen (auch nicht beitragspflichtigen Personen) unmittelbar bei Anreise die notwendigen Daten in den elektronischen Gasterhebungsbogen aufzunehmen und die Daten an das Staatsbad zu übermitteln;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-oeynhausen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0
+        ],
+        "reduced": [
+          255
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      }
+    ],
+    "stayCap": 11000
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bonn",
+  "name": "Bundesstadt Bonn",
+  "short": "Bonn",
+  "ags": "05314000",
+  "state": "Nordrhein-Westfalen",
+  "district": "Bonn",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Beherbergungssteuer im Gebiet der Stadt Bonn vom 12. Mai 2015 in der Fassung der Änderung vom 10.07.2025 (Ortsrecht 22-9, Lesefassung), Bundesstadt Bonn",
+      "url": "https://www.bonn.de/service-bieten/stadtpolitik-ortsrecht/ortsrecht/finanzen-steuern/satzung-zur-erhebung-einer-beherbergungssteuer-Stand-01.01.2024.php",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "56e54e3943c32577131cd33f5c7c136a374e99ee5a60af97a6e0a34c3b04f973",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2026-01-01"
+    },
+    "faq": {
+      "title": "Beherbergungssteuer, Fragen und Antworten (gültig seit 1. Januar 2026), Kassen- und Steueramt der Bundesstadt Bonn",
+      "url": "https://www.bonn.de/bonn-erleben/anreisen/beherbergungssteuer.php",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "hashOf": "quotes",
+      "changedOn": "2026-01-01",
+      "sha256": "4c8301a7757b4374574eea41323dd6af96ccb0a69d50858f7c4eb15be2ccd676",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 7,
+      "quote": "Die Beherbergungssteuer beträgt 7 vom Hundert der Bemessungsgrundlage nach Absatz 1."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Umsatzsteuer; teilen sich mehrere Personen ein Zimmer, wird der Preis durch die Zahl der Personen geteilt.",
+      "quote": "Bemessungsgrundlage ist der von Gast für die Beherbergung aufgewendete Betrag (einschließlich Umsatzsteuer). Dies gilt auch wenn mehrere Personen die Leistung zusammen in Anspruch nehmen (zum Beispiel Doppelzimmer). In diesem Fall ist zur Ermittlung der Bemessungsgrundlage der Preis für die gemeinschaftliche Beherbergung durch die Anzahl der beherbergten Personen zu teilen.",
+      "vatIncluded": true
+    },
+    "maxNights": {
+      "nights": 21,
+      "perStay": true,
+      "text": "höchstens 21 Tage bei ununterbrochenem Aufenthalt im selben Betrieb",
+      "quote": "Die Steuer wird bei einer ununterbrochenen Beherbergungsdauer im selben Betrieb längstens für 21 Tage erhoben."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein und führst sie an die Stadt ab.",
+      "quote": "Der Steuerentrichtungspflichtige hat die Beherbergungssteuer (§ 2 Abs. 1) vom Beherbergungsgast einzuziehen und die Steuer für die Rechnung des Beherbergungsgastes an das Kassen- und Steueramt der Stadt Bonn zu entrichten."
+    },
+    "deadline": {
+      "text": "Die Steuer zahlst du vierteljährlich bis zum 30. Tag nach Quartalsende an das Kassen- und Steueramt.",
+      "quote": "Die vom Steuerentrichtungspflichtigen selbst errechnete Beherbergungssteuer ist bis zum 30. Tag nach Ablauf eines Kalendervierteljahres an das Kassen- und Steueramt der Stadt Bonn zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Steueranmeldung auf dem amtlichen Vordruck ein und berechnest die Steuer darin selbst.",
+      "quote": "Für die Beherbergungsleistungen ist dem Kassen- und Steueramt der Stadt Bonn bis zum 15. Tag nach Ablauf eines Kalendervierteljahres eine Steueranmeldung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder bis zur Vollendung des 18. Lebensjahres zahlen keine Steuer.",
+        "quote": "Kinder bis zur Vollendung des 18. Lebensjahres,"
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Bonn übernachten muss, ist befreit, bei medizinischer Notwendigkeit auch die Begleitperson.",
+        "quote": "Personen, welche zum Zweck einer zwingend notwendigen medizinischen Behandlung in Bonn übernachten müssen. Ist aus medizinischen Gründen die Übernachtung einer Begleitperson erforderlich, gilt die Befreiung auch für diese Begleitperson"
+      },
+      {
+        "text": "Schülerreisen, die die Schulleitung genehmigt hat und die von Lehrkräften begleitet werden, sind befreit.",
+        "quote": "Übernachtungsaufwendungen, die im Rahmen von durch die Schulleitung genehmigten und von Lehrkräften begleiteten Schülerreisen entstehen"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Besteuert wird jede Beherbergung über den Grundbedarf des Wohnens hinaus, die unter keine der Befreiungen des § 3 fällt.",
+        "quote": "Die Besteuerung erfolgt für alle Beherbergungen, die über den Grundbedarf des Wohnens hinausgehen und unter keinen Befreiungstatbestand nach § 3 der Beherbergungssteuersatzung der Bundesstadt Bonn fallen",
+        "source": "faq"
+      },
+      {
+        "text": "Der Satz in § 4 Abs. 2 gilt in dieser Fassung seit dem 1. Januar 2026 (Änderung vom 10. Juli 2025).",
+        "quote": "10.07.2025 (ABl. S. 446) 01.01.2026 § 4 (2)"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € je Gast für das Frühstück sowie je 10 € für Mittag- und Abendessen ab.",
+        "quote": "der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7 Euro für Frühstück und je 10 Euro für Mittagessen und Abendessen je Gast und Mahlzeit"
+      }
+    ]
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-aachen Aachen NRW nrw-bonn Bonn nrw-bruehl Brühl nrw-dortmund Dortmund nrw-duesseldorf Düsseldorf ee8821a4-509a-4d54-804b-6429768c8c5f Frechen b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bonn/",
+  "calculation": {
+    "kind": "town",
+    "percent": 7,
+    "maxDays": 21,
+    "maxPerStay": true
+  }
+}

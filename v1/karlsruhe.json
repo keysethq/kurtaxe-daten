@@ -1,0 +1,150 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "karlsruhe",
+  "name": "Stadt Karlsruhe",
+  "short": "Karlsruhe",
+  "ags": "08212000",
+  "state": "Baden-Württemberg",
+  "district": "Karlsruhe",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungssteuer in der Stadt Karlsruhe (Übernachtungssteuersatzung – City Tax) vom 25. März 2025, Karlsruher Stadtrecht 9/9",
+      "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/013_Verwaltung_und_Stadtpolitik/Stadtrecht/9_Finanzen_und_Steuern/9-9_UEbernachtungssteuer.pdf",
+      "kind": "municipality",
+      "inForce": "2025-07-01",
+      "sha256": "6bec7ff221041fe780e663678d7bc0018d9d3d8f16a7ddc04ca5e0249e725029",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-07-01"
+    },
+    "faq": {
+      "title": "Häufige Fragen (FAQ's) zur Übernachtungsteuer (City Tax) in Karlsruhe, Stand März 2026, Stadtkämmerei Karlsruhe",
+      "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/013_Verwaltung_und_Stadtpolitik/Stadtfinanzen/UEbernachtungssteuer/FAQ_s_UEbernachtungsteuer__-_deutsch.pdf",
+      "kind": "municipality",
+      "inForce": "2026-03-01",
+      "sha256": "31b93271453b73d6562075e0023c7b1c7126b78b092ebe734164eed1d4d8dba1",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-03-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "cents": 400,
+      "perPerson": true,
+      "quote": "Für den Zeitraum vom 01.01.2026 bis zum 31.12.2027 4,00 Euro (Vier Euro).",
+      "next": {
+        "cents": 450,
+        "quote": "Für den Zeitraum ab 01.01.2028 4,50 Euro (Vier Euro und Fünfzig Cent).",
+        "source": "satzung"
+      }
+    },
+    "basis": {
+      "text": "Die Steuer ist ein fester Betrag je Gast und Übernachtung, unabhängig vom Übernachtungspreis.",
+      "quote": "Bemessungsgrundlage ist die Anzahl der Übernachtungen je Beherbergungsgast."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Betreiber für ihn ein, führst sie ab und haftest neben dem Gast dafür.",
+      "quote": "Der/die Betreiber/in der Beherbergungseinrichtung hat die Übernachtungssteuer für Rechnungen des Beherbergungsgastes zu entrichten (Steuerentrichtungspflichtige/r)."
+    },
+    "deadline": {
+      "text": "Bei erfolgter Steueranmeldung ist die Steuer am 45. Tag nach Quartalsende fällig und an die Stadt zu zahlen.",
+      "quote": "Die Übernachtungssteuer ist bei erfolgter Steueranmeldung am fünfundvierzigsten Tag nach Ablauf des Anmeldezeitraums fällig und an die Stadt Karlsruhe zu entrichten."
+    },
+    "reporting": {
+      "text": "Du gibst für jedes Quartal eine unterschriebene Steueranmeldung bei der Stadtkämmerei ab und berechnest die Steuer darin selbst.",
+      "quote": "Der/die Betreiber/in eines Beherbergungsbetriebes hat für jedes Kalendervierteljahr (Anmeldezeitraum) der Stadt Karlsruhe – Stadtkämmerei – Abteilung Kommunale Steuern – eine von diesem/dieser oder seinem/seiner Vertreter/in unterschriebene Steueranmeldung abzugeben."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Kindern und Jugendlichen bis zum vollendeten 18. Lebensjahr sind steuerfrei.",
+        "quote": "Ausgenommen von der Besteuerung ist die Beherbergung von Kindern und Jugendlichen bis zum vollendeten 18. Lebensjahr."
+      },
+      {
+        "text": "Übernachtungen in Jugendherbergen und anderen Einrichtungen, deren Gemeinnützigkeit das Finanzamt anerkannt hat, sind steuerfrei.",
+        "quote": "Übernachtungen in Jugendherbergen und sonstigen Beherbergungseinrichtungen, deren Gemeinnützigkeit nach der Abgabenordnung vom zuständigen Finanzamt anerkannt ist, sind von der Übernachtungssteuer ausgenommen."
+      },
+      {
+        "text": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "quote": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig.",
+        "quote": "Somit werden alle entgeltlichen privaten sowie beruflichen Übernachtungen in Beherbergungsbetrieben ab dem 01. Juli 2025 besteuert.",
+        "source": "faq"
+      },
+      {
+        "text": "Die Steueranmeldung reichst du bis zum fünfzehnten Tag nach Ablauf des Anmeldezeitraums ein, mit der Zahl der steuerpflichtigen und der steuerfreien Übernachtungen.",
+        "quote": "Die Steueranmeldung ist bis zum fünfzehnten Tag nach Ablauf des Anmeldezeitraums auf dem amtlich vorgeschriebenen Vordruck unter Angabe der Gesamtzahl der steuerpflichtigen Übernachtungen sowie der Anzahl der steuerfreien Übernachtungen einzureichen."
+      },
+      {
+        "text": "Auf die Steuer erhebst du keine Umsatzsteuer; für dich ist sie nur ein durchlaufender Posten.",
+        "quote": "Es ist keine Umsatzsteuer auf den Pauschalbetrag zu erheben. Für den Beherbergungsbetrieb handelt es sich nur um einen durchlaufenden Posten.",
+        "source": "faq"
+      },
+      {
+        "text": "Namen und Aufenthaltsdauer aller Gäste zeichnest du auf.",
+        "quote": "Der/die Betreiber/in des Beherbergungsbetriebes ist dazu verpflichtet, die Namen sowie die Dauer des Aufenthalts aller Beherbergungsgäste in geeigneter Form aufzuzeichnen."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du der Stadtkämmerei vor dem Ereignis an.",
+        "quote": "den Beginn und das Ende der Tätigkeit, den Wechsel des/der Betreibers/in sowie eine Verlegung des Beherbergungsbetriebes vor Eintritt des anzeigepflichtigen Ereignisses anzuzeigen."
+      },
+      {
+        "text": "Auch eine bezahlte, aber nicht angetretene Übernachtung wird besteuert.",
+        "quote": "Wurde eine Übernachtung durch den Gast storniert oder nicht angetreten, allerdings über den Tagesabschluß des Beherbergungsbetriebes abgerechnet, ist für diese Übernachtung auch entsprechend die Übernachtungsteuer abzuführen.",
+        "source": "faq"
+      }
+    ],
+    "maxMonths": {
+      "months": 2,
+      "text": "Bei einem ununterbrochenen Aufenthalt im selben Betrieb wird die Steuer höchstens für zwei Monate erhoben.",
+      "quote": "Die Übernachtungssteuer wird bei einer ununterbrochenen Belegungsdauer im selben Betrieb längstens für zwei Monate erhoben."
+    },
+    "change": {
+      "from": "2028-01-01",
+      "text": "Die Satzung setzt den Betrag ab dem 1. Januar 2028 auf 4,50 Euro je Gast und Nacht.",
+      "quote": "Für den Zeitraum ab 01.01.2028 4,50 Euro (Vier Euro und Fünfzig Cent).",
+      "source": "satzung"
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/karlsruhe/",
+  "calculation": {
+    "kind": "town",
+    "cents": 400,
+    "perPerson": true,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 2,
+    "change": {
+      "from": "2028-01-01",
+      "label": "ab 1. Januar 2028"
+    },
+    "next": {
+      "cents": 450
+    }
+  }
+}

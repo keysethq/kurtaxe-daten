@@ -1,0 +1,105 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "muenster",
+  "name": "Stadt Münster",
+  "short": "Münster",
+  "ags": "05515000",
+  "state": "Nordrhein-Westfalen",
+  "district": "Münster",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungsteuer im Gebiet der Stadt Münster (Ortsrecht 20.06) vom 10.11.2023, Stadt Münster",
+      "url": "https://www.stadt-muenster.de/recht/ortsrecht/satzungen/detailansicht/satzungsnummer/20.06",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "068acea1ef19e268fbc6996f0ed82b065c408ca22a370f142d3756a6aaee3dd6",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2024-01-01"
+    },
+    "seite": {
+      "title": "Beherbergungssteuer, Amt für Finanzen und Beteiligungen der Stadt Münster",
+      "url": "https://www.stadt-muenster.de/finanzen/steuern-und-gebuehren/beherbergungssteuer",
+      "kind": "municipality",
+      "hashOf": "quotes",
+      "changedOn": "2024-01-01",
+      "sha256": "9e99079c01106991a0f9b074e0e6cd47a0397ea9cf7e1aaa0d4d4914df93de81",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 4.5,
+      "quote": "Die Beherbergungssteuer beträgt 4,5 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Beherbergungsgast für die Beherbergung aufgewendete Betrag (einschließlich Umsatzsteuer).",
+      "vatIncluded": true
+    },
+    "maxNights": null,
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du als Betreiber entrichtest sie für seine Rechnung an die Stadt.",
+      "quote": "Steuerschuldner ist der Beherbergungsgast. (2) Steuerentrichtungspflichtiger ist der Betreiber des Beherbergungsbetriebs i.S. d. § 2 Abs.1 dieser Satzung. Er entrichtet die Steuer für Rechnung des Beherbergungsgastes."
+    },
+    "deadline": {
+      "text": "Die Steuer zahlst du vierteljährlich bis zum 20. Tag nach Quartalsende an die Stadt.",
+      "quote": "Die Beherbergungssteuer ist bis zum 20. Tag nach Ablauf eines Kalendervierteljahres an die Stadt Münster zu entrichten."
+    },
+    "reporting": {
+      "text": "Du berechnest die Steuer selbst und reichst vierteljährlich bis zum 15. Tag nach Quartalsende die Steueranmeldung auf dem amtlichen Vordruck beim Amt für Finanzen und Beteiligungen ein.",
+      "quote": "bis zum 15. Tag nach Ablauf eines Kalendervierteljahres (15.04., 15.07., 15.10., 15.01.) eine Steueranmeldung nach amtlich vorge-schriebenem Vordruck bei der Stadt Münster, Amt für Finanzen und Beteiligungen, einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Beherbergungen im Rahmen eines schulischen Bildungsgangs bis einschließlich zur Sekundarstufe II sind steuerfrei, ebenso die begleitenden Lehrkräfte.",
+        "quote": "Für Beherbergungen im Rahmen eines schulischen Bildungsgangs bis einschließlich zur Sekundarstufe II wird keine Steuer erhoben. Dies gilt bei Beherbergungen im Rahmen eines schulischen Bildungsgangs auch für die Begleitperson (Lehrer*innen)."
+      },
+      {
+        "text": "Minderjährige, die im Rahmen einer Ausbildung bei einem anerkannten Träger der Jugendhilfe untergebracht sind, zahlen keine Steuer.",
+        "quote": "Ebenfalls ausgenommen sind Minderjährige bei einem Aufenthalt im Rahmen einer Ausbildung, sofern sie durch einen anerkannten Träger der Jugendhilfe beherbergt werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Seit 2024 wird nicht mehr zwischen touristischen und beruflichen Übernachtungen unterschieden; auch Geschäftsreisende zahlen.",
+        "quote": "Eine Unterscheidung, ob aus touristischen oder beruflichen Gründen in Münster übernachtet wird, wird ab dem Jahr 2024 nicht mehr vorgenommen.",
+        "source": "seite"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 10 € je Gast für das Frühstück sowie je 15 € für Mittag- und Abendessen ab.",
+        "quote": "abzüglich einer Pauschale von 10,00 Euro für Frühstück und je 15,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      }
+    ]
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-aachen Aachen NRW nrw-bonn Bonn nrw-bruehl Brühl nrw-dortmund Dortmund nrw-duesseldorf Düsseldorf ee8821a4-509a-4d54-804b-6429768c8c5f Frechen b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/muenster/",
+  "calculation": {
+    "kind": "town",
+    "percent": 4.5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

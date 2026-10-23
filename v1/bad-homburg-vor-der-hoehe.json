@@ -1,0 +1,275 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-homburg-vor-der-hoehe",
+  "name": "Stadt Bad Homburg v. d. Höhe",
+  "short": "Bad Homburg",
+  "ags": "06434001",
+  "state": "Hessen",
+  "district": "Hochtaunuskreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages in Bad Homburg v. d. Höhe vom 22.6.1987 (Ortsrecht 86-2), zuletzt geändert durch Beschluss der Stadtverordnetenversammlung vom 13.02.2025, Lesefassung „ab März 2025 gültige Fassung“ der Kur- und Kongreß-GmbH",
+      "url": "https://www.kur-royal.de/erleben/liegenschaften/kur-royal-day-spa/download-day-spa-pdfs/Kurbeitragssatzung_ab%20M%C3%A4rz%202025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-03-01",
+      "sha256": "12d73e9ba0f76bf7b77b8fd69f1aab67ea403567fa7d054685c84d045cc92068",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-03-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Anreisetag und der Abreisetag gelten zusammen als 1 Tag."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk",
+        "area": {
+          "text": "Der Kurbezirk ist das Gebiet, das § 3 Abs. 2 der Satzung nach Straßenzügen von der Friedberger Straße bis zur Eisenbahntrasse beschreibt, die genannten Straßen auf beiden Seiten.",
+          "quote": "Der Kurbezirk umfaßt das Gebiet vom Schnittpunkt der Stadtgrenze mit der Friedberger Straße (Ausgangspunkt) entlang dem Straßenzug Friedberger Straße, Höllsteinstraße, Dietigheimer Straße, Vor dem Untertor, Ritter-von-Marx-Brücke, Schulberg, Louisenstraße, Frankfurter Landstraße bis zur Eisenbahnüberführung, von dort entlang der Eisenbahntrasse bis zur nördlichen Stadtgrenze und von dort an dieser zurück bis zum Ausgangspunkt. Der Kurbezirk umfasst die genannten Straßen auf beiden Seiten."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 350,
+              "quote": "Der Kurbeitrag beträgt je Person und Aufenthaltstag im Kurbezirk EUR 3,50"
+            },
+            "children": [
+              {
+                "underAge": 17,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 17. Lebensjahres,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Außenbezirk",
+        "area": {
+          "text": "Der Außenbezirk ist das übrige Stadtgebiet außerhalb des Kurbezirks.",
+          "quote": "im übrigen Stadtgebiet (Außenbezirk) EUR 3,20."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 320,
+              "quote": "im übrigen Stadtgebiet (Außenbezirk) EUR 3,20."
+            },
+            "children": [
+              {
+                "underAge": 17,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 17. Lebensjahres,"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 56,
+      "perStay": false,
+      "text": "höchstens 8 Wochen innerhalb eines Jahres",
+      "quote": "Der Kurbeitrag wird bis zu einer Höchstaufenthaltsdauer von 8 Wochen innerhalb eines Jahres erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Besucher, die von Bad Homburger Einwohnern in deren Haushalt unentgeltlich aufgenommen werden, zahlen nichts.",
+        "quote": "Besucher, die von Bad Homburger Einwohnern in deren Haushalt unentgeltlich aufgenommen werden,"
+      },
+      {
+        "text": "Patienten der Bad Homburger Krankenhäuser zahlen nichts.",
+        "quote": "Patienten der Bad Homburger Krankenhäuser,"
+      },
+      {
+        "text": "Kinder bis zur Vollendung des 17. Lebensjahres zahlen nichts.",
+        "quote": "Kinder bis zur Vollendung des 17. Lebensjahres,"
+      },
+      {
+        "text": "Besucher von Jugendherbergen zahlen nichts.",
+        "quote": "Besucher von Jugendherbergen,"
+      },
+      {
+        "text": "Besucher im Rahmen der Städtepartnerschaft zahlen nichts.",
+        "quote": "Besucher im Rahmen der Städtepartnerschaft."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbeschädigte, Blinde, Körperbehinderte (Erwerbsminderung ab 50 %)",
+        "quote": "Der Kurbeitrag ermäßigt sich auf 50% des Tagessatzes für a) Schwerbeschädigte, Blinde und Körperbehinderte mit einer Erwerbsminderung von mindestens 50%,",
+        "percent": 50
+      },
+      {
+        "label": "Krankenpflegende ohne Einkommen, deren Kur ein Mutterhaus oder -orden zahlt",
+        "quote": "Der Kurbeitrag ermäßigt sich auf 50% des Tagessatzes für a) Schwerbeschädigte, Blinde und Körperbehinderte mit einer Erwerbsminderung von mindestens 50%, b) in der öffentlichen Krankenpflege tätigen Personen ohne Einkommen, denen die Kosten des Kuraufenthaltes von einem Mutterhaus oder -orden ersetzt werden,",
+        "percent": 50
+      },
+      {
+        "label": "Begleitpersonen von Menschen, die ständige Begleitung brauchen",
+        "quote": "Der Kurbeitrag ermäßigt sich auf 50% des Tagessatzes für a) Schwerbeschädigte, Blinde und Körperbehinderte mit einer Erwerbsminderung von mindestens 50%, b) in der öffentlichen Krankenpflege tätigen Personen ohne Einkommen, denen die Kosten des Kuraufenthaltes von einem Mutterhaus oder -orden ersetzt werden, c) Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, die auf eine ständige Begleitung angewiesen sind, sofern die Notwendigkeit einer ständigen Begleitung durch eine amtsärztliche Bescheinigung nachgewiesen wird.",
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Schwerbeschädigte, Blinde und Körperbehinderte mit einer Erwerbsminderung von mindestens 50 %, bestimmte Krankenpflegende und Begleitpersonen zahlen 50 % des Tagessatzes, wenn sie die Voraussetzungen nachweisen.",
+        "quote": "Der Kurbeitrag ermäßigt sich auf 50% des Tagessatzes für a) Schwerbeschädigte, Blinde und Körperbehinderte mit einer Erwerbsminderung von mindestens 50%,"
+      },
+      {
+        "text": "Du meldest alle beherbergten ortsfremden Personen, auch beitragsfreie, bis zum Ablauf des Tages nach Ankunft oder Abfahrt an beziehungsweise ab.",
+        "quote": "Wer Personen gegen Entgelt beherbergt, ist verpflichtet, alle von ihm beherbergten ortsfremden Personen ohne Rücksicht auf deren Kurbeitragspflicht bis zum Ablauf des auf die Ankunft bzw. Abfahrt folgenden Tages an- bzw. abzumelden."
+      },
+      {
+        "text": "Die Kurkarte stellst du als Vermieter aus.",
+        "quote": "Die Kurkarte wird vom Vermieter ausgefertigt."
+      },
+      {
+        "text": "Du haftest für den vollständigen und richtigen Einzug des Kurbeitrages.",
+        "quote": "Er haftet für den vollständigen und richtigen Einzug des Kurbeitrages."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt und sie melden muss, zieht den Kurbeitrag ein und führt ihn an die Kur- und Kongreß-GmbH ab.",
+      "quote": "Wer nach § 6 meldepflichtig ist, hat den Kurbeitrag von den beitragspflichtigen Personen einzuziehen und an die Kur- und Kongreß-GmbH abzuführen."
+    },
+    "deadline": {
+      "text": "Der Kurbeitrag wird 14 Tage nach der Zahlungsaufforderung fällig.",
+      "quote": "Der Kurbeitrag wird 14 Tage nach Zahlungsaufforderung durch die"
+    },
+    "reporting": {
+      "text": "Die ausgefüllten Meldeformulare schickst du bis zum 10. des Folgemonats an die Kur- und Kongreß-GmbH.",
+      "quote": "Der Meldepflichtige nach Abs. 1 hat die mit den zwingend vorgeschriebenen Angaben vollständig ausgefüllten Meldeformulare bis zum 10. des Folgemonats der Kur- und Kongreß-GmbH zu übermitteln."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-homburg-vor-der-hoehe/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 56,
+    "maxPerStay": false,
+    "childLimits": [
+      17
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 350,
+        "children": [
+          0
+        ],
+        "reduced": [
+          175,
+          175,
+          175
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 350,
+            "children": [
+              0
+            ],
+            "reduced": [
+              175,
+              175,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Außenbezirk",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 320,
+            "children": [
+              0
+            ],
+            "reduced": [
+              160,
+              160,
+              160
+            ]
+          }
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbeschädigte, Blinde, Körperbehinderte (Erwerbsminderung ab 50 %)",
+        "onApplication": false
+      },
+      {
+        "label": "Krankenpflegende ohne Einkommen, deren Kur ein Mutterhaus oder -orden zahlt",
+        "onApplication": false
+      },
+      {
+        "label": "Begleitpersonen von Menschen, die ständige Begleitung brauchen",
+        "onApplication": false
+      }
+    ]
+  }
+}

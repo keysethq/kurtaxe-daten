@@ -1,0 +1,199 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-herrenalb",
+  "name": "Bad Herrenalb",
+  "short": "Bad Herrenalb",
+  "ags": "08235033",
+  "state": "Baden-Württemberg",
+  "district": "Calw",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Bad Herrenalb vom 4. Dezember 2024",
+      "url": "https://www.badherrenalb.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Wirtschaftliche%20Unternehmen/2024_12_04_Satzung_%C3%BCber_die_Erhebung_einer_Kurtaxe.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "2cfaab283fe82d578e068d3a59270ea5b1d1c11ba53a0cbf4fd8433090bef43e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag incl. der rechtlich geltenden Umsatzsteuer 3,00 Euro."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 14. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und dabei keine Kureinrichtungen in Anspruch nehmen und keine Veranstaltungen besuchen",
+        "quote": "Einwohnern der Stadt Bad Herrenalb, die in deren Haushalt unentgeltlich aufgenonnnen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (zum Beispiel bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen, gegen ärztliches Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "die in der Stadt Bad Herrenalb arbeiten oder dort in Ausbildung stehen"
+      },
+      {
+        "text": "Teilnehmer an einem Schullandheimaufenthalt im Stadtgebiet",
+        "quote": "Teilnehmer an einem Schullandheimaufenthalt im Stadtgebiet mit den Stadtteilen."
+      },
+      {
+        "text": "Auf Antrag: Teilnehmer an beruflichen Tagungen, Lehrgängen und Kursen während des ersten Aufenthaltstages",
+        "quote": "Teilnehmer an beruflichen Tagungen, Lehrgängen und Kursen im Erhebungsgebiet während des ersten Tages des Aufenthaltes."
+      },
+      {
+        "text": "Auf Antrag: Begleitpersonen von Schwerbehinderten und Kranken, wenn die Notwendigkeit durch amtliche oder ärztliche Bescheinigung nachgewiesen ist",
+        "quote": "Begleitpersonen von Schwerbehinderten und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 v.H. wird die Kurtaxe auf Antrag um 20 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 20
+      },
+      {
+        "label": "Geschäftsreisende",
+        "quote": "Eine Ermäßigung von der Kurtaxe erhalten Geschäftsreisende auf jeweils 2,00 € (incl. der geltenden Umsatzsteuer) pro Übernachtung im Erhebungsgebiet.",
+        "rates": [
+          {
+            "cents": 200
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Menschen mit einem Grad der Behinderung ab 80 20 % weniger.",
+        "quote": "wird die Kurtaxe auf Antrag um 20 v. H. ermäßigt."
+      },
+      {
+        "text": "Geschäftsreisende zahlen 2 Euro je Übernachtung.",
+        "quote": "Eine Ermäßigung von der Kurtaxe erhalten Geschäftsreisende auf jeweils 2,00 € (incl. der geltenden Umsatzsteuer) pro Übernachtung im Erhebungsgebiet."
+      },
+      {
+        "text": "Geschäftsreisende sind Ortsfremde, die in Bad Herrenalb übernachten, aber weder dort arbeiten noch in Ausbildung stehen.",
+        "quote": "Geschäftsreisende sind ortsfremde Personen die in Bad Herrenalb übernachten aber weder in der Gemeinde arbeiten noch in Ausbildung stehen."
+      },
+      {
+        "text": "Die Ermäßigungen für Schwerbehinderte und für Geschäftsreisende gibt es nicht nebeneinander.",
+        "quote": "Ermäßigungen nach den Absätzen 3 und 4 werden nicht nebeneinander gewährt."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt woanders haben (etwa Inhaber einer Zweit- oder Ferienwohnung), und Campingplatznutzer zahlen statt der Tagessätze eine pauschale Jahreskurtaxe von 149,80 Euro je Person.",
+        "quote": "Diese beträgt je Person incl. der geltenden Umsatzsteuer 149,80 Euro."
+      },
+      {
+        "text": "Die Meldung läuft über das kostenlose elektronische Meldeverfahren der Stadt.",
+        "quote": "Für die Meldung ist das von der Stadt unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      },
+      {
+        "text": "Anträge auf Befreiung musst du spätestens am Tag der Abreise bei der Stadt einreichen; später eingegangene Anträge werden nicht berücksichtigt.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe sind spätestens am Tag der Abreise bei der Stadt Bad Herrenalb einzureichen. Der Befreiungsgrund ist nachzuweisen oder hinreichend glaubhaft zu machen. Verspätet eingegangene Anträge werden nicht berücksichtigt."
+      },
+      {
+        "text": "Meldest du einen Gast nicht rechtzeitig ab, zahlst du die Kurtaxe bis zur tatsächlichen Abmeldung weiter.",
+        "quote": "Kommt der Meldepflichtige seiner Verpflichtung zur rechtzeitigen Abmeldung des Gastes nicht nach, so hat er die Kurtaxe bis zum Zeitpunkt der tatsächlichen Abmeldung weiter zu zahlen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe von deinen Gästen ein und führst sie an die Stadt ab; für den vollständigen und richtigen Einzug haftest du.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen. Die fälligen Beträge sind innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheides an die Stadt Bad Herrenalb abzufuhren. Die Meldepflichtigen haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die fälligen Beträge führst du innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheids an die Stadt ab.",
+      "quote": "Die fälligen Beträge sind innerhalb von zwei Wochen nach Zustellung des Kurtaxe-Bescheides"
+    },
+    "reporting": {
+      "text": "Gäste meldest du an dem der Ankunft folgenden Werktag an und an dem der Abreise folgenden Werktag ab.",
+      "quote": "bei ihm verweilende Personen an dem der Ankunft bzw. Abreise folgenden Werktag an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-herrenalb/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ],
+        "reduced": [
+          240,
+          200
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "onApplication": true
+      },
+      {
+        "label": "Geschäftsreisende",
+        "onApplication": false
+      }
+    ]
+  }
+}

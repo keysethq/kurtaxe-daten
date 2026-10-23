@@ -1,0 +1,201 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-wildungen",
+  "name": "Stadt Bad Wildungen",
+  "short": "Bad Wildungen",
+  "ags": "06635003",
+  "state": "Hessen",
+  "district": "Waldeck-Frankenberg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrags in Bad Wildungen (Kurbeitragssatzung - KBS) in der Fassung vom 04.10.2021, geändert am 16.12.2024, Fassung der Stadt ab 01.01.2025",
+      "url": "https://media.canvayo.com/uploads/sites/144b6544638d8bee8cd592e0bb8c5851/2025/01/Kurbeitragssatzung-Bad-Wildungen-ab-01012025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "523e19bd92cc6c59e0d6c3dcbda0373d2423006e5bdcf74f165e17e3e46f95f8",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur in den Kurgebieten Kernstadt Bad Wildungen und Reinhardshausen, nicht in der ganzen Stadt.",
+      "quote": "Der Kurbeitrag wird nach Maßgabe des Absatzes 2 innerhalb der von dem staatlichen Prädikat als Heilbad erfassten Kurgebiete Kernstadt Bad Wildungen und den Stadtteil Reinhardshausen ganzjährig erhoben."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 260,
+          "quote": "Der Kurbeitrag beträgt pro Aufenthaltstag für Personen ab dem vollendeten 16. Lebensjahr 2,43 € netto, zzgl. der aktuell geltenden Mehrwertsteuer von 7 %, mithin 0,17 € und somit insgesamt 2,60 € brutto."
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres."
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr ermäßigt sich der Kurbeitrag um 50 %.",
+            "cents": 130
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": true,
+      "text": "höchstens 28 Tage je ununterbrochenem Aufenthalt in einem Kalenderjahr",
+      "quote": "Hält sich die kurbeitragspflichtige Person (siehe § 2) ohne Unterbrechung länger als 28 Tage in einem Kalenderjahr in Bad Wildungen auf, so ist sie für die über 28 Tage hinausgehende Zeit von der Zahlung des Kurbeitrags befreit."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder bis zur Vollendung des 6. Lebensjahres zahlen nichts.",
+        "quote": "Kinder bis zur Vollendung des 6. Lebensjahres."
+      },
+      {
+        "text": "Gäste, die von Einwohnern Bad Wildungens unentgeltlich und ohne Kostenerstattung aufgenommen werden, zahlen nichts.",
+        "quote": "Gäste, die von in Bad Wildungen lebenden Einwohnern unentgeltlich und ohne Kostenerstattung aufgenommen werden."
+      },
+      {
+        "text": "Erkrankte Personen, die ihre Unterkunft nicht verlassen und das per ärztlichem Attest nachweisen, zahlen nichts.",
+        "quote": "Erkrankte beitragspflichtige Personen, die ihre Unterkunft nicht verlassen und die Dauer der physischen Verhinderung durch ein ärztliches Attest nachweisen können."
+      },
+      {
+        "text": "Wer sich zu Ausbildungszwecken in Bad Wildungen aufhält, zahlt nichts; berufliche Fortbildungen sind beitragspflichtig.",
+        "quote": "Personen, die sich zu Ausbildungszwecken in Bad Wildungen aufhalten. Berufliche Fortbildungen sind kurbeitragspflichtig."
+      },
+      {
+        "text": "Teilnehmer an nationalen und internationalen Sportveranstaltungen in Bad Wildungen zahlen nichts.",
+        "quote": "Teilnehmer an in Bad Wildungen stattfindenden nationalen und internationalen Sportveranstaltungen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Ab einem Grad der Behinderung von 50 ermäßigt sich der Kurbeitrag für Schwerbehinderte um 50 %. Der Nachweis hierzu ist im Rahmen der Erklärung (Meldung) im Sinne des § 8 dieser Satzung durch Vorlage des Schwerbehindertenausweises zu erbringen.",
+        "percentOff": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch Personen, die sich zur Ausübung ihres Berufes in Bad Wildungen aufhalten, sind beitragspflichtig.",
+        "quote": "Hierzu zählen ebenso Personen, die sich zur Ausübung ihres Berufes in Bad Wildungen aufhalten."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung ab 50 zahlen die Hälfte, wenn sie das mit dem Schwerbehindertenausweis nachweisen.",
+        "quote": "Ab einem Grad der Behinderung von 50 ermäßigt sich der Kurbeitrag für Schwerbehinderte um 50 %. Der Nachweis hierzu ist im Rahmen der Erklärung (Meldung) im Sinne des § 8 dieser Satzung durch Vorlage des Schwerbehindertenausweises zu erbringen."
+      },
+      {
+        "text": "Die Ermäßigung für Kinder und die für Schwerbehinderte lassen sich nicht verbinden; es gilt nur eine davon.",
+        "quote": "Den Kurbeitragspflichtigen kann nur eine der Ermäßigungen nach Abs. 1 oder Abs. 2 gewährt werden."
+      },
+      {
+        "text": "Der Betrag von 2,60 € besteht aus 2,43 € netto und 0,17 € Mehrwertsteuer von 7 %.",
+        "quote": "2,43 € netto, zzgl. der aktuell geltenden Mehrwertsteuer von 7 %, mithin 0,17 € und somit insgesamt 2,60 € brutto."
+      },
+      {
+        "text": "Wer eine zweite oder weitere Wohnung in Bad Wildungen innehat und kurbeitragspflichtig ist, zahlt jährlich einen pauschalen Kurbeitrag.",
+        "quote": "Personen, die eine zweite oder weitere Wohnung in Bad Wildungen innehaben und die nach § 2 kurbeitragspflichtig sind, haben jährlich einen pauschalen Kurbeitrag zu entrichten."
+      },
+      {
+        "text": "Der pauschale Kurbeitrag für Zweitwohnungen wird auf Grundlage von 28 Aufenthaltstagen berechnet, unabhängig von Häufigkeit und Dauer der Aufenthalte.",
+        "quote": "Unabhängig von der Häufigkeit oder Dauer der Aufenthalte, wird als Berechnungsgrundlage für den pauschalen Kurbeitrag nach Absatz 1 eine Aufenthaltsdauer von 28 Tagen als unwiderlegbare Vermutung zugrunde gelegt."
+      },
+      {
+        "text": "Jedem beitragspflichtigen Gast händigst du eine vollständig ausgefüllte Kurkarte aus.",
+        "quote": "Die Verpflichteten haben der beitragspflichtigen Person eine vollständig ausgefüllte Kurkarte auszuhändigen."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige Einziehung und die vollständige Ablieferung des Kurbeitrags.",
+        "quote": "sie haften insoweit für die rechtzeitige Einziehung und die vollständige Ablieferung des Kurbeitrags."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen müssen die Gäste nachweisen.",
+        "quote": "Machen die Kurbeitragspflichtigen Befreiungen (§ 6) oder Ermäßigungen (§ 7) geltend, so ist das Vorliegen der dafür erforderlichen Voraussetzungen nachzuweisen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag ein und liefert ihn an den Eigenbetrieb Staatsbad Bad Wildungen/Bad Reinhardsquelle ab.",
+      "quote": "Die in § 9 Abs. 1 genannten Verpflichteten haben den Kurbeitrag zu berechnen, von den nach § 2 kurbeitragspflichtigen Personen einzuziehen und an den Eigenbetrieb Staatsbad Bad Wildungen/Bad Reinhardsquelle abzuliefern;"
+    },
+    "deadline": {
+      "text": "Den Kurbeitrag eines Monats lieferst du spätestens bis zum 10. des Folgemonats ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Kurbeiträge sind von dem zur Einziehung Verpflichteten spätestens bis zum 10. des folgenden Monats an den Eigenbetrieb Staatsbad Bad Wildungen/Bad Reinhardsquelle abzuliefern."
+    },
+    "reporting": {
+      "text": "Deine Gäste und ihre Daten übermittelst du spätestens am dritten Tag nach der Ankunft.",
+      "quote": "die Kurbeitragspflichtigen und die zur Ermittlung und Festsetzung des Kurbeitrags erforderlichen Daten spätestens am dritten Tag nach deren Ankunft zu übermitteln"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-wildungen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": true,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0,
+          130
+        ],
+        "reduced": [
+          130
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      }
+    ]
+  }
+}

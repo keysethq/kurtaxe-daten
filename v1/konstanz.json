@@ -1,0 +1,118 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "konstanz",
+  "name": "Stadt Konstanz",
+  "short": "Konstanz",
+  "ags": "08335043",
+  "state": "Baden-Württemberg",
+  "district": "Konstanz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Tourismus- und Klimaschutzabgabe in der Stadt Konstanz, Gemeinderatsbeschluss vom 27.10.2022, geändert am 24.11.2022",
+      "url": "https://www.konstanz.de/site/Konstanz/get/documents_E-675311049/konstanz/Dateien/Service/Ortsrecht/II%20Finanzen/II_05%20Satzung%20%C3%BCber%20die%20Erhebung%20einer%20Tourismus-%20und%20Klimaschutzabgabe%20ab%2001.04.2023.pdf",
+      "kind": "statute",
+      "inForce": "2023-04-01",
+      "sha256": "36c65294a60fdf2fb9e1942f8a9bffd2d65151d0c06c2e80edea88b3ced1d024",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2023-04-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Tourismus- und Klimaschutzabgabe",
+    "source": "satzung",
+    "rate": {
+      "percent": 5.6,
+      "quote": "Der Steuersatz beträgt 5,6 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Abgabe wird vom Übernachtungspreis berechnet, den der Gast zahlt, einschließlich Mehrwertsteuer und ohne Verpflegung, Parkplatz und ähnliche Nebenleistungen.",
+      "quote": "Bemessungsgrundlage ist der vom Gast für die Beherbergung aufgewendete Betrag (inkl. Mehrwertsteuer). Nicht hinzuzuziehen sind Nebenleistungen wie Verpflegung, Parkplatz oder sonstige vergleichbare Leistungen.",
+      "vatIncluded": true
+    },
+    "maxNights": null,
+    "hostDuty": {
+      "text": "Der Gast schuldet die Abgabe; du als Vermieter entrichtest sie für ihn an die Stadt und haftest neben ihm dafür.",
+      "quote": "Steuerschuldner ist der Beherbergungsgast. (2) Der Betreiber des Beherbergungsbetriebs hat die Tourismus- und Klimaschutzabgabe für Rechnung des Beherbergungsgastes zu entrichten. Er haftet neben dem Steuerschuldner gemäß § 3 Abs. 1 Nr. 2 KAG und § 33 Abs. 1 AO für die Tourismus- und Klimaschutzabgabe."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Abgabe für jedes Quartal per Bescheid fest; sie ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die errechnete Steuer wird durch Bescheid für das Kalendervierteljahr festgesetzt. Sie wird einen Monat nach Bekanntgabe des Bescheides an den haftenden Beherbergungsbetrieb fällig."
+    },
+    "reporting": {
+      "text": "Du gibst bis zum 10. Tag nach jedem Quartalsende die Steuererklärung ab, mit allen Übernachtungen, den steuerpflichtigen Übernachtungen, den Übernachtungen ohne Steuer und deren Bemessungsgrundlage.",
+      "quote": "Der Betreiber eines Beherbergungsbetriebes ist verpflichtet, bis zum 10. Tag nach Ablauf eines Kalendervierteljahres der Stadt Konstanz, Kämmerei Abt. Steuern, eine Erklärung nach amtlich vorgeschriebenem Vordruck oder im Onlineverfahren unter Angabe der Gesamtanzahl der Übernachtungen, der Anzahl der steuerpflichtigen Übernachtungen sowie die Anzahl der Übernachtungen, für die keine Übernachtungssteuer erhoben wurde und der jeweils hierauf entfallenden Bemessungsgrundlage, einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige Gäste zahlen nichts.",
+        "quote": "Ausgenommen von der Steuer ist die Beherbergung Minderjähriger."
+      },
+      {
+        "text": "Wer im Rahmen einer schulischen Veranstaltung (Landschulheim) übernachtet, zahlt nichts.",
+        "quote": "Die Steuer wird nicht erhoben, wenn die Beherbergung im Rahmen einer schulischen Veranstaltung („Landschulheim“) erfolgt."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von 100 zahlen nichts; steht im Ausweis das Merkzeichen B, gilt das auch für eine Begleitperson.",
+        "quote": "Schwerbehinderte Personen mit einem in einem entsprechenden Ausweis angegebenen Grad der Behinderung von 100 werden von der Erhebung der Steuer befreit. Bei einem im Ausweis angegebenen Merkzeichen „B“ gilt die Befreiung auch für eine Begleitperson."
+      },
+      {
+        "text": "Krankenhäuser, Rehakliniken, Pflegeheime, Hospize und Flüchtlingsunterkünfte gelten nicht als Beherbergung.",
+        "quote": "Als Beherbergung im Sinne dieser Satzung gilt nicht das Unterkommen in Krankenhäusern, Rehabilitationskliniken, Alten- und Pflegeheimen, Hospizen, Flüchtlingsunterkünften sowie vergleichbaren Einrichtungen, die dem Unterkommen von Personen in besonderen sozialen Situationen dienen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxesatzung der Stadt ist mit Ablauf des 31. März 2023 außer Kraft getreten; die Tourismus- und Klimaschutzabgabe gilt seit dem 1. April 2023.",
+        "quote": "Diese Satzung tritt zum 01.04.2023 in Kraft. Zugleich tritt die Satzung über die Erhebung einer Kurtaxe in der Stadt Konstanz (Kurtaxesatzung) mit Ablauf des 31.03.2023 außer Kraft."
+      },
+      {
+        "text": "Die Abgabe gilt für Hotel, Gasthof, Pension, Privatzimmer, Jugendherberge, Ferienwohnung, Motel sowie Camping- und Reisemobilplatz, unabhängig davon, ob die Beherbergungsleistung tatsächlich in Anspruch genommen wird.",
+        "quote": "(Hotel, Gasthof, Pension, Privatzimmer, Jugendherberge, Ferienwohnung, Motel, Camping- und Reisemobilplatz und ähnliche Einrichtungen), der gegen Entgelt einer Beherbergungsmöglichkeit bereitstellt. Dies gilt unabhängig davon, ob die Beherbergungsleistung tatsächlich in Anspruch genommen wird."
+      },
+      {
+        "text": "Übernachten mehrere Personen gemeinsam, wird der Gesamtpreis durch die Zahl der Personen geteilt, vorbehaltlich einer anderweitigen Abrechnung.",
+        "quote": "Vorbehaltlich einer anderweitigen Abrechnung ist im Falle der Benutzung einer Beherbergungsmöglichkeit durch mehrere Personen gemeinsam für die Ermittlung der Bemessungsgrundlage der Gesamtpreis durch die Anzahl der Personen zu teilen."
+      },
+      {
+        "text": "Lässt sich ein Pauschalpreis nicht aufteilen, ziehst du für Frühstück 10 Euro und für Mittag- und Abendessen je 25 Euro je Gast und Mahlzeit ab.",
+        "quote": "der Betrag der Gesamtrechnung abzüglich einer Pauschale von 10,00 Euro für Frühstück und je 25,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      },
+      {
+        "text": "Die Abgabe entsteht am Anreisetag.",
+        "quote": "Die Steuerpflicht entsteht am Tag der Ankunft der steuerpflichtigen Person (Beginn der entgeltpflichtigen Beherbergungsleistung)."
+      },
+      {
+        "text": "Deine Gäste meldest du innerhalb von 14 Tagen nach Ankunft und nach Abreise über das elektronische Programm der Stadt an und ab.",
+        "quote": "innerhalb von 14 Tagen nach Ankunft bzw. Abreise bei der Stadt Konstanz, Kämmerei Abteilung Steuern, an- bzw. abzumelden (Erfüllung des Meldegesetzes). Die Meldung hat über das bereitgestellte elektronische Programm zu erfolgen (AVS)."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/konstanz/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5.6,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

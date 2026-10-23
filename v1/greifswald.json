@@ -1,0 +1,148 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "greifswald",
+  "name": "Universitäts- und Hansestadt Greifswald",
+  "short": "Greifswald",
+  "ags": "13075039",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Universitäts- und Hansestadt Greifswald über die Erhebung einer Übernachtungssteuer (Übernachtungssteuersatzung), Lesefassung in der Fassung der 3. Änderungssatzung, gültig ab dem 01.07.2026",
+      "url": "https://www.greifswald.de/export/sites/hgw/downloads/satzungen/finanz-und-abgabewesen/Uebernachtungssteuer_Lesefassung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-07-01",
+      "sha256": "402fe6cdc89c5c6c4474383a6e1ea4dc937691ff23c06a7a609a8a4e5394dc84",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-07-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": null,
+    "tiers": [
+      {
+        "label": "Hotels, Pensionen, Ferienwohnungen und übrige Beherbergungsbetriebe",
+        "cents": 300,
+        "quote": "Der Steuersatz beträgt pro Übernachtung 3,00 EUR."
+      },
+      {
+        "label": "Camping- und Reisemobilplätze",
+        "cents": 200,
+        "quote": "Der Steuersatz für Camping- und Reisemobilplätze beträgt pro Übernachtung 2,00 EUR"
+      }
+    ],
+    "basis": {
+      "text": "Die Steuer richtet sich nach der Zahl der Übernachtungen je Gast, nicht nach dem Preis.",
+      "quote": "Die Anzahl der Übernachtungen je Beherbergungsgast stellt die Bemessungsgrundlage dar."
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldner bzw. Steuerschuldnerin ist der Betreiber bzw. die Betreiberin des Beherbergungsbetriebes."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr (Veranlagungszeitraum) festgesetzt. (2) Die Steuer wird einen Monat nach Bekanntgabe des Steuerbescheides fällig."
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 15. Tag nach Quartalsende die Erklärung auf dem amtlichen Vordruck bei der Abteilung Steuern ab, mit der Gesamtzahl der steuerbefreiten Übernachtungen.",
+      "quote": "bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres eine Erklärung der Bemessungsgrundlage nach amtlich vorgeschriebenem Vordruck unter Angabe der Gesamtzahl der Übernachtungen, die steuerbefreit sind, einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Kindern und Jugendlichen bis zum vollendeten 18. Lebensjahr sind steuerfrei.",
+        "quote": "alle Übernachtungen von Kindern und Jugendlichen bis zum vollendeten 18. Lebensjahr."
+      },
+      {
+        "text": "Bei Gruppenreisen von Kindern und Jugendlichen bis 18 Jahre sind auch die Übernachtungen der Gruppenleiter steuerfrei.",
+        "quote": "im Rahmen von Gruppenreisen von Kindern und Jugendlichen bis zum Alter von 18 Jahren die Übernachtung der zugehörigen Gruppenleiter und Gruppenleiterinnen,"
+      },
+      {
+        "text": "Übernachtungen in Einrichtungen, die gemeinnützige Körperschaften betreiben oder die in deren Trägerschaft stehen, sind steuerfrei.",
+        "quote": "alle Übernachtungen in Einrichtungen, die durch gemeinnützige Körperschaften betrieben werden bzw. sich in deren Trägerschaft befinden,"
+      },
+      {
+        "text": "Übernachtungen, die eine laufende Ausbildung veranlasst, sind steuerfrei.",
+        "quote": "alle durch eine laufende Ausbildung veranlassten Übernachtungen"
+      },
+      {
+        "text": "Zusammenhängende Übernachtungen im selben Betrieb, die zusammen länger als sechs Monate dauern, unterliegen nicht der Steuer.",
+        "quote": "Sollten Übernachtungsgäste zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, die eine Gesamtdauer von sechs Monaten übersteigen, so unterliegt der Aufwand für diese Übernachtungen nicht der Besteuerung nach dieser Satzung."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Steuer ist ein fester Betrag je Gast und Nacht; Camping- und Reisemobilplätze zahlen weniger, weil dort klassische Beherbergungsleistungen wie die Reinigung fehlen.",
+        "quote": "Der Steuersatz für Camping- und Reisemobilplätze beträgt pro Übernachtung 2,00 EUR, da bei dieser Beherbergung klassische Beherbergungsleistungen, wie z. B. die Reinigung, fehlen und davon auszugehen ist, dass eine minimale Infrastruktur und Komfort angeboten werden."
+      },
+      {
+        "text": "Schon die entgeltliche Buchung zählt als Übernachtung, auch wenn der Gast sie nicht in Anspruch nimmt.",
+        "quote": "Als Übernachtung im Sinne von Abs. 1 gilt bereits die entgeltliche Erlangung der Beherbergungsmöglichkeit unabhängig davon, ob diese tatsächlich in Anspruch genommen wird."
+      },
+      {
+        "text": "Auch Privatzimmer, Ferienhäuser und sämtliche Arten von Ferienwohnungen zählen als Beherbergungsbetrieb.",
+        "quote": "Beherbergungsbetriebe sind insbesondere Hotels, Pensionen, Herbergen, Privatzimmer, Camping- und Reisemobilplätze (abgegrenzte Gelände, die jedermann zum vorübergehenden Aufstellen von mitgebrachten Wohnwagen, Wohnmobilen oder Zelten zugänglich sind), Ferienhäuser sowie sämtliche Arten von Ferienwohnungen."
+      },
+      {
+        "text": "Studierende und Auszubildende machen ihre ausbildungsbedingte Übernachtung dir gegenüber durch eine Bestätigung der Bildungseinrichtung oder eine eigene schriftliche oder elektronische Bestätigung glaubhaft.",
+        "quote": "Studierende und Auszubildende machen gegenüber dem Beherbergungsbetrieb Übernachtungen im Sinne des § 7 Nr. 3 der Satzung, wie folgt, glaubhaft:"
+      },
+      {
+        "text": "Du musst die Voraussetzungen für Steuererhebung und Befreiung mit geeigneten Belegen nachweisen.",
+        "quote": "Betreiber und Betreiberinnen von Beherbergungsbetrieben sind verpflichtet, in allen Fällen der Steuererhebung und der Steuerbefreiung nach dieser Satzung das Vorliegen der Voraussetzungen mit geeigneten Belegen nachzuweisen"
+      },
+      {
+        "text": "Auf Verlangen des Gastes stellst du eine Rechnung oder Bescheinigung aus, aus der die Übernachtungssteuer hervorgeht.",
+        "quote": "Der Beherbergungsbetrieb hat dem Übernachtungsgast bzw. der Übernachtungsgästin auf Verlangen eine Rechnung oder Bescheinigung zu erteilen, aus der die Übernachtungssteuer hervorgeht."
+      },
+      {
+        "text": "Den Beginn, die Verlegung, die Aufgabe und den Betreiberwechsel deines Betriebs zeigst du der Abteilung Steuern an.",
+        "quote": "Wer einen Beherbergungsbetrieb neu gründet, hat dies gleichzeitig der Abteilung Steuern der Universitäts- und Hansestadt Greifswald anzuzeigen."
+      },
+      {
+        "text": "Krankenhäuser, Rehabilitationskliniken, Pflegeheime, Hospize, Frauenhäuser und vergleichbare Einrichtungen gelten nicht als Übernachtung im Sinne der Satzung.",
+        "quote": "Nicht als Übernachtung im Sinne von Abs. 1 gilt das Unterkommen in Krankenhäusern, Rehabilitationskliniken, Alten- und Pflegeheimen, Hospizen, Frauenhäusern und vergleichbaren Einrichtungen"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/greifswald/",
+  "calculation": {
+    "kind": "town",
+    "perPerson": true,
+    "byLabel": true,
+    "tiers": [
+      {
+        "label": "Hotels, Pensionen, Ferienwohnungen und übrige Beherbergungsbetriebe",
+        "cents": 300
+      },
+      {
+        "label": "Camping- und Reisemobilplätze",
+        "cents": 200
+      }
+    ],
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-urach",
+  "name": "Bad Urach",
+  "short": "Bad Urach",
+  "ags": "08415078",
+  "state": "Baden-Württemberg",
+  "district": "Reutlingen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Urach vom 10.04.2018",
+      "url": "https://www.bad-urach.de/de/rathaus/Verwaltung/Satzungen/Kurtaxesatzung",
+      "kind": "municipality",
+      "inForce": "2019-01-01",
+      "changedOn": "2019-01-01",
+      "hashOf": "text",
+      "sha256": "8e5b1afcfd841d693d8c42fcada92f50eb1bb25bb94aa6f025924f87ac91ce14",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist die Kernstadt Bad Urach ohne den Kurbezirk II.",
+          "quote": "Kurbezirk I 2,50 € Kernstadt Bad Urach ohne den Kurbezirk II"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag: Kurbezirk I 2,50 € Kernstadt Bad Urach ohne den Kurbezirk II Kurbezirk II 2,00 €"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die Stadtteile Hengen, Seeburg, Sirchingen und Wittlingen sowie der Campingplatz Pfählhof, die Jugendherberge, das Naturfreundehaus und das Haus auf der Alb.",
+          "quote": "Kurbezirk II 2,00 € Stadtteile Hengen, Seeburg, Sirchingen und Wittlingen sowie Campingplatz Pfählhof, Jugendherberge, Naturfreundehaus, Haus auf der Alb"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag: Kurbezirk I 2,50 € Kernstadt Bad Urach ohne den Kurbezirk II Kurbezirk II 2,00 €"
+            },
+            "children": [
+              {
+                "underAge": 16,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zum vollendeten 16. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (zum Beispiel bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen, gegen ärztliches Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z.B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten und Kranken auf Antrag, wenn die Begleitung durch amtliche oder ärztliche Bescheinigung nachgewiesen ist",
+        "quote": "Von der Entrichtung der Kurtaxe werden auf Antrag befreit: Begleitpersonen von Schwerbehinderten und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird"
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "die in der Gemeinde arbeiten oder in Ausbildung stehen"
+      },
+      {
+        "text": "Bettlägerige Personen in Akutkrankenhäusern, wenn die Bettlägerigkeit durch ärztliches Zeugnis nachgewiesen ist",
+        "quote": "Die Kurtaxe wird nicht von bettlägerigen Personen in Akutkrankenhäusern, sowie von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen. Die Bettlägerigkeit ist durch ärztliches Zeugnis nachzuweisen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 v.H., Ermäßigung auf die Hälfte des Kurtaxesatzes",
+        "onApplication": true,
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Schwerbehinderte mit einem Grad der Behinderung ab 80 die Hälfte.",
+        "quote": "Schwerbehinderte mit einem Grad der Behinderung von mindestens 80 v.H., Ermäßigung auf die Hälfte des Kurtaxesatzes"
+      },
+      {
+        "text": "Kurtaxepflichtige Einwohner zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: 75 Euro im Kurbezirk I, 60 Euro im Kurbezirk II.",
+        "quote": "Kurtaxepflichtige Einwohner nach § 2 Absatz 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person: Kurbezirk I 75,00 € Kurbezirk II 60,00 €"
+      },
+      {
+        "text": "Die Kurtaxe entsteht am Tag der Ankunft und wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxeschuld entsteht am Tag der Ankunft einer kurtaxepflichtigen Person in der Gemeinde. Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung musst du spätestens am Tag der Abreise bei der Kurverwaltung einreichen.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Kurverwaltung einzureichen."
+      },
+      {
+        "text": "Für die Meldung nutzt du den elektronischen Meldeschein oder die Vordrucke der Stadt.",
+        "quote": "Für die Meldung ist der elektronische Meldeschein oder die von der Stadt ausgegebenen Vordrucke zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein und führst sie an die Stadt ab; für den vollständigen und richtigen Einzug haftest du.",
+      "quote": "Die nach § 9 Meldepflichtigen haben, soweit nicht nach § 8 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats an die Stadt ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Stadt abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 10 Werktagen nach der Ankunft.",
+      "quote": "bei ihm verweilende Personen innerhalb von 10 Werktagen nach Ankunft zu melden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-urach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ],
+        "reduced": [
+          125
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ],
+            "reduced": [
+              125
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0
+            ],
+            "reduced": [
+              100
+            ]
+          }
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "onApplication": true
+      }
+    ]
+  }
+}

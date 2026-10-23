@@ -1,0 +1,171 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-neuenahr-ahrweiler",
+  "name": "Stadt Bad Neuenahr-Ahrweiler",
+  "short": "Bad Neuenahr-Ahrweiler",
+  "ags": "07131007",
+  "state": "Rheinland-Pfalz",
+  "district": "Ahrweiler",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Bad Neuenahr-Ahrweiler (Gästebeitragssatzung) vom 09.03.2016, zuletzt geändert durch Satzung vom 30.06.2025, Fassung ab 01.01.2026 in der Ortsrechtsammlung der Stadt",
+      "url": "https://www.bad-neuenahr-ahrweiler.de/medien/pdf/ortsrechtsammlung/gaestebeitragssatzung-ab-01.01.2026.pdf?cid=3wv",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "44115cc335d22809ca6015ace7401dc92cd15717561dc17ee7b4b9a30412309f",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Gästebeitrag wird in Form eines Übernachtungsbeitrages erhoben."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 250,
+          "quote": "a) ab Vollendung des 6. Lebensjahres 1,00 €; b) ab Vollendung des 18. Lebensjahres 2,50 €;"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Entrichtung des Gästebeitrages sind befreit: a) Kinder bis zur Vollendung des 6. Lebensjahres;"
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "a) ab Vollendung des 6. Lebensjahres 1,00 €; b) ab Vollendung des 18. Lebensjahres 2,50 €;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder bis zum vollendeten 6. Lebensjahr zahlen nichts.",
+        "quote": "Von der Entrichtung des Gästebeitrages sind befreit: a) Kinder bis zur Vollendung des 6. Lebensjahres;"
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung von 100 zahlen nichts, wenn sie den Grad nachweisen.",
+        "quote": "b) Schwerbehinderte, deren Grad der Behinderung 100 beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird;"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten mit einem Grad der Behinderung von 100 zahlen nichts, wenn die Notwendigkeit der Begleitung nachgewiesen ist.",
+        "quote": "c) Begleitpersonen von Schwerbehinderten, deren Grad 100 beträgt, wenn die Notwendigkeit der Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird;"
+      },
+      {
+        "text": "Wer im Erhebungsgebiet im Rahmen der Berufsausübung übernachtet, zahlt nichts.",
+        "quote": "d) Personen, die im Erhebungsgebiet (§ 2) im Rahmen der Berufsausübung Unterkunft nehmen."
+      },
+      {
+        "text": "Wer sich zu Unterrichts- oder Ausbildungszwecken im Erhebungsgebiet aufhält, ist nicht beitragspflichtig.",
+        "quote": "a) Personen, die sich im Erhebungsgebiet (§ 2) zu Unterrichts- oder Ausbildungszwecken aufhalten;"
+      },
+      {
+        "text": "Wer Verwandte nur kurz und ohne Entgelt besucht, ist nicht beitragspflichtig.",
+        "quote": "b) Personen, die sich im Erhebungsgebiet (§ 2) zum vorübergehenden Besuch bei Verwandten ohne Zahlung eines Entgeltes aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Gästebeitrag gilt im gesamten Gemeindegebiet der Stadt.",
+        "quote": "Erhebungsgebiet ist das gesamte Gemeindegebiet der Stadt Bad Neuenahr-Ahrweiler."
+      },
+      {
+        "text": "Zweitwohnungsinhaber zahlen einen Jahresbeitrag von 60,00 €.",
+        "quote": "als Jahresbeitrag für Zweitwohnungsinhaber (§ 3 Satz 2) 60,00 €."
+      },
+      {
+        "text": "Deine Gäste zahlen den Gästebeitrag spätestens am Tag der Abreise an dich.",
+        "quote": "Die Gästebeitragspflichtigen haben den Gästebeitrag spätestens am Tag ihrer Abreise an den Beherbergungsbetrieb zu entrichten."
+      },
+      {
+        "text": "Jeder beitragspflichtige Gast füllt am Anreisetag den Meldevordruck aus.",
+        "quote": "Wer als beitragspflichtige Person bei einem Beherbergungsbetrieb im Erhebungsgebiet (§ 2) übernachtet, hat am Tag seiner Ankunft den von der Stadtverwaltung vorgeschriebenen Meldevordruck auszufüllen und zu unterschreiben."
+      },
+      {
+        "text": "Du bewahrst die Meldevordrucke ein Jahr ab dem Anreisetag auf.",
+        "quote": "Der Beherbergungsbetrieb ist verpflichtet, die Meldevordrucke zu sammeln und vom Tag der Ankunft an ein Jahr aufzubewahren."
+      },
+      {
+        "text": "Verweigert ein Gast die Zahlung, zeigst du das der Stadt innerhalb eines Tages an.",
+        "quote": "Verweigert eine gästebeitragspflichtige Person die Zahlung des Gästebeitrages, ist dies durch den Beherbergungsbetrieb innerhalb von einem Tag der Stadtverwaltung anzuzeigen."
+      },
+      {
+        "text": "Du haftest für das ordnungsgemäße und rechtzeitige Einziehen und Abführen des Gästebeitrags.",
+        "quote": "Der Beherbergungsbetrieb haftet für die ordnungsgemäße und rechtzeitige Einziehung und Abführung des Gästebeitrages der bei ihm verweilenden Gästebeitragspflichtigen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Gästebeitrag bei deinen Gästen ein und führst ihn an die Stadt ab.",
+      "quote": "Der Beherbergungsbetrieb hat den Gästebeitrag von den bei ihm verweilenden gästebeitragspflichtigen Personen einzuziehen und innerhalb von 10 Tagen nach Zugang einer entsprechenden Zahlungsnachricht an die Stadtverwaltung abzuführen."
+    },
+    "deadline": {
+      "text": "Du führst den Gästebeitrag innerhalb von 10 Tagen nach Zugang der Zahlungsnachricht der Stadt ab.",
+      "quote": "innerhalb von 10 Tagen nach Zugang einer entsprechenden Zahlungsnachricht an die Stadtverwaltung abzuführen."
+    },
+    "reporting": {
+      "text": "Du gibst jeden Monat bis zum 10. des Folgemonats eine Gästebeitragserklärung ab, auch wenn du keine Gäste hattest.",
+      "quote": "Der Beherbergungsbetrieb hat für jeden Kalendermonat bis zum 10. des folgenden Monats eine Gästebeitragserklärung nach dem von der Stadtverwaltung vorgeschriebenen Muster abzugeben; dies gilt auch, sofern der Beherbergungsbetrieb in einem Monat keine Personen beherbergt hat."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-neuenahr-ahrweiler/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ]
+  }
+}

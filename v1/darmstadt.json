@@ -1,0 +1,127 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "darmstadt",
+  "name": "Wissenschaftsstadt Darmstadt",
+  "short": "Darmstadt",
+  "ags": "06411000",
+  "state": "Hessen",
+  "district": "Darmstadt",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungssteuer in der Wissenschaftsstadt Darmstadt (Übernachtungssteuersatzung) vom 14.12.2022, Darmstädter Stadtrecht Nr. 211",
+      "url": "https://www.darmstadt.de/fileadmin/Dateistruktur2024/04_RATHAUS/04_Stadtrecht-Satzungen/Alphabetisches_Sachregister/200_bis_299/211.pdf",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "9efeab630ff5fc56b73e158570e13132971f85f200977e7e576f3812f4613490",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2023-01-01"
+    },
+    "seite": {
+      "title": "Übernachtungssteuer, Digitales Rathaus der Wissenschaftsstadt Darmstadt",
+      "url": "https://digitales-rathaus.darmstadt.de/kategorien/dienstleistungen/uebernachtungssteuer",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "8823d14e6b67fea07d02f6009719bf761e0997a0e4705e43039910e2e6e4ad6b",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2023-01-01"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zur Übernachtungssteuer – FAQs, Wissenschaftsstadt Darmstadt, Finanzverwaltung (Stand 02.2026)",
+      "url": "https://rathaus.darmstadt.de/public/index.php?l=69&mr=20&smr=200&m=3939",
+      "kind": "municipality",
+      "inForce": "2026-02-01",
+      "sha256": "13e83b7bff56f1d33670c46be28eee70c621f5c01cdb03d3f81fd1cba6f6985e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-02-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 2,
+      "quote": "Die Steuer beträgt 2 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Nettoentgelt für die Übernachtung, ohne Umsatzsteuer, Verzehr und sonstige Nebenleistungen.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtung geschuldeten Entgelt ohne Umsatzsteuer, Verzehr und sonstige Entgelte für Nebenleistungen (Nettoentgelt).",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft selbst.",
+      "quote": "Steuerschuldner ist der/die Betreiber/in des Beherbergungsbetriebes, der/die dem Beherbergungsgast die entgeltliche Übernachtung gewährt."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist 14 Tage nach dessen Bekanntgabe an die Stadtkasse zu zahlen.",
+      "quote": "Sie wird 14 Tage nach Bekanntgabe des Bescheides an den Steuerschuldner/die Steuerschuldnerin fällig und ist von diesem/dieser an die Stadtkasse der Wissenschaftsstadt Darmstadt zu entrichten."
+    },
+    "reporting": {
+      "text": "Du reichst für jedes Quartal bis zum 15. Tag nach Quartalsende eine Erklärung auf dem amtlichen Vordruck ein und berechnest die Steuer darin selbst.",
+      "quote": "Die Erklärung muss bis zum 15. Tag nach Ablauf eines Kalendervierteljahres der Wissenschaftsstadt Darmstadt – Finanzverwaltung, Abteilung Steuern, Gebühren, Beiträge – vorliegen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen in Jugendherbergen und anderen Betrieben, deren Gemeinnützigkeit das Finanzamt anerkannt hat, sind steuerfrei.",
+        "quote": "Übernachtungen in Jugendherbergen und sonstigen Beherbergungsbetrieben, deren Gemeinnützigkeit nach der Abgabenordnung vom zuständigen Finanzamt anerkannt ist, sind von der Übernachtungssteuer ausgenommen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Steuer gilt für jede entgeltliche Übernachtung in einem Beherbergungsbetrieb.",
+        "quote": "Seit dem 01.01.2023 erhebt die Wissenschaftsstadt Darmstadt eine Übernachtungssteuer für jede entgeltliche Übernachtung in einem Beherbergungsbetrieb",
+        "source": "seite"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung nicht aufteilen, ziehst du bei Pauschalpreisen 10 Euro für das Frühstück sowie je 20 Euro für Mittag- und Abendessen je Person und Mahlzeit ab.",
+        "quote": "Sofern im Einzelfall die Aufteilung einer Gesamtrechnung in ein Entgelt für die Übernachtung und ein gesondertes Entgelt für den Verzehr nicht möglich ist, gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung/Frühstück beziehungsweise Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 10,00 Euro für Frühstück und je 20,00 Euro für Mittagessen und Abendessen je übernachtender Person und Mahlzeit."
+      },
+      {
+        "text": "Die Stadt hält es für wahrscheinlich, dass auf die Steuer Umsatzsteuer anfällt; verbindlich klärt das dein Finanzamt.",
+        "quote": "Die Übernachtungssteuer dürfte dann nach den vorgenannten Auffassungen der Finanzdirektionen zum Übernachtungsentgelt zählen und unterläge der Umsatzsteuerpflicht.",
+        "source": "faq"
+      },
+      {
+        "text": "Einen neuen Beherbergungsbetrieb meldest du unverzüglich, spätestens innerhalb von 14 Tagen, bei der Finanzverwaltung an.",
+        "quote": "Wer einen Beherbergungsbetrieb im Sinne des § 2 Abs.2 eröffnet und in Betrieb nimmt, hat dies unverzüglich, spätestens jedoch innerhalb von 14 Tagen gegenüber der Wissenschaftsstadt Darmstadt – Finanzverwaltung, Abteilung Steuern, Gebühren, Beiträge – auf amtlichem Vordruck durch Anmeldung anzuzeigen."
+      },
+      {
+        "text": "Das Ende deiner Vermietung, einen Betreiberwechsel und eine Verlegung zeigst du vor dem Ereignis an.",
+        "quote": "Der Betreiber/ Die Betreiberin eines Beherbergungsbetriebes ist verpflichtet, der Wissenschaftsstadt Darmstadt – Finanzverwaltung, Abteilung Steuern, Gebühren, Beiträge – das Ende seiner/ihrer Tätigkeit, den Wechsel des Betreibers oder der Betreiberin des Beherbergungsbetriebes und die Verlegung des Beherbergungsbetriebes anzuzeigen. Die Anzeige ist vor Eintritt des anzeigepflichtigen Ereignisses zu erstatten."
+      },
+      {
+        "text": "Auch ein gebuchtes, aber nicht genutztes Zimmer, das der Gast bezahlen muss (No-Show), wird besteuert.",
+        "quote": "Anderes gilt für das Nichterscheinen der Beherbergungsgäste (no-show) die die Beherbergungsleistung gebucht aber –aus welchem Grund auch immer- nicht genutzt und zu bezahlen haben.",
+        "source": "faq"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/darmstadt/",
+  "calculation": {
+    "kind": "town",
+    "percent": 2,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

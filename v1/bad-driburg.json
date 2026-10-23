@@ -1,0 +1,177 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-driburg",
+  "name": "Stadt Bad Driburg",
+  "short": "Bad Driburg",
+  "ags": "05762004",
+  "state": "Nordrhein-Westfalen",
+  "district": "Höxter",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Bad Driburg (Kurbeitragssatzung) vom 03.01.2019, im Ortsrecht der Stadt",
+      "url": "https://www.bad-driburg.de/de-wAssets/docs/Rathaus/Ortsrecht/80/800_Satzung-ueber-die-Erhebung-von-Kurbeitraegen-in-der-Stadt-Bad-Driburg-Kurbeitragssatzung-vom-03.01.2019.pdf",
+      "kind": "statute",
+      "inForce": "2019-02-01",
+      "sha256": "a72e92b8d4ffe6196d79b4fb7c15e1115d2dfd2961c81261d6f57abd65cbdc78",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2019-02-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Anreise und der Tag der Abreise gelten zusammen als ein Tag."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im als Kurort anerkannten Teil des Stadtgebiets (Kurgebiet), das die Anlage 1 der Satzung beschreibt, nicht in der ganzen Stadt.",
+      "quote": "Erhebungsgebiet für den Kurbeitrag ist der als Kurort anerkannte Teil des Stadtgebietes (Kurgebiet)."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 310,
+          "quote": "pro Person und Aufenthaltstag 3,10 €"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 14. Lebensjahres in Begleitung kurbeitragspflichtiger Aufsichtspersonen."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Der Kurbeitrag wird für die Dauer jedes Aufenthaltes erhoben, höchstens jedoch für 42 Tage pro Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder unter 14 zahlen nichts, wenn sie in Begleitung kurbeitragspflichtiger Aufsichtspersonen kommen.",
+        "quote": "Kinder bis zur Vollendung des 14. Lebensjahres in Begleitung kurbeitragspflichtiger Aufsichtspersonen."
+      },
+      {
+        "text": "Besucher, die bei einem Einwohner unentgeltlich aufgenommen werden und keine Kureinrichtungen nutzen, zahlen nichts.",
+        "quote": "Personen, die als Besucher einer im Erhebungsgebiet wohnhaften Person unentgeltliche Aufnahme finden und keine Kureinrichtungen in Anspruch nehmen."
+      },
+      {
+        "text": "Ortsfremde, die sich nur zur Ausübung ihres Berufes, zu Schul- oder Ausbildungszwecken oder zum Wehr- oder Bundesfreiwilligendienst im Kurgebiet aufhalten, zahlen nichts.",
+        "quote": "ortsfremde Personen, die sich nur zur Ausübung ihres Berufes, zu Schul- bzw. Ausbildungszwecken oder zur Leistung des Wehr- oder Bundesfreiwilligendienstes im Kurgebiet aufhalten."
+      },
+      {
+        "text": "Wer wegen einer Krankheit seine Unterkunft nicht verlassen kann und das amtlich oder ärztlich nachweist, zahlt nichts.",
+        "quote": "Personen, die aufgrund psychischer oder physischer Krankheiten ihre Unterkunft nicht verlassen können und deshalb zur Inanspruchnahme jeglicher Kureinrichtungen nicht in der Lage sind und dies durch amtliche (z.B. durch Vorlage eines Schwerbehindertenausweises mit dem Merkzeichen RF) oder ärztliche Bescheinigung nachweisen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v.H. bei Vorlage eines amtlichen Ausweises 2,40 €",
+        "rates": [
+          {
+            "cents": 240
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 50 zahlen 2,40 € je Tag, wenn sie einen amtlichen Ausweis vorlegen.",
+        "quote": "für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v.H. bei Vorlage eines amtlichen Ausweises 2,40 €"
+      },
+      {
+        "text": "Der Betrag schließt die gesetzliche Mehrwertsteuer zum ermäßigten Satz ein.",
+        "quote": "Der Kurbeitrag ist umsatzsteuerpflichtig und schließt die gesetzliche Mehrwertsteuer nach dem jeweils geltenden ermäßigten Steuersatz ein."
+      },
+      {
+        "text": "Zum Nachweis der Zahlung stellst du jedem Gast eine Kurkarte aus.",
+        "quote": "Die in § 7 bestimmten Unterkunftsgeber sind berechtigt und verpflichtet, die Zahlung des Kurbeitrags durch Ausstellung von Kurkarten zu bestätigen."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, informierst du die Stadt sofort.",
+        "quote": "Weigert sich der Kurbeitragspflichtige, den Kurbeitrag zu zahlen, ist die Stadt Bad Driburg sofort zu unterrichten."
+      },
+      {
+        "text": "Du haftest der Stadt für den Kurbeitrag.",
+        "quote": "Der Unterkunftsgeber haftet gemäß § 11 Abs. 3 des Kommunalabgabengesetzes für das Land Nordrhein-Westfalen (KAG NRW) in der zurzeit gültigen Fassung gegenüber der Stadt Bad Driburg für den Kurbeitrag."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag sofort ein und führt ihn an die Stadt ab.",
+      "quote": "Der Kurbeitrag ist durch den Unterkunftsgeber von den kurbeitragspflichtigen Personen bei Fälligkeit sofort einzuziehen und bis zum 15. Kalendertag des auf den Unterkunftsbeginn folgenden Monats an die Stadt Bad Driburg abzuführen."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag bis zum 15. Kalendertag des Monats ab, der auf den Beginn der Unterkunft folgt.",
+      "quote": "Der Kurbeitrag ist durch den Unterkunftsgeber von den kurbeitragspflichtigen Personen bei Fälligkeit sofort einzuziehen und bis zum 15. Kalendertag des auf den Unterkunftsbeginn folgenden Monats an die Stadt Bad Driburg abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste bis zum 15. Kalendertag des Monats, der auf den Beginn der Unterkunft folgt, bei der Stadt.",
+      "quote": "Die Unterkunftsgeber sind verpflichtet, die nach Abs. 2 erforderlichen Meldungen bis zum 15. Kalendertag des auf den Unterkunftsbeginn folgenden Monats bei der Stadt Bad Driburg einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-driburg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 310,
+        "children": [
+          0
+        ],
+        "reduced": [
+          240
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      }
+    ]
+  }
+}

@@ -294,6 +294,24 @@
         "url": "https://www.markt-lam.de/WD_FileDownload.ashx?wd_systemtypeid=382&wd_pk=WzE3NDMsWzNdXQ%3d%3d"
       },
       "url": "https://keyset.cloud/kurtaxe/lam/"
+    },
+    {
+      "slug": "karlsruhe",
+      "name": "Stadt Karlsruhe",
+      "ags": "08212000",
+      "kind": "uebernachtungsteuer",
+      "from": "2028-01-01",
+      "rate": {
+        "before": "4,00 € je Gast",
+        "after": "4,50 € je Gast"
+      },
+      "text": "Die Satzung setzt den Betrag ab dem 1. Januar 2028 auf 4,50 Euro je Gast und Nacht.",
+      "quote": "Für den Zeitraum ab 01.01.2028 4,50 Euro (Vier Euro und Fünfzig Cent).",
+      "source": {
+        "title": "Satzung über die Erhebung einer Übernachtungssteuer in der Stadt Karlsruhe (Übernachtungssteuersatzung – City Tax) vom 25. März 2025, Karlsruher Stadtrecht 9/9",
+        "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/013_Verwaltung_und_Stadtpolitik/Stadtrecht/9_Finanzen_und_Steuern/9-9_UEbernachtungssteuer.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/karlsruhe/"
     }
   ]
 }

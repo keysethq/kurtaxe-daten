@@ -1,0 +1,247 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-feilnbach",
+  "name": "Gemeinde Bad Feilnbach",
+  "short": "Bad Feilnbach",
+  "ags": "09187129",
+  "state": "Bayern",
+  "district": "Rosenheim",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages der Gemeinde Bad Feilnbach vom 27.11.2024, Lesefassung mit der 1. Änderung vom 21.10.2025 (Inkrafttreten 01.01.2026)",
+      "url": "https://www.bad-feilnbach.de/fileadmin/Tourismus/Informationen/Kurgebiet___Kurbeitrag/Kurbeitragssatzung_ab_01.01.2026.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "9519eb27e4d7451db49852921c7b623393d4eec5f89b3975dbddbc923004add8",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "kurgebiet": {
+      "title": "Alles zum Kurgebiet und Kurbeitrag in Bad Feilnbach, Gemeinde Bad Feilnbach",
+      "url": "https://www.bad-feilnbach.de/kur-und-tourismus/kurgebiet-und-kurbeitrag/",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "hashOf": "quotes",
+      "sha256": "9dbec6743b1c963ef1fd639c8b6987998a0dbc5abe0cee634e9c869ccb000448",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "area": {
+          "text": "Kurbezirk I ist das Kurgebiet ohne den Kurbezirk II.",
+          "quote": "Der Kurbezirk I umfasst das Kurgebiet mit Ausnahme des Kurbezirks II."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "1. Im Kurbezirk I: für Personen ab dem vollendeten 18. Lebensjahr 2,50 Euro"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 14. Lebensjahr sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 18,
+                "cents": 200,
+                "quote": "für Jugendliche ab dem vollendeten 14. bis zum vollendeten 18. Lebensjahr 2,00 Euro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "area": {
+          "text": "Kurbezirk II sind die ehemaligen Gemeinden Au und Litzldorf sowie die Gemeindeteile Gunzlloh, Lippertskirchen, Moosmühle, Tregleralm und Wiechs.",
+          "quote": "Der Kurbezirk II umfasst das Gebiet der ehemaligen Gemeinden Au und Litzldorf sowie die Gemeindeteile Gunzlloh, Lippertskirchen, Moosmühle, Tregleralm und Wiechs."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 200,
+              "quote": "K2 = Kurzone 2 ab 01.01.2026 Jede Person ab 18 Jahre 2,00 €",
+              "source": "kurgebiet"
+            },
+            "children": [
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 14. Lebensjahr sind kurbeitragsfrei."
+              },
+              {
+                "underAge": 18,
+                "cents": 150,
+                "quote": "Kinder von 14 bis 17 Jahre ab 01.01.2026: Schwerbehinderte 80 % + Begleitpersonen 1,50 €",
+                "source": "kurgebiet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Kurgebiet ist das ganze Gemeindegebiet außer dem Gebiet der ehemaligen Gemeinde Dettendorf.",
+        "quote": "Kurgebiet ist das Gemeindegebiet mit Ausnahme des Gebiets der ehemaligen Gemeinde Dettendorf."
+      },
+      {
+        "text": "Wer den Kurbeitrag zahlen muss, aber nicht im Kurgebiet übernachtet, zahlt nach den Sätzen des Kurbezirks II.",
+        "quote": "Kurbeitragspflichtige, die nicht im Kurgebiet übernachten, haben den Kurbeitrag nach den Sätzen des Kurbezirks II zu entrichten."
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Auf der Seite der Gemeinde zahlen im Kurbezirk I seit dem 1. Januar 2026 auch Schwerbehinderte 80 % und Begleitpersonen 2,00 Euro, wie Kinder von 14 bis 17 Jahren.",
+        "quote": "Kinder von 14 bis 17 Jahre ab 01.01.2026: Schwerbehinderte 80 % + Begleitpersonen 2,00 €",
+        "source": "kurgebiet"
+      },
+      {
+        "text": "Auf der Seite der Gemeinde zahlen im Kurbezirk II seit dem 1. Januar 2026 auch Schwerbehinderte 80 % und Begleitpersonen 1,50 Euro, wie Kinder von 14 bis 17 Jahren.",
+        "quote": "Kinder von 14 bis 17 Jahre ab 01.01.2026: Schwerbehinderte 80 % + Begleitpersonen 1,50 €",
+        "source": "kurgebiet"
+      },
+      {
+        "text": "Wer eine zweite oder weitere Wohnung in der Gemeinde hat, zahlt einen jährlichen pauschalen Kurbeitrag; das gilt auch für nicht dauernd getrennt lebende Ehegatten oder Lebenspartner und die im Haushalt lebenden Kinder bis zur Vollendung des 16. Lebensjahres.",
+        "quote": "Personen, die eine zweite oder weitere Wohnung in der Gemeinde innehaben, sowie deren nicht dauernd von ihnen getrennt lebende Ehegatten oder Lebenspartner und die im Haushalt des Inhabers der Zweitwohnung lebenden Kinder bis zur Vollendung des 16. Lebensjahres, haben, sofern sie nach § 1 kurbeitragspflichtig sind, einen jährlichen pauschalen Kurbeitrag zu entrichten."
+      },
+      {
+        "text": "Der jährliche pauschale Kurbeitrag beträgt im Kurbezirk I 120,00 Euro und im Kurbezirk II 60,00 Euro.",
+        "quote": "Der jährliche pauschale Kurbeitrag beträgt 1. Im Kurbezirk I: 120,00 Euro 2. Im Kurbezirk II: 60,00 Euro"
+      },
+      {
+        "text": "Angefangene Tage gelten als volle Tage.",
+        "quote": "Angefangene Tage gelten als volle Tage."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag bei deinen Gästen ein und haftest der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab; die Gemeinde kann zulassen, dass es erst am Monatsende geschieht.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen. Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Deine Gäste meldest du innerhalb eines Tages nach der Abreise elektronisch über das Verfahren der Gemeinde; mit weniger als 10 Betten darf es auch schriftlich sein.",
+      "quote": "innerhalb von einem Tag ab deren Abreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben. Soweit natürliche oder juristische Personen, die Kurbeitragspflichtige beherbergen oder ihnen Wohnraum überlassen, über weniger als 10 Betten verfügen, kann die Übermittlung auch schriftlich erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-feilnbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0,
+          200
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurbezirk I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0,
+              200
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurbezirk II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 200,
+            "children": [
+              0,
+              150
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kressbronn-am-bodensee",
+  "name": "Kressbronn am Bodensee",
+  "short": "Kressbronn",
+  "ags": "08435029",
+  "state": "Baden-Württemberg",
+  "district": "Bodenseekreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Kressbronn am Bodensee über die Erhebung einer Kurtaxe (Kurtaxesatzung), Neufassung, Gemeinderatsbeschluss vom 23.10.2024, in Kraft seit 01.01.2025",
+      "url": "https://www.kressbronn.de/fileadmin/benutzerdaten/kressbronn-de/Bilder_und_PDF/4._Politik_und_Verwaltung/Ortsrecht/7_%C3%96ffentliche_Einrichtungen_Wirtschaftsf%C3%B6rderung/OR_A_7_9_Satzung_%C3%BCber_die_Erhebung_einer_Kurtaxe_Okt._2024.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "changedOn": "2025-01-01",
+      "sha256": "582637f0f12fee35dfa7c7de363be6823f72fde0a82372f7662b0be8b130a3ac",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Sommer",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 395,
+          "quote": "1. für den Zeitraum von 1. April bis 31. Oktober 3,95 Euro;"
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 16. Lebensjahr;"
+          }
+        ]
+      },
+      {
+        "label": "Winter",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "2. für den Zeitraum von 1. November bis 31. März 1,50 Euro."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 16. Lebensjahr;"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste, die höchstens einen Tag im Gemeindegebiet bleiben und keine Unterkunft nehmen",
+        "quote": "Ortsfremde Personen, die sich im Erhebungszeitraum höchstens für die Dauer eines Tages im Gemeindegebiet aufhalten und keine Unterkunft nehmen (Tagesgäste);"
+      },
+      {
+        "text": "Familienbesuche von Einwohnern mit Hauptwohnsitz in der Gemeinde, die unentgeltlich im Haushalt aufgenommen werden und nicht Einrichtungen, Veranstaltungen oder den ÖPNV nutzen",
+        "quote": "Personen, die einen Familienbesuch von Einwohnern, die in der Gemeinde ihren Hauptwohnsitz haben, vornehmen, in deren Haushalt unentgeltlich aufgenommen werden und der Zweck des Aufenthalts dem Besuch der Angehörigen und nicht der Nutzung von Einrichtungen, Veranstaltungen oder dem öffentlichen Personennahverkehr i. S. d. § 1 dieser Satzung dient;"
+      },
+      {
+        "text": "Kranke, pflegebedürftige, bettlägerige und schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80, die keine Möglichkeit haben, Einrichtungen, Veranstaltungen oder den ÖPNV zu nutzen",
+        "quote": "Kranke, pflegebedürftige und bettlägerige Personen und schwerbehinderte Personen mit einer nach dem SGB IX, oder einem vergleichbaren ausländischen Gesetz, anerkannten Grad der Behinderung von wenigstens 80 vom Hundert, wenn sie keine tatsächliche oder rechtliche Möglichkeit haben, Einrichtungen, Veranstaltungen oder den öffentlichen Personennahverkehr i. S. d. § 1 dieser Satzung zu nutzen"
+      },
+      {
+        "text": "Begleitpersonen im Sinne des Schwerbehindertenrechts von Personen nach Nr. 4 (Kranke, Pflegebedürftige, Bettlägerige, Schwerbehinderte), wenn die Notwendigkeit einer Begleitperson durch den Schwerbehindertenausweis oder in anderer geeigneter Weise belegt ist; weitere Voraussetzungen regelt § 2 Abs. 5 Nr. 5 der Satzung.",
+        "quote": "Begleitpersonen im Sinne des Schwerbehindertenrechts von Personen nach Nr. 4, wenn die Notwendigkeit einer Begleitperson durch den Schwerbehindertenausweis der Person nach Nr. 4 oder in anderer geeigneter"
+      },
+      {
+        "text": "Wer in der Gemeinde arbeitet oder dort in Ausbildung (auch Schule und Studium) steht oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 und 3 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung, einschließlich Schule und Studium, stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden, aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxe wird das ganze Jahr vom 1. Januar bis 31. Dezember erhoben.",
+        "quote": "Die Kurtaxe wird im Zeitraum vom 1. Januar bis 31. Dezember jeden Jahres erhoben."
+      },
+      {
+        "text": "Inhaber von Zweitwohnungen zahlen eine pauschale Jahreskurtaxe von 118,50 Euro pro Person, wenn sie die Zweitwohnung im Jahr dauerhaft, mindestens aber an 30 Tagen, halten.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt für Inhaber von Zweitwohnungen 118,50 Euro pro Person, wenn solche vom Kurtaxepflichtigen im Erhebungszeitraum dauerhaft, mindestens aber an 30 Tagen, gehalten werden."
+      },
+      {
+        "text": "Inhaber von Campingstellplätzen zahlen eine pauschale Jahreskurtaxe von 98,75 Euro pro Person, wenn sie den Stellplatz im Jahr dauerhaft, mindestens aber an 25 Tagen, nutzen dürfen.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt für Inhaber von Campingstellplätzen 98,75 Euro pro Person, wenn dem Kurtaxepflichtigen auf Grund einer befristeten oder unbefristeten Vereinbarung mit einem Campingplatzbetreiber die Nutzung eines Campingstellplatzes im Gemeindegebiet im Erhebungszeitraum dauerhaft, mindestens aber an 25 Tagen, gestattet wird."
+      },
+      {
+        "text": "Ortsfremde Personen ohne Hauptwohnung im Gemeindegebiet, die einen Bootsliegeplatz in einer Hafenanlage im Gemeindegebiet nutzen dürfen, zahlen unabhängig von der Länge des Aufenthalts und einer Übernachtung auf dem Boot eine pauschale Jahreskurtaxe von 59,25 Euro, wenn das Nutzungsrecht im Jahr dauerhaft, mindestens aber an 15 Tagen, besteht.",
+        "quote": "Von ortsfremden Personen, die ihre Hauptwohnung nicht im Gemeindegebiet haben, die mit einem Betreiber einer Hafenanlage eine befristete oder unbefristete Vereinbarung geschlossen haben, auf Grund derer ihnen die Nutzung eines Bootsliegeplatzes in einer Hafenanlage im Gemeindegebiet gestattet wird, und denen die Möglichkeit zur Benutzung der Einrichtungen und zur Teilnahme an den Veranstaltungen geboten ist, wird unabhängig von der Länge des Aufenthaltes und unabhängig von einer Übernachtungsmöglichkeit auf dem jeweiligen Boot, eine pauschale Jahreskurtaxe in Höhe von 59,25 Euro erhoben, wenn das Nutzungsrecht im Erhebungszeitraum dauerhaft, mindestens aber an 15 Tagen, besteht."
+      },
+      {
+        "text": "Beherbergungsbetriebe, Campingplatz- und Hafenbetreiber können die Kurtaxe durch eine Jahrespauschale ablösen; einen Rechtsanspruch darauf gibt es nicht. Der Antrag ist spätestens bis zum 1. März des laufenden Jahres bei der Gemeinde einzureichen.",
+        "quote": "Die Kurtaxe kann vom Beherbergungsbetrieb, dem Betreiber eines Campingplatzes oder dem Betreiber einer Hafenanlage mit Liegeplätzen durch eine Jahrespauschalkurtaxe abgelöst werden. Ein Rechtsanspruch auf Ablösung besteht nicht. Der Antrag auf Ablösung der Kurtaxe ist spätestens bis zum 1. März des laufenden Kalenderjahres bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Gemeldet wird in das elektronische Meldesystem der Gemeinde.",
+        "quote": "Der Meldepflichtige hat die meldepflichtigen Daten in das von der Gemeinde für die elektronische Datenübermittlung zur Verfügung gestellte elektronische Meldesystem einzugeben und elektronisch an die Gemeinde zu übermitteln."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Meldepflichtigen haben, soweit nicht ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Kurtaxe eines Monats führst du bis zum 10. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des darauffolgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du spätestens bis zum 10. des Monats nach An- beziehungsweise Abreise an und ab.",
+      "quote": "Die Meldung nach An- und Abreise ist jeweils bis spätestens zum 10. des auf die An- bzw. Abreise folgenden Monats an die Gemeinde zu erstatten."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kressbronn-am-bodensee/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Sommer",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 395,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Winter",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

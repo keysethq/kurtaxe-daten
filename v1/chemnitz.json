@@ -1,0 +1,121 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "chemnitz",
+  "name": "Stadt Chemnitz",
+  "short": "Chemnitz",
+  "ags": "14511000",
+  "state": "Sachsen",
+  "district": "Chemnitz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungsteuer in der Stadt Chemnitz (Beherbergungsteuersatzung) vom 16.05.2023, Stadt Chemnitz",
+      "url": "https://d2vw8mc5mcb3gm.cloudfront.net/fileadmin/chemnitz/media/rathaus/satzungen/beherbergungssteuersatzung_2040101.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "ed0b3b1f150f9575731149822a84440e16fb6a906e4db044689359e653099b9a",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Der auf eine einzelne Übernachtung entfallende Beherbergungsteueranteil beträgt fünf Prozent des Wertes der Bemessungsgrundlage, abgerundet auf volle Euro-Cent."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Übernachtungsentgelt einschließlich Umsatzsteuer; teilen sich mehrere Personen eine Leistung, wird das Entgelt anteilig auf sie verteilt.",
+      "quote": "Bemessungsgrundlage sind die jeweils für die einzelnen Übernachtungen der Beherbergung des Gastes geschuldeten Entgelte einschließlich der gesetzlich geschuldeten Umsatzsteuer. Nehmen mehrere Personen eine Leistung gemeinsam in Anspruch, ist das für die Leistung geschuldete Entgelt diesen Personen anteilig zuzuordnen.",
+      "vatIncluded": true
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein, wenn die Beherbergung endet.",
+      "quote": "Wer innerhalb der Stadt Chemnitz eine Beherbergungseinrichtung betreibt, ist verpflichtet, von den bei ihm beherbergten Personen die Beherbergungsteuer zum Entstehungszeitpunkt (§ 6) einzuziehen."
+    },
+    "deadline": {
+      "text": "Du berechnest die eingezogene Steuer monatlich selbst, meldest sie bis zum 15. Tag nach Monatsende an und zahlst sie bis zum selben Tag an die Stadtkasse.",
+      "quote": "die innerhalb eines Kalendermonates vereinnahmte Beherbergungsteuer auf amtlich vorgeschriebenem Vordruck oder amtlich zugelassener elektronischer Steueranmeldung selbst zu berechnen, bis zum 15. Tag nach Ablauf des Kalendermonates bei der Stadt Chemnitz anzumelden und den angemeldeten Betrag der Steuer bis zum gleichen Tage an die Stadtkasse zu entrichten."
+    },
+    "reporting": {
+      "text": "Gäste, von denen du keine Steuer einziehst, vermerkst du mit Namen, Wohnanschrift, Geburtsdatum sowie An- und Abreise auf einem Meldeschein, den der Gast unterschreibt.",
+      "quote": "Personen, von denen der Betreiber der Beherbergungseinrichtung keine Beherbergungsteuer einzieht, sind durch den Betreiber der Beherbergungseinrichtung gesondert mit Namen, Wohnanschrift, Geburtsdatum und Datum der An- und Abreise auf Meldescheinen zu vermerken, die jeweils vom Gast zu unterschreiben sind."
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige zahlen keine Beherbergungsteuer.",
+        "quote": "Von der Zahlung einer Beherbergungsteuer sind befreit: 1. Minderjährige,"
+      },
+      {
+        "text": "Wer für schul- oder studienpflichtige Veranstaltungen oder wegen vorgeschriebener Ausbildungsbestandteile vor Ort übernachten muss, ist befreit.",
+        "quote": "Personen, die zum Zwecke der berufsvorbereitenden Ausbildung oder des Studiums an schul- bzw. studienpflichtigen Veranstaltungen teilnehmen oder auf Grund zwingend vorgeschriebener Ausbildungsbestandteile, die eine Anwesenheit vor Ort erfordern, in Chemnitz übernachten müssen,"
+      },
+      {
+        "text": "Wer für eine zwingend notwendige medizinische Behandlung in Chemnitz übernachten muss, ist befreit, bei medizinischer Notwendigkeit auch die Begleitperson; diese Befreiung gibt es aber nur über eine Erstattung durch die Stadt.",
+        "quote": "Personen, welche zum Zweck einer zwingend notwendigen medizinischen Behandlung in Chemnitz übernachten müssen. Ist aus medizinischen Gründen die Übernachtung einer Begleitperson erforderlich, gilt die Befreiung auch für diese Begleitperson,"
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80 sowie Begleitpersonen mit Merkzeichen B im Ausweis sind befreit.",
+        "quote": "schwerbehinderte Personen mit einem in einem entsprechenden Ausweis angegebenen Grad der Behinderung von 80 oder mehr sowie Begleitpersonen schwerbehinderter Personen bei einem im Ausweis angegebenen Merkzeichen „B“,"
+      },
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit Haupt- oder Nebenwohnung gemeldet ist, zahlt nichts.",
+        "quote": "Personen, die unter der Anschrift der Beherbergungseinrichtung mit alleiniger Wohnung, Haupt- oder Nebenwohnung nach dem Bundesmeldegesetz gemeldet sind."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer Wohnraum nur für längere Mietverträge über mehr als ein halbes Jahr anbietet, betreibt keine Beherbergungseinrichtung im Sinne der Satzung.",
+        "quote": "Ebenso wenig betreibt eine Beherbergungseinrichtung, wer Wohnraum ausschließlich mit dem Ziel des Abschlusses längerfristiger Mietverträge für mehr als ein halbes Jahr anbietet und vermietet."
+      },
+      {
+        "text": "Hast du bei einem befreiten Gast Steuer eingezogen, kann er sie mit Nachweis beim Kassen- und Steueramt der Stadt zurückfordern.",
+        "quote": "Personen, von denen in einer Beherbergungseinrichtung die Beherbergungsteuer eingezogen wurde, die aber nach § 3 der Satzung von der Entrichtung einer Beherbergungsteuer befreit sind, können beim Kassen- und Steueramt der Stadt Chemnitz unter entsprechender Nachweisführung die Rückerstattung der eingezogenen Beherbergungsteuer beantragen."
+      },
+      {
+        "text": "Wenn du im Monat nicht mehr als 200 € Steuer abführst, kannst du auf Antrag nur alle drei Monate anmelden.",
+        "quote": "Auf Antrag kann bei Beherbergungseinrichtungen, die pro Kalendermonat Beherbergungsteuer von nicht mehr als 200,00 Euro zu entrichten haben, der Anmeldungszeitraum auf drei Monate verlängert werden."
+      },
+      {
+        "text": "Den Beginn und das Ende deiner Vermietung teilst du der Stadt innerhalb eines Monats mit.",
+        "quote": "Wer innerhalb der Stadt Chemnitz den Betrieb einer Beherbergungseinrichtung aufnimmt oder eine Beherbergungseinrichtung endgültig aufgibt, hat dies der Stadt Chemnitz, Kassen- und Steueramt, innerhalb eines Monats auf amtlich vorgeschriebenem Vordruck oder amtlich zugelassener elektronischer Anmeldung mitzuteilen."
+      },
+      {
+        "text": "Die Satzung gilt bis zum Ende des Jahres 2027.",
+        "quote": "Diese Satzung tritt mit Ablauf des 31.12.2027 außer Kraft."
+      },
+      {
+        "text": "Bei einer medizinischen Behandlung ziehst du die Steuer trotzdem ein; der Gast beantragt die Erstattung mit Nachweis beim Kassen- und Steueramt.",
+        "quote": "Steuerbefreiungen nach Absatz 1 Nr. 3 können nur in einem Verfahren nach § 8 geltend gemacht werden."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/chemnitz/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

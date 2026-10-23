@@ -1,0 +1,195 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "tangermuende",
+  "name": "Stadt Tangermünde",
+  "short": "Tangermünde",
+  "ags": "15090550",
+  "state": "Sachsen-Anhalt",
+  "district": "Stendal",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Gästebeitrages in der Stadt Tangermünde (Gästebeitragssatzung) vom 19.12.2024, Ortsrecht der Stadt Tangermünde",
+      "url": "https://www.tangermuende.de/de/datei/download/id/479049,1229/g_stebeitragssatzung.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "8823220bfb3007dccefbae318806199614e2307c431731bbfcb33f8dad279d7c",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Gästebeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Anreise- und Abreisetag gelten für die Berechnung des Gästebeitrages zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "Der Gästebeitrag beträgt pro Aufenthaltstag 1,00 Euro."
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 15. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "percent": 50,
+            "quote": "Der Gästebeitrag wird um 50 von Hundert ermäßigt für: 1. Kinder und Jugendliche nach Vollendung des 15. Lebensjahres bis zur Vollendung des 18. Lebensjahres,",
+            "cents": 50
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "reduced": [
+      {
+        "label": "Schüler, Studenten, Auszubildende von 18 bis 24 Jahren",
+        "quote": "Der Gästebeitrag wird um 50 von Hundert ermäßigt für: 1. Kinder und Jugendliche nach Vollendung des 15. Lebensjahres bis zur Vollendung des 18. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom vollendeten 18. Lebensjahr bis zur Vollendung des 25. Lebensjahres sowie",
+        "percentOff": 50
+      },
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Der Gästebeitrag wird um 50 von Hundert ermäßigt für: 1. Kinder und Jugendliche nach Vollendung des 15. Lebensjahres bis zur Vollendung des 18. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom vollendeten 18. Lebensjahr bis zur Vollendung des 25. Lebensjahres sowie 3. Schwerbehinderte, deren Grad der Behinderung mindestens 50 von Hundert beträgt,",
+        "percentOff": 50
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Teilnehmer an Schulfahrten zahlen nichts.",
+        "quote": "Teilnehmer an Schulfahrten,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre amtlich nachgewiesene ständige Begleitung zahlen nichts.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung 100 von Hundert beträgt, einschließlich der Begleitung von Schwerbehinderten, wenn die Notwendigkeit der ständigen Begleitung amtlich, insbesondere durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird"
+      },
+      {
+        "text": "Wer krank ist und die Unterkunft nicht verlassen kann, zahlt mit ärztlichem Zeugnis für diese Zeit nichts.",
+        "quote": "erkrankte Personen, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorzeigen eines ärztlichen Zeugnisses nachgewiesen hat,"
+      },
+      {
+        "text": "Wehrdienst- und Bundesfreiwilligendienstleistende im dienstlichen Aufenthalt sowie Freiwillige im sozialen oder ökologischen Jahr in Tangermünde zahlen nichts.",
+        "quote": "Wehr- und Bundesfreiwilligendienstleistende für die Dauer des dienstlich begründeten Aufenthalts im Erhebungsgebiet sowie Personen, die ein freiwilliges soziales oder ökologisches Jahr im Erhebungsgebiet ableisten,"
+      },
+      {
+        "text": "Wer zur Ausbildung bei Freiwilliger Feuerwehr, Katastrophen- oder Rettungsdienst in Tangermünde ist, zahlt nichts.",
+        "quote": "Personen, die sich im Rahmen der Ausbildung der Freiwilligen Feuerwehren sowie des Katastrophen- und Rettungsdienstes im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Wer nur zur Arbeit oder Ausbildung in der Stadt ist, zahlt nichts.",
+        "quote": "wer sich nur zur Berufsausübung oder zu Ausbildungszwecken in der Stadt aufhält oder"
+      },
+      {
+        "text": "Wer jemanden mit Hauptwohnung in Tangermünde nicht zu touristischen Zwecken besucht und unentgeltlich bei ihm wohnt, zahlt nichts.",
+        "quote": "wer eine im Erhebungsgebiet mit Hauptwohnung wohnende Person zu anderen als touristischen Zwecken im Sinne des Absatzes 1 besucht und unentgeltlich Aufnahme findet."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer in Tangermünde einen Nebenwohnsitz hat oder einen Camping- oder Bootsliegeplatz, ein Wochenendhaus, eine Datsche oder Ähnliches entsprechend nutzt, zahlt eine Jahrespauschale vom 28-fachen Tagessatz.",
+        "quote": "Bei Beitragspflichtigen, die im Erhebungsgebiet einen Nebenwohnsitz haben, Camping- Bootliegeplätze, Wochenendhäuser, Datschen oder ähnliche Unterkünfte entsprechend nutzen, wird der Gästebeitrag als Jahrespauschale erhoben, die das 28fache des Tagessatzes beträgt."
+      },
+      {
+        "text": "Treffen mehrere Ermäßigungsgründe zusammen, gibt es nur eine Ermäßigung.",
+        "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+      },
+      {
+        "text": "Unterliegt der Gästebeitrag der Umsatzsteuer, erhöhen sich die Beträge um den gesetzlichen Umsatzsteuersatz; die Stadt teilt dir rechtzeitig mit, ob und mit welchem Satz.",
+        "quote": "Soweit der Gästebeitrag der Umsatzsteuerpflicht unterliegt, erhöhen sich die in den Absätzen 1 und 2 bestimmten Beträge um den im Umsatzsteuergesetz jeweils festgelegten Umsatzsteuersatz. Die Gemeinde teilt den Berechtigten nach § 6 Abs. 3 der Satzung rechtzeitig mit, wenn eine Umsatzsteuerpflicht besteht und welcher Steuersatz zur Anwendung kommt."
+      },
+      {
+        "text": "Der Gästebeitrag für den ganzen Aufenthalt wird am letzten Aufenthaltstag fällig.",
+        "quote": "Sie wird bei Tagesgästen sofort und im Übrigen am letzten Aufenthaltstag im Erhebungsgebiet für die gesamte Zeit des Aufenthaltes fällig."
+      },
+      {
+        "text": "Du bewahrst die Gästebeiträge und ihre Abrechnung getrennt von deinem Betriebsvermögen auf, auch bei Kasse und Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästebeiträge hat durch die nach Abs. 1 Verpflichteten getrennt vom Betriebsvermögen zu erfolgen. Das gilt auch für die Kassen- und Kontoführung."
+      },
+      {
+        "text": "Du machst die Gästebeitragssatzung deinen Gästen zugänglich, etwa durch Aushang, Auslegung oder auf deiner Webseite.",
+        "quote": "ist den Beitragspflichtigen hinreichend zugänglich zu machen (z.B. durch Aushang, Auslegung, Webseite)."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Gästebeitrag samt einer etwaigen Umsatzsteuer bei deinen Gästen ein und führst ihn nach Erhalt einer Rechnung an die Stadt ab.",
+      "quote": "hat den Gästebeitrag zuzüglich einer etwaigen Umsatzsteuer von den beitragspflichtigen Personen einzuziehen und nach Erhalt einer Rechnung an die Stadt abzuführen."
+    },
+    "deadline": null,
+    "reporting": {
+      "text": "Die Originale der Meldevordrucke gehen monatlich zum 5. des Folgemonats an die Stadt.",
+      "quote": "Das Original ist der Stadt Tangermünde monatlich zum 5. des Folgemonats zuzuleiten."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/tangermuende/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ],
+        "reduced": [
+          50,
+          50
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten, Auszubildende von 18 bis 24 Jahren",
+        "onApplication": false
+      },
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": false
+      }
+    ]
+  }
+}

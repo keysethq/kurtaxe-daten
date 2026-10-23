@@ -1,0 +1,282 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-duerrheim",
+  "name": "Bad Dürrheim",
+  "short": "Bad Dürrheim",
+  "ags": "08326003",
+  "state": "Baden-Württemberg",
+  "district": "Schwarzwald-Baar-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Dürrheim vom 09.11.2020, zuletzt beschlossen am 30.11.2023 (Stand 30.11.2023)",
+      "url": "https://www.badduerrheim.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Fachbereich%204/Kurtaxesatzung%20-%20Stand%2030.11.2023.pdf",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "5d6c43eb86c28010411b4183eb8e7e9a82c4e2024b6eac83fa9a1f3b37757bfd",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise zählen zusammen als ein Tag, wobei der Abrechnung der Tag der Abreise voll zugrunde gelegt wird."
+    },
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "area": {
+          "text": "Kurzone I ist der Kernort Bad Dürrheim.",
+          "quote": "Zur Kurzone I gehört der Kernort Bad Dürrheim."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Die Kurtaxe beträgt für jede Person und jeden Tag für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I in Kurzone II ab dem 1.1.2024 € 3,00 € 1,50 für Kinder und Jugendliche ab dem 1.1.2024 € 1,31 € 0,66"
+            },
+            "children": [
+              {
+                "underAge": 12,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+              },
+              {
+                "underAge": 18,
+                "cents": 131,
+                "quote": "Die Kurtaxe beträgt für jede Person und jeden Tag für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I in Kurzone II ab dem 1.1.2024 € 3,00 € 1,50 für Kinder und Jugendliche ab dem 1.1.2024 € 1,31 € 0,66"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "area": {
+          "text": "Kurzone II sind die Stadtteile Hochemmingen, Oberbaldingen, Sunthausen, Biesingen, Öfingen und Unterbaldingen.",
+          "quote": "Zur Kurzone II gehören die Stadtteile Hochemmingen, Oberbaldingen, Sunthausen, Biesingen, Öfingen und Unterbaldingen."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 150,
+              "quote": "Die Kurtaxe beträgt für jede Person und jeden Tag für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I in Kurzone II ab dem 1.1.2024 € 3,00 € 1,50 für Kinder und Jugendliche ab dem 1.1.2024 € 1,31 € 0,66"
+            },
+            "children": [
+              {
+                "underAge": 12,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+              },
+              {
+                "underAge": 18,
+                "cents": 66,
+                "quote": "Die Kurtaxe beträgt für jede Person und jeden Tag für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I in Kurzone II ab dem 1.1.2024 € 3,00 € 1,50 für Kinder und Jugendliche ab dem 1.1.2024 € 1,31 € 0,66"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesbesucher ohne Übernachtung",
+        "quote": "Ortsfremde Personen, die sich ohne Übernachtung in der Stadt aufhalten (Tagesbesucher)"
+      },
+      {
+        "text": "Eltern, Kinder, Geschwister und Geschwisterkinder von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden",
+        "quote": "Eltern, Kinder, Geschwister und Geschwisterkinder von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, die ihre Unterkunft nicht verlassen können, während dieses Zustands und gegen ärztliches Zeugnis",
+        "quote": "Kranke und schwerbehinderte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen, und dies durch ärztliches Zeugnis ausweisen, während der Dauer dieses Zustands"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn der Ausweis oder eine ärztliche Bescheinigung die Begleitung belegt und sie selbst keine Kureinrichtungen nutzen",
+        "quote": "Begleitpersonen von Schwerbehinderten, Blinden und Kranken, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist und die Begleitperson selbst keine zu Kur- und Erholungszwecken bereitgestellten Einrichtungen benutzt oder Veranstaltungen besucht"
+      },
+      {
+        "text": "Wer in der Stadt arbeitet, in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit mindestens 80 % Erwerbsminderung gegen Vorlage eines amtlichen Ausweises, b) für Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten, aber in einer anderen Gemeinde ihrer Arbeit nachgehen.",
+        "onApplication": true,
+        "percentOff": 20
+      },
+      {
+        "label": "Beruflich Anwesende, die woanders arbeiten",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit mindestens 80 % Erwerbsminderung gegen Vorlage eines amtlichen Ausweises, b) für Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten, aber in einer anderen Gemeinde ihrer Arbeit nachgehen.",
+        "onApplication": true,
+        "percentOff": 20
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auf Antrag zahlen Schwerbehinderte (mindestens 80 % Erwerbsminderung) und Personen, die aus beruflichen Gründen vor Ort sind, aber in einer anderen Gemeinde arbeiten, 20 % weniger.",
+        "quote": "Die Kurtaxe wird auf Antrag um 20 % ermäßigt a) für Schwerbeschädigte und Schwerbehinderte mit mindestens 80 % Erwerbsminderung gegen Vorlage eines amtlichen Ausweises, b) für Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten, aber in einer anderen Gemeinde ihrer Arbeit nachgehen."
+      },
+      {
+        "text": "Ab dem 43. Aufenthaltstag im Kalenderjahr ermäßigt sich die Kurtaxe um 50 %.",
+        "quote": "Ab dem 43. Aufenthaltstag im Kalenderjahr ermäßigt sich die Kurtaxe um 50 %."
+      },
+      {
+        "text": "Wem ein Träger der öffentlichen Sozialversicherung eine Vorsorge- oder Rehabilitationsmaßnahme verordnet hat und die vollen Behandlungskosten nach Abzug der Eigenbeteiligung übernimmt, zahlt in Kurzone I 2,70 Euro je Tag, Kinder und Jugendliche 1,18 Euro.",
+        "quote": "Für Personen, denen von Trägern der öffentlichen Sozialversicherung medizinische Vorsorge- oder Rehabilitationsverfahren verordnet wurden und bei denen die Träger der öffentlichen Sozialversicherung die vollen Behandlungskosten nach Abzug der Eigenbeteiligung übernehmen, beträgt die Kurtaxe für jede Person und jeden Tag für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I ab dem 1.1.2024 € 2,70 für Kinder und Jugendliche ab dem 1.1.2024 € 1,18."
+      },
+      {
+        "text": "Wer nach § 3 Abs. 2 Satz 1 kurtaxepflichtig ist, sowie Inhaber von Camping-Dauer-Stellplätzen und deren Familienangehörige zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: ab 18 Jahren 54 Euro in Kurzone I und 27 Euro in Kurzone II, Kinder und Jugendliche 23,75 Euro in Kurzone I und 11,88 Euro in Kurzone II.",
+        "quote": "Kurtaxepflichtige nach § 3 Abs. 2 Satz 1 sowie Inhaber von Camping-Dauer-Stellplätzen und deren Familienangehörige haben, unabhängig von der Dauer und Häufigkeit des Aufenthalts eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt für Personen, die das 18. Lebensjahr vollendet haben, in Kurzone I in Kurzone II ab dem 1.1.2024 € 54,00 € 27,00 für Kinder und Jugendliche ab dem 1.1.2024 € 23,75 € 11,88"
+      },
+      {
+        "text": "Die Stadt hat die Kur- und Bäder GmbH Bad Dürrheim beauftragt, die Kurtaxe zu berechnen, die Bescheide zu versenden und die Kurtaxe entgegenzunehmen; an sie führst du ab.",
+        "quote": "Die Gemeinde beauftragt die Kur- und Bäder GmbH Bad Dürrheim, die Kurtaxe zu berechnen, die Kurtaxebescheide anzufertigen und zu versenden, die Kurtaxe entgegen zu nehmen und an die Gemeinde abzuführen"
+      },
+      {
+        "text": "Ermäßigungen und Befreiungen musst du innerhalb von 3 Tagen nach der Ankunft bei der Kur- und Bäder GmbH beantragen; bei einem verspäteten Antrag gilt die Vergünstigung erst ab dem Eingang.",
+        "quote": "Ermäßigungen und Befreiungen müssen innerhalb von 3 Tagen nach Ankunft bzw. Eintritt des Tatbestandes bei der Kur- und Bäder GmbH Bad Dürrheim beantragt werden. Bei verspäteten Anträgen wird die Vergünstigung erst vom Zeitpunkt des Antragseingangs gewährt."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du meldest jeden Gast zur Kurtaxe an, ziehst sie ein und führst sie an die Kur- und Bäder GmbH ab; für die rechtzeitige Einziehung und vollständige Ablieferung haftest du.",
+      "quote": "Wohnungsgeber, die Personen gegen Entgelt beherbergen, sowie Betreiber von Campingplätzen sind unbeschadet der ihnen nach dem Landesmeldegesetz obliegenden polizeilichen Meldepflicht verpflichtet, jeden Ortsfremden zur Entrichtung der Kurtaxe anzumelden, die Kurtaxe einzuziehen und an die Kur- und Bäder GmbH Bad Dürrheim, die als Zahlstelle der Gemeindekasse gilt, abzuführen. Sie haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats sind jeweils zum 10. des Folgemonats fällig.",
+      "quote": "Die Kurtaxe wird gegenüber der Kur- und Bäder GmbH Bad Dürrheim für die im Laufe eines Kalendermonats fällig gewordenen Beträge jeweils zum 10. des Folgemonats zur Zahlung fällig."
+    },
+    "reporting": {
+      "text": "Gäste meldest du spätestens am nächsten Werktag nach der Ankunft bei der Kur- und Bäder GmbH; Betriebe ab 10 Betten mit Online-Zugang melden online.",
+      "quote": "Die Meldungen sind unter Verwendung der vorgeschriebenen Vordrucke spätestens am nächsten Werktag nach der Ankunft der Gäste bei der Kur- und Bäder GmbH Bad Dürrheim einzureichen. Betriebe ab 10 Betten, die über einen Online-Zugang verfügen, sind verpflichtet, am Online-Meldeverfahren teilzunehmen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-duerrheim/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          131
+        ],
+        "reduced": [
+          240,
+          240
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kurzone I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              131
+            ],
+            "reduced": [
+              240,
+              240
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Kurzone II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 150,
+            "children": [
+              0,
+              66
+            ],
+            "reduced": [
+              120,
+              120
+            ]
+          }
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80",
+        "onApplication": true
+      },
+      {
+        "label": "Beruflich Anwesende, die woanders arbeiten",
+        "onApplication": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "emden",
+  "name": "Stadt Emden",
+  "short": "Emden",
+  "ags": "03402000",
+  "state": "Niedersachsen",
+  "district": "Emden",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Emden für eine Übernachtungssteuer vom 18. September 2024 (Amtsblatt Stadt Emden Nr. 38 vom 18.10.2024), Ortsrecht der Stadt Emden 22-4",
+      "url": "https://www.emden.de/fileadmin/media/stadtemden/PDF/Verwaltung/Ortsrecht/22_4_uebernachtungssteuer.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "75201dfaca787416cfa08dd751cef701c3b4dfda9f07a5182bb9729ab85f0c70",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 3.5,
+      "quote": "Die Übernachtungssteuer beträgt 3,5 vom Hundert der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, einschließlich Umsatzsteuer; Anteile für Verpflegung werden herausgerechnet.",
+      "quote": "Bemessungsgrundlage ist der vom Beherbergungsgast für die Beherbergung aufgewendete Betrag einschließlich Umsatzsteuer (Beherbergungsentgelt). In diesem Beherbergungsentgelt enthaltene Anteile für Verpflegung sind herauszurechnen und bleiben bei der Ermittlung der Bemessungsgrundlage unberücksichtigt.",
+      "vatIncluded": true
+    },
+    "maxNights": {
+      "nights": 14,
+      "perStay": true,
+      "text": "höchstens 14 zusammenhängende Übernachtungen je Person im selben Betrieb",
+      "quote": "Es unterfallen jedoch höchstens 14 zusammenhängende Übernachtungsmöglichkeiten pro Person der Besteuerung. Der Aufwand für den Erwerb des Anspruches auf weitere, hiermit unterbrechungsfrei verbundene Beherbergungsleistungen im selben Beherbergungsbetrieb unterfällt nicht der Besteuerung."
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber des Beherbergungsbetriebs selbst.",
+      "quote": "Steuerschuldner ist der Betreiber des Beherbergungsbetriebes, gegen den der Beherbergungsgast einen Anspruch auf Beherbergung hatte."
+    },
+    "deadline": {
+      "text": "Du reichst die Steuererklärung innerhalb von 15 Tagen nach Ende des Kalendervierteljahres ein und zahlst die errechnete Steuer in derselben Frist an die Stadt.",
+      "quote": "Der Steuerschuldner (§ 5) hat innerhalb von 15 Tagen nach Ablauf des Erhebungszeitraums (§ 7) eine Steuererklärung auf einem von der Stadt Emden vorgeschriebenen Vordruck einzureichen. Der errechnete Steuerbetrag ist innerhalb der vorgenannten Frist von 15 Tagen fällig und an die Stadt Emden zu entrichten."
+    },
+    "reporting": {
+      "text": "Du erklärst der Stadt bis zum 15. Kalendertag nach Ende jedes Kalendervierteljahres die Summe der steuerpflichtigen Beherbergungsentgelte auf ihrem Vordruck.",
+      "quote": "Jeder Betreiber eines Beherbergungsbetriebes ist verpflichtet, der Stadt Emden gegenüber bis zum 15. Kalendertag nach Ablauf eines Kalendervierteljahres für seine Beherbergungsbetriebe die Summe der steuerpflichtigen Beherbergungsentgelte (§ 3) auf dem von der Stadt Emden vorgeschriebenen Vordruck schriftlich zu erklären (Steuererklärung)."
+    },
+    "exemptions": [
+      {
+        "text": "Krankenhäuser, Reha-Kliniken, Alten- und Pflegeheime, Hospize und vergleichbare Einrichtungen gelten nicht als Beherbergungsbetriebe.",
+        "quote": "Nicht als Beherbergungsbetriebe gelten Unterkünfte, die ihrem Zweck nach der Beherbergung von Personen in besonderen sozialen Situationen, insbesondere in Krankenhäusern, Rehabilitationskliniken, Alten- und Pflegeheimen, Hospizen oder vergleichbaren Einrichtungen, dienen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Steuerpflichtig sind alle Betriebe, die gegen Entgelt eine vorübergehende Unterkunft bieten, auch Privatzimmer, Ferienwohnungen und Stellplätze für Camping und Wohnmobile.",
+        "quote": "Als Beherbergungsbetriebe gelten alle Betriebe, die gegen Entgelt eine vorübergehende Beherbergungsmöglichkeit zur Verfügung stellen. Hierzu zählen insbesondere Hotels, Gasthöfe, Pensionen, Privatzimmer, Jugendherbergen, Ferienwohnungen, Motels, Camping- oder Reisemobilplätze, Schiffe oder ähnliche Einrichtungen."
+      },
+      {
+        "text": "Lässt sich eine Pauschale mit Verpflegung nicht aufteilen, ist die Bemessungsgrundlage die Gesamtrechnung abzüglich je Gast und Mahlzeit 7,50 € für Frühstück und je 12,50 € für Mittag- und Abendessen.",
+        "quote": "Sofern die Aufteilung einer Gesamtrechnung in Beherbergungsentgelt und Entgelt für Verpflegung nicht möglich ist, gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung mit Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,50 Euro für Frühstück und je 12,50 Euro für Mittagessen und Abendessen je Beherbergungsgast und Mahlzeit (jeweils einschließlich Umsatzsteuer)."
+      },
+      {
+        "text": "Du bewahrst Namen, Adressen, An- und Abreisetag, Dauer und Entgelt jedes Gastes je Betrieb auf und legst sie der Stadt auf Verlangen vor.",
+        "quote": "Jeder Betreiber eines Beherbergungsbetriebes ist verpflichtet, Namen, Adressen, Tag der An- und Abreise, die Beherbergungsdauer sowie die jeweiligen Beherbergungsentgelte aller Beherbergungsgäste getrennt für jeden Beherbergungsbetrieb vorzuhalten und der Stadt Emden auf Verlangen vorzulegen."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung, einen Betreiberwechsel oder einen Umzug des Betriebs zeigst du der Stadt vorher an.",
+        "quote": "Jeder Betreiber eines Beherbergungsbetriebes ist verpflichtet, der Stadt Emden den Beginn und das Ende seiner Tätigkeit, den Wechsel des Betreibers sowie eine Verlegung des Beherbergungsbetriebes vor Eintritt des anzeigepflichtigen Ereignisses anzuzeigen."
+      },
+      {
+        "text": "Beherbergungen, die vor dem 1. Januar 2025 vertraglich vereinbart wurden, sind von der Steuer ausgenommen.",
+        "quote": "Beherbergungsleistungen, die vor dem 01.01.2025 vertraglich vereinbart worden sind, sind von der Steuer ausgenommen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/emden/",
+  "calculation": {
+    "kind": "town",
+    "percent": 3.5,
+    "maxDays": 14,
+    "maxPerStay": true
+  }
+}

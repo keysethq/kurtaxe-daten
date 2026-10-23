@@ -1,0 +1,128 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "heidelberg",
+  "name": "Stadt Heidelberg",
+  "short": "Heidelberg",
+  "ags": "08221000",
+  "state": "Baden-Württemberg",
+  "district": "Heidelberg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Übernachtungsteuer in Heidelberg (Übernachtungsteuersatzung) vom 05.06.2025, Stadt Heidelberg, öffentlich bekannt gemacht am 30.07.2025",
+      "url": "https://www.heidelberg.de/site/Heidelberg2021/get/documents_E-1275334165/heidelberg/Objektdatenbank/13/Bekanntmachungen/2025/2025_07_30_Satzung%20%C3%BCber%20die%20Erhebung%20einer%20%C3%9Cbernachtungsteuer%20in%20Heidelberg%20%28%C3%9Cbernachtungsteuersatzung%29.pdf",
+      "kind": "statute",
+      "inForce": "2025-10-01",
+      "sha256": "83c5b22f8db4febfea53f29f15ef62793d54efdf6ac6095aa5bc7aa0a8d067b9",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-10-01"
+    },
+    "faq": {
+      "title": "Fragen und Antworten FAQs zur Übernachtungsteuer, Stadt Heidelberg",
+      "url": "https://www.heidelberg.de/HD/Rathaus/fragen+und+antworten+faqs+zur+uebernachtungsteuer.html",
+      "kind": "municipality",
+      "inForce": "2025-10-01",
+      "sha256": "d3a7bd336168c423f2367931811d0e102d33f9f0c1bc098df43b06126f125bb9",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "quotes",
+      "changedOn": "2025-10-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungsteuer",
+    "source": "satzung",
+    "rate": {
+      "cents": 350,
+      "perPerson": true,
+      "quote": "Die Übernachtungsteuer beträgt pro Übernachtung und Beherbergungsgast 3,50 Euro (drei Euro und fünfzig Cent)."
+    },
+    "basis": {
+      "text": "Die Steuer ist ein fester Betrag je Gast und Übernachtung, unabhängig vom Übernachtungspreis.",
+      "quote": "Bemessungsgrundlage der Steuer ist die Anzahl der Übernachtungen je Beherbergungsgast."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Betreiber für ihn ein, führst sie ab und haftest neben dem Gast dafür.",
+      "quote": "Steuerentrichtungspflichtig ist der Betreiber oder die Betreiberin des Beherbergungsbetriebs. Er oder sie hat die Übernachtungsteuer für Rechnung des Beherbergungsgastes zu entrichten und haftet neben dem Steuerschuldner"
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe an die Stadt zu zahlen.",
+      "quote": "Die Übernachtungsteuer wird durch Steuerbescheid festgesetzt; sie wird einen Monat nach Bekanntgabe des Steuerbescheids fällig und ist an die Stadt Heidelberg zu entrichten."
+    },
+    "reporting": {
+      "text": "Du gibst für jedes Quartal eine unterschriebene Steueranmeldung ab und berechnest die Steuer darin selbst.",
+      "quote": "Wer einen Beherbergungsbetrieb betreibt, hat der Stadt Heidelberg für jedes Kalendervierteljahr (Anmeldezeitraum) eine unterschriebene Steueranmeldung abzugeben."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Kindern und Jugendlichen bis zum vollendeten 16. Lebensjahr sind steuerfrei.",
+        "quote": "Ausgenommen von der Besteuerung ist die entgeltliche Beherbergung von Kindern und Jugendlichen bis zum vollendeten 16. Lebensjahr."
+      },
+      {
+        "text": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert.",
+        "quote": "Belegungen, die einen Wohnsitz im Sinne des Melderechts begründen, werden nicht besteuert."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig.",
+        "quote": "Somit werden alle entgeltlichen privaten sowie beruflichen Übernachtungen in Beherbergungsbetrieben ab dem 01. Oktober 2025 besteuert.",
+        "source": "faq"
+      },
+      {
+        "text": "Die Steueranmeldung ist bis zum fünfzehnten Tag nach Quartalsende einzureichen.",
+        "quote": "Die Steueranmeldung ist bis zum fünfzehnten Tag"
+      },
+      {
+        "text": "Auf die Steuer erhebst du keine Umsatzsteuer; für dich ist sie nur ein durchlaufender Posten.",
+        "quote": "Es ist keine Umsatzsteuer auf den Pauschalbetrag zu erheben. Für den Beherbergungsbetrieb handelt es sich nur um einen durchlaufenden Posten.",
+        "source": "faq"
+      },
+      {
+        "text": "Auch ein bezahltes Tageszimmer ohne Übernachtung wird besteuert.",
+        "quote": "Der Übernachtung steht die Nutzung der Beherbergungsmöglichkeit, ohne dass eine Übernachtung erfolgt (zum Beispiel Tageszimmer), gleich, sofern hierfür ein gesonderter Aufwand betrieben wird."
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du der Stadt vor dem Ereignis an.",
+        "quote": "den Beginn und das Ende der Tätigkeit, einen Wechsel in der Person des Betreibers sowie eine Verlegung des Beherbergungsbetriebes, vor Eintritt des anzeigepflichtigen Ereignisses anzuzeigen."
+      },
+      {
+        "text": "Die Nachweise der Beherbergungsleistungen bewahrst du vier Kalenderjahre auf und legst sie der Stadt auf Anforderung vor.",
+        "quote": "Betreiber und Betreiberinnen sind verpflichtet, diese Nachweise für eine Zeitraum von vier Kalenderjahren, beginnend mit Ablauf des Jahres, in dem die Steuerschuld entsteht, aufzubewahren."
+      }
+    ],
+    "maxNights": {
+      "nights": 5,
+      "perStay": true,
+      "text": "höchstens fünf Nächte bei ununterbrochener Beherbergung im selben Betrieb",
+      "quote": "Die Übernachtungsteuer wird bei einer ununterbrochenen Beherbergungsdauer in demselben Beherbergungsbetrieb längstens für fünf Nächte erhoben."
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/heidelberg/",
+  "calculation": {
+    "kind": "town",
+    "cents": 350,
+    "perPerson": true,
+    "maxDays": 5,
+    "maxPerStay": true
+  }
+}

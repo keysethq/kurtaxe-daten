@@ -1,0 +1,161 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "senftenberg",
+  "name": "Stadt Senftenberg",
+  "short": "Senftenberg",
+  "ags": "12066304",
+  "state": "Brandenburg",
+  "district": "Oberspreewald-Lausitz",
+  "sources": {
+    "satzung": {
+      "title": "Lesefassung der Satzung der Stadt Senftenberg über die Erhebung eines Kurbeitrages (Kurbeitragssatzung) nach den Beschlüssen SVV/058/23 vom 20.09.2023 und SVV/009/25 vom 26.02.2025, mit Durchführungsverordnung",
+      "url": "https://www.senftenberg.de/media/custom/2779_5434_1.PDF",
+      "kind": "municipality",
+      "inForce": "2025-03-01",
+      "sha256": "13e3116603f087560d81a1faf6c13021ab1562dac9aae42d45e6c69a297ef2f0",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-03-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Beitrag wird nach Übernachtungen, längstens jedoch für 28 Kalendertage im Jahr berechnet."
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "03-15",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Der Kurbeitrag beträgt je Person und Übernachtung 2,00 Euro."
+        },
+        "children": [
+          {
+            "underAge": 16,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 16. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Kalendertage je Jahr",
+      "quote": "Der Beitrag wird nach Übernachtungen, längstens jedoch für 28 Kalendertage im Jahr berechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt in der Kernstadt Senftenberg und in den Ortsteilen Großkoschen mit Kleinkoschen und Niemtsch.",
+      "quote": "Erhebungsgebiet für den Kurbeitrag ist die Stadt Senftenberg mit ihrer Kernstadt und ihren Ortsteilen Großkoschen mit Kleinkoschen und Niemtsch."
+    },
+    "exemptions": [
+      {
+        "text": "Gäste, die von ortsansässigen Verwandten unentgeltlich und ohne Kostenerstattung in deren Haushalt aufgenommen werden, zahlen nichts.",
+        "quote": "Gäste, die von ortsansässigen Verwandten unentgeltlich und ohne Kostenerstattung in die häusliche Gemeinschaft aufgenommen werden,"
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von mindestens 80 zahlen nichts; bei Merkzeichen B auch ihre Begleitperson.",
+        "quote": "Schwerbehinderte, deren Grad der Behinderung (GdB) laut amtlichen Nachweises mind. 80 v. H. beträgt und/oder im Fall des Merkzeichens B, auch deren Begleitperson,"
+      },
+      {
+        "text": "Wer krank ist und die Unterkunft laut ärztlichem Zeugnis nicht verlassen kann, zahlt für diese Zeit nichts.",
+        "quote": "erkrankte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis belegen, unterliegen während der Dauer ihres Zustandes nicht der Beitragspflicht,"
+      },
+      {
+        "text": "Wer zur Ausbildung oder zur Arbeit in Senftenberg ist, zahlt nichts.",
+        "quote": "Ortsfremde, die sich zur Ausbildung oder Berufsausübung im Erhebungsgebiet aufhalten und"
+      },
+      {
+        "text": "Schülergruppen ab fünf Personen und ihre Begleiter in Ferienlagern, Landschulheimen, Jugendherbergen und vergleichbaren Einrichtungen zahlen nichts.",
+        "quote": "Schülergruppen ab fünf Personen und deren Begleitpersonen in Ferienlagern, Landschulheimen, Jugendherbergen, Einrichtungen des Behindertenwerkes und vergleichbare Einrichtungen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Statt der Übernachtungssätze kann ein Gast einen Jahreskurbeitrag von 56,00 € zahlen.",
+        "quote": "Abweichend von Absatz 1 kann anstelle des nach Übernachtungen berechneten Kurbeitrages ein pauschalierter Jahresbeitrag gezahlt werden, der zum Aufenthalt während des gesamten Erhebungszeitraumes berechtigt. Der Jahreskurbeitrag beträgt pro Person 56,00 Euro."
+      },
+      {
+        "text": "Die Voraussetzungen einer Befreiung weist du der Stadt in geeigneter Form nach, etwa mit einer Kopie von Attest oder Ausweis.",
+        "quote": "Der Meldepflichtige (Vermieter) hat die Berechtigung in geeigneter Form gegenüber der Stadt Senftenberg nachzuweisen (z. B. Attestkopie, Ausweiskopie)."
+      },
+      {
+        "text": "Die Aufwandsentschädigung beträgt 3 % des im Erhebungszeitraum vom 15. März bis 31. Oktober vollständig abgerechneten Kurbeitrags und wird mit der Rechnung verrechnet.",
+        "quote": "Die Aufwandsentschädigung beträgt 3 v.H. vom im Beitragserhebungszeitraum 15.3. bis 31.10. vollständig abgerechneten Kurbeitrag und wird jeweils im Rahmen der Rechnungslegung verrechnet."
+      },
+      {
+        "text": "Wer die Meldedaten digital im Gästebeitragssystem erfasst und die Kurbeiträge vollständig und fristgerecht zahlt, erhält eine Aufwandsentschädigung.",
+        "quote": "Als Anerkennung für die satzungsgemäße Einziehung des Kurbeitrages erhalten die Meldepflichtigen (Vermieter), die die digitale Erfassung der Meldedaten im offiziellen Gästebeitragssystem vornehmen und ebenso die Kurbeiträge gemäß Punkt 3 für den -3- abgelaufenen Erhebungszeitraum in voller Höhe und fristgerecht an die Stadt Senftenberg gezahlt haben, eine Aufwandsentschädigung/Kostenerstattung."
+      },
+      {
+        "text": "Du legst die Kurbeitragssatzung gut sichtbar aus oder zeigst sie deinen Gästen auf Verlangen.",
+        "quote": "Der Meldepflichte (Vermieter) ist verpflichtet, die Satzung der über die Erhebung eines Kurbeitrages in ihrer jeweils gültigen Fassung an gut sichtbarer Stelle auszulegen bzw. den Gästen auf Verlangen zur Kenntnis zu bringen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Als Vermieter ziehst du den Kurbeitrag bei deinen Gästen ein und führst ihn an die Stadt ab; du haftest der Stadt für den vollständigen Einzug.",
+      "quote": "Die Meldepflichtigen (Vermieter) haben den Kurbeitrag von den Beitragspflichtigen (Gästen) einzuziehen und den Betrag an die Stadt Senftenberg abzuführen. Sie haften der Stadt Senftenberg gegenüber für den vollständigen Einzug des Kurbeitrages."
+    },
+    "deadline": {
+      "text": "Die Stadt oder ein von ihr beauftragter Dritter rechnet die Beiträge nach deinen Meldedaten ab; die Zahlungsziele sind der 30. Juni und der 31. Oktober.",
+      "quote": "Der Meldepflichtige erhält von der Stadt Senftenberg oder dem von dieser beauftragten Dritten eine Abrechnung der Beiträge entsprechend der Meldedaten über einen bestimmten Zeitraum. Das Zahlungsziel (Abrechnung zum 30.06. und zum 31.10.) ist einzuhalten."
+    },
+    "reporting": {
+      "text": "Die Gäste erfasst du digital im Meldesystem, das die Stadt benennt.",
+      "quote": "Die Erfassung der für die Berechnung des Kurbeitrages erforderlichen Daten hat digital über ein Login in die Eingabemaske des von der Stadt Senftenberg benannten elektronischen Gästebeitrags-/Meldescheinerfassungssystems zu erfolgen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/senftenberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      16
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "03-15",
+            "10-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

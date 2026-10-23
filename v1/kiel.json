@@ -1,0 +1,115 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kiel",
+  "name": "Landeshauptstadt Kiel",
+  "short": "Kiel",
+  "ags": "01002000",
+  "state": "Schleswig-Holstein",
+  "district": "Kiel",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Landeshauptstadt Kiel über die Erhebung einer Übernachtungssteuer (Übernachtungssteuersatzung) vom 25.6.2026, öffentlich bekannt gemacht am 30.06.2026",
+      "url": "https://www.kiel.de/de/_data/ortsrecht_bekanntmachungen/root/download.php?typ=bm&fid=73ca75f3d0493fec69de95730f5f21a9",
+      "kind": "gazette",
+      "inForce": "2026-10-01",
+      "sha256": "a3ebdf789a07c3086a21e6641c3e562d905c25d4beeec90ea0741ed0b22ff3b7",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Übernachtungssteuer beträgt 5 vom Hundert der Bemessungsgrundlage nach § 3."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung aufwendet, ohne Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Beherbergungsgast für die Beherbergung aufgewendete Betrag ohne Umsatzsteuer (Nettoübernachtungsentgelt).",
+      "vatIncluded": false
+    },
+    "maxMonths": {
+      "months": 2,
+      "text": "Bei einer ununterbrochenen Belegung im selben Betrieb wird die Steuer höchstens für zwei Monate erhoben.",
+      "quote": "Die Übernachtungssteuer wird bei einer ununterbrochenen Belegungsdauer im selben Beherbergungsbetrieb längstens für zwei Monate erhoben."
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft selbst.",
+      "quote": "Steuerschuldner*in ist die natürliche oder juristische Person, die einen Beherbergungsbetrieb im Stadtgebiet der Landeshauptstadt Kiel in eigener Verantwortung, auf eigene Rechnung und eigenes Risiko führt (Betreiber*in)."
+    },
+    "deadline": {
+      "text": "Die Steuer ist einen Monat nach Ablauf des Quartals fällig, für das du sie anmeldest.",
+      "quote": "Die Übernachtungssteuer ist einen Monat nach Ablauf des Anmeldezeitraums fällig und zu entrichten."
+    },
+    "reporting": {
+      "text": "Du meldest die Steuer vierteljährlich innerhalb eines Monats nach Quartalsende auf dem amtlichen Vordruck an, berechnest sie dabei selbst und gibst auch die Zahl aller Übernachtungen, der steuerpflichtigen und der nicht besteuerten an.",
+      "quote": "Die Steueranmeldung ist innerhalb eines Monats nach Ablauf des Anmeldezeitraums auf amtlich vorgeschriebenem Vordruck unter Angabe der Gesamtzahl der Übernachtungen, der Anzahl der steuerpflichtigen Übernachtungen sowie der Anzahl der Übernachtungen, für die keine Übernachtungssteuer erhoben wurde, einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen von Obdachlosen und Asylsuchenden sowie bei Klassen- und Schulfahrten oder nachweisbar außerschulischen, jugendfördernden Aufenthalten von Personen bis 27 Jahre samt Begleitpersonen sind nicht steuerpflichtig.",
+        "quote": "Aufwand für die Unterbringung von Obdachlosen und Asylsuchenden und Aufwand für Übernachtungen aufgrund von Aufenthalten im Rahmen eines schulischen Bildungsgangs wie z. B. Klassenfahrten, Schul- und Berufskollegfahrten oder Aufenthalte zu nachweisbarem außerschulischem, jugendförderndem Zweck von Personen bis 27 Jahre und deren Begleitpersonen unterliegt nicht der Besteuerung."
+      },
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit seiner einzigen Wohnung gemeldet ist, zahlt keine Übernachtungssteuer.",
+        "quote": "Personen, die unter der Anschrift des Beherbergungsbetriebes mit einziger Wohnung nach dem Bundesmeldegesetz gemeldet sind, sind von der Besteuerung ausgenommen."
+      },
+      {
+        "text": "Einsatzkräfte des Katastrophenschutzes und freiwillig Helfende sind für die Dauer eines behördlich festgestellten Katastrophenfalls befreit.",
+        "quote": "Für die Dauer eines behördlich festgestellten Katastrophenfalles werden Einsatzkräfte von Einheiten und Einrichtungen des Katastrophenschutzes, Einsatzkräfte von zur Mitwirkung im Katastrophenschutz verpflichteten öffentlichen und privaten Organisationen und freiwillig Helfende, die sich gegenüber einem Träger einer Einheit oder Einrichtung des Katastrophenschutzes verpflichtet haben, von der Zahlung der Übernachtungssteuer befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig.",
+        "quote": "Beruflich veranlasster Aufwand für Übernachtungen unterliegt der Besteuerung."
+      },
+      {
+        "text": "Betriebe, die am 1. Oktober 2026 schon bestehen, zeigst du der Stadt bis spätestens 15.11.2026 schriftlich an.",
+        "quote": "Alle zum 01.10.2026 bestehenden Beherbergungsbetriebe im Sinne des vorstehenden § 2 Abs. 2 sind bis spätestens 15.11.2026 bei der Landeshauptstadt Kiel, Amt für Finanzwirtschaft, Abteilung Steuern und Grundbesitzabgaben, von dem*der Betreiber*in schriftlich anzuzeigen."
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung nicht aufteilen, ziehst du je Gast 10 € für das Frühstück und je 20 € für Mittag- und Abendessen pro Tag ab.",
+        "quote": "gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung/Frühstück beziehungsweise Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 10,00 € für Frühstück und je 20,00 € für Mittagessen und Abendessen pro Tag je Gast."
+      },
+      {
+        "text": "Liegt deine Steuer regelmäßig unter 300 € im Quartal, kannst du auf Antrag halbjährlich anmelden.",
+        "quote": "Hat der Beherbergungsbetrieb regelmäßig Zahlungsverpflichtungen aus der Übernachtungssteuer von unter 300,00 € im Kalendervierteljahr, so kann auf Antrag eine Abgabe der Steueranmeldungen je Kalenderhalbjahr gewährt werden."
+      },
+      {
+        "text": "Buchungen, die zwischen dem 1. Januar 2026 und dem 1. Oktober 2026 vertraglich vereinbart wurden und nicht über den 30. Juni 2027 hinausgehen, sind steuerfrei.",
+        "quote": "Beherbergungsleistungen, die seit dem 01.01.2026 bis zum Inkrafttreten dieser Satzung vertraglich vereinbart worden sind und nicht über den 30.06.2027 hinausgehen, sind von der Steuer ausgenommen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kiel/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 2
+  }
+}

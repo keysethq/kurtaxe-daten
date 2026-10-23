@@ -1,0 +1,196 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wiesbaden",
+  "name": "Landeshauptstadt Wiesbaden",
+  "short": "Wiesbaden",
+  "ags": "06414000",
+  "state": "Hessen",
+  "district": "Wiesbaden",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung eines Kurbeitrages im Gebiet der Landeshauptstadt Wiesbaden (Kurbeitragssatzung) vom 21. März 2024, Fassung „gültig ab 27.03.2024“, Landeshauptstadt Wiesbaden",
+      "url": "https://tourismus.wiesbaden.de/downloads/dokumente/Kurbeitragssatzung-Wiesbaden-gueltig-ab-27.03.2024.pdf",
+      "kind": "municipality",
+      "inForce": "2024-03-27",
+      "sha256": "73dc68ca2f8f6d63acd6ba4daca91abd87cf813678ce64bf49d1a48c90464b3d",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-03-27"
+    },
+    "gaesteinfo": {
+      "title": "Informationen für den Übernachtungsgast zum Kurbeitrag der Landeshauptstadt Wiesbaden, Stand 27.03.2024, Landeshauptstadt Wiesbaden",
+      "url": "https://tourismus.wiesbaden.de/downloads/dokumente/Informationen-fuer-den-Uebernachtungsgast-zum-Kurbeitrag-Stand-27.03.2024.docx.pdf",
+      "kind": "municipality",
+      "inForce": "2024-03-27",
+      "sha256": "ab92bc3a7b9bfb40aac9e8a9f99db763e767385b027932f5f7670f7d3e2d4add",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-03-27"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Beide Tage gelten für die Berechnung des Kurbeitrages zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 500,
+          "quote": "Der Kurbeitrag beträgt pro Aufenthaltstag und pro Person 5,00 EUR."
+        }
+      }
+    ],
+    "maxNights": {
+      "nights": 30,
+      "perStay": false,
+      "text": "höchstens 30 Tage im Kalenderjahr",
+      "quote": "höchstens jedoch bis zu einer Gesamtaufenthaltsdauer von 30 Tagen im Kalenderjahr erhoben."
+    },
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit Schwerbehindertenausweis",
+        "quote": "Für Schwerbehinderte mit Schwerbehindertenausweis ermäßigt sich der Kurbeitrag um 50 %.",
+        "percentOff": 50
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Wer in Wiesbaden mit Haupt- oder Nebenwohnsitz gemeldet ist, zahlt keinen Kurbeitrag.",
+        "quote": "Als ortsfremd gilt, wer im Erhebungsgebiet keinen Haupt- oder Nebenwohnsitz hat."
+      },
+      {
+        "text": "Minderjährige zahlen keinen Kurbeitrag, denn er wird nur von volljährigen Gästen erhoben.",
+        "quote": "Der Beitrag wird von allen volljährigen ortsfremden Personen, die im Erhebungsgebiet Wohnung genommen haben"
+      },
+      {
+        "text": "Wer als Hausbesuch bei jemandem mit Hauptwohnung in Wiesbaden unentgeltlich aufgenommen wird, ist befreit.",
+        "quote": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet mit Hauptwohnung wohnenden Person unentgeltlich Aufnahme finden,"
+      },
+      {
+        "text": "Patienten in Krankenhäusern sind befreit.",
+        "quote": "Personen, die sich als Patienten in Krankenhäusern im Sinne des § 107 Abs. 1 SGB V aufhalten,"
+      },
+      {
+        "text": "Schülerinnen, Schüler und Studierende auf Klassen- oder Studienfahrten sind befreit.",
+        "quote": "Schülerinnen und Schüler sowie Studierende im Rahmen von Klassen- oder Studienfahrten,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, die auf ständige Begleitung angewiesen sind, sind befreit, wenn eine ärztliche Bescheinigung das belegt.",
+        "quote": "Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, die auf eine ständige Begleitung angewiesen sind, sofern die Notwendigkeit einer ständigen Begleitung durch eine ärztliche Bescheinigung nachgewiesen wird."
+      },
+      {
+        "text": "Schülerinnen und Schüler im Blockunterricht von Berufsschulen sind befreit.",
+        "quote": "Schülerinnen und Schüler, die sich zur Teilnahme am Blockunterricht von Berufsschulen (gemäß § 39 Abs. 4 Hessisches Schulgesetz) im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Teilnehmer an Freizeiten, Fahrten, Lagern, Tagungen, Lehrgängen und Kursen anerkannter freier Träger der Jugendhilfe sind für deren Dauer befreit.",
+        "quote": "Personen, die an Freizeiten, Fahrten, Lagern, Tagungen, Lehrgängen und Kursen, die von anerkannten freien Trägern der Jugendhilfe (gemäß § 75 Sozialgesetzbuch (SGB) - Achtes Buch (VIII)) durchgeführt werden, teilnehmen, während deren Dauer,"
+      },
+      {
+        "text": "Wer im Bundesfreiwilligendienst Dienst tut oder an dessen Seminaren und Lehrgängen teilnimmt, ist für deren Dauer befreit.",
+        "quote": "zur Dienstausübung im Rahmen des Bundesfreiwilligendienstes im Erhebungsgebiet aufhalten, während deren Dauer,"
+      },
+      {
+        "text": "Wer im Jugendfreiwilligendienst Dienst tut oder an dessen Seminaren und Lehrgängen teilnimmt, ist für deren Dauer befreit.",
+        "quote": "zur Dienstausübung im Rahmen des Jugendfreiwilligendienstes im Erhebungsgebiet aufhalten, während deren Dauer,"
+      },
+      {
+        "text": "Wer jünger als 21 ist und an Veranstaltungen zur politischen Bildung anerkannter Träger teilnimmt, ist für deren Dauer befreit.",
+        "quote": "Personen bis zur Vollendung des 21. Lebensjahres, die an Veranstaltungen zur politischen Bildung bei von der Bundeszentrale für politische Bildung anerkannten Trägern teilnehmen, während deren Dauer."
+      },
+      {
+        "text": "Auf Antrag und mit ärztlichem Attest sind Patienten befreit, solange sie ihre Unterkunft nicht verlassen können; in Härtefällen kann die Stadt auf Antrag befreien oder ermäßigen.",
+        "quote": "Von der Pflicht zur Entrichtung eines Kurbeitrages werden bei Vorlage eines ärztlichen Attestes Patienten für die Zeit, in der sie ihre Unterkunft nicht verlassen können, auf Antrag befreit. Weiter kann auf Antrag in Fällen besonderer Härte von der Pflicht zur Entrichtung des Kurbeitrags befreit oder der Kurbeitrag ermäßigt werden."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag gilt das ganze Jahr und im ganzen Stadtgebiet.",
+        "quote": "ganzjährig einen Kurbeitrag. Dieser ist eine öffentlich-rechtliche Abgabe."
+      },
+      {
+        "text": "Seit dem 1. Februar 2024 zahlen auch Gäste, die nur beruflich oder zur Ausbildung in Wiesbaden sind, den Kurbeitrag, sofern sie nicht zu einer befreiten Gruppe gehören.",
+        "quote": "Ab 1. Februar 2024 sind kurbeitragspflichtig: ⋅ Personen, die sich nur zur Berufsausübung oder –ausbildung im Erhebungsgebiet aufhalten,",
+        "source": "gaesteinfo"
+      },
+      {
+        "text": "Wer Gäste gegen Entgelt beherbergt, meldet jeden Ortsfremden an, das gilt auch für alle, die vorübergehend Zimmer oder Wohnraum gegen Entgelt zur Verfügung stellen.",
+        "quote": "Wer im Erhebungsgebiet gem. § 1 Abs. 4 Personen gegen Entgelt beherbergt, ist verpflichtet, jeden Ortsfremden zur Entrichtung des Kurbeitrages anzumelden."
+      },
+      {
+        "text": "Den Kurbeitrag weist du auf der Rechnung gesondert aus.",
+        "quote": "Der Kurbeitrag ist in der Beherbergungsrechnung gesondert auszuweisen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag bei deinen Gästen ein, führst ihn an die Stadt ab und haftest für rechtzeitigen Einzug und vollständige Ablieferung.",
+      "quote": "Die nach § 6 Meldepflichtigen haben den Kurbeitrag von den beitragspflichtigen Personen einzuziehen und an die Landeshauptstadt Wiesbaden abzuführen."
+    },
+    "deadline": {
+      "text": "Den im Monat eingezogenen Kurbeitrag führst du bis zum 20. des Folgemonats ab.",
+      "quote": "Die im Laufe eines Kalendermonats eingezogenen Kurbeiträge sind vom Meldepflichtigen jeweils bis zum 20. des folgenden Monats an die Landeshauptstadt Wiesbaden abzuführen."
+    },
+    "reporting": {
+      "text": "Du schickst die vollständig ausgefüllten Meldeformulare bis zum 10. des Folgemonats an die Stadt, bei quartalsweiser Meldung bis zum 10. des Monats nach dem Quartal; elektronisch geht das über das Verfahren der Stadt.",
+      "quote": "Der Meldepflichtige nach Abs. 1 hat die mit den zwingend vorgeschriebenen Angaben vollständig ausgefüllten Meldeformulare bis zum Ablauf des zehnten Tages des Folgemonats oder bei quartalsweiser Meldung bis zum Ablauf des zehnten Tages des Monats, der auf das Quartal folgt, der Landeshauptstadt Wiesbaden zuzuleiten."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wiesbaden/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 30,
+    "maxPerStay": false,
+    "childLimits": [],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 500,
+        "children": [],
+        "reduced": [
+          250
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit Schwerbehindertenausweis",
+        "onApplication": false
+      }
+    ]
+  }
+}

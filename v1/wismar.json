@@ -1,0 +1,142 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wismar",
+  "name": "Hansestadt Wismar",
+  "short": "Wismar",
+  "ags": "13074087",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Nordwestmecklenburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Hansestadt Wismar über die Erhebung einer Übernachtungssteuer in der Fassung der 2. Änderung (unverbindliche Lesefassung), Hansestadt Wismar",
+      "url": "https://www.wismar.de/loadDocument.phtml?FID=4176.1057.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "e8dc078864b598b6ab9f6a4cc28c9ed463ca4f2d90add64510cbd6772b22aaf0",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "aenderung2": {
+      "title": "2. Änderungssatzung zur Satzung der Hansestadt Wismar über die Erhebung einer Übernachtungssteuer, veröffentlicht am 09.11.2023, in Kraft ab 01.01.2024, Hansestadt Wismar",
+      "url": "https://www.wismar.de/loadDocument.phtml?FID=4176.1059.1&Ext=PDF",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "7a20e17671784064430682dbb5d1c38798bc8d021eb541f479630f05071f0c80",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "info": {
+      "title": "Informationsblatt Übernachtungssteuer für den Gast (gültig ab 01.01.2024), Hansestadt Wismar",
+      "url": "https://www.wismar.de/PDF/Informationsblatt_%C3%9Cbernachtungssteuer_f%C3%BCr_den_Gast.PDF?ObjSvrID=1800&ObjID=3543&ObjLa=1&Ext=PDF&WTR=1&_ts=1726040333",
+      "kind": "municipality",
+      "inForce": "2024-01-01",
+      "sha256": "35c382db1caff664ca594306503fdd2bb7b5d1e9590ee2f8aa6a28b67a7b4446",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Die Steuer beträgt 5 % der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt für die Übernachtung ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen, gleich ob der Gast oder ein Dritter es schuldet.",
+      "quote": "Die Steuer bemisst sich nach dem für die Übernachtung geschuldeten Entgelt ohne Umsatzsteuer und ohne Entgelte für andere Dienstleistungen. Unerheblich ist, ob das Entgelt vom Übernachtungsgast oder von einem Dritten für diesen geschuldet wird.",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Der Beherbergungsbetrieb im Sinne von § 1 Abs. 3 schuldet die Steuer."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist 14 Kalendertage nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr (Veranlagungszeitraum) festgesetzt. (2) Die Steuer wird 14 Kalendertage nach Bekanntgabe des Steuerbescheides fällig."
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 15. Tag nach Quartalsende die Erklärung der Bemessungsgrundlage auf dem amtlichen Vordruck bei der Stadt ab, mit dem Gesamtbetrag der steuerbefreiten Entgelte.",
+      "quote": "bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres eine Erklärung der Bemessungsgrundlage nach amtlich vorgeschriebenem Vordruck unter Angabe des Gesamtbetrages der Entgelte, die steuerbefreit sind, abzugeben."
+    },
+    "exemptions": [
+      {
+        "text": "Bei Gruppenreisen sind Übernachtungen von Kindern und Jugendlichen bis 18 Jahre in gemeinnützigen Einrichtungen der Jugendhilfe steuerfrei, ebenso die Gruppenleiter.",
+        "quote": "Steuerfrei sind im Rahmen von Gruppenreisen Übernachtungen von Kindern und Jugendlichen bis zum Alter von 18 Jahren in Einrichtungen, die dem gemeinnützigen Zweck der Förderung der Jugendhilfe im Sinne von § 52 Absatz 2 Nr. 4 Abgabenordnung dienen. Gleiches gilt für die Gruppenleiter."
+      },
+      {
+        "text": "Zusammenhängende Übernachtungen im selben Betrieb, die zusammen länger als sechs Monate dauern, unterliegen nicht der Steuer.",
+        "quote": "Sollte ein Übernachtungsgast zusammenhängende Übernachtungen im selben Beherbergungsbetrieb verbringen, die eine Gesamtdauer von 6 Monaten übersteigen, so unterliegt der Aufwand für diese Übernachtungen nicht der Besteuerung nach dieser Satzung."
+      },
+      {
+        "text": "Krankenhäuser, Rehabilitationskliniken, Pflegeheime, Hospize, Frauenhäuser und vergleichbare Einrichtungen für Menschen in besonderen sozialen Situationen gelten nicht als Übernachtung im Sinne der Satzung.",
+        "quote": "Nicht als Übernachtung im Sinne von Abs. 1 gilt das Unterkommen in Krankenhäusern, Rehabilitationskliniken, Alten- und Pflegeheimen, Hospizen, Frauenhäusern und vergleichbaren Einrichtungen, die dem Unterkommen von Personen in besonderen sozialen Situationen dienen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Berufliche Übernachtungen sind steuerpflichtig; die Steuer fällt an, unabhängig davon, zu welchem Zweck die Übernachtung erfolgt.",
+        "quote": "Der Übernachtungsgast entrichtet die Steuer an das Hotel, die Pension oder den Vermieter der Wohnung unabhängig davon, zu welchem Zweck die Übernachtung erfolgt.",
+        "source": "info"
+      },
+      {
+        "text": "Seit dem 1. Januar 2024 gibst du in der Erklärung die beruflich oder betrieblich veranlassten Übernachtungen nicht mehr gesondert an.",
+        "quote": "In Absatz 1 werden die Worte „des Gesamtbetrages der Entgelte für Übernachtungen, die beruflich oder betrieblich veranlasst sind, und “ gestrichen.",
+        "source": "aenderung2"
+      },
+      {
+        "text": "Nicht zum Übernachtungspreis gehören Entgelte für Mahlzeiten, Minibar oder das Parken von Fahrzeugen.",
+        "quote": "Nicht zum Übernachtungspreis gehören Entgelte für Mahlzeiten, Minibar oder das Parken von Fahrzeugen.",
+        "source": "info"
+      },
+      {
+        "text": "Lässt sich eine Gesamtrechnung nicht aufteilen, ziehst du 7 € für das Frühstück und je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "Sofern die Aufteilung einer Gesamtrechnung in Übernachtungsentgelt und Entgelt für Mahlzeiten nicht möglich ist, gilt als Bemessungsgrundlage der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Übernachtungsgast und Mahlzeit."
+      },
+      {
+        "text": "Schon die entgeltliche Buchung zählt als Übernachtung, auch wenn der Gast sie nicht in Anspruch nimmt.",
+        "quote": "Als Übernachtung im Sinne von Abs. 1 gilt bereits die entgeltliche Erlangung der Beherbergungsmöglichkeit unabhängig davon, ob diese tatsächlich in Anspruch genommen wird."
+      },
+      {
+        "text": "Beherbergungsbetrieb ist, wer kurzfristige Beherbergungsmöglichkeiten gegen Entgelt zur Verfügung stellt; ausdrücklich genannt ist die Vermietung von Ferienwohnungen.",
+        "quote": "Einen Beherbergungsbetrieb im Sinne von Abs. 1 unterhält, wer kurzfristige Beherbergungsmöglichkeiten gegen Entgelt zur Verfügung stellt. Beherbergungsbetriebe sind insbesondere Hotels, Pensionen, Herbergen und die Vermietung von Ferienwohnungen."
+      },
+      {
+        "text": "Den Beginn deiner Vermietung zeigst du der Stadt innerhalb einer Woche schriftlich an.",
+        "quote": "Jeder Beherbergungsbetrieb im Sinne von § 1 Absatz 3 hat den Beginn seiner Tätigkeit innerhalb einer Woche bei der Hansestadt Wismar schriftlich anzuzeigen."
+      },
+      {
+        "text": "Auf Verlangen des Gastes stellst du eine Rechnung oder Bescheinigung aus, aus der die Übernachtungssteuer hervorgeht.",
+        "quote": "Der Beherbergungsbetrieb im Sinne von § 1 Abs. 3 hat dem Übernachtungsgast auf Verlangen eine Rechnung oder Bescheinigung zu erteilen, aus der die Übernachtungssteuer hervorgeht."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wismar/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

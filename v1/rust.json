@@ -1,0 +1,178 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "rust",
+  "name": "Gemeinde Rust",
+  "short": "Rust",
+  "ags": "08317114",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Rust über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS), Gemeinderatsbeschluss vom 13.10.2025, Amtsblatt der Gemeinde Rust Nr. 42 vom 16.10.2025",
+      "url": "https://www.rust.de/site/Rust/get/documents_E1210121801/rust/Dateien/Dokumente/Gemeinde/Mitteilungsblatt/2025/42-2025.pdf",
+      "kind": "gazette",
+      "inForce": "2026-01-01",
+      "sha256": "b15b89f1223040615ef9237188b8bde2b3098ac8ae5f6865e7cc703fc5d19bd6",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 145,
+          "quote": "Die Kurtaxe beträgt für jede Person und jeden Tag 1,45 € (inkl. Mehrwertsteuer)"
+        },
+        "children": [
+          {
+            "underAge": 11,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 11. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 725,
+      "text": "Pro Aufenthalt zahlt eine Person höchstens 7,25 Euro.",
+      "quote": "bei Aufenthalten einer Person mit mehreren Aufenthaltstagen zusammengerechnet höchstens 7,25 € (inkl. Mehrwertsteuer) je Aufenthalt."
+    },
+    "exemptions": [
+      {
+        "text": "Tagesbesucher, also ortsfremde Personen, die sich ohne Übernachtung in Rust aufhalten",
+        "quote": "ortsfremde Personen, die sich ohne Übernachtung in der Gemeinde aufhalten (Tagesbesucher)"
+      },
+      {
+        "text": "Besucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen oder Veranstaltungen nutzen",
+        "quote": "Besucher von Einwohnern, die in deren Haushalt unentgeltlich Aufnahme finden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Kranke und schwerbehinderte Menschen, die Kureinrichtungen und Veranstaltungen nicht nutzen können, solange das ein ärztliches Zeugnis belegt",
+        "quote": "kranke und schwerbehinderte Personen, die nicht in der Lage sind (z.B. bei Bettlägerigkeit), die Kureinrichtungen und Veranstaltungen zu nutzen, und dies durch ärztliches Zeugnis ausweisen"
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem nachgewiesenen Grad der Behinderung von 100 %",
+        "quote": "schwerbehinderte Personen mit einem nachgewiesenen Grad der Behinderung von 100 %"
+      },
+      {
+        "text": "Begleitpersonen dieser Schwerbehinderten, wenn die Notwendigkeit nachgewiesen ist und sie selbst keine Kureinrichtungen nutzen",
+        "quote": "Begleitpersonen von schwerbehinderten Personen im Sinne von Nr. 5, wenn die Notwendigkeit einer Begleitperson im Schwerbehindertenausweis selbst oder durch ärztliche Bescheinigung nachgewiesen ist und die Begleitperson selbst keine zu Kur- und Erholungszwecken bereitgestellten Einrichtungen benutzt oder Veranstaltungen besucht"
+      },
+      {
+        "text": "Einwohner der Partnergemeinde Marlenheim",
+        "quote": "Einwohner der Partnergemeinde Marlenheim"
+      },
+      {
+        "text": "Wer in Rust arbeitet, in Ausbildung ist oder beruflich an einer Tagung oder Veranstaltung am Ort teilnimmt; das weist der Gast in geeigneter Form nach",
+        "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden, aufhalten. Die Voraussetzungen nach Satz 1 sind vom Kurtaxepflichtigen in geeigneter Form nachzuweisen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Betrag von 1,45 Euro enthält die Mehrwertsteuer.",
+        "quote": "1,45 € (inkl. Mehrwertsteuer)"
+      },
+      {
+        "text": "Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobile oder seine Wohnung als Ferienwohnung gegen Entgelt zur Verfügung stellt.",
+        "quote": "Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten oder seine Wohnung als Ferienwohnung entgeltlich zur Verfügung stellt."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige Einziehung und die vollständige Ablieferung der Kurtaxe und darfst sie dem Gast in Rechnung stellen.",
+        "quote": "Die Meldepflichtigen haften für die rechtzeitige Einziehung und vollständige Ablieferung der Kurtaxe. Sie sind berechtigt, dem Gast die Kurtaxe in Rechnung zu stellen."
+      },
+      {
+        "text": "Die Kurtaxe kann von Beherbergern und Campingplatzbetreibern abgelöst werden; den Antrag stellst du spätestens zum 30.11. des Jahres davor, soweit keine mehrjährige Vereinbarung besteht.",
+        "quote": "Die Kurtaxe kann von Beherbergern und Betreibern eines Campingplatzes abgelöst werden. Anträge zur Ablösung der Kurtaxe sind spätestens zum 30.11. des dem Erhebungszeitraum vorangehenden Jahres bei der Gemeinde einzureichen, soweit keine mehrjährige Vereinbarung abgeschlossen wurde."
+      },
+      {
+        "text": "Jeder Gast, der Kurtaxe zahlt, bekommt eine Gästekarte mit Namen, Ankunftstag und voraussichtlichem Abreisetag.",
+        "quote": "Jede Person, die der Kurtaxepflicht unterliegt und nicht nach § 6 befreit ist, erhält eine mit Namen, Ankunftstag und voraussichtlichem Abreisetag versehene Gästekarte."
+      },
+      {
+        "text": "Einwohner von Rust, die ihren Lebensmittelpunkt in einer anderen Gemeinde haben, zahlen eine Jahreskurtaxe von 43,00 Euro.",
+        "quote": "Diese beträgt je Person 43,00 EUR (inkl. Mehrwertsteuer)."
+      },
+      {
+        "text": "Der Gast muss den Grund für die Vergünstigung glaubhaft machen; der Antrag läuft über das elektronische Meldeverfahren, wenn du es nutzt, und bei einem verspäteten Antrag gilt die Vergünstigung erst ab dem Eingang.",
+        "quote": "Der Gast muss den betreffenden Vergünstigungsgrund glaubhaft machen. Der Antrag erfolgt im elektronischen Meldeverfahren, soweit der Wohnungsgeber bzw. Reiseunternehmer dieses nutzt. Bei verspäteten Anträgen wird die Vergünstigung erst vom Zeitpunkt des Antragseingangs gewährt."
+      },
+      {
+        "text": "Für die Meldung nutzt du die Papiermeldescheine der Gemeinde oder das elektronische Meldeverfahren.",
+        "quote": "Für die Meldung sind die von der Gemeinde unentgeltlich bereitgestellten manuellen Papiermeldescheine oder das elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, meldet sie bei der Gemeinde an und ab und zieht die Kurtaxe ein.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, ist verpflichtet, die bei ihm verweilenden Personen bei der Gemeinde Rust innerhalb von drei Tagen nach Anreise anzumelden und acht Tage nach Abreise abzumelden und die fällige Kurtaxe von der kurtaxepflichtigen Person einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats gesammelt an die Gemeinde ab.",
+      "quote": "Die vereinnahmten Kurtaxezahlungen eines Kalendermonats sind jeweils bis zum 10. des folgenden Monats gesammelt an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Anreise an und acht Tage nach der Abreise ab.",
+      "quote": "die bei ihm verweilenden Personen bei der Gemeinde Rust innerhalb von drei Tagen nach Anreise anzumelden und acht Tage nach Abreise abzumelden"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/rust/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      11
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 145,
+        "children": [
+          0
+        ]
+      }
+    ],
+    "stayCap": 725
+  }
+}

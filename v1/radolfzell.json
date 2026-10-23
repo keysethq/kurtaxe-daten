@@ -1,0 +1,160 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "radolfzell",
+  "name": "Radolfzell am Bodensee",
+  "short": "Radolfzell",
+  "ags": "08335063",
+  "state": "Baden-Württemberg",
+  "district": "Konstanz",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe in der Großen Kreisstadt Radolfzell am Bodensee vom 31.05.2016, geändert durch Satzungen vom 30.10.2018, 17.11.2020 und 24.09.2024 (Kurtaxesatzung - KTS), Lesefassung, in Kraft seit 01.01.2025",
+      "url": "https://www.radolfzell.de/ortsrecht/Kurtaxesatzung-2025-statute2790",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2025-01-01",
+      "sha256": "ebe1569bcc79b221ccf9dfcf969c330fcc9ece63ebe07c79ef795f2d4a905d06",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-14",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Dauer des Aufenthaltes wird nach der Anzahl der Übernachtungen berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Die Kurtaxe beträgt je Person und Übernachtung 3,00 €."
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis einschließlich 14 Jahre."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Teilnehmer von Schullandheim-Aufenthalten",
+        "quote": "Teilnehmer von Schullandheim-Aufenthalten."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie wegen ihres Zustands (zum Beispiel Bettlägerigkeit) keine Kureinrichtungen oder Veranstaltungen besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Auf Antrag Schwerbehinderte mit einem Grad der Behinderung von mindestens 80, mit Ausweis",
+        "quote": "Auf Antrag schwerbehinderte Personen nach § 2 Abs. 2 SGB IX mit einem Grad der Behinderung von mindestens 80, die dies durch die Vorlage eines Ausweises nach § 69 Abs. 5 SGB IX nachweisen."
+      },
+      {
+        "text": "Auf Antrag Begleitpersonen von Schwerbehinderten, wenn der Ausweis das Kennzeichen B trägt",
+        "quote": "Auf Antrag Begleitpersonen von schwerbehinderten Personen nach § 2 Abs. 2 SGB IX. Die Notwendigkeit einer ständigen Begleitung muss durch das Kennzeichen B im Schwerbehinderten-Ausweis nachgewiesen werden."
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen, oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Sätze gelten das ganze Jahr, ohne Saisonunterschied.",
+        "quote": "Die Kurtaxe beträgt je Person und Übernachtung 3,00 €."
+      },
+      {
+        "text": "Kurtaxepflichtige Einwohner der Stadt nach § 2 Abs. 2 zahlen unabhängig von Dauer, Häufigkeit und Jahreszeit des Aufenthalts eine pauschale Jahreskurtaxe von 140,00 Euro je Person.",
+        "quote": "Kurtaxepflichtige Einwohner der Stadt nach § 2 Abs. 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 140,00 €."
+      },
+      {
+        "text": "Kurtaxepflichtig sind auch Einwohner, die den Schwerpunkt ihrer Lebensbeziehungen in einer anderen Gemeinde haben; dazu zählen Dauercamper auf den Campingplätzen und Inhaber von Zweitwohnungen.",
+        "quote": "Kurtaxepflichtig sind darüber hinaus auch die Einwohner der Stadt, die den Schwerpunkt der Lebensbeziehungen in einer anderen Gemeinde haben. Hierunter fallen auch die Dauercamper auf den Campingplätzen und die Inhaber von Zweitwohnungen."
+      },
+      {
+        "text": "Im Fall einer Umsatzsteuerpflicht sind die Beträge Bruttoentgelte und enthalten die gesetzlich geschuldete Umsatzsteuer.",
+        "quote": "Im Fall einer Umsatzsteuerpflicht verstehen sich die Kurtaxe nach § 3 Abs. 1 sowie die pauschale Jahreskurtaxe nach § 3 Abs. 2 als Bruttoentgelte, somit inklusive der gesetzlich geschuldeten Umsatzsteuer."
+      },
+      {
+        "text": "Du bist verpflichtet, deinem Gast nach der Ankunft die Gästekarte auszuhändigen.",
+        "quote": "Der Gastgeber ist verpflichtet, dem Gast nach seiner Ankunft die Gästekarte auszuhändigen."
+      },
+      {
+        "text": "Gemeldet wird über das kostenlose elektronische Meldeverfahren der Tourismus- und Stadtmarketing Radolfzell GmbH.",
+        "quote": "Für die Meldung ist das von der TSR GmbH unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst die Kurtaxe bei deinen Gästen ein, führst sie ab und haftest der Stadt für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Abs. 1 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen. Die im Laufe eines Kalendermonats fällig gewordenen Kurtaxebeträge werden durch die Tourismus- und Stadtmarketing Radolfzell GmbH schriftlich von den nach Satz 1 Meldepflichtigen angefordert. Die Beträge sind innerhalb der angegebenen Frist an die Stadt Radolfzell abzuführen. Die nach Satz 1 Meldepflichtigen haften der Stadt Radolfzell gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Monats werden bei dir angefordert; du führst sie innerhalb der angegebenen Frist an die Stadt ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Kurtaxebeträge werden durch die Tourismus- und Stadtmarketing Radolfzell GmbH schriftlich von den nach Satz 1 Meldepflichtigen angefordert. Die Beträge sind innerhalb der angegebenen Frist an die Stadt Radolfzell abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach Ankunft an und nach Abreise ab.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/radolfzell/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}

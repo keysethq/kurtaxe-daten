@@ -1,0 +1,276 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-nauheim",
+  "name": "Stadt Bad Nauheim",
+  "short": "Bad Nauheim",
+  "ags": "06440002",
+  "state": "Hessen",
+  "district": "Wetteraukreis",
+  "sources": {
+    "satzung": {
+      "title": "Kurbeitragssatzung der Stadt Bad Nauheim, Beschluss vom 26.11.2024, ausgefertigt am 27.11.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.bad-nauheim.de/frontend/0_dokumente/4_buergernah/politik/stadtrecht/kur/6-40%20Kurbeitragssatzung-2025.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "f2ae9d0016dc18ef7a70616c8167cb308eb099f2b9ce5d2cf9e7ba886c17ce41",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-10-15"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Anreise und Abreisetag gelten zusammen als ein Tag."
+    },
+    "zones": [
+      {
+        "label": "Zone I",
+        "area": {
+          "text": "Zone I sind die Gemarkung Bad Nauheim und die in Anlage 2 der Satzung benannten Straßen in Nieder-Mörlen.",
+          "quote": "Der Kurbeitrag wird für die Gebiete der Gemarkungen Bad Nauheim und Nieder-Mörlen (benannte Straßen) gemäß Anlage 2 „Zone I“ erhoben."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 390,
+              "quote": "Zone 1 Zone 2 Tageskurkarte 3,90 € 1,90 €"
+            },
+            "children": [
+              {
+                "underAge": 5,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 5. Lebensjahr in Begleitung von Familienangehörigen."
+              },
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder vom 6. bis zur Vollendung des 14. Lebensjahres in 0€ 0€ Begleitung einer volljährigen Aufsichtsperson im Besitz einer Tages- oder Jahreskurkarte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone II",
+        "area": {
+          "text": "Zone II sind der übrige Teil von Nieder-Mörlen sowie Schwalheim, Steinfurth, Rödgen und Wisselsheim.",
+          "quote": "Der Kurbeitrag wird ferner für die Gebiete der Gemarkungen Nieder-Mörlen (außer Straßen der Zone I), Schwalheim, Steinfurth, Rödgen und Wisselsheim gemäß Anlage 2 „Zone II“ erhoben."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 190,
+              "quote": "Zone 1 Zone 2 Tageskurkarte 3,90 € 1,90 €"
+            },
+            "children": [
+              {
+                "underAge": 5,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 5. Lebensjahr in Begleitung von Familienangehörigen."
+              },
+              {
+                "underAge": 14,
+                "cents": 0,
+                "quote": "Kinder vom 6. bis zur Vollendung des 14. Lebensjahres in 0€ 0€ Begleitung einer volljährigen Aufsichtsperson im Besitz einer Tages- oder Jahreskurkarte"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "stayCap": {
+      "cents": 15000,
+      "text": "Für einen ununterbrochenen Aufenthalt im Kalenderjahr zahlst du höchstens den Jahreskurbeitrag für Ortsfremde von 150,00 € pro Person.",
+      "quote": "Jahreskurkarte für Ortsfremde 150,00 € 150,00 € Jahreskurkarte für Einwohner 50,00 € 50,00 € (2) Der Kurbeitrag wird für die Dauer jedes ununterbrochenen Aufenthalts in einem Kalenderjahr mit den o.g. Beitragssätzen, höchstens jedoch in Höhe des Jahreskurbeitrages erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Wer sich nur zur Berufsausbildung oder Berufsfortbildung (ausgenommen Seminare) im Erhebungsgebiet aufhält, zahlt nichts.",
+        "quote": "Personen, die sich nur zur Berufsausbildung und Berufsfortbildung (ausgenommen Seminare) im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Wer bei einer Familie mit Hauptwohnung im Erhebungsgebiet unentgeltlich als Hausbesuch aufgenommen wird, zahlt nichts.",
+        "quote": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet mit Hauptwohnung wohnenden Familie unentgeltlich Aufnahme finden,"
+      },
+      {
+        "text": "Wer sich in einem Akutkrankenhaus der Regelversorgung aufhält, zahlt nichts.",
+        "quote": "Personen, die sich in Akutkrankenhäusern der Regelversorgung nach dem Krankenhausfinanzierungsgesetz aufhalten,"
+      },
+      {
+        "text": "Kranke Personen, die bettlägerig sind, zahlen nichts.",
+        "quote": "kranke Personen, die bettlägerig sind,"
+      },
+      {
+        "text": "Wer von seinem ständigen Wohnsitz aus ambulant Kurmittel im Erhebungsgebiet in Anspruch nimmt, zahlt nichts.",
+        "quote": "Personen, die von ihrem ständigen Wohnsitz aus im Erhebungsgebiet Kurmittel im Wege ambulanter Behandlung in Anspruch nehmen,"
+      },
+      {
+        "text": "Wer nach der Zweitwohnungssteuersatzung der Stadt steuerpflichtig ist, zahlt keinen Kurbeitrag.",
+        "quote": "Personen, die nach der Zweitwohnungssteuersatzung der Stadt Bad Nauheim steuerpflichtig sind"
+      },
+      {
+        "text": "Kinder bis zum vollendeten 5. Lebensjahr zahlen nichts, wenn sie mit Familienangehörigen kommen.",
+        "quote": "Kinder bis zum vollendeten 5. Lebensjahr in Begleitung von Familienangehörigen."
+      },
+      {
+        "text": "Begleitpersonen von schwerbehinderten Menschen oder behinderten Menschen mit mindestens 70 % Erwerbsminderung zahlen nichts, wenn die Notwendigkeit nachgewiesen wird und sie selbst keine Kurmittel in Anspruch nehmen.",
+        "quote": "Begleitpersonen von schwerbehinderten Menschen oder behinderten Menschen mit mindestens 70 % Erwerbsminderung, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung, durch den Ausweis über die Eigenschaft als schwerbehinderter Mensch oder durch Rentenbescheid nachgewiesen wird und die Begleitperson selbst keine Kurmittel in Anspruch nimmt."
+      },
+      {
+        "text": "Erwerbsunfähige, Kriegsbeschädigte und Pflegebedürftige, denen besondere Fürsorge im Sinne des Bundesversorgungsgesetzes oder Pflegehilfe zusteht, zahlen nichts, sofern sie die Kosten des Aufenthalts und der Kur selbst in voller Höhe tragen.",
+        "quote": "Erwerbsunfähige, Kriegsbeschädigte und Pflegebedürftige, denen besondere Fürsorge im Sinne des Bundesversorgungsgesetzes oder Pflegehilfe zusteht, sofern sie selbst die Kosten des Aufenthalts und der Kur in voller Höhe tragen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Beträge enthalten die gesetzliche Mehrwertsteuer von derzeit 7 %.",
+        "quote": "Als Kurbeitrag inkl. der gesetzlichen MwSt. von derzeit 7% werden erhoben für eine"
+      },
+      {
+        "text": "Kinder vom 6. bis zur Vollendung des 14. Lebensjahres zahlen nichts, wenn sie von einer volljährigen Aufsichtsperson begleitet werden, die eine Tages- oder Jahreskurkarte hat.",
+        "quote": "Kinder vom 6. bis zur Vollendung des 14. Lebensjahres in 0€ 0€ Begleitung einer volljährigen Aufsichtsperson im Besitz einer Tages- oder Jahreskurkarte"
+      },
+      {
+        "text": "Die Befreiung nach § 4 Abs. 1 Nr. 1 bis 5 entfällt, sobald du Kureinrichtungen in Anspruch nimmst oder an Kurveranstaltungen teilnimmst.",
+        "quote": "Die Befreiung in den Fällen Abs. 1 Nr. 1 bis 5 entfällt, sobald Kureinrichtungen in Anspruch genommen werden oder an Kurveranstaltungen teilgenommen wird."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Behinderungsgrad ab 70 % und Blinde zahlen 1,80 € je Tag in Zone I und 0,90 € in Zone II.",
+        "quote": "Zone 1 Zone 2 Tageskurkarte 3,90 € 1,90 € Schwerbehinderte Menschen gemäß § 1 SchwbG mit 1,80 € 0,90 € einem Behinderungsgrad ab 70% und Blinde"
+      },
+      {
+        "text": "Bei mehreren Aufenthalten im Kalenderjahr wird der Kurbeitrag nur bis zur Höhe des Jahreskurbeitrages erhoben.",
+        "quote": "Bei mehreren Aufenthalten im Kalenderjahr wird der Kurbeitrag nur bis zur Höhe des Jahreskurbeitrages erhoben."
+      },
+      {
+        "text": "Auf die Tageskarte der Zone 1 wird für den damit verbundenen erleichterten Verwaltungsaufwand ein Nachlass von 0,15 € je Tag inklusive Mehrwertsteuer gewährt.",
+        "quote": "Für den damit verbundenen erleichterten Verwaltungsaufwand wird auf den Kurbeitrag Tageskarte Zone 1 ein Nachlass von 0,15 € inkl. Mehrwertsteuer je Tag gewährt."
+      },
+      {
+        "text": "Du haftest für die rechtzeitige Einziehung und vollständige Ablieferung des Kurbeitrages.",
+        "quote": "Betreiber, Unternehmer und Inhaber haften für die rechtzeitige Einziehung und vollständige Ablieferung des Kurbeitrages."
+      },
+      {
+        "text": "Wer den Kurbeitrag entrichtet hat, erhält eine Kurkarte.",
+        "quote": "Kurbeitragspflichtige erhalten nach Entrichtung des Kurbeitrages eine Kurkarte."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, erfasst die beitragspflichtigen Personen mit Namen und An- und Abreisedatum, zieht den Kurbeitrag ein, führt ihn an die Stadt ab und gibt die Kurkarten aus.",
+      "quote": "sowie alle Wohnungsinhaber, die gegen Entgelt vorübergehend Zimmer oder Wohnraum zur Verfügung stellen (Wohnungsgeber), sowie die Unternehmer von Tages-Reisen sind verpflichtet, kurbeitragspflichtige Personen unter Angabe von Namen und Ankunfts- und Abfahrtsdatum zu erfassen, den Kurbeitrag einzuziehen und an die Stadt Bad Nauheim abzuführen, sowie die Kurkarten auszugeben."
+    },
+    "deadline": {
+      "text": "Die im Laufe eines Kalendermonats fällig gewordenen Kurbeiträge führst du nach dem Gebührenbescheid der Stadt ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Kurbeiträge sind gemäß Gebührenbescheid an die Stadt Bad Nauheim abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste erfasst du digital über eine Software, die die Stadt dir zur Verfügung stellt.",
+      "quote": "Die Erfassung kurbeitragspflichtiger Personen, Übertragung deren Daten und Ausdruck der Kurkarten durch die Betriebe gemäß § 9 Abs. 1 erfolgen digital, über eine, von der Stadt Bad Nauheim zur Verfügung gestellte und gewartete Software."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-nauheim/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      5,
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 390,
+        "children": [
+          0,
+          0
+        ]
+      }
+    ],
+    "zones": [
+      {
+        "label": "Zone I",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 390,
+            "children": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone II",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 190,
+            "children": [
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "stayCap": 15000
+  }
+}

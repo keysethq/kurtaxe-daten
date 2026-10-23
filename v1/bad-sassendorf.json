@@ -1,0 +1,231 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-sassendorf",
+  "name": "Gemeinde Bad Sassendorf",
+  "short": "Bad Sassendorf",
+  "ags": "05974008",
+  "state": "Nordrhein-Westfalen",
+  "district": "Soest",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Gemeinde Bad Sassendorf (Kurbeitragssatzung) in der Fassung der 2. Änderungssatzung, in Kraft ab 01.01.2022",
+      "url": "https://rathaus.bad-sassendorf.de/fileadmin/user_upload/Ortsrecht/ORECHT_8001.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "sha256": "5f7cf605cf7c6728ca5689ca3aa17e7c2784f4905205ecff6d14db62889abe63",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2022-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Anreise und der Tag der Abreise werden bei der Kurbeitragsfestsetzung als ein Tag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im staatlich anerkannten Kurgebiet, das die Anlage 1 der Satzung beschreibt (die grafische Darstellung in Anlage 2 hat nur nachrichtlichen Charakter), nicht in der ganzen Gemeinde.",
+      "quote": "Erhebungsgebiet für den Kurbeitrag ist der als Kurort staatlich anerkannte Teil des Gemeindegebietes (Kurgebiet). (2)Das Kurgebiet der Gemeinde Bad Sassendorf umfasst die Gebietszonen aus Anlage 1, welche Bestandteil dieser Satzung ist. Die Anlage 2 (graphische Darstellung der Gebietszonen) dieser Satzung hat nur nachrichtlichen Charakter."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 340,
+          "quote": "Der Kurbeitrag beträgt einschließlich gesetzlicher Mehrwertsteuer 3,40 € je Person und Aufenthaltstag."
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 14. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": true,
+      "text": "höchstens 42 Aufenthaltstage",
+      "quote": "Der Kurbeitrag richtet sich nach der Aufenthaltsdauer und wird für höchstens 42 Aufenthaltstage erhoben."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder bis zum vollendeten 14. Lebensjahr zahlen nichts, wenn sie die Voraussetzung nachweisen.",
+        "quote": "Kinder bis zum vollendeten 14. Lebensjahr."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die im Haushalt der Einwohner unentgeltlich aufgenommen werden, zahlen nichts.",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden."
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung, zur Ausbildung oder für den Bundesfreiwilligendienst im Kurgebiet aufhält, zahlt nichts.",
+        "quote": "Ortsfremde Personen, die sich nur zur Ausübung ihres Berufes, zu Ausbildungszwecken oder zur Leistung von Aufgaben im Rahmen des Bundesfreiwilligendienstes im Kurgebiet aufhalten."
+      },
+      {
+        "text": "Für die Zeit der Bettlägerigkeit zahlen Personen nach § 3 Abs. 1 Nr. 2 der Satzung nichts, wenn ein individuelles und substantiiertes ärztliches Attest sie nachweist.",
+        "quote": "Personen nach § 3 Abs. 1 Nr. 2 der Satzung für die Zeit von Bettlägerigkeit, wenn diese durch ein individuelles und substantiiertes ärztliches Attest nachgewiesen wird."
+      },
+      {
+        "text": "Auf Antrag kann die Gemeinde Bezieher von Leistungen nach SGB II oder SGB XII, Menschen in sozialer Härte oder Personen von herausragendem Interesse für den Kurort befreien.",
+        "quote": "Auf Antrag bei der Gemeinde Bad Sassendorf können Personen von der Kurbeitragspflicht befreit werden, wenn sie Leistungsbezieher nach dem SGB II oder SGB XII sind, wenn eine sonstige besondere soziale Härte nachgewiesen wird oder ein herausragendes Interesse des Kurortes eine Befreiung rechtfertigt."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80 und Blinde",
+        "quote": "Der Kurbeitrag wird unter Nachweis des Vorliegens der Voraussetzungen in Höhe von 50% ermäßigt für: a) Schwerbehinderte mit einem Behinderungsgrad von 80 % oder mehr und Blinde.",
+        "percent": 50
+      },
+      {
+        "label": "Begleitpersonen von Schwerbehinderten",
+        "quote": "in Höhe von 50% ermäßigt für: a) Schwerbehinderte mit einem Behinderungsgrad von 80 % oder mehr und Blinde. 5 80.1 b) Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit einer ständigen Begleitung auf dem Schwerbehindertenausweis oder durch sonstige amtliche oder ärztliche Bescheinigung nachgewiesen wird.",
+        "percent": 50
+      },
+      {
+        "label": "Kurgäste in Kinderkurheimen und Kinderkurkliniken ab 15 Jahre",
+        "quote": "in Höhe von 50% ermäßigt für: a) Schwerbehinderte mit einem Behinderungsgrad von 80 % oder mehr und Blinde. 5 80.1 b) Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit einer ständigen Begleitung auf dem Schwerbehindertenausweis oder durch sonstige amtliche oder ärztliche Bescheinigung nachgewiesen wird. c) Kurgäste in Kinderkurheimen und Kinderkurkliniken ab 15 Jahre.",
+        "percent": 50
+      },
+      {
+        "label": "Teilnehmer an nicht berufsbedingten Tagungen, Lehrgängen, Kursen",
+        "quote": "in Höhe von 50% ermäßigt für: a) Schwerbehinderte mit einem Behinderungsgrad von 80 % oder mehr und Blinde. 5 80.1 b) Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit einer ständigen Begleitung auf dem Schwerbehindertenausweis oder durch sonstige amtliche oder ärztliche Bescheinigung nachgewiesen wird. c) Kurgäste in Kinderkurheimen und Kinderkurkliniken ab 15 Jahre. d) Teilnehmer an nicht berufsbedingten Tagungen, Lehrgängen und Kursen bei Unterkunftsnahme während der Veranstaltung.",
+        "percent": 50
+      },
+      {
+        "label": "Personen in Anschlussheilbehandlung (AHB)",
+        "quote": "Für Personen, die sich wegen einer Anschlussheilbehandlung (AHB) im Kurort aufhalten, wird ein ermäßigter Kurbeitrag einschließlich gesetzlicher Mehrwertsteuer von 2,38 € pro Tag für die gesamte Aufenthaltsdauer erhoben.",
+        "rates": [
+          {
+            "cents": 238
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Zweitwohnungsinhaber erhalten unabhängig von der Dauer ihres Aufenthalts eine Kurkarte für ein Jahr; der Kurbeitrag dafür beträgt 20,00 € je Person und Jahr.",
+        "quote": "Zweitwohnungsinhaber erhalten, unabhängig von der Dauer ihres Aufenthaltes im Erhebungsgebiet, eine 1 Jahr gültige Kurkarte. Der Kurbeitrag für diese Kurkarte beträgt einschließlich gesetzlicher Mehrwertsteuer 20,00 € je Person und Jahr."
+      },
+      {
+        "text": "Wer 42 Aufenthaltstage überschreitet, bekommt rückwirkend ab dem ersten Aufenthaltstag eine für ein Jahr gültige Dauerkurkarte ausgestellt.",
+        "quote": "Bei Überschreitung der Höchstdauer wird rückwirkend ab Beginn des 1. Aufenthaltstages durch die Gemeinde Bad Sassendorf eine für 1 Jahr gültige Dauerkurkarte ausgestellt."
+      },
+      {
+        "text": "Du stellst jedem Gast unmittelbar nach der Ankunft auf seinen Namen die Kurkarte „Bad Sassendorf Card“ aus.",
+        "quote": "Die Kurkarte mit der Bezeichnung „Bad Sassendorf Card“ wird auf den Namen des Kurbeitragspflichtigen unmittelbar nach seiner Ankunft im Erhebungsgebiet durch den Unterkunftsgeber ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Du haftest der Gemeinde für den vollständigen, zeitgerechten und richtigen Einzug und die Abführung des Kurbeitrags.",
+        "quote": "Der Unterkunftsgeber haftet dabei nach § 11 Abs. 3 des Kommunalabgabengesetzes für das Land Nordrhein-Westfalen (KAG NRW) in der zurzeit gültigen Fassung für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung."
+      },
+      {
+        "text": "Du musst deinen Gästen die Einsicht in die Kurbeitragssatzung ermöglichen.",
+        "quote": "Die Unterkunftsgeber müssen ihren Gästen die Einsichtnahme in die Kurbeitragssatzung ermöglichen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag am Ankunftstag von deinen Gästen ein und führst ihn an die Gemeinde ab.",
+      "quote": "Der Kurbeitrag ist durch den Unterkunftsgeber von den kurbeitragspflichtigen Personen bei Fälligkeit (§ 5 Abs. 1), d. h. am Ankunftstag einzuziehen und an die Gemeinde Bad Sassendorf bis zum 1. des Folgemonates abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 1. des Folgemonats.",
+      "quote": "und an die Gemeinde Bad Sassendorf bis zum 1. des Folgemonates abzuführen."
+    },
+    "reporting": {
+      "text": "Du erfasst die Personalien deiner Gäste spätestens am Ankunftstag und meldest sie grundsätzlich elektronisch.",
+      "quote": "Jeder Unterkunftsgeber ist verpflichtet, die Personalien (Name, Anschrift, Alter, Ankunfts- und Abreisetag) der bei ihm verweilenden ortsfremden Personen spätestens am Ankunftstag zu erfassen und grundsätzlich auf elektronischem Wege"
+    },
+    "family": {
+      "free": "persons",
+      "from": 4,
+      "text": "Die vierte und jede weitere Person eines Familienhausstandes zahlt nichts; zum Familienhausstand zählen die Personen unter 18 im Hausstand des Antragstellers und darüber hinaus Personen in Schul- oder Berufsausbildung.",
+      "quote": "Die 4. und jede weitere Person eines Familienhausstandes. Zum Familienhausstand gehören alle Personen, die nachweislich im Hausstand des Antragstellers leben und das 18. Lebensjahr noch nicht vollendet haben, darüber hinaus, wenn sie sich in Schul- oder Berufsausbildung befinden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-sassendorf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": true,
+    "childLimits": [
+      14
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 340,
+        "children": [
+          0
+        ],
+        "reduced": [
+          170,
+          170,
+          170,
+          170,
+          238
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 80 und Blinde",
+        "onApplication": false
+      },
+      {
+        "label": "Begleitpersonen von Schwerbehinderten",
+        "onApplication": false
+      },
+      {
+        "label": "Kurgäste in Kinderkurheimen und Kinderkurkliniken ab 15 Jahre",
+        "onApplication": false
+      },
+      {
+        "label": "Teilnehmer an nicht berufsbedingten Tagungen, Lehrgängen, Kursen",
+        "onApplication": false
+      },
+      {
+        "label": "Personen in Anschlussheilbehandlung (AHB)",
+        "onApplication": false
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 4
+    }
+  }
+}

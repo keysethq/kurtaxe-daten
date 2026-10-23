@@ -1,0 +1,139 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "magdeburg",
+  "name": "Landeshauptstadt Magdeburg",
+  "short": "Magdeburg",
+  "ags": "15003000",
+  "state": "Sachsen-Anhalt",
+  "district": "Magdeburg",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungsteuer in der Landeshauptstadt Magdeburg (Beherbergungsteuersatzung), Amtsblatt für die Landeshauptstadt Magdeburg Nr. 25 vom 13. Dezember 2024",
+      "url": "https://www.magdeburg.de/loadDocument.phtml?FID=698.23451.1&Ext=PDF",
+      "kind": "gazette",
+      "inForce": "2025-04-01",
+      "sha256": "78d8071bc80bf785c5a2ea71cb0a12e0dc112fb9d3b7e98b37376995e00ac25b",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-04-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungsteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 5,
+      "quote": "Der auf eine einzelne Übernachtung entfallende Beherbergungsteueranteil beträgt 5 Prozent des Wertes der Bemessungsgrundlage, abgerundet auf volle Cent."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Betrag, den der Gast für die Beherbergung zahlt, einschließlich Umsatzsteuer.",
+      "quote": "Bemessungsgrundlage ist der vom Beherbergungsgast für die Beherbergung geleistete Betrag (Bruttoentgelt einschließlich Umsatzsteuer).",
+      "vatIncluded": true
+    },
+    "maxNights": {
+      "nights": 21,
+      "perStay": true,
+      "text": "höchstens 21 Tage bei ununterbrochener Beherbergung in derselben Einrichtung",
+      "quote": "Die Steuer wird bei einer ununterbrochenen Beherbergungsdauer in derselben Einrichtung längstens für 21 Tage erhoben."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein.",
+      "quote": "Wer innerhalb der Stadt eine Beherbergungseinrichtung betreibt, ist verpflichtet, von den bei ihm oder ihr beherbergten Personen die Beherbergungsteuer zum Entstehungszeitpunkt einzuziehen."
+    },
+    "deadline": {
+      "text": "Du meldest die eingezogene Steuer monatlich bis zum 15. Tag nach Monatsende an und zahlst sie bis zum 30. Tag nach Monatsende an die Stadt.",
+      "quote": "die innerhalb des jeweiligen Erhebungszeitraumes vereinnahmte Beherbergungsteuer auf amtlich vorgeschriebenem Vordruck oder in einer amtlich zugelassenen elektronischen Steueranmeldung bis zum 15. Tag nach Ablauf des Erhebungszeitraumes bei der Stadt anzumelden und den angemeldeten Betrag der Steuer bis zum 30. Tag nach Ablauf des Erhebungszeitraumes an die Stadt zu entrichten."
+    },
+    "reporting": {
+      "text": "Gäste, von denen du keine Steuer einziehst und die nicht befreit sind, gibst du in der Steueranmeldung mit Namen, Wohnanschrift, Geburtsdatum sowie An- und Abreise an und legst eine Rechnungskopie bei.",
+      "quote": "Beherbergungsgäste, von denen das Beherbergungsunternehmen keine Beherbergungsteuer einzieht und für die keine Steuerbefreiung nach § 6 gilt, sind durch das Beherbergungsunternehmen mit Namen, Wohnanschrift, Geburtsdatum und Daten der An- und Abreise in der Steueranmeldung nach Absatz 4 anzugeben. Der Steueranmeldung ist eine Rechnungskopie für die Beherbergungsleistung beizufügen."
+    },
+    "exemptions": [
+      {
+        "text": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr zahlen keine Beherbergungsteuer.",
+        "quote": "Von der Zahlung einer Beherbergungsteuer sind befreit: 1. Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr;"
+      },
+      {
+        "text": "Teilnehmende von Klassenfahrten oder Schulausflügen sind befreit, ebenso ihre Begleitpersonen.",
+        "quote": "Teilnehmende von Klassenfahrten oder Schulausflügen einschließlich der Begleitpersonen;"
+      },
+      {
+        "text": "Wer unter der Anschrift der Unterkunft mit Haupt- oder Nebenwohnung gemeldet ist, zahlt nichts.",
+        "quote": "Personen, die unter der Anschrift der Beherbergungseinrichtung mit alleiniger Wohnung, Haupt- oder Nebenwohnung nach dem Bundesmeldegesetz gemeldet sind;"
+      },
+      {
+        "text": "Teilnehmende an Angeboten anerkannter Träger der freien Jugendhilfe in der außerschulischen Bildung sind befreit, ebenso ihre Begleitpersonen.",
+        "quote": "Teilnehmende der Angebote der anerkannten Träger der freien Jugendhilfe im Bereich der außerschulischen Bildung einschließlich der Begleitpersonen."
+      },
+      {
+        "text": "Einsatzkräfte und freiwillige Helfer des Katastrophenschutzes sind für die Dauer eines behördlich festgestellten Katastrophenfalls auf Antrag befreit.",
+        "quote": "Für die Dauer eines behördlich festgestellten Katastrophenfalles werden Einsatzkräfte von Einheiten und Einrichtungen des Katastrophenschutzes, Einsatzkräfte von zur Mitwirkung im Katastrophenschutz verpflichteten öffentlichen und privaten Organisationen und freiwillige Helfer, die sich gegenüber einem Träger einer Einheit oder Einrichtung des Katastrophenschutzes verpflichtet haben, von der Zahlung der Beherbergungsteuer auf Antrag befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Frühstück, Verpflegung, Getränke aus der Minibar, Parkkosten und Stornierungskosten gehören nicht zur Bemessungsgrundlage.",
+        "quote": "Geleistete Beträge für Nebenleistungen in Beherbergungseinrichtungen, die nicht unmittelbar der Beherbergung dienen (z.B. Verpflegungsleistungen, wie Frühstück oder Halbpension bzw. Getränke aus der Minibar oder Parkkosten, Stornierungskosten usw.), sind nicht Teil der Bemessungsgrundlage."
+      },
+      {
+        "text": "Kannst du eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück und je 12 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage bei einer Beherbergungseinrichtung mit Pauschalpreis (Übernachtung / Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 12,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      },
+      {
+        "text": "Auch Privatzimmer, Privatwohnungen und Ferienunterkünfte zählen als Beherbergungseinrichtung.",
+        "quote": "Beherbergungseinrichtungen sind Hotels, Hostels, Motels, Gasthöfe und Pensionen, Ferienunterkünfte, Gästewohnungen, Privatzimmer oder Privatwohnungen und ähnliche Beherbergungsstätten sowie Campingplätze."
+      },
+      {
+        "text": "Wer Wohnraum nur für längere Mietverträge über mehr als ein halbes Jahr anbietet, betreibt keine Beherbergungseinrichtung im Sinne der Satzung.",
+        "quote": "Ebenso wenig betreibt eine Beherbergungseinrichtung, wer Wohnraum ausschließlich mit dem Ziel des Abschlusses längerfristiger Mietverträge für mehr als ein halbes Jahr anbietet und vermietet."
+      },
+      {
+        "text": "Bei einer gemeinsamen Buchung mehrerer Gäste zählt der gesamte Betrag; das auf Kinder und Jugendliche entfallende Entgelt wird nach dem Verhältnis ihrer Zahl zur Gesamtpersonenzahl herausgerechnet.",
+        "quote": "Das auf Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr entfallende Beherbergungsentgelt wird bei Beherbergungen im Sinne des § 4 Absatz 3 anhand des Verhältnisses ihrer Anzahl zur Gesamtpersonenzahl berechnet."
+      },
+      {
+        "text": "Wenn du im Monat nicht mehr als 200 € Steuer abführst, kannst du auf Antrag nur vierteljährlich anmelden.",
+        "quote": "Auf Antrag kann bei Beherbergungseinrichtungen, für die das Beherbergungsunternehmen pro Kalendermonat eine Beherbergungsteuer von nicht mehr als 200 Euro zu entrichten hat, der Erhebungszeitraum auf ein Kalendervierteljahr verlängert werden."
+      },
+      {
+        "text": "Du musst die Steuer nicht einziehen, wenn ein Vermittlungsportal sie abführt.",
+        "quote": "Die Verpflichtung gilt ferner nicht, wenn die Abführung der Beherbergungsteuer von einem Dritten (Vermittlungsportale oder Ähnliche) übernommen wird."
+      },
+      {
+        "text": "Den Beginn und das Ende deiner Vermietung teilst du der Stadt innerhalb eines Monats mit.",
+        "quote": "Wer innerhalb des Stadtgebietes den Betrieb einer Beherbergungseinrichtung aufnimmt oder eine Beherbergungseinrichtung endgültig aufgibt, hat dies der Stadt innerhalb eines Monats nach Eintritt des jeweiligen anzeigepflichtigen Ereignisses auf amtlich vorgeschriebenem Vordruck oder amtlich zugelassener elektronischer Anmeldung oder Abmeldung mitzuteilen."
+      },
+      {
+        "text": "Hast du bei einem befreiten Gast Steuer eingezogen, kann er sie mit Nachweis bei der Stadt zurückfordern.",
+        "quote": "Personen, von denen in einer Beherbergungseinrichtung die Beherbergungsteuer eingezogen wurde, die nach § 6 von der Zahlung einer Beherbergungsteuer befreit sind, können bei der Stadt unter entsprechender Nachweisführung die Rückerstattung der eingezogenen Beherbergungsteuer beantragen."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/magdeburg/",
+  "calculation": {
+    "kind": "town",
+    "percent": 5,
+    "maxDays": 21,
+    "maxPerStay": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "stuttgart",
+  "name": "Landeshauptstadt Stuttgart",
+  "short": "Stuttgart",
+  "ags": "08111000",
+  "state": "Baden-Württemberg",
+  "district": "Stuttgart",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Landeshauptstadt Stuttgart über die Erhebung der Übernachtungssteuer vom 26. Februar 2026, Stuttgarter Stadtrecht 9/5",
+      "url": "https://www.stuttgart.de/medien/ibs/9-5.pdf",
+      "kind": "municipality",
+      "inForce": "2026-03-20",
+      "sha256": "17fc0b63483a5be9d2b7e41e0e01ed67f670e274c56838d808bfa6fcbb0f74e5",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-03-20"
+    },
+    "seite": {
+      "title": "Übernachtungssteuer, Landeshauptstadt Stuttgart, Stadtkämmerei (Stand 08.10.2026)",
+      "url": "https://www.stuttgart.de/rathaus/finanzen/steuern-und-abgaben/uebernachtungssteuer",
+      "kind": "municipality",
+      "inForce": "2026-10-08",
+      "sha256": "9697b65eb7e2abd52ce2166706265430d706d9bb05b3ea175a5edcb0a65f69c3",
+      "verifiedOn": "2026-10-23",
+      "hashOf": "text",
+      "changedOn": "2026-10-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "cents": 300,
+      "perPerson": true,
+      "quote": "Der Steuersatz beträgt 3,00 Euro je Person und pro Übernachtung."
+    },
+    "basis": {
+      "text": "Die Steuer ist ein fester Betrag je Gast und entgeltlicher Übernachtung, unabhängig vom Übernachtungspreis.",
+      "quote": "Die Übernachtungssteuer wird nach der Anzahl entgeltlicher Übernachtungen je Beherbergungsgast erhoben."
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Betreiber der Unterkunft selbst.",
+      "quote": "Steuerschuldner ist die Betreiberin/der Betreiber des Beherbergungsbetriebes."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist innerhalb eines Monats nach dessen Bekanntgabe zu zahlen.",
+      "quote": "Die Steuer wird durch Steuerbescheid festgesetzt und ist innerhalb eines Monats nach dessen Bekanntgabe fällig."
+    },
+    "reporting": {
+      "text": "Du gibst bis zum 15. Tag nach Quartalsende eine unterschriebene Steuererklärung auf dem amtlichen Vordruck ab.",
+      "quote": "Der Steuerschuldner hat bis zum 15. Tag nach Ablauf des Kalendervierteljahres auf amtlich vorgeschriebenem Vordruck eine vom Steuerschuldner oder einer von ihm dazu schriftlich bevollmächtigten Vertretung unterschriebene Steuererklärung abzugeben."
+    },
+    "exemptions": [
+      {
+        "text": "Übernachtungen Minderjähriger sind steuerfrei.",
+        "quote": "Von der Besteuerung befreit ist der Aufwand im Sinne von § 1 Abs. 2 für Übernachtungen 1. Minderjähriger"
+      },
+      {
+        "text": "Übernachtungen im Rahmen von Schülerreisen sind steuerfrei, wenn Lehrkräfte die Reise begleiten und die Schulleitung sie genehmigt hat.",
+        "quote": "Im Rahmen von Schülerreisen, welche von Lehrkräften begleitet und von der Schulleitung genehmigt wurden."
+      },
+      {
+        "text": "Übernachtungen, die zum Grundbedarf des Wohnens gehören, sind nicht steuerbar, etwa bei einem im Betrieb angemeldeten Wohnsitz oder einer unbewohnbaren eigenen Wohnung.",
+        "quote": "Das sind zum Beispiel Übernachtungen, die unter den Grundbedarf des Wohnens fallen. Dieser entsteht unter anderem, wenn die Wohnung aus besonderen Gründen nicht bewohnbar ist oder ein Wohnsitz im Beherbergungsbetrieb angemeldet wird.",
+        "source": "seite"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch berufliche Übernachtungen sind steuerpflichtig.",
+        "quote": "Die Übernachtungssteuer wird für alle entgeltlichen Übernachtungen erhoben - unabhängig davon, ob sie einen privaten oder beruflichen Anlass haben.",
+        "source": "seite"
+      },
+      {
+        "text": "Die Steuer wird erstmals für das Quartal Juli bis September 2026 festgesetzt.",
+        "quote": "Die Steuer wird erstmalig ab dem 01.07.2026, für das Kalendervierteljahr Juli 2026 bis September 2026, festgesetzt."
+      },
+      {
+        "text": "Die Steuer fällt auch an, wenn der Gast die Unterkunft nicht nutzt, solange er dafür etwas bezahlt hat, etwa bei No-Shows oder Anzahlungen; völlig kostenfreie Stornierungen sind nicht steuerpflichtig.",
+        "quote": "Sobald ein Entgelt für die Buchung bezahlt wird, ist diese steuerpflichtig.",
+        "source": "seite"
+      },
+      {
+        "text": "Auch ein bezahltes Tageszimmer ohne Übernachtung wird besteuert.",
+        "quote": "Der Übernachtung steht die Nutzung der Beherbergungsmöglichkeit, ohne dass eine Übernachtung erfolgt (zum Beispiel Tageszimmer), gleich, sofern hierfür ein gesonderter Aufwand betrieben wird."
+      },
+      {
+        "text": "Einen neuen Beherbergungsbetrieb meldest du innerhalb eines Monats nach Aufnahme schriftlich bei der Stadtkämmerei an.",
+        "quote": "Wer im Gemeindegebiet einen Beherbergungsbetrieb betreibt, hat dies innerhalb eines Monats nach Aufnahme des Geschäftsbetriebes der Stadtkämmerei schriftlich anzumelden."
+      },
+      {
+        "text": "Steuerfreie oder nicht steuerbare Übernachtungen gibst du in der Erklärung gesondert an und belegst sie mit Nachweisen.",
+        "quote": "Werden steuerbefreite oder nicht steuerbare Übernachtungen angegeben, so sind der Steuererklärung entsprechende Nachweise, die den Angaben zugrunde liegen, beizufügen."
+      },
+      {
+        "text": "Nach Angabe der Stadt werden Übernachtungen bis zu einem Zeitraum von sechs Monaten besteuert; die Satzung selbst nennt keine Höchstdauer.",
+        "quote": "Übernachtungen bis zu einem Zeitraum von sechs Monaten werden besteuert.",
+        "source": "seite"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/stuttgart/",
+  "calculation": {
+    "kind": "town",
+    "cents": 300,
+    "perPerson": true,
+    "maxDays": null,
+    "maxPerStay": null
+  }
+}

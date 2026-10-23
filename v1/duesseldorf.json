@@ -1,0 +1,114 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "duesseldorf",
+  "name": "Landeshauptstadt Düsseldorf",
+  "short": "Düsseldorf",
+  "ags": "05111000",
+  "state": "Nordrhein-Westfalen",
+  "district": "Düsseldorf",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Beherbergungssteuer in der Landeshauptstadt Düsseldorf (Beherbergungssteuersatzung) vom 24.08.2023, Landeshauptstadt Düsseldorf",
+      "url": "https://www.duesseldorf.de/fileadmin/Amt22/Beherbergungssteuer/2_Beherbergungssteuersatzung_und_Bekanntmachungsanordnung_web_bf__4_.pdf",
+      "kind": "statute",
+      "inForce": "2024-01-01",
+      "sha256": "cd87506dca3a7e2ef3b2e11f3bb26b63eebb4ab40ea0dbf9212b4655a6fc1a2e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2024-01-01"
+    },
+    "seite": {
+      "title": "Beherbergungssteuer, Steueramt der Landeshauptstadt Düsseldorf",
+      "url": "https://www.duesseldorf.de/steueramt/beherbergungssteuer",
+      "kind": "municipality",
+      "hashOf": "quotes",
+      "changedOn": "2024-01-01",
+      "sha256": "6112170f5ee311eb1fced8207b5475a9ff95004303af1cbbb80a2dd2d0923f6c",
+      "verifiedOn": "2026-10-23"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Beherbergungssteuer",
+    "source": "satzung",
+    "rate": {
+      "cents": 300,
+      "perPerson": true,
+      "quote": "Der Steuersatz beträgt pro Übernachtung 3 EUR."
+    },
+    "basis": {
+      "text": "Die Steuer ist ein fester Betrag je Gast und entgeltlicher Übernachtung, unabhängig vom Übernachtungspreis.",
+      "quote": "Die Anzahl der entgeltlichen Übernachtungen je Beherbergungsgast (Beherbergungsleistung) stellt die Bemessungsgrundlage dar."
+    },
+    "maxNights": {
+      "nights": 21,
+      "perStay": true,
+      "text": "höchstens 21 Tage bei ununterbrochenem Aufenthalt im selben Betrieb",
+      "quote": "Die Beherbergungssteuer wird bei einer ununterbrochenen Beherbergungsdauer im selben Beherbergungsbetrieb längstens für 21 Tage erhoben."
+    },
+    "hostDuty": {
+      "text": "Der Gast schuldet die Steuer; du ziehst sie als Vermieter bei ihm ein und führst sie an die Stadt ab.",
+      "quote": "Weiterhin ist die Betreiberin/der Betreiber eines Beherbergungsbetriebes innerhalb der Landeshauptstadt Düsseldorf verpflichtet, die Beherbergungssteuer (§ 2 Absatz 1) vom steuerpflichtigen Beherbergungsgast einzuziehen."
+    },
+    "deadline": {
+      "text": "Die Steuer zahlst du vierteljährlich bis zum 30. Tag nach Quartalsende an die Stadtkasse.",
+      "quote": "Die Beherbergungssteuer ist bis zum 30. Tag nach Ablauf eines Kalendervierteljahres an die Stadtkasse Düsseldorf zu entrichten."
+    },
+    "reporting": {
+      "text": "Du meldest die kassierte Steuer vierteljährlich bis zum 15. Tag nach Quartalsende auf dem amtlichen Vordruck oder elektronisch an.",
+      "quote": "die innerhalb eines Kalendervierteljahres vereinnahmte Beherbergungssteuer auf amtlich vorgeschriebenem Vordruck oder in einer amtlich zugelassenen elektronischen Steueranmeldung bis zum 15. Tag nach Ablauf des Kalendervierteljahres bei der Landeshauptstadt Düsseldorf anzumelden"
+    },
+    "exemptions": [
+      {
+        "text": "Minderjährige Gäste zahlen keine Steuer.",
+        "quote": "Auszunehmen von diesem Steuersatz sind minderjährige Beherbergungsgäste"
+      },
+      {
+        "text": "Klassenfahrten, Schulfahrten, Fahrten von Berufskollegs und Jugendfahrten sind samt ihren Begleitpersonen ausgenommen.",
+        "quote": "Aufenthalte von Klassenfahrten, Schulfahrten, Berufskollegs und Jugendfahrten mitsamt deren Begleitpersonen."
+      },
+      {
+        "text": "Du musst die Steuer nicht einziehen, wenn der Gast erklärt und nachweist, dass die Übernachtung den Grundbedarf Wohnen deckt.",
+        "quote": "wenn der Beherbergungsgast erklärt und nachweist, dass die Übernachtung zur Deckung des Grundbedarfs"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Berufliche und touristische Übernachtungen sind gleichermaßen steuerpflichtig.",
+        "quote": "Dabei ist es unerheblich, ob die Beherbergung aus touristischen oder beruflichen Zwecken stattfindet.",
+        "source": "seite"
+      },
+      {
+        "text": "Beginn und Ende deiner Vermietung zeigst du dem Steueramt an, und zwar vor dem Ereignis.",
+        "quote": "den Beginn und das Ende seiner Tätigkeit, den Betreiberwechsel des Beherbergungsbetriebes und die Verlegung des Beherbergungsbetriebes dem Steueramt der Landeshauptstadt Düsseldorf anzuzeigen. Die Anzeige ist vor Eintritt des jeweiligen anzeigepflichtigen Ereignisses zu erstatten."
+      }
+    ]
+  },
+  "registration": {
+    "required": true,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "nrw-aachen Aachen NRW nrw-bonn Bonn nrw-bruehl Brühl nrw-dortmund Dortmund nrw-duesseldorf Düsseldorf ee8821a4-509a-4d54-804b-6429768c8c5f Frechen b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/duesseldorf/",
+  "calculation": {
+    "kind": "town",
+    "cents": 300,
+    "perPerson": true,
+    "maxDays": 21,
+    "maxPerStay": true
+  }
+}

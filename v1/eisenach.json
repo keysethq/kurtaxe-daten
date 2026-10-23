@@ -1,0 +1,127 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "eisenach",
+  "name": "Stadt Eisenach",
+  "short": "Eisenach",
+  "ags": "16063105",
+  "state": "Thüringen",
+  "district": "Wartburgkreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung zur Erhebung einer Tourismusförderabgabe für Übernachtungen in der Stadt Eisenach vom 08.02.2013 in der Fassung der 1. Änderungssatzung vom 27.05.2024 (Ortsrecht der Stadt Eisenach 20.08)",
+      "url": "https://www.eisenach.de/fileadmin/user_upload/Rathaus/Satzungen/20.08_Satzung_Tourismusfoerderabgabe.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "7a598b92fd34ce258b6ba6426afcbf8c17f3aa872410db719a58c0ee4dfe9083",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-01-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Tourismusförderabgabe für Übernachtungen",
+    "source": "satzung",
+    "rate": null,
+    "tiers": [
+      {
+        "label": "Gästehäuser, Gasthöfe, Pensionen, Ferienhäuser, Privatwohnungen",
+        "cents": 100,
+        "quote": "a) Übernachtung in Gästehäusern, Gasthöfen, Pensionen, Ferienhäusern, Privatwohnungen und ähnlichen Einrichtungen 1,00 €,"
+      },
+      {
+        "label": "Hotels bis einschließlich 3 Sterne",
+        "cents": 150,
+        "quote": "b) Übernachtung in Hotels bis zu einer Klassifizierung von einschließlich 3 Sternen oder vergleichbarem Standard 1,50 €,"
+      },
+      {
+        "label": "Hotels ab 4 Sterne",
+        "cents": 200,
+        "quote": "c) Übernachtung in Hotels ab einer Klassifizierung von 4 Sternen oder vergleichbarem bis höherem Standard 2,00 €."
+      }
+    ],
+    "basis": {
+      "text": "Die Abgabe wird je Übernachtung und Übernachtungsgast erhoben; ihre Höhe hängt von der Art der Unterkunft ab.",
+      "quote": "Die Abgabe beträgt pro Übernachtung und Übernachtungsgast bei"
+    },
+    "maxNights": {
+      "nights": 14,
+      "perStay": true,
+      "text": "höchstens 14 zusammenhängende Übernachtungen in derselben Unterkunft",
+      "quote": "Es unterfallen höchstens vierzehn zusammenhängende Übernachtungen pro Übernachtungsgast in derselben Beherbergungsstätte der Abgabe."
+    },
+    "hostDuty": {
+      "text": "Du ziehst die Abgabe als Betreiber bei deinen Gästen ein, führst sie ab und führst den Nachweis darüber.",
+      "quote": "Der Betreiber der Beherbergungsstätte, der dem Übernachtungsgast die Übernachtung gewährt, ist zur Einziehung und Abführung der Abgabe, Führung des Nachweises sowie den damit verbundenen Meldungen gegenüber der Stadt Eisenach verpflichtet."
+    },
+    "deadline": {
+      "text": "Die errechnete Abgabe ist am letzten Tag der Anmeldefrist, dem 15. Tag nach Ende des Kalendervierteljahres, fällig und an die Stadtkasse zu zahlen.",
+      "quote": "Der Betreiber der Beherbergungsstätte hat die Abgabe bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres bei der für die Erhebung der Abgabe zuständigen Stelle der Stadt Eisenach mit der Erklärung nach amtlich vorge- schriebenem Vordruck in der errechneten Höhe anzumelden. Die errechnete Steuer ist am letzten Tag der Einreichungsfrist nach Satz 2 fällig und an die Stadtkasse zu entrichten."
+    },
+    "reporting": {
+      "text": "Du berechnest die Abgabe selbst und meldest sie bis zum 15. Tag nach Ende jedes Kalendervierteljahres auf dem amtlichen Vordruck bei der Stadt an.",
+      "quote": "Der Betreiber der Beherbergungsstätte hat die Abgabe bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres bei der für die Erhebung der Abgabe zuständigen Stelle der Stadt Eisenach mit der Erklärung nach amtlich vorge- schriebenem Vordruck in der errechneten Höhe anzumelden."
+    },
+    "exemptions": [
+      {
+        "text": "Gäste unter 18 Jahren zahlen nichts.",
+        "quote": "Übernachtungsgäste, die das achtzehnte Lebensjahr noch nicht vollendet haben, sind von der Abgabe befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Abgabe schuldet der Gast; du als Betreiber haftest neben ihm.",
+        "quote": "Neben dem Abgabenschuldner haftet für die Abgabe gemäß § 6 Thüringer Kommunalabgabengesetz (ThürKAG) der Betreiber der Beherbergungsstätte, der dem Übernachtungsgast die Übernachtungsmöglichkeit zur Verfügung stellt."
+      },
+      {
+        "text": "Welche Stufe gilt, richtet sich nach der Deutschen Hotelklassifizierung des DEHOGA.",
+        "quote": "Die Eingruppierung der Beherbergungsstätten und die Klassifizierung der Hotels erfolgt nach dem vom Deutschen Hotel- und Gaststättenverband e. V. betriebenen bundesweit einheitlichen Klassifizierungssystem „Deutsche Hotelklassifizierung“"
+      },
+      {
+        "text": "Tagesgäste, die am selben Tag an- und abreisen, sind keine Übernachtungsgäste.",
+        "quote": "Tagesgäste (An- und Abreise am selben Tag) sind keine Übernachtungsgäste."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/eisenach/",
+  "calculation": {
+    "kind": "town",
+    "perPerson": true,
+    "byLabel": true,
+    "tiers": [
+      {
+        "label": "Gästehäuser, Gasthöfe, Pensionen, Ferienhäuser, Privatwohnungen",
+        "cents": 100
+      },
+      {
+        "label": "Hotels bis einschließlich 3 Sterne",
+        "cents": 150
+      },
+      {
+        "label": "Hotels ab 4 Sterne",
+        "cents": 200
+      }
+    ],
+    "maxDays": 14,
+    "maxPerStay": true
+  }
+}

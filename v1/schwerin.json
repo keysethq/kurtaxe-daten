@@ -1,0 +1,136 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schwerin",
+  "name": "Landeshauptstadt Schwerin",
+  "short": "Schwerin",
+  "ags": "13004000",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Schwerin",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Steuer auf Übernachtungen in Beherbergungsbetrieben (Übernachtungssteuer) in der Landeshauptstadt Schwerin, Lesefassung in der Fassung der 2. Änderungssatzung, Landeshauptstadt Schwerin",
+      "url": "https://www.schwerin.de/export/sites/default/.galleries/Dokumente/Ortsrecht/Finanzen/Lesefassung-Uebernachtungssteuer-in-der-Fassung-der-2.-Aenderungssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2025-05-01",
+      "sha256": "acfa457314a03fd27e5ad355e680c39c15595c23358456f8e7a5afceff4a969e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-05-01"
+    },
+    "faq": {
+      "title": "Übernachtungssteuer: Häufig gestellte Fragen und Antworten, Rechtslage ab 1. Mai 2025, Landeshauptstadt Schwerin",
+      "url": "https://www.schwerin.de/export/sites/default/.galleries/Dokumente/Verwaltung/Steuern-Abgaben/UeSt-FAQ-ab-01.05.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-05-01",
+      "sha256": "853839c7e9324f73dd4b8107eb959f05d78d6e3343482319d1d964573123244e",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2025-05-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-01",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": null,
+  "lodgingTax": {
+    "name": "Übernachtungssteuer",
+    "source": "satzung",
+    "rate": {
+      "percent": 7,
+      "quote": "Der Übernachtungssteuersatz beträgt 7 % der Bemessungsgrundlage."
+    },
+    "basis": {
+      "text": "Die Steuer bemisst sich am Entgelt, das der Gast für die Übernachtung zahlt, ohne Umsatzsteuer und ohne Vermittlungsentgelte.",
+      "quote": "Bemessungsgrundlage ist das von dem Gast für die Übernachtung erhobene Entgelt (abzüglich der Umsatzsteuer und abzüglich etwaiger Vermittlungsentgelte).",
+      "vatIncluded": false
+    },
+    "hostDuty": {
+      "text": "Die Steuer schuldest du als Vermieter selbst.",
+      "quote": "Steuerschuldnerin bzw. Steuerschuldner ist, wer eine vorübergehende Übernachtungsmöglichkeit im Stadtgebiet der Landeshauptstadt Schwerin gegen Entgelt bereitstellt (Betreiberin oder Betreiber eines Beherbergungsbetriebes)."
+    },
+    "deadline": {
+      "text": "Die Stadt setzt die Steuer für das Quartal per Bescheid fest; sie ist einen Monat nach dessen Bekanntgabe fällig.",
+      "quote": "Die Steuer wird durch einen Steuerbescheid für das Kalendervierteljahr (Veranlagungszeitraum) festgesetzt. (2) Die Steuer wird einen Monat nach Bekanntgabe des Bescheides an die Steuerpflichtige bzw. den Steuerpflichtigen fällig."
+    },
+    "reporting": {
+      "text": "Du gibst vierteljährlich bis zum 15. Tag nach Quartalsende die Erklärung auf dem amtlichen Vordruck beim Sachgebiet Abgaben ab und unterschreibst sie eigenhändig.",
+      "quote": "bis zum 15. Tage nach dem Ablauf eines Kalendervierteljahres dem Sachgebiet Abgaben der Landeshauptstadt Schwerin eine Erklärung nach amtlich vorgeschriebenem Vordruck einzureichen."
+    },
+    "exemptions": [
+      {
+        "text": "Bei Gruppenreisen von Kindern und Jugendlichen bis 18 Jahre fällt keine Steuer an, ebenso nicht für die begleitenden Gruppenleiter.",
+        "quote": "Gruppenreisen von Kindern und Jugendlichen bis zum Alter von 18 Jahren, einschließlich der sie begleitenden Gruppenleiter."
+      },
+      {
+        "text": "Bei Gruppenreisen von Kindern und Jugendlichen allgemeinbildender und beruflicher Schulen fällt keine Steuer an, ebenso nicht für die begleitenden Gruppenleiter.",
+        "quote": "Gruppenreisen von Kindern und Jugendlichen allgemeinbildender Schulen und beruflicher Schulen (gemäß § 12 Abs. 2 Nr. 1 und 2 des Schulgesetzes Mecklenburg-Vorpommern), einschließlich der sie begleitenden Gruppenleiter."
+      },
+      {
+        "text": "Übernachtungen in Kliniken, Krankenhäusern, Kur- und Rehabilitationseinrichtungen, Hospizen, Frauenhäusern und vergleichbaren Einrichtungen sind befreit.",
+        "quote": "Übernachtungen in Kliniken, Krankenhäusern, Kur- und Rehabilitationseinrichtungen, Hospizen, Frauenhäusern und in vergleichbaren Einrichtungen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Berufliche Übernachtungen sind steuerpflichtig, die Befreiung dafür ist seit dem 1. April 2024 weggefallen.",
+        "quote": "Die bis zum 31. März 2024 geltende Steuerbefreiung für beruflich bedingte Übernachtungen entfällt. Auch beruflich bedingt Übernachtungsgäste sind ab dem 1. April 2024 steuerpflichtig.",
+        "source": "faq"
+      },
+      {
+        "text": "Seit dem 1. Mai 2025 beträgt die Steuer 7 Prozent; zu erklären ist der Nettobetrag ohne Umsatzsteuer, Vermittlungsentgelte darfst du abziehen.",
+        "quote": "Seit dem 1. Mai 2025 gilt: Die Steuer beträgt 7 Prozent der Bemessungsgrundlage. Zu erklären ist der Nettobetrag, d. h. ohne den Umsatzsteueranteil. Neben der Umsatzsteuer sind für alle Beherbergungsformen auch Vermittlungsentgelte abzugsfähig.",
+        "source": "faq"
+      },
+      {
+        "text": "Lässt sich eine Pauschalrechnung ausnahmsweise nicht aufteilen, ziehst du 7 € für das Frühstück und je 10 € für Mittag- und Abendessen je Gast und Mahlzeit ab.",
+        "quote": "gilt als Bemessungsgrundlage bei einem Beherbergungsbetrieb mit Pauschalpreis (Übernachtung / Frühstück bzw. Halb- oder Vollpension) der Betrag der Gesamtrechnung abzüglich einer Pauschale von 7,00 Euro für Frühstück und je 10,00 Euro für Mittagessen und Abendessen je Gast und Mahlzeit."
+      },
+      {
+        "text": "Auch Ferienwohnungen und Ferienhäuser zählen als Beherbergungsbetrieb; Campingplätze und Wohnmobilstandplätze nur, wenn eigens Sanitärräume für diese Gäste angeboten werden.",
+        "quote": "Beherbergungsbetriebe im Sinne dieser Satzung sind Hotels, Pensionen, Ferienwohnungen, Ferienhäuser, Gasthöfe, Herbergen und ähnliche Einrichtungen, in denen Übernachtung gegen Entgelt zu vorübergehenden Zwecken angeboten werden. Campingplätze und Wohnmobilstandplätze sind Beherbergungsbetriebe, sofern besondere Sanitärräume eigens für diese Übernachtungsgäste angeboten werden."
+      },
+      {
+        "text": "Kann ein Nachweis im Einzelfall kaum geführt werden, darf die Stadt den Betrag schätzen.",
+        "quote": "kann abweichend von § 5 dieser Satzung den Abgabenbetrag aufgrund von Schätzungen festsetzen, wenn der Nachweis der abgabenrelevanten Daten im Einzelfall besonders schwierig ist."
+      },
+      {
+        "text": "Bei befreiten Übernachtungen musst du die Voraussetzungen mit geeigneten Belegen nachweisen und der Stadt auf Verlangen vorlegen.",
+        "quote": "in den Fällen der Steuerbefreiung nach § 7 dieser Satzung das Vorliegen der Voraussetzung anhand geeigneter Belege nachzuweisen. Die Belege sind dem Sachgebiet Abgaben der Landeshauptstadt Schwerin auf Verlangen vorzulegen."
+      },
+      {
+        "text": "Übernachtet ein Gast beruflich in deinem Betrieb im Kalenderjahr zusammengerechnet länger als drei Monate, werden höchstens drei Monate besteuert.",
+        "quote": "Bei beruflich bedingten Übernachtungen eines Gastes über einen Zeitraum, der in einem Übernachtungsbetrieb drei Monate kalenderjährlich kumuliert überschreitet (z. B. Handwerker auf Baustellen), werden längstens drei Monate der Übernachtungssteuer unterworfen.",
+        "source": "faq"
+      }
+    ],
+    "maxMonths": {
+      "months": 3,
+      "text": "Dauert ein Aufenthalt länger als drei Monate, wird die Steuer nur für die ersten drei Monate erhoben, auch wenn der Gast zwischendurch kurz nicht da ist.",
+      "quote": "Beherbergungen, die über drei Monate hinausgehen, werden nur für 3 Monate besteuert. Dies gilt auch dann, wenn die Beherbergungsleistung insgesamt länger als drei Monate andauert, aber mit kurzen Unterbrechungen",
+      "source": "faq"
+    }
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schwerin/",
+  "calculation": {
+    "kind": "town",
+    "percent": 7,
+    "maxDays": null,
+    "maxPerStay": null,
+    "maxMonths": 3
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "xanten",
+  "name": "Stadt Xanten",
+  "short": "Xanten",
+  "ags": "05170052",
+  "state": "Nordrhein-Westfalen",
+  "district": "Wesel",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung von Kurbeiträgen in der Stadt Xanten vom 02.04.2014, Lesefassung der Stadt einschließlich 7. Änderung (in Kraft ab 01.04.2026)",
+      "url": "https://www.xanten.de/system/files/2026-04/9.7_-_Kurbeitragssatzung%20inkl.%207.%20%C3%84nderung.pdf",
+      "kind": "municipality",
+      "inForce": "2026-04-01",
+      "sha256": "1d95ddb4f87060e933e849f85436621aaba46b3f32cadfc879068e5f1b1df633",
+      "verifiedOn": "2026-10-23",
+      "changedOn": "2026-04-01"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-10-15",
+      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
+      "verifiedOn": "2026-10-23"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Tag gerechnet."
+    },
+    "area": {
+      "text": "Der Kurbeitrag gilt nur im anerkannten Kurgebiet, das die Anlage der Satzung beschreibt, nicht in der ganzen Stadt.",
+      "quote": "Erhebungsgebiet für den Kurbeitrag ist der nach Abs. 1 als Kurgebiet anerkannte Bereich."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 260,
+          "quote": "Der Kurbeitrag innerhalb des Erhebungsgebietes nach § 2 Abs. 2 der Satzung beträgt im gesamten Kurgebiet gem. § 2 Abs. 3 der Satzung einheitlich je Person und Aufenthaltstag 2,60 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "b) Kinder bis zum vollendeten 6. Lebensjahr;"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Der Kurbeitrag wird bei Vorliegen der Voraussetzungen in Höhe von 50% ermäßigt für: a) Kinder und Jugendliche ab dem 7. und bis zur Vollendung des 16. Lebens",
+            "cents": 130
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder bis zum vollendeten 6. Lebensjahr zahlen nichts, wenn sie die Voraussetzung nachweisen.",
+        "quote": "b) Kinder bis zum vollendeten 6. Lebensjahr;"
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die im Haushalt der Einwohner unentgeltlich aufgenommen werden, zahlen nichts.",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden;"
+      },
+      {
+        "text": "Wer sich nur zur Berufsausübung, zur Ausbildung oder für den Bundesfreiwilligendienst im Kurgebiet aufhält, zahlt nichts.",
+        "quote": "Ortsfremde Personen, die sich nur zur Ausübung ihres Berufes, zu Ausbildungszwecken oder zur Leistung von Aufgaben im Rahmen des Bundesfreiwilligendienstes im Kurgebiet aufhalten;"
+      },
+      {
+        "text": "Teilnehmer von Klassenfahrten im Klassenverband und ihre Begleitpersonen zahlen nichts, außer die Begleitpersonen erhalten den Kurbeitrag nach den Entschädigungsvorschriften der Länder erstattet.",
+        "quote": "Teilnehmer/-innen von Klassenfahrten einschl. der Sekundarstufe I im Klassenverband einschl. ihrer Begleitpersonen, es sei denn, diese erhalten nach den Entschädigungsvorschriften der Länder eine Erstattung des Kurbeitrages;"
+      },
+      {
+        "text": "Kranke, die nicht zu Heil- oder Kurzwecken, sondern zur allgemeinen Krankenversorgung stationär in einem Krankenhaus behandelt werden, zahlen nichts.",
+        "quote": "Kranke, die nicht zu Heil- oder Kurzwecken, sondern zur allgemeinen Krankenversorgung in einem Krankenhaus, das der allgemeinen Krankenversorgung dient, stationär behandelt werden;"
+      },
+      {
+        "text": "Besucher aus den Partnerstädten der Stadt Xanten zahlen bei städtisch organisierten Austauschen nichts.",
+        "quote": "Besucher/-innen aus den Partnerstädten der Stadt Xanten anlässlich städtisch organisierter Austausche;"
+      },
+      {
+        "text": "Inhaber einer Ehrenkurkarte nach § 7 der Satzung zahlen nichts.",
+        "quote": "Inhaber/-innen einer Ehrenkurkarte gem. § 7 der Satzung"
+      },
+      {
+        "text": "Auf Antrag zahlen Kranke und Schwerbehinderte nichts, solange sie die Kureinrichtungen und Veranstaltungen nicht besuchen können.",
+        "quote": "Auf Antrag werden von der Kurbeitragspflicht befreit: a) Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen;"
+      },
+      {
+        "text": "Auf Antrag zahlen Begleitpersonen von Kranken und Schwerbehinderten nichts, wenn eine ständige Begleitperson notwendig ist.",
+        "quote": "Auf Antrag werden von der Kurbeitragspflicht befreit: a) Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen; b) Begleitpersonen von Kranken und Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson besteht;"
+      },
+      {
+        "text": "Auf Antrag zahlen Teilnehmer an von der Kurverwaltung anerkannten beruflich veranlassten Tagungen, Kongressen oder Lehrgängen nichts.",
+        "quote": "Auf Antrag werden von der Kurbeitragspflicht befreit: a) Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen; b) Begleitpersonen von Kranken und Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson besteht; c) Personen, im Falle des § 4 Abs. 2 der Satzung, sofern nachgewiesen und belegt wird, dass die Zweitwohnung oder die Wohngelegenheit auf dem ganzjährig belegten Dauerstellplatz auf Camping- oder Wohnwagenplätzen durch den Kurbeitragspflichtigen (z. B. infolge lückenloser Dauervermietung im gesamten Kalenderjahr) ganzjährig nicht benutzt werden konnte. Der Nachweis kann frühestens nach dem Ende des Kalenderjahres erbracht werden, so dass eine Befreiung für das entsprechende Kalenderjahr erst im nachfolgenden Jahr ausgesprochen werden kann. Gezahlte Kurbeiträge werden innerhalb eines Monats nach Befreiung erstattet. Ein entsprechender Befreiungsantrag muss spätestens bis zum 31.03. des nachfolgenden Kalenderjahres bei der Kurverwaltung der Stadt Xanten gestellt werden; d) Teilnehmer/-innen von seitens der Kurverwaltung anerkannten beruflich veranlassten Tagungen, Kongressen oder Lehrgängen;"
+      },
+      {
+        "text": "Auf Antrag zahlen Teilnehmer an von der Stadt genehmigten Zeltlagern von Kinder- und Jugendfreizeiten einschließlich ihrer Begleitpersonen nichts.",
+        "quote": "Auf Antrag werden von der Kurbeitragspflicht befreit: a) Kranke sowie Schwerbehinderte, solange sie nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen; b) Begleitpersonen von Kranken und Schwerbehinderten im Sinne von Buchstabe a), wenn die Notwendigkeit einer ständigen Begleitperson besteht; c) Personen, im Falle des § 4 Abs. 2 der Satzung, sofern nachgewiesen und belegt wird, dass die Zweitwohnung oder die Wohngelegenheit auf dem ganzjährig belegten Dauerstellplatz auf Camping- oder Wohnwagenplätzen durch den Kurbeitragspflichtigen (z. B. infolge lückenloser Dauervermietung im gesamten Kalenderjahr) ganzjährig nicht benutzt werden konnte. Der Nachweis kann frühestens nach dem Ende des Kalenderjahres erbracht werden, so dass eine Befreiung für das entsprechende Kalenderjahr erst im nachfolgenden Jahr ausgesprochen werden kann. Gezahlte Kurbeiträge werden innerhalb eines Monats nach Befreiung erstattet. Ein entsprechender Befreiungsantrag muss spätestens bis zum 31.03. des nachfolgenden Kalenderjahres bei der Kurverwaltung der Stadt Xanten gestellt werden; d) Teilnehmer/-innen von seitens der Kurverwaltung anerkannten beruflich veranlassten Tagungen, Kongressen oder Lehrgängen; e) Teilnehmern/-innen an seitens der Stadt Xanten genehmigten Zeltlagern von Kinder und Jugendfreizeiten einschl. ihrer Begleitpersonen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit GdB 80",
+        "quote": "Der Kurbeitrag wird bei Vorliegen der Voraussetzungen in Höhe von 50% ermäßigt für: a) Kinder und Jugendliche ab dem 7. und bis zur Vollendung des 16. Lebens- 9 9.7 jahres; b) Schwerbehinderte mit einem Grad der Behinderung von 80 %",
+        "percent": 50
+      },
+      {
+        "label": "Begleitpersonen von Schwerbehinderten mit Merkzeichen aG oder B",
+        "quote": "Der Kurbeitrag wird bei Vorliegen der Voraussetzungen in Höhe von 50% ermäßigt für: a) Kinder und Jugendliche ab dem 7. und bis zur Vollendung des 16. Lebens- 9 9.7 jahres; b) Schwerbehinderte mit einem Grad der Behinderung von 80 % c) Begleitpersonen von Schwerbehinderten nach Abs. 1 Buchstabe b, wenn darüber hinaus im Behindertenausweis die Merkzeichen aG (außergewöhnlich gehbehindert) oder B (Blind) vermerkt ist.",
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Ortsfremde Inhaber einer Zweitwohnung, Personen mit zweitem oder weiterem Wohnsitz und Inhaber eines ganzjährig belegten Dauerstellplatzes auf einem Camping- oder Wohnwagenplatz zahlen unabhängig von Dauer und Häufigkeit ihres Aufenthalts einen pauschalen Jahreskurbeitrag von 55,00 € je Kalenderjahr.",
+        "quote": "Abweichend von Absatz 1 werden (ortsfremde) Personen, die im Erhebungsgebiet nach § 2 Abs. 2 der Satzung Inhaber/-in (Eigentümer/-in, Miteigentümer/-in, Nutznießer/-in oder (Mit-) Besitzer/-in, z.B. Dauermieter/-in etc.) einer Zweitwohnung sind, einen zweiten oder weiteren Wohnsitz begründet haben oder einen ganzjährig belegten Dauerstellplatz auf einem Camping- oder Wohnwagenplatz haben und aufgrund des § 3 der Satzung kurbeitragspflichtig sind, unabhängig von der Dauer, der Häufigkeit und der Jahreszeit des tatsächlichen Aufenthaltes sowie der Lage der Wohnungseinheit oder des Dauerstellplatzes innerhalb des Kurgebietes zu einem pauschalen, einheitlich im gesamten Kurgebiet gem. § 2 Abs. 3 der Satzung gültigen, Jahreskurbeitrag pro Kalenderjahr in Höhe von 55,00 Euro herangezogen."
+      },
+      {
+        "text": "Du sorgst dafür, dass jeder Gast unmittelbar nach der Ankunft seine Kurkarte erhält.",
+        "quote": "Die Unterkunftsgeber sind daher verpflichtet, dafür Sorge zu tragen, dass jede kurbeitragspflichtige Person unmittelbar nach Ankunft im Erhebungsgebiet nach § 2 Abs. 2 der Satzung eine nach Abs. 1 ausgestellte Kurkarte erhält."
+      },
+      {
+        "text": "Du haftest neben deinen Gästen als Gesamtschuldner für den vollständigen, zeitgerechten und richtigen Einzug und die Abführung des Kurbeitrags sowie für seinen Ausfall.",
+        "quote": "neben den kurbeitragspflichtigen Personen gesamtschuldnerisch für den vollständigen, zeitgerechten und richtigen Einzug des Kurbeitrages und dessen Abführung sowie für den Ausfall des Kurbeitrages."
+      },
+      {
+        "text": "Du musst deinen Gästen die Einsicht in die Kurbeitragssatzung durch Aushang an sichtbarer Stelle ermöglichen.",
+        "quote": "Die Unterkunftsgeber erhalten eine Ausfertigung der Kurbeitragssatzung, deren Einsichtnahme sie ihren Gästen durch Aushang an geeigneter und sichtbarer Stelle ermöglichen müssen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Du ziehst den Kurbeitrag von deinen Gästen ein und führst ihn an die Stadtkasse ab.",
+      "quote": "von den kurbeitragspflichtigen Personen einzuziehen und an die Stadtkasse der Stadt Xanten abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird bis zum 15. des folgenden Monats.",
+      "quote": "Die im Laufe des Kalendermonats fällig gewordenen und vom Unterkunftsgeber vereinnahmten Kurbeiträge sind jeweils bis zum 15. des folgenden Monats an die Stadtkasse der Stadt Xanten abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest jeden Gast mit dem vorgeschriebenen Formular binnen zwei Tagen nach der Anreise bei der Kurverwaltung an.",
+      "quote": "Die hierfür von der Kurverwaltung der Stadt Xanten vorgeschriebenen Meldeformulare sind unter Angabe des An- und Abreisetages des Kurbeitragspflichtigen binnen zwei Tagen nach der Anreise vom Unterkunftsgeber der Kurverwaltung der Stadt Xanten einzureichen."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person eines Familienhausstandes, die Kurbeiträge entrichtet, zahlt nichts; zum Familienhausstand zählen die Personen unter 18 im Hausstand des Antragstellers.",
+      "quote": "die fünfte und jede weitere Person eines Familienhausstandes, die Kurbeiträge entrichten. Zum Familienhausstand gehören alle Personen, die nachweislich im Hausstand des Antragstellers leben und das 18. Lebensjahr noch nicht vollendet haben;"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-01",
+    "quote": "Stand: 01.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-22",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/xanten/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0,
+          130
+        ],
+        "reduced": [
+          130,
+          130
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte mit GdB 80",
+        "onApplication": false
+      },
+      {
+        "label": "Begleitpersonen von Schwerbehinderten mit Merkzeichen aG oder B",
+        "onApplication": false
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}
