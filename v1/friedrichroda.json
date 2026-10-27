@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2019-01-01",
       "sha256": "2743a8fd92a941a0714fd4f7e4319db781813247f682c611b3802781bef0c01f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -71,7 +71,7 @@
       "kind": "statute",
       "inForce": null,
       "sha256": "ddd4b3920294ac9835e21e499627a71c146eaea0d424ace0f25dd56f1383b9e6",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -92,7 +92,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "c78b809d1c85e53bc00bd7b1675a1ac7ac200860be456c71eb08a27417d195be",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -108,7 +108,7 @@
       "kind": "statute",
       "inForce": "2026-01-05",
       "sha256": "4bb8812078501baa290f884b3290d830abdabe7b9de99a40d0fbd02b1474ce8a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -149,7 +149,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

@@ -16,15 +16,15 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "197ff174e996f2aa0bd32a8045e8a1814addc6a69dc2ebdcd6f57b8e07481d09",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "ortsrecht": {
       "title": "Amt Oldenburg-Land, Satzungen (Lesefassungen) der Gemeinde Neukirchen, Stichwort Strand, Hafen und Tourismus",
       "url": "https://www.amt-oldenburg-land.de/buergerservice-politik/ihre-digitale-amtsverwaltung/satzungen-lesefassungen/Ort/gemeinde-neukirchen/Stichwort/strand-hafen-und-tourismus",
       "kind": "municipality",
-      "changedOn": "2026-10-19",
-      "sha256": "dda3e8298a931549477430439c693437aed2adcc9be9ebc55c80b513cc66cd8c",
-      "verifiedOn": "2026-10-19"
+      "changedOn": "2026-10-26",
+      "sha256": "921b41d21f2e658685798a5266774f972508f320478ae9b92602f79545dfc935",
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

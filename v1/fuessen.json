@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "0afe5b33b0bba8e6d2d6b1151493fad3f419f6b842492676eb67a68729909988",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "1986-01-01",
       "changedOn": "2026-10-15",
       "sha256": "44114444944075f28881558cc442ef88210ea9e31dbdad067779744603a8152c",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvbAe4": {
       "title": "Vierte Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Füssen vom 14. Dezember 2022",
@@ -42,7 +42,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "1598f68be149242dcdbe094373eb343fb90397abdd10319bd7445f17c6dc727c",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvbAe5": {
       "title": "Fünfte Satzung zur Änderung der Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Füssen vom 20.12.2023",
@@ -51,7 +51,7 @@
       "inForce": "2024-01-01",
       "changedOn": "2026-10-15",
       "sha256": "d6353ce3f3fdfed9ba8debb405b0b4ac3a3e221fcd51acaf3c2bcf6b724f0fbe",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

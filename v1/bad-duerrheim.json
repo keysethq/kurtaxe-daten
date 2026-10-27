@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "5d6c43eb86c28010411b4183eb8e7e9a82c4e2024b6eac83fa9a1f3b37757bfd",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2024-01-01"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-14",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

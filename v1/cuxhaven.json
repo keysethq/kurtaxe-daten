@@ -20,7 +20,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "eddb6749e5a8187bb3177b983aa44ff83f35a57c31effac57b664e0f7b112c60",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "aenderung8": {
@@ -29,7 +29,7 @@
       "kind": "gazette",
       "inForce": "2026-01-01",
       "sha256": "b53f47074853c17cbbff695987b4ec8a6ddb5806c2923b84649687bb6deb1a28",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "steuer": {
@@ -38,7 +38,7 @@
       "kind": "municipality",
       "inForce": "2023-01-01",
       "sha256": "89fac6203fefb0bd5a33c9bb5cffb00023e4e6b32c57c7b7d1fd3abfc68e5414",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -46,7 +46,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "auskunft": {
@@ -56,7 +56,7 @@
       "text": "Wie unserer Internetseite der Stadt Cuxhaven zu entnehmen ist, wurde die Ausnahmegenehmigung gemäß § 3 Absatz 4 Satz 2 NKAG vom Niedersächsischen Ministerium für Inneres und Sport als zuständige Kommunalaufsichtsbehörde mit Bescheid vom 01.07.2025 befristet bis zum 31.12.2026 verlängert.",
       "changedOn": "2026-10-15",
       "sha256": "4a3ade4499c8a0feb98c9c96a396c5e1a06264e9b469cd2ffe0d7d4f48f6f3e9",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

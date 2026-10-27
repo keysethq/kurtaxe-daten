@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-04-01",
       "sha256": "6f787d0acc3c82070934ad938da2ded3103bdfb290a091138abc1b069eb7a417",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "faq": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2025-12-01",
       "sha256": "64c3394e297ae9279f391cb0adbd3d4682db1872c810de08f8a2c2ffe3604cfb",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "kurbeitrag": {
@@ -33,7 +33,7 @@
       "kind": "municipality",
       "inForce": "2026-03-11",
       "sha256": "69ab449c5bc3b76f3a7853ab4caf7e5ce824024d7ae0cfbcfbb1afd642982f44",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -41,7 +41,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

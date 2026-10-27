@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "e6b5edc09aef32c9ee36a92385c277a6fc240f12e2f0e907231a42c5e23cf2ee",
-      "verifiedOn": "2026-10-20",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -100,7 +100,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-20",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "auskunft": {
@@ -110,7 +110,7 @@
       "text": "Diese Satzung ist noch aktuell, doch es wird schon an einer neuen Satzung gearbeitet. Diese soll dann im nächsten Jahr in Kraft treten. Wie weit die neue Fassung ist, kann ich Ihnen leider nicht sagen, da die Kalkulationen noch fehlen.\n\nBitte fragen Sie gern im ersten Quartal des nächsten Jahres noch einmal nach, vielleicht ist dann die neue Satzung schon fertig.",
       "changedOn": "2026-10-20",
       "sha256": "16e9d7083f963258b80405177b303b0fa04b4071ffbba002e9364c080afc60b4",
-      "verifiedOn": "2026-10-20"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

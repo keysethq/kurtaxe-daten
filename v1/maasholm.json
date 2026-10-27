@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2020-01-01",
       "sha256": "28362b164efce47656bacc449a6943a276a66b49edbd5ee530fef626631a8173",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Maasholm",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/maasholm/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-15",
-      "sha256": "30aae71b93541c084f82c5dc2381c1b2d8fab253c654bfb066705233f5ddbcc3",
-      "verifiedOn": "2026-10-19"
+      "changedOn": "2026-10-26",
+      "sha256": "0c6948f163b5fac60afc8010c5f58a95f6ab413e41de6a350c91297ef6056550",
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

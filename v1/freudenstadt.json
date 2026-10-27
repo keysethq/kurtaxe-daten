@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "060f845ac9a6ba68acf0176d71d7a3bfff80e6110bb98ec56bd1a0ec02e23df3",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "auskunft": {
@@ -33,7 +33,7 @@
       "text": "Der ermäßigte Satz für Kinder ab 10 Jahren gilt bis zum 18. Geburtstag, ab da gilt man als Erwachsener.",
       "changedOn": "2026-10-15",
       "sha256": "9eab45fec2e81c8396e5bfba8fc057d4c4c802d00062ec7da65c7a85c2aaec59",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Satzung der Stadt Freudenstadt über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Fassung vom 27.09.2005",
@@ -41,7 +41,7 @@
       "kind": "statute",
       "inForce": "2006-01-01",
       "sha256": "907d635fea90cabf46243238f8e62dfe73444be4dd9c1dad4bd5cd57a0f74bb2",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

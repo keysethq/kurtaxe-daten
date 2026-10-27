@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2025-05-01",
       "sha256": "acfa457314a03fd27e5ad355e680c39c15595c23358456f8e7a5afceff4a969e",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2025-05-01"
     },
     "faq": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2025-05-01",
       "sha256": "853839c7e9324f73dd4b8107eb959f05d78d6e3343482319d1d964573123244e",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2025-05-01"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-10-01",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

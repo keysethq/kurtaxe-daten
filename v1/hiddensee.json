@@ -17,7 +17,7 @@
       "inForce": "2025-08-15",
       "changedOn": "2026-10-15",
       "sha256": "a9e9131e0fe69eb88203d72e4286453664f9e73cc0334a01ad632afd89170eec",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "counting",
@@ -102,7 +102,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Seebad Insel Hiddensee (Beschluss vom 7. September 1999, ausgefertigt am 23.10.2002)",
@@ -110,7 +110,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "709f93c3973b449f1d99b95814481887ac53464abba3ad740250678d3c41818f",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.payer",

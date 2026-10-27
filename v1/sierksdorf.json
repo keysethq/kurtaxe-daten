@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "b0357a05ef3904c1fe87ef95f6278b67c78ca227f5a98b618d7c6f635a1527f6",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "aenderung1": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2027-01-01",
       "sha256": "9ae5a3636c6fb796ad21b09b7fee20ab113679c01c958d6fbed4454626a7d772",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "ta": {
@@ -34,7 +34,7 @@
       "inForce": "2021-01-01",
       "changedOn": "2026-10-15",
       "sha256": "2a14ad888d7148f6c15bab9e4ad4845b6b1e92c4e8666bc408bd825f238129b3",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -384,7 +384,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

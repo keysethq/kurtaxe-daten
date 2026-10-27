@@ -18,7 +18,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "11239d95390489b006b8445cacf7683f3cbc35179456fde54d91e97884a040d0",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "aenderung3": {
@@ -27,7 +27,7 @@
       "kind": "gazette",
       "inForce": "2024-01-01",
       "sha256": "2e7a3b43c7b066c3a2ec2f9b01d7d183534968f755f0c00e91f6cdcd1fdcdc07",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "aenderung4": {
@@ -36,7 +36,7 @@
       "kind": "gazette",
       "inForce": "2025-01-01",
       "sha256": "6bb511472691f502828ed16ee0852be84bec78f930f2db2e52e9f214b9377e43",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -44,7 +44,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -53,14 +53,14 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "5dfad09fb8216e5d315c83dc89465277f3dd0fbfa7b40bb77dfbf24576b9da0b",
-      "verifiedOn": "2026-10-22"
+      "verifiedOn": "2026-10-26"
     },
     "hauptsatzung": {
       "title": "Hauptsatzung der Gemeinde Ostseebad Binz, 1. Änderungssatzung vom 22.12.2025 (§ 13 Ortsteile)",
       "url": "https://gemeinde-binz.de/wp-content/uploads/2025/05/2025-12_Hauptsatzung_1.-Aenderungssatzung.pdf",
       "kind": "statute",
       "sha256": "62a1438b4dae919f22515201343cd85539d857b78ef71fde38c4fcfd55a4f159",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-22"
     }
   },

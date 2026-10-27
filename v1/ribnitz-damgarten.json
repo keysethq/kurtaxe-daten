@@ -15,7 +15,7 @@
       "kind": "gazette",
       "inForce": "2024-01-01",
       "sha256": "7e1dd5bfb99530329bd2af44f3eadaf4bd572c5e20ecccbc8fca2e7c9756651a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Bernsteinstadt Ribnitz-Damgarten, Beschluss vom 13.05.2020, aktuelle Lesefassung",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "inForce": "2020-06-13",
       "sha256": "d1f1187eb60d3c8fc2959ea32e82201a16a8f02fe76f2d058409e0e74ab4639c",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

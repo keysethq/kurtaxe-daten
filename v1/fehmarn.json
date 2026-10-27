@@ -16,7 +16,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "c9a824d2127ef92f0e542b5ddb0ef1f7c8ecd7e421d46cc0af65d7dc47eb8eb5",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "lesefassung": {
@@ -25,7 +25,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "7321b7c3c38590e653ea4069f8e3fda54c33ad6995a3660a436b621831ce0f24",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "fvb": {
@@ -43,7 +43,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "20c1246fd460f083c74066cea9366ef178d1870619bc99ee863e6ff67fcbc612",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvbAnlage": {
       "title": "Verzeichnis der Betriebsarten, Anlage zur Tourismusabgabesatzung der Stadt Fehmarn (Fassung ab 01.01.2026)",
@@ -52,7 +52,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "2fbb9c77d64ab00937956271c33a2ff7055fe6cbdb92b4a7fa6821f7a802d844",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

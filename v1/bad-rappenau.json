@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2024-01-01",
       "sha256": "8754d85d3c50348f1dbc149c3911f708275ca6ec03f740f905473910b4530062",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2024-01-01"
     },
     "aenderung1": {
@@ -23,7 +23,7 @@
       "url": "https://www.badrappenau.de/images/satzungen/2024-Aenderungen/10-02a-2024-Kurtaxe-1._Aenderungssatzung.pdf",
       "kind": "statute",
       "sha256": "a00319325a102a3831bfb3b30232f85e2db116283bfa239f5fd0a143dcb0f99e",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2024-02-05"
     },
     "aenderung2": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "cc95a1fd2487fc74eadfb7ccbfe1d640a224adf457b5aa2681eacd1331d1b99e",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2025-01-01"
     },
     "bnetza": {
@@ -41,7 +41,7 @@
       "kind": "federal",
       "changedOn": "2026-10-14",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

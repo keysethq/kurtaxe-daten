@@ -14,7 +14,7 @@
       "url": "https://www.kurort-rathen.de/files/pdf/satzungen/2026/Voller%20Wortlaut%20der%20Kurtaxsatzung%20unter%20Einbeziehung%20der%201.%20%C3%84nderungssatzung%20vom%2023.03.2026.pdf",
       "kind": "municipality",
       "sha256": "44558b9c88a891d8b9a6bfffce87b251bb48218878b65a9e0c5e571eff11500b",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -124,7 +124,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "fvb": {
@@ -134,7 +134,7 @@
       "inForce": "2019-01-01",
       "changedOn": "2026-10-15",
       "sha256": "de96cdedd8fb71e724cee951558bd84c3537175c27f580314555b9bdb0f29ab7",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -175,7 +175,7 @@
       "inForce": "2024-04-01",
       "changedOn": "2026-10-15",
       "sha256": "759da73288d9e18cb88c405b179622e9b66252e0db09af834dfa98b9dea9c87b",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.letting[0]",

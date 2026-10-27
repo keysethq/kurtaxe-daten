@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2023-01-01",
       "sha256": "9efeab630ff5fc56b73e158570e13132971f85f200977e7e576f3812f4613490",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2023-01-01"
     },
     "seite": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2023-01-01",
       "sha256": "8823d14e6b67fea07d02f6009719bf761e0997a0e4705e43039910e2e6e4ad6b",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "hashOf": "quotes",
       "changedOn": "2023-01-01"
     },
@@ -34,7 +34,7 @@
       "kind": "municipality",
       "inForce": "2026-02-01",
       "sha256": "13e83b7bff56f1d33670c46be28eee70c621f5c01cdb03d3f81fd1cba6f6985e",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-02-01"
     },
     "bnetza": {
@@ -43,7 +43,7 @@
       "kind": "federal",
       "changedOn": "2026-10-01",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

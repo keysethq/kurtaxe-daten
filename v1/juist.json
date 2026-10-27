@@ -16,7 +16,7 @@
       "kind": "gazette",
       "inForce": "2023-01-01",
       "sha256": "e46bf7044c8d47eaa24742b3e249a867c1f3e42186c310dcf0682a93902ac917",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "tarife": {
@@ -24,9 +24,9 @@
       "url": "https://www.juist.de/juisturlaub-planen/gaestebeitrag/tarife",
       "kind": "municipality",
       "hashOf": "text",
-      "sha256": "933e1bf86e1c809dd3ad0e3d09afb9113d423668543014628977c85a64e151ac",
-      "verifiedOn": "2026-10-19",
-      "changedOn": "2026-10-19"
+      "sha256": "63949bc068703fb70d2f2f7aea2db26948949dbfabe402fa7ceab253b1acdce9",
+      "verifiedOn": "2026-10-26",
+      "changedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Satzung über die Erhebung eines Tourismusbeitrags für die Inselgemeinde Juist (Tourismusbeitragssatzung) vom 06. Dezember 2022 mit Anlage, Amtsblatt für den Landkreis Aurich Nr. 67 vom 09.12.2022, S. 982",
@@ -35,7 +35,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "e46bf7044c8d47eaa24742b3e249a867c1f3e42186c310dcf0682a93902ac917",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.letting[0]",
@@ -134,7 +134,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

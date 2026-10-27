@@ -16,7 +16,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "60875071ea7c2ec34fca40de9bfe14b43d431444eddb9a4e9b502f16c7ee962b",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "counting",
@@ -116,7 +116,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Satzung zur Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Born a. Darß (Beschluss vom 28.12.2021)",
@@ -124,7 +124,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "97823d43bc59881994eb9cb7d3e75a3cd945cee87cbbc5b7ac1668875b857900",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvbAend": {
       "title": "1. Änderung der Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Seebad Born a. Darß vom 19.12.2024",
@@ -133,7 +133,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "3682c7eef46bf32f3664f043c727bcd4a6abb0ca2b0f65dd2502cd9741ee9c7e",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.letting[0]",

@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-07-01",
       "sha256": "9ab9dd1c53a65c03f6e87e44fb4d2c24316aac51616e475e701547525747b5ff",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "seite": {
@@ -23,9 +23,9 @@
       "url": "https://www.trier.de/rathaus-politik/verwaltung/finanzen/steuern-und-abgaben/4035.Beherbergungsteuer.html",
       "kind": "municipality",
       "inForce": "2026-07-01",
-      "sha256": "3dfb6e612f5825f67cd0b6d28d300d3951332b350d8b9bcf221495a5e9c5d912",
-      "verifiedOn": "2026-10-19",
-      "changedOn": "2026-10-14",
+      "sha256": "8c536a5e24ea941ed489dbee366e2c8545c125735958d0a2da365deb46aa1275",
+      "verifiedOn": "2026-10-26",
+      "changedOn": "2026-10-26",
       "hashOf": "text"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

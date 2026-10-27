@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "858fbcb779becad3d0decd2c972f972cd7f3ef0c8bb930160d760d86464d7e64",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "seite": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "3b83997a8c000fe8a19880dd54b3507176f3cdc0cf59e1abf1be6f28c801c453",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "hashOf": "quotes"
     },
@@ -33,7 +33,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

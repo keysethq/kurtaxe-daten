@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "d0317d80e43bc64d5affd7b96dadba1be354ae2aa940086fa86608e72de272bc",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Bekanntmachung: Satzung der Stadt Glücksburg (Ostsee) über die Erhebung einer Tourismusabgabe vom 25.11.2025 (Tourismusabgabesatzung)",
@@ -33,7 +33,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "5716204129ae9302b1678143448ac6509e14db17a9b6c0e347e851b8eebd7415",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

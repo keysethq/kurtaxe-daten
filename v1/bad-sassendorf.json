@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2022-01-01",
       "sha256": "5f7cf605cf7c6728ca5689ca3aa17e7c2784f4905205ecff6d14db62889abe63",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2022-01-01"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

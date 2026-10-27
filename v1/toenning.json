@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "aae0c8f2fe8d7727eaba5b8fe6581d5bf69206b3853afe6c912061b6ff639793",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "nachtrag1": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "0c97fb76c776c0267fa93f058cda8c1dc7c80d151709bf78d59fe9f9dcf0cf0c",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -101,7 +101,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "ca016bced399c25911cd7eb8dd6b65180c5439c0c1db2f94528fbc36a84ea53c",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "taAnlage": {
       "title": "Anlage 1 zur Satzung über die Erhebung einer Tourismusabgabe in der Stadt Tönning",
@@ -110,7 +110,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "5bd1a81c29af125696b8ff32962451deaf21e827558499434c8b8a024516601c",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.letting[0]",
@@ -214,7 +214,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

@@ -15,16 +15,16 @@
       "kind": "statute",
       "inForce": "2022-01-01",
       "sha256": "f99c40390b40a4f0665ebb1d663440eca00accfb4af62673f793ca73dda33617",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "ortsrechtAmt": {
       "title": "Amt Langballig, Ortsrecht des Amtes Langballig",
       "url": "https://www.amt-langballig.de/buergerservice-und-politik/ihre-digitale-amtsverwaltung/ortsrecht/Stichwort/amt-langballig",
       "kind": "municipality",
-      "changedOn": "2026-10-19",
-      "sha256": "ca820537254272fdd3dd6c64c8b9650b315d9d68bad503470f8040575d4675b8",
-      "verifiedOn": "2026-10-19"
+      "changedOn": "2026-10-26",
+      "sha256": "4c7b0cf7b85db0ff547902cbb22a257a41899adc3017119bb5210a5a5aaccd04",
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

@@ -16,15 +16,15 @@
       "inForce": "2021-12-28",
       "changedOn": "2026-10-15",
       "sha256": "d633e1df0a7e5f6b51c445541699c1a5a427416b36bf90567bf7752adad02666",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "ortsrecht": {
       "title": "Amt Südtondern, Gemeinde Dagebüll: Satzungen der Gemeinde Dagebüll",
       "url": "https://www.amt-suedtondern.de/Unsere-Gemeinden/Dageb%C3%BCll/",
       "kind": "municipality",
-      "changedOn": "2026-10-19",
-      "sha256": "6ed28a0c0dce4a6174ae9e964dc3458814b0fc1ec2a205a536e4c11820de6cff",
-      "verifiedOn": "2026-10-19"
+      "changedOn": "2026-10-26",
+      "sha256": "b73cddee0cace5c8f8ba64e3844e7a3dbf269828f417060d8ab56d83595f86b7",
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "badedeich": {
       "title": "Gemeinde Dagebüll, Benutzungsordnung für den Badedeich Dagebüll (Lesefassung, 1. Änderung)",
@@ -40,7 +40,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "7278080b8e255bc6575c6001f35f9086c5582ba5db6541012f7bc1ba69a25ccf",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

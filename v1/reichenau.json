@@ -17,7 +17,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2025-01-01",
       "sha256": "6c439265ba77c97a1123a99a752168e7a79384deeea80208c710a0dafa93008f",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     },
     "aenderung1": {
       "title": "1. Änderungssatzung zur Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Reichenau, Gemeinderatsbeschluss vom 20.10.2025, in Kraft seit 01.01.2026",
@@ -26,7 +26,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-01-01",
       "sha256": "8bcc9c732a6e3ab74e7f9effab78bc5cc80ea05fbefc51b77a53ec9bde19b1a5",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -34,7 +34,7 @@
       "kind": "federal",
       "changedOn": "2026-10-14",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

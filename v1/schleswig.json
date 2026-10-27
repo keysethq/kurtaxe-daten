@@ -14,9 +14,9 @@
       "url": "https://www.schleswig.de/verwaltung-politik/satzungen-ortsrecht-ksh-recht/details/pdf/satzung-ueber-die-erhebung-einer-steuer-auf-uebernachtungen-in-beherbergungsbetrieben-uebernachtungs-297635245/tt_content%7C1462/locallaw.pdf?cHash=b267b7103f432df7e4b4dc074484d5b0",
       "kind": "municipality",
       "inForce": "2026-04-01",
-      "sha256": "8d21dd89ad0a37f166f1eb8774a79bfed1a20af81b5452badfd113a793a950e3",
-      "verifiedOn": "2026-10-19",
-      "changedOn": "2026-10-15",
+      "sha256": "4172bdd843dca583648664d00a5b50ad86d104b6e21de75b6a204124ec3b69d3",
+      "verifiedOn": "2026-10-26",
+      "changedOn": "2026-10-26",
       "hashOf": "text"
     },
     "bnetza": {
@@ -25,7 +25,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

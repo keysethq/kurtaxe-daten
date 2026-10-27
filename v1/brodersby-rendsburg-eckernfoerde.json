@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2019-01-01",
       "sha256": "dd9ecb5b9d79bf789faf904bdecca257de57495f4d2794ae8408c9dd86fab102",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-22"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Lesefassung: Satzung über die Erhebung einer Tourismusabgabe in der Gemeinde Brodersby für den Ortsteil Schönhagen",
@@ -33,7 +33,7 @@
       "inForce": "2015-01-01",
       "changedOn": "2026-10-15",
       "sha256": "1b2a3755e1479b08082dd0eebc4d4c272543ee4a687f2597da8f033956a68b5a",
-      "verifiedOn": "2026-10-22"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

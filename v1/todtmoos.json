@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2022-01-01",
       "sha256": "ac06e967fdb079258c984e274c5b2d60d761f3a1d9b61e0a1690e7d47af2925a",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-19"
     },
     "satzung2027": {
@@ -25,7 +25,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-10-19",
       "sha256": "37da5160ebb2fc2a401bb99d56adebf6934c60ed4a32578f242e02c2fb094555",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb": {
       "title": "Satzung der Gemeinde Todtmoos über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) vom 19.01.2007 in der Fassung vom 20.03.2020",
@@ -34,7 +34,7 @@
       "inForce": "2020-03-21",
       "changedOn": "2026-10-19",
       "sha256": "0b961c31e3e9438e0b40735a620a96334680a49a142497f7741ff5a751d92c48",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fvb2027": {
       "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Todtmoos, vom Gemeinderat beschlossen am 15.09.2026, in Kraft ab 01.01.2027",
@@ -43,7 +43,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-10-19",
       "sha256": "8dd6fdfbb03bc527f38e4dbd36794c9c7b358a40a635a110b95819530e89edc4",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -51,7 +51,7 @@
       "kind": "federal",
       "changedOn": "2026-10-19",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-04-01",
       "sha256": "fd6c7be2814fbccaf23713b2582d905d110e6422270fc13cf85c2c1d17271e00",
-      "verifiedOn": "2026-10-21",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-21",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "auskunft": {
@@ -33,7 +33,7 @@
       "text": "eigentlich wollten wir uns damit klar ausdrücken, aber es ist wahrscheinlich immer schwierig mit Altersangaben.\n\nZum Reisezeitpunkt betrachtet also ist das Kind 6 Jahre alt, zahlt es 0 € (selbst wenn es in diesem Jahr noch 7 würde), es zählt nicht das Geburtsjahr, sondern das derzeitige Alter.\nEbenso bei der nächsten Abstufung. Bin ich physisch 14 Jahre alt, zahle ich den ermäßigten Satz. Bin ich aber schon 15, dann den Erwachsenentarif.",
       "changedOn": "2026-10-21",
       "sha256": "6b70cd613115d2583afbeff4686683ced4ddbfc3c0d539fc6946ed7f6bd1b450",
-      "verifiedOn": "2026-10-21"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

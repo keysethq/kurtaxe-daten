@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-03-27",
       "sha256": "73dc68ca2f8f6d63acd6ba4daca91abd87cf813678ce64bf49d1a48c90464b3d",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2024-03-27"
     },
     "gaesteinfo": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2024-03-27",
       "sha256": "ab92bc3a7b9bfb40aac9e8a9f99db763e767385b027932f5f7670f7d3e2d4add",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2024-03-27"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-10-01",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

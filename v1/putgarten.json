@@ -14,7 +14,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/KurabgPutg.pdf",
       "kind": "statute",
       "sha256": "65a44f546aeaf776853505c248300c0373d5458ab40963510a5f392b808a92a7",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -139,7 +139,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/Aend.Satz_.Putg_.Kurabg..pdf",
       "kind": "statute",
       "sha256": "9700f32b7e8b03409d4ccd9c347a1c587ebcfed4379eec57b0f7ddd7959920a7",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -154,7 +154,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/2_AeS-KA-Putg.pdf",
       "kind": "statute",
       "sha256": "bfb3f26dd66afd440ea5fea0081872580973c2b01fd364bea80d4a9ad95618ef",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "aenderung3": {
@@ -163,7 +163,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "106f20aefff6869eb1042c6b5e6c185c174c868e2161358cad45bff58d4876a4",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -172,7 +172,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Putgarten, Beschluss vom 28.02.2008, nichtamtliche Lesefassung",
@@ -180,7 +180,7 @@
       "kind": "municipality",
       "inForce": null,
       "sha256": "352b670a97f5e4a347a97b3c897389342e14a15fda9740794b7de9672e43c24c",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

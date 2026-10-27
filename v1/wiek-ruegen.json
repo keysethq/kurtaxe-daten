@@ -14,7 +14,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/9/5/Wiek_Kur.pdf",
       "kind": "statute",
       "sha256": "f52e7c0d1296835f8132fbf1e49e4e84ade01c0535b1846a86ea377c18b8a024",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -126,7 +126,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "3fc897b1d24f08c052e617d9156e23f1a79702f9f1a07f180b18e7be27acb917",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -135,7 +135,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Wiek, Beschluss vom 02.05.2012, nichtamtliche Lesefassung",
@@ -143,7 +143,7 @@
       "kind": "municipality",
       "inForce": "2012-12-31",
       "sha256": "05b64eb72d66e80a7bddae1b49142ea13ae6be595ac49ecce7d00876ec2931e9",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

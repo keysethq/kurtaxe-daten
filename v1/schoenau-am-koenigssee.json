@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "ad195d41596dafa71e482e1aacbfd57a489cfcb026c04566e5848c18bec3d357",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "verband": {
@@ -23,16 +23,16 @@
       "url": "https://www.regierung.oberbayern.bayern.de/mam/dokumente/service/obabl/2020/18_240720.pdf",
       "kind": "gazette",
       "inForce": "2020-06-16",
-      "sha256": "122249cb9e6871714d2e39145acf5f11cc61e0416aa1d8b156546e56721bcbe7",
-      "verifiedOn": "2026-10-22",
-      "changedOn": "2026-10-14"
+      "sha256": "4e2f149b3010092104659d06d02ea4df3086df7133ae5c1af3895d53d4556794",
+      "verifiedOn": "2026-10-26",
+      "changedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-22",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     }
   },

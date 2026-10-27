@@ -16,7 +16,7 @@
       "inForce": "2024-01-01",
       "changedOn": "2026-10-15",
       "sha256": "fb965a72134aa2ddc635b1bfa77f1a66980d8a7a401e05ac16a4dfa076a87194",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -161,7 +161,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "68e44a81204d91eaf8bf94b7993c6ee3b1d3c3212627373130616f2fbe995bd3",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -169,7 +169,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

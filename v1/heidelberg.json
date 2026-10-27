@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-10-01",
       "sha256": "83c5b22f8db4febfea53f29f15ef62793d54efdf6ac6095aa5bc7aa0a8d067b9",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2025-10-01"
     },
     "faq": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2025-10-01",
       "sha256": "d3a7bd336168c423f2367931811d0e102d33f9f0c1bc098df43b06126f125bb9",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "hashOf": "quotes",
       "changedOn": "2025-10-01"
     },
@@ -34,7 +34,7 @@
       "kind": "federal",
       "changedOn": "2026-10-01",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

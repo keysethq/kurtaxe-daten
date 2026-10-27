@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "9519eb27e4d7451db49852921c7b623393d4eec5f89b3975dbddbc923004add8",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-01-01"
     },
     "kurgebiet": {
@@ -25,7 +25,7 @@
       "inForce": "2026-01-01",
       "hashOf": "quotes",
       "sha256": "9dbec6743b1c963ef1fd639c8b6987998a0dbc5abe0cee634e9c869ccb000448",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-01-01"
     },
     "bnetza": {
@@ -34,7 +34,7 @@
       "kind": "federal",
       "changedOn": "2026-10-14",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

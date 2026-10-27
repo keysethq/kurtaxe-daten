@@ -15,16 +15,16 @@
       "kind": "statute",
       "inForce": "2022-01-01",
       "sha256": "5335a6783ddf3aeb40ce95dc307a5eaa97ace15755847fd2726c5987f6046cf0",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Steinberg",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/steinberg/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-15",
-      "sha256": "890fdc3e26f2e37c8db71cdd35189b39e9a17ed66d382594e46dbda52e502c2a",
-      "verifiedOn": "2026-10-19"
+      "changedOn": "2026-10-26",
+      "sha256": "bd0ca842c19143497b8b248a091d67e04f177b0ad465fbb671a057cdf6cfa2d0",
+      "verifiedOn": "2026-10-26"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,

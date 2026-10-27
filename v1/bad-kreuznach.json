@@ -14,7 +14,7 @@
       "url": "https://www.bad-kreuznach.de/buergerservice/politik-und-verwaltung/stadtverwaltung/ortsrecht/7-27-gaestebeitragssatzung-aktuell.pdf?cid=25xg",
       "kind": "municipality",
       "sha256": "968593bd5e1da98ff49f7a8672624b5975474f2c24b2e77e615738eab79fabc5",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2023-12-11"
     },
     "beschluss": {
@@ -22,7 +22,7 @@
       "url": "https://www.bad-kreuznach.de/buergerservice/politik-und-verwaltung/stadtverwaltung/ortsrecht/07-27-beschluss-hoehe-gaestebeitrag.pdf?cid=1k4a",
       "kind": "gazette",
       "sha256": "6ec7ce50d196976058b9232fa1de434ea6182e49340444bb115b79763764b703",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2023-12-11"
     },
     "bnetza": {
@@ -30,7 +30,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-23",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-15"
     }
   },

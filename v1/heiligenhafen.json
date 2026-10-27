@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "c4bc3533f72979d4a35ceec2a188d66f3e444a6a6cc7a34d390c766e9dd00d44",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "aenderung2": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "6f9b68ffdbcd9feb027659466a071604ea5b43c9147f615b224ec03ab45a040d",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "aenderung3": {
@@ -33,7 +33,7 @@
       "kind": "statute",
       "inForce": "2027-01-04",
       "sha256": "9a393c9dea8b9f0de80ca57f41bcc7556106f0b12ffeb9be783bd7325bf40155",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -41,7 +41,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "changedOn": "2026-10-14"
     },
     "tourismusabgabe": {
@@ -51,7 +51,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "37edba2df2b5bc725dcf28c93cd122cb792b69d5bbdc6b3470e65cd66d32ce0e",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "tourismusabgabe1": {
       "title": "1. Satzung zur Änderung der Satzung über die Erhebung einer Tourismusabgabe in der Stadt Heiligenhafen",
@@ -60,7 +60,7 @@
       "inForce": "2024-01-01",
       "changedOn": "2026-10-15",
       "sha256": "b3a8c2aac159c6f104c07281fdc41f5aa4d0ba91846ba528074f2d0ebc46a7af",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": {

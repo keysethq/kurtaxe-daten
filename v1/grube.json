@@ -16,7 +16,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "a23fd685d64874c55d65fe1e2e4713bdb2350ad3d70548d801c95f8be68823eb",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     },
     "ortsrecht": {
       "title": "Verwaltungsgemeinschaft Grömitz, Satzungen der Gemeinde Grube, Stichwort Steuern, Abgaben, Finanzen",
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "179919b00d1b1e2f308f54f46a35e6e9ed586fd70c852a4ab8ba699c732657dc",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-10-26",
       "hashOf": "quotes"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-10-15",
       "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19"
+      "verifiedOn": "2026-10-26"
     }
   },
   "levy": null,
