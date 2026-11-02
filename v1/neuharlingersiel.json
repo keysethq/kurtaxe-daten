@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "e03704f84680c43ebb2d915c8b6f34126662e4bed141d8b3a368c25ec1a91a41",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "tbs": {
       "title": "Satzung über die Erhebung eines Tourismusbeitrages in der Gemeinde Neuharlingersiel (Tourismusbeitragssatzung) in der Fassung der 9. Änderung vom 10.12.2024 (ab 01.01.2025), Lesefassung der Samtgemeinde Esens",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "f237b1d9971ae5e25853094a8044adb54a910618ed706df64e108fcf35dc927a",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     }
   },
@@ -223,8 +223,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

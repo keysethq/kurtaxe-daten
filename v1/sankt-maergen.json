@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "85c67c7ec203e8aebe152ebcdb70143e1cf2b087ec3893654f0d3ba59c2a5669",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -139,9 +139,9 @@
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung der Gemeinde St. Märgen über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung – FBS), Beschluss vom 18.09.2001",
@@ -149,7 +149,7 @@
       "kind": "statute",
       "inForce": "2002-01-01",
       "sha256": "7897a269d669bd06f522c9063ffaa15a11de88cd25bf5d9f97c9af4f92d8824b",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -325,8 +325,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "businessLevy": {
     "name": "Fremdenverkehrsbeitrag",

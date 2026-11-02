@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "8e5f6f75cf65d15393a912bfe5b82f6950fa8979b42bbc4db05fca984cef9e25",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -94,9 +94,9 @@
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fva": {
       "title": "Satzung der Gemeinde Seebad Zempin über die Erhebung einer Fremdenverkehrsabgabe, Beschluss vom 09.12.2024",
@@ -104,7 +104,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "70a6fe34d993b8f7fd557e93efc66271b81f8d9bc4829bc8e677aec567ecd946",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     }
   },
@@ -269,8 +269,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

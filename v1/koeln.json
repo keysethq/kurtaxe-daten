@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2024-07-01",
       "sha256": "4bfa686241b5e252926bdc10049f4a2e43b917c09c9cbfd7aa7a18afaeb3e668",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -93,8 +93,8 @@
   "registration": {
     "required": true,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Berlin B b04c5f8c-0c95-4105-9916-a96237ded6c6 Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

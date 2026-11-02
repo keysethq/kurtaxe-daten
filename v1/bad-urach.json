@@ -14,18 +14,18 @@
       "url": "https://www.bad-urach.de/de/rathaus/Verwaltung/Satzungen/Kurtaxesatzung",
       "kind": "municipality",
       "inForce": "2019-01-01",
-      "changedOn": "2019-01-01",
+      "changedOn": "2026-11-02",
       "hashOf": "text",
-      "sha256": "8e5b1afcfd841d693d8c42fcada92f50eb1bb25bb94aa6f025924f87ac91ce14",
-      "verifiedOn": "2026-10-26"
+      "sha256": "297e2b4e8ffa4e86c373ff8dcae6eb5ef71f67b08414239ed842f8a34347d338",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-14",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -169,8 +169,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-22",

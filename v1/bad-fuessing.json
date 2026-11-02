@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-04-01",
       "sha256": "7e906fe776d681994a0fd0d7d63bd8d8ba2d6a4ca1d641174b1075f25719a1c5",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "satzung": {
@@ -24,16 +24,16 @@
       "kind": "municipality",
       "inForce": "2018-01-01",
       "sha256": "f84d10c8882ba1fecc72da390a1a5c68e684aac03d2698aae4b9f8ed001493a2",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung zur Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Füssing vom 07.01.1980",
@@ -42,7 +42,7 @@
       "inForce": "1980-01-01",
       "changedOn": "2026-10-15",
       "sha256": "efd5e48f8d02cfb9341fcf9524af1f2e92c70d1a3550fd7c90bc3105fee7174e",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     },
     "fvbAenderung": {
       "title": "2. Änderung der Satzung zur Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Füssing vom 29.06.2004",
@@ -51,7 +51,7 @@
       "inForce": "2004-01-01",
       "changedOn": "2026-10-15",
       "sha256": "f03df4a0f01a984443cc048a1020c8739c9a692e72f715bfc08584d3414a5c39",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -308,8 +308,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

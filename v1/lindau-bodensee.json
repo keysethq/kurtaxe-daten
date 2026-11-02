@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2021-04-01",
       "sha256": "3fc801b8f5e2df3e6892c51fa4c7e4b8e7a2c3d05d23124957371cf47f97d388",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages der Stadt Lindau (Bodensee) vom 8. Dezember 1978 in der Fassung der Siebten Änderungssatzung vom 20. November 2019",
@@ -33,7 +33,7 @@
       "inForce": "2020-01-01",
       "changedOn": "2026-10-15",
       "sha256": "0c5abd02688bb2343c9d1ead1dc4a88eed6a3c03b6ef9a4479909f39775cdcad",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -191,8 +191,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

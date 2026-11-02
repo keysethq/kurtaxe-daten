@@ -15,16 +15,16 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "b5647d7ba90ef3970429506222a8c75ec673257bc8ed4343794e477a04f78647",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung der Stadt Baden-Baden über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung), Gemeinderatsbeschluss vom 29.09.2025",
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "76944c921e2c3cb1f6aa2b804083a9c516c62b529aab6c59024f87358b1d02a0",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     }
   },
@@ -157,8 +157,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "businessLevy": {
     "name": "Fremdenverkehrsbeitrag",

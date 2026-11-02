@@ -15,7 +15,7 @@
       "kind": "gazette",
       "inForce": "2022-01-01",
       "sha256": "cc434b67cc7dc4ef0ed9b2e62055141757e194e903ad1af11196d17e53c2552b",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "aenderung1": {
@@ -24,16 +24,16 @@
       "kind": "gazette",
       "inForce": "2023-01-01",
       "sha256": "7a0135a3585d1866c377af8331115ef41036553d651a156152ac5bfb6d65e41e",
-      "verifiedOn": "2026-10-19",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-19",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -180,8 +180,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

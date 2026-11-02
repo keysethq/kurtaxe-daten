@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2022-04-01",
       "sha256": "066d5239861b5dc151889ed0eb0ca1d07d14862d186ceb706dba564a5716e99b",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -164,9 +164,9 @@
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrages des Marktes Mittenwald",
@@ -175,7 +175,7 @@
       "inForce": "2023-01-01",
       "changedOn": "2026-10-15",
       "sha256": "6347ac6936e2433860255c45bad45d86ed2ba6a5732f5a9c3661121ef75a34d9",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -430,8 +430,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

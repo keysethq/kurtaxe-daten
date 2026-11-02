@@ -15,24 +15,24 @@
       "kind": "municipality",
       "inForce": "2022-01-01",
       "sha256": "30cb431184d5916f148e1f1193b3f0f21d6022d566cc5893344bfc821f336a1c",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Kronsgaard",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/kronsgaard/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-26",
-      "sha256": "72ed802bef5b7d57bdf63cf4d7630743879136e682a49a58c5e8fb2f4894dbf9",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "4fa8053770f1edbfcdaf48664a5d7531ed43ced46c3c1cdccb64ec529e0a0998",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -118,8 +118,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

@@ -16,7 +16,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "a72af3b80f317d0ca39d9c09b568ae8470188dfc6232aa54d2847310626c8010",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "aenderung3": {
@@ -25,16 +25,16 @@
       "kind": "gazette",
       "inForce": "2025-01-01",
       "sha256": "16d4d404db3178da69f22a5e7c4a7ac93ef994f47fa42bb0887cfb94af3d5f78",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "tbs": {
       "title": "Satzung über die Erhebung eines Tourismusbeitrages (Tourismusbeitragssatzung) der Inselgemeinde Langeoog in der Fassung der 3. Änderung vom 27.11.2024, Lesefassung der Gemeinde Langeoog",
@@ -42,7 +42,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "653c3e4cee08e2de33db8295f5e23c8f92bedde9779ea44368e7f97d95476c71",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     }
   },
@@ -173,8 +173,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-13",

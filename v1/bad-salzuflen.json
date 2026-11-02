@@ -14,17 +14,17 @@
       "url": "https://www.stadt-bad-salzuflen.de/stadt-und-rathaus/politik-und-wahlen/ortsrecht/abschnitt-2/kurbeitragssatzung",
       "kind": "municipality",
       "inForce": "2025-04-01",
-      "sha256": "5387999f220017198a25796655a5d6fe0551c13da94be381d0e1973f3d656496",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "b31b3e587f9675b44960357920651ad8eee473460e8dbc37d15b902585d90cbf",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -179,8 +179,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

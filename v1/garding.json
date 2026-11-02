@@ -16,7 +16,7 @@
       "inForce": "2024-01-01",
       "changedOn": "2026-10-15",
       "sha256": "fb965a72134aa2ddc635b1bfa77f1a66980d8a7a401e05ac16a4dfa076a87194",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -159,17 +159,17 @@
       "title": "Amt Eiderstedt, Ortsrecht / Satzungen der Stadt Garding",
       "url": "https://www.amt-eiderstedt.de/Amt-und-Gemeinden/Gemeinden/Garding/Ortsrecht-Satzungen/",
       "kind": "municipality",
-      "changedOn": "2026-10-15",
-      "sha256": "68e44a81204d91eaf8bf94b7993c6ee3b1d3c3212627373130616f2fbe995bd3",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "299c55b3c680e96cf89de016de13b5943574349ac3735dcc687844d9dcc66119",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -311,8 +311,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

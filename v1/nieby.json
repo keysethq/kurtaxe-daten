@@ -15,24 +15,24 @@
       "kind": "statute",
       "inForce": "2016-01-01",
       "sha256": "01c6c79f332a768c2c46f267f420349d9fb374609920621bb8ce57dddb5259c4",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Nieby",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/nieby/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-26",
-      "sha256": "0b29465807f1e8becbf66994e7f046c8b8eb1b03697720b4f1a63c686d79e94c",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "d11839fafa30c136132b7204d0dbda0eb6816d66dae0d1e6a2b84d831f5ab9d3",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -118,8 +118,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

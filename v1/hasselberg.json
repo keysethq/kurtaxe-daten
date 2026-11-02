@@ -15,24 +15,24 @@
       "kind": "municipality",
       "inForce": "2022-01-01",
       "sha256": "5493accaa4bc3925bceb57d8eb038841e3362dd03c9291f69544b4d245cd0f3f",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Hasselberg",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/hasselberg/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-26",
-      "sha256": "35d4807719a9beb7f37e573e52845bff309920856e95d63caf897e2ad30682c8",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "c9e14e277c57df581513c8320e69074f101b1abc4153ffd8f0e135ca55ffc8f1",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -118,8 +118,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

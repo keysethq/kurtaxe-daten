@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "1eb97361991482616f47ab1f9443ddc0621c49b2bd6b82cb9d42fb109e966244",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "aenderung1": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "1f52a8baa3bb3965a2f6e71011ffdbb6dfc35a93697f54658af9bdd970a18460",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -53,9 +53,9 @@
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Ostseebad Dierhagen, Lesefassung der 1. Änderung (Beschluss vom 04.09.2024)",
@@ -64,7 +64,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "b051cde4e2aa20a37d229556797306b5a1cb24509407f8b89793444321adbce8",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -158,8 +158,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

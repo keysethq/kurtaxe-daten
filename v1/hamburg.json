@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "e0ed55dc077b450d3e5607b237b0800f1f1f6afd7222e6e9dc5d6d2445b7f053",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "gvbl": {
       "title": "Drittes Gesetz zur Änderung kommunalabgabenrechtlicher Vorschriften vom 4. März 2026, Hamburgisches Gesetz- und Verordnungsblatt Nr. 9 vom 17.03.2026, S. 98",
@@ -33,7 +33,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-10-15",
       "sha256": "6609b4dbf07ff889657fe32ba2f215b9efe2837d87a834a57b7de70846b25d91",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -200,8 +200,8 @@
   "registration": {
     "required": true,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "b802613c-e736-4a3c-9f7c-b8129a2e8bd4 Hamburg HH nrw-koeln Köln nrw-muenster Münster 93e0db12-fe5a-4f10-8ece-b1d966d429a5 Tübingen BW nrw-wesseling Wesseling Kontaktinformation / Ansprechpartner Digitale Datendrehscheibe Kurzzeitvermietung Bundesnetzagentur, Referat 901 Postfach 8001, 53105 Bonn E-Mail: SDEP@bnetza.de Berlin B b04c5f8c-0c95-4105-9916-a96237ded6c6 Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

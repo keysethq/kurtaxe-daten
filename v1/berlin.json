@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "23e3ff6e14bf7856f0edef713bcf567c6bbe88675b9b0fc145d6cc30b48e7606",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "leitfaden": {
@@ -24,16 +24,16 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "80d8d22dd8d9638dddd9f06766616db46e3661bc4c69c859ef6f1dab1008e2bf",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -100,10 +100,10 @@
     ]
   },
   "registration": {
-    "required": false,
+    "required": true,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Berlin B b04c5f8c-0c95-4105-9916-a96237ded6c6 Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

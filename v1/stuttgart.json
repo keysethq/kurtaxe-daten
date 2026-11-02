@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-03-20",
       "sha256": "17fc0b63483a5be9d2b7e41e0e01ed67f670e274c56838d808bfa6fcbb0f74e5",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-03-20"
     },
     "seite": {
@@ -23,18 +23,18 @@
       "url": "https://www.stuttgart.de/rathaus/finanzen/steuern-und-abgaben/uebernachtungssteuer",
       "kind": "municipality",
       "inForce": "2026-10-08",
-      "sha256": "9697b65eb7e2abd52ce2166706265430d706d9bb05b3ea175a5edcb0a65f69c3",
-      "verifiedOn": "2026-10-26",
+      "sha256": "b41a6aea87dfab2271ee95b884b2f54b909f4cfe402f2d00a1ea6fb9a0f17ee9",
+      "verifiedOn": "2026-11-02",
       "hashOf": "text",
-      "changedOn": "2026-10-08"
+      "changedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-01",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -114,8 +114,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-22",

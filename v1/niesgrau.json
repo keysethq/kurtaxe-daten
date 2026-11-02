@@ -15,24 +15,24 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "7842b29185e42aadf2cadd063c959eeb689312675d86129af948ad8ac9222111",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Niesgrau",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/niesgrau/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-26",
-      "sha256": "09b7c4ef9081d0d2ded81f115a195ecf0fce0e55c53ba0aef972ed282161f3db",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "f8ad5e5ee5c9a8e226f9a845867164d8a3a3de0ee593505eff8e2a54f513f17d",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -126,8 +126,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

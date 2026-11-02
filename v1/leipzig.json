@@ -10,13 +10,13 @@
   "district": "Leipzig",
   "sources": {
     "satzung": {
-      "title": "Satzung über die Erhebung einer Beherbergungssteuer in der Stadt Leipzig (Beherbergungssteuersatzung), Stand Februar 2023, Stadtrecht Leipzig",
+      "title": "Satzung über die Erhebung einer Beherbergungssteuer in der Stadt Leipzig (Beherbergungssteuersatzung), Stand September 2026 (1. Änderung, Amtsblatt Nr. 19/26 vom 17.10.2026), Stadtrecht Leipzig",
       "url": "https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/details/satzung/2-09/download",
       "kind": "municipality",
       "inForce": "2023-04-01",
-      "sha256": "9de9a4ea5c5f5f44c1c2d291493127c6d19bdfbfde9731b051607df3f94544aa",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "c6ca0eb94e501120fc4a5711b67f81e8d582641b377cecea695e6cca01b094c1",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "faq": {
       "title": "Informationen zur Beherbergungssteuer in der Stadt Leipzig, Stand Februar 2023, Stadtkämmerei Leipzig",
@@ -24,16 +24,16 @@
       "kind": "municipality",
       "inForce": "2023-04-01",
       "sha256": "4371dbb741a6ed4f12db9fbb09e9bc1a7f9eb60b188f542cf0361dd3cf55f7df",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-14"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -56,8 +56,8 @@
       "source": "satzung"
     },
     "deadline": {
-      "text": "Du berechnest die im Monat eingezogene Steuer selbst und meldest sie bis zum zehnten Tag des Folgemonats mit dem amtlichen Formular an und führst sie ab.",
-      "quote": "Die innerhalb eines Kalendermonats vereinnahmte Beherbergungssteuer ist vom Betreiber der Beherbergungseinrichtung bis zum zehnten Tag des Folgemonats selbst zu berechnen und unter Verwendung des amtlichen Formulars bei der Stadt anzumelden und abzuführen.",
+      "text": "Du berechnest die im Monat eingezogene Steuer selbst und meldest sie bis zum zehnten Tag des Folgemonats an und führst sie ab, mit dem amtlichen Formular oder elektronisch über die amtlich bestimmten Schnittstellen.",
+      "quote": "Die innerhalb eines Kalendermonats vereinnahmte Beherbergungssteuer ist vom Betreiber der Beherbergungseinrichtung bis zum zehnten Tag des Folgemonats selbst zu berechnen und unter Verwendung des amtlichen Formulars oder nach amtlich vorgeschriebenem Datensatz durch Datenfernübertragung über die amtlich bestimmten Schnittstellen (gemäß Abs. 1)3 bei der Stadt anzumelden und abzuführen.",
       "source": "satzung"
     },
     "reporting": {
@@ -99,8 +99,8 @@
         "source": "satzung"
       },
       {
-        "text": "Wer eine Unterkunft eröffnet oder aufgibt, zeigt das der Stadt innerhalb eines Monats mit dem amtlichen Formular an.",
-        "quote": "Wer innerhalb der Stadt Leipzig eine Beherbergungseinrichtung im Sinne des § 2 S. 2 der Satzung eröffnet oder endgültig aufgibt, hat dies der Stadt innerhalb eines Monats unter Verwendung des amtlichen Formulars anzuzeigen.",
+        "text": "Wer eine Unterkunft eröffnet oder aufgibt, zeigt das der Stadt innerhalb eines Monats an, mit dem amtlichen Formular oder elektronisch über die amtlich bestimmten Schnittstellen.",
+        "quote": "Wer innerhalb der Stadt Leipzig eine Beherbergungseinrichtung im Sinne des § 2 S. 2 der Satzung eröffnet oder endgültig aufgibt, hat dies der Stadt innerhalb eines Monats unter Verwendung des amtlichen Formulars oder nach amtlich vorgeschriebenem Datensatz durch Datenfernübertragung über die amtlich bestimmten Schnittstellen anzuzeigen.",
         "source": "satzung"
       },
       {
@@ -113,8 +113,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-14",

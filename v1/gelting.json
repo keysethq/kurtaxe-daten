@@ -15,24 +15,24 @@
       "kind": "statute",
       "inForce": "2016-01-01",
       "sha256": "1fd37e24e41d7acbf91887bebaaa77a73eda01185553050b85f91e4f4adf7960",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "ortsrecht": {
       "title": "Amt Geltinger Bucht, Ortsrecht der Gemeinde Gelting",
       "url": "https://www.amt-geltingerbucht.de/gemeinden-zweckverbaende/gelting/ortsrecht",
       "kind": "municipality",
-      "changedOn": "2026-10-26",
-      "sha256": "f386bd29f6f9a2da52c1cace12c6b29a6e7012fe424d0269c0589e38ac8467c4",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "3fa369f915b8a4fb8f2a1ca4c7fa74f73b38e93d9eb3ac7207c1057ba0cd7475",
+      "verifiedOn": "2026-11-02"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "changedOn": "2026-10-15",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26"
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": null,
@@ -118,8 +118,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

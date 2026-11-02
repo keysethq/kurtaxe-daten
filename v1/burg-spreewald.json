@@ -14,16 +14,16 @@
       "url": "https://amt-burg-spreewald.de/visioncontent/mediendatenbank/amt_kurbeitrag_2025_lesefassung_2_aend.pdf",
       "kind": "municipality",
       "sha256": "24939db77165a0a665e80d40e0cd1210f21d5344b927c4aa2884cff2a9498608",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fvb": {
       "title": "Tourismusbeitragssatzung des Amtes Burg (Spreewald), beschlossen am 6. Juli 2026, bekannt gemacht im Amtsblatt vom 5. August 2026; die Satzung gilt rückwirkend ab 1. Januar 2016, die Anlage 2 mit den Vorteilssätzen ab 1. Juli 2026",
@@ -32,7 +32,7 @@
       "inForce": "2016-01-01",
       "changedOn": "2026-10-15",
       "sha256": "08bd228e38eff2017ab7c09e69f39c89184fc0cb8d4a36c13edbebdfdea4df09",
-      "verifiedOn": "2026-10-26"
+      "verifiedOn": "2026-11-02"
     }
   },
   "levy": {
@@ -207,8 +207,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",

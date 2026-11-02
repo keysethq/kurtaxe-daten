@@ -15,16 +15,16 @@
       "kind": "municipality",
       "inForce": "2019-01-01",
       "sha256": "f2132ab5d47ec4267b0f27730850fbe45d10b59d124e7717e54a3897455ed649",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
-      "sha256": "40fa3c51b203943bc7dd08e626cf053241bc4cac5c05e2071ce7e26b3f34c652",
-      "verifiedOn": "2026-10-26",
-      "changedOn": "2026-10-15"
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-02",
+      "changedOn": "2026-11-02"
     },
     "fva": {
       "title": "Lesefassung der Satzung der Stadt Plau am See über die Erhebung einer Fremdenverkehrsabgabe vom 15.03.2002 nach der 2. Änderung vom 29.03.2012",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "inForce": "2012-01-01",
       "sha256": "8f9ec1a91e2e4df24ab4ef77c61b68a4f51889d2123159b99032ee8035639154",
-      "verifiedOn": "2026-10-26",
+      "verifiedOn": "2026-11-02",
       "changedOn": "2026-10-15"
     }
   },
@@ -212,8 +212,8 @@
   "registration": {
     "required": false,
     "source": "bnetza",
-    "asOf": "2026-10-01",
-    "quote": "Stand: 01.10.2026"
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
   },
   "checked": {
     "on": "2026-10-15",
