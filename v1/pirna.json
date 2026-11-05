@@ -1,0 +1,194 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "pirna",
+  "name": "Stadt Pirna",
+  "short": "Pirna",
+  "ags": "14628270",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Pirna über die Erhebung einer Gästetaxe (Gästetaxesatzung) vom 13.11.2018, mit der 9. Änderung vom 17.06.2026, Lesefassung der Stadt",
+      "url": "https://www.pirna.de/fileadmin/user_upload/1_Stadtinfo/1-1-rathaus-stadtpolitik/1-1-3-ortsrecht/20260701_Gaestetaxe.pdf",
+      "kind": "municipality",
+      "inForce": "2026-08-01",
+      "sha256": "9c28042b1502e2a9158b3ede0e0445b45caac21867b9e85d4722ee33f318bbb9",
+      "verifiedOn": "2026-11-05",
+      "changedOn": "2026-11-05"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-05",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-05"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "An- und Abreisetag zählen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Sie beträgt ganzjährig je Tag und Person 3 EUR."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+          },
+          {
+            "underAge": 16,
+            "percent": 50,
+            "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres,",
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Teilnehmer an Schulfahrten zahlen nichts.",
+        "quote": "Teilnehmer an Schulfahrten,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn die Notwendigkeit der Begleitung nachgewiesen ist.",
+        "quote": "Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit der Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      },
+      {
+        "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+        "quote": "zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen,"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten und Auszubildende von 16 bis 25",
+        "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 25. Lebensjahr,",
+        "percent": 50
+      },
+      {
+        "label": "Schwerbehinderte mit Grad der Behinderung ab 80",
+        "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 25. Lebensjahr, 3. Schwerbehinderte, deren Grad der Behinderung mindestens 80 v. H. beträgt,",
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch wer aus beruflichen Gründen in Pirna übernachtet, zahlt die Gästetaxe.",
+        "quote": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Stadt Pirna Unterkunft nehmen (Dienstreisende)."
+      },
+      {
+        "text": "Dienstreisende und Auszubildende zahlen die Gästetaxe im Jahr für höchstens 25 Übernachtungen.",
+        "quote": "Dienstreisende und in Pirna zur Ausbildung befindliche Personen nach § 6 Absatz 1 Nr. 2 haben jährlich für höchstens 25 Übernachtungen Gästetaxe zu entrichten."
+      },
+      {
+        "text": "Dauercamper mit einem für die Saison gemieteten Stellplatz zahlen statt der Nächte pauschal 50,00 € im Jahr je Person.",
+        "quote": "haben unabhängig von der Dauer und Häufigkeit der Nutzung eine jährliche pauschale Gästetaxe in Höhe von 50,00 EUR pro Person zu entrichten."
+      },
+      {
+        "text": "Wer nach der Zweitwohnungssteuersatzung der Stadt zur Zweitwohnungssteuer herangezogen wird, zahlt keine Gästetaxe.",
+        "quote": "nach der Zweitwohnungssteuersatzung der Stadt Pirna zur Zweitwohnungssteuer herangezogenen werden, einschließlich die, die nachweislich von der Zweitwohnungsteuer befreit sind."
+      },
+      {
+        "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+        "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+      },
+      {
+        "text": "Du darfst ohne Zustimmung der Stadt keine Befreiungen, Ermäßigungen oder andere Vergünstigungen gewähren.",
+        "quote": "Die Beherberger sind nicht berechtigt, ohne Zustimmung der Stadt Pirna Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+      },
+      {
+        "text": "Ab 1. Januar 2028 musst du die Gäste elektronisch melden; bis 31. Dezember 2027 geht noch das manuelle Verfahren mit vorgedruckten Gästekarten.",
+        "quote": "Ab dem 1. Januar 2028 sind alle Beherberger verpflichtet, zur Erfüllung der Meldepflicht das elektronische Meldeverfahren zu nutzen."
+      },
+      {
+        "text": "Du haftest gegenüber der Stadt für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe.",
+        "quote": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis nach § 9 Abs. 1 haftet gegenüber der Stadt Pirna für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein und führt sie nach Aufforderung der Stadt ab.",
+      "quote": "Der in § 9 Abs. 1 benannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und nach Aufforderung an die Stadt Pirna abzuführen."
+    },
+    "deadline": {
+      "text": "Nach deiner Meldung bekommst du eine Abrechnung und zahlst zu den dort genannten Terminen.",
+      "quote": "Die darin ausgewiesene Gästetaxe ist entsprechend den dort angegebenen Terminen zur Zahlung fällig und zu begleichen."
+    },
+    "reporting": {
+      "text": "Du reichst die Gästeanmeldungen bis zum zehnten Werktag des Folgemonats beim TouristService Pirna ein, im elektronischen Meldesystem per Datenübermittlung.",
+      "quote": "Der Beherberger hat bis zum zehnten Werktag des Folgemonats den entsprechenden Teil der Gästekarten (Gästeanmeldungen für die Touristinformation) beim TouristService Pirna einzureichen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-05",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/pirna/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ],
+        "reduced": [
+          150,
+          150
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Studenten und Auszubildende von 16 bis 25",
+        "onApplication": false
+      },
+      {
+        "label": "Schwerbehinderte mit Grad der Behinderung ab 80",
+        "onApplication": false
+      }
+    ]
+  }
+}

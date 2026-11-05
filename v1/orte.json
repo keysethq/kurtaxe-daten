@@ -2357,7 +2357,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "9853d3dfee9daafe5a6cdaf609d93b6633e1a269c29c466cacce7f8957135bec",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -2365,7 +2365,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -2374,7 +2374,7 @@
           "kind": "statute",
           "inForce": "2023-01-01",
           "sha256": "8f985a07d41ed3c59736c5f245b5efc3d860898a5074ec7e9251fedab061af4f",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-15"
         }
       },
@@ -2555,6 +2555,7 @@
             "quote": "die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden, aufhalten"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
@@ -5075,7 +5076,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "8b1090792a2f18cd0a1fef96f7cd57c03847147ae77ad00b99bfd096fea57ea3",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -5083,7 +5084,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -5092,7 +5093,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "da1d35c8f874aac04a93e450e1a7587242f5546e4e8fcc89ed69e3594786fc30",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-15"
         }
       },
@@ -5192,6 +5193,7 @@
             "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
@@ -7645,7 +7647,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "0b6dbda3e175290275255f214905b95ab28d1ff892a4fc16ef092a0a4dd4f4d1",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -7653,7 +7655,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -7662,7 +7664,7 @@
           "kind": "statute",
           "inForce": "2002-01-01",
           "sha256": "d038b49543b22088b3b327dad10e4065802f3f951ef38faa38461c259f97524f",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-15"
         }
       },
@@ -7762,6 +7764,7 @@
             "quote": "die in der Gemeinde arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
@@ -9262,7 +9265,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "76194fed0c9f4bd2433b35080f53b40687d363cf29fe02c7150a54ba15df913e",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -9270,7 +9273,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -9370,6 +9373,7 @@
             "quote": "die in der Stadt Titisee-Neustadt arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Stadt Titisee-Neustadt aufhalten"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
@@ -19508,7 +19512,7 @@
           "kind": "municipality",
           "inForce": "2013-06-01",
           "sha256": "f042c80b9cb17577f00026dc30c3dc741d4926f8c0ad8a21986d67e758cc7c7d",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-15"
         },
         "bnetza": {
@@ -19516,7 +19520,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -19526,7 +19530,7 @@
           "inForce": "1979-01-01",
           "changedOn": "2026-10-15",
           "sha256": "3e1769fda1c5283aec35176f57736570d1a59602c475fba230a30b4925183c62",
-          "verifiedOn": "2026-11-02"
+          "verifiedOn": "2026-11-05"
         }
       },
       "levy": {
@@ -19574,6 +19578,7 @@
             "quote": "c. Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
           }
         ],
+        "noSeniorRate": true,
         "reduced": [
           {
             "label": "Schwerbehinderte ab GdB 80",
@@ -22756,7 +22761,7 @@
           "kind": "gazette",
           "inForce": "2025-12-20",
           "sha256": "821b3a1a0508e6ef255fa05e843b7a6cbc017397b59c6c899a805861ba0a5cab",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -22764,7 +22769,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -22856,6 +22861,7 @@
             "quote": "2. Begleitpersonen von Behinderten, wenn nach dem Behindertenausweis für den Behinderten eine Begleitperson erforderlich ist."
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Eine Befreiung wegen Behinderung musst du am Anreisetag beantragen; der Gast legt dafür den Ausweis vor.",
@@ -36532,7 +36538,7 @@
           "kind": "gazette",
           "inForce": "2023-01-01",
           "sha256": "3622f7f99ac0ade4037eb4b9c596737aad742d0de4921a867930316ddb73b350",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "ortsrecht": {
@@ -36541,7 +36547,7 @@
           "kind": "municipality",
           "inForce": "2023-01-01",
           "sha256": "a03bf672df780e84ca4a4b6849b4ad8036e03cae5b2d7096f1a152f1522090da",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -36549,7 +36555,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -36559,7 +36565,7 @@
           "inForce": "2007-01-01",
           "changedOn": "2026-10-15",
           "sha256": "90c23e99849caba200aabfd4eb96c2d57114d69253f34b65f82e2fa7d1c76729",
-          "verifiedOn": "2026-11-02"
+          "verifiedOn": "2026-11-05"
         }
       },
       "levy": {
@@ -36622,6 +36628,7 @@
             "quote": "Eltern und Großeltern, Kinder, Enkelkinder oder Geschwister nebst deren Ehepartnern und minderjährigen Kindern, von Personen, die im Erhebungsgebiet ihren gewöhnlichen Aufenthalt haben, wenn sie ohne Vergütung in die häusliche Gemeinschaft aufgenommen werden."
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Für An- und Abreisetag zusammen gilt der Tagessatz des Anreisetages.",
@@ -48288,7 +48295,7 @@
           "kind": "statute",
           "inForce": "2019-07-01",
           "sha256": "9584b195f928144fbba7bd223b19bf0a197b6f1f95f1d6133454a78b119d17c9",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14",
           "ocr": [
             {
@@ -48359,7 +48366,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "d08ffb022b5771b0c4135611436c688f264b4aef2e7d00f251175fcbfbd0d15d",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "aenderung8": {
@@ -48368,7 +48375,7 @@
           "kind": "statute",
           "inForce": null,
           "sha256": "5b007e122ee52d1ab9480134288ce01f7b5e1750ed4880fababe43e6f9c24d04",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -48376,7 +48383,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -48438,6 +48445,7 @@
             "quote": "auf Antrag Teilnehmerinnen und Teilnehmer an berufsbezogenen Seminaren, Tagungen, Messen oder vergleichbaren Veranstaltungen, bei denen keine Möglichkeit zur Benutzung der Einrichtungen und Inanspruchnahme der Veranstaltungen im Sinne von § 1 Abs. 1 dieser Satzung verbleibt"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Teilnehmer an berufsbezogenen Seminaren, Tagungen und Messen, die nicht befreit sind, zahlen 1,65 € je Übernachtung.",
@@ -57544,7 +57552,7 @@
           "kind": "statute",
           "inForce": "2019-04-27",
           "sha256": "6d031d974a9f29e3a251324fd0793e3a260ce1ec91625c27160db6d714c0347c",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2019-04-27"
         },
         "bnetza": {
@@ -57552,7 +57560,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -57667,6 +57675,7 @@
             "quote": "Begleitpersonen von Behinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind;"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Die Kurtaxe gilt im Kurbezirk Bad Elster, der das Gebiet der Stadt Bad Elster umfasst und in zwei Kurzonen eingeteilt ist.",
@@ -59670,6 +59679,852 @@
       }
     },
     {
+      "slug": "pirna",
+      "name": "Stadt Pirna",
+      "short": "Pirna",
+      "ags": "14628270",
+      "state": "Sachsen",
+      "district": "Sächsische Schweiz-Osterzgebirge",
+      "sources": {
+        "satzung": {
+          "title": "Satzung der Stadt Pirna über die Erhebung einer Gästetaxe (Gästetaxesatzung) vom 13.11.2018, mit der 9. Änderung vom 17.06.2026, Lesefassung der Stadt",
+          "url": "https://www.pirna.de/fileadmin/user_upload/1_Stadtinfo/1-1-rathaus-stadtpolitik/1-1-3-ortsrecht/20260701_Gaestetaxe.pdf",
+          "kind": "municipality",
+          "inForce": "2026-08-01",
+          "sha256": "9c28042b1502e2a9158b3ede0e0445b45caac21867b9e85d4722ee33f318bbb9",
+          "verifiedOn": "2026-11-05",
+          "changedOn": "2026-11-05"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-11-05",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-05"
+        }
+      },
+      "levy": {
+        "name": "Gästetaxe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "An- und Abreisetag zählen als ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "Sie beträgt ganzjährig je Tag und Person 3 EUR."
+            },
+            "children": [
+              {
+                "underAge": 7,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+              },
+              {
+                "underAge": 16,
+                "percent": 50,
+                "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres,",
+                "cents": 150
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Teilnehmer an Schulfahrten zahlen nichts.",
+            "quote": "Teilnehmer an Schulfahrten,"
+          },
+          {
+            "text": "Begleitpersonen von Schwerbehinderten zahlen nichts, wenn die Notwendigkeit der Begleitung nachgewiesen ist.",
+            "quote": "Begleitpersonen von Schwerbehinderten, wenn die Notwendigkeit der Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird,"
+          },
+          {
+            "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+            "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+          },
+          {
+            "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+            "quote": "zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen,"
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten und Auszubildende von 16 bis 25",
+            "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 25. Lebensjahr,",
+            "percent": 50
+          },
+          {
+            "label": "Schwerbehinderte mit Grad der Behinderung ab 80",
+            "quote": "Die Gästetaxe wird um 50 v. H. ermäßigt für: 1. Kinder vom Beginn des 8. Lebensjahres bis zur Vollendung des 16. Lebensjahres, 2. Schüler, Studenten und Auszubildende vom 17. bis zum vollendeten 25. Lebensjahr, 3. Schwerbehinderte, deren Grad der Behinderung mindestens 80 v. H. beträgt,",
+            "percent": 50
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Auch wer aus beruflichen Gründen in Pirna übernachtet, zahlt die Gästetaxe.",
+            "quote": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Stadt Pirna Unterkunft nehmen (Dienstreisende)."
+          },
+          {
+            "text": "Dienstreisende und Auszubildende zahlen die Gästetaxe im Jahr für höchstens 25 Übernachtungen.",
+            "quote": "Dienstreisende und in Pirna zur Ausbildung befindliche Personen nach § 6 Absatz 1 Nr. 2 haben jährlich für höchstens 25 Übernachtungen Gästetaxe zu entrichten."
+          },
+          {
+            "text": "Dauercamper mit einem für die Saison gemieteten Stellplatz zahlen statt der Nächte pauschal 50,00 € im Jahr je Person.",
+            "quote": "haben unabhängig von der Dauer und Häufigkeit der Nutzung eine jährliche pauschale Gästetaxe in Höhe von 50,00 EUR pro Person zu entrichten."
+          },
+          {
+            "text": "Wer nach der Zweitwohnungssteuersatzung der Stadt zur Zweitwohnungssteuer herangezogen wird, zahlt keine Gästetaxe.",
+            "quote": "nach der Zweitwohnungssteuersatzung der Stadt Pirna zur Zweitwohnungssteuer herangezogenen werden, einschließlich die, die nachweislich von der Zweitwohnungsteuer befreit sind."
+          },
+          {
+            "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+            "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+          },
+          {
+            "text": "Du darfst ohne Zustimmung der Stadt keine Befreiungen, Ermäßigungen oder andere Vergünstigungen gewähren.",
+            "quote": "Die Beherberger sind nicht berechtigt, ohne Zustimmung der Stadt Pirna Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+          },
+          {
+            "text": "Ab 1. Januar 2028 musst du die Gäste elektronisch melden; bis 31. Dezember 2027 geht noch das manuelle Verfahren mit vorgedruckten Gästekarten.",
+            "quote": "Ab dem 1. Januar 2028 sind alle Beherberger verpflichtet, zur Erfüllung der Meldepflicht das elektronische Meldeverfahren zu nutzen."
+          },
+          {
+            "text": "Du haftest gegenüber der Stadt für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe.",
+            "quote": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis nach § 9 Abs. 1 haftet gegenüber der Stadt Pirna für die rechtzeitige und vollständige Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein und führt sie nach Aufforderung der Stadt ab.",
+          "quote": "Der in § 9 Abs. 1 benannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und nach Aufforderung an die Stadt Pirna abzuführen."
+        },
+        "deadline": {
+          "text": "Nach deiner Meldung bekommst du eine Abrechnung und zahlst zu den dort genannten Terminen.",
+          "quote": "Die darin ausgewiesene Gästetaxe ist entsprechend den dort angegebenen Terminen zur Zahlung fällig und zu begleichen."
+        },
+        "reporting": {
+          "text": "Du reichst die Gästeanmeldungen bis zum zehnten Werktag des Folgemonats beim TouristService Pirna ein, im elektronischen Meldesystem per Datenübermittlung.",
+          "quote": "Der Beherberger hat bis zum zehnten Werktag des Folgemonats den entsprechenden Teil der Gästekarten (Gästeanmeldungen für die Touristinformation) beim TouristService Pirna einzureichen."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-05",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/pirna/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          7,
+          16
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
+            ],
+            "reduced": [
+              150,
+              150
+            ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Studenten und Auszubildende von 16 bis 25",
+            "onApplication": false
+          },
+          {
+            "label": "Schwerbehinderte mit Grad der Behinderung ab 80",
+            "onApplication": false
+          }
+        ]
+      }
+    },
+    {
+      "slug": "struppen",
+      "name": "Gemeinde Struppen",
+      "short": "Struppen",
+      "ags": "14628390",
+      "state": "Sachsen",
+      "district": "Sächsische Schweiz-Osterzgebirge",
+      "sources": {
+        "satzung": {
+          "title": "Satzung der Gemeinde Struppen über die Erhebung einer Gästetaxe (Gästetaxesatzung), Neufassung vom 05.11.2024",
+          "url": "https://struppen.de/satzungen/Gaestetaxesatzung_ab_01-01-25.pdf",
+          "kind": "statute",
+          "inForce": "2025-01-01",
+          "sha256": "75c8b32fe79cdc5044b47ea80e6342874bc4024345262c88e932bfb2e4f3911a",
+          "verifiedOn": "2026-11-05",
+          "changedOn": "2026-11-05",
+          "ocr": [
+            {
+              "where": "counting",
+              "page": 3,
+              "reading": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+            },
+            {
+              "where": "periods[0].adult",
+              "page": 3,
+              "reading": "Die Gästetaxe beträgt je Person und Aufenthaltstag 2,80 EUR."
+            },
+            {
+              "where": "periods[0].children[0]",
+              "page": 3,
+              "reading": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+            },
+            {
+              "where": "periods[0].children[1]",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+            },
+            {
+              "where": "periods[0].children[1] amount",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+            },
+            {
+              "where": "reduced[0]",
+              "page": 4,
+              "reading": "2. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird, ab einem Grad der Behinderung von 90 v.H. auch für deren Begleitperson,"
+            },
+            {
+              "where": "reduced[0].rates[0]",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+            },
+            {
+              "where": "reduced[1]",
+              "page": 4,
+              "reading": "3. Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr,"
+            },
+            {
+              "where": "reduced[1].rates[0]",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+            },
+            {
+              "where": "reduced[2]",
+              "page": 4,
+              "reading": "4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren"
+            },
+            {
+              "where": "reduced[2].rates[0]",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+            },
+            {
+              "where": "reduced[3]",
+              "page": 4,
+              "reading": "5. Teilnehmer an Schulfahrten"
+            },
+            {
+              "where": "reduced[3].rates[0]",
+              "page": 4,
+              "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+            },
+            {
+              "where": "exemptions[0]",
+              "page": 3,
+              "reading": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+            },
+            {
+              "where": "exemptions[1]",
+              "page": 4,
+              "reading": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+            },
+            {
+              "where": "exemptions[2]",
+              "page": 3,
+              "reading": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+            },
+            {
+              "where": "remarks[0]",
+              "page": 3,
+              "reading": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen."
+            },
+            {
+              "where": "remarks[1]",
+              "page": 3,
+              "reading": "Diese beträgt für Gästetaxepflichtige nach $ 2 Absatz 1 Satz 3 \"50,00 EUR\" und für Gästetaxepflichtige nach $ 2 Absatz 2 \"30,00 EUR\"."
+            },
+            {
+              "where": "remarks[2]",
+              "page": 4,
+              "reading": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+            },
+            {
+              "where": "remarks[3]",
+              "page": 6,
+              "reading": "Die Aufbewahrung und Abrechnung der Gästetaxe haben getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+            },
+            {
+              "where": "remarks[4]",
+              "page": 6,
+              "reading": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+            },
+            {
+              "where": "hostDuty",
+              "page": 6,
+              "reading": "Der in $ 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen."
+            },
+            {
+              "where": "deadline",
+              "page": 6,
+              "reading": "erhalten die Quartiergeber im Sinne von 8 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Termine zur Zahlung fällig."
+            },
+            {
+              "where": "reporting",
+              "page": 5,
+              "reading": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 10. des Folgemonats zuzuleiten."
+            }
+          ]
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-11-05",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-05"
+        }
+      },
+      "levy": {
+        "name": "Gästetaxe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 280,
+              "quote": "Die Gästetaxe beträgt je Person und Aufenthaltstag 2,80 EUR."
+            },
+            "children": [
+              {
+                "underAge": 7,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+              },
+              {
+                "underAge": 18,
+                "cents": 200,
+                "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+            "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+          },
+          {
+            "text": "Kleingärtner in Anlagen nach dem Bundeskleingartengesetz zahlen nichts, wenn sie den Status behördlich nachweisen.",
+            "quote": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+          },
+          {
+            "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+            "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab Grad der Behinderung 50, ab 90 auch Begleitperson",
+            "quote": "2. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird, ab einem Grad der Behinderung von 90 v.H. auch für deren Begleitperson,",
+            "rates": [
+              {
+                "cents": 200,
+                "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+              }
+            ]
+          },
+          {
+            "label": "Schüler, Studenten und Auszubildende von 18 bis 27",
+            "quote": "3. Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr,",
+            "rates": [
+              {
+                "cents": 200,
+                "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+              }
+            ]
+          },
+          {
+            "label": "Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+            "quote": "4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+            "rates": [
+              {
+                "cents": 200,
+                "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+              }
+            ]
+          },
+          {
+            "label": "Teilnehmer an Schulfahrten",
+            "quote": "5. Teilnehmer an Schulfahrten",
+            "rates": [
+              {
+                "cents": 200,
+                "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+              }
+            ]
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Auch wer aus beruflichen Gründen in Struppen übernachtet, zahlt die Gästetaxe; Einwohner mit Nebenwohnsitz zum Arbeiten oder Studieren zahlen sie nicht.",
+            "quote": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen."
+          },
+          {
+            "text": "Eigentümer von Wochenendhäusern, Datschen und Lauben zahlen statt der Nächte eine Jahresgästetaxe von 50,00 €, Inhaber einer Nebenwohnung mit Lebensmittelpunkt anderswo 30,00 €.",
+            "quote": "Diese beträgt für Gästetaxepflichtige nach § 2 Absatz 1 Satz 3 „50,00 EUR“ und für Gästetaxepflichtige nach § 2 Absatz 2 „30,00 EUR“."
+          },
+          {
+            "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+            "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+          },
+          {
+            "text": "Du bewahrst die eingezogene Gästetaxe getrennt vom Betriebsvermögen auf, bei der Kasse wie beim Konto.",
+            "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe haben getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+          },
+          {
+            "text": "Du haftest gegenüber der Gemeinde für das Einziehen und Abführen der Gästetaxe.",
+            "quote": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein.",
+          "quote": "Der in § 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen."
+        },
+        "deadline": {
+          "text": "Nach deiner Meldung bekommst du eine Abrechnung der Gemeinde und zahlst zu den dort genannten Terminen.",
+          "quote": "erhalten die Quartiergeber im Sinne von § 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Termine zur Zahlung fällig."
+        },
+        "reporting": {
+          "text": "Eine Mehrfertigung jedes Meldescheins reichst du bis zum 10. des Folgemonats bei der Gemeindeverwaltung ein.",
+          "quote": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 10. des Folgemonats zuzuleiten."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-05",
+        "by": "agent"
+      },
+      "ocrCompared": {
+        "on": "2026-11-05",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/struppen/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          7,
+          18
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 280,
+            "children": [
+              0,
+              200
+            ],
+            "reduced": [
+              200,
+              200,
+              200,
+              200
+            ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schwerbehinderte ab Grad der Behinderung 50, ab 90 auch Begleitperson",
+            "onApplication": false
+          },
+          {
+            "label": "Schüler, Studenten und Auszubildende von 18 bis 27",
+            "onApplication": false
+          },
+          {
+            "label": "Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+            "onApplication": false
+          },
+          {
+            "label": "Teilnehmer an Schulfahrten",
+            "onApplication": false
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wehlen",
+      "name": "Stadt Wehlen",
+      "short": "Wehlen",
+      "ags": "14628370",
+      "state": "Sachsen",
+      "district": "Sächsische Schweiz-Osterzgebirge",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Gästetaxe in der Stadt Wehlen (Gästetaxe-Satzung) vom 26.08.2025 mit Abgabeordnung",
+          "url": "https://www.wehlen-online.de/wp-content/uploads/2026/03/Gaestetaxesatzung-ab-05.01.2026.pdf",
+          "kind": "statute",
+          "inForce": "2026-01-05",
+          "sha256": "8c448120fca479d00d41f361dc0dc8e9442bb6c5f7ea2cac83b510d19f73f4c0",
+          "verifiedOn": "2026-11-05",
+          "changedOn": "2026-11-05",
+          "ocr": [
+            {
+              "where": "counting",
+              "page": 2,
+              "reading": "Ankunfts- und Abreisetag zählen als ein Tag."
+            },
+            {
+              "where": "periods[0].adult",
+              "page": 7,
+              "reading": "3,00 EUR pro Person und Aufenthaltstag"
+            },
+            {
+              "where": "periods[0].children[0]",
+              "page": 2,
+              "reading": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+            },
+            {
+              "where": "periods[0].children[1]",
+              "page": 7,
+              "reading": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+            },
+            {
+              "where": "periods[0].children[1] amount",
+              "page": 7,
+              "reading": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+            },
+            {
+              "where": "reduced[0]",
+              "page": 7,
+              "reading": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR"
+            },
+            {
+              "where": "reduced[0].rates[0]",
+              "page": 7,
+              "reading": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR"
+            },
+            {
+              "where": "reduced[1]",
+              "page": 7,
+              "reading": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR"
+            },
+            {
+              "where": "reduced[1].rates[0]",
+              "page": 7,
+              "reading": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR"
+            },
+            {
+              "where": "exemptions[0]",
+              "page": 2,
+              "reading": "Ortsfremde Personen, die Montagetätigkeiten in der Region ausführen und sich im Ort aufhalten,"
+            },
+            {
+              "where": "exemptions[1]",
+              "page": 2,
+              "reading": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+            },
+            {
+              "where": "exemptions[2]",
+              "page": 2,
+              "reading": "Nicht gästetaxepflichtig sind natürliche Personen, die im Erhebungsgebiet zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+            },
+            {
+              "where": "remarks[0]",
+              "page": 1,
+              "reading": "Die Stadt Stadt Wehlen mit ihren Ortsteilen Dorf Wehlen, Pötzscha und Zeichen erhebt"
+            },
+            {
+              "where": "remarks[1]",
+              "page": 2,
+              "reading": "Die Gästetaxe nach Absatz 1 beinhaltet einen Betrag zur Finanzierung der Mobilitätskarte gemäß 8 6 Absatz 4."
+            },
+            {
+              "where": "remarks[2]",
+              "page": 3,
+              "reading": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+            },
+            {
+              "where": "remarks[3]",
+              "page": 3,
+              "reading": "Die Voraussetzungen für die Ermäßigung der Gästetaxe sind durch Vorlage eines geeigneten Nachweises zu bestätigen."
+            },
+            {
+              "where": "remarks[4]",
+              "page": 4,
+              "reading": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Stadt Stadt Wehlen Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+            },
+            {
+              "where": "remarks[5]",
+              "page": 4,
+              "reading": "Die Abführung der Gästetaxe an die Stadt Stadt Wehlen hat ausschließlich im bargeldlosen Zahlungsverkehr (Überweisung) zu erfolgen."
+            },
+            {
+              "where": "remarks[6]",
+              "page": 4,
+              "reading": "Der mit dem Einzug beauftragte Personenkreis haftet gegenüber der Stadt für den vollständigen und richtigen Einzug der Gästetaxe."
+            },
+            {
+              "where": "remarks[7]",
+              "page": 4,
+              "reading": "Werden durch den Beherberger trotz Aufforderung keine Abrechnungen der Gästetaxebeträge vorgenommen, kann die Stadt Stadt Wehlen die Gästetaxe schätzen."
+            },
+            {
+              "where": "hostDuty",
+              "page": 4,
+              "reading": "Der in $ 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+            },
+            {
+              "where": "deadline",
+              "page": 4,
+              "reading": "bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+            },
+            {
+              "where": "reporting",
+              "page": 4,
+              "reading": "Der Beherberger sollte vorzugsweise ein autorisiertes elektronisches Meldesystem für die Anmeldung seiner Gäste verwenden."
+            }
+          ]
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-11-05",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-05"
+        }
+      },
+      "levy": {
+        "name": "Gästetaxe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Ankunfts- und Abreisetag zählen als ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "3,00 EUR pro Person und Aufenthaltstag"
+            },
+            "children": [
+              {
+                "underAge": 7,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+              },
+              {
+                "underAge": 15,
+                "cents": 150,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Ortsfremde, die in der Region Montagetätigkeiten ausführen und sich im Ort aufhalten, zahlen nichts.",
+            "quote": "Ortsfremde Personen, die Montagetätigkeiten in der Region ausführen und sich im Ort aufhalten,"
+          },
+          {
+            "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+            "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+          },
+          {
+            "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+            "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die im Erhebungsgebiet zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Auszubildende und Studenten bis 25",
+            "quote": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
+          },
+          {
+            "label": "Schwerbehinderte und Begleitpersonen mit Merkzeichen B",
+            "quote": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR",
+            "rates": [
+              {
+                "cents": 150
+              }
+            ]
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Die Gästetaxe gilt in Wehlen mit den Ortsteilen Dorf Wehlen, Pötzscha und Zeichen.",
+            "quote": "Die Stadt Stadt Wehlen mit ihren Ortsteilen Dorf Wehlen, Pötzscha und Zeichen erhebt"
+          },
+          {
+            "text": "In der Gästetaxe steckt ein Betrag für die Mobilitätskarte, die Gäste im Nahverkehr der Region fahren lässt; die Stadt vereinnahmt ihn im Namen der Verkehrsunternehmen.",
+            "quote": "Die Gästetaxe nach Absatz 1 beinhaltet einen Betrag zur Finanzierung der Mobilitätskarte gemäß § 6 Absatz 4."
+          },
+          {
+            "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+            "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+          },
+          {
+            "text": "Befreiungen und Ermäßigungen müssen Gäste mit einem geeigneten Nachweis belegen.",
+            "quote": "Die Voraussetzungen für die Ermäßigung der Gästetaxe sind durch Vorlage eines geeigneten Nachweises zu bestätigen."
+          },
+          {
+            "text": "Du darfst ohne Zustimmung der Stadt keine Befreiungen, Ermäßigungen oder andere Vergünstigungen gewähren.",
+            "quote": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Stadt Stadt Wehlen Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+          },
+          {
+            "text": "Du führst die Gästetaxe ausschließlich per Überweisung an die Stadt ab.",
+            "quote": "Die Abführung der Gästetaxe an die Stadt Stadt Wehlen hat ausschließlich im bargeldlosen Zahlungsverkehr (Überweisung) zu erfolgen."
+          },
+          {
+            "text": "Du haftest gegenüber der Stadt dafür, dass die Gästetaxe vollständig und richtig eingezogen wird.",
+            "quote": "Der mit dem Einzug beauftragte Personenkreis haftet gegenüber der Stadt für den vollständigen und richtigen Einzug der Gästetaxe."
+          },
+          {
+            "text": "Legst du trotz Aufforderung keine Abrechnung vor, kann die Stadt die Gästetaxe schätzen.",
+            "quote": "Werden durch den Beherberger trotz Aufforderung keine Abrechnungen der Gästetaxebeträge vorgenommen, kann die Stadt Stadt Wehlen die Gästetaxe schätzen."
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht die fällige Gästetaxe von ihnen ein und weist sie der Stadt nach.",
+          "quote": "Der in § 8 Absatz 1 genannte Personenkreis hat die fällige Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+        },
+        "deadline": {
+          "text": "Du weist die eingezogene Gästetaxe bis zum 10. Werktag des Folgemonats gegenüber der Stadt nach.",
+          "quote": "bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+        },
+        "reporting": {
+          "text": "Du meldest deine Gäste mit den amtlichen Meldescheinen bei der Stadt oder der Touristinformation an und ab; ein elektronisches Meldesystem ist vorzuziehen.",
+          "quote": "Der Beherberger sollte vorzugsweise ein autorisiertes elektronisches Meldesystem für die Meldung seiner Gäste verwenden."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-05",
+        "by": "agent"
+      },
+      "ocrCompared": {
+        "on": "2026-11-05",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/wehlen/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          7,
+          15
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
+            ],
+            "reduced": [
+              150,
+              150
+            ]
+          }
+        ],
+        "reduced": [
+          {
+            "label": "Schüler, Auszubildende und Studenten bis 25",
+            "onApplication": false
+          },
+          {
+            "label": "Schwerbehinderte und Begleitpersonen mit Merkzeichen B",
+            "onApplication": false
+          }
+        ]
+      }
+    },
+    {
       "slug": "ilsenburg",
       "name": "Stadt Ilsenburg (Harz)",
       "short": "Ilsenburg",
@@ -60240,7 +61095,7 @@
           "kind": "municipality",
           "inForce": "2024-01-01",
           "sha256": "fe2ed2682fa9c199495efff3fa3aff8daf8c02de99d4d3874d2d6d00c4084d9a",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-22"
         },
         "bnetza": {
@@ -60248,7 +61103,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -60313,6 +61168,7 @@
             "quote": "Jugendliche in Jugendherbergen, Jugend- und Schullandheimen, Jugendzeltlagern und Waldhütten sowie deren Aufsichtspersonen als Teilnehmer von organisierten Klassenfahrten."
           }
         ],
+        "noSeniorRate": true,
         "reduced": [
           {
             "label": "Schwerbehinderte ab 50 % und ihre ständige Begleitperson",
@@ -60853,6 +61709,9 @@
       "slug": "wernigerode",
       "name": "Stadt Wernigerode",
       "short": "Wernigerode",
+      "districts": [
+        "Schierke"
+      ],
       "ags": "15085370",
       "state": "Sachsen-Anhalt",
       "district": "Harz",
@@ -60863,7 +61722,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "eb2b8646c373bb1b683720a40623e4ace750ddaa1ca93557b74d2a77434a280b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -60871,7 +61730,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -60935,6 +61794,7 @@
             "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die touristischen Einrichtungen in Anspruch zu nehmen."
           }
         ],
+        "noSeniorRate": true,
         "reduced": [
           {
             "label": "Schwerbehinderte ab GdB 50",
@@ -66868,7 +67728,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "e12f22eae8da360ca86deeed70af1cc0807f6f894eb53d1f4b2fea886cd4c097",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -66876,7 +67736,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -66886,7 +67746,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "50dc430329cf07875eb93e910fdbabf047f11bacc164032053d27478b3dc2fa6",
-          "verifiedOn": "2026-11-02"
+          "verifiedOn": "2026-11-05"
         }
       },
       "levy": {
@@ -67031,6 +67891,7 @@
             "quote": "vorübergehend Anwesende aufgrund der Ausübung ihres Dienstes, ihres Berufs, oder ihrer Ausbildung für den Zeitraum der Tätigkeit"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Nur vom 1. bis 3. Januar 2026 galt als Übergang 2,00 € in Grömitz und Lensterstrand und 1,40 € in den Erholungsorten.",
@@ -70077,16 +70938,16 @@
           "kind": "gazette",
           "inForce": "2026-01-01",
           "sha256": "a1ba728e32f877455c7f7f7e5a50ec517aefec27c6d3f7f710642e3e6afc6bb2",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-15"
         },
         "ortsrecht": {
           "title": "Stadt Husum, Ortsrecht",
           "url": "https://www.husum.org/Verwaltung-Politik/Verwaltung/Ortsrecht-/",
           "kind": "municipality",
-          "changedOn": "2026-11-02",
-          "sha256": "479075d7d5d9cf4a1d8df082a7c95cf9d85bf6113ddee6e4b8f45311006ab280",
-          "verifiedOn": "2026-11-02"
+          "changedOn": "2026-11-05",
+          "sha256": "42a62ef3f4b78771d6bd18532db4762de2207ec831e732892cc39f892d0cd5d5",
+          "verifiedOn": "2026-11-05"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -70094,7 +70955,7 @@
           "kind": "federal",
           "changedOn": "2026-11-02",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02"
+          "verifiedOn": "2026-11-05"
         }
       },
       "levy": null,
@@ -82668,7 +83529,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "fecc561d03acf62110c882b930828a21de8cf7cf28ccf4f4e6cd63e7f36639c8",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-22",
           "ocr": [
             {
@@ -82764,7 +83625,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "79fe65a30861e724b08420afe67cc0b81f185f2ab631c65906c6af0340328a0f",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "ta": {
@@ -82774,7 +83635,7 @@
           "inForce": "2024-01-01",
           "changedOn": "2026-10-15",
           "sha256": "6a0d2bb17bc5b1549848581c60cde66a46b7f67fe57b3831c0480e17d9b3b668",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -82968,7 +83829,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -83044,6 +83905,7 @@
             "quote": "Als ortsfremd gilt nicht, wer im Erhebungsgebiet arbeitet oder in Ausbildung steht."
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Die Gästekarte, die dein Gast bei der Zahlung bekommt, ist höchstens 28 Tage gültig.",
@@ -85122,6 +85984,9 @@
       "slug": "wangels",
       "name": "Wangels",
       "short": "Wangels",
+      "districts": [
+        "Weißenhäuser Strand"
+      ],
       "ags": "01055043",
       "state": "Schleswig-Holstein",
       "district": "Ostholstein",
@@ -89182,7 +90047,7 @@
           "kind": "municipality",
           "inForce": "2026-07-01",
           "sha256": "b8fbf8ae82e4c7639d25b035f87ce9c3518f2ef2c0124643b219b97d64d10ff3",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "aenderung3": {
@@ -89191,7 +90056,7 @@
           "kind": "statute",
           "inForce": "2026-07-01",
           "sha256": "88f6298969a28826a84c42ea21d50568306108801c5e5f7aa2dc28757dc53850",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -89199,7 +90064,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-02",
+          "verifiedOn": "2026-11-05",
           "changedOn": "2026-11-02"
         }
       },
@@ -89251,6 +90116,7 @@
             "quote": "1. Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltliche Aufnahme finden und weder Kureinrichtungen noch Kurveranstaltungen in Anspruch nehmen,"
           }
         ],
+        "noSeniorRate": true,
         "remarks": [
           {
             "text": "Der Kurbeitrag wird nur im Ortsteil Bad Liebenstein erhoben.",

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "9853d3dfee9daafe5a6cdaf609d93b6633e1a269c29c466cacce7f8957135bec",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-11-02"
     },
     "fvb": {
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2023-01-01",
       "sha256": "8f985a07d41ed3c59736c5f245b5efc3d860898a5074ec7e9251fedab061af4f",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-10-15"
     }
   },
@@ -213,6 +213,7 @@
         "quote": "die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen, die in der Gemeinde stattfinden, aufhalten"
       }
     ],
+    "noSeniorRate": true,
     "remarks": [
       {
         "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",

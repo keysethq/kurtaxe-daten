@@ -1,0 +1,318 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "wehlen",
+  "name": "Stadt Wehlen",
+  "short": "Wehlen",
+  "ags": "14628370",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Gästetaxe in der Stadt Wehlen (Gästetaxe-Satzung) vom 26.08.2025 mit Abgabeordnung",
+      "url": "https://www.wehlen-online.de/wp-content/uploads/2026/03/Gaestetaxesatzung-ab-05.01.2026.pdf",
+      "kind": "statute",
+      "inForce": "2026-01-05",
+      "sha256": "8c448120fca479d00d41f361dc0dc8e9442bb6c5f7ea2cac83b510d19f73f4c0",
+      "verifiedOn": "2026-11-05",
+      "changedOn": "2026-11-05",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Ankunfts- und Abreisetag zählen als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 7,
+          "reading": "3,00 EUR pro Person und Aufenthaltstag"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 7,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 7,
+          "reading": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+        },
+        {
+          "where": "reduced[0]",
+          "page": 7,
+          "reading": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR"
+        },
+        {
+          "where": "reduced[0].rates[0]",
+          "page": 7,
+          "reading": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR"
+        },
+        {
+          "where": "reduced[1]",
+          "page": 7,
+          "reading": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR"
+        },
+        {
+          "where": "reduced[1].rates[0]",
+          "page": 7,
+          "reading": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die Montagetätigkeiten in der Region ausführen und sich im Ort aufhalten,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Nicht gästetaxepflichtig sind natürliche Personen, die im Erhebungsgebiet zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Stadt Stadt Wehlen mit ihren Ortsteilen Dorf Wehlen, Pötzscha und Zeichen erhebt"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Die Gästetaxe nach Absatz 1 beinhaltet einen Betrag zur Finanzierung der Mobilitätskarte gemäß 8 6 Absatz 4."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "Die Voraussetzungen für die Ermäßigung der Gästetaxe sind durch Vorlage eines geeigneten Nachweises zu bestätigen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Stadt Stadt Wehlen Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 4,
+          "reading": "Die Abführung der Gästetaxe an die Stadt Stadt Wehlen hat ausschließlich im bargeldlosen Zahlungsverkehr (Überweisung) zu erfolgen."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 4,
+          "reading": "Der mit dem Einzug beauftragte Personenkreis haftet gegenüber der Stadt für den vollständigen und richtigen Einzug der Gästetaxe."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 4,
+          "reading": "Werden durch den Beherberger trotz Aufforderung keine Abrechnungen der Gästetaxebeträge vorgenommen, kann die Stadt Stadt Wehlen die Gästetaxe schätzen."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "Der in $ 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+        },
+        {
+          "where": "reporting",
+          "page": 4,
+          "reading": "Der Beherberger sollte vorzugsweise ein autorisiertes elektronisches Meldesystem für die Anmeldung seiner Gäste verwenden."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-05",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-05"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag zählen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "3,00 EUR pro Person und Aufenthaltstag"
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+          },
+          {
+            "underAge": 15,
+            "cents": 150,
+            "quote": "Kinder und Jugendliche bis zur Vollendung des 15. Lebensjahres 1,50 EUR"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Ortsfremde, die in der Region Montagetätigkeiten ausführen und sich im Ort aufhalten, zahlen nichts.",
+        "quote": "Ortsfremde Personen, die Montagetätigkeiten in der Region ausführen und sich im Ort aufhalten,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat."
+      },
+      {
+        "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+        "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die im Erhebungsgebiet zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Auszubildende und Studenten bis 25",
+        "quote": "Schüler, Auszubildende, Studenten bis zur Vollendung des 25. Lebensjahres 1,50 EUR",
+        "rates": [
+          {
+            "cents": 150
+          }
+        ]
+      },
+      {
+        "label": "Schwerbehinderte und Begleitpersonen mit Merkzeichen B",
+        "quote": "Schwerbehinderte mit Schwerbehindertenausweis sowie für deren Begleitpersonen, wenn die Notwendigkeit der Begleitung durch Eintragung im Schwerbehindertenausweis mit Merkzeichen B nachgewiesen wird 1,50 EUR",
+        "rates": [
+          {
+            "cents": 150
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Gästetaxe gilt in Wehlen mit den Ortsteilen Dorf Wehlen, Pötzscha und Zeichen.",
+        "quote": "Die Stadt Stadt Wehlen mit ihren Ortsteilen Dorf Wehlen, Pötzscha und Zeichen erhebt"
+      },
+      {
+        "text": "In der Gästetaxe steckt ein Betrag für die Mobilitätskarte, die Gäste im Nahverkehr der Region fahren lässt; die Stadt vereinnahmt ihn im Namen der Verkehrsunternehmen.",
+        "quote": "Die Gästetaxe nach Absatz 1 beinhaltet einen Betrag zur Finanzierung der Mobilitätskarte gemäß § 6 Absatz 4."
+      },
+      {
+        "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+        "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe wird nur eine Ermäßigung gewährt."
+      },
+      {
+        "text": "Befreiungen und Ermäßigungen müssen Gäste mit einem geeigneten Nachweis belegen.",
+        "quote": "Die Voraussetzungen für die Ermäßigung der Gästetaxe sind durch Vorlage eines geeigneten Nachweises zu bestätigen."
+      },
+      {
+        "text": "Du darfst ohne Zustimmung der Stadt keine Befreiungen, Ermäßigungen oder andere Vergünstigungen gewähren.",
+        "quote": "Der Beherberger ist nicht berechtigt, ohne Zustimmung der Stadt Stadt Wehlen Befreiungen und Ermäßigungen von der Gästetaxe oder Vergünstigungen, die nicht im Sinne dieser Satzung sind, zu gewähren."
+      },
+      {
+        "text": "Du führst die Gästetaxe ausschließlich per Überweisung an die Stadt ab.",
+        "quote": "Die Abführung der Gästetaxe an die Stadt Stadt Wehlen hat ausschließlich im bargeldlosen Zahlungsverkehr (Überweisung) zu erfolgen."
+      },
+      {
+        "text": "Du haftest gegenüber der Stadt dafür, dass die Gästetaxe vollständig und richtig eingezogen wird.",
+        "quote": "Der mit dem Einzug beauftragte Personenkreis haftet gegenüber der Stadt für den vollständigen und richtigen Einzug der Gästetaxe."
+      },
+      {
+        "text": "Legst du trotz Aufforderung keine Abrechnung vor, kann die Stadt die Gästetaxe schätzen.",
+        "quote": "Werden durch den Beherberger trotz Aufforderung keine Abrechnungen der Gästetaxebeträge vorgenommen, kann die Stadt Stadt Wehlen die Gästetaxe schätzen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die fällige Gästetaxe von ihnen ein und weist sie der Stadt nach.",
+      "quote": "Der in § 8 Absatz 1 genannte Personenkreis hat die fällige Gästetaxe von den gästetaxepflichtigen Personen einzuziehen und bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+    },
+    "deadline": {
+      "text": "Du weist die eingezogene Gästetaxe bis zum 10. Werktag des Folgemonats gegenüber der Stadt nach.",
+      "quote": "bis zum 10. Werktag des Folgemonats der Stadt Stadt Wehlen nachzuweisen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste mit den amtlichen Meldescheinen bei der Stadt oder der Touristinformation an und ab; ein elektronisches Meldesystem ist vorzuziehen.",
+      "quote": "Der Beherberger sollte vorzugsweise ein autorisiertes elektronisches Meldesystem für die Meldung seiner Gäste verwenden."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-05",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-05",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/wehlen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ],
+        "reduced": [
+          150,
+          150
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schüler, Auszubildende und Studenten bis 25",
+        "onApplication": false
+      },
+      {
+        "label": "Schwerbehinderte und Begleitpersonen mit Merkzeichen B",
+        "onApplication": false
+      }
+    ]
+  }
+}

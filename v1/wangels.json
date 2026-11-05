@@ -5,6 +5,9 @@
   "slug": "wangels",
   "name": "Wangels",
   "short": "Wangels",
+  "districts": [
+    "Weißenhäuser Strand"
+  ],
   "ags": "01055043",
   "state": "Schleswig-Holstein",
   "district": "Ostholstein",

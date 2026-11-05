@@ -1,0 +1,343 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "struppen",
+  "name": "Gemeinde Struppen",
+  "short": "Struppen",
+  "ags": "14628390",
+  "state": "Sachsen",
+  "district": "Sächsische Schweiz-Osterzgebirge",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Gemeinde Struppen über die Erhebung einer Gästetaxe (Gästetaxesatzung), Neufassung vom 05.11.2024",
+      "url": "https://struppen.de/satzungen/Gaestetaxesatzung_ab_01-01-25.pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "75c8b32fe79cdc5044b47ea80e6342874bc4024345262c88e932bfb2e4f3911a",
+      "verifiedOn": "2026-11-05",
+      "changedOn": "2026-11-05",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 3,
+          "reading": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 3,
+          "reading": "Die Gästetaxe beträgt je Person und Aufenthaltstag 2,80 EUR."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 3,
+          "reading": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+        },
+        {
+          "where": "reduced[0]",
+          "page": 4,
+          "reading": "2. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird, ab einem Grad der Behinderung von 90 v.H. auch für deren Begleitperson,"
+        },
+        {
+          "where": "reduced[0].rates[0]",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+        },
+        {
+          "where": "reduced[1]",
+          "page": 4,
+          "reading": "3. Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr,"
+        },
+        {
+          "where": "reduced[1].rates[0]",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+        },
+        {
+          "where": "reduced[2]",
+          "page": 4,
+          "reading": "4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren"
+        },
+        {
+          "where": "reduced[2].rates[0]",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+        },
+        {
+          "where": "reduced[3]",
+          "page": 4,
+          "reading": "5. Teilnehmer an Schulfahrten"
+        },
+        {
+          "where": "reduced[3].rates[0]",
+          "page": 4,
+          "reading": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 3,
+          "reading": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 4,
+          "reading": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 3,
+          "reading": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 3,
+          "reading": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Diese beträgt für Gästetaxepflichtige nach $ 2 Absatz 1 Satz 3 \"50,00 EUR\" und für Gästetaxepflichtige nach $ 2 Absatz 2 \"30,00 EUR\"."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 6,
+          "reading": "Die Aufbewahrung und Abrechnung der Gästetaxe haben getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 6,
+          "reading": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+        },
+        {
+          "where": "hostDuty",
+          "page": 6,
+          "reading": "Der in $ 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen."
+        },
+        {
+          "where": "deadline",
+          "page": 6,
+          "reading": "erhalten die Quartiergeber im Sinne von 8 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Termine zur Zahlung fällig."
+        },
+        {
+          "where": "reporting",
+          "page": 5,
+          "reading": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 10. des Folgemonats zuzuleiten."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-05",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-05"
+    }
+  },
+  "levy": {
+    "name": "Gästetaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Ankunfts- und Abreisetag werden als ein Tag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "Die Gästetaxe beträgt je Person und Aufenthaltstag 2,80 EUR."
+        },
+        "children": [
+          {
+            "underAge": 7,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 7. Lebensjahres,"
+          },
+          {
+            "underAge": 18,
+            "cents": 200,
+            "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für: 1. Kinder und Jugendliche ab dem vollendeten 7. bis zum vollendeten 18. Lebensjahr,"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, zahlen nichts, wenn sie das mit einem ärztlichen Zeugnis nachweisen.",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können, nachdem der Betroffene die Dauer der Verhinderung durch Vorlage eines ärztlichen Zeugnisses nachgewiesen hat;"
+      },
+      {
+        "text": "Kleingärtner in Anlagen nach dem Bundeskleingartengesetz zahlen nichts, wenn sie den Status behördlich nachweisen.",
+        "quote": "Kleingärtner in Kleingartenanlagen, welche den Bestimmungen des Bundeskleingartengesetzes unterliegen und der behördliche Nachweis über diesen Status erbracht werden kann."
+      },
+      {
+        "text": "Wer ohne Entgelt zu einem vorübergehenden Besuch aufgenommen wird, zahlt nichts, wenn das sozialadäquat ist, etwa bei Verwandtenbesuchen.",
+        "quote": "Nicht gästetaxepflichtig sind natürliche Personen, die in der Gemeinde zum vorübergehenden Besuch ohne Zahlung eines Entgelts Unterkunft nehmen, wenn dies als sozialadäquat anzusehen ist, insbesondere bei Verwandtschaftsbesuchen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab Grad der Behinderung 50, ab 90 auch Begleitperson",
+        "quote": "2. Schwerbehinderte, deren Grad der Behinderung mindestens 50 v. H. beträgt, wenn der Grad der Behinderung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird, ab einem Grad der Behinderung von 90 v.H. auch für deren Begleitperson,",
+        "rates": [
+          {
+            "cents": 200,
+            "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+          }
+        ]
+      },
+      {
+        "label": "Schüler, Studenten und Auszubildende von 18 bis 27",
+        "quote": "3. Schüler, Studenten und Auszubildende ab dem vollendeten 18. bis zum vollendeten 27. Lebensjahr,",
+        "rates": [
+          {
+            "cents": 200,
+            "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+          }
+        ]
+      },
+      {
+        "label": "Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+        "quote": "4. Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+        "rates": [
+          {
+            "cents": 200,
+            "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+          }
+        ]
+      },
+      {
+        "label": "Teilnehmer an Schulfahrten",
+        "quote": "5. Teilnehmer an Schulfahrten",
+        "rates": [
+          {
+            "cents": 200,
+            "quote": "Die Gästetaxe wird auf 2,00 EUR, je Person und Aufenthaltstag ermäßigt für:"
+          }
+        ]
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Auch wer aus beruflichen Gründen in Struppen übernachtet, zahlt die Gästetaxe; Einwohner mit Nebenwohnsitz zum Arbeiten oder Studieren zahlen sie nicht.",
+        "quote": "Gästetaxepflichtig nach Maßgabe des Absatzes 1 sind auch natürliche Personen, die aus beruflichen Gründen in der Gemeinde Unterkunft nehmen."
+      },
+      {
+        "text": "Eigentümer von Wochenendhäusern, Datschen und Lauben zahlen statt der Nächte eine Jahresgästetaxe von 50,00 €, Inhaber einer Nebenwohnung mit Lebensmittelpunkt anderswo 30,00 €.",
+        "quote": "Diese beträgt für Gästetaxepflichtige nach § 2 Absatz 1 Satz 3 „50,00 EUR“ und für Gästetaxepflichtige nach § 2 Absatz 2 „30,00 EUR“."
+      },
+      {
+        "text": "Trifft bei einem Gast mehr als ein Ermäßigungsgrund zu, gibt es nur eine Ermäßigung.",
+        "quote": "Beim Zusammentreffen mehrerer Ermäßigungsgründe nach Absatz 1 wird nur eine Ermäßigung gewährt."
+      },
+      {
+        "text": "Du bewahrst die eingezogene Gästetaxe getrennt vom Betriebsvermögen auf, bei der Kasse wie beim Konto.",
+        "quote": "Die Aufbewahrung und Abrechnung der Gästetaxe haben getrennt vom Betriebsvermögen zu erfolgen. Dies gilt sowohl für die Kassen- als auch für die Kontoführung."
+      },
+      {
+        "text": "Du haftest gegenüber der Gemeinde für das Einziehen und Abführen der Gästetaxe.",
+        "quote": "Der mit dem Einzug und der Abrechnung beauftragte Personenkreis haftet gegenüber der Gemeinde für die Einziehung und Abführung der Gästetaxe nach Maßgabe der vorliegenden Satzung."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Gästetaxe von ihnen ein.",
+      "quote": "Der in § 8 Absatz 1 genannte Personenkreis hat die Gästetaxe von den gästetaxepflichtigen Personen einzuziehen."
+    },
+    "deadline": {
+      "text": "Nach deiner Meldung bekommst du eine Abrechnung der Gemeinde und zahlst zu den dort genannten Terminen.",
+      "quote": "erhalten die Quartiergeber im Sinne von § 8 Absatz 1 eine Abrechnung von der Gemeindeverwaltung, die darin ausgewiesene, eingenommene Gästetaxe ist entsprechend der dort angegebenen Termine zur Zahlung fällig."
+    },
+    "reporting": {
+      "text": "Eine Mehrfertigung jedes Meldescheins reichst du bis zum 10. des Folgemonats bei der Gemeindeverwaltung ein.",
+      "quote": "Eine Mehrfertigung des Meldescheins ist der Gemeindeverwaltung bis zum 10. des Folgemonats zuzuleiten."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-05",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-05",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/struppen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      7,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0,
+          200
+        ],
+        "reduced": [
+          200,
+          200,
+          200,
+          200
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab Grad der Behinderung 50, ab 90 auch Begleitperson",
+        "onApplication": false
+      },
+      {
+        "label": "Schüler, Studenten und Auszubildende von 18 bis 27",
+        "onApplication": false
+      },
+      {
+        "label": "Teilnehmer an Tagungen, Kongressen, Lehrgängen und Seminaren",
+        "onApplication": false
+      },
+      {
+        "label": "Teilnehmer an Schulfahrten",
+        "onApplication": false
+      }
+    ]
+  }
+}

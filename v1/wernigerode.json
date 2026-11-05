@@ -5,6 +5,9 @@
   "slug": "wernigerode",
   "name": "Stadt Wernigerode",
   "short": "Wernigerode",
+  "districts": [
+    "Schierke"
+  ],
   "ags": "15085370",
   "state": "Sachsen-Anhalt",
   "district": "Harz",
@@ -15,7 +18,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "eb2b8646c373bb1b683720a40623e4ace750ddaa1ca93557b74d2a77434a280b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +26,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-11-02"
     }
   },
@@ -87,6 +90,7 @@
         "quote": "Bettlägerige Kranke oder andere Personen, die aus gesundheitlichen Gründen nicht in der Lage sind, die touristischen Einrichtungen in Anspruch zu nehmen."
       }
     ],
+    "noSeniorRate": true,
     "reduced": [
       {
         "label": "Schwerbehinderte ab GdB 50",

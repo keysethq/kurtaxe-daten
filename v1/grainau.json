@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2013-06-01",
       "sha256": "f042c80b9cb17577f00026dc30c3dc741d4926f8c0ad8a21986d67e758cc7c7d",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-11-02"
     },
     "fvb": {
@@ -33,7 +33,7 @@
       "inForce": "1979-01-01",
       "changedOn": "2026-10-15",
       "sha256": "3e1769fda1c5283aec35176f57736570d1a59602c475fba230a30b4925183c62",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-05"
     }
   },
   "levy": {
@@ -81,6 +81,7 @@
         "quote": "c. Begleitpersonen von Schwerbehinderten, die laut amtlichem Ausweis auf ständige Begleitung angewiesen sind."
       }
     ],
+    "noSeniorRate": true,
     "reduced": [
       {
         "label": "Schwerbehinderte ab GdB 80",

@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "76194fed0c9f4bd2433b35080f53b40687d363cf29fe02c7150a54ba15df913e",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-05",
       "changedOn": "2026-11-02"
     }
   },
@@ -123,6 +123,7 @@
         "quote": "die in der Stadt Titisee-Neustadt arbeiten oder dort in Ausbildung (einschließlich Schule) stehen oder sich dort aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Stadt Titisee-Neustadt aufhalten"
       }
     ],
+    "noSeniorRate": true,
     "remarks": [
       {
         "text": "Du darfst deinen Gästen die Kurtaxe in Rechnung stellen.",
