@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-04-01",
       "sha256": "7e906fe776d681994a0fd0d7d63bd8d8ba2d6a4ca1d641174b1075f25719a1c5",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-14"
     },
     "satzung": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2018-01-01",
       "sha256": "f84d10c8882ba1fecc72da390a1a5c68e684aac03d2698aae4b9f8ed001493a2",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -32,7 +32,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-11-02"
     },
     "fvb": {
@@ -42,7 +42,7 @@
       "inForce": "1980-01-01",
       "changedOn": "2026-10-15",
       "sha256": "efd5e48f8d02cfb9341fcf9524af1f2e92c70d1a3550fd7c90bc3105fee7174e",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-08"
     },
     "fvbAenderung": {
       "title": "2. Änderung der Satzung zur Erhebung eines Fremdenverkehrsbeitrages der Gemeinde Bad Füssing vom 29.06.2004",
@@ -51,7 +51,16 @@
       "inForce": "2004-01-01",
       "changedOn": "2026-10-15",
       "sha256": "f03df4a0f01a984443cc048a1020c8739c9a692e72f715bfc08584d3414a5c39",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-08"
+    },
+    "aenderung4": {
+      "title": "4. Satzung zur Änderung der Satzung für die Erhebung eines Kurbeitrages in der Gemeinde Bad Füssing (KBS) vom 15.12.2025, in Kraft seit 01.01.2026",
+      "url": "https://www.gde-badfuessing.de/fileadmin/user_upload/PDF/Ortsrecht/Kurbeitrag_e.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "90111eac3126fde6e6282af99a72bd2d9016ac5f2d85cdc78f5cfa32f6f86ba4",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
     }
   },
   "levy": {
@@ -284,13 +293,26 @@
       {
         "text": "Schüler und Studenten bei Vorlage ihres Ausweises",
         "quote": "Schüler und Studenten bei Vorlage eines Schüler- oder Studentenausweises;"
-      },
-      {
-        "text": "Menschen mit einem Grad der Behinderung von 80 bis 95 zahlen die Hälfte",
-        "quote": "Bei Personen, die im Besitz eines Schwerbehindertenausweises sind, der einen Grad der Behinderung von 80 bis 95 aufweist, beträgt der Kurbeitragssatz 50 % des jeweils gültigen Beitragssatzes."
       }
     ],
-    "remarks": [],
+    "reduced": [
+      {
+        "label": "Menschen mit Schwerbehindertenausweis, Grad der Behinderung 80 bis 95",
+        "quote": "Bei Personen, die im Besitz eines Schwerbehindertenausweises sind, der einen Grad der Behinderung von 80 bis 95 aufweist, beträgt der Kurbeitragssatz 50 % des jeweils gültigen Beitragssatzes.",
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Menschen mit einem Schwerbehindertenausweis mit einem Grad der Behinderung von 80 bis 95 zahlen die Hälfte des Kurbeitrags.",
+        "quote": "Bei Personen, die im Besitz eines Schwerbehindertenausweises sind, der einen Grad der Behinderung von 80 bis 95 aufweist, beträgt der Kurbeitragssatz 50 % des jeweils gültigen Beitragssatzes."
+      },
+      {
+        "text": "Seit 1. Januar 2026 zahlen auch Personen den Kurbeitrag, die im Kurgebiet ihre alleinige Wohnung oder Hauptwohnung haben, daneben aber eine vorwiegend benutzte Wohnung im Ausland.",
+        "quote": "oder die neben einer alleinigen Wohnung oder Hauptwohnung im Sinn des Melderechts in diesem Gebiet eine vorwiegend benutzte Wohnung im Ausland haben",
+        "source": "aenderung4"
+      }
+    ],
     "hostDuty": {
       "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber der Gemeinde dafür, dass er vollständig eingeht.",
       "quote": "Die Beherbergungsbetriebe sind verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
@@ -312,7 +334,7 @@
     "quote": "Stand: 26.10.2026"
   },
   "checked": {
-    "on": "2026-10-14",
+    "on": "2026-11-08",
     "by": "agent"
   },
   "businessLevy": {
@@ -401,6 +423,9 @@
         "adult": 340,
         "children": [
           0
+        ],
+        "reduced": [
+          170
         ]
       },
       {
@@ -414,6 +439,9 @@
         "adult": 260,
         "children": [
           0
+        ],
+        "reduced": [
+          130
         ]
       }
     ],
@@ -432,6 +460,9 @@
             "adult": 340,
             "children": [
               0
+            ],
+            "reduced": [
+              170
             ]
           },
           {
@@ -445,6 +476,9 @@
             "adult": 260,
             "children": [
               0
+            ],
+            "reduced": [
+              130
             ]
           }
         ]
@@ -463,6 +497,9 @@
             "adult": 270,
             "children": [
               0
+            ],
+            "reduced": [
+              135
             ]
           },
           {
@@ -476,6 +513,9 @@
             "adult": 210,
             "children": [
               0
+            ],
+            "reduced": [
+              105
             ]
           }
         ]
@@ -494,6 +534,9 @@
             "adult": 220,
             "children": [
               0
+            ],
+            "reduced": [
+              110
             ]
           },
           {
@@ -507,6 +550,9 @@
             "adult": 160,
             "children": [
               0
+            ],
+            "reduced": [
+              80
             ]
           }
         ]
@@ -525,6 +571,9 @@
             "adult": 180,
             "children": [
               0
+            ],
+            "reduced": [
+              90
             ]
           },
           {
@@ -538,9 +587,18 @@
             "adult": 130,
             "children": [
               0
+            ],
+            "reduced": [
+              65
             ]
           }
         ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit Schwerbehindertenausweis, Grad der Behinderung 80 bis 95",
+        "onApplication": false
       }
     ]
   }

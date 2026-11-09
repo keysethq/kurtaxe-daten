@@ -1,0 +1,353 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "schramberg",
+  "name": "Schramberg",
+  "short": "Schramberg",
+  "ags": "08325053",
+  "state": "Baden-Württemberg",
+  "district": "Rottweil",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Schramberg, Gemeinderat 07.12.2017, ausgefertigt 08.12.2017 (Kopie des Internet-Archivs von schramberg.de, Stand 12.07.2024; die Adresse auf schramberg.de zeigt inzwischen die neue Fassung)",
+      "url": "https://web.archive.org/web/20240712081539id_/https://www.schramberg.de/de-wAssets/docs/rathaus/buergerservice/satzungen/2018_01_01_Kurtaxesatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2018-01-01",
+      "sha256": "3c4fc5c131b048661b013e30598fdd217a273c1ceb725ac0ca63d2925d4a18b2",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Öffentliche Bekanntmachung: Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Großen Kreisstadt Schramberg, Gemeinderat 02.07.2026, ausgefertigt und bekanntgemacht am 05.10.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.schramberg.de/de-wAssets/docs/aktuelles/oeffentliche-bekanntmachungen/2026/05.10.2026-Oeffentliche-Bekanntmachung-ueber-die-Erhebung-einer-Kurtaxe-Kurtaxesatzung.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "e3788c5cc664d433575fbdb133ecf1bb25379a097384ff4824f45fc9bf5a89c8",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "fbs": {
+      "title": "Satzung über die Erhebung eines Beitrages zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung – FBS) der Großen Kreisstadt Schramberg, beschlossen am 30.09.1999, zuletzt geändert am 22.04.2004",
+      "url": "https://www.schramberg.de/de-wAssets/docs/rathaus/buergerservice/satzungen/Satzung_Fremdenverkehrsbeitrag2006.pdf",
+      "kind": "municipality",
+      "inForce": "2005-01-01",
+      "sha256": "75d6bef115e8798dd66c3d654f0ca6345a1a890d614b3f10d20c34a04bb5e43b",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 180,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,80 €."
+        },
+        "children": [
+          {
+            "underAge": 10,
+            "cents": 0,
+            "quote": "Kinder bis einschließlich 9 Jahre"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "reduced": [
+      {
+        "label": "Gäste, die nicht länger als einen Tag bleiben (Passanten)",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag um 50 v.H. ermäßigt für: 1. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Passanten). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise zusammen als ein Aufenthaltstag gerechnet.",
+        "onApplication": true,
+        "percentOff": 50
+      },
+      {
+        "label": "Kinder von 10 bis 17 Jahren",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag um 50 v.H. ermäßigt für: 1. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Passanten). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise zusammen als ein Aufenthaltstag gerechnet. 2. Kinder von 10 bis einschließlich 17 Jahren",
+        "onApplication": true,
+        "percentOff": 50
+      },
+      {
+        "label": "Tagungsteilnehmer aus beruflichen Gründen",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag um 50 v.H. ermäßigt für: 1. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Passanten). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise zusammen als ein Aufenthaltstag gerechnet. 2. Kinder von 10 bis einschließlich 17 Jahren 3. Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten",
+        "onApplication": true,
+        "percentOff": 50
+      },
+      {
+        "label": "Berufstätige ohne Anstellung vor Ort (z. B. Monteure)",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag um 50 v.H. ermäßigt für: 1. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Passanten). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise zusammen als ein Aufenthaltstag gerechnet. 2. Kinder von 10 bis einschließlich 17 Jahren 3. Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten 4. Ortsfremde Personen, die sich aus beruflichen Gründen (z.B. als Monteur) in der Gemeinde aufhalten, aber nicht in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis stehen",
+        "onApplication": true,
+        "percentOff": 50
+      },
+      {
+        "label": "Gäste mit Einkünften bis zum doppelten Regelsatz",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag um 50 v.H. ermäßigt für: 1. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Passanten). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise zusammen als ein Aufenthaltstag gerechnet. 2. Kinder von 10 bis einschließlich 17 Jahren 3. Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten 4. Ortsfremde Personen, die sich aus beruflichen Gründen (z.B. als Monteur) in der Gemeinde aufhalten, aber nicht in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis stehen 5. Personen, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten",
+        "onApplication": true,
+        "percentOff": 50
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Wer in Schramberg bei einem örtlichen Arbeitgeber angestellt oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen erhoben, die in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis stehen, welches durch einen Arbeitsvertrag mit einem örtlichen Arbeitgeber begründet wird."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten"
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, solange sie nicht in der Lage sind (z.B. bei Bettlägrigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen"
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Lehrgängen und Seminaren der Genossenschaft der Franziskanerinnen oder der Stiftung St. Franziskus Heiligenbronn",
+        "quote": "Teilnehmer an Tagungen, Lehrgängen und Seminaren, die von der Genossenschaft der Franziskanerinnen oder von der Stiftung St. Franziskus Heiligenbronn angeboten werden"
+      },
+      {
+        "text": "Auf Antrag Menschen mit einer nachgewiesenen Erwerbsminderung von mindestens 80 Prozent",
+        "quote": "Schwerbehinderte Personen mit mindestens 80 v.H. nachgewiesener Erwerbsminderung werden auf Antrag von der Kurtaxe gemäß § 3 Abs. 1 befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Ermäßigungen für Passanten, Kinder von 10 bis 17 Jahren, Tagungsteilnehmer, Monteure und Gäste mit geringem Einkommen bekommt ein Gast nicht nebeneinander.",
+        "quote": "Die Ermäßigungen nach Nr. 1 – 5 werden nicht nebeneinander gewährt."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung müssen spätestens am Abreisetag bei der Stadt sein.",
+        "quote": "Anträge auf Befreiung oder Ermäßigung gemäß Abs. 2 und 3 sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Für den Erlebnisbauernhof in Waldmössingen gilt eine Tageskurtaxe von 1,00 Euro je Tagesbesucher.",
+        "quote": "Die Tageskurtaxe für die Nutzung des Erlebnisbauernhofes in Waldmössingen beträgt 1,00 € je Tagesbesucher."
+      },
+      {
+        "text": "Von der Tageskurtaxe sind Kinder bis einschließlich 15 Jahre, Teilnehmer von Schullandheimaufenthalten und Gäste mit einer Gästekarte der Stadt befreit.",
+        "quote": "Von der Tageskurtaxe gemäß § 3 Abs. 3 befreit sind Kinder bis einschließlich 15 Jahre, Teilnehmer von Schullandheimaufenthalten sowie Personen mit einer Gästekarte der Stadt Schramberg."
+      },
+      {
+        "text": "Die Kurtaxe enthält einen Teilbetrag, den die Stadt für das KONUS-Projekt (kostenlose Nutzung des Nahverkehrs im Schwarzwald) an die Schwarzwaldtourismus GmbH abführt.",
+        "quote": "In der Kurtaxe ist jeweils der Teilbetrag enthalten, den die Stadt Schramberg als pauschale Fahrentgelterstattung an die Schwarzwaldtourismus GmbH für das Projekt KONUS abzuführen hat."
+      },
+      {
+        "text": "Gäste, die nicht in den Fällen der Satzung von der Kurtaxe befreit sind, haben Anspruch auf eine Gästekarte; sie wird auf den Namen des Kurtaxepflichtigen ausgestellt und ist nicht übertragbar.",
+        "quote": "4 Abs. 2 von der Entrichtung der Kurtaxe befreit ist, hat Anspruch auf eine Gästekarte. Die Gästekarte wird auf den Namen des Kurtaxepflichtigen ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Für Meldescheine, die du bekommen und nicht zurückgegeben hast, berechnet die Stadt 1,80 Euro je fehlendem Meldeschein.",
+        "quote": "Für ausgegebene, aber nicht mehr zurückgegebene Meldescheine wird eine Gebühr in Höhe von 1,80 € je fehlendem Meldeschein erhoben."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du ihn sofort mit Name und Adresse der Stadt.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person, die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angabe von Name und Adresse des Kurtaxepflichtigen zu melden."
+      },
+      {
+        "text": "Ab 2027 beträgt die Kurtaxe 2,60 Euro je Person und Aufenthaltstag.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,60 €.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Kinder bis einschließlich 5 Jahre von der Kurtaxe befreit.",
+        "quote": "Kinder bis einschließlich 5 Jahre",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen auf Antrag 1,50 Euro statt 2,60 Euro: Kinder von 6 bis einschließlich 17 Jahren, Teilnehmer von Schullandheimaufenthalten, Gäste, die aus beruflichen Gründen an Tagungen teilnehmen oder als Monteure in Schramberg sind, und Gäste mit geringem Einkommen.",
+        "quote": "Die Kurtaxe gemäß § 3 Abs. 1 wird auf Antrag auf 1,50 € ermäßigt für: 1. Kinder von 6 bis einschließlich 17 Jahren 2. Teilnehmer von Schullandheimaufenthalten 3. Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten 4. Ortsfremde Personen, die sich aus beruflichen Gründen (z.B. als Monteur) in der Gemeinde aufhalten, aber nicht in der Gemeinde in einem Arbeits- oder Ausbildungsverhältnis stehen 5. Personen, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 beträgt die Tageskurtaxe für den Erlebnisbauernhof in Waldmössingen 1,50 Euro je Tagesbesucher.",
+        "quote": "Die Tageskurtaxe für die Nutzung des Erlebnisbauernhofes in Waldmössingen beträgt 1,50 € je Tagesbesucher.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 ist in der Parkgebühr der städtischen Wohnmobilstellplätze die Kurtaxe für 2 Erwachsene enthalten; weitere Personen melden sich innerhalb von 7 Tagen nach Ankunft an und am letzten Aufenthaltstag ab.",
+        "quote": "In der Parkgebühr der kommunalen Wohnmobilstellplätze ist die Kurtaxe für 2 Erwachsene enthalten, weitere Personen haben sich innerhalb von 7 Tagen nach Ankunft anzumelden und am letzten Aufenthaltstag abzumelden.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste über das elektronische Meldeverfahren, das die Stadt kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Stadt Schramberg unentgeltliche bereitgestellte elektronische Meldeverfahren zu verwenden.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 berechnet die Stadt 2,60 Euro je fehlendem Meldeschein.",
+        "quote": "Für ausgegebene, aber nicht mehr zurückgegebene Meldescheine wird eine Gebühr in Höhe von 2,60 € je fehlendem Meldeschein erhoben.",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, einen Campingplatz betreibt oder eine Ferienwohnung vermietet, zieht die Kurtaxe von den Gästen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 7 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 7 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "2,60 € je Person und Aufenthaltstag; frei sind nur noch Kinder bis einschließlich 5 Jahre, auf Antrag zahlen 1,50 € Kinder von 6 bis 17 Jahren, Teilnehmer von Schullandheimaufenthalten (bisher befreit), Tagungsteilnehmer, Monteure und Gäste mit geringem Einkommen, und die Ermäßigung für Gäste, die nur einen Tag bleiben, entfällt.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fbs",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Schramberg besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen natürlichen und juristischen Personen, die eine selbständige Tätigkeit ausüben und denen in der Stadt Schramberg aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebes (Fremdenverkehrsbeitrag) erhoben."
+    },
+    "letting": [
+      {
+        "label": "Privatzimmervermieter: Übernachtungsgeld je Übernachtung",
+        "quote": "Im Falle des § 3 Abs. 4 beträgt der Beitrag abweichend von Absatz 1 je Übernachtung 0,20 EURO.",
+        "perNight": {
+          "cents": 20
+        }
+      }
+    ],
+    "reporting": {
+      "text": "Als Privatzimmervermieter meldest du der Stadt die Zahl deiner beherbergten Gäste innerhalb von 14 Tagen nach jedem Quartalsende.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Anzahl der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde innerhalb von 14 Tagen nach Ablauf eines jeden Kalendervierteljahres anzuzeigen."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist innerhalb eines Monats nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Bund, Länder, Landkreise und Gemeinden, soweit sie nicht mit privatwirtschaftlichen Unternehmen im Wettbewerb stehen",
+        "quote": "Von der Beitragspflicht sind der Bund, die Länder, die Landkreise und die Gemeinden, soweit sie nicht mit privatwirtschaftlichen Unternehmen im Wettbewerb stehen, befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer nur Wohnungen oder Zimmer vorübergehend an Fremde vermietet, mit oder ohne Frühstück, zahlt nach der Zahl der Übernachtungen im Jahr (Übernachtungsgeld) und nicht nach dem Umsatz.",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Absatz 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld)."
+      },
+      {
+        "text": "Auf das Übernachtungsgeld leistest du Vorauszahlungen, die sich nach den Übernachtungen im zurückliegenden Quartal richten; sie werden auf die Beitragsschuld angerechnet.",
+        "quote": "Der Beitragspflichtige hat Vorauszahlungen zu leisten, die sich nach der Zahl der Übernachtungen im zurückliegenden Quartal bemessen. Die im Erhebungszeitraum geleisteten Vorauszahlungen werden auf die Beitragsschuld angerechnet."
+      },
+      {
+        "text": "Im Regelfall beträgt der Beitrag 4 Prozent des Messbetrags.",
+        "quote": "Der Beitrag nach § 3 Abs. 1 beträgt 4 v.H. des Messbetrages."
+      },
+      {
+        "text": "Der Messbetrag ergibt sich, indem der Umsatz mit dem Vorteilssatz multipliziert wird.",
+        "quote": "Dieser ergib sich, indem der Umsatz im Sinne des § 1 Umsatzsteuergesetz mit dem Vorteilssatz (§ 5 der Satzung) multipliziert wird."
+      },
+      {
+        "text": "Der Vorteilssatz (Messzahl) ist der Teil der Reineinnahmen in Prozent, der auf den Kurbetrieb oder Fremdenverkehr entfällt; die Stadt schätzt ihn.",
+        "quote": "Der Vorteilssatz (Messzahl) bezeichnet den auf den Kurbetrieb oder Fremdenverkehr entfallenden Teil der Reineinnahmen in Prozent. Er wird durch Schätzung ermittelt (Vorteilsschätzung)."
+      },
+      {
+        "text": "Für Pensionen nennt die Liste der Stadt als Messzahl 1,5; nach der Begriffsbestimmung in § 5 sind das 1,5 Prozent.",
+        "quote": "Pensionen 1,5"
+      },
+      {
+        "text": "Der Beitrag nach dem Umsatz (§ 6 Abs. 1) wird nicht erhoben, wenn er weniger als 10 Euro beträgt.",
+        "quote": "Der Beitrag nach § 3 Abs. 1 beträgt 4 v.H. des Messbetrages. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 EURO beträgt."
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/schramberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      10
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 180,
+        "children": [
+          0
+        ],
+        "reduced": [
+          90,
+          90,
+          90,
+          90,
+          90
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Gäste, die nicht länger als einen Tag bleiben (Passanten)",
+        "onApplication": true
+      },
+      {
+        "label": "Kinder von 10 bis 17 Jahren",
+        "onApplication": true
+      },
+      {
+        "label": "Tagungsteilnehmer aus beruflichen Gründen",
+        "onApplication": true
+      },
+      {
+        "label": "Berufstätige ohne Anstellung vor Ort (z. B. Monteure)",
+        "onApplication": true
+      },
+      {
+        "label": "Gäste mit Einkünften bis zum doppelten Regelsatz",
+        "onApplication": true
+      }
+    ]
+  }
+}

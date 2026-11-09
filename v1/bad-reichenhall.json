@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "c1672f505caa09ef15fa02cec173a7a7905a7dd86b8b63beb34ba4abe9cb0b54",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-14",
       "hashOf": "text"
     },
@@ -25,7 +25,7 @@
       "kind": "gazette",
       "inForce": "2027-01-01",
       "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-11-02"
     },
     "fvb": {
@@ -43,7 +43,7 @@
       "inForce": null,
       "changedOn": "2026-10-15",
       "sha256": "2792d55ac61d0400f2533f27a195689fd43fee3b9d7d3d268cfe5418e527d36b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-08"
     }
   },
   "levy": {
@@ -137,6 +137,10 @@
         "text": "Ab 1. Januar 2027 zahlen Menschen mit einem Grad der Behinderung ab 50 3,20 € statt 3,10 €. Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,85 € statt 1,80 €.",
         "quote": "1.2 Gäste gemäß § 4 Abs. 2 Nr. 1 3,20 1.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,85",
         "source": "aenderung2027"
+      },
+      {
+        "text": "Hast du mehr als neun Betten, ist die elektronische Übermittlung Pflicht; auf Antrag kann bei unbilliger Härte darauf verzichtet werden.",
+        "quote": "Soweit der Betrieb des Vermieters über mehr als neun Betten verfügt, ist die Übermittlung auf elektronischem Weg verpflichtend; auf Antrag kann die Erhebungsberechtigte zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
       }
     ],
     "change": {
@@ -154,7 +158,7 @@
       "quote": "Die Abführung ist spätestens einen Tag nach der Abreise der kurtaxpflichtigen Person vorzunehmen."
     },
     "reporting": {
-      "text": "Die Gästedaten übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch; bei mehr als neun Betten ist das elektronische Verfahren Pflicht.",
+      "text": "Die Gästedaten übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch oder legst die Meldescheine in den Geschäftsräumen vor.",
       "quote": "der Erhebungsberechtigten spätestens am dritten Werktag nach deren Eintreffen im Kurbezirk auf elektronischem Wege zu übermitteln bzw. die Meldescheine oder das elektronische Handgerät in den Geschäftsräumen der Erhebungsberechtigten vorzulegen."
     }
   },

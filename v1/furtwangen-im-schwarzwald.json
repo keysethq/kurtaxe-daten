@@ -1,0 +1,431 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "furtwangen-im-schwarzwald",
+  "name": "Stadt Furtwangen im Schwarzwald",
+  "short": "Furtwangen",
+  "ags": "08326017",
+  "state": "Baden-Württemberg",
+  "district": "Schwarzwald-Baar-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Furtwangen im Schwarzwald vom 13.10.1998, konsolidierte Fassung nach der Änderung vom 24.06.2025 (bekanntgemacht 16.07.2025), in Kraft 01.01.2026",
+      "url": "https://www.furtwangen.de/fileadmin/Website/Dateien/2_Rathaus_Service/Finanzen/Kurtaxesatzung_konsolidierte_Fassung_BM_V3_nach_R%C3%BC_LRA__002_.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "22fa90c873bd89464261c9cbe8587dd34dd910e7616d151b178fa195a33f532a",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Furtwangen im Schwarzwald, zuletzt geändert am 23.06.2026, in Kraft ab 01.01.2027 (Ortsrecht-Seite, eingestellt 25.09.2026)",
+      "url": "https://www.furtwangen.de/fileadmin/Website/Dateien/2_Rathaus_Service/Ortsrecht/Satzung_%C3%BCber_die_Erhebung_einer_Kurtaxe__2_.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "f6c883175cc3c270c544a2375308a29051321888ffb15e32f7fb8abd79463e3e",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "newRules",
+          "page": 5,
+          "reading": "Die Satzung zur Änderung der Satzung tritt am 01.01.2027 in Kraft."
+        },
+        {
+          "where": "remarks[9]",
+          "page": 2,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag inklusive der gesetzlichen Mehrwertsteuer (Bruttobetrag) für jede Person ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) 3,00 EUR"
+        },
+        {
+          "where": "remarks[10]",
+          "page": 2,
+          "reading": "für jede Person von 6 bis 17 Jahre (vom 7. bis zum vollendeten 18. Lebensjahres) 1,00 EUR"
+        },
+        {
+          "where": "remarks[11]",
+          "page": 5,
+          "reading": "umsatzsteuerpflichtig sind, tritt zu den Entgelten noch die Umsatzsteuer"
+        },
+        {
+          "where": "remarks[12]",
+          "page": 1,
+          "reading": "Kurtaxepflichtig sind darüber hinaus auch ortsfremde Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten."
+        },
+        {
+          "where": "remarks[13]",
+          "page": 2,
+          "reading": "Ein Anteil von 0,7009 Euro (nicht steuerbar) ist für das Modell KONUS (Kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) bestimmt"
+        },
+        {
+          "where": "remarks[14]",
+          "page": 3,
+          "reading": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden"
+        },
+        {
+          "where": "remarks[15]",
+          "page": 3,
+          "reading": "jeweils bis zum Ende des folgenden Monats an die Stadt Furtwangen abzuführen"
+        },
+        {
+          "where": "remarks[16]",
+          "page": 4,
+          "reading": "Die Meldung hat über das bereitgestellte elektronische Meldeverfahren zu erfolgen."
+        },
+        {
+          "where": "remarks[17]",
+          "page": 3,
+          "reading": "Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt."
+        }
+      ]
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) der Stadt Furtwangen im Schwarzwald vom 13.10.1998, konsolidierte Fassung nach der Änderung vom 24.06.2025, in Kraft 01.01.2026",
+      "url": "https://www.furtwangen.de/fileadmin/Website/Dateien/2_Rathaus_Service/Finanzen/Fremdenverkehrsbeitragssatzung_konsolidierte_Fassung_BM_nach_R%C3%BC_mit_LRA_Herr_G__003_.pdf",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "70a92bed4720ac08494039111082b77951ebf9e8405291ce2a2b75a682496600",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "netOfVat": {
+      "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag (netto)"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag (netto) für jede Person ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) 3,00 EUR"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Von der Entrichtung der Kurtaxe sind befreit: 1. Kinder bis 5 Jahre (bis zum vollendeten 6. Lebensjahr)."
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "für jede Person von 6 bis 17 Jahre (vom 7. bis zum vollendeten 18. Lebensjahres) 1,00 EUR"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen oder Veranstaltungen nutzen",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer an Schullandheimaufenthalten und Jugendzeltlagern",
+        "quote": "Teilnehmer an Schullandheimaufenthalten und Jugendzeltlagern."
+      },
+      {
+        "text": "Personen, die zur Sportausübung im Rahmen von Wettkämpfen im Kurbezirk sind",
+        "quote": "Personen, die zur Sportausübung im Rahmen von Wettkämpfen in den Kurbezirken weilen."
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Lehrgängen und Kursen, solange diese dauern",
+        "quote": "Teilnehmer an Tagungen, Lehrgängen und Kursen in den Kurbezirken während der Dauer."
+      },
+      {
+        "text": "Kranke und Schwerbehinderte, die ihre Unterkunft nicht verlassen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und Schwerbehinderte, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis nachweisen (z. B. bei Bettlägerigkeit)"
+      },
+      {
+        "text": "Schwerbehinderte Kinder und Jugendliche von 6 bis 17 Jahren mit einem Grad der Schwerbehinderung von mindestens 50",
+        "quote": "Schwerbehinderte Personen im Alter von 6 bis 17 Jahre (vom 7. bis zur Vollendung des 18. Lebensjahres) mit einem Schwerbehinderungsgrad von mindestens 50 v. H."
+      },
+      {
+        "text": "Wer in Furtwangen arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Stadt Furtwangen arbeiten oder in Ausbildung stehen."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte Menschen ab 18 Jahren mit mindestens 50 % Erwerbsminderung",
+        "quote": "Die Kurtaxe wird auf Antrag um 50 v. H. ermäßigt für: Schwerbehinderte Personen ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) mit mindestens 50 v. H. Erwerbsminderung.",
+        "onApplication": true,
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbezirk ist das gesamte Stadtgebiet mit den Stadtteilen Neukirch, Linach, Schönenbach und Rohrbach.",
+        "quote": "Der Kurbezirk beinhaltet das gesamte Stadtgebiet Furtwangen und die Stadtteile Neukirch, Linach, Schönenbach und Rohrbach."
+      },
+      {
+        "text": "Kurtaxepflichtig sind auch Einwohner, die den Schwerpunkt ihrer Lebensbeziehung in einer anderen Gemeinde haben.",
+        "quote": "Kurtaxepflichtig sind darüber hinaus auch die Einwohner der Stadt Furtwangen, die den Schwerpunkt der Lebensbeziehung in einer anderen Gemeinde haben"
+      },
+      {
+        "text": "Die Beträge sind Nettobeträge; die Satzung sagt, dass bei umsatzsteuerpflichtigen Leistungen noch die Umsatzsteuer dazukommt.",
+        "quote": "Soweit die Leistungen, die den in der Kurtaxesatzung festgelegten Abgaben und sonstigen Einnahmen (Entgelten) zugrunde liegen, umsatzsteuerpflichtig sind, tritt zu den Entgelten noch die Umsatzsteuer"
+      },
+      {
+        "text": "Gäste, die das KONUS-Angebot nicht nutzen können, zahlen als Erwachsene 1,59 € je Person und Aufenthaltstag.",
+        "quote": "Für Personen, die die Vergünstigungen des Projektes „KONUS“ nicht nutzen können (siehe Anlage dieser Satzung) beträgt die Kurtaxe je Person und Aufenthaltstag (netto) Für jede Person ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) 1,59 EUR"
+      },
+      {
+        "text": "Das KONUS-Angebot können Patienten einer Klinik oder eines Heimes nicht nutzen, wenn ihre Einrichtung zumindest einen Teil der Patienten zur Anschlussheilbehandlung aufnimmt.",
+        "quote": "Personen, die die Vergünstigungen des Projektes „KONUS“ nicht nutzen können, sind: a) Klinik- und Heimpatienten Patienten einer Klinik oder eines Heimes, wenn ihre beherbergende Einrichtung zumindest einen Teil der Patienten zur Anschlussheilbehandlung (AHB) aufnimmt."
+      },
+      {
+        "text": "Kinder und Jugendliche von 6 bis 17 Jahren, die das KONUS-Angebot nicht nutzen können, zahlen 0,37 € je Aufenthaltstag.",
+        "quote": "Für jede Person von 6 bis 17 Jahre (vom 7. bis zum vollendeten 18.Lebensjahres) 0,37 EUR"
+      },
+      {
+        "text": "Erwachsene mit mindestens 50 % Erwerbsminderung, die das KONUS-Angebot nicht nutzen können, zahlen 0,75 € je Aufenthaltstag.",
+        "quote": "für jede Person ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) 0,75 EUR mit mindestens 50 v. H. Erwerbsminderung nach § 43 SGB VI"
+      },
+      {
+        "text": "Für Kinder und Jugendliche von 6 bis 17 Jahren mit mindestens 50 % Erwerbsminderung nennt § 4 Abs. 1 einen Satz von 0,50 € je Aufenthaltstag; zugleich befreit die Satzung schwerbehinderte Personen dieses Alters (siehe Befreiungen). Frag bei der Stadt nach, was für dein Kind gilt.",
+        "quote": "für jede Person von 6 bis 17 Jahre (vom 7. Bis zum vollendeten 18. Lebensjahres) 0,50 EUR mit mindestens 50 v. H. Erwerbsminderung nach § 43 SGB VI"
+      },
+      {
+        "text": "Du bewahrst die Nachweise zur Kurtaxe vier Kalenderjahre auf.",
+        "quote": "Der/die Betreiber/in ist verpflichtet diese Nachweise für einen Zeitraum von vier Kalenderjahren, beginnend mit Ablauf des Jahres der Steuerentstehung, aufzubewahren."
+      },
+      {
+        "text": "Ab 2027 gelten die Beträge inklusive der gesetzlichen Mehrwertsteuer (Bruttobetrag); für Erwachsene bleibt es bei 3,00 €.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag inklusive der gesetzlichen Mehrwertsteuer (Bruttobetrag) für jede Person ab 18 Jahre (Tag nach Vollendung des 18. Lebensjahres) 3,00 EUR",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 bleibt es für Kinder von 6 bis 17 Jahren bei 1,00 € inklusive der gesetzlichen Mehrwertsteuer.",
+        "quote": "für jede Person von 6 bis 17 Jahre (vom 7. bis zum vollendeten 18. Lebensjahres) 1,00 EUR",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 steht in der Satzung weiter, dass bei umsatzsteuerpflichtigen Leistungen noch die Umsatzsteuer dazukommt.",
+        "quote": "umsatzsteuerpflichtig sind, tritt zu den Entgelten noch die Umsatzsteuer",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 nennt die Satzung unter den zusätzlich Kurtaxepflichtigen nur noch ortsfremde Personen, die sich aus beruflichen Gründen zu Tagungen oder sonstigen Veranstaltungen aufhalten.",
+        "quote": "Kurtaxepflichtig sind darüber hinaus auch ortsfremde Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind 0,7009 Euro (nicht steuerbar) der Kurtaxe für das Modell KONUS bestimmt.",
+        "quote": "Ein Anteil von 0,7009 Euro (nicht steuerbar) ist für das Modell KONUS (Kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) bestimmt",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste innerhalb von drei Tagen nach der Anreise an und drei Tage nach der Abreise ab.",
+        "quote": "innerhalb von drei Tagen nach Anreise anzumelden und drei Tage nach Abreise abzumelden",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 führst du die Kurtaxe eines Kalendermonats bis zum Ende des folgenden Monats an die Stadt ab.",
+        "quote": "jeweils bis zum Ende des folgenden Monats an die Stadt Furtwangen abzuführen",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du über das elektronische Meldeverfahren der Stadt.",
+        "quote": "Die Meldung hat über das bereitgestellte elektronische Meldeverfahren zu erfolgen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zählt als Beherberger auch, wer einen Stellplatz für Wohnmobile gegen Entgelt zur Verfügung stellt.",
+        "quote": "Als Beherberger gilt auch, wer einen Stellplatz für Wohnmobilisten entgeltlich zur Verfügung stellt.",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste meldet, zieht die Kurtaxe von ihnen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Stadt Furtwangen abzuführen. Sie haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Kurtaxe eines Kalendermonats führst du bis zum 10. des folgenden Monats an die Stadt ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Stadt Furtwangen abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 30 Tagen nach Ankunft an und nach Abreise ab.",
+      "quote": "innerhalb von 30 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden"
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "alle Beträge gelten inklusive der gesetzlichen Mehrwertsteuer (Bruttobetrag) statt netto. Gäste meldest du innerhalb von drei Tagen nach Anreise an und drei Tage nach Abreise ab statt innerhalb von 30 Tagen, die Kurtaxe eines Monats führst du bis zum Ende des Folgemonats ab statt bis zum 10., und die Meldung läuft über das elektronische Meldeverfahren der Stadt.",
+      "quote": "Die Satzung zur Änderung der Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Furtwangen besondere wirtschaftliche Vorteile bringt.",
+      "quote": "von allen natürlichen und juristischen Personen, die eine selbständige Tätigkeit ausüben und denen in der Stadt Furtwangen aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, einen Beitrag (Fremdenverkehrsbeitrag)"
+    },
+    "letting": [
+      {
+        "label": "Privatzimmer und Ferienwohnungen, nur vorübergehend an Fremde vermietet (Bettengeld)",
+        "quote": "Der nach § 3 bemessene Beitrag beträgt 22,00 Euro je Fremdenbett (Bettengeld).",
+        "flat": {
+          "cents": 2200,
+          "per": "Fremdenbett"
+        }
+      },
+      {
+        "label": "Fremdenheime, Wanderheime mit Gaststättenbetrieb, Gasthöfe mit Frühstück, Hotels garni",
+        "quote": "Fremdenheime, Wanderheime mit Gaststättenbetrieb, 6 90 Gasthöfe mit Frühstück, Hotels garni",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "Fremdenheime, Wanderheime mit Gaststättenbetrieb, 6 90 Gasthöfe mit Frühstück, Hotels garni"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Hotels mit mindestens Halbpension",
+        "quote": "Hotels mit mindestens Halbpension 6 90",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "Hotels mit mindestens Halbpension 6 90"
+          },
+          "profit": {
+            "percent": 6
+          }
+        }
+      },
+      {
+        "label": "Gaststätten mit Fremdenbeherbergung (Gasthöfe, gewerbliche Beherbergungsbetriebe) mit mindestens Halbpension",
+        "quote": "Gaststätten mit Fremdenbeherbergung (Gasthöfe, 9 90 gewerbliche Beherbergungsbetriebe) mind. HP",
+        "turnover": {
+          "advantage": {
+            "percent": 90,
+            "quote": "Gaststätten mit Fremdenbeherbergung (Gasthöfe, 9 90 gewerbliche Beherbergungsbetriebe) mind. HP"
+          },
+          "profit": {
+            "percent": 9
+          }
+        }
+      }
+    ],
+    "rate": {
+      "percent": 10,
+      "quote": "Der nach § 4 Abs. 1 bemessene Beitrag beträgt 10 v. H. des Meßbetrages"
+    },
+    "basis": {
+      "text": "Es zählt dein in Furtwangen erzielter Umsatz ohne Umsatzsteuer, mal dem Richtsatz der Anlage und dem Vorteilssatz.",
+      "quote": "indem der in der Stadt Furtwangen erzielte Umsatz (Betriebseinnahmen ohne Umsatzsteuer) mit dem sich aus der Anlage zu dieser Satzung ergebenden Richtsatz multipliziert wird"
+    },
+    "minimum": {
+      "text": "Würde dein Beitrag weniger als 10 € betragen, wird er nicht erhoben.",
+      "quote": "Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 Euro beträgt.",
+      "cents": 1000,
+      "kind": "below"
+    },
+    "reporting": {
+      "text": "Die Satzung verlangt die Meldung der Fremdenbetten bis zum 1. April schriftlich von den Beitragspflichtigen nach § 3 Abs. 2; sie kann entfallen, wenn die Zahl gegenüber dem Vorjahr gleich geblieben ist. Ob Vermieter mit Bettengeld (§ 3 Abs. 4) melden müssen, frag bei der Stadt nach.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 2 haben die von ihnen zu Beginn des Erhebungszeitraumes vorgehaltene Zahl der Fremdenbetten der Stadt bis zum 01. April schriftlich zu melden. Die Meldung kann unterbleiben, wenn die Zahl der Fremdenbetten gegenüber dem vorhergegangenen Erhebungszeitraum unverändert geblieben ist."
+    },
+    "deadline": {
+      "text": "Der Beitrag ist einen Monat nach Bekanntgabe des Beitragsbescheids fällig.",
+      "quote": "Die Beitragsschuld wird einen Monat nach der Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+    },
+    "exemptions": [
+      {
+        "text": "Bund, Länder, Landkreise und Gemeinden sind befreit, soweit sie nicht mit privatwirtschaftlichen Unternehmen im Wettbewerb stehen.",
+        "quote": "Von dem Beitrag sind der Bund, die Länder, die Landkreise und die Gemeinden, soweit sie nicht mit privatwirtschaftlichen Unternehmen in Wettbewerb stehen, befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer nur Zimmer oder Ferienwohnungen vorübergehend an Fremde vermietet, zahlt nach der Zahl der Fremdenbetten (Bettengeld).",
+        "quote": "Bei Privatzimmervermietern, die nur Zimmer oder Ferienwohnungen vorübergehend (mit oder ohne Frühstück) an Fremde vermieten, bemißt sich der Beitrag abweichend von Abs. 2 nach der Zahl der Fremdenbetten zu Beginn des Erhebenungszeitraums"
+      },
+      {
+        "text": "In der Anlage stehen Richtsatz und Messzahl als Prozentwerte (v. H.), der Richtsatz zuerst.",
+        "quote": "Nr. Berufsgruppe Richtsatz Messzahl gem. § 4 Abs. 2 in gem. § 4 Abs. 3 in v. H. v. H."
+      },
+      {
+        "text": "Der Beitrag nach Umsatz richtet sich nach dem Umsatz des Vorjahres.",
+        "quote": "Maßgebend für den Beitrag nach § 4 Abs. 1 sind die Mehreinnahmen des Jahres, das dem Erhebungszeitraum (§ 6 Abs. 1) vorausgeht."
+      },
+      {
+        "text": "Den Beitrag erhebt die Stadt für das Kalenderjahr.",
+        "quote": "wird für das Haushaltsjahr (Kalenderjahr) erhoben"
+      }
+    ]
+  },
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/furtwangen-im-schwarzwald/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          100
+        ],
+        "reduced": [
+          150
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte Menschen ab 18 Jahren mit mindestens 50 % Erwerbsminderung",
+        "onApplication": true
+      }
+    ]
+  }
+}

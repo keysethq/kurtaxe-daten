@@ -1,0 +1,483 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "grassau",
+  "name": "Markt Grassau",
+  "short": "Grassau",
+  "ags": "09189120",
+  "state": "Bayern",
+  "district": "Traunstein",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (KBS) des Marktes Grassau, ausgefertigt 07.02.2025 (gültig bis 31.12.2026)",
+      "url": "https://www.grassau.de/fileadmin/grassau/Buergerservice/zPDF/Rathaus/Ortsrecht_Satzungen/Beitrags-_und_Gebuehrensatzungen/Erhebung_des_Kurbeitrages_2025__gueltig_bis_31.12.2026_.pdf",
+      "kind": "municipality",
+      "inForce": "2025-03-01",
+      "sha256": "232ccefac7f7b477d281478cc94aec3581d7ce341114e86bb8c8e924c0533b13",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "1. für Personen ab dem vollendeten 18.Lebensjahr 1,00€."
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "3. Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei."
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 0,50€"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 0,50€"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 2,
+          "reading": "4. Von Schwerbehinderten mit einer Behinderung von 80 % und mehr wird kein Kurbeitrag erhoben. Begleitpersonen von diesen Personen sind ebenfalls vom Kurbeitrag befreit, sofern im Schwerbehindertenausweis \"B\" (Begleitperson notwendig), eingetragen ist."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Das Kurgebiet entspricht dem Gebiet der Marktgemeinde Grassau."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "(3) Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "1. Für Personen ab dem vollendeten 18. Lebensjahr ° 42,00 € 2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 21,00 €"
+        },
+        {
+          "where": "hostDuty",
+          "page": 2,
+          "reading": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt Grassau gegenüber für den vollständigen Eingang des Beitrages."
+        },
+        {
+          "where": "deadline",
+          "page": 2,
+          "reading": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an den Markt Grassau abzuführen. Der Markt kann zulassen, dass der Betrag am Monatsende abgeführt wird."
+        },
+        {
+          "where": "reporting",
+          "page": 2,
+          "reading": "innerhalb von drei Tagen ab deren Anreise elektronisch mittels des durch den Markt Grassau zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Satzung für die Erhebung des Kurbeitrages (KBS) des Marktes Grassau, ausgefertigt 25.02.2026 (gültig ab 01.01.2027)",
+      "url": "https://www.grassau.de/fileadmin/grassau/Buergerservice/zPDF/Rathaus/Ortsrecht_Satzungen/Beitrags-_und_Gebuehrensatzungen/Erhebung_des_Kurbeitrages_2027__gueltig_ab_01.01.2027_.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "2ef2476724ac35a5244c1d34e856d11d64a421402ea3b51d77e182a6cc2633fd",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "periods[0].adult next",
+          "page": 1,
+          "reading": "1. für Personen ab dem vollendeten 18. Lebensjahr 1,50 €."
+        },
+        {
+          "where": "periods[0].children[1] next",
+          "page": 1,
+          "reading": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 0,75€"
+        },
+        {
+          "where": "change",
+          "page": 4,
+          "reading": "(1) Diese Satzung tritt am 01.01.2027 in Kraft."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 3,
+          "reading": "1. für Personen ab dem vollendeten 18. Lebensjahr 63,00 € 2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 31,50 €"
+        }
+      ]
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung des Fremdenverkehrsbeitrags (FBS) des Marktes Grassau (ab 01.01.2023)",
+      "url": "https://www.grassau.de/fileadmin/grassau/Buergerservice/zPDF/Rathaus/Ortsrecht_Satzungen/Beitrags-_und_Gebuehrensatzungen/Fremdenverkehrsbeitragssatzung_ab_01.01.2023.pdf",
+      "kind": "municipality",
+      "inForce": "2023-01-01",
+      "sha256": "4b39e5865e8f29a623f0b7b0c36ccd6b4b524eed584402180c8f94528b847504",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "businessLevy.payer",
+          "page": 1,
+          "reading": "Von allen selbstständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+        },
+        {
+          "where": "businessLevy.rate",
+          "page": 1,
+          "reading": "Der Beitragssatz beträgt 7 v. H."
+        },
+        {
+          "where": "businessLevy.letting[0]",
+          "page": 2,
+          "reading": "von 0,00-19,99 € 0,29 €"
+        },
+        {
+          "where": "businessLevy.letting[0] figure 1",
+          "page": 2,
+          "reading": "von 0,00-19,99 € 0,29 €"
+        },
+        {
+          "where": "businessLevy.letting[1]",
+          "page": 2,
+          "reading": "von 20,00-39,99 € 0,54 €"
+        },
+        {
+          "where": "businessLevy.letting[1] figure 1",
+          "page": 2,
+          "reading": "von 20,00-39,99 € 0,54 €"
+        },
+        {
+          "where": "businessLevy.letting[2]",
+          "page": 2,
+          "reading": "von 40,00-59,99 € 0,92 €"
+        },
+        {
+          "where": "businessLevy.letting[2] figure 1",
+          "page": 2,
+          "reading": "von 40,00-59,99 € 0,92 €"
+        },
+        {
+          "where": "businessLevy.letting[3]",
+          "page": 2,
+          "reading": "über 60,00 € 2,63€"
+        },
+        {
+          "where": "businessLevy.letting[3] figure 1",
+          "page": 2,
+          "reading": "über 60,00 € 2,63€"
+        },
+        {
+          "where": "businessLevy.basis",
+          "page": 1,
+          "reading": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. *Die Beitragsschuld wird gemäß $3 Abs. 1 auf der' Grundlage des Gewinns bestimmt, wenn sich nicht gemäß $3 Abs.2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt.",
+          "digitsUnread": true
+        },
+        {
+          "where": "businessLevy.assessed",
+          "page": 1,
+          "reading": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). ?Er wird durch Schätzung für jeden Fall gesondert ermittelt. *Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+        },
+        {
+          "where": "businessLevy.minimum",
+          "page": 1,
+          "reading": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0-5v.H. 0,088 v. über 5-10 v.H. 0,263 v. über 10-15 v.H. 0,438 v. über 15-20 v.H. 0,613 v. über 20 v.H. 0,875 v."
+        },
+        {
+          "where": "businessLevy.reporting",
+          "page": 1,
+          "reading": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt des Marktes Grassau abzugeben."
+        },
+        {
+          "where": "businessLevy.deadline",
+          "page": 2,
+          "reading": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+        },
+        {
+          "where": "businessLevy.remarks[0]",
+          "page": 2,
+          "reading": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden."
+        },
+        {
+          "where": "businessLevy.remarks[1]",
+          "page": 2,
+          "reading": "Die Vorauszahlung betragen je Person pro Übernachtung bei einem durchschnittlichen Übernachtungspreis"
+        },
+        {
+          "where": "businessLevy.remarks[2]",
+          "page": 1,
+          "reading": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+        },
+        {
+          "where": "businessLevy.remarks[3]",
+          "page": 2,
+          "reading": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu: entrichten."
+        },
+        {
+          "where": "businessLevy.remarks[4]",
+          "page": 1,
+          "reading": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+        },
+        {
+          "where": "businessLevy.remarks[5]",
+          "page": 2,
+          "reading": "Übt ein Beitragsschuldner mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+        },
+        {
+          "where": "businessLevy.remarks[6]",
+          "page": 2,
+          "reading": "Beitragsschuldner, die nur Vorauszahlungen nach $ 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. ?Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach $ 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 100,
+          "quote": "1. für Personen ab dem vollendeten 18. Lebensjahr 1,00 €.",
+          "next": {
+            "cents": 150,
+            "quote": "1. für Personen ab dem vollendeten 18. Lebensjahr 1,50 €.",
+            "source": "satzung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "3. Kinder bis zur Vollendung des 6. Lebensjahres sind kurbeitragsfrei."
+          },
+          {
+            "underAge": 18,
+            "cents": 50,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 0,50 €",
+            "next": {
+              "cents": 75,
+              "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 0,75 €",
+              "source": "satzung2027"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einer Schwerbehinderung von 80 Prozent und mehr sowie ihre Begleitpersonen, wenn im Schwerbehindertenausweis „B“ (Begleitperson notwendig) eingetragen ist",
+        "quote": "4. Von Schwerbehinderten mit einer Behinderung von 80 % und mehr wird kein Kurbeitrag erhoben. Begleitpersonen von diesen Personen sind ebenfalls vom Kurbeitrag befreit, sofern im Schwerbehindertenausweis „B“ (Begleitperson notwendig), eingetragen ist."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Kurbeitrag gilt im ganzen Gebiet des Marktes Grassau.",
+        "quote": "Das Kurgebiet entspricht dem Gebiet der Marktgemeinde Grassau."
+      },
+      {
+        "text": "Im Kurbeitrag ist die gesetzliche Umsatzsteuer enthalten.",
+        "quote": "(3) Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Wer eine Zweitwohnung im Markt hat, zahlt einen jährlichen pauschalen Kurbeitrag von 42,00 € (Kinder und Jugendliche von 6 bis 17 Jahren 21,00 €).",
+        "quote": "1. Für Personen ab dem vollendeten 18. Lebensjahr 42,00 € 2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 21,00 €"
+      },
+      {
+        "text": "Ab 1. Januar 2027 zahlen Zweitwohnungsinhaber einen jährlichen pauschalen Kurbeitrag von 63,00 € (Kinder und Jugendliche von 6 bis 17 Jahren 31,50 €).",
+        "quote": "1. für Personen ab dem vollendeten 18. Lebensjahr 63,00 € 2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 18. Lebensjahr 31,50 €",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Beherbergungsbetriebe sind verpflichtet, den Kurbeitrag einzuheben, und haften dem Markt Grassau für den vollständigen Eingang des Beitrages.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt Grassau gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes, wenn der Markt nicht die Abführung zum Monatsende zulässt.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an den Markt Grassau abzuführen. Der Markt kann zulassen, dass der Betrag am Monatsende abgeführt wird."
+    },
+    "reporting": {
+      "text": "Die Gäste meldest du innerhalb von drei Tagen nach der Anreise elektronisch über das Verfahren des Marktes, sofern sie sich nicht selbst gemeldet haben.",
+      "quote": "innerhalb von drei Tagen ab deren Anreise elektronisch mittels des durch den Markt Grassau zur Verfügung gestellten Verfahrens zu melden, sofern diese sich nicht selbst gemeldet haben."
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die neue Kurbeitragssatzung des Marktes Grassau.",
+      "quote": "(1) Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Grassau Vorteile bringt.",
+      "quote": "Von allen selbstständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Vorauszahlung je Person und Übernachtung bei einem durchschnittlichen Übernachtungspreis von 0,00 bis 19,99 €",
+        "quote": "von 0,00-19,99 € 0,29 €",
+        "perNight": {
+          "cents": 29,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Vorauszahlung je Person und Übernachtung bei einem durchschnittlichen Übernachtungspreis von 20,00 bis 39,99 €",
+        "quote": "von 20,00-39,99 € 0,54 €",
+        "perNight": {
+          "cents": 54,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Vorauszahlung je Person und Übernachtung bei einem durchschnittlichen Übernachtungspreis von 40,00 bis 59,99 €",
+        "quote": "von 40,00-59,99 € 0,92 €",
+        "perNight": {
+          "cents": 92,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Vorauszahlung je Person und Übernachtung bei einem durchschnittlichen Übernachtungspreis über 60,00 €",
+        "quote": "über 60,00 € 2,63 €",
+        "perNight": {
+          "cents": 263,
+          "perGuest": true
+        }
+      }
+    ],
+    "rate": {
+      "percent": 7,
+      "quote": "Der Beitragssatz beträgt 7 v. H."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,088 und 0,875 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem — durch Schätzung zu ermittelnden — branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0-5 v.H. 0,088 v.H. über 5-10 v.H. 0,263 v.H. über 10-15 v.H. 0,438 v.H. über 15-20 v.H. 0,613 v.H. über 20 v.H. 0,875 v.H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn der Markt dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt des Marktes Grassau abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Bekanntgabe des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Die Vorauszahlung je Person und Übernachtung richtet sich nach dem durchschnittlichen Übernachtungspreis; sie kann zusammen mit der Abführung der Kurbeiträge verlangt werden.",
+        "quote": "Die Vorauszahlungen von Beitragsschuldnern, die Wohnungen, Zimmer oder sonstige Räume oder Grundstücke oder Grundstücksteile für Gäste gegen Entgelt zur Verfügung stellen, können abweichend von den Absätzen 1 und 2 zusammen mit der ordnungsmäßigen Abführung der Kurbeiträge verlangt werden."
+      },
+      {
+        "text": "Die Staffel der Vorauszahlung gilt je Person und Übernachtung bei einem durchschnittlichen Übernachtungspreis.",
+        "quote": "Die Vorauszahlung betragen je Person pro Übernachtung bei einem durchschnittlichen Übernachtungspreis"
+      },
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15.08. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbstständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Zahlst du nur die Vorauszahlungen je Person und Übernachtung, ist ihre Summe deine endgültige Beitragsschuld. Das gilt nicht, wenn der Markt dich schriftlich zur Abgabe einer Erklärung auffordert oder du schriftlich einen Bescheid beantragst.",
+        "quote": "Beitragsschuldner, die nur Vorauszahlungen nach § 5 Abs. 3 Satz 1 entrichten, veranlagen mit der Summe dieser Vorauszahlungen ihre endgültige Beitragsschuld. Das gilt nicht, wenn a) die Gemeinde den Beitragsschuldner schriftlich zur Abgabe einer Erklärung nach § 4 Abs. 2 Satz 2 auffordert oder b) der Beitragsschuldner schriftlich einen Bescheid nach Absatz 1 beantragt."
+      }
+    ]
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/grassau/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 100,
+        "children": [
+          0,
+          50
+        ],
+        "next": {
+          "adult": 150,
+          "children": [
+            0,
+            75
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

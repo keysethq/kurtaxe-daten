@@ -1,0 +1,285 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lauf",
+  "name": "Gemeinde Lauf",
+  "short": "Lauf im Schwarzwald",
+  "ags": "08317068",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Lauf vom 21.01.2025, Bekanntmachung 22.01.2025",
+      "url": "https://www.lauf-schwarzwald.de/wp-content/uploads/Kurtaxensatzung-digital-mit-Unterschrift.pdf_signed.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-23",
+      "changedOn": "2026-11-08",
+      "sha256": "7a3ccda784602ea0c5d835553b6387f3dac5e48407487bd74cbaa261f01ae6bb",
+      "verifiedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Lauf, Gemeinderat 29.09.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.lauf-schwarzwald.de/wp-content/uploads/KurtaxensatzungXabX01.01X.2027X.pdf_signedX.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "3d62a80228620b4c96e6be8b09f8fca8b200ca65d84e1f027f923819acd32593",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "newRules",
+          "page": 4,
+          "reading": "Diese Satzung tritt zum 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 21.01.2025 außer Kraft."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,50 Euro."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 15. Lebensjahr"
+        },
+        {
+          "where": "remarks[8]",
+          "page": 2,
+          "reading": "Von der Entrichtung der Kurtaxe sind befreit: 1. Kinder bis zum vollendeten 15. Lebensjahr 2. Familienbesucher von Einwohnern mit dem Schwerpunkt der Lebensbeziehungen in der Gemeinde Lauf, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen 3. Teilnehmer an Schullandheimaufenthalten, 4. Personen, die sich nur für eine Übernachtung in Lauf aufhalten (Durchreisende)."
+        },
+        {
+          "where": "remarks[9]",
+          "page": 1,
+          "reading": "Die pauschale Jahreskurtaxe beträgt, unabhängig davon, wie viele Personen (Einwohner) die Wohnung oder den Wohnwagen tatsächlich innehaben, 25,00 Euro."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 1,50 Euro b) in der Vor- und Nachsaison 1,10 Euro"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 110,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 1,50 Euro b) in der Vor- und Nachsaison 1,10 Euro"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "oneNight": {
+      "cents": 0,
+      "text": "Wer nur eine Nacht in Lauf bleibt (Durchreisende), zahlt nichts.",
+      "quote": "Personen, die sich nur für eine Übernachtung in Lauf aufhalten (Durchreisende)."
+    },
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesucher von Einwohnern mit dem Schwerpunkt der Lebensbeziehungen in der Gemeinde Lauf, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen"
+      },
+      {
+        "text": "Teilnehmer an Schullandheimaufenthalten",
+        "quote": "Teilnehmer an Schullandheimaufenthalten,"
+      },
+      {
+        "text": "Besucher aus der Partnergemeinde Xertigny",
+        "quote": "Besucher aus der Partnergemeinde Xertigny,"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 50 wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison dauert vom 1. April bis 31. Oktober, die Vor- und Nachsaison vom 1. Januar bis 31. März und vom 1. November bis 31. Dezember.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01. April bis 31. Oktober, die Vor- und Nachsaison den Zeitraum vom 01. Januar bis 31. März und vom 01. November bis 31. Dezember."
+      },
+      {
+        "text": "Auf Antrag sind außerdem befreit: Teilnehmer an beruflichen Tagungen und Veranstaltungen für deren Dauer, Begleitpersonen von Schwerbehinderten und Kranken mit amtlicher oder ärztlicher Bescheinigung und Schwerkranke, die Kureinrichtungen nicht besuchen können, mit ärztlichem Zeugnis.",
+        "quote": "Auf Antrag werden von der Entrichtung der Kurtaxe befreit: 1. Personen, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten, während deren Dauer 2. Begleitpersonen von Schwerbehinderten und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtliche oder ärztliche Bescheinigung nachgewiesen wird und die Begleitperson selbst keine Kurmittel in Anspruch nimmt. 3. Schwerkranke, die nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "In Härtefällen entscheidet der Gemeinderat über eine Ermäßigung.",
+        "quote": "In Härtefällen entscheidet über eine Ermäßigung der Gemeinderat."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt in einer anderen Gemeinde haben, zahlen statt der Tagessätze eine pauschale Jahreskurtaxe von 25 Euro je Wohnung oder Wohnwagen.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt, unabhängig davon, wie viele Personen (Einwohner) die Wohnung oder den Wohnwagen tatsächlich innehaben, 25,00 Euro."
+      },
+      {
+        "text": "Falsch ausgefüllte oder beschädigte manuelle Meldescheine gibst du mit der angehängten KONUS-Gästekarte an die Gemeinde zurück.",
+        "quote": "Falsch ausgefüllte oder beschädigte manuelle Meldescheine sind mit der angehängten KONUS-Gästekarte an die Gemeinde zurück zu geben."
+      },
+      {
+        "text": "Für manuelle Meldescheine, die nicht zurückgegeben werden und deren Verwendung nicht nachweisbar ist, schätzt die Gemeinde die Kurtaxe.",
+        "quote": "Für manuelle Meldescheine, die nicht zurückgegeben werden und deren Verwendung nicht nachweisbar ist, wird die Kurtaxe geschätzt."
+      },
+      {
+        "text": "Ab 2027 gilt ganzjährig ein Satz von 1,50 € je Person und Aufenthaltstag; die Vor- und Nachsaison mit 1,10 € fällt weg.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,50 Euro.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Kinder bis zum vollendeten 15. Lebensjahr weiterhin befreit.",
+        "quote": "Kinder bis zum vollendeten 15. Lebensjahr",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 nennt die Satzung als befreit: Kinder bis zum vollendeten 15. Lebensjahr, Familienbesucher von Einwohnern, Teilnehmer an Schullandheimaufenthalten und Personen, die nur für eine Übernachtung bleiben; Besucher aus der Partnergemeinde Xertigny stehen nicht mehr in der Liste.",
+        "quote": "Von der Entrichtung der Kurtaxe sind befreit: 1. Kinder bis zum vollendeten 15. Lebensjahr 2. Familienbesucher von Einwohnern mit dem Schwerpunkt der Lebensbeziehungen in der Gemeinde Lauf, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen 3. Teilnehmer an Schullandheimaufenthalten, 4. Personen, die sich nur für eine Übernachtung in Lauf aufhalten (Durchreisende).",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 bleibt die pauschale Jahreskurtaxe für Einwohner mit Lebensmittelpunkt in einer anderen Gemeinde bei 25 Euro je Wohnung oder Wohnwagen.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt, unabhängig davon, wie viele Personen (Einwohner) die Wohnung oder den Wohnwagen tatsächlich innehaben, 25,00 Euro.",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und nach Aufforderung durch die Gemeinde innerhalb von 14 Tagen an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Du führst die Kurtaxe innerhalb von 14 Tagen ab, nachdem die Gemeinde dich dazu auffordert.",
+      "quote": "nach Aufforderung durch die Gemeinde innerhalb von 14 Tagen an die Gemeinde abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden"
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "ganzjährig ein Satz von 1,50 € je Person und Aufenthaltstag statt 1,50 € in der Hauptsaison und 1,10 € in der Vor- und Nachsaison; Besucher aus der Partnergemeinde Xertigny werden nicht mehr als befreit genannt.",
+      "quote": "Diese Satzung tritt zum 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 21.01.2025 außer Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lauf/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0
+        ],
+        "reduced": [
+          75
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 110,
+        "children": [
+          0
+        ],
+        "reduced": [
+          55
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": true
+      }
+    ],
+    "oneNight": 0
+  }
+}

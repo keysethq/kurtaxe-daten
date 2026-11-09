@@ -1,0 +1,230 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-klosterlausnitz",
+  "name": "Gemeinde Bad Klosterlausnitz",
+  "short": "Bad Klosterlausnitz",
+  "ags": "16074003",
+  "state": "Thüringen",
+  "district": "Saale-Holzland-Kreis",
+  "sources": {
+    "satzung": {
+      "title": "Amtsblatt der Gemeinden Albersdorf, Bad Klosterlausnitz, Bobeck, Scheiditz, Schlöben, Schöngleina, Serba, Tautenhain, Waldeck, Weißenborn, Nr. 10 vom 30.06.2026: Bekanntmachung der Satzung über die Erhebung eines Kurbeitrages in der Gemeinde Bad Klosterlausnitz (Satzung vom 04.06.2026)",
+      "url": "https://bad-klosterlausnitz.de/files/1-rathaus/1-1-buergerservice/1-1-5-amtsblatt/2026/sonderblatt-06-26web.pdf",
+      "kind": "gazette",
+      "inForce": "2026-07-01",
+      "sha256": "f27adca180737f31f3a64b5196a235305afd65ad589be7fd59a0155c974eda07",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet. Der Anreisetag bleibt deshalb bei der Kurbeitragsberechnung unberücksichtigt."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "a) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechzehnten Lebensjahres: ab 01.07.2026: 1,50 €",
+          "next": {
+            "cents": 200,
+            "quote": "a) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechzehnten Lebensjahres: ab 01.07.2026: 1,50 € ab 01.01.2027: 2,00 €"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "c) Für Kinder vor Vollendung des sechsten Lebensjahres wird kein Kurbeitrag erhoben."
+          },
+          {
+            "underAge": 16,
+            "cents": 75,
+            "quote": "b) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechsten Lebensjahres: ab 01.07.2026: 0,75 €",
+            "limit": {
+              "quote": "a) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechzehnten Lebensjahres:"
+            },
+            "next": {
+              "cents": 100,
+              "quote": "b) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechsten Lebensjahres: ab 01.07.2026: 0,75 € ab 01.01.2027: 1,00 €"
+            }
+          }
+        ]
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Die Sätze steigen zum 1. Januar 2027 auf 2,00 € ab 16 Jahren und 1,00 € für Kinder von 6 bis 15 Jahren.",
+      "quote": "ab 01.01.2027: 2,00 €"
+    },
+    "maxNights": null,
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab einem Grad der Behinderung von 50",
+        "quote": "Der Kurbeitrag wird auf Antrag auf 50 % des Beitragssatzes ermäßigt für Schwerbehinderte ab dem Grad der Behinderung in Höhe von 50, nach Vorlage eines Nachweises.",
+        "onApplication": true,
+        "percent": 50
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Ortsfremde Personen, die sich zur Ausübung ihres Berufes oder zu Ausbildungszwecken im Ort aufhalten; ihre Familienangehörigen zahlen dagegen, wenn sie nicht selbst beruflich da sind",
+        "quote": "Ortsfremde Personen, die sich zur Ausübung Ihres Berufes oder zu Ausbildungszwecken im Erhebungsgebiet aufhalten. Dies gilt nicht für deren Familienangehörige, soweit sie sich nicht selbst zu beruflichen Zwecken im Erhebungsgebiet aufhalten."
+      },
+      {
+        "text": "Tagesgäste, die keine abgegrenzten Kureinrichtungen nutzen und an keinen Kurveranstaltungen teilnehmen",
+        "quote": "Ortsfremde Personen, wenn Sie sich als Tagesgäste im Erhebungsgebiet aufhalten (z.B. Passanten), soweit Sie nicht abgrenzbare oder abgegrenzte Kureinrichtungen in Anspruch nehmen bzw. an entsprechenden Kurveranstaltungen teilnehmen."
+      },
+      {
+        "text": "Teilnehmer an eintägigen Tagungen, Kongressen, Lehrgängen, Seminaren und Kursen aus beruflichen Gründen, wenn sie die Kureinrichtungen nicht nutzen können",
+        "quote": "Ortsfremde Personen, die an eintägigen Tagungen, Kongressen, Lehrgängen, Seminaren, Kursen und vergleichbaren Veranstaltungen im Erhebungsgebiet teilnehmen, insofern hierfür berufliche Gründe vorliegen und eine Inanspruchnahmemöglichkeit der Kureinrichtungen und Kurveranstaltungen nicht besteht."
+      },
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und weder Kureinrichtungen noch Kurveranstaltungen nutzen",
+        "quote": "Familienbesucher von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und weder Kureinrichtungen noch Kurveranstaltungen in Anspruch nehmen."
+      },
+      {
+        "text": "Personen, die von ihrem ständigen Wohnsitz aus Kurmittel ambulant nutzen, wenn sie weder Kureinrichtungen noch Kurveranstaltungen in Anspruch nehmen",
+        "quote": "Ortsfremde Personen, die von ihrem ständigen Wohnsitz aus Kurmittel im Wege ambulanter Behandlung in Anspruch nehmen. Sofern Sie weder Kureinrichtungen noch Kurveranstaltungen in Anspruch nehmen."
+      },
+      {
+        "text": "Kranke, die sich stationär in einem Krankenhaus aufhalten, das keine Vorsorge- oder Rehabilitationseinrichtung und keine Kurklinik ist",
+        "quote": "Kranke, die sich stationär in Krankenhäusern gem. § 107 Abs. 1 SGB V aufhalten, die nicht Vorsorge- oder Rehabilitationseinrichtungen gem. § 107 Abs. 2 SGB V und/oder Kurkliniken sind."
+      },
+      {
+        "text": "Auf Antrag: Erwerbsunfähige Kriegsbeschädigte mit Sonderfürsorge und Pflegebedürftige, denen Hilfe zur Pflege zu gewähren ist, sofern sie die Kosten des Aufenthalts und der Kur in voller Höhe selbst tragen",
+        "quote": "Erwerbsunfähige Kriegsbeschädigte, denen Sonderfürsorge im Sinne des §27e des Bundesversorgungsgesetzes zusteht oder Pflegebedürftige, denen Hilfe zur Pflege im Sinne des § 61 Sozialgesetzbuch XII zu gewähren ist, sofern sie selbst die Kosten des Aufenthalts und der Kur in voller Höhe tragen."
+      },
+      {
+        "text": "Auf Antrag: Schwerbehinderte mit einem Grad der Behinderung von 100, Blinde und ihre Begleitpersonen, wenn die Begleitung durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird",
+        "quote": "Schwerbehinderte (GdB 100), Blinde und deren Begleitpersonen, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird."
+      },
+      {
+        "text": "Auf Antrag: Bettlägerige Kranke, solange sie ihre Unterkunft nicht verlassen und keine Kurmittel nutzen, mit ärztlichem Attest über den Zeitraum",
+        "quote": "Bettlägerige Kranke für die Zeit, in der sie ihre Unterkunft nicht verlassen können und keine Kurmittel in Anspruch nehmen, bei Vorlage eines ärztlichen Attests."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer eine Nebenwohnung im Ort hat und nicht beruflich oder zur Ausbildung hier ist, zahlt unabhängig von Dauer und Häufigkeit seiner Aufenthalte einen pauschalen Jahreskurbeitrag; ab 18 Jahren sind das 50,00 € seit dem 1. Juli 2026, 70,00 € ab 2027 und 90,00 € ab 2028.",
+        "quote": "Er beträgt für Personen ab Vollendung des achtzehnten Lebensjahres: ab 01.07.2026: 50,00 € ab 01.01.2027: 70,00 € ab 01.01.2028: 90,00 €"
+      },
+      {
+        "text": "Ab 2028 steigt der Satz ab 16 Jahren auf 2,50 €.",
+        "quote": "a) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechzehnten Lebensjahres: ab 01.07.2026: 1,50 € ab 01.01.2027: 2,00 € ab 01.01.2028: 2,50 €"
+      },
+      {
+        "text": "Ab 2028 beträgt der Satz für Kinder von 6 bis 15 Jahren 1,25 €.",
+        "quote": "b) pro Aufenthaltstag für jede beitragspflichtige Person nach § 4 ab Vollendung des sechsten Lebensjahres: ab 01.07.2026: 0,75 € ab 01.01.2027: 1,00 € ab 01.01.2028: 1,25 €"
+      },
+      {
+        "text": "In Fällen sozialer oder unbilliger Härte kann der Kurbeitrag auf Antrag ermäßigt werden; den formlosen Antrag muss der Gast vor Kurantritt bei der Gemeindeverwaltung einreichen.",
+        "quote": "In Fällen sozialer oder unbilliger Härte kann auf Antrag der Kurbeitrag ermäßigt werden. (3) Der Antrag nach Absatz 2 ist als formloser Antrag vor Kurantritt bei der Gemeindeverwaltung Bad Klosterlausnitz einzureichen."
+      },
+      {
+        "text": "Du haftest neben dem Gast als Gesamtschuldner für das rechtzeitige und vollständige Einziehen und Abführen des Kurbeitrages.",
+        "quote": "Die Wohnungsgeber haften neben den Beitragspflichtigen für die rechtzeitige und vollständige Einziehung und Abführung des Kurbeitrages als Gesamtschuldner."
+      },
+      {
+        "text": "Meldest du Gäste ausschließlich über das elektronische Meldeverfahren der Gemeinde, bekommst du einen Digitalbonus von 5 % des Kurbeitrages als Gutschrift.",
+        "quote": "Soweit die Wohnungsgeber ihre Meldungen ausschließlich über das von der Gemeindeverwaltung eingerichtete elektronische Meldeverfahren abwickeln, erhalten sie einen Digitalbonus in Höhe von 5 % des Kurbeitrages."
+      },
+      {
+        "text": "Du musst die Satzung in deinem Betrieb gut sichtbar aushängen; die Gemeinde stellt Exemplare kostenlos zur Verfügung.",
+        "quote": "Diese Satzung ist in jedem Betrieb im Sinne des § 11 Absatz 1 an allgemein zugänglicher Stelle deutlich sichtbar auszuhängen."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag von ihnen ein und führt ihn nach dem Bescheid der Gemeinde ab.",
+      "quote": "Die Wohnungsgeber nach § 11 haben den satzungsgemäßen Kurbeitrag von den kurbeitragspflichtigen Personen einzuziehen und gemäß des Bescheides über die Zahlung des Kurbeitrages an die Gemeinde Bad Klosterlausnitz abzuführen."
+    },
+    "deadline": {
+      "text": "Abführen musst du gemäß dem Bescheid der Gemeinde; einen festen Termin nennt die Satzung nicht.",
+      "quote": "gemäß des Bescheides über die Zahlung des Kurbeitrages an die Gemeinde Bad Klosterlausnitz abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du an und ab: Die Durchschrift des Meldescheins gibst du innerhalb von sieben Werktagen nach der Abreise bei der Gemeinde ab, über das elektronische Meldesystem übermittelst du die Daten spätestens am Tag nach der Abreise.",
+      "quote": "dass die für die Gemeindeverwaltung bestimmte Durchschrift des Meldescheins innerhalb von sieben Werktagen nach Abreise des Gastes bei der Gemeindeverwaltung abgegeben wird. Eine Ausfertigung des Meldescheins ist vom Wohnungsgeber aufzubewahren und der Gemeindeverwaltung oder den von ihr beauftragten Personen auf Verlangen vorzulegen. Bei einer Datenerfassung über das internetbasierte Meldescheinsystem der Gemeindeverwaltung wird der Meldepflicht dadurch entsprochen, dass die Datenübermittlung unverzüglich, spätestens am Folgetag nach Abreise des Gastes, an die Touristinformation Bad Klosterlausnitz erfolgt."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-klosterlausnitz/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          75
+        ],
+        "reduced": [
+          75
+        ],
+        "next": {
+          "adult": 200,
+          "children": [
+            0,
+            100
+          ],
+          "reduced": [
+            100
+          ]
+        }
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte ab einem Grad der Behinderung von 50",
+        "onApplication": true
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

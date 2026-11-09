@@ -1,0 +1,364 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-saeckingen",
+  "name": "Stadt Bad Säckingen",
+  "short": "Bad Säckingen",
+  "ags": "08337096",
+  "state": "Baden-Württemberg",
+  "district": "Waldshut",
+  "sources": {
+    "satzung": {
+      "title": "Satzung der Stadt Bad Säckingen über die Erhebung einer Kurtaxe (Kurtaxe-Satzung) vom 30.01.2017",
+      "url": "https://www.bad-saeckingen.de/fileadmin/Dateien/Website/027_Kurtaxe-Satzung_2017.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "sha256": "80100f96af619c3b2d687f2864e33ab71ad50f80e38bcd2613fffbfa009b7070",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Satzung der Stadt Bad Säckingen über die Erhebung einer Kurtaxe (Kurtaxe-Satzung) vom 27.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.bad-saeckingen.de/fileadmin/Dateien/Website/273_Kurtaxesatzung_g%C3%BCltig_ab_01.01.2027_Signiert.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "sha256": "e039eb376f64c87192d914370b35f16db4411a9e1ca1fbef52d7e97a8205a1c2",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet und es muss eine Übernachtung erfolgen."
+    },
+    "zones": [
+      {
+        "label": "Kernstadt",
+        "area": {
+          "text": "Der Satz gilt in der Kernstadt.",
+          "quote": "der Kernstadt 2,50 €"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 250,
+              "quote": "der Kernstadt 2,50 €",
+              "next": {
+                "cents": 280,
+                "quote": "der Kernstadt 2,80 €",
+                "source": "satzung2027"
+              }
+            },
+            "children": [
+              {
+                "underAge": 12,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ortsteile Harpolingen, Rippolingen und Wallbach",
+        "area": {
+          "text": "Der Satz gilt in den Ortsteilen Harpolingen, Rippolingen und Wallbach.",
+          "quote": "den Ortsteilen Harpolingen, Rippolingen, Wallbach 1,20 €"
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 120,
+              "quote": "den Ortsteilen Harpolingen, Rippolingen, Wallbach 1,20 €",
+              "next": {
+                "cents": 140,
+                "quote": "den Ortsteilen Harpolingen, Rippolingen, Wallbach 1,40€",
+                "source": "satzung2027"
+              }
+            },
+            "children": [
+              {
+                "underAge": 12,
+                "cents": 0,
+                "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Kinder bis zum vollendeten 12. Lebensjahr; sie meldest du trotzdem an",
+        "quote": "Von der Entrichtung der Kurtaxe, nicht aber von der Meldepflicht sind befreit: 1. Kinder bis zum vollendeten 12. Lebensjahr"
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "2. Teilnehmer von Schullandheimaufenthalten"
+      },
+      {
+        "text": "Vorübergehende Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtung oder Veranstaltung nutzen",
+        "quote": "Von der Entrichtung der Kurtaxe sind vorübergehende Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtung in Anspruch nehmen bzw. Veranstaltungen besuchen befreit."
+      },
+      {
+        "text": "Bettlägerige Personen in Akutkrankenhäusern, mit ärztlichem Zeugnis",
+        "quote": "Die Kurtaxe wird nicht von bettlägerigen Personen in Akutkrankenhäusern, sowie von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen, oder die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurstadt aufhalten. Die Bettlägerigkeit ist durch ärztliches Zeugnis nachzuweisen."
+      },
+      {
+        "text": "Wer in der Stadt arbeitet oder in Ausbildung ist",
+        "quote": "ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen"
+      },
+      {
+        "text": "Wer aus beruflichen Gründen an Tagungen oder sonstigen Veranstaltungen teilnimmt",
+        "quote": "die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurstadt aufhalten"
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte Menschen mit mindestens 70 % Erwerbsminderung",
+        "quote": "Auf Antrag erhalten folgende Personen und Personengruppen eine Ermäßigung: 1. Schwerbehinderten Personen mit mindestens 70 % nachgewiesener Erwerbsminderung wird die Kurtaxe um 50% ermäßigt.",
+        "onApplication": true,
+        "percent": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Der Nachweis, dass keine Kurtaxepflicht besteht (Arbeit, Ausbildung, Tagung, Bettlägerigkeit), geht mit dem Vordruck der Stadt an die Stadtverwaltung.",
+        "quote": "Der Nachweis, dass keine Kurtaxepflicht im Sinne dieses Absatzes vorliegt, ist in allen Fällen mit dem entsprechenden Vordruck (gemäß Anlage) bei der Stadtverwaltung"
+      },
+      {
+        "text": "Die Ermäßigung gibt es nur auf Antrag, spätestens am Abreisetag bei der Stadtverwaltung.",
+        "quote": "Anträge auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der"
+      },
+      {
+        "text": "Eine ständige Begleitperson eines schwerbehinderten Menschen erhält ebenfalls 50 % Ermäßigung.",
+        "quote": "Soweit der Schwerbehinderte aufgrund seines Schwerbehindertenausweises auf ständige Begleitung angewiesen ist, erhält auch diese eine Ermäßigung von 50 %."
+      },
+      {
+        "text": "Teilnehmer an Gruppenreisen ab 25 Personen zahlen auf Antrag 0,30 € weniger je Person.",
+        "quote": "Für kurtaxepflichtige Teilnehmer an Gruppenreisen (ab 25 Personen) wird die Kurtaxe um 0,30 € pro Person ermäßigt"
+      },
+      {
+        "text": "Die Ermäßigungen für Schwerbehinderte, Begleitpersonen und Gruppenreisen werden nicht nebeneinander gewährt.",
+        "quote": "Die Ermäßigungen nach Nr. 1-3 werden nicht nebeneinander gewährt."
+      },
+      {
+        "text": "Die Sätze enthalten die gesetzliche Mehrwertsteuer.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag einschließlich der gesetzlichen Mehrwertsteuer"
+      },
+      {
+        "text": "In Kur- und Rehaeinrichtungen und Kliniken beträgt die Kurtaxe 2,00 € je Person und Aufenthaltstag.",
+        "quote": "Kur- und Rehaeinrichtungen, Kliniken 2,00 €"
+      },
+      {
+        "text": "Ab 2027 beträgt die Kurtaxe in Kur- und Rehaeinrichtungen und Kliniken 2,30 € je Person und Aufenthaltstag.",
+        "quote": "Kur- und Rehaeinrichtungen, Kliniken 2,30 €",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Wohnmobilisten zahlen 5,00 € je Wohnmobil und Übernachtung, inklusive Mehrwertsteuer; auf entgeltlichen Wohnmobilparkplätzen wird die Kurtaxe zusammen mit der Parkgebühr erhoben.",
+        "quote": "Wohnmobilisten zahlen eine pauschalierte Kurtaxe. Sie beträgt 5,00 € (inkl. gesetzlicher Mehrwertsteuer) pro Wohnmobil und Übernachtung. Auf ausgewiesenen, entgeltlichen Wohnmobilparkplätzen wird die Kurtaxe zusammen mit der Parkgebühr erhoben."
+      },
+      {
+        "text": "Für die Pauschale der Wohnmobilparkplätze gibt es keine Ermäßigung.",
+        "quote": "Ermäßigungen werden nicht gewährt für die pauschalierte Kurtaxe für den Wohnmobilparkplatz nach § 4 Abs. 3."
+      },
+      {
+        "text": "Ab 2027 beträgt die Pauschale für Wohnmobilisten 5,60 € je Wohnmobil und Übernachtung.",
+        "quote": "Sie beträgt 5,60 € (inkl. gesetzlicher Mehrwertsteuer) pro Wohnmobil und Übernachtung.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind auch Einwohner kurtaxepflichtig, die den Schwerpunkt ihrer Lebensbeziehungen in einer anderen Gemeinde haben.",
+        "quote": "Kurtaxepflichtig sind darüber hinaus auch die Einwohner der Stadt, die den Schwerpunkt der Lebensbeziehungen in einer anderen Gemeinde haben.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen kurtaxepflichtige Einwohner (§ 2 Abs. 2) unabhängig von der Dauer ihres Aufenthalts eine pauschale Jahreskurtaxe: 120,00 € je Person in der Kernstadt und 60,00 € in den Ortsteilen Harpolingen, Rippolingen und Wallbach.",
+        "quote": "Kurtaxepflichtige Einwohner der Stadt nach § 2 Abs. 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 120,00 € in der Kernstadt und 60,00 € in den Ortsteilen Harpolingen, Rippolingen, Wallbach.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste über das elektronische Verfahren der Stadt; auf Antrag kann die Stadt dich davon befreien, wenn die elektronische Übermittlung eine unzumutbare Härte darstellt.",
+        "quote": "Für die Meldung ist das von der Stadt bereitgestellte elektronische Verfahren zu verwenden. Auf Antrag kann die Stadt von dieser Pflicht befreien, wenn die elektronische Übermittlung eine unzumutbare Härte darstellt.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Verlorene oder nicht mehr nachweisbare Meldescheine berechnet die Stadt dem Vermieter mit 20 € je Meldeschein.",
+        "quote": "Verlorene oder nicht mehr nachweisbare Meldescheine (Gästekarte) werden dem Meldepflichtigen (Vermieter) mit einem Betrag von 20,- € pro Meldeschein in Rechnung"
+      },
+      {
+        "text": "Wer nicht oder offensichtlich falsch meldet, muss damit rechnen, dass die Stadt die Übernachtungen und damit die Kurtaxe schätzt.",
+        "quote": "Erfolgen keine oder offensichtlich falsche Meldungen, so können die Übernachtungszahlen und damit die zu zahlende Kurtaxe geschätzt werden."
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxe wird am letzten Aufenthaltstag in der Stadt fällig."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste meldet, zieht die Kurtaxe von ihnen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "haben die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und nach Rechnungslegung an die Stadt abzuführen. Die Wohnungsgeber haften der Stadt gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Du führst die Kurtaxe nach der Rechnung der Stadt ab.",
+      "quote": "nach Rechnungslegung an die Stadt abzuführen"
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von drei Tagen nach der Ankunft an, auch wenn sie keine Kurtaxe zahlen.",
+      "quote": "innerhalb von drei Tagen nach der Ankunft anzumelden. Dies gilt unabhängig von der Kurtaxepflicht."
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Ab dem 1. Januar 2027 steigt die Kurtaxe auf 2,80 € in der Kernstadt und 1,40 € in den Ortsteilen Harpolingen, Rippolingen und Wallbach.",
+      "quote": "Diese Satzung tritt zum 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-saeckingen/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 250,
+        "children": [
+          0
+        ],
+        "reduced": [
+          125
+        ],
+        "next": {
+          "adult": 280,
+          "children": [
+            0
+          ],
+          "reduced": [
+            140
+          ]
+        }
+      }
+    ],
+    "zones": [
+      {
+        "label": "Kernstadt",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 250,
+            "children": [
+              0
+            ],
+            "reduced": [
+              125
+            ],
+            "next": {
+              "adult": 280,
+              "children": [
+                0
+              ],
+              "reduced": [
+                140
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Ortsteile Harpolingen, Rippolingen und Wallbach",
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 120,
+            "children": [
+              0
+            ],
+            "reduced": [
+              60
+            ],
+            "next": {
+              "adult": 140,
+              "children": [
+                0
+              ],
+              "reduced": [
+                70
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbehinderte Menschen mit mindestens 70 % Erwerbsminderung",
+        "onApplication": true
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

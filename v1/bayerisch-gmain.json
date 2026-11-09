@@ -1,0 +1,294 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bayerisch-gmain",
+  "name": "Gemeinde Bayerisch Gmain",
+  "short": "Bayerisch Gmain",
+  "ags": "09172115",
+  "state": "Bayern",
+  "district": "Berchtesgadener Land",
+  "sources": {
+    "satzung": {
+      "title": "Verordnung über die Erhebung der Kurtaxe (Kurtax-Verordnung – KurtaxV) vom 02.09.2013 (GVBl. S. 582), Fassung mit Anlage 2 nach der Verordnung vom 24.07.2024 (GVBl. S. 391), bayerische Rechtsdatenbank",
+      "url": "https://www.gesetze-bayern.de/Content/Pdf/BayKurtaxV?all=True",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "hashOf": "text",
+      "sha256": "c1672f505caa09ef15fa02cec173a7a7905a7dd86b8b63beb34ba4abe9cb0b54",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "aenderung2027": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 03.09.2026, Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2026, S. 593 (in Kraft ab 01.01.2027)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "fvb": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags der Gemeinde Bayerisch Gmain vom 3. Juni 2008 (gültig bis 31.12.2026)",
+      "url": "https://www.bayerisch.gmain.de/cdn/uploads/satzung-fuer-die-erhebung-eines-fremdenverkehrsbeitrages.pdf",
+      "kind": "municipality",
+      "inForce": "2008-01-01",
+      "sha256": "ee6ea155f3588e611fac8137651528ed3ac4597518c87b94439657ccec13a18a",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "fvb2027": {
+      "title": "Satzung für die Erhebung eines Fremdenverkehrsbeitrags (Fremdenverkehrsbeitragssatzung – FBS) der Gemeinde Bayerisch Gmain vom 15.09.2026 (gültig ab 01.01.2027)",
+      "url": "https://www.bayerisch.gmain.de/cdn/uploads/satzung-fuer-die-erhebung-eines-fremdenverkehrsbeitrags-20270101.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "6f6758150fa47b6f1dfeb33a309025a391f383e13e1e4d1f7125ae03de31928c",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurtaxe für den Abreisetag ist mit der Kurtaxe für den Anreisetag abgegolten."
+    },
+    "area": {
+      "text": "Die Kurtaxe gilt in ganz Bayerisch Gmain; die Gemeinde gehört zum Kurbezirk des Staatsbads Bad Reichenhall.",
+      "quote": "Der Kurbezirk umfasst das Gebiet der Stadt Bad Reichenhall, der Gemeinde Bayerisch Gmain und den Gemeindeteil Kibling der Gemeinde Schneizlreuth."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 360,
+          "quote": "1. Bad Reichenhall: 1.1 Normalsatz 3,60",
+          "next": {
+            "cents": 370,
+            "quote": "1. Bad Reichenhall: 1.1 Normalsatz 3,70",
+            "source": "aenderung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "2. Personen bis zur Vollendung ihres 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Die Kurtaxe wird nach der Anzahl der Aufenthaltstage berechnet, längstens jedoch für 42 Tage im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Personen bis zur Vollendung des 18. Lebensjahres",
+        "quote": "2. Personen bis zur Vollendung ihres 18. Lebensjahres,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, mit ärztlichem Attest",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "Begleitpersonen von Schwerbehinderten, welche laut amtlichem Ausweis auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis 25 für die Dauer der Bildungsmaßnahme",
+        "quote": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis zur Vollendung ihres 25."
+      },
+      {
+        "text": "Personen, denen wegen einer Bedrohung (zum Beispiel häusliche Gewalt, Obdachlosigkeit, Naturkatastrophe) vorübergehend Unterkunft gewährt wird; ob dafür eine Bescheinigung der Sicherheitsbehörde nötig ist, liegt im Ermessen der Bayerischen Staatsbad Bad Reichenhall/Bayerisch Gmain GmbH.",
+        "quote": "Personen, denen zum Schutz ihrer körperlichen Unversehrtheit, insbesondere bei Bedrohung infolge häuslicher Gewalt, Obdachlosigkeit oder von Naturkatastrophen, vorübergehend Unterkunft gewährt und denen die Bedrohungslage durch eine Bescheinigung der zuständigen Sicherheitsbehörde bestätigt wird. Das Erfordernis einer Bescheinigung der zuständigen Sicherheitsbehörde steht im Ermessen der Erhebungsberechtigten."
+      },
+      {
+        "text": "Wer unentgeltlich aus rein familiärem Anlass bei Verwandten wohnt",
+        "quote": "Unterkunft im vorgenannten Sinn nimmt nicht, wer ohne Zahlung eines Entgelts aus rein familiärem Anlass bei Verwandten wohnt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird die Kurtaxe nicht von der Gemeinde, sondern von der Bayerischen Staatsbad Bad Reichenhall/Bayerisch Gmain GmbH; sie beruht auf einer Verordnung des Freistaats.",
+        "quote": "im Staatsbad Bad Reichenhall von der Bayer. Staatsbad Bad Reichenhall/Bayer. Gmain GmbH,"
+      },
+      {
+        "text": "Bis 31. Dezember 2026 zahlen Menschen mit einem Grad der Behinderung ab 50 3,10 €; Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,80 €.",
+        "quote": "1.2 Gäste gemäß § 4 Abs. 2 Nr. 1 3,10 1.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,80"
+      },
+      {
+        "text": "Ermäßigt wird die Kurtaxe für Schwerbehinderte mit einem Grad der Behinderung von mindestens 50, wenn sie den Behindertenausweis vorlegen, für Tagungs- und Seminargäste bei beruflich veranlassten, organisierten Tagungen, deren Unterkunft der Veranstalter bucht oder fest reserviert, und für Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurbezirk aufhalten.",
+        "quote": "Die Kurtaxe wird ermäßigt für 1. Schwerbehinderte mit einem Grad der Behinderung von wenigstens 50, sofern sie den Behindertenausweis vorlegen. Die nach § 7 Abs. 1 Verpflichteten haben eine Ablichtung des Behindertenausweises oder Aufzeichnungen über die Ausweisnummer, das Gültigkeitsdatum und die ausstellende Behörde des Behindertenausweises zu den Unterlagen zu nehmen; 2. Tagungs- und Seminargäste, die an geschäftsmäßig organisierten, gruppenmäßig abgewickelten und beruflich veranlassten Tagungen und Seminaren teilnehmen, wenn ihre Unterkunft vom Veranstalter der Tagung oder des Seminars gebucht oder zu festen Konditionen reserviert wird. Der Erhebungsberechtigten sind auf Verlangen das Tagungs- oder Seminar-Programm und die Namen der die Ermäßigung in Anspruch nehmenden Teilnehmer sowie deren Unterkunft im Kurbezirk vorzulegen. Die Erhebungsberechtigte kann ergänzende Nachweise verlangen; 3. Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurbezirk aufhalten."
+      },
+      {
+        "text": "Die Umsatzsteuer ist in der Kurtaxe enthalten.",
+        "quote": "Höhe der Kurtaxe (einschließlich Umsatzsteuer) in den bayerischen Staatsbädern"
+      },
+      {
+        "text": "Die Gästekarte erstellst oder gibst du jedem kurtaxpflichtigen Gast aus.",
+        "quote": "jeder kurtaxpflichtigen Person eine Gastkarte zu erstellen oder, soweit die Erhebungsberechtigte die Gastkarten selbst erstellt, eine Gastkarte auszuhändigen"
+      },
+      {
+        "text": "Die Staatsbad GmbH kann zulassen, dass du die Kurtaxe erst am Monatsende abführst.",
+        "quote": "Die Erhebungsberechtigte kann zulassen, dass die Kurtaxe erst am Monatsende abgeführt wird."
+      },
+      {
+        "text": "Ab 1. Januar 2027 zahlen Menschen mit einem Grad der Behinderung ab 50 3,20 € statt 3,10 €. Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,85 € statt 1,80 €.",
+        "quote": "1.2 Gäste gemäß § 4 Abs. 2 Nr. 1 3,20 1.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,85",
+        "source": "aenderung2027"
+      },
+      {
+        "text": "Hast du mehr als neun Betten, ist die elektronische Übermittlung Pflicht; auf Antrag kann bei unbilliger Härte darauf verzichtet werden.",
+        "quote": "Soweit der Betrieb des Vermieters über mehr als neun Betten verfügt, ist die Übermittlung auf elektronischem Weg verpflichtend; auf Antrag kann die Erhebungsberechtigte zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": "aenderung2027"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, behält die Kurtaxe ein und führt sie ab.",
+      "quote": "Die nach Abs. 1 Verpflichteten haben die Kurtaxe einzubehalten und an die Erhebungsberechtigte abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Die Abführung ist spätestens einen Tag nach der Abreise der kurtaxpflichtigen Person vorzunehmen."
+    },
+    "reporting": {
+      "text": "Die Gästedaten übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch oder legst die Meldescheine in den Geschäftsräumen vor.",
+      "quote": "der Erhebungsberechtigten spätestens am dritten Werktag nach deren Eintreffen im Kurbezirk auf elektronischem Wege zu übermitteln bzw. die Meldescheine oder das elektronische Handgerät in den Geschäftsräumen der Erhebungsberechtigten vorzulegen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du selbständig tätig bist und dir der Fremdenverkehr in Bayerisch Gmain Vorteile bringt.",
+      "quote": "Von allen selbständig tätigen natürlichen und den juristischen Personen, denen durch den Fremdenverkehr im Gemeindegebiet Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [],
+    "rate": {
+      "percent": 4,
+      "quote": "Der Beitragssatz beträgt 4 v.H.."
+    },
+    "basis": {
+      "text": "Der Beitrag richtet sich nach deinem Gewinn im Kalenderjahr; ergibt sich auf Grundlage des steuerbaren Umsatzes ein höherer Betrag, zählt dieser.",
+      "quote": "Zur Bestimmung des Vorteils dienen der einkommen- oder körperschaftsteuerpflichtige Gewinn und der steuerbare Umsatz innerhalb eines Kalenderjahres. Die Beitragsschuld wird gemäß § 3 Abs. 1 auf der Grundlage des Gewinns bestimmt, wenn sich nicht gemäß § 3 Abs. 2 auf der Grundlage des steuerbaren Umsatzes ein höherer Betrag ergibt."
+    },
+    "assessed": {
+      "text": "Für jeden Betrieb wird einzeln geschätzt, welcher Teil deines Gewinns oder Umsatzes auf dem Fremdenverkehr beruht (Vorteilssatz); davon wird der Beitrag berechnet.",
+      "quote": "Der Vorteilssatz bezeichnet den auf dem Fremdenverkehr beruhenden Teil des einkommen- oder körperschaftsteuerpflichtigen Gewinns (Absatz 1) oder des steuerbaren Umsatzes (Absatz 2). Er wird durch Schätzung für jeden Fall gesondert ermittelt. Dabei sind insbesondere Art und Umfang der selbständigen Tätigkeit, die Lage und Größe der Geschäfts- und Beherbergungsräume, die Betriebsweise und die Zusammensetzung des Kundenkreises von Bedeutung."
+    },
+    "minimum": {
+      "text": "Der Mindestbeitragssatz liegt je nach Gewinnanteil am Umsatz zwischen 0,05 und 0,50 Prozent.",
+      "quote": "Der Mindestbeitragssatz beträgt bei einem - durch Schätzung zu ermittelnden - branchendurchschnittlichen Anteil des Gewinns am Umsatz von 0- 5 v. H. 0,05 v. H. über 5- 10 v. H. 0,15 v. H. über 10 - 15 v. H. 0,25 v. H. über 15 - 20 v. H 0,35 v. H. über 20 v. H 0,50 v. H."
+    },
+    "reporting": {
+      "text": "Eine Erklärung nach Formblatt gibst du ab, wenn die Gemeinde dich dazu auffordert.",
+      "quote": "Der Beitragsschuldner hat hierzu auf Aufforderung eine Erklärung nach Formblatt abzugeben."
+    },
+    "deadline": {
+      "text": "Der Beitrag wird durch schriftlichen Bescheid festgesetzt und ist einen Monat nach Erhalt des Bescheids fällig.",
+      "quote": "Die Beitragsschuld ist durch schriftlichen Bescheid festzusetzen und einen Monat nach Zustellung des Bescheides fällig."
+    },
+    "exemptions": [],
+    "remarks": [
+      {
+        "text": "Nach dem steuerbaren Umsatz wird der Beitrag berechnet, indem der steuerbare Umsatz mit dem Vorteilssatz und dem Mindestbeitragssatz multipliziert wird.",
+        "quote": "Der Beitrag nach dem steuerbaren Umsatz errechnet sich, indem der steuerbare Umsatz mit dem Vorteilssatz (Absatz 3) und mit dem Mindestbeitragssatz (Absatz 5) multipliziert wird."
+      },
+      {
+        "text": "Eine Vorauszahlung ist jedes Jahr am 15. August fällig.",
+        "quote": "Der Beitragsschuldner hat am 15.8. jeden Jahres eine Vorauszahlung zu entrichten."
+      },
+      {
+        "text": "Die Beitragsschuld entsteht mit dem Ende des Kalenderjahres, auf das sie sich bezieht.",
+        "quote": "Die Beitragsschuld entsteht mit Ablauf des Kalenderjahres, auf das sie sich bezieht."
+      },
+      {
+        "text": "Übst du mehrere verschiedenartige selbständige Tätigkeiten aus, wird der Beitrag für jede Tätigkeit gesondert berechnet.",
+        "quote": "Übt ein Beitragsschuldner mehrere verschiedenartige selbständige Tätigkeiten aus, so ist der Beitrag für jede Tätigkeit gesondert zu berechnen."
+      },
+      {
+        "text": "Die neue Fremdenverkehrsbeitragssatzung gilt ab 1. Januar 2027.",
+        "quote": "(1) Diese Satzung tritt am 1. Januar 2027 in Kraft.",
+        "source": "fvb2027"
+      },
+      {
+        "text": "Ab 1. Januar 2027 beträgt der Beitragssatz 5 Prozent statt 4 Prozent.",
+        "quote": "Der Beitragssatz beträgt 5 v. H.",
+        "source": "fvb2027"
+      },
+      {
+        "text": "Ab 1. Januar 2027 liegt der Mindestbeitragssatz je nach Gewinnanteil am Umsatz zwischen 0,062 und 0,625 Prozent.",
+        "quote": "bis 5v. H. 0,062 v. H. über 5 v. H. bis 10v. H. 0, 187 v. H. über 10 v. H. bis 15v. H. 0,312 v. H. über 15 v. H. bis 20v. H. 0,437 v. H. über 20 v. H. 0,625 v. H.",
+        "source": "fvb2027"
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bayerisch-gmain/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 360,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 370,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

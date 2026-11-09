@@ -1,0 +1,300 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "zell-am-harmersbach",
+  "name": "Zell am Harmersbach",
+  "short": "Zell am Harmersbach",
+  "ags": "08317146",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe der Stadt Zell am Harmersbach vom 24.03.2022, Amtsblatt vom 25.03.2022",
+      "url": "https://www.zell.de/site/Zell2016/get/documents_E-1990645729/zell/Dateien/Amtsblatt/2022/Ausgabe%20vom%20Freitag,%2025.%20M%C3%A4rz%202022.pdf",
+      "kind": "gazette",
+      "inForce": "2023-01-01",
+      "sha256": "6165f554b7e07e83e9ce2c7ae27ca03eaadb616ceac86826f9305b5c10ef8f14",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "aenderung2024": {
+      "title": "Satzung zur 1. Änderung der Satzung über die Erhebung einer Kurtaxe der Stadt Zell am Harmersbach, Gemeinderat 16.12.2024, ausgefertigt 17.12.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.zell.de/site/Zell2016/get/documents_E102650358/zell/Dateien/%C3%96ffentliche%20Bekanntmachungen/2024/Satzung%20zur%201.%20%C3%84nderung%20der%20Satzung%20%C3%BCber%20die%20Erhebung%20einer%20Kurtaxe%20-%20signiert.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "sha256": "59df99a8b82d19169a5afaf1d4a1a300f2128da338d56754e425a99324096a89",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Zell am Harmersbach, Gemeinderat 21.09.2026, bekanntgemacht am 24.09.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.zell.de/site/Zell2016/get/documents_E-1733025892/zell/Dateien/%C3%96ffentliche%20Bekanntmachungen/2026/26-09-24%20Bekanntmachung%20Kurtaxesatzung%20-%20signiert.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "efe1884e5e7b8b5fd9436d5a04469aaa24f089ab72b0e34949b1ef857f7dd834",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) der Stadt Zell am Harmersbach, Gemeinderat 13.12.1999 (Ortsrecht der Stadt)",
+      "url": "https://www.zell.de/site/Zell2016/get/documents_E-127671055/zell/Dateien/Ortsrecht/020.06%20-%20Satzungen%20der%20Stadt%20Zell%20am%20Harmersbach%20-%20Satzung%20%C3%BCber%20die%20Erhebung%20einer%20Abgabe%20zur%20F%C3%B6rder.pdf",
+      "kind": "municipality",
+      "changedOn": "2026-11-08",
+      "sha256": "008afd6270628e36da3fa054e5e7be4b5f8aaccbb8100f0a075b2350eafd3107",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,20 € b) in der Nebensaison 1,10 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "04-30"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 110,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,20 € b) in der Nebensaison 1,10 €"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 6. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "reduced": [
+      {
+        "label": "Menschen mit einem Grad der Behinderung von mindestens 80",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung von mindestens 80 v. H. wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 50
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Gäste, die in Zell am Harmersbach arbeiten oder in Ausbildung sind",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen."
+      },
+      {
+        "text": "Kranke und schwerbehinderte Gäste, die ihre Unterkunft nicht verlassen können, mit ärztlichem Zeugnis; der Nachweis ist spätestens am Abreisetag vorzulegen",
+        "quote": "Kranke und schwerbehinderte ortsfremde Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis nachweisen, unterliegen während der Dauer dieses Zustandes nicht der Kurtaxepflicht. Der Nachweis ist spätestens am Tag der Abreise der Gemeinde vorzulegen."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtung in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Ermäßigung für Menschen mit einem Grad der Behinderung ab 80 gilt auch für ihre Begleitperson, wenn sie auf ständige Begleitung angewiesen sind und das amtlich oder ärztlich bescheinigt ist.",
+        "quote": "Die Ermäßigung erstreckt sich in gleicher Höhe auch auf deren Begleitpersonen, soweit die schwerbehinderten Personen auf eine ständige Begleitung angewiesen sind."
+      },
+      {
+        "text": "Anträge auf Ermäßigung müssen spätestens am Abreisetag bei der Stadt sein.",
+        "quote": "Anträge auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Wer in Zell am Harmersbach arbeitet oder in Ausbildung ist, bleibt meldepflichtig: Du füllst einen Meldeschein aus und lässt dir das Arbeits- oder Ausbildungsverhältnis mit dem Formular der Stadt nachweisen.",
+        "quote": "Da dieser Personenkreis meldepflichtig ist, muss ein Meldeschein ausgefüllt und ein Nachweis mittels Formular über das Arbeits- bzw. Ausbildungsverhältnis erbracht werden."
+      },
+      {
+        "text": "Die Hauptsaison geht vom 1. Mai bis 31. Oktober, die Nebensaison vom 1. November bis 30. April.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 1. Mai bis 31. Oktober. Die Nebensaison umfasst den Zeitraum 01. November bis 30. April."
+      },
+      {
+        "text": "In den Beträgen steckt ein Teilbetrag, den die Stadt für das KONUS-Projekt an die Schwarzwald Tourismus GmbH abführt.",
+        "quote": "In diesen Beträgen ist jeweils ein Teilbetrag enthalten, den die Stadt Zell am Harmersbach als pauschale Fahrentgelterstattung an die Schwarzwald Tourismus GmbH für das Projekt KONUS abzuführen hat."
+      },
+      {
+        "text": "Kurtaxepflichtige Einwohner mit Lebensmittelpunkt in einer anderen Gemeinde zahlen statt der Tagessätze eine pauschale Jahreskurtaxe je Wohnung, unabhängig davon, wie viele Personen die Wohnung innehaben: 50 Euro bis 50 Quadratmeter Wohnfläche, 100 Euro darüber.",
+        "quote": "Von kurtaxepflichtigen Einwohnern (§ 2 Abs. 2) wird anstelle der Kurtaxe nach § 3 Abs. 1, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des tatsächlichen Aufenthalts, je Wohnung eine pauschale Jahreskurtaxe erhoben. Maßstab für die pauschale Jahreskurtaxe ist, unabhängig davon, wie viele Personen (Einwohner) die Wohnung tatsächlich innehaben, die Größe der Wohnung."
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Stadt kostenlos bereitstellt.",
+        "quote": "Für die Meldung muss das von der Stadt Zell am Harmersbach unentgeltlich bereitgestellte elektronische Meldeverfahren verwendet werden",
+        "source": "aenderung2024"
+      },
+      {
+        "text": "Kosten für eine Schnittstelle von deiner Hotelsoftware zum Meldeverfahren trägst du selbst.",
+        "quote": "Die eventuell anfallenden Kosten für die Schnittstelle von einem Hotelsoftwaresystem zum oben genannten elektronischen Meldeverfahren sind vom Meldepflichtigen selbst zu tragen.",
+        "source": "aenderung2024"
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du ihn sofort mit Name und Adresse der Stadt.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person, die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angabe von Name und Adresse des Kurtaxepflichtigen zu melden."
+      },
+      {
+        "text": "Ab 2027 steht in der Satzung nur noch ein Satz je Person und Aufenthaltstag: 2,50 Euro, darin 0,16 Euro Umsatzsteuer.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 €. Davon werden 0,16 € Umsatzsteuer fällig, bereinigt bleiben 2,34 € nach Steuern.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen Kinder und Jugendliche von 6 bis einschließlich 15 Jahren 1,00 Euro je Aufenthaltstag, darin 0,07 Euro Umsatzsteuer.",
+        "quote": "Für Kinder und Jugendliche (6 bis einschließlich 15 Jahre) beträgt die Kurtaxe je Person und Aufenthaltstag 1,00 €. Davon werden 0,07 € Umsatzsteuer fällig, bereinigt bleiben 0,93 € nach Steuern",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Kinder bis einschließlich fünf Jahre befreit.",
+        "quote": "Kinder bis einschließlich fünf Jahren.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind außerdem Gäste befreit, die sich nicht länger als einen Tag aufhalten (Tagesgäste); für diese Frist zählen Ankunfts- und Abreisetag zusammen als ein Aufenthaltstag, wer nur eine Nacht bleibt, zahlt also nichts.",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 2 entsprechend.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Teilnehmer von Schullandheimaufenthalten befreit.",
+        "quote": "Teilnehmer von Schullandheimaufenthalten.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 wird die Kurtaxe für Menschen mit einem Grad der Behinderung von mindestens 80 um 50 Prozent ermäßigt; ihre Begleitperson ist befreit, wenn sie auf ständige Begleitung angewiesen sind und das bescheinigt ist.",
+        "quote": "Bei Schwerbehinderten Personen mit einem Grad der Behinderung von mindestens 80 v. H. wird die Kurtaxe um 50 v. H. ermäßigt. Ist die Schwerbehinderte Person auf ständige Begleitung angewiesen, so ist die Begleitperson von der Kurtaxe befreit.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 beträgt die pauschale Jahreskurtaxe für kurtaxepflichtige Einwohner 100 Euro je Wohnung, unabhängig von der Größe.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt je Wohnung 100 €.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Daneben gibt es eine Fremdenverkehrsbeitragssatzung der Stadt: Vermieter von Wohnungen oder Zimmern zahlen ihren Beitrag nach der Zahl der Übernachtungen (Übernachtungsgeld). Den Euro-Betrag zeigt diese Seite nicht.",
+        "quote": "Bei Vermietern, die Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemißt sich der Beitrag abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Übernachtungsgeld).",
+        "source": "fvb"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, einen Campingplatz betreibt oder eine Ferienwohnung vermietet, zieht die Kurtaxe von den Gästen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 8 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 7 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von einem Tag nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von einem Tag nach Ankunft bzw. Abreise an- bzw. abzumelden.",
+      "source": "aenderung2024"
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € statt der Saisonsätze; Kinder und Jugendliche von 6 bis 15 Jahren zahlen 1,00 €, Kinder bis einschließlich 5 Jahre sind befreit. Neu befreit sind Tagesgäste (wer nur eine Nacht bleibt, zahlt nichts) und Teilnehmer von Schullandheimaufenthalten, und die Begleitperson einer Person mit Grad der Behinderung ab 80 ist befreit statt ermäßigt.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/zell-am-harmersbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0
+        ],
+        "reduced": [
+          110
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "04-30"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 110,
+        "children": [
+          0
+        ],
+        "reduced": [
+          55
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Menschen mit einem Grad der Behinderung von mindestens 80",
+        "onApplication": true
+      }
+    ]
+  }
+}

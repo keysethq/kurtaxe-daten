@@ -82,7 +82,7 @@ export function kurtaxe(rules, stay) {
     ...(rules.reduced ?? []).flatMap((/** @type {any} */ _, /** @type {number} */ group) =>
       Array.from({ length: stay.reduced?.[group] ?? 0 }, () => `r${group}`),
     ),
-    ...stay.children.flatMap((count, band) => Array.from({ length: count ?? 0 }, () => band)).reverse(),
+    ...stay.children.flatMap((count, band) => Array.from({ length: count ?? 0 }, () => band)).toReversed(),
   ]
   const owed = people.map(() => 0)
   /** @type {Map<string, { label: string, days: number | null, perDay: number, amount: number }>} */
@@ -344,7 +344,7 @@ function wire(form) {
 }
 
 if (typeof document !== 'undefined')
-  for (const form of document.querySelectorAll('form[data-kurtaxe]')) wire(/** @type {HTMLFormElement} */ (form))
+  for (const form of document.querySelectorAll('form[data-kurtaxe]')) if (form instanceof HTMLFormElement) wire(form)
 
 // Framed on a host's own website (/kurtaxe/<ort>/rechner/): tell the framing page how tall the calculator is, so the
 // code it pasted can fit its iframe without a scrollbar. Only that number leaves, and only to the framing window.

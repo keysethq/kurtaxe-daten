@@ -1,0 +1,233 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "dornstetten",
+  "name": "Dornstetten",
+  "short": "Dornstetten",
+  "ags": "08237019",
+  "state": "Baden-Württemberg",
+  "district": "Freudenstadt",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Dornstetten vom 03.11.2020",
+      "url": "https://www.dornstetten.de/tools/downloads/?archiv=117",
+      "kind": "municipality",
+      "inForce": "2021-01-01",
+      "sha256": "dbf27ec42007ac7b5a5a7cd4b98d7af9c0eb89c03d2b85e6b94c97402726d631",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Dornstetten vom 07.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.dornstetten.de/tools/downloads/?archiv=988",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "6c2a6455c4f07867ff36a0310b22343f74a1e054e8306921a1d7443a601ffd21",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 130,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,30 €.",
+          "next": {
+            "cents": 180,
+            "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,80 €.",
+            "source": "satzung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 18. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Gäste, die nicht länger als einen Tag bleiben (Tagesgäste)",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Tagesgäste)."
+      },
+      {
+        "text": "Wer in Dornstetten arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden, keine Kureinrichtungen nutzen und keinen Zweitwohnsitz angemeldet haben",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen und die keinen Zweitwohnsitz angemeldet haben."
+      },
+      {
+        "text": "Einwohner der Partnerstadt",
+        "quote": "Einwohner der Partnerstadt."
+      },
+      {
+        "text": "Kranke, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke, so lange sie nicht in der Lage sind (z.B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Menschen mit einer Behinderung von mindestens 80 Prozent, mit ärztlicher oder amtlicher Bescheinigung",
+        "quote": "Personen mit mindestens 80 v.H. Behinderung, die diese mit ärztlicher oder amtlicher Bescheinigung nachweisen."
+      },
+      {
+        "text": "Auf Antrag Gäste, die sich aus beruflichen Gründen zu Tagungen oder anderen Veranstaltungen in Dornstetten aufhalten",
+        "quote": "Auf Antrag werden Personen nach § 2 Abs. 2, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, von der Kurtaxe befreit."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Anträge auf Befreiung müssen spätestens am Abreisetag bei der Stadt sein.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Kurtaxepflichtige Einwohner nach § 2 Abs. 2 Satz 1 zahlen eine pauschale Jahreskurtaxe von 36 Euro je Person, unabhängig von der Dauer und Häufigkeit des Aufenthalts.",
+        "quote": "Kurtaxepflichtige Einwohner der Gemeinde nach § 2 Abs. 2 Satz 1 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 36,00 €/Jahr."
+      },
+      {
+        "text": "Für Jahrescamper sind es 36 Euro im Jahr, für Halbjahrescamper 18 Euro.",
+        "quote": "Für Jahrescamper werden je Person 36,00 € / Jahr Jahreskurtaxe, für Halbjahrescamper (nach § 7 Abs. 1) je Person 18,00 € / Jahr Halbjahreskurtaxe erhoben."
+      },
+      {
+        "text": "In der Kurtaxe von 1,30 Euro stecken 0,45 Euro für das KONUS-Modell, mit dem Gäste im Schwarzwald den öffentlichen Nahverkehr kostenlos nutzen; die Stadt gibt sie an die Schwarzwald Tourismus GmbH weiter.",
+        "quote": "In der Kurtaxe ist ein Anteil von 0,45 € für das Modell KONUS (Kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten, welcher an die Schwarzwald Tourismus GmbH weitergegeben wird."
+      },
+      {
+        "text": "Wer kurtaxepflichtig ist und weder nach § 4 Abs. 1 Buchstabe a, c, d, e oder f noch nach § 4 Abs. 2 befreit ist, hat Anspruch auf eine Kurkarte, die auf seinen Namen ausgestellt und nicht übertragbar ist.",
+        "quote": "Jede Person, die der Kurtaxepflicht unterliegt und nicht nach § 4 Abs. 1 Buchstaben a), c), d), e) und f) und § 4 Abs. 2 von der Entrichtung der Kurtaxe befreit ist, hat Anspruch auf eine Kurkarte. Die Kurkarte wird auf den Namen des Kurtaxepflichtigen ausgestellt und ist nicht übertragbar."
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Für die Meldung nimmst du die Vordrucke oder Verfahren, die die Stadt ausgibt.",
+        "quote": "Für die Meldung sind die von der Gemeinde ausgegebenen Vordrucke oder Verfahren zu verwenden."
+      },
+      {
+        "text": "Weigert sich ein Gast zu zahlen, meldest du ihn sofort mit Name und Adresse der Stadt.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person, die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angabe von Namen und Adresse des Kurtaxepflichtigen zu melden."
+      },
+      {
+        "text": "Ab 2027 beträgt die Kurtaxe 1,80 Euro je Person und Aufenthaltstag.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 1,80 €.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 beträgt die pauschale Jahreskurtaxe für kurtaxepflichtige Einwohner nach § 2 Abs. 2 Satz 1 48 Euro je Person, unabhängig von der Dauer und Häufigkeit des Aufenthalts.",
+        "quote": "Kurtaxepflichtige Einwohner der Gemeinde nach § 2 Abs. 2 Satz 1 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 48,00 €/Jahr.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind es für Jahrescamper 48 Euro im Jahr und für Halbjahrescamper 24 Euro.",
+        "quote": "Für Jahrescamper werden je Person 48,00 €/Jahr Jahreskurtaxe, für Halbjahrescamper (nach § 7 Abs. 1) je Person 24,00 €/Jahr Halbjahreskurtaxe erhoben.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind auch Gäste befreit, die im Baumhaus Hallwangen übernachten.",
+        "quote": "Im Baumhaus Hallwangen übernachtende Personen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 gibst du bei der Meldung die Gastkategorie an (Kind 0 bis 5 Jahre, Jugendlicher 6 bis 17 Jahre, Erwachsener ab 18 Jahren).",
+        "quote": "Gastkategorie (Kind 0-5 Jahre, Jugendlicher 6-17 Jahre, Erwachsender > 17 Jahre),",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, einen Campingplatz betreibt oder eine Ferienwohnung vermietet, zieht die Kurtaxe von den Gästen ein, führt sie an die Stadt ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Quartals führst du bis zum 10. des Monats nach dem Quartalsende ab.",
+      "quote": "Die im Laufe eines Quartals fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des dem Quartalsende folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Ab 1. Januar 2027 gilt eine neue Kurtaxesatzung mit 1,80 Euro je Person und Aufenthaltstag.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": "satzung2027"
+    },
+    "oneNight": {
+      "cents": 0,
+      "text": "Wer nicht länger als einen Tag bleibt (Tagesgäste), zahlt nichts; die Frist wird wie die Aufenthaltstage gezählt, Ankunfts- und Abreisetag zusammen sind ein Tag.",
+      "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 2 entsprechend."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/dornstetten/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 130,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 180,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "oneNight": 0,
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

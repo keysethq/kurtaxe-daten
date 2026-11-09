@@ -1,0 +1,313 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "seebach",
+  "name": "Gemeinde Seebach",
+  "short": "Seebach",
+  "ags": "08317126",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe der Gemeinde Seebach, Gemeinderat 05.12.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.seebach.de/fileadmin/Dateien/Dateien/Ortsrecht/Kurtaxesatzung_ab_01.01.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "80431423e676749c2a0b7d4a33711110ca5c554d7748db6ba4f1ffb4ca5935e6",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 2,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,00 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen (z.B. Lehrgängen) in der Gemeinde aufhalten."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Kranke und schwer behinderte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis nachweisen, unterliegen während der Dauer dieses Zustandes nicht der Kurtaxepflicht."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Teilnehmer von Schullandheimaufenthalten."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 70 sowie deren Begleitperson, wenn die Notwendigkeit durch eine amtliche oder ärztliche Bescheinigung nachgewiesen wird."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 2,
+          "reading": "Die pauschale Jahreskurtaxe beträgt je Wohngelegenheit 41,00 €"
+        },
+        {
+          "where": "remarks[1]",
+          "page": 3,
+          "reading": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden. Dies gilt unabhängig von der Kurtaxepflicht."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 4,
+          "reading": "Verlorene oder nicht mehr nachweisbare Vordrucke (Gästekarte) werden dem Meldepflichtigen (Beherbergungsbetriebe) mit einem Betrag von 20,00 € pro Vordruck in Rechnung gestellt."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die fällig gewordenen Beträge an Kurtaxe sind jeweils nach Zustellung des Kurtaxebescheides innerhalb von 14 Tagen an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe der Gemeinde Seebach, Bürgermeister 24.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.seebach.de/fileadmin/Dateien/Dateien/Ortsrecht/Kurtaxesatzung_ab_01.01.2027.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "a6eebe76a8f212e0c81ea63c0f5e7a13aaeaffb79e86b619762c67469d288534",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "periods[0].adult next",
+          "page": 2,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 €"
+        },
+        {
+          "where": "change",
+          "page": 5,
+          "reading": "Die Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die bisherige Satzung der Gemeinde Seebach über die Erhebung einer Kurtaxe vom 05.12.2024 außer Kraft."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Die pauschale Jahreskurtaxe beträgt je Wohngelegenheit 60,00 €"
+        }
+      ]
+    },
+    "fvb2027": {
+      "title": "Satzung über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitrag) der Gemeinde Seebach, Bürgermeister 24.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.seebach.de/fileadmin/Dateien/Dateien/Ortsrecht/Fremdenverkehrsbeitragssatzung_zum_01.01.2027.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "353cc3e3f6c99d209bb24b7f2651455b4b60699850d1e5d289f7cba6913de203",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "remarks[4]",
+          "page": 4,
+          "reading": "Diese Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die Satzung vom 18.12.2000 außer Kraft."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 2,
+          "reading": "Bei Beherbergungsbetrieben und Privatzimmervermietern (insbesondere Sanatorien, Kurkliniken, Kurhäuser, Kur-, Erholungs- und Kinderheime, Hotels, Gasthöfe, Fremdenheime, Hütten, private Zimmervermietung), die Wohnungen oder Zimmer vorübergehend an Fremde vermieten, bemisst sich der Beitrag für diese vorübergehende Vermietung von Wohnungen oder Zimmer an Fremde abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Bettengeld)."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 3,
+          "reading": "Im Fall des $ 3 Abs. 8 beträgt der Beitrag abweichend von Abs. 1 je Übernachtung und Person. 0,50 €."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 200,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,00 €",
+          "next": {
+            "cents": 250,
+            "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 €",
+            "source": "satzung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "Kinder und Jugendliche bis zum vollendeten 18. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist oder sich beruflich zu einer Tagung oder Veranstaltung dort aufhält",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern erhoben, die in der Gemeinde arbeiten oder in Ausbildung stehen oder sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen (z.B. Lehrgängen) in der Gemeinde aufhalten."
+      },
+      {
+        "text": "Kranke und schwer behinderte Menschen, die ihre Unterkunft nicht verlassen können, solange das so ist, mit ärztlichem Zeugnis",
+        "quote": "Kranke und schwer behinderte Personen, die nicht in der Lage sind, ihre Unterkunft zu verlassen und dies durch ärztliches Zeugnis nachweisen, unterliegen während der Dauer dieses Zustandes nicht der Kurtaxepflicht."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 70 und ihre Begleitperson, wenn die Notwendigkeit amtlich oder ärztlich bescheinigt ist",
+        "quote": "Schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von mindestens 70 sowie deren Begleitperson, wenn die Notwendigkeit durch eine amtliche oder ärztliche Bescheinigung nachgewiesen wird."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Wer als Einwohner Kurtaxe zahlen muss, zahlt statt der Tagessätze eine pauschale Jahreskurtaxe von 41 Euro je Wohngelegenheit (Wohnung, Wohnwagen oder Ähnliches).",
+        "quote": "Die pauschale Jahreskurtaxe beträgt je Wohngelegenheit 41,00 €"
+      },
+      {
+        "text": "Du meldest deine Gäste auch dann an und ab, wenn sie keine Kurtaxe zahlen.",
+        "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung als Ferienwohnung ortsfremden Personen gegen Entgelt zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden. Dies gilt unabhängig von der Kurtaxepflicht."
+      },
+      {
+        "text": "Für verlorene oder nicht mehr nachweisbare Vordrucke (Gästekarte) stellt dir die Gemeinde 20 Euro je Vordruck in Rechnung.",
+        "quote": "Verlorene oder nicht mehr nachweisbare Vordrucke (Gästekarte) werden dem Meldepflichtigen (Beherbergungsbetriebe) mit einem Betrag von 20,00 € pro Vordruck in Rechnung gestellt."
+      },
+      {
+        "text": "Ab 2027 beträgt die pauschale Jahreskurtaxe 60 Euro je Wohngelegenheit statt 41 Euro.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt je Wohngelegenheit 60,00 €",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 1. Januar 2027 gilt in Seebach eine neue Fremdenverkehrsbeitragssatzung; bis dahin gilt die Satzung vom 18.12.2000, deren Beträge hier nicht stehen.",
+        "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die Satzung vom 18.12.2000 außer Kraft.",
+        "source": "fvb2027"
+      },
+      {
+        "text": "Ab 2027 bemisst sich der Beitrag bei Beherbergungsbetrieben und Privatzimmervermietern, die Wohnungen oder Zimmer vorübergehend an Fremde vermieten, nach der Zahl der Übernachtungen (Bettengeld).",
+        "quote": "Bei Beherbergungsbetrieben und Privatzimmervermietern (insbesondere Sanatorien, Kurkliniken, Kurhäuser, Kur-, Erholungs- und Kinderheime, Hotels, Gasthöfe, Fremdenheime, Hütten, private Zimmervermietung), die Wohnungen oder Zimmer vorübergehend an Fremde vermieten, bemisst sich der Beitrag für diese vorübergehende Vermietung von Wohnungen oder Zimmer an Fremde abweichend von Abs. 2 nach der Zahl der Übernachtungen im Erhebungszeitraum (Bettengeld).",
+        "source": "fvb2027"
+      },
+      {
+        "text": "Ab 2027 beträgt das Bettengeld 0,50 Euro je Übernachtung und Person.",
+        "quote": "Im Fall des § 3 Abs. 8 beträgt der Beitrag abweichend von Abs. 1 je Übernachtung und Person. 0,50 €.",
+        "source": "fvb2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Du führst die fälligen Beträge innerhalb von 14 Tagen nach Zustellung des Kurtaxebescheids an die Gemeinde ab.",
+      "quote": "Die fällig gewordenen Beträge an Kurtaxe sind jeweils nach Zustellung des Kurtaxebescheides innerhalb von 14 Tagen an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Die Kurtaxe steigt mit der neuen Kurtaxesatzung, die ab 1. Januar 2027 gilt.",
+      "quote": "Die Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die bisherige Satzung der Gemeinde Seebach über die Erhebung einer Kurtaxe vom 05.12.2024 außer Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/seebach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 200,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 250,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

@@ -4,6 +4,28 @@
   "version": 1,
   "changes": [
     {
+      "slug": "bad-bocklet",
+      "name": "Markt Bad Bocklet",
+      "ags": "09672112",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 280,
+        "after": 290
+      },
+      "familyWeekCents": {
+        "before": 3920,
+        "after": 4060
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 03.09.2026, Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2026, S. 593 (in Kraft ab 01.01.2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-bocklet/"
+    },
+    {
       "slug": "bad-brueckenau",
       "name": "Stadt Bad Brückenau",
       "ags": "09672113",
@@ -48,6 +70,28 @@
       "url": "https://keyset.cloud/kurtaxe/bad-kissingen/"
     },
     {
+      "slug": "bad-klosterlausnitz",
+      "name": "Gemeinde Bad Klosterlausnitz",
+      "ags": "16074003",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 150,
+        "after": 200
+      },
+      "familyWeekCents": {
+        "before": 3150,
+        "after": 4200
+      },
+      "text": "Die Sätze steigen zum 1. Januar 2027 auf 2,00 € ab 16 Jahren und 1,00 € für Kinder von 6 bis 15 Jahren.",
+      "quote": "ab 01.01.2027: 2,00 €",
+      "source": {
+        "title": "Amtsblatt der Gemeinden Albersdorf, Bad Klosterlausnitz, Bobeck, Scheiditz, Schlöben, Schöngleina, Serba, Tautenhain, Waldeck, Weißenborn, Nr. 10 vom 30.06.2026: Bekanntmachung der Satzung über die Erhebung eines Kurbeitrages in der Gemeinde Bad Klosterlausnitz (Satzung vom 04.06.2026)",
+        "url": "https://bad-klosterlausnitz.de/files/1-rathaus/1-1-buergerservice/1-1-5-amtsblatt/2026/sonderblatt-06-26web.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-klosterlausnitz/"
+    },
+    {
       "slug": "bad-reichenhall",
       "name": "Stadt Bad Reichenhall",
       "ags": "09172114",
@@ -70,6 +114,28 @@
       "url": "https://keyset.cloud/kurtaxe/bad-reichenhall/"
     },
     {
+      "slug": "bad-saeckingen",
+      "name": "Stadt Bad Säckingen",
+      "ags": "08337096",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 250,
+        "after": 280
+      },
+      "familyWeekCents": {
+        "before": 5250,
+        "after": 5880
+      },
+      "text": "Ab dem 1. Januar 2027 steigt die Kurtaxe auf 2,80 € in der Kernstadt und 1,40 € in den Ortsteilen Harpolingen, Rippolingen und Wallbach.",
+      "quote": "Diese Satzung tritt zum 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung der Stadt Bad Säckingen über die Erhebung einer Kurtaxe (Kurtaxe-Satzung) vom 27.07.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.bad-saeckingen.de/fileadmin/Dateien/Website/273_Kurtaxesatzung_g%C3%BCltig_ab_01.01.2027_Signiert.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bad-saeckingen/"
+    },
+    {
       "slug": "bad-steben",
       "name": "Bad Steben",
       "ags": "09475112",
@@ -90,6 +156,50 @@
         "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
       },
       "url": "https://keyset.cloud/kurtaxe/bad-steben/"
+    },
+    {
+      "slug": "bayerisch-gmain",
+      "name": "Gemeinde Bayerisch Gmain",
+      "ags": "09172115",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 360,
+        "after": 370
+      },
+      "familyWeekCents": {
+        "before": 5040,
+        "after": 5180
+      },
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": {
+        "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 03.09.2026, Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2026, S. 593 (in Kraft ab 01.01.2027)",
+        "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/bayerisch-gmain/"
+    },
+    {
+      "slug": "dornstetten",
+      "name": "Dornstetten",
+      "ags": "08237019",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 130,
+        "after": 180
+      },
+      "familyWeekCents": {
+        "before": 1820,
+        "after": 2520
+      },
+      "text": "Ab 1. Januar 2027 gilt eine neue Kurtaxesatzung mit 1,80 Euro je Person und Aufenthaltstag.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Dornstetten vom 07.07.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.dornstetten.de/tools/downloads/?archiv=988"
+      },
+      "url": "https://keyset.cloud/kurtaxe/dornstetten/"
     },
     {
       "slug": "erfurt",
@@ -132,6 +242,28 @@
       "url": "https://keyset.cloud/kurtaxe/esens/"
     },
     {
+      "slug": "grassau",
+      "name": "Markt Grassau",
+      "ags": "09189120",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 100,
+        "after": 150
+      },
+      "familyWeekCents": {
+        "before": 2100,
+        "after": 3150
+      },
+      "text": "Das regelt die neue Kurbeitragssatzung des Marktes Grassau.",
+      "quote": "(1) Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung für die Erhebung des Kurbeitrages (KBS) des Marktes Grassau, ausgefertigt 25.02.2026 (gültig ab 01.01.2027)",
+        "url": "https://www.grassau.de/fileadmin/grassau/Buergerservice/zPDF/Rathaus/Ortsrecht_Satzungen/Beitrags-_und_Gebuehrensatzungen/Erhebung_des_Kurbeitrages_2027__gueltig_ab_01.01.2027_.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/grassau/"
+    },
+    {
       "slug": "hamburg",
       "name": "Freie und Hansestadt Hamburg",
       "ags": "02000000",
@@ -148,6 +280,28 @@
         "url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf"
       },
       "url": "https://keyset.cloud/kurtaxe/hamburg/"
+    },
+    {
+      "slug": "seebach",
+      "name": "Gemeinde Seebach",
+      "ags": "08317126",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 200,
+        "after": 250
+      },
+      "familyWeekCents": {
+        "before": 2800,
+        "after": 3500
+      },
+      "text": "Die Kurtaxe steigt mit der neuen Kurtaxesatzung, die ab 1. Januar 2027 gilt.",
+      "quote": "Die Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die bisherige Satzung der Gemeinde Seebach über die Erhebung einer Kurtaxe vom 05.12.2024 außer Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe der Gemeinde Seebach, Bürgermeister 24.07.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.seebach.de/fileadmin/Dateien/Dateien/Ortsrecht/Kurtaxesatzung_ab_01.01.2027.pdf"
+      },
+      "url": "https://keyset.cloud/kurtaxe/seebach/"
     },
     {
       "slug": "sierksdorf",
@@ -312,6 +466,116 @@
         "url": "https://www.karlsruhe.de/fileadmin/user_upload/01_Stadt_Rathaus/013_Verwaltung_und_Stadtpolitik/Stadtrecht/9_Finanzen_und_Steuern/9-9_UEbernachtungssteuer.pdf"
       },
       "url": "https://keyset.cloud/kurtaxe/karlsruhe/"
+    }
+  ],
+  "rules": [
+    {
+      "slug": "bad-lauterberg-im-harz",
+      "name": "Stadt Bad Lauterberg im Harz",
+      "ags": "03159003",
+      "from": "2027-01-01",
+      "text": "zwei Zonen mit 3,00 € für Erwachsene in Zone I (bisher 2,50 €) und 2,00 € in Zone II, den Ortsteilen Barbis, Bartolfelde und Osterhagen, die bisher frei sind.",
+      "quote": "Diese 1. Nachtragssatzung tritt am 01. Januar 2027 in Kraft.",
+      "source": {
+        "title": "1. Nachtragssatzung zur Gästebeitragssatzung GB-S vom 25.06.2026, Amtsblatt für den Landkreis Göttingen Nr. 32 vom 16.07.2026, S. 936 (in Kraft ab 01.01.2027)",
+        "url": "https://www.badlauterberg.de/downloads/datei/ZjBiMjllNzMzYjI0Y2ExNE1qYS9yTHk2bFlGNU5mZWoyUmt6dkcyY3Q2dWhNVkJyc0NxRHFKWCt2b1BSZjd1ejlaeTFESGJSd25waEZIMEtmbHpqYXFBT3RZbjl2U0xnM1A4ZjkwWnNlVGJXWlprVVhKTnhhbU11eElCaTRteHdzSFB2QUljTEs0NlI4eGZrYmdOdFROK202S2E0WllLK294Nm8rSXNzUVRtd3JXTHlpblBia1lYU3o3Zz0"
+      }
+    },
+    {
+      "slug": "furtwangen-im-schwarzwald",
+      "name": "Stadt Furtwangen im Schwarzwald",
+      "ags": "08326017",
+      "from": "2027-01-01",
+      "text": "alle Beträge gelten inklusive der gesetzlichen Mehrwertsteuer (Bruttobetrag) statt netto. Gäste meldest du innerhalb von drei Tagen nach Anreise an und drei Tage nach Abreise ab statt innerhalb von 30 Tagen, die Kurtaxe eines Monats führst du bis zum Ende des Folgemonats ab statt bis zum 10., und die Meldung läuft über das elektronische Meldeverfahren der Stadt.",
+      "quote": "Die Satzung zur Änderung der Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Furtwangen im Schwarzwald, zuletzt geändert am 23.06.2026, in Kraft ab 01.01.2027 (Ortsrecht-Seite, eingestellt 25.09.2026)",
+        "url": "https://www.furtwangen.de/fileadmin/Website/Dateien/2_Rathaus_Service/Ortsrecht/Satzung_%C3%BCber_die_Erhebung_einer_Kurtaxe__2_.pdf"
+      }
+    },
+    {
+      "slug": "lauf",
+      "name": "Gemeinde Lauf",
+      "ags": "08317068",
+      "from": "2027-01-01",
+      "text": "ganzjährig ein Satz von 1,50 € je Person und Aufenthaltstag statt 1,50 € in der Hauptsaison und 1,10 € in der Vor- und Nachsaison; Besucher aus der Partnergemeinde Xertigny werden nicht mehr als befreit genannt.",
+      "quote": "Diese Satzung tritt zum 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 21.01.2025 außer Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Lauf, Gemeinderat 29.09.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.lauf-schwarzwald.de/wp-content/uploads/KurtaxensatzungXabX01.01X.2027X.pdf_signedX.pdf"
+      }
+    },
+    {
+      "slug": "moos",
+      "name": "Gemeinde Moos",
+      "ags": "08335055",
+      "from": "2027-01-01",
+      "text": "ein eigener Satz für den Wohnmobilstellplatz von 1,40 € in der Hauptsaison und 0,90 € in der Nebensaison; die Sätze für die übrigen Gäste bleiben.",
+      "quote": "Diese Änderungssatzung tritt zum 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Änderungssatzung zur Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Moos, Gemeinderat 17.09.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.moos.de/fileadmin/Dateien/Dateien/%C3%B6ffentliche_Bekanntmachungen/%C3%84nderungssatzung_Kurtaxesatzung.pdf"
+      }
+    },
+    {
+      "slug": "oberharmersbach",
+      "name": "Gemeinde Oberharmersbach",
+      "ags": "08317088",
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € je Person und Aufenthaltstag statt der Saisonsätze; Kinder und Jugendliche von 6 bis 15 Jahren zahlen 1,00 €, Kinder bis 5 Jahre sind frei. Neu befreit sind Gäste, die nur eine Nacht bleiben (Tagesgäste), und Teilnehmer von Schullandheimaufenthalten.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 16.12.2024 mit allen späteren Änderungen außer Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Oberharmersbach vom 20.07.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.oberharmersbach.de/fileadmin/Dateien/Dateien/Konus/Kurtaxesatzung_ab_01.01.2027.pdf"
+      }
+    },
+    {
+      "slug": "sasbachwalden",
+      "name": "Gemeinde Sasbachwalden",
+      "ags": "08317118",
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € je Person und Aufenthaltstag statt 2,20 € in der Hauptsaison und 1,90 € in der Vor- und Nachsaison; Geschäftsreisende und Montagearbeiter zahlen 1,20 € statt 1,00 €, und der Satz von 0,50 € für spät anreisende Reisegruppen sowie die Befreiung von Tagungsteilnehmern für den ersten Tag entfallen.",
+      "quote": "Diese Satzung tritt am 1. Januar 2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 20.11.2024 außer Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Sasbachwalden vom 22.07.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.gemeinde-sasbachwalden.de/content/download/17152/120519/version/1/file/Kurtaxesatzung+22.07.2026.pdf"
+      }
+    },
+    {
+      "slug": "schramberg",
+      "name": "Schramberg",
+      "ags": "08325053",
+      "from": "2027-01-01",
+      "text": "2,60 € je Person und Aufenthaltstag; frei sind nur noch Kinder bis einschließlich 5 Jahre, auf Antrag zahlen 1,50 € Kinder von 6 bis 17 Jahren, Teilnehmer von Schullandheimaufenthalten (bisher befreit), Tagungsteilnehmer, Monteure und Gäste mit geringem Einkommen, und die Ermäßigung für Gäste, die nur einen Tag bleiben, entfällt.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Öffentliche Bekanntmachung: Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Großen Kreisstadt Schramberg, Gemeinderat 02.07.2026, ausgefertigt und bekanntgemacht am 05.10.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.schramberg.de/de-wAssets/docs/aktuelles/oeffentliche-bekanntmachungen/2026/05.10.2026-Oeffentliche-Bekanntmachung-ueber-die-Erhebung-einer-Kurtaxe-Kurtaxesatzung.pdf"
+      }
+    },
+    {
+      "slug": "todtmoos",
+      "name": "Todtmoos",
+      "ags": "08337108",
+      "from": "2027-01-01",
+      "text": "eine neue Satzung mit 3,20 € ab 16 Jahren und 1,60 € für Kinder von 10 bis 15 Jahren; frei sind dann nur noch Kinder unter 10.",
+      "quote": "Diese Neufassung der Kurtaxesatzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Todtmoos, Neufassung vom Gemeinderat beschlossen am 15.09.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.todtmoos.net/de/bekanntmachungen/?file=65&id=60"
+      }
+    },
+    {
+      "slug": "zell-am-harmersbach",
+      "name": "Zell am Harmersbach",
+      "ags": "08317146",
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € statt der Saisonsätze; Kinder und Jugendliche von 6 bis 15 Jahren zahlen 1,00 €, Kinder bis einschließlich 5 Jahre sind befreit. Neu befreit sind Tagesgäste (wer nur eine Nacht bleibt, zahlt nichts) und Teilnehmer von Schullandheimaufenthalten, und die Begleitperson einer Person mit Grad der Behinderung ab 80 ist befreit statt ermäßigt.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft.",
+      "source": {
+        "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung – KTS) der Stadt Zell am Harmersbach, Gemeinderat 21.09.2026, bekanntgemacht am 24.09.2026, in Kraft ab 01.01.2027",
+        "url": "https://www.zell.de/site/Zell2016/get/documents_E-1733025892/zell/Dateien/%C3%96ffentliche%20Bekanntmachungen/2026/26-09-24%20Bekanntmachung%20Kurtaxesatzung%20-%20signiert.pdf"
+      }
     }
   ]
 }

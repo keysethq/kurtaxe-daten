@@ -1,0 +1,327 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "bad-bocklet",
+  "name": "Markt Bad Bocklet",
+  "short": "Bad Bocklet",
+  "ags": "09672112",
+  "state": "Bayern",
+  "district": "Bad Kissingen",
+  "sources": {
+    "satzung": {
+      "title": "Verordnung über die Erhebung der Kurtaxe (Kurtax-Verordnung – KurtaxV) vom 02.09.2013 (GVBl. S. 582), Fassung mit Anlage 2 nach der Verordnung vom 24.07.2024 (GVBl. S. 391), bayerische Rechtsdatenbank",
+      "url": "https://www.gesetze-bayern.de/Content/Pdf/BayKurtaxV?all=True",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "hashOf": "text",
+      "sha256": "c1672f505caa09ef15fa02cec173a7a7905a7dd86b8b63beb34ba4abe9cb0b54",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "aenderung2027": {
+      "title": "Verordnung zur Änderung der Kurtax-Verordnung vom 03.09.2026, Bayerisches Gesetz- und Verordnungsblatt Nr. 18/2026, S. 593 (in Kraft ab 01.01.2027)",
+      "url": "https://www.verkuendung-bayern.de/files/gvbl/2026/18/gvbl-2026-18.pdf",
+      "kind": "gazette",
+      "inForce": "2027-01-01",
+      "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Fremdenverkehrsbeitrages (Fremdenverkehrsbeitragssatzung – FBS) des Marktes Bad Bocklet vom 09.11.2000",
+      "url": "https://badbocklet.de/wp-content/uploads/satzung-ueber-die-erhebung-eines-fremdenverkehrsbeitrages-vom-09112000.pdf",
+      "kind": "municipality",
+      "inForce": "2001-01-01",
+      "sha256": "c4d3c805d2d87544d7deb6dff3659daeb896f67aa36e7c05b8373440ae5e4a4b",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "fvbAenderung": {
+      "title": "Satzung zur Änderung der Fremdenverkehrsbeitragssatzung des Marktes Bad Bocklet vom 08.12.2004",
+      "url": "https://badbocklet.de/wp-content/uploads/satzung-zur-aenderung-der-satzung-ueber-die-erhebung-eines-fremdenverkehrsbeitrages-vom-08122004.pdf",
+      "kind": "municipality",
+      "inForce": "2005-01-01",
+      "sha256": "2796e7cb3c9e127268d77e10dc2a2b845a2642ddae172bde7588f15419efd870",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Kurtaxe für den Abreisetag ist mit der Kurtaxe für den Anreisetag abgegolten."
+    },
+    "area": {
+      "text": "Die Kurtaxe gilt im Kurbezirk, also im ganzen Markt Bad Bocklet außer im Gemeindeteil Nickersfelden.",
+      "quote": "Der Kurbezirk umfasst das Gebiet des Markts Bad Bocklet, ausgenommen den Gemeindeteil Nickersfelden."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 280,
+          "quote": "5. Bad Bocklet: 5.1 Normalsatz 2,80",
+          "next": {
+            "cents": 290,
+            "quote": "5. Bad Bocklet: 5.1 Normalsatz 2,90",
+            "source": "aenderung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 18,
+            "cents": 0,
+            "quote": "2. Personen bis zur Vollendung ihres 18. Lebensjahres,"
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 42,
+      "perStay": false,
+      "text": "höchstens 42 Tage je Kalenderjahr",
+      "quote": "Die Kurtaxe wird nach der Anzahl der Aufenthaltstage berechnet, längstens jedoch für 42 Tage im Kalenderjahr."
+    },
+    "exemptions": [
+      {
+        "text": "Personen bis zur Vollendung des 18. Lebensjahres",
+        "quote": "2. Personen bis zur Vollendung ihres 18. Lebensjahres,"
+      },
+      {
+        "text": "Kranke, die ihre Unterkunft nicht verlassen können, mit ärztlichem Attest",
+        "quote": "Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen,"
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut Ausweis auf ständige Begleitung angewiesen sind",
+        "quote": "Begleitpersonen von Schwerbehinderten, welche laut amtlichem Ausweis auf ständige Begleitung angewiesen sind,"
+      },
+      {
+        "text": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis 25 für die Dauer der Bildungsmaßnahme",
+        "quote": "Auszubildende in anerkannten Ausbildungsberufen und Praktikanten bis zur Vollendung ihres 25."
+      },
+      {
+        "text": "Personen, denen wegen einer Bedrohung (zum Beispiel häusliche Gewalt, Obdachlosigkeit, Naturkatastrophe) vorübergehend Unterkunft gewährt wird; ob dafür eine Bescheinigung der Sicherheitsbehörde nötig ist, liegt im Ermessen der Staatsbad und Touristik Bad Bocklet GmbH.",
+        "quote": "Personen, denen zum Schutz ihrer körperlichen Unversehrtheit, insbesondere bei Bedrohung infolge häuslicher Gewalt, Obdachlosigkeit oder von Naturkatastrophen, vorübergehend Unterkunft gewährt und denen die Bedrohungslage durch eine Bescheinigung der zuständigen Sicherheitsbehörde bestätigt wird. Das Erfordernis einer Bescheinigung der zuständigen Sicherheitsbehörde steht im Ermessen der Erhebungsberechtigten."
+      },
+      {
+        "text": "Wer unentgeltlich aus rein familiärem Anlass bei Verwandten wohnt",
+        "quote": "Unterkunft im vorgenannten Sinn nimmt nicht, wer ohne Zahlung eines Entgelts aus rein familiärem Anlass bei Verwandten wohnt."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird die Kurtaxe nicht vom Markt, sondern von der Staatsbad und Touristik Bad Bocklet GmbH; sie beruht auf einer Verordnung des Freistaats.",
+        "quote": "im Staatsbad Bad Bocklet von der Staatsbad und Touristik Bad Bocklet GmbH,"
+      },
+      {
+        "text": "Bis 31. Dezember 2026 zahlen Menschen mit einem Grad der Behinderung ab 50 2,30 €; Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,40 €.",
+        "quote": "5.2 Gäste gemäß § 4 Abs. 2 Nr. 1 2,30 5.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,40"
+      },
+      {
+        "text": "Ermäßigt wird die Kurtaxe für Schwerbehinderte mit einem Grad der Behinderung von mindestens 50, wenn sie den Behindertenausweis vorlegen, für Tagungs- und Seminargäste bei beruflich veranlassten, organisierten Tagungen, deren Unterkunft der Veranstalter bucht oder fest reserviert, und für Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurbezirk aufhalten.",
+        "quote": "Die Kurtaxe wird ermäßigt für 1. Schwerbehinderte mit einem Grad der Behinderung von wenigstens 50, sofern sie den Behindertenausweis vorlegen. Die nach § 7 Abs. 1 Verpflichteten haben eine Ablichtung des Behindertenausweises oder Aufzeichnungen über die Ausweisnummer, das Gültigkeitsdatum und die ausstellende Behörde des Behindertenausweises zu den Unterlagen zu nehmen; 2. Tagungs- und Seminargäste, die an geschäftsmäßig organisierten, gruppenmäßig abgewickelten und beruflich veranlassten Tagungen und Seminaren teilnehmen, wenn ihre Unterkunft vom Veranstalter der Tagung oder des Seminars gebucht oder zu festen Konditionen reserviert wird. Der Erhebungsberechtigten sind auf Verlangen das Tagungs- oder Seminar-Programm und die Namen der die Ermäßigung in Anspruch nehmenden Teilnehmer sowie deren Unterkunft im Kurbezirk vorzulegen. Die Erhebungsberechtigte kann ergänzende Nachweise verlangen; 3. Personen, die sich ausschließlich aus Anlass ihrer Berufsausübung im Kurbezirk aufhalten."
+      },
+      {
+        "text": "Die Umsatzsteuer ist in der Kurtaxe enthalten.",
+        "quote": "Höhe der Kurtaxe (einschließlich Umsatzsteuer) in den bayerischen Staatsbädern"
+      },
+      {
+        "text": "Die Gästekarte erstellst oder gibst du jedem kurtaxpflichtigen Gast aus.",
+        "quote": "jeder kurtaxpflichtigen Person eine Gastkarte zu erstellen oder, soweit die Erhebungsberechtigte die Gastkarten selbst erstellt, eine Gastkarte auszuhändigen"
+      },
+      {
+        "text": "Die Staatsbad GmbH kann zulassen, dass du die Kurtaxe erst am Monatsende abführst.",
+        "quote": "Die Erhebungsberechtigte kann zulassen, dass die Kurtaxe erst am Monatsende abgeführt wird."
+      },
+      {
+        "text": "Ab 1. Januar 2027 zahlen Menschen mit einem Grad der Behinderung ab 50 2,40 € statt 2,30 €. Tagungs- und Seminargäste sowie Gäste, die nur beruflich hier sind, zahlen 1,45 € statt 1,40 €.",
+        "quote": "5.2 Gäste gemäß § 4 Abs. 2 Nr. 1 2,40 5.3 Gäste gemäß § 4 Abs. 2 Nr. 2 und 3 1,45",
+        "source": "aenderung2027"
+      },
+      {
+        "text": "Hast du mehr als neun Betten, ist die elektronische Übermittlung Pflicht; auf Antrag kann bei unbilliger Härte darauf verzichtet werden.",
+        "quote": "Soweit der Betrieb des Vermieters über mehr als neun Betten verfügt, ist die Übermittlung auf elektronischem Weg verpflichtend; auf Antrag kann die Erhebungsberechtigte zur Vermeidung von unbilligen Härten auf eine elektronische Übermittlung verzichten."
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "text": "Das regelt die Änderung der bayerischen Kurtaxverordnung vom 3. September 2026.",
+      "quote": "Diese Verordnung tritt am 1. Januar 2027 in Kraft.",
+      "source": "aenderung2027"
+    },
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, behält die Kurtaxe ein und führt sie ab.",
+      "quote": "Die nach Abs. 1 Verpflichteten haben die Kurtaxe einzubehalten und an die Erhebungsberechtigte abzuführen."
+    },
+    "deadline": {
+      "text": "Abgeführt wird spätestens einen Tag nach der Abreise des Gastes.",
+      "quote": "Die Abführung ist spätestens einen Tag nach der Abreise der kurtaxpflichtigen Person vorzunehmen."
+    },
+    "reporting": {
+      "text": "Die Gästedaten übermittelst du spätestens am dritten Werktag nach der Ankunft elektronisch oder legst die Meldescheine in den Geschäftsräumen vor.",
+      "quote": "der Erhebungsberechtigten spätestens am dritten Werktag nach deren Eintreffen im Kurbezirk auf elektronischem Wege zu übermitteln bzw. die Meldescheine oder das elektronische Handgerät in den Geschäftsräumen der Erhebungsberechtigten vorzulegen."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "businessLevy": {
+    "name": "Fremdenverkehrsbeitrag",
+    "source": "fvb",
+    "payer": {
+      "text": "Zahlen musst du, wenn du im Markt Bad Bocklet selbständig tätig bist und dir der Fremdenverkehr oder der Kurbetrieb besondere wirtschaftliche Vorteile bringt.",
+      "quote": "Von allen juristischen und natürlichen Personen, die eine selbstständige Tätigkeit ausüben und denen im Markt Bad Bocklet (nachfolgend „Gemeinde“ genannt) aus dem Fremdenverkehr oder dem Kurbetrieb unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Fremdenverkehrsbeitrag erhoben."
+    },
+    "letting": [
+      {
+        "label": "Übernachtungsbeitrag je Person und Übernachtung, Kurbezirk I (Gemeindeteil Bad Bocklet)",
+        "quote": "In § 5 Abs. 2 werden die Beträge „1,50 DM“ durch „0,80 €“ und „1,00 DM“ durch „0,55 €“ ersetzt.",
+        "source": "fvbAenderung",
+        "perNight": {
+          "cents": 80,
+          "perGuest": true
+        }
+      },
+      {
+        "label": "Übernachtungsbeitrag je Person und Übernachtung, Kurbezirk II (alle anderen Gemeindeteile)",
+        "quote": "In § 5 Abs. 2 werden die Beträge „1,50 DM“ durch „0,80 €“ und „1,00 DM“ durch „0,55 €“ ersetzt.",
+        "source": "fvbAenderung",
+        "perNight": {
+          "cents": 55,
+          "perGuest": true
+        }
+      }
+    ],
+    "deadline": {
+      "text": "Der Übernachtungsbeitrag ist einen Monat nach Bekanntgabe des Bescheids fällig.",
+      "quote": "Bei dem Übernachtungsbeitrag (§ 3 Abs. 4) innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides."
+    },
+    "reporting": {
+      "text": "Du teilst dem Markt die Übernachtungszahlen deiner zahlenden Gäste mit; das kann zusammen mit der Meldung für die Kurtaxe geschehen.",
+      "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die Übernachtungszahlen der bei ihnen gegen Entgelt beherbergten Personen der Gemeinde mitzuteilen. Die Meldung kann mit der Meldung nach § 7 der Kurtaxordnung in der jeweils geltenden Fassung verbunden werden."
+    },
+    "exemptions": [
+      {
+        "text": "Für Patienten in stationärer Anschlussheilbehandlung wird kein Übernachtungsbeitrag erhoben.",
+        "quote": "Der Übernachtungsbeitrag wird nicht erhoben für a) Patienten in stationärer Anschlussheilbehandlung,",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Für Kranke, die ihre Unterkunft nicht verlassen können, wird mit ärztlichem Attest kein Übernachtungsbeitrag erhoben.",
+        "quote": "Der Übernachtungsbeitrag wird nicht erhoben für a) Patienten in stationärer Anschlussheilbehandlung, b) Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen,",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Für Begleitpersonen von Schwerbehinderten, die laut Ausweis auf ständige Begleitung angewiesen sind, wird kein Übernachtungsbeitrag erhoben.",
+        "quote": "Der Übernachtungsbeitrag wird nicht erhoben für a) Patienten in stationärer Anschlussheilbehandlung, b) Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen, c) Begleitpersonen von Schwerbehinderten, die lt. Amtlichen Ausweis auf ständige Begleitung angewiesen sind,",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Für Kinder bis zum vollendeten 16. Lebensjahr in Begleitung von Familienangehörigen wird kein Übernachtungsbeitrag erhoben.",
+        "quote": "Der Übernachtungsbeitrag wird nicht erhoben für a) Patienten in stationärer Anschlussheilbehandlung, b) Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen, c) Begleitpersonen von Schwerbehinderten, die lt. Amtlichen Ausweis auf ständige Begleitung angewiesen sind, d) Kinder bis zum vollendeten 16. Lebensjahr in Begleitung von Familienangehörigen,",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Für Personen, die nur eine Nacht bleiben, wird kein Übernachtungsbeitrag erhoben.",
+        "quote": "Der Übernachtungsbeitrag wird nicht erhoben für a) Patienten in stationärer Anschlussheilbehandlung, b) Kranke, die ihre Unterkunft nicht verlassen können und für die Dauer der physischen Verhinderung ein ärztliches Attest vorlegen, c) Begleitpersonen von Schwerbehinderten, die lt. Amtlichen Ausweis auf ständige Begleitung angewiesen sind, d) Kinder bis zum vollendeten 16. Lebensjahr in Begleitung von Familienangehörigen, e) Personen bei nur einer Übernachtung.",
+        "source": "fvbAenderung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurbezirk I ist der Gemeindeteil Bad Bocklet, zum Kurbezirk II gehören alle anderen Gemeindeteile; das ist die Einteilung dieser Satzung und nicht die der Kurtaxe.",
+        "quote": "Kurbezirk I ist der Gemeindeteil Bad Bocklet. Zum Kurbezirk II gehören alle anderen Gemeindeteile."
+      },
+      {
+        "text": "Die Satzung von 2000 nannte als Übernachtungsbeitrag je Person und Übernachtung 1,50 DM für Kurbezirk I und 1,00 DM für Kurbezirk II; die Änderung von 2004 hat diese Beträge durch die Euro-Beträge oben ersetzt.",
+        "quote": "Der Übernachtungsbeitrag beträgt für Beherbergungsbetriebe des Kurbezirks I 1,50 DM des Kurbezirks II 1,00 DM je Person und Übernachtung."
+      },
+      {
+        "text": "Beherbergungsbetriebe aller Art und Privatbeherberger werden nach der Zahl der Übernachtungen veranlagt.",
+        "quote": "Beherbergungsbetriebe aller Art einschließlich Sanatorien, Kurkliniken, Kur- und Krankenheime und –Anstalten sowie Privatbeherberger, die Einnahmen aus Unterkunft und gegebenenfalls Frühstücksverpflegung ihrer Übernachtungsgäste haben, werden nicht nach Absatz 2, sondern nach der Zahl der Übernachtungen veranlagt."
+      },
+      {
+        "text": "Die Gemeinde hat die verwaltungsmäßige Einziehung des Übernachtungsbeitrags auf die Staatsbad und Touristik Bad Bocklet GmbH übertragen.",
+        "quote": "Die verwaltungsmäßige Einziehung des Fremdenverkehrsbeitrages für den in § 3 Abs. 4 genannten Personenkreis (Übernachtungsbeitrag der Beherbergungsbetriebe) wird auf die Staatsbad- und Touristik Bad Bocklet GmbH übertragen."
+      },
+      {
+        "text": "Schwerbehinderte mit einem Grad der Behinderung ab 50 gegen Ausweis sowie Tagungs- und Seminargäste zahlen 0,55 € im Kurbezirk I und 0,40 € im Kurbezirk II.",
+        "quote": "Der Übernachtungsbeitrag beträgt für a) Schwerbehinderte mit einem Grad der Behinderung von mindestens 50 % unter Vorlage des Schwerbehindertenausweises, b) für Tagungs- und Seminargäste“ 0,55 € für den Kurbezirk I und 0,40 € für den Kurbezirk II.",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Der Übernachtungsbeitrag wird durch schriftlichen Bescheid angefordert, gegebenenfalls zusammen mit der Kurtaxe.",
+        "quote": "Für die nach § 3 Abs. 4 veranlagten Beitragspflichtigen wird der Übernachtungsbeitrag jeweils 14-tägig – ggf. zusammen mit der Kurtaxe – durch schriftlichen Bescheid angefordert.",
+        "source": "fvb"
+      },
+      {
+        "text": "Mit der Änderung von 2004 wird er monatlich statt 14-tägig angefordert.",
+        "quote": "7) In § 10 Abs. 2 wird das Wort „14-tägig“ durch „monatlich“ ersetzt.",
+        "source": "fvbAenderung"
+      },
+      {
+        "text": "Wo der Beitrag nach einem Messbetrag bemessen wird, beträgt er 6 Prozent dieses Messbetrags.",
+        "quote": "Der Beitrag beträgt 6 v. H. des Messbetrages nach § 4 Abs. 1."
+      }
+    ]
+  },
+  "url": "https://keyset.cloud/kurtaxe/bad-bocklet/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 42,
+    "maxPerStay": false,
+    "childLimits": [
+      18
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 280,
+        "children": [
+          0
+        ],
+        "next": {
+          "adult": 290,
+          "children": [
+            0
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

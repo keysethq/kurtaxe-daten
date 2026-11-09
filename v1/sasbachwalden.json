@@ -1,0 +1,521 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "sasbachwalden",
+  "name": "Gemeinde Sasbachwalden",
+  "short": "Sasbachwalden",
+  "ags": "08317118",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Sasbachwalden vom 20.11.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.gemeinde-sasbachwalden.de/content/download/15596/106801/version/1/file/Kurtaxesatzung+20.11.2024.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "8f00564b95e50c30590c3f9a262b8c2e94fc18d126ccba621b8f3398f8cfeb3e",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag (a) in der Hauptsaison 2,20 Euro (b) in der Vor- und Nachsaison 1,90 Euro"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 15. Lebensjahr"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag (a) in der Hauptsaison 2,20 Euro (b) in der Vor- und Nachsaison 1,90 Euro"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 15. Lebensjahr"
+        },
+        {
+          "where": "reduced[0]",
+          "page": 2,
+          "reading": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,00 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)"
+        },
+        {
+          "where": "reduced[0].rates[0]",
+          "page": 2,
+          "reading": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,00 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)"
+        },
+        {
+          "where": "reduced[0].rates[1]",
+          "page": 2,
+          "reading": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,00 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)"
+        },
+        {
+          "where": "reduced[1]",
+          "page": 2,
+          "reading": "Für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v. H., wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt."
+        },
+        {
+          "where": "reduced[1] onApplication",
+          "page": 2,
+          "reading": "Für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v. H., wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt $ 3 Abs. 3 entsprechend. Dies gilt nicht für die Nutzer des Wohnmobil-Stellplatzes."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 2,
+          "reading": "Teilnehmer von Schullandheimaufenthalten."
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 2,
+          "reading": "Besucher aus der Partnergemeinde Villie-Morgon."
+        },
+        {
+          "where": "exemptions[5]",
+          "page": 2,
+          "reading": "Schwerbehinderte, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen. Der Nachweis ist spätestens am Tag der Abreise der Gemeinde vorzulegen."
+        },
+        {
+          "where": "exemptions[6]",
+          "page": 2,
+          "reading": "Begleitpersonen von Schwerbehinderten gemäß Abs. 1 Nr. b) wenn die Notwendigkeit einer Begleitperson durch eine amtliche Bescheinigung nachgewiesen wird. Als solche gilt das \"B\" im Schwerbehindertenausweis der zu begleitenden Person."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Hauptsaison umfasst den Zeitraum vom 01. April bis 31. Oktober; die Vor- und Nachsaison den Zeitraum vom 01. Januar bis 31. März und vom 01. November bis 31. Dezember."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Reisegruppen, die nach 20:00 Uhr anreisen und vor 9:00 Uhr am Folgetag abreisen, auf 0,50 Euro pro Person und Nacht."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Auf Antrag werden Personen nach $ 2 Abs. 2, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für den ersten Tag des Aufenthalts von der Kurtaxe befreit."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 1,
+          "reading": "Diese beträgt, unabhängig davon wie viele Personen (Einwohner) die Wohnung oder den Wohnwagen tatsächlich innehaben, 50,00 Euro."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 2,
+          "reading": "In der Kurtaxe ist ein Anteil von 0,50 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten, der an die Schwarzwald Tourismus GmbH weitergegeben wird."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 3,
+          "reading": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren mit den unentgeltlichen Druckvorlagen zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und nach Aufforderung durch die Gemeinde innerhalb von 14 Tagen an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Sasbachwalden vom 22.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.gemeinde-sasbachwalden.de/content/download/17152/120519/version/1/file/Kurtaxesatzung+22.07.2026.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "13f077d1a82e4a1fbf2f070b670a87e90d05a23911e481bc1c0e90f65d2b2370",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "newRules",
+          "page": 5,
+          "reading": "Diese Satzung tritt am 1. Januar 2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 20.11.2024 außer Kraft."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 Euro"
+        },
+        {
+          "where": "remarks[8]",
+          "page": 2,
+          "reading": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,20 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)"
+        },
+        {
+          "where": "remarks[9]",
+          "page": 2,
+          "reading": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+        }
+      ]
+    },
+    "fvb": {
+      "title": "Satzung über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung - FBS) der Gemeinde Sasbachwalden vom 29.06.2011",
+      "url": "https://www.gemeinde-sasbachwalden.de/content/download/5240/42072/version/1/file/Fremdenverkehrsbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2011-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "b1f694f8037259191ca231080432dd8e61e8689be077d102a3086b1897c9c17e",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "remarks[10]",
+          "page": 1,
+          "reading": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben."
+        },
+        {
+          "where": "remarks[11]",
+          "page": 1,
+          "reading": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Fremdenbetten zu Beginn des Erhebungszeitraums (Bettengeld)."
+        },
+        {
+          "where": "remarks[12]",
+          "page": 2,
+          "reading": "Für die in $ 3 Abs. 4 genannten Personen beträgt der Beitrag abweichend von Abs. 1 je Fremdenbett 30,00 Euro. Bei mehr als 2 Betten pro Wohnung beträgt der Beitrag für die übersteigende Bettzahl 15,00 Euro je Bett."
+        },
+        {
+          "where": "remarks[13]",
+          "page": 3,
+          "reading": "Beitragspflichtige nach 8 3 Abs. 4 haben die von ihnen zu Beginn des Erhebungszeitraumes vorgehaltene Zahl der Fremdenbetten der Gemeinde bis zum 31.03. schriftlich zu melden. Die Meldung kann unterbleiben, wenn die Zahl der Fremdenbetten gegenüber dem vorhergegangenen Erhebungszeitraum unverändert geblieben ist."
+        },
+        {
+          "where": "remarks[14]",
+          "page": 2,
+          "reading": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
+        },
+        {
+          "where": "remarks[15]",
+          "page": 2,
+          "reading": "Der Beitrag nach 8 4 Abs. 1 beträgt 4,5 v. H. des Messbetrags. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 Euro beträgt."
+        },
+        {
+          "where": "remarks[16]",
+          "page": 3,
+          "reading": "Der Beitragspflichtige hat am 15. Mai und 15. November jeden Jahres eine Vorauszahlung auf seine Beitragsschuld zu entrichten."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 220,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag (a) in der Hauptsaison 2,20 Euro (b) in der Vor- und Nachsaison 1,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "03-31"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 190,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag (a) in der Hauptsaison 2,20 Euro (b) in der Vor- und Nachsaison 1,90 Euro"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 15. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      },
+      {
+        "text": "Gäste, die nicht länger als einen Tag bleiben (Tagesgäste), also nur eine Nacht; das gilt nicht für die Nutzer des Wohnmobil-Stellplatzes",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 3 entsprechend. Dies gilt nicht für die Nutzer des Wohnmobil-Stellplatzes."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Teilnehmer von Schullandheimaufenthalten",
+        "quote": "Teilnehmer von Schullandheimaufenthalten."
+      },
+      {
+        "text": "Besucher aus der Partnergemeinde Villié-Morgon",
+        "quote": "Besucher aus der Partnergemeinde Villié-Morgon."
+      },
+      {
+        "text": "Schwerbehinderte, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis, das spätestens am Abreisetag vorliegen muss",
+        "quote": "Schwerbehinderte, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen. Der Nachweis ist spätestens am Tag der Abreise der Gemeinde vorzulegen."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbehinderten (Merkzeichen „B“), wenn die Notwendigkeit amtlich bescheinigt ist",
+        "quote": "Begleitpersonen von Schwerbehinderten gemäß Abs. 1 Nr. b) wenn die Notwendigkeit einer Begleitperson durch eine amtliche Bescheinigung nachgewiesen wird. Als solche gilt das „B“ im Schwerbehindertenausweis der zu begleitenden Person."
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Geschäftsreisende und Montagearbeiter",
+        "quote": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,00 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)",
+        "rates": [
+          {
+            "cents": 100
+          },
+          {
+            "cents": 100
+          }
+        ]
+      },
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "quote": "Für schwerbehinderte Personen mit einem Grad der Behinderung von mindestens 50 v. H., wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt.",
+        "onApplication": true,
+        "percentOff": 50
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison dauert vom 1. April bis 31. Oktober, die Vor- und Nachsaison vom 1. Januar bis 31. März und vom 1. November bis 31. Dezember.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01. April bis 31. Oktober; die Vor- und Nachsaison den Zeitraum vom 01. Januar bis 31. März und vom 01. November bis 31. Dezember."
+      },
+      {
+        "text": "Reisegruppen, die nach 20:00 Uhr anreisen und vor 9:00 Uhr am Folgetag abreisen, zahlen 0,50 Euro je Person und Nacht.",
+        "quote": "Reisegruppen, die nach 20:00 Uhr anreisen und vor 9:00 Uhr am Folgetag abreisen, auf 0,50 Euro pro Person und Nacht."
+      },
+      {
+        "text": "Auf Antrag sind Teilnehmer an beruflichen Tagungen und Veranstaltungen für den ersten Tag des Aufenthalts befreit.",
+        "quote": "Auf Antrag werden Personen nach § 2 Abs. 2, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für den ersten Tag des Aufenthalts von der Kurtaxe befreit."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung müssen spätestens am Abreisetag bei der Gemeinde sein.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt in einer anderen Gemeinde haben, zahlen statt der Tagessätze eine pauschale Jahreskurtaxe von 50 Euro je Wohnung oder Wohnwagen.",
+        "quote": "Diese beträgt, unabhängig davon wie viele Personen (Einwohner) die Wohnung oder den Wohnwagen tatsächlich innehaben, 50,00 Euro."
+      },
+      {
+        "text": "In der Kurtaxe ist ein Anteil von 0,50 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten.",
+        "quote": "In der Kurtaxe ist ein Anteil von 0,50 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten, der an die Schwarzwald Tourismus GmbH weitergegeben wird."
+      },
+      {
+        "text": "Für die Meldung nutzt du das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren mit den unentgeltlichen Druckvorlagen zu verwenden."
+      },
+      {
+        "text": "Ab 2027 beträgt die Kurtaxe das ganze Jahr 2,50 Euro je Person und Aufenthaltstag; die Vor- und Nachsaison fällt weg.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 Euro",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen Geschäftsreisende und Montagearbeiter 1,20 Euro je Person und Nacht.",
+        "quote": "Personen, die in der Gemeinde Sasbachwalden übernachten und beruflich außerhalb der Gemeinde tätig sind, 1,20 Euro pro Person und Nacht (Geschäftsreisende und Montagearbeiter)",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr weiterhin befreit.",
+        "quote": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Den Fremdenverkehrsbeitrag zahlst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Sasbachwalden besondere wirtschaftliche Vorteile bringt.",
+        "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben.",
+        "source": "fvb"
+      },
+      {
+        "text": "Privatzimmervermieter, die nur Wohnungen oder Zimmer vorübergehend an Gäste vermieten (mit oder ohne Frühstück), zahlen den Fremdenverkehrsbeitrag nach der Zahl der Fremdenbetten zu Beginn des Jahres (Bettengeld).",
+        "quote": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Fremdenbetten zu Beginn des Erhebungszeitraums (Bettengeld).",
+        "source": "fvb"
+      },
+      {
+        "text": "Das Bettengeld beträgt 30 Euro je Fremdenbett; bei mehr als 2 Betten pro Wohnung sind es für jedes Bett über zwei 15 Euro.",
+        "quote": "Für die in § 3 Abs. 4 genannten Personen beträgt der Beitrag abweichend von Abs. 1 je Fremdenbett 30,00 Euro. Bei mehr als 2 Betten pro Wohnung beträgt der Beitrag für die übersteigende Bettzahl 15,00 Euro je Bett.",
+        "source": "fvb"
+      },
+      {
+        "text": "Die Zahl deiner Fremdenbetten zu Beginn des Jahres meldest du der Gemeinde bis zum 31. März schriftlich; ist sie gleich geblieben, kannst du die Meldung weglassen.",
+        "quote": "Beitragspflichtige nach § 3 Abs. 4 haben die von ihnen zu Beginn des Erhebungszeitraumes vorgehaltene Zahl der Fremdenbetten der Gemeinde bis zum 31.03. schriftlich zu melden. Die Meldung kann unterbleiben, wenn die Zahl der Fremdenbetten gegenüber dem vorhergegangenen Erhebungszeitraum unverändert geblieben ist.",
+        "source": "fvb"
+      },
+      {
+        "text": "Der Fremdenverkehrsbeitrag ist innerhalb eines Monats nach Bekanntgabe des Beitragsbescheids fällig.",
+        "quote": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig.",
+        "source": "fvb"
+      },
+      {
+        "text": "Der Beitrag nach dem Messbetrag beträgt 4,5 Prozent des Messbetrags und wird nicht erhoben, wenn er weniger als 10 Euro beträgt.",
+        "quote": "Der Beitrag nach § 4 Abs. 1 beträgt 4,5 v. H. des Messbetrags. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 Euro beträgt.",
+        "source": "fvb"
+      },
+      {
+        "text": "Du zahlst am 15. Mai und am 15. November jeden Jahres eine Vorauszahlung auf deine Beitragsschuld.",
+        "quote": "Der Beitragspflichtige hat am 15. Mai und 15. November jeden Jahres eine Vorauszahlung auf seine Beitragsschuld zu entrichten.",
+        "source": "fvb"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie nach Aufforderung der Gemeinde innerhalb von 14 Tagen an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und nach Aufforderung durch die Gemeinde innerhalb von 14 Tagen an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 3 Tagen nach der Ankunft an und nach der Abreise ab.",
+      "quote": "bei ihm verweilende Personen innerhalb von 3 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € je Person und Aufenthaltstag statt 2,20 € in der Hauptsaison und 1,90 € in der Vor- und Nachsaison; Geschäftsreisende und Montagearbeiter zahlen 1,20 € statt 1,00 €, und der Satz von 0,50 € für spät anreisende Reisegruppen sowie die Befreiung von Tagungsteilnehmern für den ersten Tag entfallen.",
+      "quote": "Diese Satzung tritt am 1. Januar 2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 20.11.2024 außer Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/sasbachwalden/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 220,
+        "children": [
+          0
+        ],
+        "reduced": [
+          100,
+          110
+        ]
+      },
+      {
+        "label": "Vor- und Nachsaison",
+        "ranges": [
+          [
+            "01-01",
+            "03-31"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 190,
+        "children": [
+          0
+        ],
+        "reduced": [
+          100,
+          95
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Geschäftsreisende und Montagearbeiter",
+        "onApplication": false
+      },
+      {
+        "label": "Schwerbehinderte ab GdB 50",
+        "onApplication": true
+      }
+    ]
+  }
+}

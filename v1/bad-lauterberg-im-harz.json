@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "257c17432e00b4d1f2beadfdbf04172d59bf8e3febec1a5fd7dced16fb910519",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-14"
     },
     "nachtrag1": {
@@ -24,9 +24,14 @@
       "kind": "statute",
       "inForce": "2027-01-01",
       "sha256": "6209dca92df808a703eff39551665287ebfe5810d41cc1ec86abf96d9da9a899",
-      "verifiedOn": "2026-11-02",
-      "changedOn": "2026-10-14",
+      "verifiedOn": "2026-11-08",
+      "changedOn": "2026-11-08",
       "ocr": [
+        {
+          "where": "newRules",
+          "page": 3,
+          "reading": "Diese 1. Nachtragssatzung tritt am 01. Januar 2027 in Kraft."
+        },
         {
           "where": "remarks[1]",
           "page": 3,
@@ -39,7 +44,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-11-02"
     },
     "tbs": {
@@ -48,7 +53,7 @@
       "kind": "statute",
       "inForce": "2018-01-01",
       "sha256": "65b8a48a9ca8017fe0d9262510e9dedafc503b8b697bf344fa4f8969db17a78c",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -104,7 +109,7 @@
       "kind": "statute",
       "inForce": "2024-01-01",
       "sha256": "72d1bfab2d8515609c516ae558e3034d5564b13b1f00df79693960525163a2d1",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-08",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -300,6 +305,12 @@
     "reporting": {
       "text": "Die notwendigen Gästedaten erfasst du innerhalb von 24 Stunden nach der Anreise.",
       "quote": "von den bei ihnen gegen Entgelt oder Kostenerstattung verweilenden beitragspflichtigen Personen innerhalb von 24 Stunden nach Anreise, die für die Erhebung des Gästebeitrages notwendigen Daten"
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "zwei Zonen mit 3,00 € für Erwachsene in Zone I (bisher 2,50 €) und 2,00 € in Zone II, den Ortsteilen Barbis, Bartolfelde und Osterhagen, die bisher frei sind.",
+      "quote": "Diese 1. Nachtragssatzung tritt am 01. Januar 2027 in Kraft.",
+      "source": "nachtrag1"
     }
   },
   "lodgingTax": null,
@@ -314,7 +325,7 @@
     "by": "agent"
   },
   "ocrCompared": {
-    "on": "2026-10-15",
+    "on": "2026-11-08",
     "by": "agent"
   },
   "businessLevy": {

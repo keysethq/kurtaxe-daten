@@ -1,0 +1,381 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "oberharmersbach",
+  "name": "Gemeinde Oberharmersbach",
+  "short": "Oberharmersbach",
+  "ags": "08317088",
+  "state": "Baden-Württemberg",
+  "district": "Ortenaukreis",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Oberharmersbach vom 16.12.2024, in Kraft ab 01.01.2025",
+      "url": "https://www.oberharmersbach.de/fileadmin/Dateien/Dateien/Konus/Kurtaxesatzung_ab_01.01.2025.pdf",
+      "kind": "municipality",
+      "inForce": "2025-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "98af204e479772ad331903db92dec95b051e212bbae33527b9f94a8132e3156e",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,05 € b) inder Nebensaison 1,05 €"
+        },
+        {
+          "where": "periods[0].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 12. Lebensjahr"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,05 € b) inder Nebensaison 1,05 €"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 2,
+          "reading": "Kinder bis zum vollendeten 12. Lebensjahr"
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 2,
+          "reading": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 2,
+          "reading": "Kranke und schwerbehinderte Personen, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "Die Hauptsaison umfasst den Zeitraum vom 01.05. bis 31.10.; die Nebensaison den Zeitraum vom 01.11. bis 30.04. eines Kalenderjahres."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 2,
+          "reading": "Auf Antrag werden Personen nach $ 2 Abs. 2, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die ersten zwei Tage des Aufenthalts von der Kurtaxe befreit."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 2,
+          "reading": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 v.H. wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Die Ermäßigung erstreckt sich in gleicher Höhe auch auf deren Begleitpersonen, soweit die schwerbehinderten Personen auf eine ständige Begleitung angewiesen sind. Diese Voraussetzung ist durch ein ärztliches Zeugnis nachzuweisen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 1,
+          "reading": "Sie beträgt je a) Wohnung bis 60 m? Wohnfläche 65,00 € b) Wohnung über 60 m? Wohnfläche 90,00 € c) Wohnwagenschlafplatz 15,00 €",
+          "digitsUnread": true
+        },
+        {
+          "where": "remarks[6]",
+          "page": 2,
+          "reading": "Beherbergende Personen sind verpflichtet, dem Beitragspflichtigen die Karte unverzüglich auszuhändigen."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 3,
+          "reading": "Die Meldung kann schriftlich oder elektronisch erfolgen; die elektronische Meldung ist verpflichtend, wenn die beherbergende Person nachweislich über einen Internetzugang verfügt."
+        },
+        {
+          "where": "hostDuty",
+          "page": 4,
+          "reading": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 4,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+        },
+        {
+          "where": "reporting",
+          "page": 3,
+          "reading": "innerhalb von 1 Tag nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung - KTS) der Gemeinde Oberharmersbach vom 20.07.2026, in Kraft ab 01.01.2027",
+      "url": "https://www.oberharmersbach.de/fileadmin/Dateien/Dateien/Konus/Kurtaxesatzung_ab_01.01.2027.pdf",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "changedOn": "2026-11-08",
+      "sha256": "f2b30997015fa2148b99df4b83ad672ed27c72f1e947bea8001f3b9963e775fb",
+      "verifiedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "newRules",
+          "page": 4,
+          "reading": "Diese Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 16.12.2024 mit allen späteren Änderungen außer Kraft."
+        },
+        {
+          "where": "remarks[8]",
+          "page": 1,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 €. Für Kinder und Jugendliche (6 bis einschließlich 15 Jahre) beträgt die Kurtaxe je Person 1,00 €."
+        },
+        {
+          "where": "remarks[9]",
+          "page": 2,
+          "reading": "Kinder bis einschließlich 5 Jahren."
+        },
+        {
+          "where": "remarks[10]",
+          "page": 2,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt $ 3 Abs. 2 entsprechend."
+        },
+        {
+          "where": "remarks[11]",
+          "page": 2,
+          "reading": "Teilnehmer von Schullandheimaufenthalten."
+        },
+        {
+          "where": "remarks[12]",
+          "page": 2,
+          "reading": "Ist die schwerbehinderte Person auf ständige Begleitung angewiesen, so ist die Begleitperson von der Kurtaxe befreit."
+        },
+        {
+          "where": "remarks[13]",
+          "page": 1,
+          "reading": "Die pauschale Jahreskurtaxe beträgt je Wohnung 80,00 €."
+        }
+      ]
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-08"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 205,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,05 € b) in der Nebensaison 1,05 €"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "04-30"
+          },
+          {
+            "from": "11-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 105,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag a) in der Hauptsaison 2,05 € b) in der Nebensaison 1,05 €"
+        },
+        "children": [
+          {
+            "underAge": 12,
+            "cents": 0,
+            "quote": "Kinder bis zum vollendeten 12. Lebensjahr"
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Wer in der Gemeinde arbeitet oder in Ausbildung ist",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen."
+      },
+      {
+        "text": "Familienbesuche von Einwohnern, die unentgeltlich im Haushalt aufgenommen werden und keine Kureinrichtungen nutzen",
+        "quote": "Familienbesuche von Einwohnern, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen."
+      },
+      {
+        "text": "Kranke und schwerbehinderte Personen, solange sie Kureinrichtungen und Veranstaltungen nicht besuchen können, mit ärztlichem Zeugnis",
+        "quote": "Kranke und schwerbehinderte Personen, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Hauptsaison dauert vom 1. Mai bis 31. Oktober, die Nebensaison vom 1. November bis 30. April.",
+        "quote": "Die Hauptsaison umfasst den Zeitraum vom 01.05. bis 31.10.; die Nebensaison den Zeitraum vom 01.11. bis 30.04. eines Kalenderjahres."
+      },
+      {
+        "text": "Auf Antrag sind Teilnehmer an beruflichen Tagungen und Veranstaltungen für die ersten zwei Tage des Aufenthalts befreit.",
+        "quote": "Auf Antrag werden Personen nach § 2 Abs. 2, die sich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Kurgemeinde aufhalten, für die ersten zwei Tage des Aufenthalts von der Kurtaxe befreit."
+      },
+      {
+        "text": "Schwerbehinderte Menschen mit einem Grad der Behinderung von mindestens 80 zahlen auf Antrag die Hälfte.",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 v.H. wird die Kurtaxe auf Antrag um 50 v. H. ermäßigt."
+      },
+      {
+        "text": "Die Ermäßigung für Schwerbehinderte gilt in gleicher Höhe auch für ihre Begleitpersonen, wenn sie auf ständige Begleitung angewiesen sind; das weisen sie mit einem ärztlichen Zeugnis nach.",
+        "quote": "Die Ermäßigung erstreckt sich in gleicher Höhe auch auf deren Begleitpersonen, soweit die schwerbehinderten Personen auf eine ständige Begleitung angewiesen sind. Diese Voraussetzung ist durch ein ärztliches Zeugnis nachzuweisen."
+      },
+      {
+        "text": "Anträge auf Befreiung oder Ermäßigung müssen spätestens am Abreisetag bei der Gemeinde sein.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe oder auf Ermäßigung der Kurtaxe sind spätestens am Tag der Abreise bei der Gemeinde einzureichen."
+      },
+      {
+        "text": "Einwohner, die ihren Lebensmittelpunkt in einer anderen Gemeinde haben, zahlen statt der Tagessätze eine pauschale Jahreskurtaxe: 65 Euro je Wohnung bis 60 m² Wohnfläche, 90 Euro je Wohnung darüber und 15 Euro je Wohnwagenschlafplatz.",
+        "quote": "Sie beträgt je a) Wohnung bis 60 m² Wohnfläche 65,00 € b) Wohnung über 60 m² Wohnfläche 90,00 € c) Wohnwagenschlafplatz 15,00 €"
+      },
+      {
+        "text": "Du gibst jedem Gast, der Kurtaxe zahlt, die Gästekarte unverzüglich.",
+        "quote": "Beherbergende Personen sind verpflichtet, dem Beitragspflichtigen die Karte unverzüglich auszuhändigen."
+      },
+      {
+        "text": "Die Meldung kann schriftlich oder elektronisch erfolgen; hast du nachweislich einen Internetzugang, ist die elektronische Meldung Pflicht.",
+        "quote": "Die Meldung kann schriftlich oder elektronisch erfolgen; die elektronische Meldung ist verpflichtend, wenn die beherbergende Person nachweislich über einen Internetzugang verfügt."
+      },
+      {
+        "text": "Ab 2027 beträgt die Kurtaxe das ganze Jahr 2,50 € je Person und Aufenthaltstag, für Kinder und Jugendliche von 6 bis einschließlich 15 Jahren 1,00 €.",
+        "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag 2,50 €. Für Kinder und Jugendliche (6 bis einschließlich 15 Jahre) beträgt die Kurtaxe je Person 1,00 €.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Kinder bis einschließlich 5 Jahre von der Kurtaxe befreit.",
+        "quote": "Kinder bis einschließlich 5 Jahren.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Ortsfremde, die nicht länger als einen Tag bleiben (Tagesgäste), von der Kurtaxe befreit; für die Frist zählen Ankunfts- und Abreisetag zusammen als ein Tag, eine Nacht ist also frei.",
+        "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als einen Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 2 entsprechend.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind auch Teilnehmer von Schullandheimaufenthalten von der Kurtaxe befreit.",
+        "quote": "Teilnehmer von Schullandheimaufenthalten.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 ist die Begleitperson einer schwerbehinderten Person, die auf ständige Begleitung angewiesen ist, von der Kurtaxe befreit.",
+        "quote": "Ist die schwerbehinderte Person auf ständige Begleitung angewiesen, so ist die Begleitperson von der Kurtaxe befreit.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 beträgt die pauschale Jahreskurtaxe für Einwohner mit Lebensmittelpunkt in einer anderen Gemeinde 80 Euro je Wohnung, unabhängig von der Wohnfläche.",
+        "quote": "Die pauschale Jahreskurtaxe beträgt je Wohnung 80,00 €.",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht die Kurtaxe von ihnen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Gäste meldest du innerhalb von 1 Tag nach der Ankunft an und nach der Abreise ab.",
+      "quote": "innerhalb von 1 Tag nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "ganzjährig 2,50 € je Person und Aufenthaltstag statt der Saisonsätze; Kinder und Jugendliche von 6 bis 15 Jahren zahlen 1,00 €, Kinder bis 5 Jahre sind frei. Neu befreit sind Gäste, die nur eine Nacht bleiben (Tagesgäste), und Teilnehmer von Schullandheimaufenthalten.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. Gleichzeitig tritt die Kurtaxesatzung vom 16.12.2024 mit allen späteren Änderungen außer Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-11-08",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/oberharmersbach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      12
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "10-31"
+          ]
+        ],
+        "adult": 205,
+        "children": [
+          0
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "01-01",
+            "04-30"
+          ],
+          [
+            "11-01",
+            "12-31"
+          ]
+        ],
+        "adult": 105,
+        "children": [
+          0
+        ]
+      }
+    ]
+  }
+}
