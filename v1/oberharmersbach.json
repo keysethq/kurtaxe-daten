@@ -16,7 +16,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-11-08",
       "sha256": "98af204e479772ad331903db92dec95b051e212bbae33527b9f94a8132e3156e",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "counting",
@@ -123,7 +123,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-11-08",
       "sha256": "f2b30997015fa2148b99df4b83ad672ed27c72f1e947bea8001f3b9963e775fb",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "newRules",
@@ -168,7 +168,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

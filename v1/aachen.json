@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-04-01",
       "sha256": "6f787d0acc3c82070934ad938da2ded3103bdfb290a091138abc1b069eb7a417",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-10-14"
     },
     "faq": {
@@ -23,9 +23,9 @@
       "url": "https://serviceportal.aachen.de/suche/-/vr-bis-detail/dokument/8340626/download",
       "kind": "municipality",
       "inForce": "2025-12-01",
-      "sha256": "64c3394e297ae9279f391cb0adbd3d4682db1872c810de08f8a2c2ffe3604cfb",
-      "verifiedOn": "2026-11-02",
-      "changedOn": "2026-10-14"
+      "sha256": "14db6f43d05a1e3ec864de6000b8bc9cb063a0f3238ccdbb7f4170e92c391821",
+      "verifiedOn": "2026-11-09",
+      "changedOn": "2026-11-09"
     },
     "kurbeitrag": {
       "title": "Kurbeitragssatzung der Stadt Aachen vom 19. Dezember 1991 in der Fassung des 8. Nachtrags vom 11. März 2026",
@@ -33,7 +33,7 @@
       "kind": "municipality",
       "inForce": "2026-03-11",
       "sha256": "69ab449c5bc3b76f3a7853ab4caf7e5ce824024d7ae0cfbcfbb1afd642982f44",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -41,7 +41,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-02"
     }
   },

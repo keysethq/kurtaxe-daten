@@ -15,7 +15,7 @@
       "kind": "gazette",
       "inForce": "2025-04-01",
       "sha256": "78d8071bc80bf785c5a2ea71cb0a12e0dc112fb9d3b7e98b37376995e00ac25b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2025-04-01"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": null,

@@ -14,16 +14,16 @@
       "url": "https://www.stadt-bad-salzuflen.de/stadt-und-rathaus/politik-und-wahlen/ortsrecht/abschnitt-2/kurbeitragssatzung",
       "kind": "municipality",
       "inForce": "2025-04-01",
-      "sha256": "b31b3e587f9675b44960357920651ad8eee473460e8dbc37d15b902585d90cbf",
-      "verifiedOn": "2026-11-02",
-      "changedOn": "2026-11-02"
+      "sha256": "94e7b04b01edc78fa8c7323a6669e9ef68a6333160c3264a0d3e395b5c675fb6",
+      "verifiedOn": "2026-11-09",
+      "changedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-02"
     }
   },

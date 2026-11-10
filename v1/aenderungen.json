@@ -494,6 +494,18 @@
       }
     },
     {
+      "slug": "ibach",
+      "name": "Gemeinde Ibach",
+      "ags": "08337059",
+      "from": "2027-01-01",
+      "text": "2,00 € je Person und Aufenthaltstag ab 10 Jahren statt 1,40 € ab 15 Jahren; die Satzung von 1982 tritt außer Kraft, damit entfallen die Befreiung der fünften Person einer Familie, die drei freien Tage für beruflich Reisende, die Befreiung für Lehrgänge und Kurse und die heutigen Ermäßigungen, und ohne Antrag frei sind statt Gästen bis zu zwei Tagen nur noch Tagesgäste bis zu einem Tag. Wer in Ibach arbeitet oder in Ausbildung steht, zahlt keine Kurtaxe; nur auf Antrag befreit sind Schwerkranke, Menschen ohne Einkommen in der öffentlichen Krankenpflege, Schullandheimgruppen und wer ausschließlich beruflich zu Tagungen kommt, und 25 % weniger zahlen nur noch Menschen mit einem Grad der Behinderung ab 80.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. (2) Gleichzeitig tritt die Kurtaxesatzung vom 12.01.1982 mit all ihren Änderungen außer Kraft.",
+      "source": {
+        "title": "Kurtaxesatzung der Gemeinde Ibach vom 20.07.2026 (signiert 23.07.2026), in Kraft ab 01.01.2027",
+        "url": "https://www.gemeinde-ibach.de/content/download/4964/31774/version/1/file/Kurtaxesatzung+Ibach.pdf"
+      }
+    },
+    {
       "slug": "lauf",
       "name": "Gemeinde Lauf",
       "ags": "08317068",

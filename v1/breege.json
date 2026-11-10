@@ -16,7 +16,7 @@
       "inForce": "2022-01-01",
       "changedOn": "2026-10-15",
       "sha256": "d59e19eafc57d2fde6d1aaaed1b358ce9c966ab6193b1bce876d45e1272517f6",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "fvb": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Breege – staatlich anerkanntes Seebad (nichtamtliche Lesefassung der Satzung vom 26.03.2007, Ortsrecht des Amtes Nord-Rügen)",
@@ -32,7 +32,7 @@
       "kind": "municipality",
       "changedOn": "2026-10-15",
       "sha256": "d1b75a8387eee31d88dd5101bb2f02821e7f46ee491b22fb986f9f7923a46072",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

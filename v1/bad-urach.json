@@ -17,7 +17,7 @@
       "changedOn": "2026-11-02",
       "hashOf": "text",
       "sha256": "297e2b4e8ffa4e86c373ff8dcae6eb5ef71f67b08414239ed842f8a34347d338",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -25,7 +25,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

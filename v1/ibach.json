@@ -1,0 +1,474 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "ibach",
+  "name": "Gemeinde Ibach",
+  "short": "Ibach",
+  "ags": "08337059",
+  "state": "Baden-Württemberg",
+  "district": "Waldshut",
+  "sources": {
+    "grundsatzung": {
+      "title": "Satzung über die Erhebung einer Kurtaxe in der Gemeinde Ibach vom 12.01.1982 mit den Änderungssatzungen von 1993, 2001, 2003, 2004, 2006, 2007, 2012 und 2016 (Scan der ausgefertigten Satzungen, „Kurtaxesatzung Ibach mit Änderungen“, auf der Website der Gemeinde Dachsberg bereitgestellt)",
+      "url": "https://www.gemeinde-dachsberg.de/content/download/4217/29298/version/1/file/Ibach+mit+%C3%84nderungen.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "sha256": "8199d1fa3d7e98f6181b6c4d20c5fee5f7818231a9cdc2eb4133cccd7746a0ee",
+      "verifiedOn": "2026-11-09",
+      "changedOn": "2026-11-09",
+      "ocr": [
+        {
+          "where": "periods[0].children[0]",
+          "page": 10,
+          "reading": "Befreiung von der Kurtaxe erhält folgende Fassung Abs. 3 Kinder bis zum vollendeten 15. Lebensjahr."
+        },
+        {
+          "where": "family",
+          "page": 18,
+          "reading": "Die fünfte und jede weitere Person einer Familie, wenn für vier Familienmitglieder Kurtaxe entrichtet wird. Als Mitglieder einer Familie gelten alle Angehörigen im Sinne von $ 15 der Abgabenordnung vom 16. März 1976 ( BGBl. I, S. 613 ). Die Vergünstigung wird nur dann gewährt, wenn alle Angehörigen einem gemeinschaftlichen Haushalt angehören."
+        },
+        {
+          "where": "oneNight",
+          "page": 18,
+          "reading": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als zwei Tage aufhalten ( Passanten ). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise je als ein Aufenthaltstag gerechnet."
+        },
+        {
+          "where": "reduced[0]",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H."
+        },
+        {
+          "where": "reduced[0] onApplication",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H."
+        },
+        {
+          "where": "reduced[1]",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H."
+        },
+        {
+          "where": "reduced[1] onApplication",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H."
+        },
+        {
+          "where": "reduced[2]",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H."
+        },
+        {
+          "where": "reduced[2] onApplication",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H."
+        },
+        {
+          "where": "reduced[3]",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H. 4. Personen, die von Trägern der öffentlichen Sozial- und Jugenshilfe und von Trägern der Sozialversicherung zu Heilverfahren verschickt werden, um 25 v.H. Die Ermäßigung wird nur gewährt, wenn die Träger die vollen Kurkosten für die von ihnen betreuten Personen übernehmen."
+        },
+        {
+          "where": "reduced[3] onApplication",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H. 4. Personen, die von Trägern der öffentlichen Sozial- und Jugenshilfe und von Trägern der Sozialversicherung zu Heilverfahren verschickt werden, um 25 v.H. Die Ermäßigung wird nur gewährt, wenn die Träger die vollen Kurkosten für die von ihnen betreuten Personen übernehmen."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 18,
+          "reading": "Familienbesucher von Gemeindeeinwohnern, die in deren Haushalt untentgeltlich aufgenommen werden und keine Kurmittel in Anspruch nehmen."
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 18,
+          "reading": "Teilnehmer an Tagungen, Lehrgängen und Kursen in der Gemeinde während deren Dauer."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 18,
+          "reading": "Schwerkranke, die nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 18,
+          "reading": "Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung nachgewiesen wird und die Begleitperson selbst keine Kurmittel in Anspruch nimmt"
+        },
+        {
+          "where": "exemptions[4]",
+          "page": 18,
+          "reading": "Die in den Richtlinien für Bäder bestimmten Personen der Bäder- und Fremdenverkehrsverbände und die im Dienst befindlichen Kurdirektoren und Angestellten der Kurverwaltungen der anerkannten Bäder- und Kurorte, jeweils für ihre Person."
+        },
+        {
+          "where": "remarks[0]",
+          "page": 17,
+          "reading": "Kurtaxepflichtig sind alle Personen, die sich in der Gemeinde aufhalten, aber nicht Einwohner der Gemeinde sind ( ortsfremde Personen ) und denen die Möglichkeit zur Benutzung der Einrichtungen und zur Teilnahme an den Veranstaltungen im Sinne von $ 1 geboten ist."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 18,
+          "reading": "Ortsfremde Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten, für die ersten 3 Tage ihres Aufenthalts."
+        },
+        {
+          "where": "remarks[2]",
+          "page": 19,
+          "reading": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H. 4. Personen, die von Trägern der öffentlichen Sozial- und Jugenshilfe und von Trägern der Sozialversicherung zu Heilverfahren verschickt werden, um 25 v.H. Die Ermäßigung wird nur gewährt, wenn die Träger die vollen Kurkosten für die von ihnen betreuten Personen übernehmen."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 17,
+          "reading": "Kurtaxepflichtig sind darüber hinaus auch die Einwohner der Gemeinde, die den Schwerpunkt der Lebensbeziehungen in einer anderen Gemeinde haben und nicht in der Gemeinde arbeiten oder in Ausbildung stehen."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 19,
+          "reading": "Die Kurtaxeschuld entsteht am Tage der Ankunft einer kurtaxepflichtigen Person in der Gemeinde. Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+        },
+        {
+          "where": "remarks[7]",
+          "page": 20,
+          "reading": "Für die Meldung sind die von der Gemeinde ausgegebenen Vordrucke zu verwenden."
+        },
+        {
+          "where": "hostDuty",
+          "page": 20,
+          "reading": "Die nach $ 8 Meldepflichtigen haben, soweit nicht nach $ 7 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+        },
+        {
+          "where": "deadline",
+          "page": 20,
+          "reading": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum lo. des folgenden Monats an die Gemeinde abzuführen.",
+          "digitsUnread": true
+        },
+        {
+          "where": "reporting",
+          "page": 20,
+          "reading": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung ( Zweitwohnung ) als Ferienwohnung Ortsfremden zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 24 Stunden nach Ankunft bzw. Abreise an- bzw. abzumelden."
+        }
+      ]
+    },
+    "satzung": {
+      "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurtaxe in der Gemeinde Ibach vom 12.01.1982 (Gemeinderat 22.11.2021, auf der Gemeindehomepage bereitgestellt am 03.12.2021), neuer § 3, in Kraft 01.01.2022",
+      "url": "https://www.gemeinde-ibach.de/content/download/4161/29131/version/1/file/Kurtaxe-%C3%84nderungssatzung+Gemeinde+Ibach%3B+Inkrafttreten+am+01.01.2022.pdf",
+      "kind": "statute",
+      "inForce": "2022-01-01",
+      "textLayer": "broken",
+      "sha256": "32718e6cbef42f15017dd7344ae963eb1516ce15d0fb633bcbfbe7bc04a1b708",
+      "verifiedOn": "2026-11-09",
+      "changedOn": "2026-11-08",
+      "ocr": [
+        {
+          "where": "periods[0].adult",
+          "page": 2,
+          "reading": "Die Kurtaxe beträgt je Person und Aufenthaltstag über das gesamte Jahr1,40 EUR."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 2,
+          "reading": "Kurtaxepflichtige nach $ 2 Abs. 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 30,- EUR.",
+          "digitsUnread": true
+        }
+      ]
+    },
+    "satzung2027": {
+      "title": "Kurtaxesatzung der Gemeinde Ibach vom 20.07.2026 (signiert 23.07.2026), in Kraft ab 01.01.2027",
+      "url": "https://www.gemeinde-ibach.de/content/download/4964/31774/version/1/file/Kurtaxesatzung+Ibach.pdf",
+      "kind": "statute",
+      "inForce": "2027-01-01",
+      "sha256": "c577442c2eee5247911877a136e54c4563cfa5c297b063c16b7975103fba84eb",
+      "verifiedOn": "2026-11-09",
+      "changedOn": "2026-11-08"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-08",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-09"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "grundsatzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag der Ankunft und der Tag der Abreise werden zusammen als ein Aufenthaltstag gerechnet.",
+      "source": "satzung"
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 140,
+          "quote": "Die Kurtaxe beträgt je Person und Aufenthaltstag über das gesamte Jahr 1,40 EUR.",
+          "source": "satzung"
+        },
+        "children": [
+          {
+            "underAge": 15,
+            "cents": 0,
+            "quote": "Befreiung von der Kurtaxe erhält folgende Fassung Abs. 3 Kinder bis zum vollendeten 15. Lebensjahr."
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "oneNight": {
+      "cents": 0,
+      "text": "Wer nur eine Nacht bleibt, zahlt keine Kurtaxe: Gäste, die nicht länger als zwei Tage bleiben, sind befreit, und dafür zählen Ankunfts- und Abreisetag je als ein Tag.",
+      "quote": "Ortsfremde Personen, die sich in der Gemeinde nicht länger als zwei Tage aufhalten ( Passanten ). Für die Berechnung dieser Frist wird der Tag der Ankunft und der Tag der Abreise je als ein Aufenthaltstag gerechnet."
+    },
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie zahlt nichts, wenn für vier Familienmitglieder Kurtaxe gezahlt wird und alle in einem gemeinsamen Haushalt leben.",
+      "quote": "Die fünfte und jede weitere Person einer Familie, wenn für vier Familienmitglieder Kurtaxe entrichtet wird. Als Mitglieder einer Familie gelten alle Angehörigen im Sinne von § 15 der Abgabenordnung vom 16. März 1976 ( BGBl. I, S. 613 ). Die Vergünstigung wird nur dann gewährt, wenn alle Angehörigen einem gemeinschaftlichen Haushalt angehören."
+    },
+    "reduced": [
+      {
+        "label": "Schwerbeschädigte, Blinde und Körperbehinderte ab 50 % Erwerbsminderung",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H.",
+        "onApplication": true,
+        "percentOff": 25
+      },
+      {
+        "label": "Krankenpflege ohne eigenes Einkommen, Kur von Mutterhaus oder Orden bezahlt",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H.",
+        "onApplication": true,
+        "percentOff": 25
+      },
+      {
+        "label": "Kurbedürftige mit Einkünften bis zum doppelten Sozialhilfe-Regelsatz",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H.",
+        "onApplication": true,
+        "percentOff": 25
+      },
+      {
+        "label": "Zum Heilverfahren Verschickte, wenn der Träger die vollen Kurkosten zahlt",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H. 4. Personen, die von Trägern der öffentlichen Sozial- und Jugenshilfe und von Trägern der Sozialversicherung zu Heilverfahren verschickt werden, um 25 v.H. Die Ermäßigung wird nur gewährt, wenn die Träger die vollen Kurkosten für die von ihnen betreuten Personen übernehmen.",
+        "onApplication": true,
+        "percentOff": 25
+      }
+    ],
+    "exemptions": [
+      {
+        "text": "Familienbesucher von Einwohnern, die unentgeltlich in deren Haushalt aufgenommen werden und keine Kurmittel in Anspruch nehmen",
+        "quote": "Familienbesucher von Gemeindeeinwohnern, die in deren Haushalt untentgeltlich aufgenommen werden und keine Kurmittel in Anspruch nehmen."
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Lehrgängen und Kursen in der Gemeinde, für deren Dauer",
+        "quote": "Teilnehmer an Tagungen, Lehrgängen und Kursen in der Gemeinde während deren Dauer."
+      },
+      {
+        "text": "Schwerkranke, die Kureinrichtungen und Veranstaltungen nicht besuchen können und das mit ärztlichem Zeugnis nachweisen",
+        "quote": "Schwerkranke, die nicht in der Lage sind, Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen."
+      },
+      {
+        "text": "Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, wenn eine amtsärztliche Bescheinigung die Begleitung als notwendig nachweist und die Begleitperson selbst keine Kurmittel nutzt",
+        "quote": "Begleitpersonen von Schwerbeschädigten, Körperbehinderten, Blinden und Kranken, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung nachgewiesen wird und die Begleitperson selbst keine Kurmittel in Anspruch nimmt."
+      },
+      {
+        "text": "Personen der Bäder- und Fremdenverkehrsverbände, die die Richtlinien für Bäder bestimmen, sowie Kurdirektoren und Angestellte der Kurverwaltungen anerkannter Bäder- und Kurorte im Dienst, jeweils für sich selbst",
+        "quote": "Die in den Richtlinien für Bäder bestimmten Personen der Bäder- und Fremdenverkehrsverbände und die im Dienst befindlichen Kurdirektoren und Angestellten der Kurverwaltungen der anerkannten Bäder- und Kurorte, jeweils für ihre Person."
+      },
+      {
+        "text": "Gäste ab ihrem 50. Aufenthalt in Ibach, die dann zum Ehrengast ernannt werden",
+        "quote": "Kurtaxepflichtige Personen werden ab dem 50. Aufenthalt in Ibach von der Kurtaxe befreit und werden zum Ehrengast ernannt.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Kurtaxe zahlen alle Gäste, die sich in Ibach aufhalten, aber nicht dort wohnen, wenn ihnen die Einrichtungen und Veranstaltungen der Gemeinde offenstehen.",
+        "quote": "Kurtaxepflichtig sind alle Personen, die sich in der Gemeinde aufhalten, aber nicht Einwohner der Gemeinde sind ( ortsfremde Personen ) und denen die Möglichkeit zur Benutzung der Einrichtungen und zur Teilnahme an den Veranstaltungen im Sinne von § 1 geboten ist."
+      },
+      {
+        "text": "Wer aus beruflichen Gründen in Ibach ist, zahlt für die ersten 3 Tage seines Aufenthalts keine Kurtaxe.",
+        "quote": "Ortsfremde Personen, die sich aus beruflichen Gründen in der Gemeinde aufhalten, für die ersten 3 Tage ihres Aufenthalts."
+      },
+      {
+        "text": "Auf Antrag zahlen 25 % weniger: Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 % Erwerbsminderung, Menschen in der öffentlichen Krankenpflege ohne eigenes Einkommen, deren Kur ein Mutterhaus oder Orden bezahlt, Kurbedürftige mit Einkünften bis zum doppelten Sozialhilfe-Regelsatz und Menschen, die ein Sozial- oder Jugendhilfe- oder Sozialversicherungsträger zum Heilverfahren schickt, wenn er die vollen Kurkosten trägt.",
+        "quote": "Die Kurtaxe wird auf Antrag ermäßigt für: 1. Schwerbeschädigte, Blinde und Körperbehinderte mit mindestens 50 v.H. Erwerbsminderung, um 25 v.H. 2. Die in der öffentlichen Krankenpflege tätigen Personen ohne eigenes Einkommen, denen die Kosten des Kuraufenthalts von einem Mutterhaus oder Orden ersetzt werden, um 25 v.H. 3. Minderbemittelte Kurbedürftige, deren Einkünfte den doppelten Regelsatz nach dem Bundessozialhilfegesetz nicht überschreiten, um 25 v.H. 4. Personen, die von Trägern der öffentlichen Sozial- und Jugenshilfe und von Trägern der Sozialversicherung zu Heilverfahren verschickt werden, um 25 v.H. Die Ermäßigung wird nur gewährt, wenn die Träger die vollen Kurkosten für die von ihnen betreuten Personen übernehmen."
+      },
+      {
+        "text": "Der Satz von 1,40 € enthält 0,47 € für das KONUS-Angebot.",
+        "quote": "Hierin ist ein Betrag von 0,47 EUR zur Finanzierung der KONUS-Beteiligung enthalten.",
+        "source": "satzung"
+      },
+      {
+        "text": "Einwohner, die den Schwerpunkt ihrer Lebensbeziehungen in einer anderen Gemeinde haben und nicht in Ibach arbeiten oder in Ausbildung sind, zahlen ebenfalls Kurtaxe.",
+        "quote": "Kurtaxepflichtig sind darüber hinaus auch die Einwohner der Gemeinde, die den Schwerpunkt der Lebensbeziehungen in einer anderen Gemeinde haben und nicht in der Gemeinde arbeiten oder in Ausbildung stehen."
+      },
+      {
+        "text": "Kurtaxepflichtige nach § 2 Abs. 2 zahlen unabhängig von Dauer und Häufigkeit des Aufenthalts eine Jahreskurtaxe von 30 € je Person.",
+        "quote": "Kurtaxepflichtige nach § 2 Abs. 2 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 30,- EUR.",
+        "source": "satzung"
+      },
+      {
+        "text": "Die Kurtaxe wird am letzten Aufenthaltstag fällig.",
+        "quote": "Die Kurtaxeschuld entsteht am Tage der Ankunft einer kurtaxepflichtigen Person in der Gemeinde. Die Kurtaxe wird am letzten Aufenthaltstag in der Gemeinde fällig."
+      },
+      {
+        "text": "Für die Meldung verwendest du die Vordrucke der Gemeinde.",
+        "quote": "Für die Meldung sind die von der Gemeinde ausgegebenen Vordrucke zu verwenden."
+      },
+      {
+        "text": "Ab 2027 kostet die Kurtaxe ganzjährig 2,00 € je Person und Aufenthaltstag ab dem vollendeten 10. Lebensjahr, auch auf Camping- und Wohnmobilstellplätzen.",
+        "quote": "Die Kurtaxe beträgt je Aufenthaltstag und Person ganzjährig in allen Hotels, Gasthäusern, Pensionen, Gästehäusern, Ferienwohnungen, Privatzimmern, gemeinnützigen und caritativen Heimen und auf Camping- und Wohnmobilstellplätzen - für Personen ab dem vollendeten 10. Lebensjahr 2,00 EUR",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 bleibt die Jahreskurtaxe für kurtaxepflichtige Einwohner bei 30 € je Person.",
+        "quote": "Kurtaxepflichtige Einwohner der Gemeinde nach § 2 Abs. 2 Satz 1 haben, unabhängig von der Dauer und Häufigkeit sowie der Jahreszeit des Aufenthalts, eine pauschale Jahreskurtaxe zu entrichten. Diese beträgt je Person 30,00 EUR.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen Gäste, die in Ibach arbeiten oder dort in Ausbildung stehen, keine Kurtaxe.",
+        "quote": "Die Kurtaxe wird nicht von ortsfremden Personen und von Einwohnern im Sinne von Absatz 2 Satz 1 erhoben, die in der Gemeinde arbeiten oder dort in Ausbildung stehen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind Tagesgäste (nicht länger als 1 Tag in der Gemeinde), Kinder bis zum vollendeten 10. Lebensjahr und Familienbesuche von Einwohnern mit Erstwohnsitz, die unentgeltlich in deren Haushalt aufgenommen werden und keine Kureinrichtungen oder Veranstaltungen nutzen, von der Kurtaxe befreit; sie meldest du trotzdem an. Wie die Frist der Tagesgäste gezählt wird, lässt die Satzung offen (sie verweist auf § 3 Abs. 3); ob eine einzelne Übernachtung frei bleibt, fragst du am besten die Gemeinde.",
+        "quote": "Von der Entrichtung der Kurtaxe, nicht aber von der Meldepflicht nach § 7 dieser Satzung, sind befreit: a. Ortsfremde Personen, die sich in der Gemeinde nicht länger als 1 Tag aufhalten (Tagesgäste). Für die Berechnung dieser Frist gilt § 3 Abs. 3 entsprechend. b. Kinder bis zum vollendeten 10. Lebensjahr. c. Familienbesuche von Einwohnern mit Erstwohnsitz, die in deren Haushalt unentgeltlich aufgenommen werden und keine Kureinrichtungen in Anspruch nehmen bzw. Veranstaltungen besuchen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 sind auf Antrag befreit: Menschen, die ohne Einkommen in der öffentlichen Krankenpflege tätig sind, Kranke und Schwerbehinderte mit einem Grad der Behinderung von 100, solange sie Kureinrichtungen und Veranstaltungen nachweislich nicht besuchen können (mit ihrer ständigen Begleitperson), Teilnehmer schulischer Schullandheimaufenthalte und wer ausschließlich beruflich zu Tagungen oder Veranstaltungen in Ibach ist.",
+        "quote": "Von der Zahlung der Kurtaxe werden aufgrund eines Antrages befreit: a. In der öffentlichen Krankenpflege aktiv tätige Personen ohne Einkommen b. Kranke und schwerbehinderte Personen mit einem Grad der Behinderung (GdB) von 100 %, so lange sie nicht in der Lage sind (z. B. bei Bettlägerigkeit), Kureinrichtungen oder Veranstaltungen zu besuchen und dies durch ärztliches Zeugnis nachweisen. Soweit diese aufgrund eines Schwerbeschädigtenausweises auf ständige Begleitung angewiesen sind, wird auch die Begleitperson von der Zahlung der Kurtaxe befreit. c. Teilnehmer von Schullandheimaufenthalten, die nachweislich schulischen Zwecken dienen d. Ortsfremde Personen, die sich ausschließlich aus beruflichen Gründen zur Teilnahme an Tagungen oder sonstigen Veranstaltungen in der Gemeinde aufhalten.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 zahlen Menschen mit einem Grad der Behinderung von mindestens 80 auf Antrag 25 % weniger; ihre ständige Begleitperson ist auf Antrag befreit.",
+        "quote": "Bei schwerbehinderten Personen mit einem Grad der Behinderung (GdB) von mindestens 80 v. H. wird die Kurtaxe auf Antrag um 25 v. H. ermäßigt. Soweit der Schwerbehinderte aufgrund des Schwerbehindertenausweises auf eine ständige Begleitperson angewiesen ist, wird diese Begleitperson auf Antrag von der Kurtaxe befreit.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 reicht der Gast den Antrag auf Befreiung oder Ermäßigung spätestens am Abreisetag bei der Gemeinde ein.",
+        "quote": "Anträge auf Befreiung von der Kurtaxe nach Abs. 2 oder auf Ermäßigung der Kurtaxe nach Abs. 3 sind spätestens am Tag der Abreise bei der Gemeinde einzureichen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 darfst du erst nach Vorlage der Bescheinigung, die die Gemeinde ausstellt, auf die Kurtaxe verzichten oder sie ermäßigen.",
+        "quote": "Über die Befreiung oder Ermäßigung wird von der Gemeinde eine Bescheinigung ausgestellt. Erst nach Vorlage der Bescheinigung ist der Gastgeber ermächtigt, von der Einziehung der Kurtaxe abzusehen, bzw. eine Ermäßigung zu berücksichtigen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste über das elektronische Meldeverfahren, das die Gemeinde kostenlos bereitstellt.",
+        "quote": "Für die Meldung ist das von der Gemeinde unentgeltlich bereitgestellte elektronische Meldeverfahren zu verwenden.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du Gäste innerhalb von 2 Tagen nach Ankunft an und nach Abreise ab.",
+        "quote": "innerhalb von 2 Tagen nach Ankunft bzw. Abreise an- bzw. abzumelden.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 führst du die Kurtaxe eines Monats jeweils nach Rechnungsstellung der Gemeinde ab.",
+        "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils nach Rechnungsstellung an die Gemeinde abzuführen.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 ziehst du die Kurtaxe von den Gästen ein, führst sie an die Gemeinde ab und haftest für den vollständigen und richtigen Einzug.",
+        "quote": "Die nach § 7 Abs. 1 und 2 Meldepflichtigen haben, soweit nicht nach § 6 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe.",
+        "source": "satzung2027"
+      },
+      {
+        "text": "Ab 2027 meldest du der Gemeinde unverzüglich jeden Gast, der sich weigert, die Kurtaxe zu zahlen, mit Name und Adresse.",
+        "quote": "Weigert sich eine kurtaxepflichtige Person, die Kurtaxe zu entrichten, hat dies der Meldepflichtige der Gemeinde unverzüglich unter Angabe von Name und Adresse des Kurtaxepflichtigen zu melden.",
+        "source": "satzung2027"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste gegen Entgelt beherbergt, einen Campingplatz betreibt oder eine Ferienwohnung überlässt, zieht die Kurtaxe von den Gästen ein, führt sie an die Gemeinde ab und haftet für den vollständigen und richtigen Einzug.",
+      "quote": "Die nach § 8 Meldepflichtigen haben, soweit nicht nach § 7 Abs. 2 ein Kurtaxebescheid ergeht, die Kurtaxe von den kurtaxepflichtigen Personen einzuziehen und an die Gemeinde abzuführen. Sie haften der Gemeinde gegenüber für den vollständigen und richtigen Einzug der Kurtaxe."
+    },
+    "deadline": {
+      "text": "Die Beträge eines Kalendermonats führst du bis zum 10. des Folgemonats an die Gemeinde ab.",
+      "quote": "Die im Laufe eines Kalendermonats fällig gewordenen Beträge an Kurtaxe sind jeweils bis zum 10. des folgenden Monats an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest jeden Gast innerhalb von 24 Stunden nach Ankunft an und nach Abreise ab.",
+      "quote": "Wer Personen gegen Entgelt beherbergt, einen Campingplatz betreibt oder seine Wohnung ( Zweitwohnung ) als Ferienwohnung Ortsfremden zur Verfügung stellt, ist verpflichtet, bei ihm verweilende Personen innerhalb von 24 Stunden nach Ankunft bzw. Abreise an- bzw. abzumelden."
+    },
+    "newRules": {
+      "from": "2027-01-01",
+      "text": "2,00 € je Person und Aufenthaltstag ab 10 Jahren statt 1,40 € ab 15 Jahren; die Satzung von 1982 tritt außer Kraft, damit entfallen die Befreiung der fünften Person einer Familie, die drei freien Tage für beruflich Reisende, die Befreiung für Lehrgänge und Kurse und die heutigen Ermäßigungen, und ohne Antrag frei sind statt Gästen bis zu zwei Tagen nur noch Tagesgäste bis zu einem Tag. Wer in Ibach arbeitet oder in Ausbildung steht, zahlt keine Kurtaxe; nur auf Antrag befreit sind Schwerkranke, Menschen ohne Einkommen in der öffentlichen Krankenpflege, Schullandheimgruppen und wer ausschließlich beruflich zu Tagungen kommt, und 25 % weniger zahlen nur noch Menschen mit einem Grad der Behinderung ab 80.",
+      "quote": "Diese Satzung tritt am 01.01.2027 in Kraft. (2) Gleichzeitig tritt die Kurtaxesatzung vom 12.01.1982 mit all ihren Änderungen außer Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "ocrCompared": {
+    "on": "2026-11-09",
+    "by": "agent"
+  },
+  "checked": {
+    "on": "2026-11-09",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/ibach/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      15
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 140,
+        "children": [
+          0
+        ],
+        "reduced": [
+          105,
+          105,
+          105,
+          105
+        ]
+      }
+    ],
+    "reduced": [
+      {
+        "label": "Schwerbeschädigte, Blinde und Körperbehinderte ab 50 % Erwerbsminderung",
+        "onApplication": true
+      },
+      {
+        "label": "Krankenpflege ohne eigenes Einkommen, Kur von Mutterhaus oder Orden bezahlt",
+        "onApplication": true
+      },
+      {
+        "label": "Kurbedürftige mit Einkünften bis zum doppelten Sozialhilfe-Regelsatz",
+        "onApplication": true
+      },
+      {
+        "label": "Zum Heilverfahren Verschickte, wenn der Träger die vollen Kurkosten zahlt",
+        "onApplication": true
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    },
+    "oneNight": 0
+  }
+}

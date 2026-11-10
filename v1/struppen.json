@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "75c8b32fe79cdc5044b47ea80e6342874bc4024345262c88e932bfb2e4f3911a",
-      "verifiedOn": "2026-11-05",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-05",
       "ocr": [
         {
@@ -146,7 +146,7 @@
       "kind": "federal",
       "changedOn": "2026-11-05",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-05"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

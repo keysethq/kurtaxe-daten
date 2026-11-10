@@ -16,7 +16,7 @@
       "inForce": "2022-01-01",
       "changedOn": "2026-10-15",
       "sha256": "8d9898ff6a91fda25295711bbb03fbe755c6a21b01ed1d56b729c64b6b7b76b2",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "counting",
@@ -96,7 +96,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

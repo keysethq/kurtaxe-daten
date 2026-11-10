@@ -15,7 +15,7 @@
       "kind": "gazette",
       "inForce": "2026-01-01",
       "sha256": "d59afdbe05068d13d9d53ed41a758fbf4333b3a2f2abd2909ab8926a4af1368b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -24,7 +24,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe der Stadt Putbus (Fremdenverkehrsabgabesatzung, FVAS), Beschluss vom 25.08.2014",
@@ -32,7 +32,7 @@
       "kind": "statute",
       "inForce": "2014-10-01",
       "sha256": "ea666c9c974d830be46e05a21a8a10d87adde45f7b3ac84aec6af8917aeee9a8",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-10-15",
       "ocr": [
         {

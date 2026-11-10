@@ -16,7 +16,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-11-08",
       "sha256": "80431423e676749c2a0b7d4a33711110ca5c554d7748db6ba4f1ffb4ca5935e6",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "counting",
@@ -97,7 +97,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-11-08",
       "sha256": "a6eebe76a8f212e0c81ea63c0f5e7a13aaeaffb79e86b619762c67469d288534",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "periods[0].adult next",
@@ -123,7 +123,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-11-08",
       "sha256": "353cc3e3f6c99d209bb24b7f2651455b4b60699850d1e5d289f7cba6913de203",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "remarks[4]",
@@ -148,7 +148,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

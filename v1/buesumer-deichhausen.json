@@ -16,7 +16,7 @@
       "inForce": "2026-01-01",
       "changedOn": "2026-10-15",
       "sha256": "2afae55e265bc9cd829684eb37bba9eb1ed34e6c29210b69a4b98e46d3b27431",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "businessLevy.payer",
@@ -185,9 +185,9 @@
       "title": "Amt Büsum-Wesselburen, Ortsrecht der Gemeinde Büsumer Deichhausen",
       "url": "https://www.amt-buesum-wesselburen.de/angehoerige-gemeinden/buesumer-deichhausen/ortsrecht/",
       "kind": "municipality",
-      "changedOn": "2026-11-02",
-      "sha256": "ebd5e4f3595b3b5e1a3e0bbc25ca7ba60a091f31f6629238867f7482fbc48010",
-      "verifiedOn": "2026-11-02"
+      "changedOn": "2026-11-09",
+      "sha256": "646e2640a6f8515212131e78718acb7cf127488763e09a9bbc09d99e01a2e7e7",
+      "verifiedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -195,7 +195,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": null,

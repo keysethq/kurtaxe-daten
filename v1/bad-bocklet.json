@@ -16,7 +16,7 @@
       "inForce": "2025-01-01",
       "hashOf": "text",
       "sha256": "c1672f505caa09ef15fa02cec173a7a7905a7dd86b8b63beb34ba4abe9cb0b54",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "aenderung2027": {
@@ -25,7 +25,7 @@
       "kind": "gazette",
       "inForce": "2027-01-01",
       "sha256": "7ef26863a498e0db30dcf818a840605ab8ea2366d478d538105f3497484fa819",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "fvb": {
@@ -34,7 +34,7 @@
       "kind": "municipality",
       "inForce": "2001-01-01",
       "sha256": "c4d3c805d2d87544d7deb6dff3659daeb896f67aa36e7c05b8373440ae5e4a4b",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "fvbAenderung": {
@@ -43,7 +43,7 @@
       "kind": "municipality",
       "inForce": "2005-01-01",
       "sha256": "2796e7cb3c9e127268d77e10dc2a2b845a2642ddae172bde7588f15419efd870",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "bnetza": {
@@ -51,7 +51,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     }
   },

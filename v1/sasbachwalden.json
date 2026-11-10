@@ -16,7 +16,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-11-08",
       "sha256": "8f00564b95e50c30590c3f9a262b8c2e94fc18d126ccba621b8f3398f8cfeb3e",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "counting",
@@ -162,7 +162,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-11-08",
       "sha256": "13f077d1a82e4a1fbf2f070b670a87e90d05a23911e481bc1c0e90f65d2b2370",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "newRules",
@@ -193,7 +193,7 @@
       "inForce": "2011-01-01",
       "changedOn": "2026-11-08",
       "sha256": "b1f694f8037259191ca231080432dd8e61e8689be077d102a3086b1897c9c17e",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "remarks[10]",
@@ -238,7 +238,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

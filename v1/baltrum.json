@@ -16,7 +16,7 @@
       "kind": "municipality",
       "inForce": "2016-01-01",
       "sha256": "486ecf4d8e59b2e7e9f4e8398d1651cd8f9037bf2afe39c8f388c4b703052b89",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-10-14",
       "ocr": [
         {
@@ -129,14 +129,14 @@
       "hashOf": "text",
       "changedOn": "2026-11-02",
       "sha256": "0a395cc9ae405a15b6dbae0bf5e3940200c1489da6866239822dd99dba5640b3",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-02"
     }
   },

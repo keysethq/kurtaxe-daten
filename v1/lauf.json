@@ -16,7 +16,7 @@
       "inForce": "2025-01-23",
       "changedOn": "2026-11-08",
       "sha256": "7a3ccda784602ea0c5d835553b6387f3dac5e48407487bd74cbaa261f01ae6bb",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     },
     "satzung2027": {
       "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Gemeinde Lauf, Gemeinderat 29.09.2026, in Kraft ab 01.01.2027",
@@ -25,7 +25,7 @@
       "inForce": "2027-01-01",
       "changedOn": "2026-11-08",
       "sha256": "3d62a80228620b4c96e6be8b09f8fca8b200ca65d84e1f027f923819acd32593",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "ocr": [
         {
           "where": "newRules",
@@ -60,7 +60,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

@@ -16,15 +16,15 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-10-15",
       "sha256": "18c6bd44871c90fe6586c79359f46783799e1232353c55c990070446ebab4586",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     },
     "ortsrecht": {
       "title": "Amt Oldenburg-Land, Satzungen (Lesefassungen) der Gemeinde Heringsdorf, Stichwort Strand, Hafen und Tourismus",
       "url": "https://www.amt-oldenburg-land.de/buergerservice-politik/ihre-digitale-amtsverwaltung/satzungen-lesefassungen/Ort/gemeinde-heringsdorf/Stichwort/strand-hafen-und-tourismus",
       "kind": "municipality",
-      "changedOn": "2026-11-02",
-      "sha256": "f7f0d801fe2bd7bb36c66479545c1a08bbcf7d2cfef6507abac53c267df46db6",
-      "verifiedOn": "2026-11-02"
+      "changedOn": "2026-11-09",
+      "sha256": "4af7c36830322c7ca41cb239b0b71dc9fedc806d0f12671c44a59cf2868957cd",
+      "verifiedOn": "2026-11-09"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -32,7 +32,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": null,

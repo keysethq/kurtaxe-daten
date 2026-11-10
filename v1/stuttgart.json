@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-03-20",
       "sha256": "17fc0b63483a5be9d2b7e41e0e01ed67f670e274c56838d808bfa6fcbb0f74e5",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-03-20"
     },
     "seite": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2026-10-08",
       "sha256": "b41a6aea87dfab2271ee95b884b2f54b909f4cfe402f2d00a1ea6fb9a0f17ee9",
-      "verifiedOn": "2026-11-02",
+      "verifiedOn": "2026-11-09",
       "hashOf": "text",
       "changedOn": "2026-11-02"
     },
@@ -34,7 +34,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-02"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": null,

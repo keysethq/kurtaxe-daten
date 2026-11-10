@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2017-01-01",
       "sha256": "80100f96af619c3b2d687f2864e33ab71ad50f80e38bcd2613fffbfa009b7070",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "satzung2027": {
@@ -24,7 +24,7 @@
       "kind": "statute",
       "inForce": "2027-01-01",
       "sha256": "e039eb376f64c87192d914370b35f16db4411a9e1ca1fbef52d7e97a8205a1c2",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

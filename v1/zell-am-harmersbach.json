@@ -15,7 +15,7 @@
       "kind": "gazette",
       "inForce": "2023-01-01",
       "sha256": "6165f554b7e07e83e9ce2c7ae27ca03eaadb616ceac86826f9305b5c10ef8f14",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "aenderung2024": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2025-01-01",
       "sha256": "59df99a8b82d19169a5afaf1d4a1a300f2128da338d56754e425a99324096a89",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "satzung2027": {
@@ -33,7 +33,7 @@
       "kind": "gazette",
       "inForce": "2027-01-01",
       "sha256": "efe1884e5e7b8b5fd9436d5a04469aaa24f089ab72b0e34949b1ef857f7dd834",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "bnetza": {
@@ -42,7 +42,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     },
     "fvb": {
       "title": "Satzung über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) der Stadt Zell am Harmersbach, Gemeinderat 13.12.1999 (Ortsrecht der Stadt)",
@@ -50,7 +50,7 @@
       "kind": "municipality",
       "changedOn": "2026-11-08",
       "sha256": "008afd6270628e36da3fa054e5e7be4b5f8aaccbb8100f0a075b2350eafd3107",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {

@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2021-01-01",
       "sha256": "dbf27ec42007ac7b5a5a7cd4b98d7af9c0eb89c03d2b85e6b94c97402726d631",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "satzung2027": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2027-01-01",
       "sha256": "6c2a6455c4f07867ff36a0310b22343f74a1e054e8306921a1d7443a601ffd21",
-      "verifiedOn": "2026-11-08",
+      "verifiedOn": "2026-11-09",
       "changedOn": "2026-11-08"
     },
     "bnetza": {
@@ -33,7 +33,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-08"
+      "verifiedOn": "2026-11-09"
     }
   },
   "levy": {
