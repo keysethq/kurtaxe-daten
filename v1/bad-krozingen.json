@@ -10,12 +10,11 @@
   "district": "Breisgau-Hochschwarzwald",
   "sources": {
     "satzung": {
-      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Krozingen, Neufassung 2025 (mit Änderungen vom 30.11.2020 und 25.11.2024)",
+      "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Krozingen vom 23.11.2015, Fassung mit den Änderungen vom 30.11.2020 und 25.11.2024; die Sätze setzt seit 1.1.2026 die 3. Änderung fest",
       "url": "https://www.bad-krozingen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Kurtaxensatzung%20%28Neufassung%202025%29.pdf",
       "kind": "municipality",
-      "inForce": "2016-01-01",
       "sha256": "d48325a6eec894763ed0ce2681bfdb60d618e0d6f56744ddb1375300eb195747",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "changedOn": "2026-10-14"
     },
     "aenderung": {
@@ -24,7 +23,7 @@
       "kind": "statute",
       "inForce": "2026-01-01",
       "sha256": "2a2bb007aa2201e3059fd9c209517689dfd115b97891af18ee5aaa3d854d3622",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "changedOn": "2026-10-18",
       "ocr": [
         {
@@ -46,14 +45,14 @@
       "text": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe) Alles andere ist Kernort.",
       "changedOn": "2026-10-18",
       "sha256": "5fc65d9a1effe3f2ed1c1a5e0da6f6498cd0e81a29da16f6f02048b69d9f140c",
-      "verifiedOn": "2026-11-09"
+      "verifiedOn": "2026-11-13"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "changedOn": "2026-11-02"
     }
   },
@@ -200,7 +199,7 @@
     "quote": "Stand: 26.10.2026"
   },
   "checked": {
-    "on": "2026-10-18",
+    "on": "2026-11-13",
     "by": "agent"
   },
   "ocrCompared": {

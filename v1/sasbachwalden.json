@@ -16,7 +16,7 @@
       "inForce": "2025-01-01",
       "changedOn": "2026-11-08",
       "sha256": "8f00564b95e50c30590c3f9a262b8c2e94fc18d126ccba621b8f3398f8cfeb3e",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "ocr": [
         {
           "where": "counting",
@@ -160,9 +160,9 @@
       "url": "https://www.gemeinde-sasbachwalden.de/content/download/17152/120519/version/1/file/Kurtaxesatzung+22.07.2026.pdf",
       "kind": "municipality",
       "inForce": "2027-01-01",
-      "changedOn": "2026-11-08",
+      "changedOn": "2026-11-13",
       "sha256": "13f077d1a82e4a1fbf2f070b670a87e90d05a23911e481bc1c0e90f65d2b2370",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "ocr": [
         {
           "where": "newRules",
@@ -183,6 +183,11 @@
           "where": "remarks[9]",
           "page": 2,
           "reading": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+        },
+        {
+          "where": "remarks[10]",
+          "page": 2,
+          "reading": "In der Kurtaxe ist ein Anteil von 0,70 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten"
         }
       ]
     },
@@ -193,40 +198,40 @@
       "inForce": "2011-01-01",
       "changedOn": "2026-11-08",
       "sha256": "b1f694f8037259191ca231080432dd8e61e8689be077d102a3086b1897c9c17e",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-13",
       "ocr": [
         {
-          "where": "remarks[10]",
+          "where": "remarks[11]",
           "page": 1,
           "reading": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben."
         },
         {
-          "where": "remarks[11]",
+          "where": "remarks[12]",
           "page": 1,
           "reading": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Fremdenbetten zu Beginn des Erhebungszeitraums (Bettengeld)."
         },
         {
-          "where": "remarks[12]",
+          "where": "remarks[13]",
           "page": 2,
           "reading": "Für die in $ 3 Abs. 4 genannten Personen beträgt der Beitrag abweichend von Abs. 1 je Fremdenbett 30,00 Euro. Bei mehr als 2 Betten pro Wohnung beträgt der Beitrag für die übersteigende Bettzahl 15,00 Euro je Bett."
         },
         {
-          "where": "remarks[13]",
+          "where": "remarks[14]",
           "page": 3,
           "reading": "Beitragspflichtige nach 8 3 Abs. 4 haben die von ihnen zu Beginn des Erhebungszeitraumes vorgehaltene Zahl der Fremdenbetten der Gemeinde bis zum 31.03. schriftlich zu melden. Die Meldung kann unterbleiben, wenn die Zahl der Fremdenbetten gegenüber dem vorhergegangenen Erhebungszeitraum unverändert geblieben ist."
         },
         {
-          "where": "remarks[14]",
+          "where": "remarks[15]",
           "page": 2,
           "reading": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
         },
         {
-          "where": "remarks[15]",
+          "where": "remarks[16]",
           "page": 2,
           "reading": "Der Beitrag nach 8 4 Abs. 1 beträgt 4,5 v. H. des Messbetrags. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 Euro beträgt."
         },
         {
-          "where": "remarks[16]",
+          "where": "remarks[17]",
           "page": 3,
           "reading": "Der Beitragspflichtige hat am 15. Mai und 15. November jeden Jahres eine Vorauszahlung auf seine Beitragsschuld zu entrichten."
         }
@@ -238,7 +243,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-09"
+      "verifiedOn": "2026-11-13"
     }
   },
   "levy": {
@@ -390,6 +395,11 @@
         "source": "satzung2027"
       },
       {
+        "text": "Ab 2027 ist in der Kurtaxe ein Anteil von 0,70 Euro für das Modell KONUS enthalten.",
+        "quote": "In der Kurtaxe ist ein Anteil von 0,70 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten",
+        "source": "satzung2027"
+      },
+      {
         "text": "Den Fremdenverkehrsbeitrag zahlst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Sasbachwalden besondere wirtschaftliche Vorteile bringt.",
         "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben.",
         "source": "fvb"
@@ -452,11 +462,11 @@
     "quote": "Stand: 26.10.2026"
   },
   "checked": {
-    "on": "2026-11-08",
+    "on": "2026-11-13",
     "by": "agent"
   },
   "ocrCompared": {
-    "on": "2026-11-08",
+    "on": "2026-11-13",
     "by": "agent"
   },
   "url": "https://keyset.cloud/kurtaxe/sasbachwalden/",

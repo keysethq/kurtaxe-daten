@@ -487,12 +487,11 @@
       "district": "Breisgau-Hochschwarzwald",
       "sources": {
         "satzung": {
-          "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Krozingen, Neufassung 2025 (mit Änderungen vom 30.11.2020 und 25.11.2024)",
+          "title": "Satzung über die Erhebung einer Kurtaxe (Kurtaxesatzung) der Stadt Bad Krozingen vom 23.11.2015, Fassung mit den Änderungen vom 30.11.2020 und 25.11.2024; die Sätze setzt seit 1.1.2026 die 3. Änderung fest",
           "url": "https://www.bad-krozingen.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Satzungen/Kurtaxensatzung%20%28Neufassung%202025%29.pdf",
           "kind": "municipality",
-          "inForce": "2016-01-01",
           "sha256": "d48325a6eec894763ed0ce2681bfdb60d618e0d6f56744ddb1375300eb195747",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-14"
         },
         "aenderung": {
@@ -501,7 +500,7 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "2a2bb007aa2201e3059fd9c209517689dfd115b97891af18ee5aaa3d854d3622",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-18",
           "ocr": [
             {
@@ -523,14 +522,14 @@
           "text": "die Ortsteile sind Bad Krozingen-Biengen (mit Dottighofen) Bad Krozingen-Hausen an der Möhlin Bad Krozingen-Schlatt Bad Krozingen-Tunsel (mit Schmidhofen und Burghöfe) Alles andere ist Kernort.",
           "changedOn": "2026-10-18",
           "sha256": "5fc65d9a1effe3f2ed1c1a5e0da6f6498cd0e81a29da16f6f02048b69d9f140c",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         }
       },
@@ -677,7 +676,7 @@
         "quote": "Stand: 26.10.2026"
       },
       "checked": {
-        "on": "2026-10-18",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "ocrCompared": {
@@ -8181,7 +8180,7 @@
           "kind": "statute",
           "inForce": "2025-01-01",
           "sha256": "9585f3edfd8b5654c40fb9303d32f03784a13bb570e162b2e5c2d50f96a761f5",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-15",
           "ocr": [
             {
@@ -8276,7 +8275,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         }
       },
@@ -9881,7 +9880,7 @@
           "kind": "gazette",
           "inForce": "2026-01-01",
           "sha256": "b15b89f1223040615ef9237188b8bde2b3098ac8ae5f6865e7cc703fc5d19bd6",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-01-01"
         },
         "bnetza": {
@@ -9890,7 +9889,7 @@
           "kind": "federal",
           "changedOn": "2026-11-02",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": {
@@ -10057,7 +10056,7 @@
           "inForce": "2025-01-01",
           "changedOn": "2026-11-08",
           "sha256": "8f00564b95e50c30590c3f9a262b8c2e94fc18d126ccba621b8f3398f8cfeb3e",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "ocr": [
             {
               "where": "counting",
@@ -10201,9 +10200,9 @@
           "url": "https://www.gemeinde-sasbachwalden.de/content/download/17152/120519/version/1/file/Kurtaxesatzung+22.07.2026.pdf",
           "kind": "municipality",
           "inForce": "2027-01-01",
-          "changedOn": "2026-11-08",
+          "changedOn": "2026-11-13",
           "sha256": "13f077d1a82e4a1fbf2f070b670a87e90d05a23911e481bc1c0e90f65d2b2370",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "ocr": [
             {
               "where": "newRules",
@@ -10224,6 +10223,11 @@
               "where": "remarks[9]",
               "page": 2,
               "reading": "Kinder und Jugendliche bis zum vollendeten 15. Lebensjahr"
+            },
+            {
+              "where": "remarks[10]",
+              "page": 2,
+              "reading": "In der Kurtaxe ist ein Anteil von 0,70 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten"
             }
           ]
         },
@@ -10234,40 +10238,40 @@
           "inForce": "2011-01-01",
           "changedOn": "2026-11-08",
           "sha256": "b1f694f8037259191ca231080432dd8e61e8689be077d102a3086b1897c9c17e",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "ocr": [
             {
-              "where": "remarks[10]",
+              "where": "remarks[11]",
               "page": 1,
               "reading": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben."
             },
             {
-              "where": "remarks[11]",
+              "where": "remarks[12]",
               "page": 1,
               "reading": "Bei Privatzimmervermietern, die nur Wohnungen oder Zimmer vorübergehend an Fremde vermieten (mit oder ohne Frühstück), bemisst sich der Beitrag abweichend von Abs. 2 nach der Zahl der Fremdenbetten zu Beginn des Erhebungszeitraums (Bettengeld)."
             },
             {
-              "where": "remarks[12]",
+              "where": "remarks[13]",
               "page": 2,
               "reading": "Für die in $ 3 Abs. 4 genannten Personen beträgt der Beitrag abweichend von Abs. 1 je Fremdenbett 30,00 Euro. Bei mehr als 2 Betten pro Wohnung beträgt der Beitrag für die übersteigende Bettzahl 15,00 Euro je Bett."
             },
             {
-              "where": "remarks[13]",
+              "where": "remarks[14]",
               "page": 3,
               "reading": "Beitragspflichtige nach 8 3 Abs. 4 haben die von ihnen zu Beginn des Erhebungszeitraumes vorgehaltene Zahl der Fremdenbetten der Gemeinde bis zum 31.03. schriftlich zu melden. Die Meldung kann unterbleiben, wenn die Zahl der Fremdenbetten gegenüber dem vorhergegangenen Erhebungszeitraum unverändert geblieben ist."
             },
             {
-              "where": "remarks[14]",
+              "where": "remarks[15]",
               "page": 2,
               "reading": "Die Beitragsschuld wird innerhalb eines Monats nach Bekanntgabe des Beitragsbescheides zur Zahlung fällig."
             },
             {
-              "where": "remarks[15]",
+              "where": "remarks[16]",
               "page": 2,
               "reading": "Der Beitrag nach 8 4 Abs. 1 beträgt 4,5 v. H. des Messbetrags. Der Beitrag wird nicht erhoben, wenn er weniger als 10,00 Euro beträgt."
             },
             {
-              "where": "remarks[16]",
+              "where": "remarks[17]",
               "page": 3,
               "reading": "Der Beitragspflichtige hat am 15. Mai und 15. November jeden Jahres eine Vorauszahlung auf seine Beitragsschuld zu entrichten."
             }
@@ -10279,7 +10283,7 @@
           "kind": "federal",
           "changedOn": "2026-11-08",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": {
@@ -10431,6 +10435,11 @@
             "source": "satzung2027"
           },
           {
+            "text": "Ab 2027 ist in der Kurtaxe ein Anteil von 0,70 Euro für das Modell KONUS enthalten.",
+            "quote": "In der Kurtaxe ist ein Anteil von 0,70 Euro für das Modell KONUS (kostenlose Nutzung des öffentlichen Nahverkehrs im Schwarzwald) enthalten",
+            "source": "satzung2027"
+          },
+          {
             "text": "Den Fremdenverkehrsbeitrag zahlst du, wenn du selbständig tätig bist und dir der Kurbetrieb oder der Fremdenverkehr in Sasbachwalden besondere wirtschaftliche Vorteile bringt.",
             "quote": "Von allen juristischen Personen und allen natürlichen Personen, die eine selbständige Tätigkeit ausüben und denen in der Gemeinde Sasbachwalden aus dem Kurbetrieb oder dem Fremdenverkehr unmittelbar oder mittelbar besondere wirtschaftliche Vorteile erwachsen, wird ein Beitrag zur Förderung des Fremdenverkehrs und des Erholungs- und Kurbetriebs (Fremdenverkehrsbeitrag) erhoben.",
             "source": "fvb"
@@ -10493,11 +10502,11 @@
         "quote": "Stand: 26.10.2026"
       },
       "checked": {
-        "on": "2026-11-08",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "ocrCompared": {
-        "on": "2026-11-08",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "url": "https://keyset.cloud/kurtaxe/sasbachwalden/",
@@ -13076,7 +13085,7 @@
           "kind": "municipality",
           "inForce": "2022-01-01",
           "sha256": "ac06e967fdb079258c984e274c5b2d60d761f3a1d9b61e0a1690e7d47af2925a",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-19"
         },
         "satzung2027": {
@@ -13086,7 +13095,7 @@
           "inForce": "2027-01-01",
           "changedOn": "2026-10-19",
           "sha256": "37da5160ebb2fc2a401bb99d56adebf6934c60ed4a32578f242e02c2fb094555",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "fvb": {
           "title": "Satzung der Gemeinde Todtmoos über die Erhebung eines Beitrags zur Förderung des Fremdenverkehrs (Fremdenverkehrsbeitragssatzung) vom 19.01.2007 in der Fassung vom 20.03.2020",
@@ -13095,7 +13104,7 @@
           "inForce": "2020-03-21",
           "changedOn": "2026-10-19",
           "sha256": "0b961c31e3e9438e0b40735a620a96334680a49a142497f7741ff5a751d92c48",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "fvb2027": {
           "title": "Fremdenverkehrsbeitragssatzung der Gemeinde Todtmoos, vom Gemeinderat beschlossen am 15.09.2026, in Kraft ab 01.01.2027",
@@ -13104,7 +13113,7 @@
           "inForce": "2027-01-01",
           "changedOn": "2026-10-19",
           "sha256": "8dd6fdfbb03bc527f38e4dbd36794c9c7b358a40a635a110b95819530e89edc4",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -13112,7 +13121,7 @@
           "kind": "federal",
           "changedOn": "2026-11-02",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": {
@@ -21108,29 +21117,29 @@
       "district": "Berchtesgadener Land",
       "sources": {
         "satzung": {
-          "title": "Satzung für die Erhebung des Kurbeitrages des Zweckverbandes Bergerlebnis Berchtesgaden (Fassung vom 26.10.2015, zuletzt geändert durch Satzung vom 08.12.2025), Stand 01.01.2026",
-          "url": "https://www.berchtesgaden.de/fileadmin/Berchtesgaden/PDFs/Kurbeitragssatzung_ZV_Bergerlebnis_Berchtesgden_2026_01_01.pdf",
+          "title": "Satzung für die Erhebung des Kurbeitrages des Zweckverbandes Bergerlebnis Berchtesgaden (Fassung vom 26.10.2015, zuletzt geändert durch Satzung vom 23.03.2026), Stand 01.05.2026",
+          "url": "https://zv-berchtesgaden.de/wp-content/uploads/2026/04/Kurbeitragssatzung_ZV_Bergerlebnis_Berchtesgaden_2026_05_01.pdf",
           "kind": "municipality",
-          "inForce": "2026-01-01",
-          "sha256": "ad195d41596dafa71e482e1aacbfd57a489cfcb026c04566e5848c18bec3d357",
-          "verifiedOn": "2026-11-09",
-          "changedOn": "2026-10-14"
+          "inForce": "2026-05-01",
+          "sha256": "909e786f15690f3560d881b34a65e82a701d0330d2f068af4822a553142e669f",
+          "verifiedOn": "2026-11-13",
+          "changedOn": "2026-11-13"
         },
         "verband": {
           "title": "Verbandssatzung des Zweckverbandes Tourismusregion Berchtesgaden-Königssee (heute Zweckverband Bergerlebnis Berchtesgaden), Oberbayerisches Amtsblatt Nr. 18/2020, S. 199",
           "url": "https://www.regierung.oberbayern.bayern.de/mam/dokumente/service/obabl/2020/18_240720.pdf",
           "kind": "gazette",
           "inForce": "2020-06-16",
-          "sha256": "4e2f149b3010092104659d06d02ea4df3086df7133ae5c1af3895d53d4556794",
-          "verifiedOn": "2026-11-09",
-          "changedOn": "2026-10-26"
+          "sha256": "122249cb9e6871714d2e39145acf5f11cc61e0416aa1d8b156546e56721bcbe7",
+          "verifiedOn": "2026-11-13",
+          "changedOn": "2026-11-13"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -21140,7 +21149,7 @@
           "inForce": "2026-01-01",
           "changedOn": "2026-10-15",
           "sha256": "7eb3f2abd3276114c35ea2d78e47851362cfaa54af92357f6f0e5d9ea0660b67",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": {
@@ -21236,7 +21245,7 @@
           },
           {
             "text": "Die Gästekarte gibst du personenbezogen mit An- und Abreisetag aus.",
-            "quote": "Die Gästekarte sollte vom Gastgeber personenbezogen und mit Angabe von Anreise- und Abreisetag ausgegeben."
+            "quote": "Die Gästekarte sollte vom Gastgeber personenbezogen und mit Angabe von Anreise- und Abreisetag ausgegeben werden."
           }
         ],
         "hostDuty": {
@@ -21260,7 +21269,7 @@
         "quote": "Stand: 26.10.2026"
       },
       "checked": {
-        "on": "2026-10-14",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "businessLevy": {
@@ -23645,7 +23654,7 @@
           "kind": "municipality",
           "inForce": "2020-05-01",
           "sha256": "e9cfa96c06603f5543f5ba1cb80776d60aab08adb4a8edc39639236c86cc30b9",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-14",
           "ocr": [
             {
@@ -23696,7 +23705,7 @@
           "kind": "municipality",
           "inForce": "2026-03-15",
           "sha256": "6e751a5ae93f99520999df49b678b296be242d39148734776165c06dde9bf175",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-14"
         },
         "bnetza": {
@@ -23704,7 +23713,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         },
         "fvb": {
@@ -23714,7 +23723,7 @@
           "inForce": "2015-06-01",
           "changedOn": "2026-10-15",
           "sha256": "6fbb5bf45101c5d53862d0ee6fb1885a05d468b37006fe03819ac9c396b52d22",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -58576,7 +58585,7 @@
           "kind": "statute",
           "inForce": "2022-01-01",
           "sha256": "5f7cf605cf7c6728ca5689ca3aa17e7c2784f4905205ecff6d14db62889abe63",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2022-01-01"
         },
         "bnetza": {
@@ -58585,7 +58594,7 @@
           "kind": "federal",
           "changedOn": "2026-11-02",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": {
@@ -62211,7 +62220,7 @@
           "kind": "municipality",
           "changedOn": "2026-10-18",
           "sha256": "b45cc04ac8803a7f3194b2414cfcf0f0b30a2122460ee80079ac6e98af4867b5",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "satzung": {
           "title": "Satzung über die Erhebung eines Gästebeitrags in der Verbandsgemeinde Traben-Trarbach vom 16.02.2024, durchgeschriebene Fassung inkl. 1. Satzungsänderung",
@@ -62219,7 +62228,7 @@
           "kind": "municipality",
           "inForce": "2024-03-01",
           "sha256": "10ea24bba488c4314063e2253892a2cc846cd53f02a247bc1959f5ed2bbfa984",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-15"
         },
         "stadt": {
@@ -62228,7 +62237,7 @@
           "kind": "municipality",
           "inForce": "2024-03-01",
           "sha256": "f92c15144b21e68a95f3cd40a9bd948074f7dbe88f5b0efaa5065fe2dbe3f965",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-15"
         },
         "auskunft": {
@@ -62238,7 +62247,7 @@
           "text": "bis einschließlich 31.03.2027 gelten die folgenden Sätze für den Gästebeitrag: St. Traben-Trarbach Beitrag Verbandsgemeinde 1,50 € Beitrag Ortsgemeinde/Stadt 0,50 € Gesamtbeitrag 2,00 €",
           "changedOn": "2026-10-18",
           "sha256": "cd4a31b39926358d9190b4edfeaf8c078702fc53e5f988d05e502f3376c155ca",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "tarife2027": {
           "title": "Verbandsgemeinde Traben-Trarbach, Neue Tarife Gästebeitrag ab 01.04.2027, Saison 1 und Saison 2, Gesamtbeitrag je Gemeinde",
@@ -62247,14 +62256,14 @@
           "inForce": "2027-04-01",
           "changedOn": "2026-11-02",
           "sha256": "b09133cc543aed1b2cee4287358333e9a813a0d06c9b6bc03c8b841c14f1a863",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         }
       },
@@ -62397,9 +62406,9 @@
           "quote": "Dabei werden die Daten elektronisch durch den Beherbergungsbetrieb erfasst, die Meldescheine werden von den Beherbergungsbetrieben ausgedruckt und müssen vom Gast unterschrieben werden."
         },
         "change": {
-          "from": "2027-04-01",
-          "text": "Ab 01.04.2027 gelten neue Sätze: in Saison 1 (April bis Oktober) bleiben es 2,00 € für Erwachsene, in Saison 2 (November bis März) werden es ab 01.11.2027 2,20 €. Kinder und Jugendliche zahlen weiter 0,80 €.",
-          "quote": "Saison 1 (ab 01.04.2027)",
+          "from": "2027-11-01",
+          "text": "Ab 01.11.2027 steigt der Gesamtbeitrag in Saison 2 (November bis März) für Erwachsene von 2,00 € auf 2,20 €; in Saison 1 (April bis Oktober) bleibt es bei 2,00 €, auch wenn sich ab 01.04.2027 die Aufteilung zwischen Verbandsgemeinde und Stadt ändert. Kinder und Jugendliche zahlen weiter 0,80 €.",
+          "quote": "Saison 2 (ab 01.11.2027)",
           "source": "tarife2027"
         }
       },
@@ -62411,7 +62420,7 @@
         "quote": "Stand: 26.10.2026"
       },
       "checked": {
-        "on": "2026-10-18",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "url": "https://keyset.cloud/kurtaxe/traben-trarbach/",
@@ -62468,8 +62477,8 @@
           }
         ],
         "change": {
-          "from": "2027-04-01",
-          "label": "ab 1. April 2027"
+          "from": "2027-11-01",
+          "label": "ab 1. November 2027"
         }
       }
     },
@@ -88576,7 +88585,7 @@
       "districts": [
         "Westerland"
       ],
-      "locative": "auf Sylt",
+      "locative": "in der Gemeinde Sylt",
       "ags": "01054168",
       "state": "Schleswig-Holstein",
       "district": "Nordfriesland",
@@ -88587,13 +88596,18 @@
           "kind": "statute",
           "inForce": "2026-01-01",
           "sha256": "fecc561d03acf62110c882b930828a21de8cf7cf28ccf4f4e6cd63e7f36639c8",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-22",
           "ocr": [
             {
               "where": "counting",
               "page": 2,
               "reading": "Der Anreisetag wird als voller Tag berücksichtigt; der Abreisetag wird nicht berücksichtigt."
+            },
+            {
+              "where": "area",
+              "page": 1,
+              "reading": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
             },
             {
               "where": "periods[0].adult",
@@ -88656,11 +88670,6 @@
               "reading": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
             },
             {
-              "where": "remarks[3]",
-              "page": 1,
-              "reading": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
-            },
-            {
               "where": "hostDuty",
               "page": 5,
               "reading": "Die Unterkunftsgeber sind verpflichtet zur Meldung der beherbergten Personen, zur Berechnung und Einziehung der Kurabgabe von den beherbergten Personen, zur Aushändigung einer Gästekarte sowie zur Abführung der Kurabgabe an die Gemeinde. Sie haften für die rechtzeitige und vollständige Einziehung und Abführung der Kurabgabe."
@@ -88683,7 +88692,7 @@
           "kind": "municipality",
           "inForce": "2026-01-01",
           "sha256": "79fe65a30861e724b08420afe67cc0b81f185f2ab631c65906c6af0340328a0f",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-10-14"
         },
         "ta": {
@@ -88693,7 +88702,7 @@
           "inForce": "2024-01-01",
           "changedOn": "2026-10-15",
           "sha256": "6a0d2bb17bc5b1549848581c60cde66a46b7f67fe57b3831c0480e17d9b3b668",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "ocr": [
             {
               "where": "businessLevy.payer",
@@ -88887,7 +88896,7 @@
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
           "kind": "federal",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09",
+          "verifiedOn": "2026-11-13",
           "changedOn": "2026-11-02"
         }
       },
@@ -88964,6 +88973,10 @@
           }
         ],
         "noSeniorRate": true,
+        "area": {
+          "text": "Die Kurabgabe gilt im gesamten Gebiet der Gemeinde Sylt mit den Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum.",
+          "quote": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
+        },
         "remarks": [
           {
             "text": "Die Gästekarte, die dein Gast bei der Zahlung bekommt, ist höchstens 28 Tage gültig.",
@@ -88976,10 +88989,6 @@
           {
             "text": "Bei vorzeitiger Abreise wird die Kurabgabe auf Antrag zeitanteilig erstattet.",
             "quote": "Die Kurabgabe ist reduziert und wird auf Antrag zeitanteilig erstattet, wenn Personen ihren abgabepflichtigen Aufenthalt im Erhebungsgebiet vorzeitig abbrechen."
-          },
-          {
-            "text": "Die Kurabgabe gilt in der ganzen Gemeinde, auch im Ortsteil Westerland.",
-            "quote": "Die Gemeinde ist mit ihren Ortsteilen Westerland, Tinnum, Keitum, Munkmarsch, Archsum, Morsum und Rantum und damit bezogen auf das gesamte Gemeindegebiet als Kur- bzw. Erholungsort anerkannt."
           }
         ],
         "hostDuty": {
@@ -89003,7 +89012,7 @@
         "quote": "Stand: 26.10.2026"
       },
       "checked": {
-        "on": "2026-10-13",
+        "on": "2026-11-13",
         "by": "agent"
       },
       "ocrCompared": {
@@ -89228,7 +89237,7 @@
           "inForce": null,
           "changedOn": "2026-10-15",
           "sha256": "c35a6222601fba95ea778bfc74d3c2b1340831d52a07e782fd4e0f680cf48967",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         },
         "bnetza": {
           "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -89236,7 +89245,7 @@
           "kind": "federal",
           "changedOn": "2026-11-02",
           "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-          "verifiedOn": "2026-11-09"
+          "verifiedOn": "2026-11-13"
         }
       },
       "levy": null,
