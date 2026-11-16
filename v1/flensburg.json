@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-10-01",
       "sha256": "3fca6bf08eec536080b6d206d21bd14a69e35d6fd7c2a7b7d0ead08f0f144acd",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-10-15"
     },
     "nachtrag": {
@@ -24,7 +24,7 @@
       "kind": "gazette",
       "inForce": "2026-10-01",
       "sha256": "e725f887b4ea68a0ab6c17c0e6534318c5ef05d91b7c060df3a6cf7947f285b4",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -39,9 +39,9 @@
       "url": "https://www.flensburg.de/loadDocument.phtml?ObjSvrID=2306&ObjID=19906&ObjLa=1&Ext=PDF",
       "kind": "municipality",
       "inForce": "2026-10-01",
-      "sha256": "31b835ecdc6c48993844ba0561f83366ebba12f76489bd6061bd4497c8e51492",
-      "verifiedOn": "2026-11-09",
-      "changedOn": "2026-10-15"
+      "sha256": "7d96f903f3781b4b1686e5854208f7c6d671070c94ea7df0f5716e3b20a0a66a",
+      "verifiedOn": "2026-11-16",
+      "changedOn": "2026-11-16"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
@@ -49,7 +49,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-09"
+      "verifiedOn": "2026-11-16"
     }
   },
   "levy": null,
@@ -103,8 +103,13 @@
         "quote": "Sofern die Aufteilung eines aufzuwendenden Gesamtbetrages in einen Betrag für die Übernachtungsleistung und einen Betrag für die Verpflegungsleistungen ausnahmsweise nicht möglich sein sollte, gilt als Bemessungsgrundlage der Gesamtbetrag abzüglich einer jeweiligen Pauschale von 7,00 EUR für Frühstück und je 10,00 EUR für Mittagessen und Abendessen je Beherbergungsgast und Mahlzeit."
       },
       {
-        "text": "Provisionen und Gebühren von Buchungsportalen darfst du nicht abziehen; maßgeblich ist, was der Gast für die Übernachtung zahlt.",
-        "quote": "Provisionen, Kommissionsgebühren oder ähnliche Entgelte dürfen daher nicht vom Übernachtungsentgelt abgezogen werden.",
+        "text": "Provisionen und Gebühren, die du an ein Buchungsportal zahlst, darfst du nicht abziehen; maßgeblich ist, was der Gast für die Übernachtung zahlt.",
+        "quote": "Provisionen, Kommissionsgebühren oder ähnliche Entgelte, die ein Beherbergungsbetrieb an eine Agentur oder an ein Buchungsportal zu zahlen hat, dürfen daher nicht vom Übernachtungsentgelt abgezogen werden.",
+        "source": "infoblatt"
+      },
+      {
+        "text": "Eine Servicegebühr, die das Buchungsportal dem Gast in Rechnung stellt und die der Gast direkt an das Portal zahlt, gehört nicht zur Bemessungsgrundlage.",
+        "quote": "Servicegebühr oder ein ähnliches Entgelt in Rechnung und der Gast hat diese Gebühr direkt an das Portal zu zahlen, gehört dieser Betrag nicht zur Bemessungsgrundlage",
         "source": "infoblatt"
       }
     ]

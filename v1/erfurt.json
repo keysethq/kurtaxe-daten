@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2024-01-01",
       "sha256": "36249e0e59bea861fdb0dbb5329b4deac4c25a3a378a176ad1c3c8f8cb9c78ac",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-10-14"
     },
     "satzung2027": {
@@ -24,7 +24,7 @@
       "kind": "municipality",
       "inForce": "2027-01-01",
       "sha256": "3407f988394aaf2507492f807854c63e053957b8fbfc0e04a2163f08d1f0ed57",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-10-14"
     },
     "seite": {
@@ -32,16 +32,16 @@
       "url": "https://www.erfurt.de/ef/de/leben/fuer/grundstueckseigentuemer/150817.html",
       "kind": "municipality",
       "inForce": "2024-01-01",
-      "sha256": "c8faf5522c7ea17dbb57161e80602a479af90bfbb493385d32372fe7d9262fe5",
-      "verifiedOn": "2026-11-09",
-      "changedOn": "2026-10-14"
+      "sha256": "487101248902f216af0215e1a65ab09a0574f0f3335e0811817bca5e419caa6e",
+      "verifiedOn": "2026-11-16",
+      "changedOn": "2026-11-16"
     },
     "bnetza": {
       "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-11-02"
     }
   },

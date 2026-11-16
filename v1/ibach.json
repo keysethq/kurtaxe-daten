@@ -15,7 +15,7 @@
       "kind": "statute",
       "inForce": "2017-01-01",
       "sha256": "8199d1fa3d7e98f6181b6c4d20c5fee5f7818231a9cdc2eb4133cccd7746a0ee",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-11-09",
       "ocr": [
         {
@@ -153,7 +153,7 @@
       "inForce": "2022-01-01",
       "textLayer": "broken",
       "sha256": "32718e6cbef42f15017dd7344ae963eb1516ce15d0fb633bcbfbe7bc04a1b708",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-11-08",
       "ocr": [
         {
@@ -175,7 +175,7 @@
       "kind": "statute",
       "inForce": "2027-01-01",
       "sha256": "c577442c2eee5247911877a136e54c4563cfa5c297b063c16b7975103fba84eb",
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-16",
       "changedOn": "2026-11-08"
     },
     "bnetza": {
@@ -184,7 +184,7 @@
       "kind": "federal",
       "changedOn": "2026-11-08",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-09"
+      "verifiedOn": "2026-11-16"
     }
   },
   "levy": {
