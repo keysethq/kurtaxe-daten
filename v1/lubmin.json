@@ -1,0 +1,368 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "lubmin",
+  "name": "Seebad Lubmin",
+  "short": "Lubmin",
+  "ags": "13075083",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Seebad Lubmin vom 27.01.2017 (Neufassung)",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/9/5/7/0/Lubmin_Kurabgabesatzung_2017.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "sha256": "fac5916e3512ccb1e12cd0e07ee48993bb4fcc248f3257727d49ec259019fecb",
+      "verifiedOn": "2026-11-17",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "periods[0].children[0]",
+          "page": 1,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "periods[1].children[0]",
+          "page": 1,
+          "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+        },
+        {
+          "where": "maxNights",
+          "page": 2,
+          "reading": "Die Kurabgabe wird für höchstens 28 Tage im Jahr pro Gast erhoben. Dies gilt auch bei mehreren Aufenthalten."
+        },
+        {
+          "where": "exemptions[0]",
+          "page": 1,
+          "reading": "Begleitpersonen von Schwerbehinderten und Schwerbeschädigte, die ausweislich amtlicher Unterlagen auf ständige Begleitung angewiesen sind,"
+        },
+        {
+          "where": "exemptions[1]",
+          "page": 1,
+          "reading": "Personen, die der Zweitwohnungssteuer unterliegen."
+        },
+        {
+          "where": "exemptions[2]",
+          "page": 1,
+          "reading": "Personen, die sich ausschließlich zu anderen als zu Kur- und Erholungszwecken im Erhebungsgebiet aufhalten, insbesondere zum Besuch einer Unterrichtseinrichtung zur Ausbildung für einen Beruf, zur Ausübung eines Berufes, eines Gewerbes oder zum Besuch bei Verwandten ohne Zahlung eines Entgeltes,"
+        },
+        {
+          "where": "exemptions[3]",
+          "page": 1,
+          "reading": "Teilnehmer an den von der Kurverwaltung anerkannten Tagungen, Kongressen und Lehrgängen für die Dauer der Veranstaltung."
+        },
+        {
+          "where": "remarks[1]",
+          "page": 1,
+          "reading": "das dritte und jedes weitere anwesende Kind eines Familienhaushaltes,"
+        },
+        {
+          "where": "remarks[2]",
+          "page": 3,
+          "reading": "Eigentümer oder Besitzer von Wohneinheiten nach 8 2 Abs. 2 zahlen eine Pauschalkurabgabe pro Haushalt und Jahr von 45,00 € Brutto."
+        },
+        {
+          "where": "remarks[3]",
+          "page": 2,
+          "reading": "Alters-, Invalidenrentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres gegen Vorlage eines geeigneten Nachweises."
+        },
+        {
+          "where": "remarks[4]",
+          "page": 2,
+          "reading": "Schwerbeschädigte, die eine Behinderung von 70 % und mehr nachweisen, zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres."
+        },
+        {
+          "where": "remarks[5]",
+          "page": 3,
+          "reading": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und beim Wohnungsgeber zu entrichten."
+        },
+        {
+          "where": "remarks[6]",
+          "page": 2,
+          "reading": "Die Jahreskurabgabe beträgt im Erhebungsgebiet 1. für jede Person über 18 Jahre 42,05 € Netto 45,00 € Brutto 2. für jede Person von 6 - 18 Jahre 21,02 € Netto 22,50 € Brutto"
+        },
+        {
+          "where": "hostDuty",
+          "page": 3,
+          "reading": "die von ihm aufgenommenen Personen unverzüglich in das Gästeverzeichnis einzutragen, die Kurabgabe einzufordern, die Kurabgabekarte und den Meldeschein auszustellen"
+        },
+        {
+          "where": "deadline",
+          "page": 3,
+          "reading": "innerhalb von 3 Tagen in der Kurverwaltung abzurechnen."
+        }
+      ]
+    },
+    "aenderung1": {
+      "title": "1. Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Seebad Lubmin vom 26.04.2017",
+      "url": "https://daten.verwaltungsportal.de/dateien/legalframework/9/5/7/0/Lubmin_1._nderung_Kurabgabesatzung_2017.pdf",
+      "kind": "statute",
+      "inForce": "2017-01-01",
+      "sha256": "00423689a40851097cbe0d7b74aa2f1dc531950dde7810dc6531c36dd1d0b80d",
+      "verifiedOn": "2026-11-17",
+      "changedOn": "2026-10-15",
+      "ocr": [
+        {
+          "where": "counting",
+          "page": 1,
+          "reading": "Bei der Berechnung der Kurabgabe gelten An- und Abreisetag zusammen als ein Tag."
+        },
+        {
+          "where": "periods[0].adult",
+          "page": 1,
+          "reading": "im Erhebungsgebiet eine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,50 € Netto 1,60 € Brutto"
+        },
+        {
+          "where": "periods[0].children[1]",
+          "page": 1,
+          "reading": "2. für jedes Kind von 6 - 18 Jahre 0,75€ Netto 0,80 € Brutto"
+        },
+        {
+          "where": "periods[0].children[1] amount",
+          "page": 1,
+          "reading": "2. für jedes Kind von 6 - 18 Jahre 0,75€ Netto 0,80 € Brutto"
+        },
+        {
+          "where": "periods[1].adult",
+          "page": 1,
+          "reading": "b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres 1. für jede Person über 18 Jahre 0,84 € Netto 0,90 € Brutto"
+        },
+        {
+          "where": "periods[1].children[1]",
+          "page": 1,
+          "reading": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto"
+        },
+        {
+          "where": "periods[1].children[1] amount",
+          "page": 1,
+          "reading": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto"
+        },
+        {
+          "where": "remarks[0]",
+          "page": 1,
+          "reading": "im Erhebungsgebiet keine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,59 € Netto 1,70 € Brutto 2. für jedes Kind von 6 - 18 Jahre 0,79€ Netto 0,85 € Brutto b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres wird keine Kurabgabe erhoben"
+        }
+      ]
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Kurverwaltung Seebad Lubmin",
+      "kind": "answer",
+      "receivedOn": "2026-11-17",
+      "text": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist. Es gibt aber noch andere Ermäßigungen wie z.B. Azubis; Studenten usw.",
+      "changedOn": "2026-11-17",
+      "sha256": "a1b79ad0f0e4b12063b5643e4988346b2f07d9a419da791d16f531aee34d076e",
+      "verifiedOn": "2026-11-17"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-17"
+    }
+  },
+  "levy": {
+    "name": "Kurabgabe",
+    "source": "aenderung1",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Bei der Berechnung der Kurabgabe gelten An- und Abreisetag zusammen als ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          {
+            "from": "05-01",
+            "to": "09-30"
+          }
+        ],
+        "adult": {
+          "cents": 160,
+          "quote": "im Erhebungsgebiet eine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,50 € Netto 1,60 € Brutto"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,",
+            "source": "satzung"
+          },
+          {
+            "underAge": 18,
+            "cents": 80,
+            "quote": "2. für jedes Kind von 6 - 18 Jahre 0,75 € Netto 0,80 € Brutto",
+            "limit": {
+              "quote": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist.",
+              "source": "auskunft"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          {
+            "from": "10-01",
+            "to": "04-30"
+          }
+        ],
+        "adult": {
+          "cents": 90,
+          "quote": "b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres 1. für jede Person über 18 Jahre 0,84 € Netto 0,90 € Brutto"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,",
+            "source": "satzung"
+          },
+          {
+            "underAge": 18,
+            "cents": 50,
+            "quote": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto",
+            "limit": {
+              "quote": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist.",
+              "source": "auskunft"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": {
+      "nights": 28,
+      "perStay": false,
+      "text": "höchstens 28 Tage im Jahr, auch über mehrere Aufenthalte",
+      "quote": "Die Kurabgabe wird für höchstens 28 Tage im Jahr pro Gast erhoben. Dies gilt auch bei mehreren Aufenthalten.",
+      "source": "satzung"
+    },
+    "exemptions": [
+      {
+        "text": "Begleitpersonen von Schwerbehinderten, die laut amtlichen Unterlagen auf ständige Begleitung angewiesen sind",
+        "quote": "Begleitpersonen von Schwerbehinderten und Schwerbeschädigte, die ausweislich amtlicher Unterlagen auf ständige Begleitung angewiesen sind,",
+        "source": "satzung"
+      },
+      {
+        "text": "Personen, die der Zweitwohnungssteuer unterliegen",
+        "quote": "Personen, die der Zweitwohnungssteuer unterliegen.",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer sich ausschließlich zu anderen als Kur- und Erholungszwecken aufhält, etwa zur Ausbildung, zur Ausübung eines Berufes oder Gewerbes oder zum unbezahlten Besuch bei Verwandten, ist befreit.",
+        "quote": "Personen, die sich ausschließlich zu anderen als zu Kur- und Erholungszwecken im Erhebungsgebiet aufhalten, insbesondere zum Besuch einer Unterrichtseinrichtung zur Ausbildung für einen Beruf, zur Ausübung eines Berufes, eines Gewerbes oder zum Besuch bei Verwandten ohne Zahlung eines Entgeltes,",
+        "source": "satzung"
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Kongressen und Lehrgängen, die die Kurverwaltung anerkannt hat, sind für die Dauer der Veranstaltung befreit.",
+        "quote": "Teilnehmer an den von der Kurverwaltung anerkannten Tagungen, Kongressen und Lehrgängen für die Dauer der Veranstaltung.",
+        "source": "satzung"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Tagesgäste ohne Unterkunft zahlen vom 1. Mai bis 30. September 1,70 € (Kinder von 6 bis 18 Jahren 0,85 €), vom 1. Oktober bis 30. April nichts.",
+        "quote": "im Erhebungsgebiet keine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,59 € Netto 1,70 € Brutto 2. für jedes Kind von 6 - 18 Jahre 0,79 € Netto 0,85 € Brutto b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres wird keine Kurabgabe erhoben"
+      },
+      {
+        "text": "Das dritte und jedes weitere anwesende Kind eines Familienhaushalts ist befreit.",
+        "quote": "das dritte und jedes weitere anwesende Kind eines Familienhaushaltes,",
+        "source": "satzung"
+      },
+      {
+        "text": "Wer in Lubmin ein Wochenendhaus oder einen Bungalow überwiegend selbst nutzt, zahlt eine Pauschalkurabgabe von 45,00 € pro Haushalt und Jahr.",
+        "quote": "Eigentümer oder Besitzer von Wohneinheiten nach § 2 Abs. 2 zahlen eine Pauschalkurabgabe pro Haushalt und Jahr von 45,00 € Brutto.",
+        "source": "satzung"
+      },
+      {
+        "text": "Rentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen mit Nachweis ermäßigt 0,80 € von Mai bis September und 0,50 € in der übrigen Zeit.",
+        "quote": "Alters-, Invalidenrentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres gegen Vorlage eines geeigneten Nachweises.",
+        "source": "satzung"
+      },
+      {
+        "text": "Schwerbeschädigte mit einer Behinderung ab 70 % zahlen mit Nachweis ermäßigt 0,80 € von Mai bis September und 0,50 € in der übrigen Zeit.",
+        "quote": "Schwerbeschädigte, die eine Behinderung von 70 % und mehr nachweisen, zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres.",
+        "source": "satzung"
+      },
+      {
+        "text": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und wird beim Vermieter gezahlt.",
+        "quote": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und beim Wohnungsgeber zu entrichten.",
+        "source": "satzung"
+      },
+      {
+        "text": "Die Jahreskurabgabe beträgt 45,00 € für Personen über 18 Jahre und 22,50 € für Personen von 6 bis 18 Jahren.",
+        "quote": "Die Jahreskurabgabe beträgt im Erhebungsgebiet 1. für jede Person über 18 Jahre 42,05 € Netto 45,00 € Brutto 2. für jede Person von 6 - 18 Jahre 21,02 € Netto 22,50 € Brutto",
+        "source": "satzung"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, trägt sie ins Gästeverzeichnis ein, fordert die Kurabgabe ein und stellt Kurabgabekarte und Meldeschein aus.",
+      "quote": "die von ihm aufgenommenen Personen unverzüglich in das Gästeverzeichnis einzutragen, die Kurabgabe einzufordern, die Kurabgabekarte und den Meldeschein auszustellen",
+      "source": "satzung"
+    },
+    "deadline": {
+      "text": "Abgerechnet wird innerhalb von 3 Tagen in der Kurverwaltung.",
+      "quote": "innerhalb von 3 Tagen in der Kurverwaltung abzurechnen.",
+      "source": "satzung"
+    },
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-17",
+    "by": "agent"
+  },
+  "ocrCompared": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/lubmin/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": 28,
+    "maxPerStay": false,
+    "childLimits": [
+      6,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Hauptsaison",
+        "ranges": [
+          [
+            "05-01",
+            "09-30"
+          ]
+        ],
+        "adult": 160,
+        "children": [
+          0,
+          80
+        ]
+      },
+      {
+        "label": "Nebensaison",
+        "ranges": [
+          [
+            "10-01",
+            "04-30"
+          ]
+        ],
+        "adult": 90,
+        "children": [
+          0,
+          50
+        ]
+      }
+    ]
+  }
+}

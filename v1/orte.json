@@ -42152,6 +42152,371 @@
       }
     },
     {
+      "slug": "lubmin",
+      "name": "Seebad Lubmin",
+      "short": "Lubmin",
+      "ags": "13075083",
+      "state": "Mecklenburg-Vorpommern",
+      "district": "Vorpommern-Greifswald",
+      "sources": {
+        "satzung": {
+          "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Seebad Lubmin vom 27.01.2017 (Neufassung)",
+          "url": "https://daten.verwaltungsportal.de/dateien/legalframework/9/5/7/0/Lubmin_Kurabgabesatzung_2017.pdf",
+          "kind": "statute",
+          "inForce": "2017-01-01",
+          "sha256": "fac5916e3512ccb1e12cd0e07ee48993bb4fcc248f3257727d49ec259019fecb",
+          "verifiedOn": "2026-11-17",
+          "changedOn": "2026-10-15",
+          "ocr": [
+            {
+              "where": "periods[0].children[0]",
+              "page": 1,
+              "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+            },
+            {
+              "where": "periods[1].children[0]",
+              "page": 1,
+              "reading": "Kinder bis zur Vollendung des 6. Lebensjahres,"
+            },
+            {
+              "where": "maxNights",
+              "page": 2,
+              "reading": "Die Kurabgabe wird für höchstens 28 Tage im Jahr pro Gast erhoben. Dies gilt auch bei mehreren Aufenthalten."
+            },
+            {
+              "where": "exemptions[0]",
+              "page": 1,
+              "reading": "Begleitpersonen von Schwerbehinderten und Schwerbeschädigte, die ausweislich amtlicher Unterlagen auf ständige Begleitung angewiesen sind,"
+            },
+            {
+              "where": "exemptions[1]",
+              "page": 1,
+              "reading": "Personen, die der Zweitwohnungssteuer unterliegen."
+            },
+            {
+              "where": "exemptions[2]",
+              "page": 1,
+              "reading": "Personen, die sich ausschließlich zu anderen als zu Kur- und Erholungszwecken im Erhebungsgebiet aufhalten, insbesondere zum Besuch einer Unterrichtseinrichtung zur Ausbildung für einen Beruf, zur Ausübung eines Berufes, eines Gewerbes oder zum Besuch bei Verwandten ohne Zahlung eines Entgeltes,"
+            },
+            {
+              "where": "exemptions[3]",
+              "page": 1,
+              "reading": "Teilnehmer an den von der Kurverwaltung anerkannten Tagungen, Kongressen und Lehrgängen für die Dauer der Veranstaltung."
+            },
+            {
+              "where": "remarks[1]",
+              "page": 1,
+              "reading": "das dritte und jedes weitere anwesende Kind eines Familienhaushaltes,"
+            },
+            {
+              "where": "remarks[2]",
+              "page": 3,
+              "reading": "Eigentümer oder Besitzer von Wohneinheiten nach 8 2 Abs. 2 zahlen eine Pauschalkurabgabe pro Haushalt und Jahr von 45,00 € Brutto."
+            },
+            {
+              "where": "remarks[3]",
+              "page": 2,
+              "reading": "Alters-, Invalidenrentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres gegen Vorlage eines geeigneten Nachweises."
+            },
+            {
+              "where": "remarks[4]",
+              "page": 2,
+              "reading": "Schwerbeschädigte, die eine Behinderung von 70 % und mehr nachweisen, zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres."
+            },
+            {
+              "where": "remarks[5]",
+              "page": 3,
+              "reading": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und beim Wohnungsgeber zu entrichten."
+            },
+            {
+              "where": "remarks[6]",
+              "page": 2,
+              "reading": "Die Jahreskurabgabe beträgt im Erhebungsgebiet 1. für jede Person über 18 Jahre 42,05 € Netto 45,00 € Brutto 2. für jede Person von 6 - 18 Jahre 21,02 € Netto 22,50 € Brutto"
+            },
+            {
+              "where": "hostDuty",
+              "page": 3,
+              "reading": "die von ihm aufgenommenen Personen unverzüglich in das Gästeverzeichnis einzutragen, die Kurabgabe einzufordern, die Kurabgabekarte und den Meldeschein auszustellen"
+            },
+            {
+              "where": "deadline",
+              "page": 3,
+              "reading": "innerhalb von 3 Tagen in der Kurverwaltung abzurechnen."
+            }
+          ]
+        },
+        "aenderung1": {
+          "title": "1. Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Seebad Lubmin vom 26.04.2017",
+          "url": "https://daten.verwaltungsportal.de/dateien/legalframework/9/5/7/0/Lubmin_1._nderung_Kurabgabesatzung_2017.pdf",
+          "kind": "statute",
+          "inForce": "2017-01-01",
+          "sha256": "00423689a40851097cbe0d7b74aa2f1dc531950dde7810dc6531c36dd1d0b80d",
+          "verifiedOn": "2026-11-17",
+          "changedOn": "2026-10-15",
+          "ocr": [
+            {
+              "where": "counting",
+              "page": 1,
+              "reading": "Bei der Berechnung der Kurabgabe gelten An- und Abreisetag zusammen als ein Tag."
+            },
+            {
+              "where": "periods[0].adult",
+              "page": 1,
+              "reading": "im Erhebungsgebiet eine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,50 € Netto 1,60 € Brutto"
+            },
+            {
+              "where": "periods[0].children[1]",
+              "page": 1,
+              "reading": "2. für jedes Kind von 6 - 18 Jahre 0,75€ Netto 0,80 € Brutto"
+            },
+            {
+              "where": "periods[0].children[1] amount",
+              "page": 1,
+              "reading": "2. für jedes Kind von 6 - 18 Jahre 0,75€ Netto 0,80 € Brutto"
+            },
+            {
+              "where": "periods[1].adult",
+              "page": 1,
+              "reading": "b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres 1. für jede Person über 18 Jahre 0,84 € Netto 0,90 € Brutto"
+            },
+            {
+              "where": "periods[1].children[1]",
+              "page": 1,
+              "reading": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto"
+            },
+            {
+              "where": "periods[1].children[1] amount",
+              "page": 1,
+              "reading": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto"
+            },
+            {
+              "where": "remarks[0]",
+              "page": 1,
+              "reading": "im Erhebungsgebiet keine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,59 € Netto 1,70 € Brutto 2. für jedes Kind von 6 - 18 Jahre 0,79€ Netto 0,85 € Brutto b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres wird keine Kurabgabe erhoben"
+            }
+          ]
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft der Kurverwaltung Seebad Lubmin",
+          "kind": "answer",
+          "receivedOn": "2026-11-17",
+          "text": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist. Es gibt aber noch andere Ermäßigungen wie z.B. Azubis; Studenten usw.",
+          "changedOn": "2026-11-17",
+          "sha256": "a1b79ad0f0e4b12063b5643e4988346b2f07d9a419da791d16f531aee34d076e",
+          "verifiedOn": "2026-11-17"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-11-02",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-17"
+        }
+      },
+      "levy": {
+        "name": "Kurabgabe",
+        "source": "aenderung1",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Bei der Berechnung der Kurabgabe gelten An- und Abreisetag zusammen als ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "adult": {
+              "cents": 160,
+              "quote": "im Erhebungsgebiet eine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,50 € Netto 1,60 € Brutto"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,",
+                "source": "satzung"
+              },
+              {
+                "underAge": 18,
+                "cents": 80,
+                "quote": "2. für jedes Kind von 6 - 18 Jahre 0,75 € Netto 0,80 € Brutto",
+                "limit": {
+                  "quote": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist.",
+                  "source": "auskunft"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "04-30"
+              }
+            ],
+            "adult": {
+              "cents": 90,
+              "quote": "b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres 1. für jede Person über 18 Jahre 0,84 € Netto 0,90 € Brutto"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "Kinder bis zur Vollendung des 6. Lebensjahres,",
+                "source": "satzung"
+              },
+              {
+                "underAge": 18,
+                "cents": 50,
+                "quote": "2. für jedes Kind von 6 - 18 Jahre 0,47 € Netto 0,50 € Brutto",
+                "limit": {
+                  "quote": "Man zahlt ab 18 Jahren die volle Kurtaxe, das heißt, sofern man 18 Jahre alt geworden ist.",
+                  "source": "auskunft"
+                }
+              }
+            ]
+          }
+        ],
+        "maxNights": {
+          "nights": 28,
+          "perStay": false,
+          "text": "höchstens 28 Tage im Jahr, auch über mehrere Aufenthalte",
+          "quote": "Die Kurabgabe wird für höchstens 28 Tage im Jahr pro Gast erhoben. Dies gilt auch bei mehreren Aufenthalten.",
+          "source": "satzung"
+        },
+        "exemptions": [
+          {
+            "text": "Begleitpersonen von Schwerbehinderten, die laut amtlichen Unterlagen auf ständige Begleitung angewiesen sind",
+            "quote": "Begleitpersonen von Schwerbehinderten und Schwerbeschädigte, die ausweislich amtlicher Unterlagen auf ständige Begleitung angewiesen sind,",
+            "source": "satzung"
+          },
+          {
+            "text": "Personen, die der Zweitwohnungssteuer unterliegen",
+            "quote": "Personen, die der Zweitwohnungssteuer unterliegen.",
+            "source": "satzung"
+          },
+          {
+            "text": "Wer sich ausschließlich zu anderen als Kur- und Erholungszwecken aufhält, etwa zur Ausbildung, zur Ausübung eines Berufes oder Gewerbes oder zum unbezahlten Besuch bei Verwandten, ist befreit.",
+            "quote": "Personen, die sich ausschließlich zu anderen als zu Kur- und Erholungszwecken im Erhebungsgebiet aufhalten, insbesondere zum Besuch einer Unterrichtseinrichtung zur Ausbildung für einen Beruf, zur Ausübung eines Berufes, eines Gewerbes oder zum Besuch bei Verwandten ohne Zahlung eines Entgeltes,",
+            "source": "satzung"
+          },
+          {
+            "text": "Teilnehmer an Tagungen, Kongressen und Lehrgängen, die die Kurverwaltung anerkannt hat, sind für die Dauer der Veranstaltung befreit.",
+            "quote": "Teilnehmer an den von der Kurverwaltung anerkannten Tagungen, Kongressen und Lehrgängen für die Dauer der Veranstaltung.",
+            "source": "satzung"
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Tagesgäste ohne Unterkunft zahlen vom 1. Mai bis 30. September 1,70 € (Kinder von 6 bis 18 Jahren 0,85 €), vom 1. Oktober bis 30. April nichts.",
+            "quote": "im Erhebungsgebiet keine Unterkunft nehmen a) in der Zeit vom 01. Mai bis 30. September eines Jahres: 1. für jede Person über 18 Jahre 1,59 € Netto 1,70 € Brutto 2. für jedes Kind von 6 - 18 Jahre 0,79 € Netto 0,85 € Brutto b) in der Zeit vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres wird keine Kurabgabe erhoben"
+          },
+          {
+            "text": "Das dritte und jedes weitere anwesende Kind eines Familienhaushalts ist befreit.",
+            "quote": "das dritte und jedes weitere anwesende Kind eines Familienhaushaltes,",
+            "source": "satzung"
+          },
+          {
+            "text": "Wer in Lubmin ein Wochenendhaus oder einen Bungalow überwiegend selbst nutzt, zahlt eine Pauschalkurabgabe von 45,00 € pro Haushalt und Jahr.",
+            "quote": "Eigentümer oder Besitzer von Wohneinheiten nach § 2 Abs. 2 zahlen eine Pauschalkurabgabe pro Haushalt und Jahr von 45,00 € Brutto.",
+            "source": "satzung"
+          },
+          {
+            "text": "Rentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen mit Nachweis ermäßigt 0,80 € von Mai bis September und 0,50 € in der übrigen Zeit.",
+            "quote": "Alters-, Invalidenrentner, Schüler, Lehrlinge, Studenten und Arbeitslose zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres gegen Vorlage eines geeigneten Nachweises.",
+            "source": "satzung"
+          },
+          {
+            "text": "Schwerbeschädigte mit einer Behinderung ab 70 % zahlen mit Nachweis ermäßigt 0,80 € von Mai bis September und 0,50 € in der übrigen Zeit.",
+            "quote": "Schwerbeschädigte, die eine Behinderung von 70 % und mehr nachweisen, zahlen eine ermäßigte Kurabgabe in Höhe von 0,80 € Brutto vom 01. Mai bis 30. September eines Jahres sowie in Höhe von 0,50 € Brutto vom 01. Oktober bis 31. Dezember und 01. Januar bis 30. April eines Jahres.",
+            "source": "satzung"
+          },
+          {
+            "text": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und wird beim Vermieter gezahlt.",
+            "quote": "Die Kurabgabe ist spätestens am ersten Werktag nach der Ankunft für die gesamte Aufenthaltsdauer fällig und beim Wohnungsgeber zu entrichten.",
+            "source": "satzung"
+          },
+          {
+            "text": "Die Jahreskurabgabe beträgt 45,00 € für Personen über 18 Jahre und 22,50 € für Personen von 6 bis 18 Jahren.",
+            "quote": "Die Jahreskurabgabe beträgt im Erhebungsgebiet 1. für jede Person über 18 Jahre 42,05 € Netto 45,00 € Brutto 2. für jede Person von 6 - 18 Jahre 21,02 € Netto 22,50 € Brutto",
+            "source": "satzung"
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, trägt sie ins Gästeverzeichnis ein, fordert die Kurabgabe ein und stellt Kurabgabekarte und Meldeschein aus.",
+          "quote": "die von ihm aufgenommenen Personen unverzüglich in das Gästeverzeichnis einzutragen, die Kurabgabe einzufordern, die Kurabgabekarte und den Meldeschein auszustellen",
+          "source": "satzung"
+        },
+        "deadline": {
+          "text": "Abgerechnet wird innerhalb von 3 Tagen in der Kurverwaltung.",
+          "quote": "innerhalb von 3 Tagen in der Kurverwaltung abzurechnen.",
+          "source": "satzung"
+        },
+        "reporting": null
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-17",
+        "by": "agent"
+      },
+      "ocrCompared": {
+        "on": "2026-10-15",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/lubmin/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": 28,
+        "maxPerStay": false,
+        "childLimits": [
+          6,
+          18
+        ],
+        "periods": [
+          {
+            "label": "Hauptsaison",
+            "ranges": [
+              [
+                "05-01",
+                "09-30"
+              ]
+            ],
+            "adult": 160,
+            "children": [
+              0,
+              80
+            ]
+          },
+          {
+            "label": "Nebensaison",
+            "ranges": [
+              [
+                "10-01",
+                "04-30"
+              ]
+            ],
+            "adult": 90,
+            "children": [
+              0,
+              50
+            ]
+          }
+        ]
+      }
+    },
+    {
       "slug": "moenchgut",
       "name": "Ostseebad Mönchgut",
       "short": "Mönchgut",
@@ -67236,6 +67601,182 @@
               ]
             ],
             "adult": 180,
+            "children": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "blekendorf",
+      "name": "Blekendorf",
+      "short": "Blekendorf",
+      "ags": "01057007",
+      "state": "Schleswig-Holstein",
+      "district": "Plön",
+      "sources": {
+        "satzung": {
+          "title": "Satzung zur Änderung der Satzung über die Erhebung einer Kurabgabe in der Gemeinde Blekendorf, 6. Nachtrag, ausgefertigt am 02.10.2025",
+          "url": "https://www.amt-luetjenburg.de/loadDocument.phtml?FID=3909.1126.1&Ext=PDF",
+          "kind": "statute",
+          "inForce": "2026-01-01",
+          "sha256": "1303e19930ee105fc845a64c91a67ad9b786156cb3f9fb43b9658feb63d1240c",
+          "verifiedOn": "2026-11-17",
+          "changedOn": "2026-10-15"
+        },
+        "gesamtfassung": {
+          "title": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Blekendorf in der Fassung des 6. Nachtrages (Gesamtfassung), vom Amt Lütjenburg per Mail geschickt",
+          "kind": "answer",
+          "receivedOn": "2026-11-17",
+          "text": "Satzung über die Erhebung einer Kurabgabe in der Gemeinde Blekendorf in der Fassung des 6. Nachtrages, in Kraft getreten am 01.01.2026 (Auszüge)\n\n§ 3 (1) Von der Kurabgabepflicht sind freigestellt: a) in Ausübung ihres Dienstes, Berufes, Gewerbes oder ihrer Ausbildung vorübergehend Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen bzw. die Benutzung der Einrichtungen zu den Aufgaben im Rahmen ihrer Tätigkeit gehört; b) Kranke, die durch ein ärztliches Zeugnis nachweisen, daß sie ihre Unterkunft nicht verlassen können, für die Dauer der physischen Verhinderung und Kranke, die aufgrund psychischer Krankheiten zur Inanspruchnahme vor Kureinrichtungen oder zur Teilnahme an Kurveranstaltungen nicht in der Lage sind. c) Teilnehmer an Tagungen, Kongressen und gleichartigen Veranstaltungen, sofern die Veranstaltung vor Eintreffen der Teilnehmer im Gemeindegebiet bei der Kurverwaltung Blekendorf angemeldet wird und soweit die Tagungsteilnehmer die Einrichtungen nicht in Anspruch nehmen; d) Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres; e) Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Blekendorf ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind und soweit sie die Einrichtungen nicht in Anspruch nehmen; f) OstseeCard-Inhaber aus Fremdgemeinden. (2) Gästekarten von anderen Ferienorten in Schleswig-Holstein haben einen Tag Gültigkeit.\n\n§ 6 Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 70 v. H. bis 90 v. H. nachweisen, erhalten eine Ermäßigung von 50 v. H.. Schwerbehinderte Personen, die eine Behinderung von 91 v. H. bis 100 v. H. nachweisen, erhalten eine Ermäßigung von 100 v. H. Eine nachweislich erforderliche Begleitperson, die durch den Eintrag „B“ auf der Vorderseite des Behindertenausweises vermerkt sind, erhält eine Ermäßigung wie die schwerbehinderte Person. Der Wohnungsgeber ist nicht berechtigt, Ermäßigungen zu gewähren.\n\n§ 7 (1) Die Kurabgabeschuld entsteht mit dem Eintreffen im Gemeindegebiet. Sie ist eine Bringschuld und ist bei der Kurverwaltung Blekendorf spätestens am 1. Werktag nach dem Eintreffen im Gemeindegebiet zu entrichten.\n\n§ 10 (3) Jeder Unterkunftsgeber ist verpflichtet, jede von ihm aufgenommene Person ab 18 Jahren an die Kurverwaltung Blekendorf zwecks Ausgabe der OstseeCard zu verweisen und unter Verwendung der von der Kurverwaltung Blekendorf kostenlos zur Verfügung gestellten Meldescheine durch den Gast den An- und Abreisetag und die Heimatanschrift eintragen zu lassen und die für die Kurverwaltung Blekendorf bestimmten Kopien innerhalb von 3 Werktagen bei der Kurverwaltung Blekendorf einzureichen. Der Gast hat die Richtigkeit der Angaben durch seine Unterschrift zu bestätigen. Die Ausgabe der OstseeCard an den Gast erfolgt durch die Kurverwaltung Blekendorf.\n\n§ 10 (6) Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen.",
+          "changedOn": "2026-11-17",
+          "sha256": "92de196c8ea449a88c5f50c84fe88dd0c82df3b21edc1a50537790ae264b8360",
+          "verifiedOn": "2026-11-17"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "changedOn": "2026-11-02",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-17"
+        }
+      },
+      "levy": {
+        "name": "Kurabgabe",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "An- und Abreisetag gelten als ein Tag, wobei der Anreisetag nicht berechnet wird."
+        },
+        "periods": [
+          {
+            "label": "Saison",
+            "ranges": [
+              {
+                "from": "05-01",
+                "to": "09-15"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "für Personen ab 18 Jahren 3,00 Euro für die Zeit vom 01.05. bis zum 15.09."
+            },
+            "children": [
+              {
+                "underAge": 18,
+                "cents": 0,
+                "quote": "Kinder und Jugendliche bis zur Vollendung des 18. Lebensjahres;",
+                "source": "gesamtfassung"
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Wer beruflich, dienstlich oder zur Ausbildung vorübergehend im Ort ist und die Einrichtungen nicht nutzt, zahlt nichts.",
+            "quote": "in Ausübung ihres Dienstes, Berufes, Gewerbes oder ihrer Ausbildung vorübergehend Anwesende, soweit sie die Einrichtungen nicht in Anspruch nehmen",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Kranke, die laut ärztlichem Zeugnis ihre Unterkunft nicht verlassen können, zahlen für diese Zeit nichts.",
+            "quote": "Kranke, die durch ein ärztliches Zeugnis nachweisen, daß sie ihre Unterkunft nicht verlassen können, für die Dauer der physischen Verhinderung",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Teilnehmer an Tagungen und Kongressen, die vorher bei der Kurverwaltung angemeldet wurden, zahlen nichts, soweit sie die Einrichtungen nicht nutzen.",
+            "quote": "Teilnehmer an Tagungen, Kongressen und gleichartigen Veranstaltungen, sofern die Veranstaltung vor Eintreffen der Teilnehmer im Gemeindegebiet bei der Kurverwaltung Blekendorf angemeldet wird",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Nahe Verwandte von Einwohnern, die unentgeltlich bei ihnen wohnen und die Einrichtungen nicht nutzen, zahlen nichts.",
+            "quote": "Kinder, Kindeskinder, Geschwister und Geschwisterkinder, Eltern, Großeltern, Schwiegereltern, Schwiegertöchter und -söhne, Schwäger und Schwägerinnen von Personen, die in der Gemeinde Blekendorf ihren Hauptwohnsitz haben, wenn sie unentgeltlich in die häusliche Gemeinschaft aufgenommen sind",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Wer eine OstseeCard aus einer anderen Gemeinde hat, zahlt nichts.",
+            "quote": "OstseeCard-Inhaber aus Fremdgemeinden.",
+            "source": "gesamtfassung"
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Schüler, Studenten und Freiwilligendienstleistende (BFD) zahlen mit Nachweis 1,50 € statt 3,00 €.",
+            "quote": "sowie für Schüler, Studenten und Freiwilligendienstler (BFD) bei Vorlage eines entsprechenden Nachweises 1,50 Euro für die Zeit vom 01.05. bis zum 15.09."
+          },
+          {
+            "text": "Wer es beantragt, sowie Eigentümer, Miteigentümer und Dauernutzungsberechtigte einer Wohnungseinheit im Gemeindegebiet und ihre Familienangehörigen zahlen pauschal für 21 Tage der Saison (Jahrespauschale).",
+            "quote": "Die Zahl der Aufenthaltstage wird auf 21 Tage der Saison pauschaliert (Jahrespauschale), wenn der Kurabgabepflichtige a) einen entsprechenden Antrag stellt oder b) Eigentümer, Miteigentümer oder Ssonstiger Dauernutzungsberechtigter einer Wohnungseinheit im Gemeindegebiet oder dessen Familienangehöriger ist."
+          },
+          {
+            "text": "Menschen mit einem Grad der Behinderung von 70 bis 90 zahlen die Hälfte, ab 91 nichts; eine im Ausweis mit „B“ eingetragene Begleitperson erhält dieselbe Ermäßigung. Ermäßigungen gewährt nur die Kurverwaltung, nicht der Vermieter.",
+            "quote": "Schwerbehinderte Personen, die einen Grad der Behinderung von mindestens 70 v. H. bis 90 v. H. nachweisen, erhalten eine Ermäßigung von 50 v. H.",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Der Vermieter darf selbst keine Ermäßigungen gewähren.",
+            "quote": "Der Wohnungsgeber ist nicht berechtigt, Ermäßigungen zu gewähren.",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Gäste zahlen die Kurabgabe selbst bei der Kurverwaltung, spätestens am ersten Werktag nach der Ankunft, und erhalten dort die OstseeCard.",
+            "quote": "Sie ist eine Bringschuld und ist bei der Kurverwaltung Blekendorf spätestens am 1. Werktag nach dem Eintreffen im Gemeindegebiet zu entrichten.",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Gästekarten anderer Ferienorte in Schleswig-Holstein gelten in Blekendorf einen Tag.",
+            "quote": "Gästekarten von anderen Ferienorten in Schleswig-Holstein haben einen Tag Gültigkeit.",
+            "source": "gesamtfassung"
+          },
+          {
+            "text": "Du musst die Satzung für deine Gäste sichtbar auslegen.",
+            "quote": "Jeder Unterkunftsgeber hat diese Satzung für die von ihm aufgenommenen Personen sichtbar auszulegen.",
+            "source": "gesamtfassung"
+          }
+        ],
+        "hostDuty": {
+          "text": "Du schickst jeden Gast ab 18 Jahren zur Kurverwaltung, wo er die OstseeCard bekommt, und lässt ihn auf dem Meldeschein der Kurverwaltung An- und Abreisetag und Heimatanschrift eintragen und unterschreiben.",
+          "quote": "jede von ihm aufgenommene Person ab 18 Jahren an die Kurverwaltung Blekendorf zwecks Ausgabe der OstseeCard zu verweisen und unter Verwendung der von der Kurverwaltung Blekendorf kostenlos zur Verfügung gestellten Meldescheine durch den Gast den An- und Abreisetag und die Heimatanschrift eintragen zu lassen",
+          "source": "gesamtfassung"
+        },
+        "deadline": {
+          "text": "Die Kopien der Meldescheine reichst du innerhalb von 3 Werktagen bei der Kurverwaltung ein.",
+          "quote": "die für die Kurverwaltung Blekendorf bestimmten Kopien innerhalb von 3 Werktagen bei der Kurverwaltung Blekendorf einzureichen",
+          "source": "gesamtfassung"
+        },
+        "reporting": null
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-17",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/blekendorf/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          18
+        ],
+        "periods": [
+          {
+            "label": "Saison",
+            "ranges": [
+              [
+                "05-01",
+                "09-15"
+              ]
+            ],
+            "adult": 300,
             "children": [
               0
             ]
@@ -95693,6 +96234,177 @@
             "children": [
               0,
               220
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "masserberg",
+      "name": "Gemeinde Masserberg",
+      "short": "Masserberg",
+      "ags": "16069061",
+      "state": "Thüringen",
+      "district": "Hildburghausen",
+      "sources": {
+        "satzung": {
+          "title": "Kurbeitragssatzung der Gemeinde Masserberg vom 19.09.2019 in der Fassung der 1. Änderungssatzung vom 23.06.2020, Lesefassung der Gemeinde",
+          "url": "https://www.masserberg.de/images/downloads/Kurbeitragssatzung.pdf",
+          "kind": "municipality",
+          "inForce": "2020-07-04",
+          "sha256": "801013af7752f61c206548357d1771d933443fafa07b0f84a34d41b494a03562",
+          "verifiedOn": "2026-11-17",
+          "changedOn": "2026-10-15"
+        },
+        "auskunft": {
+          "title": "Schriftliche Auskunft der Masserberg Information (Gemeinde Masserberg)",
+          "kind": "answer",
+          "receivedOn": "2026-11-17",
+          "text": "Laut unserer Kurbeitragssatzung vom 19.09.2019 zahlen Kinder bis 5 Jahre nichts, Kinder von 6 - 15 zahlen 1,50 € pro ÜN\nund ab dem 16. Geburtstag zahlen sie den vollen Preis von 3,00 € pro ÜN.",
+          "changedOn": "2026-11-17",
+          "sha256": "221ef60e466285e4809e17f54178fa823e2972a16300233efb30bc6611048a0f",
+          "verifiedOn": "2026-11-17"
+        },
+        "bnetza": {
+          "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+          "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+          "kind": "federal",
+          "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+          "verifiedOn": "2026-11-17",
+          "changedOn": "2026-11-02"
+        }
+      },
+      "levy": {
+        "name": "Kurbeitrag",
+        "source": "satzung",
+        "counting": {
+          "countsDepartureDay": false,
+          "quote": "Der Tag des Eintreffens und der Tag der Abreise gelten für die Festsetzung des Kurbeitrages als insgesamt ein Tag."
+        },
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              {
+                "from": "01-01",
+                "to": "12-31"
+              }
+            ],
+            "adult": {
+              "cents": 300,
+              "quote": "2. Ab dem 17. Lebensjahres: 3,00 Euro"
+            },
+            "children": [
+              {
+                "underAge": 6,
+                "cents": 0,
+                "quote": "zahlen Kinder bis 5 Jahre nichts",
+                "source": "auskunft"
+              },
+              {
+                "underAge": 16,
+                "cents": 150,
+                "quote": "1. Ab dem 7. Lebensjahr: 1,50 Euro",
+                "limit": {
+                  "quote": "Kinder von 6 - 15 zahlen 1,50 € pro ÜN",
+                  "source": "auskunft"
+                }
+              }
+            ]
+          }
+        ],
+        "maxNights": null,
+        "exemptions": [
+          {
+            "text": "Tagesgäste zahlen nichts.",
+            "quote": "Personen, wenn sie sich als Tagesgäste im Erhebungsgebiet aufhalten (z. B. Passanten)."
+          },
+          {
+            "text": "Wer bei einer im Ort wohnenden Familie unentgeltlich Aufnahme findet, zahlt nichts.",
+            "quote": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltlich Aufnahme finden."
+          },
+          {
+            "text": "Teilnehmer an Tagungen, Kursen und ähnlichen Veranstaltungen, die weit überwiegend aus beruflichen Gründen kommen, zahlen nichts.",
+            "quote": "Teilnehmer an Kongressen, Tagungen, Messen, Lehrgängen, Kursen und vergleichbaren Veranstaltungen, wenn diese aus weit überwiegend oder ausschließlichen beruflichen Gründen (z. B. Berufsausübung bzw. – ausbildung) besucht werden."
+          },
+          {
+            "text": "Auf Antrag zahlen Begleitpersonen von Menschen mit mindestens 50 Prozent Erwerbsminderung nichts, wenn die Begleitung nachgewiesen notwendig ist und sie selbst keine Kureinrichtungen nutzen.",
+            "quote": "Begleitpersonen von Schwerbehinderten, Schwererwerbsbeschränkten oder Behinderten im Sinne des § 53 SGB XII mit mindestens fünfzig vom Hundert Erwerbsminderung, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird und die Begleitperson selbst keine Kur- /Erholungseinrichtungen gebraucht bzw. Kur-/Erholungsveranstaltungen besucht."
+          }
+        ],
+        "remarks": [
+          {
+            "text": "Erhoben wird nur in den Ortsteilen, die staatlich anerkannter Erholungsort oder heilklimatischer Kurort sind.",
+            "quote": "Erhebungsgebiet, sind die im Gemeindegebiet befindlichen Ortsteile, die „Staatlich anerkannter Erholungsort“ oder „Staatlich anerkannter heilklimatischer Kurort“ sind."
+          },
+          {
+            "text": "Menschen mit einem Grad der Behinderung von 100 und Blinde zahlen auf Antrag die Hälfte.",
+            "quote": "Der Kurbeitrag wird auf Antrag auf 50 % des Beitragssatzes ermäßigt für Schwerbehinderte, im Sinne des § 1 des Schwerbehindertengesetzes, bei einem Grad der Behinderung nach amtlichen Ausweis von 100 % und für Blinde."
+          },
+          {
+            "text": "Wer mit Zweitwohnsitz gemeldet und Eigentümer oder Besitzer einer Wohneinheit ist, zahlt den Kurbeitrag einmal im Jahr für 30 Tage.",
+            "quote": "einmal im Kalenderjahr der Kurbeitrag für einen Aufenthalt von 30 Tagen erhoben."
+          },
+          {
+            "text": "Du haftest neben dem Gast als Gesamtschuldner für das rechtzeitige und vollständige Einziehen und Abführen des Kurbeitrags.",
+            "quote": "Der Wohnungsgeber haftet neben dem Beitragspflichtigen für die rechtzeitige und vollständige Einziehung und Abführung des Kurbeitrages als Gesamtschuldner."
+          },
+          {
+            "text": "Du musst die Satzung gut sichtbar bei dir aushängen; die Gemeinde stellt Exemplare kostenlos zur Verfügung.",
+            "quote": "Diese Satzung ist bei jedem Wohnungsgeber im Sinne des § 10 Absatz 1 an allgemein zugänglicher Stelle deutlich sichtbar auszuhängen."
+          },
+          {
+            "text": "Die Gemeinde bestätigt: Kinder bis 5 Jahre zahlen nichts, von 6 bis 15 Jahren 1,50 € und ab dem 16. Geburtstag den vollen Satz von 3,00 € je Nacht.",
+            "quote": "ab dem 16. Geburtstag zahlen sie den vollen Preis von 3,00 € pro ÜN.",
+            "source": "auskunft"
+          }
+        ],
+        "hostDuty": {
+          "text": "Wer Gäste beherbergt, zieht den Kurbeitrag im Voraus für die ganze Aufenthaltsdauer ein und führt ihn an die Gemeinde ab.",
+          "quote": "Der Wohnungsgeber hat den satzungsgemäßen Kurbeitrag von den Beitragspflichtigen im Voraus für die Aufenthaltsdauer einzuziehen und unverzüglich, jedoch spätestens 1 Woche nach Ankunft des Beitragspflichtigen an die Gemeindeverwaltung oder die Tourismusinformation (Hauptstraße 37, 98666 Masserberg) abzuführen."
+        },
+        "deadline": {
+          "text": "Abführen musst du unverzüglich, spätestens eine Woche nach der Ankunft des Gastes.",
+          "quote": "unverzüglich, jedoch spätestens 1 Woche nach Ankunft des Beitragspflichtigen an die Gemeindeverwaltung oder die Tourismusinformation"
+        },
+        "reporting": {
+          "text": "Das ausgefüllte Meldeformular gibst du spätestens einen Tag nach der Ankunft in der Gemeindeverwaltung oder der Tourismusinformation ab; elektronisch geht es auch.",
+          "quote": "Der Wohnungsgeber hat die Durchschrift der ausgefüllten Meldeformulare spätestens 1 Tag nach Ankunft des Gastes in der Gemeindeverwaltung oder der Tourismusinformation abzugeben."
+        }
+      },
+      "lodgingTax": null,
+      "registration": {
+        "required": false,
+        "source": "bnetza",
+        "asOf": "2026-10-26",
+        "quote": "Stand: 26.10.2026"
+      },
+      "checked": {
+        "on": "2026-11-17",
+        "by": "agent"
+      },
+      "url": "https://keyset.cloud/kurtaxe/masserberg/",
+      "calculation": {
+        "countsDepartureDay": false,
+        "maxDays": null,
+        "maxPerStay": null,
+        "childLimits": [
+          6,
+          16
+        ],
+        "periods": [
+          {
+            "label": "Ganzjährig",
+            "ranges": [
+              [
+                "01-01",
+                "12-31"
+              ]
+            ],
+            "adult": 300,
+            "children": [
+              0,
+              150
             ]
           }
         ]

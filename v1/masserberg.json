@@ -1,0 +1,174 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "masserberg",
+  "name": "Gemeinde Masserberg",
+  "short": "Masserberg",
+  "ags": "16069061",
+  "state": "Thüringen",
+  "district": "Hildburghausen",
+  "sources": {
+    "satzung": {
+      "title": "Kurbeitragssatzung der Gemeinde Masserberg vom 19.09.2019 in der Fassung der 1. Änderungssatzung vom 23.06.2020, Lesefassung der Gemeinde",
+      "url": "https://www.masserberg.de/images/downloads/Kurbeitragssatzung.pdf",
+      "kind": "municipality",
+      "inForce": "2020-07-04",
+      "sha256": "801013af7752f61c206548357d1771d933443fafa07b0f84a34d41b494a03562",
+      "verifiedOn": "2026-11-17",
+      "changedOn": "2026-10-15"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Masserberg Information (Gemeinde Masserberg)",
+      "kind": "answer",
+      "receivedOn": "2026-11-17",
+      "text": "Laut unserer Kurbeitragssatzung vom 19.09.2019 zahlen Kinder bis 5 Jahre nichts, Kinder von 6 - 15 zahlen 1,50 € pro ÜN\nund ab dem 16. Geburtstag zahlen sie den vollen Preis von 3,00 € pro ÜN.",
+      "changedOn": "2026-11-17",
+      "sha256": "221ef60e466285e4809e17f54178fa823e2972a16300233efb30bc6611048a0f",
+      "verifiedOn": "2026-11-17"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-17",
+      "changedOn": "2026-11-02"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Der Tag des Eintreffens und der Tag der Abreise gelten für die Festsetzung des Kurbeitrages als insgesamt ein Tag."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 300,
+          "quote": "2. Ab dem 17. Lebensjahres: 3,00 Euro"
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "zahlen Kinder bis 5 Jahre nichts",
+            "source": "auskunft"
+          },
+          {
+            "underAge": 16,
+            "cents": 150,
+            "quote": "1. Ab dem 7. Lebensjahr: 1,50 Euro",
+            "limit": {
+              "quote": "Kinder von 6 - 15 zahlen 1,50 € pro ÜN",
+              "source": "auskunft"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Tagesgäste zahlen nichts.",
+        "quote": "Personen, wenn sie sich als Tagesgäste im Erhebungsgebiet aufhalten (z. B. Passanten)."
+      },
+      {
+        "text": "Wer bei einer im Ort wohnenden Familie unentgeltlich Aufnahme findet, zahlt nichts.",
+        "quote": "Personen, die als Hausbesuch bei einer im Erhebungsgebiet wohnhaften Familie unentgeltlich Aufnahme finden."
+      },
+      {
+        "text": "Teilnehmer an Tagungen, Kursen und ähnlichen Veranstaltungen, die weit überwiegend aus beruflichen Gründen kommen, zahlen nichts.",
+        "quote": "Teilnehmer an Kongressen, Tagungen, Messen, Lehrgängen, Kursen und vergleichbaren Veranstaltungen, wenn diese aus weit überwiegend oder ausschließlichen beruflichen Gründen (z. B. Berufsausübung bzw. – ausbildung) besucht werden."
+      },
+      {
+        "text": "Auf Antrag zahlen Begleitpersonen von Menschen mit mindestens 50 Prozent Erwerbsminderung nichts, wenn die Begleitung nachgewiesen notwendig ist und sie selbst keine Kureinrichtungen nutzen.",
+        "quote": "Begleitpersonen von Schwerbehinderten, Schwererwerbsbeschränkten oder Behinderten im Sinne des § 53 SGB XII mit mindestens fünfzig vom Hundert Erwerbsminderung, wenn die Notwendigkeit einer Begleitperson durch amtsärztliche Bescheinigung, Schwerbehindertenausweis oder Rentenbescheid nachgewiesen wird und die Begleitperson selbst keine Kur- /Erholungseinrichtungen gebraucht bzw. Kur-/Erholungsveranstaltungen besucht."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Erhoben wird nur in den Ortsteilen, die staatlich anerkannter Erholungsort oder heilklimatischer Kurort sind.",
+        "quote": "Erhebungsgebiet, sind die im Gemeindegebiet befindlichen Ortsteile, die „Staatlich anerkannter Erholungsort“ oder „Staatlich anerkannter heilklimatischer Kurort“ sind."
+      },
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und Blinde zahlen auf Antrag die Hälfte.",
+        "quote": "Der Kurbeitrag wird auf Antrag auf 50 % des Beitragssatzes ermäßigt für Schwerbehinderte, im Sinne des § 1 des Schwerbehindertengesetzes, bei einem Grad der Behinderung nach amtlichen Ausweis von 100 % und für Blinde."
+      },
+      {
+        "text": "Wer mit Zweitwohnsitz gemeldet und Eigentümer oder Besitzer einer Wohneinheit ist, zahlt den Kurbeitrag einmal im Jahr für 30 Tage.",
+        "quote": "einmal im Kalenderjahr der Kurbeitrag für einen Aufenthalt von 30 Tagen erhoben."
+      },
+      {
+        "text": "Du haftest neben dem Gast als Gesamtschuldner für das rechtzeitige und vollständige Einziehen und Abführen des Kurbeitrags.",
+        "quote": "Der Wohnungsgeber haftet neben dem Beitragspflichtigen für die rechtzeitige und vollständige Einziehung und Abführung des Kurbeitrages als Gesamtschuldner."
+      },
+      {
+        "text": "Du musst die Satzung gut sichtbar bei dir aushängen; die Gemeinde stellt Exemplare kostenlos zur Verfügung.",
+        "quote": "Diese Satzung ist bei jedem Wohnungsgeber im Sinne des § 10 Absatz 1 an allgemein zugänglicher Stelle deutlich sichtbar auszuhängen."
+      },
+      {
+        "text": "Die Gemeinde bestätigt: Kinder bis 5 Jahre zahlen nichts, von 6 bis 15 Jahren 1,50 € und ab dem 16. Geburtstag den vollen Satz von 3,00 € je Nacht.",
+        "quote": "ab dem 16. Geburtstag zahlen sie den vollen Preis von 3,00 € pro ÜN.",
+        "source": "auskunft"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, zieht den Kurbeitrag im Voraus für die ganze Aufenthaltsdauer ein und führt ihn an die Gemeinde ab.",
+      "quote": "Der Wohnungsgeber hat den satzungsgemäßen Kurbeitrag von den Beitragspflichtigen im Voraus für die Aufenthaltsdauer einzuziehen und unverzüglich, jedoch spätestens 1 Woche nach Ankunft des Beitragspflichtigen an die Gemeindeverwaltung oder die Tourismusinformation (Hauptstraße 37, 98666 Masserberg) abzuführen."
+    },
+    "deadline": {
+      "text": "Abführen musst du unverzüglich, spätestens eine Woche nach der Ankunft des Gastes.",
+      "quote": "unverzüglich, jedoch spätestens 1 Woche nach Ankunft des Beitragspflichtigen an die Gemeindeverwaltung oder die Tourismusinformation"
+    },
+    "reporting": {
+      "text": "Das ausgefüllte Meldeformular gibst du spätestens einen Tag nach der Ankunft in der Gemeindeverwaltung oder der Tourismusinformation ab; elektronisch geht es auch.",
+      "quote": "Der Wohnungsgeber hat die Durchschrift der ausgefüllten Meldeformulare spätestens 1 Tag nach Ankunft des Gastes in der Gemeindeverwaltung oder der Tourismusinformation abzugeben."
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-17",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/masserberg/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 300,
+        "children": [
+          0,
+          150
+        ]
+      }
+    ]
+  }
+}
