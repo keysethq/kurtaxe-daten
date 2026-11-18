@@ -14,8 +14,8 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/9/5/Wiek_Kur.pdf",
       "kind": "statute",
       "sha256": "f52e7c0d1296835f8132fbf1e49e4e84ade01c0535b1846a86ea377c18b8a024",
-      "verifiedOn": "2026-11-16",
-      "changedOn": "2026-10-15",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-11-18",
       "ocr": [
         {
           "where": "counting",
@@ -109,11 +109,16 @@
         },
         {
           "where": "remarks[5]",
+          "page": 2,
+          "reading": "Hundehalter zusätzlich 0,50 € nicht möglich je Hund Jahreskarte 20,00 €"
+        },
+        {
+          "where": "remarks[6]",
           "page": 1,
           "reading": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungseinheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
         },
         {
-          "where": "remarks[6]",
+          "where": "remarks[7]",
           "page": 3,
           "reading": "Die Wohnungsgeber haften für die Abgabeschuld."
         }
@@ -126,7 +131,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "3fc897b1d24f08c052e617d9156e23f1a79702f9f1a07f180b18e7be27acb917",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -135,7 +140,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-18"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Wiek, Beschluss vom 02.05.2012, nichtamtliche Lesefassung",
@@ -143,7 +148,7 @@
       "kind": "municipality",
       "inForce": "2012-12-31",
       "sha256": "05b64eb72d66e80a7bddae1b49142ea13ae6be595ac49ecce7d00876ec2931e9",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15"
     }
   },
@@ -245,6 +250,10 @@
         "quote": "Jahreskurkarten 30,00 € 20,00 €"
       },
       {
+        "text": "Für jeden mitgebrachten Hund kommen 0,50 € pro Tag oder 20,00 € für die Jahreskarte dazu, ermäßigt wird das nicht.",
+        "quote": "Hundehalter zusätzlich 0,50 € nicht möglich je Hund Jahreskarte 20,00 €"
+      },
+      {
         "text": "Wer in Wiek eine eigene Wohnung überwiegend zur Erholung nutzt, zahlt eine Jahreskurabgabe.",
         "quote": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungs- einheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
       },
@@ -316,7 +325,7 @@
     "by": "agent"
   },
   "ocrCompared": {
-    "on": "2026-10-15",
+    "on": "2026-11-18",
     "by": "agent"
   },
   "url": "https://keyset.cloud/kurtaxe/wiek-ruegen/",

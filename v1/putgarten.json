@@ -14,8 +14,8 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/KurabgPutg.pdf",
       "kind": "statute",
       "sha256": "65a44f546aeaf776853505c248300c0373d5458ab40963510a5f392b808a92a7",
-      "verifiedOn": "2026-11-16",
-      "changedOn": "2026-10-15",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-11-18",
       "ocr": [
         {
           "where": "counting",
@@ -124,11 +124,16 @@
         },
         {
           "where": "remarks[8]",
+          "page": 2,
+          "reading": "Hundehalter zusätzlich 0,50 €/Tag bzw. nicht möglich je Hund 20,00 €/Jahr"
+        },
+        {
+          "where": "remarks[9]",
           "page": 1,
           "reading": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungs- _ einheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
         },
         {
-          "where": "remarks[9]",
+          "where": "remarks[10]",
           "page": 3,
           "reading": "Die Wohnungsgeber haften für die Abgabeschuld."
         }
@@ -139,7 +144,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/Aend.Satz_.Putg_.Kurabg..pdf",
       "kind": "statute",
       "sha256": "9700f32b7e8b03409d4ccd9c347a1c587ebcfed4379eec57b0f7ddd7959920a7",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15",
       "ocr": [
         {
@@ -154,7 +159,7 @@
       "url": "https://daten.verwaltungsportal.de/dateien/legalframework/4/6/2/6/5/2_AeS-KA-Putg.pdf",
       "kind": "statute",
       "sha256": "bfb3f26dd66afd440ea5fea0081872580973c2b01fd364bea80d4a9ad95618ef",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15"
     },
     "aenderung3": {
@@ -163,7 +168,7 @@
       "kind": "statute",
       "inForce": "2025-01-01",
       "sha256": "106f20aefff6869eb1042c6b5e6c185c174c868e2161358cad45bff58d4876a4",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15"
     },
     "bnetza": {
@@ -172,7 +177,7 @@
       "kind": "federal",
       "changedOn": "2026-11-02",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-18"
     },
     "fva": {
       "title": "Satzung über die Erhebung einer Fremdenverkehrsabgabe in der Gemeinde Putgarten, Beschluss vom 28.02.2008, nichtamtliche Lesefassung",
@@ -180,7 +185,7 @@
       "kind": "municipality",
       "inForce": null,
       "sha256": "352b670a97f5e4a347a97b3c897389342e14a15fda9740794b7de9672e43c24c",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-15"
     }
   },
@@ -301,6 +306,10 @@
         "quote": "Jahreskurkarten 45,00 € 30,00 €"
       },
       {
+        "text": "Für jeden mitgebrachten Hund kommen 0,50 € pro Tag oder 20,00 € im Jahr dazu, ermäßigt wird das nicht.",
+        "quote": "Hundehalter zusätzlich 0,50 €/Tag bzw. nicht möglich je Hund 20,00 €/Jahr"
+      },
+      {
         "text": "Wer in Putgarten eine eigene Wohnung überwiegend zur Erholung nutzt, zahlt pro Person eine Jahreskurabgabe.",
         "quote": "Als ortsfremd gilt auch, wer in der Gemeinde Eigentümer oder Besitzer einer Wohnungs- einheit ist, wenn und soweit er sie überwiegend zu Erholungszwecken benutzt. In diesem Fall wird pro Person eine Jahreskurabgabe erhoben."
       },
@@ -380,7 +389,7 @@
     "by": "agent"
   },
   "ocrCompared": {
-    "on": "2026-10-15",
+    "on": "2026-11-18",
     "by": "agent"
   },
   "url": "https://keyset.cloud/kurtaxe/putgarten/",
