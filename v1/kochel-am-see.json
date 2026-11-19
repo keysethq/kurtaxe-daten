@@ -1,0 +1,196 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "kochel-am-see",
+  "name": "Gemeinde Kochel a. See",
+  "short": "Kochel am See",
+  "ags": "09173133",
+  "state": "Bayern",
+  "district": "Bad Tölz-Wolfratshausen",
+  "sources": {
+    "satzung": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages der Gemeinde Kochel a. See, gültig ab 01.01.2026 (Ausfertigung 17.12.2025)",
+      "url": "https://www.gemeinde-kochel.de/action/download?id=%7Bf6e8ed6d-6931-1688-e04a-26441752ce81%7D",
+      "kind": "municipality",
+      "inForce": "2026-01-01",
+      "sha256": "b27629c4d2bea440af326cde497fdeb13fd7c13387544a197e954a6d75ecd003",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-10-15"
+    },
+    "satzung2027": {
+      "title": "Satzung für die Erhebung eines Kurbeitrages der Gemeinde Kochel a. See, gültig ab 01.01.2027 (Ausfertigung 05.10.2026)",
+      "url": "https://www.gemeinde-kochel.de/action/download?id=%7B2aa054fa-b5aa-0633-35e3-0419f4249b74%7D",
+      "kind": "municipality",
+      "inForce": "2027-01-01",
+      "sha256": "544c2c3166ebee0fa2b0928ebd27f2848334c6a86ef16a85f2f46c1179ca1266",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-11-13"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-11-02"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Tourist-Information Kochel a. See",
+      "kind": "answer",
+      "receivedOn": "2026-11-18",
+      "text": "Der Beitrag beträgt pro Aufenthaltstag ab dem 01.01.2027 1. für Personen ab dem vollendeten 16. Lebensjahr 2,75 € 2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 2,00 €",
+      "changedOn": "2026-11-18",
+      "sha256": "9dc780c3c20d02d6d46784c8e7c4f03b473adf9ef2b65cacaa08fb295df3e82c",
+      "verifiedOn": "2026-11-18"
+    }
+  },
+  "levy": {
+    "name": "Kurbeitrag",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Angefangene Tage gelten als volle Tage. Die Tage der An- und Abreise werden als ein Aufenthaltstag berechnet."
+    },
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          {
+            "from": "01-01",
+            "to": "12-31"
+          }
+        ],
+        "adult": {
+          "cents": 260,
+          "quote": "1. für Personen ab dem vollendeten 16. Lebensjahr 1.1 bis zum 30. 04. 2026 2, 50 € 1.2 ab dem 01.05.2026 2,60 €",
+          "next": {
+            "cents": 275,
+            "quote": "für Personen ab dem vollendeten 16. Lebensjahr 2, 75 €",
+            "source": "satzung2027"
+          }
+        },
+        "children": [
+          {
+            "underAge": 6,
+            "cents": 0,
+            "quote": "4. Kinder bis zum vollendeten sechsten Lebensjahr sind kurbeitragsfrei"
+          },
+          {
+            "underAge": 16,
+            "cents": 200,
+            "quote": "2. für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 15. Lebensjahr 2,00 €",
+            "limit": {
+              "quote": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 2,00 €",
+              "source": "auskunft"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "exemptions": [
+      {
+        "text": "Menschen mit einem Grad der Behinderung von 100 und ihre Begleitperson",
+        "quote": "3. Menschen mit einem Behinderungsgrad von 100 sowie deren Begleitperson sind kurbeitragsfrei"
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Tourist-Information bestätigt: Kinder und Jugendliche zahlen den Kindersatz bis zum 16. Geburtstag, ab dann gilt der Erwachsenensatz.",
+        "quote": "für Kinder und Jugendliche ab dem vollendeten 6. Lebensjahr bis zum vollendeten 16. Lebensjahr 2,00 €",
+        "source": "auskunft"
+      },
+      {
+        "text": "Bis 30. April 2026 galt für Erwachsene 2,50 € je Tag; seit 1. Mai 2026 gelten 2,60 €.",
+        "quote": "1.1 bis zum 30. 04. 2026 2, 50 € 1.2 ab dem 01.05.2026 2,60 €"
+      },
+      {
+        "text": "Auch Tagesgäste, die nicht in Kochel übernachten, zahlen ab 16 Jahren 1,00 € Kurbeitrag.",
+        "quote": "Kurbeitragspflichtige, die nicht im Kurgebiet übernachten haben einen Kurbeitrag von 1, 00 € pro Person ab dem vollendeten 16. Lebensjahr zu entrichten."
+      },
+      {
+        "text": "Für Dauergäste gibt es eine Jahreskurabgabe von 140,00 € je Person.",
+        "quote": "5. Die Jahreskurabgabe pro Person beträgt pauschal 140, 00 €"
+      },
+      {
+        "text": "Die Umsatzsteuer ist im Kurbeitrag enthalten.",
+        "quote": "(4) Im Kurbeitrag ist die jeweils gültige gesetzliche Umsatzsteuer enthalten."
+      },
+      {
+        "text": "Jedem neuen gemeldeten Gast gibt die Tourist-Information zwei Chip-Gästekarten je Betteneinheit; der Gast gibt sie vor der Abreise an dich zurück (Pfandkarte).",
+        "quote": "jedem neuen Meldepflichtigen jeweils zwei Chip-Gästekarten je Betteneinheit, die vom Kurabgabepflichtigen nach dessen Nutzung vor der Abreise an den Vermieter zurückgegeben werden muss (Pfandkarte)"
+      },
+      {
+        "text": "Die Gemeinde kann zulassen, dass du den Kurbeitrag erst am Monatsende abführst.",
+        "quote": "Die Gemeinde kann zulassen, dass der Beitrag erst am Monatsende abgeführt wird."
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Gäste beherbergt, hebt den Kurbeitrag ein und haftet der Gemeinde dafür, dass er vollständig eingeht.",
+      "quote": "Die Beherbergungsbetriebe sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften der Gemeinde gegenüber für den vollständigen Eingang des Beitrages."
+    },
+    "deadline": {
+      "text": "Du führst den Kurbeitrag spätestens einen Tag nach der Abreise des Gastes ab, bei späterer Meldung zusammen mit der Meldung.",
+      "quote": "Der Kurbeitrag ist von dem zur Einhebung Verpflichteten spätestens einen Tag nach der Abreise des Kurbeitragspflichtigen oder bei späterer Meldung mit dieser an die Gemeinde abzuführen."
+    },
+    "reporting": {
+      "text": "Du meldest deine Gäste innerhalb von 24 Stunden nach der Anreise elektronisch über das Verfahren der Gemeinde; auf Antrag kann die Gemeinde bei unbilliger Härte darauf verzichten.",
+      "quote": "innerhalb von 24 Stunden nach der Anreise elektronisch mittels des durch die Gemeinde zur Verfügung gestellten Verfahrens zu melden"
+    },
+    "change": {
+      "from": "2027-01-01",
+      "text": "Ab 01.01.2027 gilt eine neue Satzung: Erwachsene zahlen 2,75 € je Tag, Kinder und Jugendliche bleiben bei 2,00 €.",
+      "quote": "Diese Satzung tritt am 01. 01. 2027 in Kraft.",
+      "source": "satzung2027"
+    }
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-11-13",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/kochel-am-see/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      6,
+      16
+    ],
+    "periods": [
+      {
+        "label": "Ganzjährig",
+        "ranges": [
+          [
+            "01-01",
+            "12-31"
+          ]
+        ],
+        "adult": 260,
+        "children": [
+          0,
+          200
+        ],
+        "next": {
+          "adult": 275,
+          "children": [
+            0,
+            200
+          ]
+        }
+      }
+    ],
+    "change": {
+      "from": "2027-01-01",
+      "label": "ab 1. Januar 2027"
+    }
+  }
+}

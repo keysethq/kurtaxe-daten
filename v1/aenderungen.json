@@ -282,6 +282,28 @@
       "url": "https://keyset.cloud/kurtaxe/hamburg/"
     },
     {
+      "slug": "kochel-am-see",
+      "name": "Gemeinde Kochel a. See",
+      "ags": "09173133",
+      "kind": "kurtaxe",
+      "from": "2027-01-01",
+      "adultCents": {
+        "before": 260,
+        "after": 275
+      },
+      "familyWeekCents": {
+        "before": 6440,
+        "after": 6650
+      },
+      "text": "Ab 01.01.2027 gilt eine neue Satzung: Erwachsene zahlen 2,75 € je Tag, Kinder und Jugendliche bleiben bei 2,00 €.",
+      "quote": "Diese Satzung tritt am 01. 01. 2027 in Kraft.",
+      "source": {
+        "title": "Satzung für die Erhebung eines Kurbeitrages der Gemeinde Kochel a. See, gültig ab 01.01.2027 (Ausfertigung 05.10.2026)",
+        "url": "https://www.gemeinde-kochel.de/action/download?id=%7B2aa054fa-b5aa-0633-35e3-0419f4249b74%7D"
+      },
+      "url": "https://keyset.cloud/kurtaxe/kochel-am-see/"
+    },
+    {
       "slug": "seebach",
       "name": "Gemeinde Seebach",
       "ags": "08317126",

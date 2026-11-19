@@ -1,0 +1,227 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "attribution": "Keyset, keyset.cloud/kurtaxe",
+  "version": 1,
+  "slug": "moenkebude",
+  "name": "Mönkebude",
+  "short": "Mönkebude",
+  "ags": "13075093",
+  "state": "Mecklenburg-Vorpommern",
+  "district": "Vorpommern-Greifswald",
+  "sources": {
+    "satzung": {
+      "title": "Nichtamtliche Lesefassung der Satzung über die Erhebung einer Kurtaxe in der Gemeinde Mönkebude vom 24.03.2010 in der Fassung der 3. Änderung vom 19.12.2024",
+      "url": "https://www.amt-am-stettiner-haff.de/fileadmin/mediapool_amt_stettin/dokumente/pdf/buergerinfo/satzungen/moenkebude/Kurtaxe__Lesefassung.pdf",
+      "kind": "municipality",
+      "sha256": "7f10425edab4e0687138f36fa10903abd9805900d31e30ec2e640cea4740d5ea",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung2": {
+      "title": "2. Änderungssatzung zur Satzung über die Erhebung einer Kurtaxe in der Gemeinde Mönkebude vom 23.02.2017, öffentliche Bekanntmachung der Gemeinde (veröffentlicht im Internet am 13.03.2017)",
+      "url": "https://www.amt-am-stettiner-haff.de/fileadmin/mediapool_amt_stettin/dokumente/pdf/oeffentliche_Bekanntmachungen/2017/Moenkebude__Kurtaxe__2._AEnd..pdf",
+      "kind": "statute",
+      "inForce": "2017-03-14",
+      "sha256": "39f7e951f8ade5e50aca9b215f015d5ba1b3879c358ccccc75f1f3819df5c923",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-10-15"
+    },
+    "aenderung3": {
+      "title": "3. Satzung zur Änderung der Satzung über die Erhebung einer Kurtaxe in der Gemeinde Mönkebude vom 19.12.2024, öffentliche Bekanntmachung der Gemeinde (veröffentlicht auf der Homepage des Amtes am 19.12.2024)",
+      "url": "https://www.amt-am-stettiner-haff.de/fileadmin/mediapool_amt_stettin/dokumente/pdf/oeffentliche_Bekanntmachungen/2024/Moenkebude__Kurtaxe__3._AEnd..pdf",
+      "kind": "statute",
+      "inForce": "2025-01-01",
+      "sha256": "d79ed19b16b833145f35886332eeee24109774c73b64c4d127f0a1b36e24d567",
+      "verifiedOn": "2026-11-18",
+      "changedOn": "2026-10-15"
+    },
+    "bnetza": {
+      "title": "Bundesnetzagentur, Gebiete mit Registrierungsverfahren für Kurzzeitvermietung",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
+      "kind": "federal",
+      "changedOn": "2026-11-02",
+      "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
+      "verifiedOn": "2026-11-18"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Gemeinde Mönkebude",
+      "kind": "answer",
+      "receivedOn": "2026-11-17",
+      "text": "Für die Kurtaxe gilt die letzte Fassung, welche auf der Homepage des Amtes am Stettiner Haff veröffentlicht ist. Die Ermäßigung für Jugendliche gilt zurzeit ab dem 14. Geburtstag, davor ist die Person befreit. Die Formulierung in der Satzung muss entsprechend überprüft werden. Die Befreiung gilt zurzeit ab der 5. Person einer Familie. Auch hier werden wir die konkrete Formulierung überprüfen.",
+      "changedOn": "2026-11-18",
+      "sha256": "c321e1fbef152b9b70591c5b1c6a1a7a18fa111d3d18b58775c2a235529537d3",
+      "verifiedOn": "2026-11-18"
+    }
+  },
+  "levy": {
+    "name": "Kurtaxe",
+    "source": "satzung",
+    "counting": {
+      "countsDepartureDay": false,
+      "quote": "Die Höhe der Kurtaxe beträgt pro Person und Aufenthaltstag (An- und Abreisetag gleich ein Aufenthaltstag) in der Gemeinde Mönkebude:",
+      "source": "aenderung3"
+    },
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          {
+            "from": "04-01",
+            "to": "10-31"
+          }
+        ],
+        "adult": {
+          "cents": 150,
+          "quote": "Saison: 01.April bis 31. Oktober 1,50 EUR 1,00 EUR",
+          "source": "aenderung3"
+        },
+        "children": [
+          {
+            "underAge": 14,
+            "cents": 0,
+            "quote": "Kinder bis zur Vollendung des 13. Lebensjahres",
+            "source": "aenderung2",
+            "limit": {
+              "quote": "Die Ermäßigung für Jugendliche gilt zurzeit ab dem 14. Geburtstag, davor ist die Person befreit.",
+              "source": "auskunft"
+            }
+          },
+          {
+            "underAge": 18,
+            "cents": 100,
+            "quote": "Saison: 01.April bis 31. Oktober 1,50 EUR 1,00 EUR",
+            "source": "aenderung3",
+            "limit": {
+              "quote": "Jugendliche ab 14 Jahren bis zur Vollendung des 18. Lebensjahres",
+              "source": "satzung"
+            }
+          }
+        ]
+      }
+    ],
+    "maxNights": null,
+    "family": {
+      "free": "persons",
+      "from": 5,
+      "text": "Die fünfte und jede weitere Person einer Familie ist befreit.",
+      "quote": "jede 5. und weitere Person einer Familie (ab 3. Kind frei). Zur Familie werden die Ehegatten und dem Haushalt angehörende Kinder bis zu 25 Jahren gerechnet, soweit diese sich in einem Ausbildungsverhältnis oder im Grundwehrdienst/Zivildienst befinden und über kein eigenes Einkommen verfügen"
+    },
+    "exemptions": [
+      {
+        "text": "Teilnehmer an von der Gemeindeverwaltung anerkannten Tagungen, Seminaren, Kongressen und Lehrgängen für die ersten drei Tage des Aufenthalts",
+        "quote": "Teilnehmer an den von der Gemeindeverwaltung anerkannten Tagungen, Seminaren, Kongressen und Lehrgängen für die ersten drei Tage des Aufenthaltes,"
+      },
+      {
+        "text": "Personen, die sich nur zur Berufsausbildung, in einem Arbeitsrechtsverhältnis oder in Ausübung einer beruflichen Tätigkeit dort aufhalten",
+        "quote": "Personen, die sich nur zur Berufsausbildung, in einem Arbeitsrechtsverhältnis oder in Ausübung einer beruflichen Tätigkeit im Erhebungsgebiet aufhalten,"
+      },
+      {
+        "text": "Schwerbehinderte und Schwerkriegsbeschädigte mit 100 v. H. Minderung der Erwerbsfähigkeit auf Antrag, wenn sie ihren Aufenthalt selbst bezahlen",
+        "quote": "Schwerbehinderte und Schwerkriegsbeschädigte, deren Minderung der Erwerbsfähigkeit 100 v. H. beträgt, auf Antrag, soweit sie selbst die Kosten des Aufenthaltes in voller Höhe tragen (Selbstzahler),"
+      },
+      {
+        "text": "Personen, die in Grambin oder Leopoldshagen ihren Hauptwohnsitz haben",
+        "quote": "Personen, die in Grambin oder Leopoldshagen ihren Hauptwohnsitz haben,"
+      },
+      {
+        "text": "Personen, die an der Durchführung gemeindlicher Veranstaltungen direkt mitwirken (zum Beispiel Schausteller, Künstler)",
+        "quote": "Personen, die an der Durchführung gemeindlicher Veranstaltungen direkt mitwirken (z.B. Schausteller, Künstler)."
+      }
+    ],
+    "remarks": [
+      {
+        "text": "Die Kurtaxe wird nur für Aufenthalte vom 1. April bis 31. Oktober erhoben.",
+        "quote": "Die Kurtaxe wird für einen Aufenthalt in der Zeit vom 01.04. bis einschließlich 31.10. eines jeden Jahres erhoben."
+      },
+      {
+        "text": "Die Gemeinde bestätigt: Kinder sind bis zum 14. Geburtstag befreit, die Ermäßigung für Jugendliche gilt ab dem 14. Geburtstag.",
+        "quote": "Die Ermäßigung für Jugendliche gilt zurzeit ab dem 14. Geburtstag, davor ist die Person befreit.",
+        "source": "auskunft"
+      },
+      {
+        "text": "Die Gemeinde bestätigt: befreit ist derzeit die fünfte und jede weitere Person einer Familie.",
+        "quote": "Die Befreiung gilt zurzeit ab der 5. Person einer Familie.",
+        "source": "auskunft"
+      },
+      {
+        "text": "Es gilt die letzte Fassung der Satzung, die auf der Seite des Amtes Am Stettiner Haff veröffentlicht ist.",
+        "quote": "Für die Kurtaxe gilt die letzte Fassung, welche auf der Homepage des Amtes am Stettiner Haff veröffentlicht ist.",
+        "source": "auskunft"
+      },
+      {
+        "text": "Ermäßigt zahlen auf Nachweis auch Schüler, Auszubildende und Studenten bis 27 Jahre sowie Schwerbehinderte ab 50 %.",
+        "quote": "b) Schüler, Auszubildende, Studenten, Grundwehr- und Zivildienstleistende bis zum vollendeten 27. Lebensjahr, die entsprechende Nachweise vorlegen, c) Schwerbehinderte ab 50 % Behinderung, sofern sie den Behindertennachweis vorlegen,"
+      },
+      {
+        "text": "Statt der Tagessätze gibt es eine Jahreskurkarte für 40,00 € (ermäßigt 20,00 €).",
+        "quote": "eine Jahreskurkarte in Höhe von 40,00 EUR (ermäßigt 20,00 EUR) erwerben"
+      },
+      {
+        "text": "Die Jahreskurabgabenpflicht gilt für alle Eigentümer von Wohnungseinheiten und deren Familienangehörige; sie gilt auch für Zweitwohnungsinhaber und deren Angehörige.",
+        "quote": "Die Jahreskurabgabenpflicht gilt für alle Eigentümer von Wohnungseinheiten (Wohnhäuser, Wohnungen, Zimmer, Appartements, Ferienwohnungen und Ferienhäuser, Bungalows, Wohnwagen, Wohnmobile, Zelte, Bootsliegeplätze, Bootshäuser und sonstige geeignete Unterbringungsmöglichkeiten) und deren Familienangehörigen. Sie gilt auch für Zweitwohnungsinhaber und deren Angehörige."
+      },
+      {
+        "text": "Gewerbliche Beherbergungsbetriebe ziehen die Kurabgabe am Anreisetag für den ganzen Aufenthalt ein und händigen eine personengebundene Kurkarte aus.",
+        "quote": "die Kurabgabe am Tage der Ankunft von den Gästen für den gesamten beabsichtigten Aufenthaltszeitraum im Erhebungsgebiet einzuziehen und eine personengebundene Kurkarte auszuhändigen"
+      },
+      {
+        "text": "Der Inhaber einer Beherbergungsstätte haftet vollständig für die Kurabgabe bis zur Abführung.",
+        "quote": "Der Inhaber der Beherbergungsstätte haftet vollständig für die Kurabgabe bis zur Abführung."
+      },
+      {
+        "text": "Wer Wohnungen oder Zimmer überlässt, teilt das der Gemeinde mit Art der Unterkunft, Zahl der Zimmer und Zahl der Betten mit.",
+        "quote": "dieses der Gemeinde unter Angabe der Art der Unterkunft, der Zahl der Zimmer und der Anzahl der Betten mitzuteilen,"
+      }
+    ],
+    "hostDuty": {
+      "text": "Wer Wohnungen oder Zimmer überlässt, sorgt dafür, dass sich die Gäste beim Tourismusverein anmelden und dort ihre personengebundene Kurkarte bekommen.",
+      "quote": "Sorge zu tragen, dass sich die Gäste im Büro des Tourismusverein „Mönkebude am Stettiner Haff“ e.V. anmelden, um eine personengebundene Kurkarte in Empfang zu nehmen."
+    },
+    "deadline": {
+      "text": "Gewerbliche Beherbergungsbetriebe führen die Kurabgabe grundsätzlich bis zum 10. des Folgemonats ab.",
+      "quote": "die Kurabgabe grundsätzlich bis zum 10. Kalendertag des Folgemonats für den vorangegangenen Monat an die Gemeinde Mönkebude"
+    },
+    "reporting": null
+  },
+  "lodgingTax": null,
+  "registration": {
+    "required": false,
+    "source": "bnetza",
+    "asOf": "2026-10-26",
+    "quote": "Stand: 26.10.2026"
+  },
+  "checked": {
+    "on": "2026-10-15",
+    "by": "agent"
+  },
+  "url": "https://keyset.cloud/kurtaxe/moenkebude/",
+  "calculation": {
+    "countsDepartureDay": false,
+    "maxDays": null,
+    "maxPerStay": null,
+    "childLimits": [
+      14,
+      18
+    ],
+    "periods": [
+      {
+        "label": "Saison",
+        "ranges": [
+          [
+            "04-01",
+            "10-31"
+          ]
+        ],
+        "adult": 150,
+        "children": [
+          0,
+          100
+        ]
+      }
+    ],
+    "family": {
+      "free": "persons",
+      "from": 5
+    }
+  }
+}

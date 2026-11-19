@@ -15,7 +15,7 @@
       "kind": "municipality",
       "inForce": "2026-01-01",
       "sha256": "b5643e571f230ddfe82f9992c57804e5f9d59e206cc78709c99359d4dd49f91a",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-10-14"
     },
     "bnetza": {
@@ -23,7 +23,7 @@
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/_func/Area-Liste-xls.html?nn=686258",
       "kind": "federal",
       "sha256": "7f933e999019720023f3efcb832586f684c8164ecfae17b86701bd527113307b",
-      "verifiedOn": "2026-11-16",
+      "verifiedOn": "2026-11-18",
       "changedOn": "2026-11-02"
     },
     "fvb": {
@@ -33,7 +33,16 @@
       "inForce": "2013-01-01",
       "changedOn": "2026-10-15",
       "sha256": "d12ea4fc9802e6396830a26563ea0189a3aa15e8f3d1e67669a07a98d5881b8b",
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-18"
+    },
+    "auskunft": {
+      "title": "Schriftliche Auskunft der Kurverwaltung Bad Birnbach",
+      "kind": "answer",
+      "receivedOn": "2026-11-18",
+      "text": "zur Kurzone II gehören Lengham, Schwaibach, Gigler, Brand, Leithen und weitere kleine Ortschaften, die aus einer Karte, die Anlage zur Kurbeitragssatzung ist, ersichtlich sind. Die Satzung, samt der Karte, finden Sie auf unserer Homepage unter https://www.badbirnbach.de/buergerportal/ortsrecht",
+      "changedOn": "2026-11-18",
+      "sha256": "2bff0258e0e70a90099eb2f11afea12d6113ad35c757635897c7d9c9ee505cab",
+      "verifiedOn": "2026-11-18"
     }
   },
   "levy": {
@@ -147,7 +156,13 @@
         "quote": "3. Notwendige Begleitperson bei Schwerbehinderung Befreiung"
       }
     ],
-    "remarks": [],
+    "remarks": [
+      {
+        "text": "Zum Kurbezirk II gehören laut Kurverwaltung neben Lengham und Schwaibach auch Gigler, Brand, Leithen und weitere kleine Ortschaften; welche, zeigt die Karte in der Anlage zur Kurbeitragssatzung.",
+        "quote": "zur Kurzone II gehören Lengham, Schwaibach, Gigler, Brand, Leithen und weitere kleine Ortschaften, die aus einer Karte, die Anlage zur Kurbeitragssatzung ist, ersichtlich sind.",
+        "source": "auskunft"
+      }
+    ],
     "hostDuty": {
       "text": "Wer Gäste beherbergt, erhebt den Kurbeitrag beim Gast und haftet gegenüber dem Markt dafür, dass er eingeht.",
       "quote": "Sie sind weiterhin verpflichtet, den Kurbeitrag einzuheben und haften dem Markt gegenüber für den Eingang des Beitrags."
